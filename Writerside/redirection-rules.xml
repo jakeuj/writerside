@@ -10,4 +10,8 @@
         <description>Created after removal of "Starter" from Jakeuj's Notes</description>
         <accepts>StarterMd.html</accepts>
     </rule>
+    <rule id="3eef6922">
+        <description>Created after removal of "Jake Docs" from Jakeuj's Notes</description>
+        <accepts>Jake-Docs.html</accepts>
+    </rule>
 </rules>
