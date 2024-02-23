@@ -8,6 +8,7 @@
 
     <toc-element topic="Default.md">
         <toc-element topic="Default-topic.md">
+            <toc-element topic="DNS.md"/>
             <toc-element topic="Github.md"/>
             <toc-element topic="Starter.md"/>
             <toc-element topic="Overview.md"/>
