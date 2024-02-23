@@ -150,5 +150,9 @@ jobs:
 
 ![1707207729.png](1707207729.png)
 
+![page.png](page.png)
+
+![dns.png](dns.png)
+
 ## 來源
 - [Writerside](https://www.jetbrains.com/help/writerside/deploy-docs-to-github-pages.html#publish-github-pages)
