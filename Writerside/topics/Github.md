@@ -136,6 +136,10 @@ jobs:
       uses: actions/deploy-pages@v1
 ```
 
+## DEBUG
+[edge://net-internals/#sockets](https://techcommunity.microsoft.com/t5/discussions/edge-dns-flush/m-p/1131012)
+
+
 ![Writerside1.png](Writerside1.png)
 
 ![writerside2.png](writerside2.png)
@@ -153,6 +157,8 @@ jobs:
 ![page.png](page.png)
 
 ![dns.png](dns.png)
+
+![sockets.png](sockets.png)
 
 ## 來源
 - [Writerside](https://www.jetbrains.com/help/writerside/deploy-docs-to-github-pages.html#publish-github-pages)
