@@ -16,7 +16,6 @@
             <toc-element topic="How-to.md"/>
             <toc-element topic="Reference.md"/>
         </toc-element>
-        <toc-element topic="StarterMd.md"/>
         <toc-element topic="gcp.md">
             <toc-element topic="Gcp-MD-Topic.md"/>
             <toc-element topic="configure-serverless-vpc-access.md"/>
