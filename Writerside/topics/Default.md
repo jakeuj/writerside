@@ -1,4 +1,8 @@
-# Jakeuj
+# Jakeuj 筆記本
+
+嘗試用 Writerside 來寫筆記看看
+
+## Links
 
 [https://jakeuj.com/](https://jakeuj.com/)
 
