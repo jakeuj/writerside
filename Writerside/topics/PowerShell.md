@@ -20,5 +20,8 @@ Working directory: `$SolutionDir$`
 ## Run
 ![run.png](run.png)
 
+## Output
+![output.png](output.png)
+
 ## Ref
 [powershell-jetbrains-rider](https://blog.ironmansoftware.com/daily-powershell/powershell-jetbrains-rider/)
