@@ -1,6 +1,6 @@
 # PowerShell
 
-使用 powershell 脚本部署 app 到 Google Cloud
+使用 powershell 脚本一鍵部署 app 到 Google Cloud
 
 ## Plugins
 [powershell](https://plugins.jetbrains.com/plugin/10249-powershell)
