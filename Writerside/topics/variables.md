@@ -53,5 +53,11 @@ v.list
 
 ![image.png](image.png)
 
+## 輸出
+
+> We recommend switching to the version %latest%.
+>
+{style="note"}
+
 ## 參考
 [variables](https://www.jetbrains.com/help/writerside/variables.html)
