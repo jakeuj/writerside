@@ -2,10 +2,6 @@
 
 嘗試用 Writerside 來寫筆記看看
 
-> We recommend switching to the version %latest%.
->
-{style="note"}
-
 <seealso style="cards">
     <category ref="related">
        <a href="ABP.md"></a>
