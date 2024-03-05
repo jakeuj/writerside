@@ -2,14 +2,20 @@
 
 嘗試用 Writerside 來寫筆記看看
 
-## Links
+> We recommend switching to the version %latest%.
+>
+{style="note"}
 
-[https://jakeuj.com/](https://jakeuj.com/)
-
-[點部落](https://www.dotblogs.com.tw/jakeuj/)
-
-[Github Pages](https://jakeuj.github.io/writerside/)
-
-[FB](https://www.facebook.com/jakeuj/)
-
-[LinkedIn](https://www.linkedin.com/in/jakeuj/)
+<seealso style="cards">
+    <category ref="related">
+       <a href="ABP.md"></a>
+       <a href="gcp.md">Google Cloud Platform</a>
+   </category>
+   <category ref="external">
+        <a href="https://jakeuj.com/">首頁</a>
+        <a href="https://www.dotblogs.com.tw/jakeuj/">點部落</a>
+        <a href="https://github.com/jakeuj">Github</a>
+        <a href="https://www.facebook.com/jakeuj/">FB</a>
+        <a href="https://www.linkedin.com/in/jakeuj/">LinkedIn</a>
+   </category>
+</seealso>
