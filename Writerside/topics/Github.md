@@ -3,6 +3,8 @@
 筆記下流程跟修正官方文件中的錯誤
 
 ## 結論
+{collapsible="true"}
+
 1. 下載安裝 
 [Writerside](https://www.jetbrains.com/writerside/download/#section=windows)
 2. 打開 Writerside 並建立一個新專案

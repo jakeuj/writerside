@@ -1,3 +1,0 @@
-# EF
-
-Start typing here...
