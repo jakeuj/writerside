@@ -3,7 +3,7 @@
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
     <variables>
-        <product-web-url>https://jakeuj.github.io/writerside/</product-web-url>
+        <product-web-url>https://jakeuj.com/</product-web-url>
     </variables>
     <build-profile instance="hi">
         <variables>
