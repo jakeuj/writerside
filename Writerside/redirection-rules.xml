@@ -14,4 +14,8 @@
         <description>Created after removal of "Jake Docs" from Jakeuj's Notes</description>
         <accepts>Jake-Docs.html</accepts>
     </rule>
+    <rule id="3f1c095f">
+        <description>Created after removal of "variables" from Jakeuj's Notes</description>
+        <accepts>variables.html</accepts>
+    </rule>
 </rules>

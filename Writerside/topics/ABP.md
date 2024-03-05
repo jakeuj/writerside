@@ -1,3 +1,3 @@
 # ABP
 
-Start typing here...
+ASP.NET Boilerplate Project
