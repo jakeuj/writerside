@@ -36,6 +36,7 @@
             </toc-element>
         </toc-element>
         <toc-element topic="gcp.md">
+            <toc-element topic="CloudRun.md"/>
             <toc-element topic="Gcp-MD-Topic.md"/>
             <toc-element topic="configure-serverless-vpc-access.md"/>
         </toc-element>
