@@ -63,7 +63,7 @@ steps:
 
 ## 參考圖
 
-![trigger.png](trigger.png)
+![CloudRun.png](CloudRun.png)
 
 ## REF
 
