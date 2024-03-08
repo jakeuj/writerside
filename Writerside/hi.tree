@@ -15,6 +15,7 @@
             </toc-element>
         </toc-element>
         <toc-element topic="JetBrains.md">
+            <toc-element topic="HttpClient.md"/>
             <toc-element topic="Rider.md">
                 <toc-element topic="PowerShell.md"/>
                 <toc-element topic="MatchCase.md"/>
