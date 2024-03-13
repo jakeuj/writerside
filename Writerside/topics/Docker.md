@@ -1,65 +1,157 @@
 # Docker
 
-Start typing here...
+將 VS 與 Rider 自動產生的 dockerignore 合併。
 
-![postgresql.png](postgresql.png)
+## Dockerfile
 
-## PostgreSQL
+```Docker
+#See https://aka.ms/customizecontainer to learn how to customize your debug container 
+# and how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
-- 建立一個名為 `some-postgres` 的容器，並且將容器的 5432 port 對應到本機的 5432 port。
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+USER app
+WORKDIR /app
+EXPOSE 8080
+EXPOSE 8081
 
-```Shell
-docker run --name some-postgres 
-    -e POSTGRES_PASSWORD=myPassword 
-    -p 5432:5432 
-    -d postgres
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+ARG BUILD_CONFIGURATION=Release
+WORKDIR /src
+COPY ["NuGet.Config", "."]
+COPY ["TestProj/TestProj.csproj", "TestProj/"]
+RUN dotnet restore "./TestProj/./TestProj.csproj"
+COPY . .
+WORKDIR "/src/TestProj"
+RUN dotnet build "./TestProj.csproj" -c $BUILD_CONFIGURATION -o /app/build
+
+FROM build AS publish
+ARG BUILD_CONFIGURATION=Release
+RUN dotnet publish "./TestProj.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "TestProj.dll"]
 ```
 
-- 設定 root 使用者和密碼。
+## .dockerignore
 
-```Shell
-docker run --name some-postgres 
-    -e POSTGRES_USER=root 
-    -e POSTGRES_PASSWORD=myPassword 
-    -p 5432:5432 
-    -d postgres
+```Docker
+**/.classpath
+**/.dockerignore
+**/.env
+**/.git
+**/.gitignore
+**/.project
+**/.settings
+**/.toolstarget
+**/.vs
+**/.vscode
+**/.idea
+**/*.*proj.user
+**/*.dbmdl
+**/*.jfm
+**/azds.yaml
+**/bin
+**/charts
+**/docker-compose*
+**/Dockerfile*
+**/node_modules
+**/npm-debug.log
+**/obj
+**/secrets.dev.yaml
+**/values.dev.yaml
+LICENSE
+README.md
+!**/.gitignore
+!.git/HEAD
+!.git/config
+!.git/packed-refs
+!.git/refs/heads/**
 ```
 
-- 將資料庫儲存到本機的 C:\Postgres 資料夾。
+## Migration
 
-```Shell
-docker run --name some-postgres 
-    -e POSTGRES_USER=root
-    -e POSTGRES_PASSWORD=myPassword 
-    -e PGDATA=/var/lib/postgresql/data/pgdata 
-    -v C:\Postgres:/var/lib/postgresql/data 
-    -p 5432:5432 
-    -d postgres
+ABP 單層架構的專案，使用以下邏輯來判斷是否執行資料庫遷移：
+    
+```C#
+args.Any(x => x.Contains("--migrate-database"))
 ```
 
-目前測試如果將資料庫儲存到本機，重建 Container 時會遇到 SHA 加密問題。
+所以在執行容器時，要加上 `--migrate-database` 參數。
 
-開發階段可以先不將資料掛出來，已掛可以先把裡面資料砍掉
+```Shell
+ docker run
+ --name db-migration
+ --link some-postgres:db
+ -d
+ -e "ConnectionStrings:Default=Host=db;Port=5432;Database=TestProj;User ID=root;Password=myPassword;"
+ -e ASPNETCORE_ENVIRONMENT=Development
+ -e ASPNETCORE_STATICWEBASSETS=/app/bin/Debug/net8.0/TestProj.staticwebassets.runtime.CT.json
+ -e DOTNET_USE_POLLING_FILE_WATCHER=true
+ -e DOTNET_RUNNING_IN_CONTAINER=true
+ -v D:\jake.chu\.nuget\packages:/home/app/.nuget/packages:ro
+ -v D:\repos\TestProj\TestProj:/app
+ -v D:\repos\TestProj:/src
+ db-migration:dev
+ dotnet
+ /app/bin/Debug/net8.0/TestProj.dll
+ --migrate-database
+```
+## docker-compose.yml
+可以用 docker-compose up 建立 DB 、 Migration 、最後執行 Web App。
 
-最終應該是有個加密憑證也要一起掛出來，保留當初憑證去解密？
+```yaml
+services:
+  kanban-postgres:
+    image: postgres
+    container_name: kanban-postgres
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: myPassword
+    ports:
+      - "5432:5432"
+    volumes:
+      - kanban-data:/var/lib/postgresql/data
+  migration:
+    image: testproj
+    build:
+      context: .
+      dockerfile: TestProj/Dockerfile
+    depends_on:
+      - kanban-postgres
+    container_name: migration
+    environment:
+      - DB_SERVER=kanban-postgres
+      - ConnectionStrings:Default=Host=kanban-postgres;Port=5432;Database=TestProj;User ID=root;Password=myPassword;
+    links:
+      - kanban-postgres
+    command: ["--migrate-database"]
+  testproj:
+    image: testproj
+    build:
+      context: .
+      dockerfile: TestProj/Dockerfile
+    depends_on:
+      - migration
+    container_name: test-proj
+    environment:
+      - DB_SERVER=kanban-postgres
+      - ConnectionStrings:Default=Host=kanban-postgres;Port=5432;Database=TestProj;User ID=root;Password=myPassword;
+    ports:
+      - 8080:8080
+    links:
+      - kanban-postgres
+    restart: on-failure
+volumes:
+  kanban-data:
+```
 
-![postgresql-rider.png](postgresql-rider.png)
+### Rider
+如果發現沒吃到 `command: ["--migrate-database"]` 參數
 
-![rider-ps.png](rider-ps.png)
+可以在 Rider 的 Docker Compose 設定裡面加上 Don't use Docker fast mode。
 
-![migration.png](migration.png)
+如下圖所示
 
-## ReFS
-
-如果你將掛載本機路徑指定到 ReFS 格式的磁碟，可能會遇到以下錯誤：
-
-    chmod: changing permissions of '/var/lib/postgresql/data/pgdata': Operation not permitted
-    initdb: error: could not change permissions of directory "/var/lib/postgresql/data/pgdata": Operation not permitted
-    fixing permissions on existing directory /var/lib/postgresql/data/pgdata ...
-
-將掛載路徑設定回一般 NTFS 格式的磁碟，就可以正常運作了。
-
-### 參照
-[DockerHub](https://hub.docker.com/_/postgres)
-[initdb: could not change permissions of directory on Postgresql container](https://stackoverflow.com/questions/44878062/initdb-could-not-change-permissions-of-directory-on-postgresql-container)
-
+![docker-compose.png](docker-compose.png)
