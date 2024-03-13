@@ -178,6 +178,8 @@ volumes:
 
 ![compose-config.png](compose-config.png)
 
+實測成功後再次移除 `Don't use Docker fast mode`，一樣會導致讀不到 `--migrate-database`。
+
 ### Docker Fast Mode
 
 JetBrains Rider 的 Docker Fast Mode 是一種特殊的模式，用於加速 Docker 容器的啟動和停止。這種模式主要通過以下方式實現：  
