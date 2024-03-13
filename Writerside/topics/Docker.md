@@ -156,5 +156,8 @@ volumes:
 
 ![docker-compose.png](docker-compose.png)
 
+## TODO
+depends_on 似乎沒有等到 Migration 完成就開始執行 Web App。
+
 ## 參照
 GitHub: [Docker](https://github.com/jakeuj/TestDocker/blob/master/docker-compose.yml)
