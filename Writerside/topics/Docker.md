@@ -1,6 +1,8 @@
 # Docker
 
-將 VS 與 Rider 自動產生的 dockerignore 合併。
+筆記下 Docker 的使用方式。
+
+![docker.png](docker.png)
 
 ## Dockerfile
 
@@ -35,6 +37,7 @@ ENTRYPOINT ["dotnet", "TestProj.dll"]
 ```
 
 ## .dockerignore
+將 VS 與 Rider 自動產生的 dockerignore 合併。
 
 ```Docker
 **/.classpath
