@@ -6,6 +6,8 @@
 
 ## Dockerfile
 
+Rider 自動產生的 Dockerfile，稍微修改一下
+
 ```Docker
 #See https://aka.ms/customizecontainer to learn how to customize your debug container 
 # and how Visual Studio uses this Dockerfile to build your images for faster debugging.
@@ -34,6 +36,12 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "TestProj.dll"]
+```
+
+### VS 產生的 比 Rider 多了以下設定。
+
+```Docker
+COPY ["NuGet.Config", "."]
 ```
 
 ## .dockerignore
@@ -66,6 +74,17 @@ ENTRYPOINT ["dotnet", "TestProj.dll"]
 **/values.dev.yaml
 LICENSE
 README.md
+!**/.gitignore
+!.git/HEAD
+!.git/config
+!.git/packed-refs
+!.git/refs/heads/**
+```
+
+### VS 產生的 dockerignore 比 Rider 多了以下設定。
+
+```Docker
+**/.classpath
 !**/.gitignore
 !.git/HEAD
 !.git/config
