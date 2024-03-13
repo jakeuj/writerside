@@ -154,7 +154,7 @@ volumes:
 
 如下圖所示
 
-![docker-compose.png](docker-compose.png)
+![compose-config.png](compose-config.png)
 
 ## TODO
 depends_on 似乎沒有等到 Migration 完成就開始執行 Web App。
