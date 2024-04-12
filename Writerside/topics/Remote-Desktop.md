@@ -1,6 +1,8 @@
 # Remote-Desktop
 
-筆記一下 Ubuntu Desktop 22.04 遠端桌面的使用方式。
+筆記一下 Ubuntu Desktop 22.04 遠端桌面
+
+![rdp.png](rdp.png)
 
 ## update
 
@@ -82,7 +84,6 @@ newuser ALL=(ALL:ALL) ALL
 ```Bash
 sudo - newuser
 ```
-
 
 ## 連線
 
