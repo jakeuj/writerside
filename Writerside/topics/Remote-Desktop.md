@@ -51,13 +51,13 @@ ResultActive=yes
 ## Wifi
 
 ```Bash
-sudo nano /etc/polkit-1/localauthority/50-local.d/47-allow-wifi.pkla
+sudo nano /etc/polkit-1/localauthority/50-local.d/47-allow-wifi-scan.pkla
 ```
 
 ```Ini
-[Allow Refresh Repository all Users]
+[Allow Wifi Scan]
 Identity=unix-user:*
-Action=org.freedesktop.NetworkManager.wifi.scan;org.freedesktop.NetworkManager.enable-disable-wifi;org.freedesktop.NetworkManager.settings.modify.own;org.freedesktop.NetworkManager.settings.modify.system;org.freedesktop.NetworkManager.network-control;
+Action=org.freedesktop.NetworkManager.wifi.scan;org.freedesktop.NetworkManager.enable-disable-wifi;org.freedesktop.NetworkManager.settings.modify.own;org.freedesktop.NetworkManager.settings.modify.system;org.freedesktop.NetworkManager.network-control
 ResultAny=yes
 ResultInactive=yes
 ResultActive=yes
@@ -95,3 +95,4 @@ sudo - newuser
 [安裝和設定 xrdp 以搭配 Ubuntu 使用遠端桌面](https://learn.microsoft.com/zh-tw/azure/virtual-machines/linux/use-remote-desktop?tabs=azure-cli)
 [https://hhming.moe/post/windows-remote-ubuntu-22-04/](https://hhming.moe/post/windows-remote-ubuntu-22-04/)
 [How to Access Ubuntu via Remote Desktop from Windows](https://phoenixnap.com/kb/ubuntu-remote-desktop-from-windows)
+[Authentication required. System policy prevents WiFi scans](https://blog.yanjingang.com/?p=6258)
