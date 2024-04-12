@@ -1,4 +1,4 @@
-# Ubuntu-AMD-GPU
+# AMD-GPU-Driver-Install
 
 筆記下研究 Ubuntu 22.04.6 LTS 安裝 AMD GPU 的過程。
 
