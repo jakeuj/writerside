@@ -51,7 +51,7 @@ ResultActive=yes
 ## 新建帳號 (Optional)
 
 ```Bash
-sudo passwd azureuser
+sudo adduser newuser
 ```
 
 ## 連線
