@@ -7,7 +7,12 @@
                  start-page="Default.md">
 
     <toc-element topic="Default.md">
-        <toc-element topic="Ubuntu-AMD-GPU.md"/>
+        <toc-element topic="Ubuntu.md">
+            <toc-element topic="SSH.md"/>
+            <toc-element topic="NTP.md"/>
+            <toc-element topic="Remote-Desktop.md"/>
+            <toc-element topic="Ubuntu-AMD-GPU.md"/>
+        </toc-element>
         <toc-element topic="Swagger.md"/>
         <toc-element toc-title="Entity Framework">
             <toc-element topic="Rider-Plugin.md"/>
