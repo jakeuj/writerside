@@ -48,11 +48,41 @@ ResultInactive=no
 ResultActive=yes
 ```
 
+## Wifi
+
+```Bash
+sudo nano /etc/polkit-1/localauthority/50-local.d/47-allow-wifi.pkla
+```
+
+```Ini
+[Allow Refresh Repository all Users]
+Identity=unix-user:*
+Action=org.freedesktop.NetworkManager.wifi.scan;org.freedesktop.NetworkManager.enable-disable-wifi;org.freedesktop.NetworkManager.settings.modify.own;org.freedesktop.NetworkManager.settings.modify.system;org.freedesktop.NetworkManager.network-control;
+ResultAny=yes
+ResultInactive=yes
+ResultActive=yes
+```
+
+
 ## 新建帳號 (Optional)
 
 ```Bash
 sudo adduser newuser
+sudo visudo -f /etc/sudoers.d/newuser
 ```
+
+`/etc/sudoers.d/newuser`
+
+```
+newuser ALL=(ALL:ALL) ALL
+```
+
+### 切換身分
+
+```Bash
+sudo - newuser
+```
+
 
 ## 連線
 
