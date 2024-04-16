@@ -49,6 +49,7 @@
             <toc-element topic="configure-serverless-vpc-access.md"/>
         </toc-element>
         <toc-element topic="ABP.md">
+            <toc-element topic="Upgrade-from-5-0-1.md"/>
             <toc-element topic="No-service-for-type-has-been-registered.md"/>
             <toc-element topic="Docker.md">
                 <toc-element topic="PostgreSQL.md"/>
