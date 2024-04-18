@@ -106,6 +106,24 @@ public DbSet<IdentityUserDelegation> UserDelegations { get; }
 
 記得 Add migration
 
-## abp update -v 8.1.0
+### 注意：不明原因更新後會出現權限問題，需要加入以下程式碼
 
-//TODO: 待補
+Test501.HttpApi.Host\Test501HttpApiHostModule.cs
+
+加入 `options.UpdateAbpClaimTypes = false;` 關閉 Claim Type 更新
+
+```C#
+public override void PreConfigureServices(ServiceConfigurationContext context)
+{
+    // disable developer signing credential
+    PreConfigure<AbpIdentityServerBuilderOptions>(options =>
+    {
+        options.AddDeveloperSigningCredential = false;
+        // disable claim type update
+        options.UpdateAbpClaimTypes = false;
+    });
+}
+```
+
+#### 參照
+[v800-Permission-issue](https://support.abp.io/QA/Questions/6432/v800-Permission-issue)
