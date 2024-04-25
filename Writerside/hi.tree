@@ -7,10 +7,15 @@
                  start-page="Default.md">
 
     <toc-element topic="Default.md">
+        <toc-element topic="WSL.md">
+            <toc-element topic="CUDA.md"/>
+        </toc-element>
         <toc-element topic="Python.md">
             <toc-element topic="requirements.md"/>
         </toc-element>
         <toc-element topic="Ubuntu.md">
+            <toc-element topic="Install.md"/>
+            <toc-element topic="pip.md"/>
             <toc-element topic="SSH.md"/>
             <toc-element topic="NTP.md"/>
             <toc-element topic="Remote-Desktop.md"/>
