@@ -8,6 +8,7 @@
 
     <toc-element topic="Default.md">
         <toc-element topic="WSL.md">
+            <toc-element topic="mount-disk.md"/>
             <toc-element topic="CUDA.md"/>
         </toc-element>
         <toc-element topic="Python.md">
