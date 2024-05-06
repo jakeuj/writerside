@@ -7,16 +7,17 @@ import subprocess
 import re
 
 class VendorInfo:
-    VGA_PATTERN = r"^(\S+) VGA compatible controller:"
+    VGA_PATTERN = r"^(\S+) VGA compatible controller: (?!Intel Corporation)"
     SUBSYSTEM_PATTERN = r'Subsystem:\s([^,]+)'
     VENDOR_ID_PATTERN = r'20:\s(([0-9a-f]{2}\s){15})'
 
     def get_vga_controllers(self):
         """
-        從lspci指令的輸出中抓取含有"VGA compatible controller"前面的值
+        從lspci指令的輸出中抓取含有"VGA compatible controller"前面的值,
+        但排除 Intel Corporation 製造商
 
         Returns:
-            list: 包含VGA控制器前面值的字串生成器
+            list: 包含非 Intel Corporation VGA 控制器前面值的字串生成器
         """
         lspci_output = self._run_lspci()
         if lspci_output is None:
