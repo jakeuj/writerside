@@ -1,54 +1,41 @@
 # Miniconda
 
-安裝 Miniconda 在 Ubuntu 系統上是一個相對簡單的過程。以下是詳細的步驟：
+完整安裝步驟
 
-1. **更新系統包**：
-   首先，更新系統的軟體包列表，確保你擁有最新的軟體版本。
-
-   ```bash
-   sudo apt update
-   sudo apt upgrade -y
-   ```
-
-2. **下載 Miniconda 安裝腳本**：
-   使用 `wget` 或 `curl` 下載最新版本的 Miniconda 安裝腳本。你可以從 Miniconda 的官方網站獲取下載鏈接。
+1. **下載 Miniconda 安裝腳本**：
+   首先，下載 Miniconda 安裝腳本：
 
    ```bash
-   wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+   wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O /tmp/Miniconda3-latest-Linux-x86_64.sh
    ```
 
-3. **驗證下載文件（可選）**：
-   你可以使用 SHA-256 校驗碼來驗證下載文件的完整性。官方網站會提供這個校驗碼。
+2. **運行安裝腳本**：
+   使用 `bash` 運行安裝腳本，並使用 `-b` 標誌以無交互模式進行安裝，指定安裝目錄為 `/opt/miniconda3`：
 
    ```bash
-   sha256sum Miniconda3-latest-Linux-x86_64.sh
+   sudo bash /tmp/Miniconda3-latest-Linux-x86_64.sh -b -u -p /opt/miniconda3
    ```
+-u 標誌表示更新已安裝的軟件包，以確保安裝的 Miniconda 版本是最新的。
 
-   比較輸出的校驗碼與網站提供的校驗碼是否一致。
-
-4. **運行安裝腳本**：
-   使下載的腳本可執行並運行安裝程序。
+3. **初始化 Conda**：
+   初始化 Conda 來配置環境變數和 shell 設置：
 
    ```bash
-   chmod +x Miniconda3-latest-Linux-x86_64.sh
-   ./Miniconda3-latest-Linux-x86_64.sh -b -u
+   /opt/miniconda3/bin/conda init bash
    ```
 
-   按照屏幕上的提示進行安裝，通常包括接受許可協議、選擇安裝目錄等。
+4. **加載新的 PATH**：
+   使當前 shell 會話加載新的 PATH 設置：
 
-5. **初始化 Miniconda**：
-   安裝完成後，你需要初始化 Miniconda，使其在每次啟動 shell 時自動加載。
+   ```bash
+   source ~/.bashrc
+   ```
 
-```bash
-echo 'export PATH=~/miniconda3/bin:$PATH' >> ~/.bashrc
-source ~/.bashrc
-```
-
-6. **驗證安裝**：
-   驗證 Miniconda 是否已正確安裝，並檢查 conda 版本。
+5. **驗證安裝**：
+   驗證 `conda` 是否已正確安裝並可用：
 
    ```bash
    conda --version
    ```
 
-這樣，你就已經成功在 Ubuntu 上安裝了 Miniconda。隨後你可以使用 `conda` 命令來管理 Python 環境和包。
+這樣，你應該可以在無交互模式下成功安裝 Miniconda 到 `/opt/miniconda3` 並配置系統 PATH，使 `conda` 命令可用。。
