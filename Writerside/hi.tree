@@ -16,6 +16,7 @@
             </toc-element>
         </toc-element>
         <toc-element topic="WSL.md">
+            <toc-element topic="Taiwan-Update-Server.md"/>
             <toc-element topic="mount-disk.md"/>
             <toc-element topic="CUDA.md"/>
         </toc-element>
