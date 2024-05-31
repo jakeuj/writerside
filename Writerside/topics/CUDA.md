@@ -36,27 +36,10 @@ sudo apt-get -y install cuda-toolkit-12-5
 
 ## nvidia-smi
 
-編輯 `.bashrc`
-
 ```bash
 nano ~/.bashrc
-```
-
-附加此內容
-
-```
-export PATH=$PATH:/usr/lib/wsl/lib/
-```
-
-重載 `.bashrc`
-
-```Shell
+echo 'export PATH=$PATH:/usr/lib/wsl/lib/' >> ~/.bashrc
 source ~/.bashrc
-```
-
-執行 nvidia-smi
-
-```Shell
 nvidia-smi
 ```
 
