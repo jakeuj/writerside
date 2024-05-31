@@ -62,7 +62,7 @@ nvidia-smi
 nvcc --version
 ```
 
-![image_9.png](image_9.png)
+![image_10.png](image_10.png)
 
 ## REF
 [wsl-user-guide](https://docs.nvidia.com/cuda/wsl-user-guide/index.html)
