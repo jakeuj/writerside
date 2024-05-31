@@ -28,8 +28,10 @@ sudo apt-key del 7FA2AF80
 ![CudaToolKitWsl2.png](CudaToolKitWsl2.png)
 
 ```bash
-wget https://developer.download.nvidia.com/compute/cuda/12.5.0/local_installers/cuda_12.5.0_555.42.02_linux.run
-sudo sh cuda_12.5.0_555.42.02_linux.run
+wget https://developer.download.nvidia.com/compute/cuda/repos/wsl-ubuntu/x86_64/cuda-keyring_1.1-1_all.deb
+sudo dpkg -i cuda-keyring_1.1-1_all.deb
+sudo apt-get update
+sudo apt-get -y install cuda-toolkit-12-5
 ```
 
 ## nvidia-smi
