@@ -34,6 +34,11 @@ sudo apt-get update
 sudo apt-get -y install cuda-toolkit-12-5
 ```
 
+#### 備註
+runfile (local) 安裝方式會出現以下錯誤，可能要自己裝 gcc
+
+`Missing gcc. gcc is required to continue`
+
 ## nvidia-smi
 
 編輯 `~/.bashrc`:
