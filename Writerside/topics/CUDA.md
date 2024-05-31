@@ -36,10 +36,25 @@ sudo apt-get -y install cuda-toolkit-12-5
 
 ## nvidia-smi
 
+編輯 `~/.bashrc`:
+
 ```bash
-echo 'export PATH=$PATH:/usr/lib/wsl/lib/' >> ~/.bashrc
+nano ~/.bashrc
+```
+添加以下內容:
+
+```
+export PATH=$PATH:/usr/lib/wsl/lib/
+export PATH=/usr/local/cuda/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+```
+
+驗證安裝:
+
+```bash
 source ~/.bashrc
 nvidia-smi
+nvcc --version
 ```
 
 ![image_9.png](image_9.png)
