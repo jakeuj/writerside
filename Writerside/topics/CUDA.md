@@ -25,6 +25,12 @@ sudo apt-key del 7FA2AF80
 
 [WSL-Ubuntu](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=WSL-Ubuntu&target_version=2.0&target_type=deb_local)
 
+有三種安裝方式:
+
+- deb (local)：如果需要常常安裝，用 LOCAL 方法可以避免每次重新下載 ~4GB 的檔案
+- deb (network)：每次安裝都會重新下載 ~4GB 的檔案
+- runfile (local)：需自行安裝 GCC，否則報錯：`Missing gcc. gcc is required to continue`
+
 ![CudaToolKitWsl2.png](CudaToolKitWsl2.png)
 
 ```bash
@@ -33,11 +39,6 @@ sudo dpkg -i cuda-keyring_1.1-1_all.deb
 sudo apt-get update
 sudo apt-get -y install cuda-toolkit-12-5
 ```
-
-#### 備註
-runfile (local) 安裝方式會出現以下錯誤，可能要自己裝 gcc
-
-`Missing gcc. gcc is required to continue`
 
 ## nvidia-smi
 
