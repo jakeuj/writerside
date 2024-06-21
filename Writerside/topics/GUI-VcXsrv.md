@@ -11,7 +11,16 @@
 
 安裝時，選擇 `Multiple windows`，其他選項保持默認即可。
 
-- 安裝完成後，運行 VcXsrv，選擇 `Disable access control`，附加參數 -ac ，然後點擊 `Next`。
+到這邊可以從 windows 右下角的通知區域找到 VcXsrv 的圖示，點擊 Application 裡面有計算機跟時鐘可以開出來。
+
+如果要讓 WSL 2 使用 VcXsrv：
+
+- Windows 防火牆需要允許 VcXsrv (XLaunch.exe, VcXsrv.exe) 通過，或者直接關閉防火牆。
+- 運行 VcXsrv 時，選擇 `Disable access control`，並附加參數 `-ac`。
+
+否則 WSL 2 會連不到 VcXsrv 或出現以下錯誤：
+
+`Authorization required, but no authorization protocol specified`
 
 ## 取得 IP
 在 Windows 11 中，打開 PowerShell，輸入：
