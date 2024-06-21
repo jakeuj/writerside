@@ -117,6 +117,8 @@ cd ~/my-electron-app
 yarn electron .
 ```
 
+![HelloWolrd.png](HelloWolrd.png)
+
 ## REF
 
 這些套件在 WSL 2 (Windows Subsystem for Linux 2) 上的用途如下：
