@@ -25,18 +25,14 @@ if grep -qEi "(Microsoft|WSL)" /proc/version &> /dev/null; then
     else
         echo "The sources.list is already using the Taiwan mirror."
     fi
+    # 更新並安裝基本套件
+    sudo apt install -y curl build-essential libnss3 libatk1.0-0 libatk-bridge2.0-0 libgtk-3-0 libgbm1 libasound2 \
+    libx11-xcb1 libxcomposite1 libxcursor1 libxdamage1 libxfixes3 libxi6 libxrandr2 libxrender1 libxtst6 \
+    libxss1 libnss3 libasound2 xdg-utils dbus-user-session
 else
     echo "Not running on WSL"
     # TODO: Add support for native Linux
 fi
-
-#!/bin/bash
-
-# 更新並安裝基本套件
-sudo apt update
-sudo apt install -y curl build-essential libnss3 libatk1.0-0 libatk-bridge2.0-0 libgtk-3-0 libgbm1 libasound2 \
-    libx11-xcb1 libxcomposite1 libxcursor1 libxdamage1 libxfixes3 libxi6 libxrandr2 libxrender1 libxtst6 \
-    libxss1 libnss3 libasound2 xdg-utils
 
 # 安裝 NVM
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
@@ -103,10 +99,15 @@ cat <<EOL > index.html
 </html>
 EOL
 
-echo "所有步驟已完成。執行 'source ~/.bashrc' 後，您可以通過 'yarn electron .' 在 ~/my-electron-app 目錄中運行您的 Electron 應用程序。"
-
 # 設置執行權限
 chmod +x ~/my-electron-app/index.js
+
+echo "環境配置完成，通過 'yarn electron .' 在 '~/my-electron-app' 目錄中運行。"
+
+if grep -qEi "(Microsoft|WSL)" /proc/version &> /dev/null; then
+  echo "Running on WSL，重啟 Ubuntu 環境以啟動 D-Bus 會話服務。"
+  sudo reboot
+fi
 ```
 
 ## 執行
@@ -161,4 +162,7 @@ yarn electron .
 
 19. **xdg-utils**：一組桌面獨立的命令行工具，用於整合桌面應用程序和工具。
 
-這些套件主要用於支持和運行圖形用戶界面應用程序，以及提供開發和編譯環境的基本功能。在 WSL 2 上安裝這些套件，可以使 Linux 系統更好地支持各種應用程序的運行需求。
+20. **dbus-user-session**：用於啟動 D-Bus 會話服務的工具。
+
+這些套件主要用於支持和運行圖形用戶界面應用程序，以及提供開發和編譯環境的基本功能。
+在 WSL 2 上安裝這些套件，可以使 Linux 系統更好地支持各種應用程序的運行需求。
