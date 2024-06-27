@@ -8,6 +8,7 @@
 
     <toc-element topic="Default.md">
         <toc-element topic="Node-js.md">
+            <toc-element topic="Electron-Build.md"/>
             <toc-element topic="Electron.md"/>
         </toc-element>
         <toc-element topic="Azure.md">
