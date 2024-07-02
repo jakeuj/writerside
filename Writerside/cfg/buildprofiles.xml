@@ -8,6 +8,7 @@
     <build-profile instance="hi">
         <variables>
             <noindex-content>false</noindex-content>
+            <og-twitter>@jakeuj</og-twitter>
         </variables>
     </build-profile>
 
@@ -16,5 +17,19 @@
         <layout name="Windows" display-name="Windows"/>
         <layout name="macOS" display-name="macOS"/>
     </shortcuts>
+
+    <footer>
+        <social type="blog" href="https://www.dotblogs.com.tw/jakeuj">Blog</social>
+        <social type="twitter" href="https://twitter.com/jakeuj">Twitter</social>
+        <social type="linkedin" href="https://www.linkedin.com/in/jakeuj/">LinkedIn</social>
+        <social type="facebook" href="https://www.facebook.com/jakeuj/">Facebook</social>
+        <social type="rss" href="https://www.dotblogs.com.tw/jakeuj/Rss">RSS feed</social>
+        <social type="email" href="jakeuj@hotmail.com">Email</social>
+
+        <link href="https://github.com/jakeuj/writerside/issues">Issue</link>
+        <link href="mailto:jakeuj@hotmail.com">Contact me</link>
+
+        <copyright>2024 Jakeuj r.o.c.</copyright>
+    </footer>
 
 </buildprofiles>
