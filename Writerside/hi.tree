@@ -25,6 +25,7 @@
             <toc-element topic="CUDA.md"/>
         </toc-element>
         <toc-element topic="Python.md">
+            <toc-element topic="Python-venv.md"/>
             <toc-element topic="PyInstaller.md"/>
             <toc-element topic="LSPCI.md"/>
             <toc-element topic="requirements.md"/>
