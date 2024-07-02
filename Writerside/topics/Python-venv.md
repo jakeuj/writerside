@@ -20,7 +20,7 @@ source myenv/bin/activate
 
 ```bash
 # 安装依赖
-pip install requests
+pip install -r requirements.txt
 ```
 
 ## 退出虚拟环境
@@ -44,7 +44,7 @@ rm -rf myenv
 sudo apt install python3-pip python3-venv
 ```
 
-## 備註
+## python3 與 python 的問題
 沒有啟動虛擬環境時，需要輸入 python3 才能正常呼叫。
 
 ```Bash
@@ -59,13 +59,15 @@ $ which python3
 /usr/bin/python3
 ```
 
-如果想要讓 python 與 python3 指向同一個版本，可以在安裝 python3 後，安裝 python-is-python3：
+如果想要讓 python 與 python3 指向同一個版本，
+可以安裝 python-is-python3：
 
 ```Bash
 sudo apt install python-is-python3
 ```
 
-或是建立連結
+這種方法更簡單而且官方推薦，適合不熟悉符號連結操作的使用者。
+也可以手動建立連結：
 
 ```Bash
 $ sudo ln -s /usr/bin/python3 /usr/bin/python
@@ -73,7 +75,7 @@ $ python -V
 Python 3.10.12
 ```
 
-安裝 pip3 時，會將 pip 與 pip3 連結到 python3：
+安裝 pip3 時，會同時將 pip 與 pip3 連結到 python3：
 
 ```Bash
 # 虛擬環境啟動前
@@ -82,6 +84,8 @@ pip 22.0.2 from /usr/lib/python3/dist-packages/pip (python 3.10)
 $ pip3 -V
 pip 22.0.2 from /usr/lib/python3/dist-packages/pip (python 3.10)
 ```
+
+## 虛擬環境啟動後
 
 當啟動虛擬環境時，python, python3, pip, pip3 就會指向虛擬環境的版本。
 
