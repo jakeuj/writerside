@@ -4,10 +4,13 @@
 
     <variables>
         <product-web-url>https://jakeuj.com/</product-web-url>
+        <browser-edits-url>https://github.com/jakeuj/writerside/tree/master/Writerside/topics</browser-edits-url>
+        <analytics-head-script-file>google-analytics.js</analytics-head-script-file>
     </variables>
     <build-profile instance="hi">
         <variables>
             <noindex-content>false</noindex-content>
+            <webmaster>jakeuj@hotmail.com</webmaster>
             <og-twitter>@jakeuj</og-twitter>
         </variables>
     </build-profile>
@@ -16,6 +19,7 @@
         <src>keymap.xml</src>
         <layout name="Windows" display-name="Windows"/>
         <layout name="macOS" display-name="macOS"/>
+        <layout name="GNOME" display-name="Linux"/>
     </shortcuts>
 
     <footer>
@@ -23,13 +27,16 @@
         <social type="twitter" href="https://twitter.com/jakeuj">Twitter</social>
         <social type="linkedin" href="https://www.linkedin.com/in/jakeuj/">LinkedIn</social>
         <social type="facebook" href="https://www.facebook.com/jakeuj/">Facebook</social>
+        <social type="youtube" href="https://www.youtube.com/channel/UCk97nD0wkiY85UXHvogQTWA">YouTube</social>
+        <social type="instagram" href="https://www.instagram.com/jakeuj00/">Instagram</social>
+        <social type="bilibili" href="https://space.bilibili.com/2508649/">Bilibili</social>
         <social type="rss" href="https://www.dotblogs.com.tw/jakeuj/Rss">RSS feed</social>
         <social type="email" href="jakeuj@hotmail.com">Email</social>
 
         <link href="https://github.com/jakeuj/writerside/issues">Issue</link>
         <link href="mailto:jakeuj@hotmail.com">Contact me</link>
 
-        <copyright>2024 Jakeuj r.o.c.</copyright>
+        <copyright>2024 Jakeuj. All rights reserved.</copyright>
     </footer>
 
 </buildprofiles>
