@@ -38,7 +38,9 @@
 
 ![docker-push.png](docker-push.png)
 
-到 Azure App Service Container 裡面可以看到剛剛推送的鏡像
+到 Azure Web App for Containers 裡面可以看到剛剛推送的鏡像
+
+![wac.png](wac.png)
 
 ## 參照
 
