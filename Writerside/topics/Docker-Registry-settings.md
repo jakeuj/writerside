@@ -20,6 +20,26 @@
 
 ![acr-settings.png](acr-settings.png)
 
+## 推送
+
+右鍵點擊 Dockerfile
+
+![dockerfile-right.png](dockerfile-right.png)
+
+運行或直接修改運行配置，鏡像標記中輸入一下名稱，方便以後識別，不然會是 sha256 (簡稱亂碼)
+
+![dockerfile.png](dockerfile.png)
+
+運行後到服務 Docker 鏡像中會有剛剛的鏡像名稱的 image，右鍵可以推送鏡像
+
+![images.png](images.png)
+
+選擇 ACR
+
+![docker-push.png](docker-push.png)
+
+到 Azure App Service Container 裡面可以看到剛剛推送的鏡像
+
 ## 參照
 
 [Docker Registry settings](https://www.jetbrains.com/help/pycharm/settings-docker-registry.html)
