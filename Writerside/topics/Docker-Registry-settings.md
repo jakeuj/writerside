@@ -42,6 +42,13 @@
 
 ![wac.png](wac.png)
 
+### 啟動命令
+Python 主程式位於 src/main.py，所以啟動命令為
+
+`gunicorn main:app --chdir src`
+
+請依自身情況修改
+
 ## CI/CD
 
 預設是關閉的，打開後可以設定 CI/CD
