@@ -23,3 +23,5 @@
 ## 參照
 
 [Docker Registry settings](https://www.jetbrains.com/help/pycharm/settings-docker-registry.html)
+
+[tutorial-containerize-simple-web-app-for-app-service](https://learn.microsoft.com/zh-tw/azure/developer/python/tutorial-containerize-simple-web-app-for-app-service?tabs=web-app-fastapi)
