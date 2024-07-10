@@ -7,6 +7,10 @@
                  start-page="Default.md">
 
     <toc-element topic="Default.md">
+        <toc-element topic="Windows.md">
+            <toc-element topic="Share-Wifi.md"/>
+        </toc-element>
+        <toc-element topic="Vue.md"/>
         <toc-element topic="Node-js.md">
             <toc-element topic="Electron-Build.md"/>
             <toc-element topic="Electron.md"/>
