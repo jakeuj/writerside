@@ -3,17 +3,16 @@
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
     <variables>
-        <product-web-url>https://jakeuj.com/</product-web-url>
+        <web-root>https://jakeuj.com/</web-root>
+        <download-page>https://www.jetbrains.com/writerside/download/</download-page>
+        <download-title>Get Writerside</download-title>
+        <showDownloadButton>true</showDownloadButton>
+        <primary-color>strawberry</primary-color>
+        <header-logo>img.png</header-logo>
+        <custom-favicons>img.png</custom-favicons>
         <browser-edits-url>https://github.com/jakeuj/writerside/tree/master/Writerside/topics</browser-edits-url>
         <analytics-head-script-file>google-analytics.js</analytics-head-script-file>
     </variables>
-    <build-profile instance="hi">
-        <variables>
-            <noindex-content>false</noindex-content>
-            <webmaster>jakeuj@hotmail.com</webmaster>
-            <og-twitter>@jakeuj</og-twitter>
-        </variables>
-    </build-profile>
 
     <shortcuts>
         <src>keymap.xml</src>
@@ -36,7 +35,17 @@
         <link href="https://github.com/jakeuj/writerside/issues">Issue</link>
         <link href="mailto:jakeuj@hotmail.com">Contact me</link>
 
-        <copyright>2024 Jakeuj. All rights reserved.</copyright>
+        <copyright>2024 jakeuj@hotmail.com All rights reserved.</copyright>
     </footer>
 
+    <build-profile instance="hi">
+        <sitemap priority="0.35" change-frequency="weekly" />
+        <variables>
+            <noindex-content>false</noindex-content>
+            <product-web-url>https://jakeuj.com/</product-web-url>
+            <og-twitter>@jakeuj</og-twitter>
+            <og-image>miku-pre.png</og-image>
+            <webmaster>jakeuj@hotmail.com</webmaster>
+        </variables>
+    </build-profile>
 </buildprofiles>
