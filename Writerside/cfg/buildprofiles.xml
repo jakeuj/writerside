@@ -12,6 +12,9 @@
         <custom-favicons>miku.png</custom-favicons>
         <browser-edits-url>https://github.com/jakeuj/writerside/tree/master/Writerside/topics</browser-edits-url>
         <analytics-head-script-file>google-analytics.js</analytics-head-script-file>
+        <algolia-index>Default</algolia-index>
+        <algolia-id>8VA5LCDZGD</algolia-id>
+        <algolia-api-key>523b1148748e680e0b1a2044aa213170</algolia-api-key>
     </variables>
 
     <shortcuts>
