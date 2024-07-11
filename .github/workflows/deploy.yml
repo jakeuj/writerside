@@ -23,7 +23,7 @@ env:
   # Add the variable below to upload Algolia indexes
   # Replace HI with the ID of the instance in capital letters
   ALGOLIA_ARTIFACT: 'algolia-indexes-HI.zip'
-  ALGOLIA_APP_NAME: 'NLAGB2LZHU'
+  ALGOLIA_APP_NAME: '8VA5LCDZGD'
   ALGOLIA_INDEX_NAME: 'Default'
   ALGOLIA_KEY: '${{ secrets.ALGOLIA_KEY }}'
   CONFIG_JSON_PRODUCT: 'HI'
