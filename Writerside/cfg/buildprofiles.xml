@@ -9,7 +9,7 @@
         <showDownloadButton>true</showDownloadButton>
         <primary-color>strawberry</primary-color>
         <header-logo>hatsune-miku-seeklogo.svg</header-logo>
-        <custom-favicons>hatsune-miku-seeklogo.svg</custom-favicons>
+        <custom-favicons>miku.png</custom-favicons>
         <browser-edits-url>https://github.com/jakeuj/writerside/tree/master/Writerside/topics</browser-edits-url>
         <analytics-head-script-file>google-analytics.js</analytics-head-script-file>
     </variables>
