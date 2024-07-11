@@ -44,7 +44,7 @@
             <noindex-content>false</noindex-content>
             <product-web-url>https://jakeuj.com/</product-web-url>
             <og-twitter>@jakeuj</og-twitter>
-            <og-image>hatsune-miku-seeklogo.svg</og-image>
+            <og-image>https://jakeuj.com/images/hatsune-miku-seeklogo.svg</og-image>
             <webmaster>jakeuj@hotmail.com</webmaster>
         </variables>
     </build-profile>
