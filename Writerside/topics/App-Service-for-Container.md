@@ -1,7 +1,8 @@
 # App Service for Container
 
-建立 App service for Container 的時候，部署裡面選不到 Github Actions，所以這邊筆記下
-從 Github Actions 部署到 Azure App Service for Container 的步驟。
+建立 App service for Container 的時候，部署裡面選不到 Github Actions
+
+所以這邊筆記下從 Github Actions 部署到 Azure App Service for Container 的步驟。
 
 ## 官方文件
 
