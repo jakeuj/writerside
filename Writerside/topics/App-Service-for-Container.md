@@ -43,7 +43,33 @@
 
 Registry 選擇剛剛建立的 ACR，如果有警告應該是要回去 ACR 設定管理帳號或識別之類的
 
-啟動命令我這邊主程式釋放在 src 資料夾，所以是 `gunicorn main:app --chdir src`
+- 啟動命令
+
+```
+gunicorn -k uvicorn.workers.UvicornWorker -w 4 -b 0.0.0.0:3100 main:app --chdir src
+```
+
+-k uvicorn.workers.UvicornWorker 指定了使用 Uvicorn 工作者，
+
+-w 4 表示使用 4 個工作者，
+
+-b 0.0.0.0:3100 指定綁定的地址和端口，
+
+main:app 是您的 FastAPI 應用所在的模組和應用實例名，
+
+--chdir src 表示是 main.py 所在目錄位於 src 資料夾下。
+
+寫錯可能會遇到錯誤
+
+```
+TypeError: FastAPI.__call__() missing 1 required positional argument: 'send'
+```
+
+這種情況通常發生在使用 Gunicorn 部署 FastAPI 應用時，
+
+因為 Gunicorn 預設使用的是 WSGI 工作者，而 FastAPI 是一個 ASGI 應用，
+
+兩者在處理請求時有一些差異。您需要確保 Gunicorn 使用適當的工作者來處理 ASGI 應用。
 
 ## Github Actions
 
