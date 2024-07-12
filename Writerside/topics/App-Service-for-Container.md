@@ -71,6 +71,12 @@ TypeError: FastAPI.__call__() missing 1 required positional argument: 'send'
 
 兩者在處理請求時有一些差異。您需要確保 Gunicorn 使用適當的工作者來處理 ASGI 應用。
 
+### Log
+
+如果有需要可以設定 Log
+
+[where-can-i-find-docker-container-logs-for-azure-app-service](https://stackoverflow.com/questions/52245077/where-can-i-find-docker-container-logs-for-azure-app-service)
+
 ## Github Actions
 
 到 Github repo 裡的 Action 應該就會看到部署的流程
