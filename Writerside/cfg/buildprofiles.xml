@@ -36,13 +36,12 @@
         <social type="email" href="jakeuj@hotmail.com">Email</social>
 
         <link href="https://github.com/jakeuj/writerside/issues">Issue</link>
-        <link href="mailto:jakeuj@hotmail.com">Contact me</link>
 
         <copyright>2024 jakeuj@hotmail.com All rights reserved.</copyright>
     </footer>
 
     <build-profile instance="hi">
-        <sitemap priority="0.35" change-frequency="weekly" />
+        <sitemap priority="1" change-frequency="weekly" />
         <variables>
             <noindex-content>false</noindex-content>
             <product-web-url>https://jakeuj.com/</product-web-url>
