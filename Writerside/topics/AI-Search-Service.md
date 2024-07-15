@@ -61,207 +61,233 @@ POST  {{baseUrl}}/indexes?api-version=2023-11-01  HTTP/1.1
 Request
 ```json
 {
-    "name": "hotels-vector-quickstart",
-    "fields": [
+  "name": "hotels-vector-quickstart",
+  "fields": [
+    {
+      "name": "HotelId",
+      "type": "Edm.String",
+      "searchable": false,
+      "filterable": true,
+      "retrievable": true,
+      "sortable": false,
+      "facetable": false,
+      "key": true
+    },
+    {
+      "name": "HotelName",
+      "type": "Edm.String",
+      "searchable": true,
+      "filterable": false,
+      "retrievable": true,
+      "sortable": true,
+      "facetable": false
+    },
+    {
+      "name": "HotelNameVector",
+      "type": "Collection(Edm.Single)",
+      "searchable": true,
+      "retrievable": true,
+      "dimensions": 1536,
+      "vectorSearchProfile": "my-vector-profile"
+    },
+    {
+      "name": "Description",
+      "type": "Edm.String",
+      "searchable": true,
+      "filterable": false,
+      "retrievable": true,
+      "sortable": false,
+      "facetable": false
+    },
+    {
+      "name": "DescriptionVector",
+      "type": "Collection(Edm.Single)",
+      "searchable": true,
+      "retrievable": true,
+      "dimensions": 1536,
+      "vectorSearchProfile": "my-vector-profile"
+    },
+    {
+      "name": "Description_fr",
+      "type": "Edm.String",
+      "searchable": true,
+      "filterable": false,
+      "retrievable": true,
+      "sortable": false,
+      "facetable": false,
+      "analyzer": "en.microsoft"
+    },
+    {
+      "name": "Description_frvector",
+      "type": "Collection(Edm.Single)",
+      "searchable": true,
+      "retrievable": true,
+      "dimensions": 1536,
+      "vectorSearchProfile": "my-vector-profile"
+    },
+    {
+      "name": "Category",
+      "type": "Edm.String",
+      "searchable": true,
+      "filterable": true,
+      "retrievable": true,
+      "sortable": true,
+      "facetable": true
+    },
+    {
+      "name": "Tags",
+      "type": "Collection(Edm.String)",
+      "searchable": true,
+      "filterable": true,
+      "retrievable": true,
+      "sortable": false,
+      "facetable": true
+    },
+    {
+      "name": "ParkingIncluded",
+      "type": "Edm.Boolean",
+      "searchable": false,
+      "filterable": true,
+      "retrievable": true,
+      "sortable": true,
+      "facetable": true
+    },
+    {
+      "name": "LastRenovationDate",
+      "type": "Edm.DateTimeOffset",
+      "searchable": false,
+      "filterable": true,
+      "retrievable": true,
+      "sortable": true,
+      "facetable": true
+    },
+    {
+      "name": "Rating",
+      "type": "Edm.Double",
+      "searchable": false,
+      "filterable": true,
+      "retrievable": true,
+      "sortable": true,
+      "facetable": true
+    },
+    {
+      "name": "Address",
+      "type": "Edm.ComplexType",
+      "fields": [
         {
-            "name": "HotelId", 
-            "type": "Edm.String",
-            "searchable": false, 
-            "filterable": true, 
-            "retrievable": true, 
-            "sortable": false, 
-            "facetable": false,
-            "key": true
-        },
-        {
-            "name": "HotelName", 
-            "type": "Edm.String",
-            "searchable": true, 
-            "filterable": false, 
-            "retrievable": true, 
-            "sortable": true, 
-            "facetable": false
-        },
-        {
-            "name": "HotelNameVector",
-            "type": "Collection(Edm.Single)",
-            "searchable": true,
-            "retrievable": true,
-            "dimensions": 1536,
-            "vectorSearchProfile": "my-vector-profile"
-        },
-        {
-            "name": "Description", 
-            "type": "Edm.String",
-            "searchable": true, 
-            "filterable": false, 
-            "retrievable": true, 
-            "sortable": false, 
-            "facetable": false
-        },
-        {
-            "name": "DescriptionVector",
-            "type": "Collection(Edm.Single)",
-            "searchable": true,
-            "retrievable": true,
-            "dimensions": 1536,
-            "vectorSearchProfile": "my-vector-profile"
-        },
-                {
-            "name": "Description_fr", 
-            "type": "Edm.String",
-            "searchable": true, 
-            "filterable": false, 
-            "retrievable": true, 
-            "sortable": false, 
-            "facetable": false,
-            "analyzer": "en.microsoft"
-        },
-        {
-            "name": "Description_frvector",
-            "type": "Collection(Edm.Single)",
-            "searchable": true,
-            "retrievable": true,
-            "dimensions": 1536,
-            "vectorSearchProfile": "my-vector-profile"
-        },
-        {
-            "name": "Category", 
-            "type": "Edm.String",
-            "searchable": true, 
-            "filterable": true, 
-            "retrievable": true, 
-            "sortable": true, 
-            "facetable": true
-        },
-        {
-            "name": "Tags",
-            "type": "Collection(Edm.String)",
-            "searchable": true,
-            "filterable": true,
-            "retrievable": true,
-            "sortable": false,
-            "facetable": true
-        },
-                {
-            "name": "ParkingIncluded",
-            "type": "Edm.Boolean",
-            "searchable": false,
-            "filterable": true,
-            "retrievable": true,
-            "sortable": true,
-            "facetable": true
-        },
-        {
-            "name": "LastRenovationDate",
-            "type": "Edm.DateTimeOffset",
-            "searchable": false,
-            "filterable": true,
-            "retrievable": true,
-            "sortable": true,
-            "facetable": true
-        },
-        {
-            "name": "Rating",
-            "type": "Edm.Double",
-            "searchable": false,
-            "filterable": true,
-            "retrievable": true,
-            "sortable": true,
-            "facetable": true
-        },
-        {
-            "name": "Address", 
-            "type": "Edm.ComplexType",
-            "fields": [
-                {
-                    "name": "StreetAddress", "type": "Edm.String",
-                    "searchable": true, "filterable": false, "retrievable": true, "sortable": false, "facetable": false
-                },
-                {
-                    "name": "City", "type": "Edm.String",
-                    "searchable": true, "filterable": true, "retrievable": true, "sortable": true, "facetable": true
-                },
-                {
-                    "name": "StateProvince", "type": "Edm.String",
-                    "searchable": true, "filterable": true, "retrievable": true, "sortable": true, "facetable": true
-                },
-                {
-                    "name": "PostalCode", "type": "Edm.String",
-                    "searchable": true, "filterable": true, "retrievable": true, "sortable": true, "facetable": true
-                },
-                {
-                    "name": "Country", "type": "Edm.String",
-                    "searchable": true, "filterable": true, "retrievable": true, "sortable": true, "facetable": true
-                }
-            ]
+          "name": "StreetAddress",
+          "type": "Edm.String",
+          "searchable": true,
+          "filterable": false,
+          "retrievable": true,
+          "sortable": false,
+          "facetable": false
         },
         {
-            "name": "Location",
-            "type": "Edm.GeographyPoint",
-            "searchable": false, 
-            "filterable": true, 
-            "retrievable": true, 
-            "sortable": true, 
-            "facetable": false
+          "name": "City",
+          "type": "Edm.String",
+          "searchable": true,
+          "filterable": true,
+          "retrievable": true,
+          "sortable": true,
+          "facetable": true
+        },
+        {
+          "name": "StateProvince",
+          "type": "Edm.String",
+          "searchable": true,
+          "filterable": true,
+          "retrievable": true,
+          "sortable": true,
+          "facetable": true
+        },
+        {
+          "name": "PostalCode",
+          "type": "Edm.String",
+          "searchable": true,
+          "filterable": true,
+          "retrievable": true,
+          "sortable": true,
+          "facetable": true
+        },
+        {
+          "name": "Country",
+          "type": "Edm.String",
+          "searchable": true,
+          "filterable": true,
+          "retrievable": true,
+          "sortable": true,
+          "facetable": true
         }
-    ],
-    "vectorSearch": {
-        "algorithms": [
-            {
-                "name": "my-hnsw-vector-config-1",
-                "kind": "hnsw",
-                "hnswParameters": 
-                {
-                    "m": 4,
-                    "efConstruction": 400,
-                    "efSearch": 500,
-                    "metric": "cosine"
-                }
-            },
-            {
-                "name": "my-hnsw-vector-config-2",
-                "kind": "hnsw",
-                "hnswParameters": 
-                {
-                    "m": 4,
-                    "metric": "euclidean"
-                }
-            },
-            {
-                "name": "my-eknn-vector-config",
-                "kind": "exhaustiveKnn",
-                "exhaustiveKnnParameters": 
-                {
-                    "metric": "cosine"
-                }
-            }
-        ],
-        "profiles": [      
-            {
-                "name": "my-vector-profile",
-                "algorithm": "my-hnsw-vector-config-1"
-            }
       ]
     },
-    "semantic": {
-        "configurations": [
-            {
-                "name": "my-semantic-config",
-                "prioritizedFields": {
-                    "titleField": {
-                        "fieldName": "HotelName"
-                    },
-                    "prioritizedContentFields": [
-                        { "fieldName": "Description" }
-                    ],
-                    "prioritizedKeywordsFields": [
-                        { "fieldName": "Category" }
-                    ]
-                }
-            }
-        ]
+    {
+      "name": "Location",
+      "type": "Edm.GeographyPoint",
+      "searchable": false,
+      "filterable": true,
+      "retrievable": true,
+      "sortable": true,
+      "facetable": false
     }
+  ],
+  "vectorSearch": {
+    "algorithms": [
+      {
+        "name": "my-hnsw-vector-config-1",
+        "kind": "hnsw",
+        "hnswParameters": {
+          "m": 4,
+          "efConstruction": 400,
+          "efSearch": 500,
+          "metric": "cosine"
+        }
+      },
+      {
+        "name": "my-hnsw-vector-config-2",
+        "kind": "hnsw",
+        "hnswParameters": {
+          "m": 4,
+          "metric": "euclidean"
+        }
+      },
+      {
+        "name": "my-eknn-vector-config",
+        "kind": "exhaustiveKnn",
+        "exhaustiveKnnParameters": {
+          "metric": "cosine"
+        }
+      }
+    ],
+    "profiles": [
+      {
+        "name": "my-vector-profile",
+        "algorithm": "my-hnsw-vector-config-1"
+      }
+    ]
+  },
+  "semantic": {
+    "configurations": [
+      {
+        "name": "my-semantic-config",
+        "prioritizedFields": {
+          "titleField": {
+            "fieldName": "HotelName"
+          },
+          "prioritizedContentFields": [
+            {
+              "fieldName": "Description"
+            }
+          ],
+          "prioritizedKeywordsFields": [
+            {
+              "fieldName": "Category"
+            }
+          ]
+        }
+      }
+    ]
+  }
 }
 ```
 
@@ -294,9 +320,9 @@ Request
             "@search.action": "mergeOrUpload",
             "HotelId": "1",
             "HotelName": "Secret Point Hotel",
-            "HotelNameVector": [0.0040753875,0.004081966,0.007854742,-0.008874411,-0.017301483,0.030655859,0.0017054789],
-            "Description": "The hotel is ideally located on the main commercial artery of the city in the heart of New York.",
-            "DescriptionVector": [-0.020142354,0.017661706,-0.01607254,-0.014199133,-0.010051797,0.00535859,-0.012241745],
+            "HotelNameVector": [0.0040753875,0.004081966,0.007854742,-0.008874411,-0.017301483,0.030655859],
+            "Description": "The hotel is ideally located on the main commercial artery of the city in the heart of...",
+            "DescriptionVector": [-0.020142354,0.017661706,-0.01607254,-0.014199133,-0.010051797,0.00535859],
             "Category": "Boutique",
             "Tags": [
                 "pool",
@@ -369,28 +395,28 @@ Response
       "@search.score": 0.8577363,
       "HotelId": "48",
       "HotelName": "Nordick's Motel",
-      "Description": "Only 90 miles (about 2 hours) from the nation's capital and nearby most everything the historic valley has to offer.  Hiking? Wine Tasting? Exploring the caverns?  It's all nearby and we have specially priced packages to help make our B&B your home base for fun while visiting the valley.",
+      "Description": "Only 90 miles (about 2 hours) from the nation's capital and nearby most everything the...",
       "Category": "Boutique"
     },
     {
       "@search.score": 0.8399121,
       "HotelId": "49",
       "HotelName": "Old Carrabelle Hotel",
-      "Description": "Spacious rooms, glamorous suites and residences, rooftop pool, walking access to shopping, dining, entertainment and the city center.",
+      "Description": "Spacious rooms, glamorous suites and residences, rooftop pool, walking access to shopping...",
       "Category": "Luxury"
     },
     {
       "@search.score": 0.8383955,
       "HotelId": "13",
       "HotelName": "Historic Lion Resort",
-      "Description": "Unmatched Luxury.  Visit our downtown hotel to indulge in luxury accommodations. Moments from the stadium, we feature the best in comfort",
+      "Description": "Unmatched Luxury.  Visit our downtown hotel to indulge in luxury accommodations. Moments...",
       "Category": "Resort and Spa"
     },
     {
       "@search.score": 0.82543427,
       "HotelId": "4",
       "HotelName": "Sublime Cliff Hotel",
-      "Description": "Sublime Cliff Hotel is located in the heart of the historic center of Sublime in an extremely vibrant and lively area within short walking distance to the sites and landmarks of the city and is surrounded by the extraordinary beauty of churches, buildings, shops and monuments. Sublime Cliff is part of a lovingly restored 1800 palace.",
+      "Description": "Sublime Cliff Hotel is located in the heart of the historic center of Sublime in an extremely...",
       "Category": "Boutique"
     },
     {
@@ -404,14 +430,14 @@ Response
       "@search.score": 0.81514114,
       "HotelId": "2",
       "HotelName": "Twin Dome Hotel",
-      "Description": "The hotel is situated in a  nineteenth century plaza, which has been expanded and renovated to the highest architectural standards to create a modern, functional and first-class hotel in which art and unique historical elements coexist with the most modern comforts.",
+      "Description": "The hotel is situated in a  nineteenth century plaza, which has been expanded and renovated...",
       "Category": "Boutique"
     },
     {
       "@search.score": 0.813376,
       "HotelId": "3",
       "HotelName": "Triple Landscape Hotel",
-      "Description": "The Hotel stands out for its gastronomic excellence under the management of William Dough, who advises on and oversees all of the Hotel\u2019s restaurant services.",
+      "Description": "The Hotel stands out for its gastronomic excellence under the management of William Dough...",
       "Category": "Resort and Spa"
     }
   ]
@@ -457,7 +483,7 @@ Response
       "@search.score": 0.8577363,
       "HotelId": "48",
       "HotelName": "Nordick's Motel",
-      "Description": "Only 90 miles (about 2 hours) from the nation's capital and nearby most everything the historic valley has to offer.  Hiking? Wine Tasting? Exploring the caverns?  It's all nearby and we have specially priced packages to help make our B&B your home base for fun while visiting the valley.",
+      "Description": "Only 90 miles (about 2 hours) from the nation's capital and nearby most everything the...",
       "Category": "Boutique",
       "Tags": [
         "continental breakfast",
@@ -469,7 +495,7 @@ Response
       "@search.score": 0.8383955,
       "HotelId": "13",
       "HotelName": "Historic Lion Resort",
-      "Description": "Unmatched Luxury.  Visit our downtown hotel to indulge in luxury accommodations. Moments from the stadium, we feature the best in comfort",
+      "Description": "Unmatched Luxury.  Visit our downtown hotel to indulge in luxury accommodations...",
       "Category": "Resort and Spa",
       "Tags": [
         "view",
@@ -481,7 +507,7 @@ Response
       "@search.score": 0.81514114,
       "HotelId": "2",
       "HotelName": "Twin Dome Hotel",
-      "Description": "The hotel is situated in a  nineteenth century plaza, which has been expanded and renovated to the highest architectural standards to create a modern, functional and first-class hotel in which art and unique historical elements coexist with the most modern comforts.",
+      "Description": "The hotel is situated in a  nineteenth century plaza, which has been expanded and renovated...",
       "Category": "Boutique",
       "Tags": [
         "pool",
@@ -531,7 +557,7 @@ Response
       "@search.score": 0.03306011110544205,
       "HotelId": "49",
       "HotelName": "Old Carrabelle Hotel",
-      "Description": "Spacious rooms, glamorous suites and residences, rooftop pool, walking access to shopping, dining, entertainment and the city center.",
+      "Description": "Spacious rooms, glamorous suites and residences, rooftop pool, walking access to shopping...",
       "Category": "Luxury",
       "Tags": [
         "air conditioning",
@@ -543,7 +569,7 @@ Response
       "@search.score": 0.032522473484277725,
       "HotelId": "13",
       "HotelName": "Historic Lion Resort",
-      "Description": "Unmatched Luxury.  Visit our downtown hotel to indulge in luxury accommodations. Moments from the stadium, we feature the best in comfort",
+      "Description": "Unmatched Luxury.  Visit our downtown hotel to indulge in luxury accommodations. Moments...",
       "Category": "Resort and Spa",
       "Tags": [
         "view",
@@ -555,7 +581,7 @@ Response
       "@search.score": 0.03205128386616707,
       "HotelId": "48",
       "HotelName": "Nordick's Motel",
-      "Description": "Only 90 miles (about 2 hours) from the nation's capital and nearby most everything the historic valley has to offer.  Hiking? Wine Tasting? Exploring the caverns?  It's all nearby and we have specially priced packages to help make our B&B your home base for fun while visiting the valley.",
+      "Description": "Only 90 miles (about 2 hours) from the nation's capital and nearby most everything the...",
       "Category": "Boutique",
       "Tags": [
         "continental breakfast",
@@ -567,7 +593,7 @@ Response
       "@search.score": 0.0320020467042923,
       "HotelId": "4",
       "HotelName": "Sublime Cliff Hotel",
-      "Description": "Sublime Cliff Hotel is located in the heart of the historic center of Sublime in an extremely vibrant and lively area within short walking distance to the sites and landmarks of the city and is surrounded by the extraordinary beauty of churches, buildings, shops and monuments. Sublime Cliff is part of a lovingly restored 1800 palace.",
+      "Description": "Sublime Cliff Hotel is located in the heart of the historic center of Sublime in an ...",
       "Category": "Boutique",
       "Tags": [
         "concierge",
@@ -579,7 +605,7 @@ Response
       "@search.score": 0.03125763311982155,
       "HotelId": "2",
       "HotelName": "Twin Dome Hotel",
-      "Description": "The hotel is situated in a  nineteenth century plaza, which has been expanded and renovated to the highest architectural standards to create a modern, functional and first-class hotel in which art and unique historical elements coexist with the most modern comforts.",
+      "Description": "The hotel is situated in a  nineteenth century plaza, which has been expanded and renovated...",
       "Category": "Boutique",
       "Tags": [
         "pool",
@@ -604,7 +630,7 @@ Response
       "@search.score": 0.03077651560306549,
       "HotelId": "3",
       "HotelName": "Triple Landscape Hotel",
-      "Description": "The Hotel stands out for its gastronomic excellence under the management of William Dough, who advises on and oversees all of the Hotel\u2019s restaurant services.",
+      "Description": "The Hotel stands out for its gastronomic excellence under the management of William Dough...",
       "Category": "Resort and Spa",
       "Tags": [
         "air conditioning",
