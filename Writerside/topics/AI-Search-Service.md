@@ -14,7 +14,9 @@ Azure 提供向量搜尋服務
   - 適用於 JavaScript 的 Azure SDK
 
 ## 使用方式
-本篇以建議的通用 REST API 介紹，理解後可以再依照自己的開發環境選擇 Azure SDK
+本篇採用官方建議的 [REST](https://learn.microsoft.com/zh-tw/azure/search/search-get-started-vector) 說明文件來作筆記補充
+
+理解後可以再依照自己的開發環境選擇 Azure SDK
 
 ### 1. 建立服務
 
