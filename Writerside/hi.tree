@@ -16,6 +16,7 @@
             <toc-element topic="Electron.md"/>
         </toc-element>
         <toc-element topic="Azure.md">
+            <toc-element topic="AI-Search-Service.md"/>
             <toc-element topic="App-Service-for-Container.md"/>
             <toc-element topic="StaticWebApp.md">
                 <toc-element topic="Blazor-CI-CD.md"/>
