@@ -320,9 +320,9 @@ Request
             "@search.action": "mergeOrUpload",
             "HotelId": "1",
             "HotelName": "Secret Point Hotel",
-            "HotelNameVector": [0.0040753875,0.004081966,0.007854742,-0.008874411,-0.017301483,0.030655859],
-            "Description": "The hotel is ideally located on the main commercial artery of the city in the heart of...",
-            "DescriptionVector": [-0.020142354,0.017661706,-0.01607254,-0.014199133,-0.010051797,0.00535859],
+            "HotelNameVector": [0.0040753875,0.004081966,0.007854742],
+            "Description": "The hotel is ideally located on the...",
+            "DescriptionVector": [-0.020142354,0.017661706],
             "Category": "Boutique",
             "Tags": [
                 "pool",
@@ -376,7 +376,7 @@ Request
   "select": "HotelId, HotelName, Description, Category",
   "vectorQueries": [
     {
-      "vector": [0.01944167, 0.0040178085, -0.007816401, 0.009330357, -0.014920352, 0.03203286],
+      "vector": [0.01944167, 0.0040178085, -0.007816401, 0.009330357],
       "k": 7,
       "fields": "DescriptionVector",
       "kind": "vector",
@@ -395,49 +395,49 @@ Response
       "@search.score": 0.8577363,
       "HotelId": "48",
       "HotelName": "Nordick's Motel",
-      "Description": "Only 90 miles (about 2 hours) from the nation's capital and nearby most everything the...",
+      "Description": "Only 90 miles (about 2 hours) from the nati...",
       "Category": "Boutique"
     },
     {
       "@search.score": 0.8399121,
       "HotelId": "49",
       "HotelName": "Old Carrabelle Hotel",
-      "Description": "Spacious rooms, glamorous suites and residences, rooftop pool, walking access to shopping...",
+      "Description": "Spacious rooms, glamorous suites and reside...",
       "Category": "Luxury"
     },
     {
       "@search.score": 0.8383955,
       "HotelId": "13",
       "HotelName": "Historic Lion Resort",
-      "Description": "Unmatched Luxury.  Visit our downtown hotel to indulge in luxury accommodations. Moments...",
+      "Description": "Unmatched Luxury.  Visit our downtown hotel...",
       "Category": "Resort and Spa"
     },
     {
       "@search.score": 0.82543427,
       "HotelId": "4",
       "HotelName": "Sublime Cliff Hotel",
-      "Description": "Sublime Cliff Hotel is located in the heart of the historic center of Sublime in an extremely...",
+      "Description": "Sublime Cliff Hotel is located in the heart...",
       "Category": "Boutique"
     },
     {
       "@search.score": 0.82380015,
       "HotelId": "1",
       "HotelName": "Secret Point Hotel",
-      "Description": "The hotel is ideally located on the main commercial artery of the city in the heart of New York.",
+      "Description": "The hotel is ideally located on the main co...",
       "Category": "Boutique"
     },
     {
       "@search.score": 0.81514114,
       "HotelId": "2",
       "HotelName": "Twin Dome Hotel",
-      "Description": "The hotel is situated in a  nineteenth century plaza, which has been expanded and renovated...",
+      "Description": "The hotel is situated in a  nineteenth cent...",
       "Category": "Boutique"
     },
     {
       "@search.score": 0.813376,
       "HotelId": "3",
       "HotelName": "Triple Landscape Hotel",
-      "Description": "The Hotel stands out for its gastronomic excellence under the management of William Dough...",
+      "Description": "The Hotel stands out for its gastronomic ...",
       "Category": "Resort and Spa"
     }
   ]
@@ -464,7 +464,7 @@ Request
   "vectorFilterMode": "postFilter",
   "vectorQueries": [
     {
-      "vector": [0.01944167, 0.0040178085, -0.007816401, 0.009330357, -0.014920352, 0.03203286],
+      "vector": [0.01944167, 0.0040178085, -0.007816401, 0.009330357],
       "k": 7,
       "fields": "DescriptionVector",
       "kind": "vector",
@@ -483,7 +483,7 @@ Response
       "@search.score": 0.8577363,
       "HotelId": "48",
       "HotelName": "Nordick's Motel",
-      "Description": "Only 90 miles (about 2 hours) from the nation's capital and nearby most everything the...",
+      "Description": "Only 90 miles (about 2 hours) from the nati...",
       "Category": "Boutique",
       "Tags": [
         "continental breakfast",
@@ -495,7 +495,7 @@ Response
       "@search.score": 0.8383955,
       "HotelId": "13",
       "HotelName": "Historic Lion Resort",
-      "Description": "Unmatched Luxury.  Visit our downtown hotel to indulge in luxury accommodations...",
+      "Description": "Unmatched Luxury.  Visit our downtown hotel...",
       "Category": "Resort and Spa",
       "Tags": [
         "view",
@@ -507,7 +507,7 @@ Response
       "@search.score": 0.81514114,
       "HotelId": "2",
       "HotelName": "Twin Dome Hotel",
-      "Description": "The hotel is situated in a  nineteenth century plaza, which has been expanded and renovated...",
+      "Description": "The hotel is situated in a  nineteenth cent...",
       "Category": "Boutique",
       "Tags": [
         "pool",
@@ -538,7 +538,7 @@ Request
   "top": 7,
   "vectorQueries": [
     {
-      "vector": [0.01944167, 0.0040178085, -0.007816401, 0.009330357, -0.014920352, 0.03203286],
+      "vector": [0.01944167, 0.0040178085, -0.007816401, 0.009330357],
       "k": 7,
       "fields": "DescriptionVector",
       "kind": "vector",
@@ -557,7 +557,7 @@ Response
       "@search.score": 0.03306011110544205,
       "HotelId": "49",
       "HotelName": "Old Carrabelle Hotel",
-      "Description": "Spacious rooms, glamorous suites and residences, rooftop pool, walking access to shopping...",
+      "Description": "Spacious rooms, glamorous suites and reside...",
       "Category": "Luxury",
       "Tags": [
         "air conditioning",
@@ -569,7 +569,7 @@ Response
       "@search.score": 0.032522473484277725,
       "HotelId": "13",
       "HotelName": "Historic Lion Resort",
-      "Description": "Unmatched Luxury.  Visit our downtown hotel to indulge in luxury accommodations. Moments...",
+      "Description": "Unmatched Luxury.  Visit our downtown hotel...",
       "Category": "Resort and Spa",
       "Tags": [
         "view",
@@ -581,7 +581,7 @@ Response
       "@search.score": 0.03205128386616707,
       "HotelId": "48",
       "HotelName": "Nordick's Motel",
-      "Description": "Only 90 miles (about 2 hours) from the nation's capital and nearby most everything the...",
+      "Description": "Only 90 miles (about 2 hours) from the nati...",
       "Category": "Boutique",
       "Tags": [
         "continental breakfast",
@@ -593,7 +593,7 @@ Response
       "@search.score": 0.0320020467042923,
       "HotelId": "4",
       "HotelName": "Sublime Cliff Hotel",
-      "Description": "Sublime Cliff Hotel is located in the heart of the historic center of Sublime in an ...",
+      "Description": "Sublime Cliff Hotel is located in the heart...",
       "Category": "Boutique",
       "Tags": [
         "concierge",
@@ -605,7 +605,7 @@ Response
       "@search.score": 0.03125763311982155,
       "HotelId": "2",
       "HotelName": "Twin Dome Hotel",
-      "Description": "The hotel is situated in a  nineteenth century plaza, which has been expanded and renovated...",
+      "Description": "The hotel is situated in a  nineteenth cent...",
       "Category": "Boutique",
       "Tags": [
         "pool",
@@ -618,7 +618,7 @@ Response
       "@search.score": 0.03077651560306549,
       "HotelId": "1",
       "HotelName": "Secret Point Hotel",
-      "Description": "The hotel is ideally located on the main commercial artery of the city in the heart of New York.",
+      "Description": "The hotel is ideally located on the main ...",
       "Category": "Boutique",
       "Tags": [
         "pool",
@@ -630,7 +630,7 @@ Response
       "@search.score": 0.03077651560306549,
       "HotelId": "3",
       "HotelName": "Triple Landscape Hotel",
-      "Description": "The Hotel stands out for its gastronomic excellence under the management of William Dough...",
+      "Description": "The Hotel stands out for its gastronomic ...",
       "Category": "Resort and Spa",
       "Tags": [
         "air conditioning",
