@@ -56,6 +56,7 @@
             </toc-element>
         </toc-element>
         <toc-element topic="JetBrains.md">
+            <toc-element topic="AI-Commits-Plugin.md"/>
             <toc-element topic="Docker-Registry-settings.md"/>
             <toc-element topic="PyCharm.md">
                 <toc-element topic="Package-Install.md"/>
