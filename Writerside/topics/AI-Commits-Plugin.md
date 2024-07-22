@@ -17,3 +17,6 @@ Token 可以在 [OpenAI](https://platform.openai.com/account/api-keys) 獲取。
 ## 使用
 提交時點擊 AI Commits 按鈕，即可生成提交信息。
 ![commit-msg.png](commit-msg.png)
+
+## 結果
+![Sc.png](Sc.png)
