@@ -26,19 +26,43 @@ Password: <Your Key>
 ## 拉取並執行
 使用下面的命令調出並運行英偉達 NIM。這將為您的基礎架構下載最佳化模型。
 
-```Shell
-export NGC_API_KEY=<PASTE_API_KEY_HERE>
-export LOCAL_NIM_CACHE=~/.cache/nim
-mkdir -p "$LOCAL_NIM_CACHE"
-docker run -it --rm \
-    --gpus all \
-    --shm-size=16GB \
-    -e NGC_API_KEY \
-    -v "$LOCAL_NIM_CACHE:/opt/nim/.cache" \
-    -u $(id -u) \
-    -p 8000:8000 \
-    nvcr.io/nim/meta/llama-3.1-8b-instruct:1.1.0
-```
+- Linux Bash
+    ```Bash
+    export NGC_API_KEY=<PASTE_API_KEY_HERE>
+    export LOCAL_NIM_CACHE=~/.cache/nim
+    mkdir -p "$LOCAL_NIM_CACHE"
+    docker run -it --rm \
+        --gpus all \
+        --shm-size=16GB \
+        -e NGC_API_KEY \
+        -v "$LOCAL_NIM_CACHE:/opt/nim/.cache" \
+        -u $(id -u) \
+        -p 8000:8000 \
+        nvcr.io/nim/meta/llama-3.1-8b-instruct:1.1.0
+    ```
+
+- Windows PowerShell
+    ```Shell
+    # 設定環境變數
+    $env:NGC_API_KEY = "<PASTE_API_KEY_HERE>"
+    $env:LOCAL_NIM_CACHE = "$env:USERPROFILE\.cache\nim"
+    
+    # 建立目錄
+    New-Item -ItemType Directory -Force -Path $env:LOCAL_NIM_CACHE
+    
+    # 執行 Docker 容器
+    docker run -it --rm `
+        --gpus all `
+        --shm-size=16GB `
+        -e NGC_API_KEY `
+        -v "$env:LOCAL_NIM_CACHE:/opt/nim/.cache" `
+        -u "$((Get-WmiObject -Class Win32_UserAccount | Where-Object {$_.Name -eq $env:USERNAME}).SID)" `
+        -p 8000:8000 `
+        nvcr.io/nim/meta/llama-3.1-8b-instruct:1.1.0
+    ```
+
+![nim-ps1.png](nim-ps1.png)
+
 ## 呼叫
 現在，您可以使用以下 curl 命令進行本機 API 呼叫
 
