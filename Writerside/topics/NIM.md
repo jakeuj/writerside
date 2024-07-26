@@ -65,8 +65,8 @@ Password: <Your Key>
 
 ## 呼叫
 現在，您可以使用以下 curl 命令進行本機 API 呼叫
-
-```Shell
+- Linux Bash
+```Bash
 curl -X 'POST' \
 'http://0.0.0.0:8000/v1/chat/completions' \
 -H 'accept: application/json' \
@@ -77,6 +77,67 @@ curl -X 'POST' \
     "max_tokens": 64
 }'
 ```
+- Windows PowerShell
+```Shell
+# 準備請求的數據
+$jsonData = @{
+    model = "meta/llama-3.1-8b-instruct"
+    messages = @(
+        @{
+            role = "user"
+            content = "Write a limerick about the wonders of GPU computing."
+        }
+    )
+    max_tokens = 64
+} | ConvertTo-Json
+
+# 發送 POST 請求
+$response = Invoke-RestMethod -Uri 'http://localhost:8000/v1/chat/completions' `
+                              -Method Post `
+                              -Headers @{
+                                  'accept' = 'application/json'
+                                  'Content-Type' = 'application/json'
+                              } `
+                              -Body $jsonData
+
+# 輸出結果
+$response | ConvertTo-Json -Depth 10
+```
+
+## 錯誤
+如果出現以下錯誤，表示 GPU 記憶體不足，無法執行模型。
+
+`發現但目前不可運行的兼容配置文件數量：1 個（由於 GPU 記憶體不足）`
+
+`Detected additional 1 compatible profile(s) that are currently not runnable due to low free GPU memory.`
+
+```
+===========================================
+== NVIDIA Inference Microservice LLM NIM ==
+===========================================
+
+NVIDIA Inference Microservice LLM NIM Version 1.0.0
+Model: nim/meta/llama-3_1-8b-instruct
+
+Container image Copyright (c) 2016-2024, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+The use of this model is governed by the NVIDIA AI Foundation Models Community License Agreement.
+
+ADDITIONAL INFORMATION: Llama 3.1 Community License Agreement, Built with Llama.
+
+INFO 07-26 09:44:00.18 ngc_profile.py:222] Running NIM without LoRA. 
+  Only looking for compatible profiles that do not support LoRA.
+INFO 07-26 09:44:00.18 ngc_profile.py:224] Detected 0 compatible profile(s).
+INFO 07-26 09:44:00.18 ngc_profile.py:226] 
+  Detected additional 1 compatible profile(s) that are currently not runnable due to low free GPU memory.
+ERROR 07-26 09:44:00.18 utils.py:21] Could not find a profile that is currently runnable with the detected hardware. 
+  Please check the system information below and make sure you have enough free GPUs.
+SYSTEM INFO
+- Free GPUs: <None>
+- Non-free GPUs:
+  -  [2191:10de] (0) NVIDIA GeForce GTX 1660 Ti [current utilization: 7%]
+```
+{ignore-vars="true"}
 
 ## 參考
 [getting-started](https://docs.nvidia.com/nim/large-language-models/latest/getting-started.html)
