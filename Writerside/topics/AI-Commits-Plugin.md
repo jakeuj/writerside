@@ -20,3 +20,17 @@ Token 可以在 [OpenAI](https://platform.openai.com/account/api-keys) 獲取。
 
 ## 結果
 ![Sc.png](Sc.png)
+
+## 備註
+有需要可以自行調整 prompt。
+
+```
+撰寫一條見解深刻但簡潔的 Git 提交訊息，使用完整的現在時態句子，不需要任何前言，回應必須以 {locale} 語言撰寫，且不超過 74 個字符。
+傳送的文本將是文件之間的差異，其中刪除的行前綴一個減號，新增的行前綴一個加號。{使用這個提示來改進此提交訊息：$hint }{diff}
+```
+
+![ai-ch.png](ai-ch.png)
+
+可以將 Commit 改成中文，目前測試用 gpt4 比較正常。
+
+![ai-result.png](ai-result.png)
