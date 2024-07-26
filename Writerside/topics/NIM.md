@@ -19,9 +19,9 @@ Password: <Your Key>
 ```
 ![nvcr.png](nvcr.png)
 
-其中 `<Your Key>` 可以在註冊時取得，或是到 [NVIDIA NGC](https://org.ngc.nvidia.com/setup) 中獲取。
+- `<Your Key>`
 
-![ngc-setup.png](ngc-setup.png)
+![nim-key.png](nim-key.png)
 
 ## 拉取並執行
 使用下面的命令調出並運行英偉達 NIM。這將為您的基礎架構下載最佳化模型。
