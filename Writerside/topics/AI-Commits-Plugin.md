@@ -50,4 +50,4 @@ Token 可以在 [OpenAI](https://platform.openai.com/account/api-keys) 獲取。
 
 ![ai-commit-cht.png](ai-commit-cht.png)
 
-![ai-act-cht.png](ai-act-cht.png)
+![ai-actions.png](ai-actions.png)
