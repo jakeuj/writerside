@@ -104,7 +104,7 @@ $response = Invoke-RestMethod -Uri 'http://localhost:8000/v1/chat/completions' `
 $response | ConvertTo-Json -Depth 10
 ```
 
-## 錯誤
+## GPU 記憶體不足
 如果出現以下錯誤，表示 GPU 記憶體不足，無法執行模型。
 
 `發現但目前不可運行的兼容配置文件數量：1 個（由於 GPU 記憶體不足）`
@@ -119,25 +119,51 @@ $response | ConvertTo-Json -Depth 10
 NVIDIA Inference Microservice LLM NIM Version 1.0.0
 Model: nim/meta/llama-3_1-8b-instruct
 
-Container image Copyright (c) 2016-2024, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+Container image Copyright (c) 2016-2024, 
+  NVIDIA CORPORATION & AFFILIATES. All rights reserved.
 
-The use of this model is governed by the NVIDIA AI Foundation Models Community License Agreement.
+The use of this model is governed by the 
+  NVIDIA AI Foundation Models Community License Agreement.
 
-ADDITIONAL INFORMATION: Llama 3.1 Community License Agreement, Built with Llama.
+ADDITIONAL INFORMATION: Llama 3.1 Community License Agreement, 
+  Built with Llama.
 
 INFO 07-26 09:44:00.18 ngc_profile.py:222] Running NIM without LoRA. 
   Only looking for compatible profiles that do not support LoRA.
-INFO 07-26 09:44:00.18 ngc_profile.py:224] Detected 0 compatible profile(s).
+INFO 07-26 09:44:00.18 ngc_profile.py:224] 
+  Detected 0 compatible profile(s).
 INFO 07-26 09:44:00.18 ngc_profile.py:226] 
-  Detected additional 1 compatible profile(s) that are currently not runnable due to low free GPU memory.
-ERROR 07-26 09:44:00.18 utils.py:21] Could not find a profile that is currently runnable with the detected hardware. 
-  Please check the system information below and make sure you have enough free GPUs.
+  Detected additional 1 compatible profile(s) that are currently not 
+    runnable due to low free GPU memory.
+ERROR 07-26 09:44:00.18 utils.py:21]
+  Could not find a profile that is currently runnable 
+    with the detected hardware. 
+  Please check the system information below and make sure you have 
+    enough free GPUs.
 SYSTEM INFO
 - Free GPUs: <None>
 - Non-free GPUs:
-  -  [2191:10de] (0) NVIDIA GeForce GTX 1660 Ti [current utilization: 7%]
+  -  [2191:10de] (0) NVIDIA GeForce GTX 1660 Ti 
+      [current utilization: 7%]
 ```
 {ignore-vars="true"}
+
+## 沒有權限訪問 Docker daemon
+我在 Ubuntu 全新安裝 Docker 時，會遇到以下錯誤，表示沒有權限訪問 Docker daemon。
+
+```
+docker: permission denied while trying to connect to the Docker daemon
+ socket at unix:///var/run/docker.sock: Head 
+ "http://%2Fvar%2Frun%2Fdocker.sock/_ping": 
+ dial unix /var/run/docker.sock: connect: permission denied.
+See 'docker run --help'.
+```
+
+解決辦法是添加權限給目前使用者，重新登入後再次執行 docker run 命令。
+
+```Bash
+sudo usermod -aG docker $(whoami)
+```
 
 ## 參考
 [getting-started](https://docs.nvidia.com/nim/large-language-models/latest/getting-started.html)
