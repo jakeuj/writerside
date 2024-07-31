@@ -215,14 +215,13 @@ unsatisfied condition: cuda>=12.5, please update your driver to a newer version,
 or use an earlier cuda container: unknown.
 ```
 
-[CUDA Toolkit 12.5 Update 1 Downloads](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=24.04&target_type=deb_network)
+![nvidia-smi.png](nvidia-smi.png)
 
-```Bash
-wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2404/x86_64/cuda-keyring_1.1-1_all.deb
-sudo dpkg -i cuda-keyring_1.1-1_all.deb
-sudo apt-get update
-sudo apt-get -y install cuda-toolkit-12-5
-```
+3090 Ti 驅動只支援到 535，隨附的 CUDA 是 12.2
+
+![docker-hub.png](docker-hub.png)
+
+但是 docker hub 上的 CUDA for ubuntu 24.04 版本只有 12.5.1，所以...
 
 - 驅動程式版本對應 CUDA 版本
 [cuda-compatibility](https://docs.nvidia.com/deploy/cuda-compatibility/#id1)
