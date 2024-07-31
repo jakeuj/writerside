@@ -165,5 +165,70 @@ See 'docker run --help'.
 sudo usermod -aG docker $(whoami)
 ```
 
+## could not select device driver
+如果出現以下錯誤，表示 Docker 找不到 GPU 驅動程式。需要安裝 NVIDIA Container Toolkit。
+
+```
+docker: Error response from daemon: 
+  could not select device driver "" with capabilities: [[gpu]].
+```
+
+首先你要先裝好驅動程式，如果沒有可以參考這篇筆記 → [Nvidia-Driver](Nvidia-Driver.md)
+
+然後安裝 NVIDIA Container Toolkit，參考官方文件
+[installing-with-apt](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#installing-with-apt)
+
+1. Configure the production repository
+```Bash
+curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg \
+  && curl -s -L https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-container-toolkit.list | \
+    sed 's#deb https://#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://#g' | \
+    sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
+```
+
+2. Update the packages list from the repository
+```Bash
+sudo apt-get update
+```
+
+3. Install the NVIDIA Container Toolkit packages
+```Bash
+sudo apt-get install -y nvidia-container-toolkit
+```
+
+4. Restart the Docker daemon
+```Bash
+sudo nvidia-ctk runtime configure --runtime=docker
+sudo systemctl restart docker
+```
+
+5. Verify the installation
+```Bash
+sudo docker run --rm --gpus all nvidia/cuda:12.5.1-base-ubuntu24.04 nvidia-smi
+```
+
+- 錯誤訊息
+
+```
+nvidia-container-cli: requirement error: 
+unsatisfied condition: cuda>=12.5, please update your driver to a newer version, 
+or use an earlier cuda container: unknown.
+```
+
+[CUDA Toolkit 12.5 Update 1 Downloads](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=24.04&target_type=deb_network)
+
+```Bash
+wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2404/x86_64/cuda-keyring_1.1-1_all.deb
+sudo dpkg -i cuda-keyring_1.1-1_all.deb
+sudo apt-get update
+sudo apt-get -y install cuda-toolkit-12-5
+```
+
+- 驅動程式版本對應 CUDA 版本
+[cuda-compatibility](https://docs.nvidia.com/deploy/cuda-compatibility/#id1)
+
+- Ubuntu 版本對應 CUDA 版本
+[nvidia/cuda](https://hub.docker.com/r/nvidia/cuda/tags?page=&page_size=&ordering=&name=ubuntu24.04)
+
 ## 參考
 [getting-started](https://docs.nvidia.com/nim/large-language-models/latest/getting-started.html)
