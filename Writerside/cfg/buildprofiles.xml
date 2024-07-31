@@ -34,10 +34,7 @@
         <social type="bilibili" href="https://space.bilibili.com/2508649/">Bilibili</social>
         <social type="rss" href="https://www.dotblogs.com.tw/jakeuj/Rss">RSS feed</social>
         <social type="email" href="jakeuj@hotmail.com">Email</social>
-
-        <link href="https://github.com/jakeuj/writerside/issues">Issue</link>
-
-        <copyright>2024 jakeuj@hotmail.com All rights reserved.</copyright>
+        <copyright>2024 Jakeuj. All rights reserved.</copyright>
     </footer>
 
     <build-profile instance="hi">
