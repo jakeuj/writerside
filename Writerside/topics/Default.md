@@ -1,7 +1,5 @@
 # Jakeuj 筆記本
 
-![miku-pre.png](miku-pre.png)
-
 嘗試用 Writerside 來寫筆記看看
 
 <seealso style="cards">
