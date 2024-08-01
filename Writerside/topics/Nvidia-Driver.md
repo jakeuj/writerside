@@ -67,3 +67,7 @@ nvidia-smi
 
 ## 參照
 [Ubuntu LTS如何安裝Nvidia顯示卡驅動、CUDA、cuDNN、NVIDIA Container Toolkit套件](https://ivonblog.com/posts/ubuntu-install-nvidia-drivers/)
+
+[CUDA Toolkit Driver Installer](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=24.04&target_type=deb_network)
+
+![cuda-driver.png](cuda-driver.png)

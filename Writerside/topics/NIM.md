@@ -104,6 +104,15 @@ $response = Invoke-RestMethod -Uri 'http://localhost:8000/v1/chat/completions' `
 $response | ConvertTo-Json -Depth 10
 ```
 
+## 未知的 RoPE (Rotary Position Embedding) scaling 類型 "extended"
+目前 Llama 3.1 的已知問題，會出現以下錯誤，說是會盡快修復。
+
+```
+ValueError: Unknown RoPE scaling type extended
+```
+
+參照： [Meta Llama 3.1 Know Issues & FAQ #6689](https://github.com/vllm-project/vllm/issues/6689)
+
 ## GPU 記憶體不足
 如果出現以下錯誤，表示 GPU 記憶體不足，無法執行模型。
 
