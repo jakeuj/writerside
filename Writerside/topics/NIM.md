@@ -221,13 +221,24 @@ or use an earlier cuda container: unknown.
 
 ![docker-hub.png](docker-hub.png)
 
-但是 docker hub 上的 CUDA for ubuntu 24.04 版本只有 12.5.1，所以...
+所以搜尋 DockerHub 上的 12.2 找到最新版本 nvidia/cuda:12.2.2-base-ubuntu22.04
+
+![cuda12.png](cuda12.png)
+
+再跑一次就可以成功抓到驅動
+
+```Bash
+sudo docker run --rm --gpus all nvidia/cuda:12.2.2-base-ubuntu22.04 nvidia-smi
+```
 
 - 驅動程式版本對應 CUDA 版本
 [cuda-compatibility](https://docs.nvidia.com/deploy/cuda-compatibility/#id1)
 
 - Ubuntu 版本對應 CUDA 版本
 [nvidia/cuda](https://hub.docker.com/r/nvidia/cuda/tags?page=&page_size=&ordering=&name=ubuntu24.04)
+
+## 結論
+需要按照自己顯示卡找到可用的最新驅動版本，再找到對應的 CUDA 版本，最後找到對應的 Docker Image。
 
 ## 參考
 [getting-started](https://docs.nvidia.com/nim/large-language-models/latest/getting-started.html)
