@@ -167,6 +167,8 @@ SYSTEM INFO
 ValueError: Unknown RoPE scaling type extended
 ```
 
+![rope.png](rope.png)
+
 ## 沒有權限訪問 Docker daemon
 我在 Ubuntu 全新安裝 Docker 時，會遇到以下錯誤，表示沒有權限訪問 Docker daemon。
 
