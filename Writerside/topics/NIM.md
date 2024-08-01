@@ -217,28 +217,25 @@ or use an earlier cuda container: unknown.
 
 ![nvidia-smi.png](nvidia-smi.png)
 
-3090 Ti 驅動只支援到 535，隨附的 CUDA 是 12.2
-
-![docker-hub.png](docker-hub.png)
-
-所以搜尋 DockerHub 上的 12.2 找到最新版本 nvidia/cuda:12.2.2-base-ubuntu22.04
-
-![cuda12.png](cuda12.png)
-
-再跑一次就可以成功抓到驅動
+3090 Ti 預設安裝的驅動是 535 版本(CUDA 12.2)，CUDA 12.5 需要 555 版本以上，所以需要更新驅動程式。
 
 ```Bash
-sudo docker run --rm --gpus all nvidia/cuda:12.2.2-base-ubuntu22.04 nvidia-smi
+sudo ubuntu-drivers install nvidia:555
+sudo init 6
 ```
 
-- 驅動程式版本對應 CUDA 版本
-[cuda-compatibility](https://docs.nvidia.com/deploy/cuda-compatibility/#id1)
+更新驅動版本後重新開機應該就可以正常執行 Docker 容器了。
 
-- Ubuntu 版本對應 CUDA 版本
+![nvidia-555.png](nvidia-555.png)
+
+- 驅動程式版本對應 CUDA 版本
+[CUDA Application Compatibility Support Matrix](https://docs.nvidia.com/deploy/cuda-compatibility/#id3)
+
+- Nvidia CUDA Docker Image
 [nvidia/cuda](https://hub.docker.com/r/nvidia/cuda/tags?page=&page_size=&ordering=&name=ubuntu24.04)
 
 ## 結論
-需要按照自己顯示卡找到可用的最新驅動版本，再找到對應的 CUDA 版本，最後找到對應的 Docker Image。
+舊顯卡 (3090 Ti) 也可以安裝最新版驅動 (555)，進而支援最新版本 CUDA (12.5) 和 Docker 容器。
 
 ## 參考
 [getting-started](https://docs.nvidia.com/nim/large-language-models/latest/getting-started.html)
