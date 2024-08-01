@@ -9,6 +9,18 @@ NVIDIA NIM 也提供了預建的容器，方便使用者快速部署大型語言
 特別提到的是，NVIDIA NIM 支持 Llama 3.1 8B-Instruct 模型，
 這是一種優化的語言理解、推理和文本生成用途的模型，超越了許多開源聊天機器人的業界基準。
 
+## 需求
+參照：[prerequisites](https://docs.nvidia.com/nim/large-language-models/latest/getting-started.html#prerequisites)
+
+- NVIDIA GPU
+- CPU: x86_64
+- OS: any Linux distributions (已測試 WSL 與 Ubuntu 24.04)
+- NVIDIA GPU 相容的 CUDA 驅動程式 (不需要 CUDA toolkit 因為 container 已經包含)：[cuda-installation-guide-linux](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/)
+- [Docker](https://docs.docker.com/engine/install/)
+- NVIDIA Container Toolkit：[installing-with-apt](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#installing-the-nvidia-container-toolkit)
+
+![nim-cuda.png](nim-cuda.png)
+
 ## 登入
 使用 Docker 拉取並執行 meta/llama-3_1-8b-instruct（這將下載完整模型並在本機環境中執行）。
 
@@ -104,15 +116,6 @@ $response = Invoke-RestMethod -Uri 'http://localhost:8000/v1/chat/completions' `
 $response | ConvertTo-Json -Depth 10
 ```
 
-## 未知的 RoPE (Rotary Position Embedding) scaling 類型 "extended"
-目前 Llama 3.1 的已知問題，會出現以下錯誤，說是會盡快修復。
-
-```
-ValueError: Unknown RoPE scaling type extended
-```
-
-參照： [Meta Llama 3.1 Know Issues & FAQ #6689](https://github.com/vllm-project/vllm/issues/6689)
-
 ## GPU 記憶體不足
 如果出現以下錯誤，表示 GPU 記憶體不足，無法執行模型。
 
@@ -156,6 +159,13 @@ SYSTEM INFO
       [current utilization: 7%]
 ```
 {ignore-vars="true"}
+
+## 未知的 RoPE (Rotary Position Embedding) scaling 類型 "extended"
+目前 [Meta Llama 3.1 Know Issues & FAQ #6689](https://github.com/vllm-project/vllm/issues/6689)，會出現以下錯誤，說是會盡快修復。
+
+```
+ValueError: Unknown RoPE scaling type extended
+```
 
 ## 沒有權限訪問 Docker daemon
 我在 Ubuntu 全新安裝 Docker 時，會遇到以下錯誤，表示沒有權限訪問 Docker daemon。
