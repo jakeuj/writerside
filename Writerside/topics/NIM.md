@@ -14,7 +14,7 @@ NVIDIA NIM 也提供了預建的容器，方便使用者快速部署大型語言
 
 - NVIDIA GPU
 - CPU: x86_64
-- OS: any Linux distributions (已測試 WSL 與 Ubuntu 24.04)
+- OS: any Linux distributions
 - NVIDIA GPU 相容的 CUDA 驅動程式 (不需要 CUDA toolkit 因為 container 已經包含)：[cuda-installation-guide-linux](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/)
 - [Docker](https://docs.docker.com/engine/install/)
 - NVIDIA Container Toolkit：[installing-with-apt](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#installing-the-nvidia-container-toolkit)
