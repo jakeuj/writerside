@@ -53,6 +53,8 @@ Password: <Your Key>
         nvcr.io/nim/meta/llama3-8b-instruct:1.0.0
     ```
 
+![llama3.png](llama3.png)
+
 - Windows PowerShell
     ```Shell
     # 設定環境變數
