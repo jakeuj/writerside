@@ -50,7 +50,7 @@ Password: <Your Key>
         -v "$LOCAL_NIM_CACHE:/opt/nim/.cache" \
         -u $(id -u) \
         -p 8000:8000 \
-        nvcr.io/nim/meta/llama-3.1-8b-instruct:1.1.0
+        nvcr.io/nim/meta/llama3-8b-instruct:1.0.0
     ```
 
 - Windows PowerShell
@@ -70,7 +70,7 @@ Password: <Your Key>
         -v "$env:LOCAL_NIM_CACHE:/opt/nim/.cache" `
         -u "$((Get-WmiObject -Class Win32_UserAccount | Where-Object {$_.Name -eq $env:USERNAME}).SID)" `
         -p 8000:8000 `
-        nvcr.io/nim/meta/llama-3.1-8b-instruct:1.1.0
+        nvcr.io/nim/meta/llama3-8b-instruct:1.0.0
     ```
 
 ![nim-ps1.png](nim-ps1.png)
@@ -84,7 +84,7 @@ curl -X 'POST' \
 -H 'accept: application/json' \
 -H 'Content-Type: application/json' \
 -d '{
-    "model": "meta/llama-3.1-8b-instruct",
+    "model": "meta/llama3-8b-instruct",
     "messages": [{"role":"user", "content":"可以講中文嗎"}],
     "max_tokens": 64
 }'
@@ -93,7 +93,7 @@ curl -X 'POST' \
 ```Shell
 # 準備請求的數據
 $jsonData = @{
-    model = "meta/llama-3.1-8b-instruct"
+    model = "meta/llama3-8b-instruct"
     messages = @(
         @{
             role = "user"
@@ -159,13 +159,6 @@ SYSTEM INFO
       [current utilization: 7%]
 ```
 {ignore-vars="true"}
-
-## 未知的 RoPE (Rotary Position Embedding) scaling 類型 "extended"
-目前 [Meta Llama 3.1 Know Issues & FAQ #6689](https://github.com/vllm-project/vllm/issues/6689)，會出現以下錯誤，說是會盡快修復。
-
-```
-ValueError: Unknown RoPE scaling type extended
-```
 
 ![rope.png](rope.png)
 
@@ -255,8 +248,15 @@ sudo init 6
 - Nvidia CUDA Docker Image
 [nvidia/cuda](https://hub.docker.com/r/nvidia/cuda/tags?page=&page_size=&ordering=&name=ubuntu24.04)
 
-## 結論
+- 結論
 舊顯卡 (3090 Ti) 也可以安裝最新版驅動 (555)，進而支援最新版本 CUDA (12.5) 和 Docker 容器。
+
+## 未知的 RoPE (Rotary Position Embedding) scaling 類型 "extended"
+目前 [Meta Llama 3.1 Know Issues & FAQ #6689](https://github.com/vllm-project/vllm/issues/6689)，會出現以下錯誤，說是會盡快修復。
+
+```
+ValueError: Unknown RoPE scaling type extended
+```
 
 ## 參考
 [getting-started](https://docs.nvidia.com/nim/large-language-models/latest/getting-started.html)
