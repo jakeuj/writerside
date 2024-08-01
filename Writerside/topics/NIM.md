@@ -118,6 +118,8 @@ $response = Invoke-RestMethod -Uri 'http://localhost:8000/v1/chat/completions' `
 $response | ConvertTo-Json -Depth 10
 ```
 
+![resp.png](resp.png)
+
 ## GPU 記憶體不足
 如果出現以下錯誤，表示 GPU 記憶體不足，無法執行模型。
 
