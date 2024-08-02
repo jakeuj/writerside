@@ -65,6 +65,29 @@ nvidia-smi
 
 ![nvidia-555.png](nvidia-555.png)
 
+## 更新到最新版本驅動
+目前心得是
+
+- 一般使用，不需要特別更新驅動版本，直接用自動安裝即可。 `sudo ubuntu-drivers autoinstall`
+- 需要 CUDA，則需要更新到驅動最新版本，但 Ubuntu 自帶 repo 不包含最新驅動，所以要下載並安裝 NVIDIA CUDA 軟體的密鑰包，然後更新軟體包清單。
+  1. 先到 [CUDA 官網](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=24.04&target_type=deb_network)
+  2. 選擇自己的系統版本
+  3. 安裝方式選 deb (network)
+  4. 執行前三行指令來更新 Ubuntu Repository
+    ```Bash
+    wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2404/x86_64/cuda-keyring_1.1-1_all.deb
+    sudo dpkg -i cuda-keyring_1.1-1_all.deb
+    sudo apt-get update 
+    ```
+  5. 如果不是使用內含 cuda-toolkit 的 container (例如: NIM)，則需要把上一步驟的第四行也一併執行，來安裝 cuda-toolkit
+    ```Bash
+    sudo apt-get -y install cuda-toolkit-12-6
+    ```
+  6. 最後就可以更新到最新版本的 NVIDIA Driver (目前可以安裝到 560 版)
+    ```Bash
+    sudo apt-get install -y nvidia-open
+    ```
+
 ## 參照
 [Ubuntu LTS如何安裝Nvidia顯示卡驅動、CUDA、cuDNN、NVIDIA Container Toolkit套件](https://ivonblog.com/posts/ubuntu-install-nvidia-drivers/)
 

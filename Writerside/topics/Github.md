@@ -20,7 +20,7 @@
       - 預設 instanceID 為 hi, 因此預設值為： webhelpHI2-all.zip
       - 例如 instanceID 為 fh, 因此須跟新為： webhelpFH2-all.zip
    - DOCKER_VERSION：需更新到程式版本對應的 Docker image 版號
-     - 2024.01.233.14389 - Writerside | JetBrains Marketplace
+     - 2024.01.233.14389 - [DOCKER_VERSION](https://www.jetbrains.com/help/writerside/deploy-docs-to-github-pages.html#env.DOCKER_VERSION)
    - ALGOLIA_ARTIFACT：須將 instanceID 轉大寫之後填入 $"algolia-indexes-{ID}.zip"
      - 預設 instanceID 為 hi, 因此預設值為： algolia-indexes-ID.zip
      - 例如 instanceID 為 fh, 因此須跟新為： algolia-indexes-FH.zip
