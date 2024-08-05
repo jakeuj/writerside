@@ -53,4 +53,4 @@ ABP Studio 在背景中定期檢查更新，當ABP Studio的新版本可用時�
 4. 按一下「安裝並重新啟動」按鈕以完成安裝程序。
 
 ## 結果
-![abp-studio.png](abp-studio.png)
+![abp-studio-rider.png](abp-studio-rider.png)
