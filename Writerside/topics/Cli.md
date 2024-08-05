@@ -4,15 +4,28 @@ Start typing here...
 
 ## Install
 
+- 新版 (8.2 版以上)
 ```Shell
-dotnet install tool -g Volo.Abp.Cli
+dotnet tool install -g Volo.Abp.Studio.Cli 
+```
+
+- 舊版
+
+```Shell
+dotnet tool install -g Volo.Abp.Cli
 ```
 
 ## Update
 
-```Shell
-dotnet update tool -g Volo.Abp.Cli
-```
+- 新版 (8.2 版以上)
+    ```Shell
+    dotnet tool update -g Volo.Abp.Studio.Cli 
+    ```
+
+- 舊版
+    ```Shell
+    dotnet tool update -g Volo.Abp.Cli
+    ```
 
 ## Usage
 
@@ -23,7 +36,7 @@ abp new MyProject
 ## Samples
 
 ```Shell
-abp new Jakeuj.TestProj -t app-nolayers -dbms PostgreSQL --theme basic -csf 
+abp new Jake.Proj -t app-nolayers -dbms PostgreSQL --theme basic -csf 
 ```
 
 ## 專案名稱
