@@ -1,31 +1,26 @@
 # Cli
 
-Start typing here...
+8.2 版把部分功能鎖起來要付費 (所以沒事可以用 8.1 版？)
+
+Example: --tiered
+```
+需要 團隊 或更高級別的許可證才能使用此選項。
+Auth Server 專案作為一個單獨的專案並在不同的端點上運行。
+它將身份驗證伺服器與 API 主機應用程式分開。
+如果未指定，您將在伺服器端有一個端點。 
+```
 
 ## Install
 
-- 新版 (8.2 版以上)
 ```Shell
-dotnet tool install -g Volo.Abp.Studio.Cli 
-```
-
-- 舊版
-
-```Shell
-dotnet tool install -g Volo.Abp.Cli
+dotnet tool install -g Volo.Abp.Cli --version "8.1.*"
 ```
 
 ## Update
 
-- 新版 (8.2 版以上)
-    ```Shell
-    dotnet tool update -g Volo.Abp.Studio.Cli 
-    ```
-
-- 舊版
-    ```Shell
-    dotnet tool update -g Volo.Abp.Cli
-    ```
+```Shell
+dotnet tool update -g Volo.Abp.Cli --version "8.1.*"
+```
 
 ## Usage
 
@@ -37,6 +32,10 @@ abp new MyProject
 
 ```Shell
 abp new Jake.Proj -t app-nolayers -dbms PostgreSQL --theme basic -csf 
+```
+
+```Shell
+abp new Jake.Proj -u mvc --tiered --version 8.1.* -csf
 ```
 
 ## 專案名稱
@@ -55,5 +54,6 @@ AbpModule.cs
 然後會報錯
 
 ## Ref
-- [Cli](https://docs.abp.io/en/abp/latest/CLI)
+- [Cli latest](https://docs.abp.io/en/abp/latest/CLI)
+- [Cli 8.1](https://abp.io/docs/8.1/cli)
 - [生成式範本](https://abp.io/get-started)
