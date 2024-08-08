@@ -41,6 +41,7 @@
             </toc-element>
         </toc-element>
         <toc-element topic="Git.md">
+            <toc-element topic="Switch-Account.md"/>
             <toc-element topic="detected-dubious-ownership.md"/>
             <toc-element topic="Changing-author-info.md"/>
         </toc-element>
