@@ -35,7 +35,7 @@ abp new Jake.Proj -t app-nolayers -dbms PostgreSQL --theme basic -csf
 ```
 
 ```Shell
-abp new Jake.Proj -u mvc --tiered --version 8.1.* -csf
+abp new Jake.Proj -u mvc --tiered --version 8.1.5 -csf
 ```
 
 ## 專案名稱
