@@ -1,6 +1,6 @@
 # Cli
 
-8.2 版把部分功能鎖起來要付費 (所以沒事可以用 8.1 版？)
+8.2 版把部分功能鎖起來要付費 (所以沒事可以用 8.1.x 版？)
 
 Example: --tiered
 ```
@@ -29,16 +29,22 @@ abp new MyProject
 ```
 
 ## Samples
+- v8.1.5
+    ```Shell
+    abp new MyProject -v 8.1.5
+    ```
+- 比較不同的模板
+    ```Shell
+    $projectName = "MyProject"
+    
+    abp new $projectName -u mvc -o mvc --tiered
+    abp new $projectName -u blazor-server -o blazor-server --tiered
+    abp new $projectName -u angular -o angular --separate-auth-server
+    abp new $projectName -u blazor -o blazor --separate-auth-server
+    abp new $projectName -u none -o none --separate-auth-server
+    ```
 
-```Shell
-abp new Jake.Proj -t app-nolayers -dbms PostgreSQL --theme basic -csf 
-```
-
-```Shell
-abp new Jake.Proj -u mvc --tiered --version 8.1.5 -csf
-```
-
-## 專案名稱
+## 專案名稱問題
 不能是 ABP，也不能是 CompanyName.Abp
 
 因為 template 會用最後的 Abp 來當作 Module 名稱
@@ -49,7 +55,7 @@ abp new Jake.Proj -u mvc --tiered --version 8.1.5 -csf
 
 AbpModule.cs
 
-`    AbpModule : AbpModule`
+`AbpModule : AbpModule`
 
 然後會報錯
 
