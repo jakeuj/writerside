@@ -8,7 +8,7 @@ Vue3 是 Vue.js 的下一代版本，它的目標是提供更快的渲染速度�
 
 [官方文件](https://zh-hk.vuejs.org/guide/quick-start)
 
-根據文件需要先準備 Node.js
+根據文件需要先準備 [Node.js](Node-js.md)
 
 [Node.js](https://nodejs.org/zh-cn/learn/getting-started/how-to-install-nodejs)
 

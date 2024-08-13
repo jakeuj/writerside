@@ -18,4 +18,8 @@
         <description>Created after removal of "variables" from Jakeuj's Notes</description>
         <accepts>variables.html</accepts>
     </rule>
+    <rule id="573e7e62">
+        <description>Created after removal of "Create Project" from Jakeuj's Notes</description>
+        <accepts>Create-Project.html</accepts>
+    </rule>
 </rules>
