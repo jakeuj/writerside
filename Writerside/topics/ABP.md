@@ -2,6 +2,18 @@
 
 ASP.NET Boilerplate Project
 
+
+## 需求
+
+* [Rider](https://www.jetbrains.com/rider/download/#section=windows) / Visual Studio 2022 (v17.3+) for Windows / Visual Studio for Mac. 1
+* [.NET 8.0+](https://dotnet.microsoft.com/zh-tw/download/dotnet/8.0)
+* [Node](Node-js.md) v16 or v18
+* [Yarn v1.20+](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable) (not v2) 2 or npm v6+ (already installed with Node)
+* [Redis](Redis.md) (as the distributed cache).
+
+### 備註
+用 Studio 建立專案會自動使用 Docker 執行 Redis 並建立 network
+
 ## 安裝
 目前正值改版，目前版本 Suite 裡面會建議去使用 Studio，但實際上 Studio 目前則是測試版本...
 

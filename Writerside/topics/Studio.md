@@ -2,6 +2,27 @@
 
 ABP 最近整了一個圖形化介面工具箱，叫做 Studio，可以用來快速建立專案、模組、頁面、服務等等。
 
+## 需求
+
+* [Rider](https://www.jetbrains.com/rider/download/#section=windows) / Visual Studio 2022 (v17.3+) for Windows / Visual Studio for Mac. 1
+* [.NET 8.0+](https://dotnet.microsoft.com/zh-tw/download/dotnet/8.0)
+* [Node](Node-js.md) v16 or v18
+* [Yarn v1.20+](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable) (not v2) 2 or npm v6+ (already installed with Node)
+* Docker
+
+以上需求沒有達成則會導致建立專案實缺胳膊少腿，比如無法用 Yarn 安裝 js lib，無法建立 Redis 服務...等等
+
+## Redis
+用 Studio 建立專案會自動使用 Docker 執行 Redis 並建立 network，所以不用自己跑 docker run redis 相關指令來起 Redis 服務
+
+前提是有先把 Docker Engine 跑起來，以 Windows 來說就是開機要先打開 Docker Desktop
+
+如果自己建立 redis container，會導致 Studio 的 docker 相依性作業失敗 (無法建立同名容器 `Redis`)
+
+這可能是為了使用 K8S，所以 Studio 會用一個 ps1 腳本來自動建立 Redis 容器與網路
+
+如果沒有用 Business 版本以上，自己 docker run redis 也是可以的 (記得 -p 6379:6379 開放訪問 Redis Server)
+
 ## Node.js
 ABP Studio 需要 Node.js 版本為 v16 或 v18
 
