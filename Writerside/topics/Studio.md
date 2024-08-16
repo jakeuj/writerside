@@ -78,4 +78,13 @@ ABP Studio 在背景中定期檢查更新，當ABP Studio的新版本可用時�
 4. 按一下「安裝並重新啟動」按鈕以完成安裝程序。
 
 ## 結果
+- 工具箱：用來建立與執行方案
 ![abp-studio-rider.png](abp-studio-rider.png)
+- Docker-Dependencies：用來建立 Redis 服務
+![abp-docker.png](abp-docker.png)
+- Auth Server：用來建立身分驗證服務
+![abp-auth.png](abp-auth.png)
+- Swagger：用來建立 API 文件
+![abp-swagger](abp-swagger.png)
+- Blazor WebApp：提供管理介面，例如使用者、角色、權限、OpenId(OAuth)、設定(類似 appsettings.json)、多語言、審計(登入紀錄)...等等
+![abp-blazor.png](abp-blazor.png)
