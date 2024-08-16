@@ -31,7 +31,6 @@ ASP.NET Boilerplate Project
   sqllocaldb create mssqllocaldb
   ```
 
-
 ## 安裝
 目前正值改版，目前版本 Suite 裡面會建議去使用 Studio，但實際上 Studio 目前則是測試版本...
 
@@ -44,3 +43,9 @@ ASP.NET Boilerplate Project
   - 付費版：[Suite](Install-8-1.md)
 - 8.2 以上：[Studio](Studio.md)
 
+## Maui
+如果有選 Maui 需要安裝以下套件
+
+```Shell
+sudo dotnet workload install maui
+```
