@@ -10,7 +10,7 @@ ABP 最近整了一個圖形化介面工具箱，叫做 Studio，可以用來快
 * [Yarn v1.20+](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable) (not v2) 2 or npm v6+ (already installed with Node)
 * Docker
 
-以上需求沒有達成則會導致建立專案實缺胳膊少腿，比如無法用 Yarn 安裝 js lib，無法建立 Redis 服務...等等
+以上需求沒有達成則會導致建立專案缺東西，比如無法用 Yarn 安裝 js lib，無法建立 Redis 服務...等等
 
 ## Redis
 用 Studio 建立專案會自動使用 Docker 執行 Redis 並建立 network，所以不用自己跑 docker run redis 相關指令來起 Redis 服務
@@ -22,6 +22,8 @@ ABP 最近整了一個圖形化介面工具箱，叫做 Studio，可以用來快
 這可能是為了使用 K8S，所以 Studio 會用一個 ps1 腳本來自動建立 Redis 容器與網路
 
 如果沒有用 Business 版本以上，自己 docker run redis 也是可以的 (記得 -p 6379:6379 開放訪問 Redis Server)
+
+或是把 redis container 與 network 刪除，再用 Studio 執行方案內的 docker-dependencies 項目
 
 ## Node.js
 ABP Studio 需要 Node.js 版本為 v16 或 v18
