@@ -25,6 +25,8 @@ ABP 最近整了一個圖形化介面工具箱，叫做 Studio，可以用來快
 
 或是把 redis container 與 network 刪除，再用 Studio 執行方案內的 docker-dependencies 項目
 
+![docker-rm-net.png](docker-rm-net.png)
+
 ## Node.js
 ABP Studio 需要 Node.js 版本為 v16 或 v18
 
