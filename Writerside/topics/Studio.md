@@ -77,6 +77,35 @@ ABP Studio 在背景中定期檢查更新，當ABP Studio的新版本可用時�
 3. 下載完成後，會出現新的模組，並顯示「安裝和重新啟動」按鈕。
 4. 按一下「安裝並重新啟動」按鈕以完成安裝程序。
 
+## Docker Dependencies
+啟動時會建立 Redis，停止時會移除 Redis
+
+```
+2024/8/16 下午 02:22:10  [Information] ./up.ps1 exited with code: 0
+2024/8/16 下午 02:22:10  [Information] time="2024-08-16T14:22:08+08:00" 
+    level=warning msg="D:\\repos\\AbpSolution8\\etc\\docker\\
+    docker-compose.infrastructure.yml: 
+        the attribute `version` is obsolete, it will be ignored, 
+        please remove it to avoid potential confusion"
+ Container redis  Creating
+ Container redis  Created
+ Container redis  Starting
+ Container redis  Started
+
+2024/8/16 下午 02:22:10  [Information] 4f5a3273127e7ff341a965fa72435c446
+
+2024/8/16 下午 04:32:17  [Information] ./down.ps1 exited with code: 0
+2024/8/16 下午 04:32:17  [Information] time="2024-08-16T16:32:15+08:00" 
+    level=warning msg="D:\\repos\\AbpSolution8\\etc\\docker\\
+    docker-compose.infrastructure.yml: 
+        the attribute `version` is obsolete, it will be ignored, 
+        please remove it to avoid potential confusion"
+ Container redis  Stopping
+ Container redis  Stopped
+ Container redis  Removing
+ Container redis  Removed
+```
+
 ## 結果
 - 工具箱：用來建立與執行方案
 ![abp-studio-rider.png](abp-studio-rider.png)
