@@ -11,8 +11,12 @@ ASP.NET Boilerplate Project
 * [Yarn v1.20+](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable) (not v2) 2 or npm v6+ (already installed with Node)
 * [Redis](Redis.md) (as the distributed cache).
 
-### 備註
+### Redis
 用 Studio 建立專案會自動使用 Docker 執行 Redis 並建立 network
+
+### LocalDB
+用 Studio 建立專案會自動使用 LocalDB，理論上 VS 2022 會自動安裝 LocalDB，但如果沒有安裝的話可以參考以下連結安裝
+[下載MSSQL-Express安裝LocalDB](https://blog.miniasp.com/post/2020/02/16/install-and-upgrade-sql-server-express-localdb)
 
 ## 安裝
 目前正值改版，目前版本 Suite 裡面會建議去使用 Studio，但實際上 Studio 目前則是測試版本...
