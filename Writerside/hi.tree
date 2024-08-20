@@ -92,6 +92,7 @@
             </toc-element>
             <toc-element topic="HttpClient.md"/>
             <toc-element topic="Rider.md">
+                <toc-element topic="指定-dotnet-SDK-版本.md"/>
                 <toc-element topic="PowerShell.md"/>
                 <toc-element topic="MatchCase.md"/>
             </toc-element>
