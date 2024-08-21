@@ -16,7 +16,7 @@ ABP 最近整了一個圖形化介面工具箱，叫做 Studio，可以用來快
 用 Studio 建立專案會自動使用 Docker 執行 Redis 並建立 network，所以不用自己跑 docker run redis 相關指令來起 Redis 服務
 
 ```Shell
-docker network create testproj --label=testproj
+docker network create abpsolution6 --label=abpsolution6
 docker-compose -f docker-compose.infrastructure.yml up -d
 exit $LASTEXITCODE
 ```
@@ -32,6 +32,22 @@ exit $LASTEXITCODE
 或是把 redis container 與 network 刪除，再用 Studio 執行方案內的 docker-dependencies 項目
 
 ![docker-rm-net.png](docker-rm-net.png)
+
+## network
+在您的 docker-compose.infrastructure.yml 文件中，abpsolution6 網路被設置為 external: true， 
+這表示這個網路是外部創建的，而不是由該 Docker Compose 文件自動管理。
+
+因此，當您執行 docker-compose -f docker-compose.infrastructure.yml down 時，Docker Compose 不會移除這個網路，
+因為它認為這個網路是由外部系統或手動創建並管理的，而不是屬於這個 Docker Compose 場景的一部分。
+
+手動移除網路: 您可以在執行 docker-compose down 後手動移除該網路，命令如下：
+    
+```Shell
+docker network list
+docker network rm abpsolution6
+```
+
+## Rider
 
 Rider 可以加入 PowerShell 腳本，用來執行 docker-compose.infrastructure.yml
 
