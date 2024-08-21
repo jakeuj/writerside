@@ -15,6 +15,12 @@ ABP 最近整了一個圖形化介面工具箱，叫做 Studio，可以用來快
 ## Redis
 用 Studio 建立專案會自動使用 Docker 執行 Redis 並建立 network，所以不用自己跑 docker run redis 相關指令來起 Redis 服務
 
+```Shell
+docker network create testproj --label=testproj
+docker-compose -f docker-compose.infrastructure.yml up -d
+exit $LASTEXITCODE
+```
+
 前提是有先把 Docker Engine 跑起來，以 Windows 來說就是開機要先打開 Docker Desktop
 
 如果自己建立 redis container，會導致 Studio 的 docker 相依性作業失敗 (無法建立同名容器 `Redis`)
