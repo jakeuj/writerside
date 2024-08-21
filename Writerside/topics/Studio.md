@@ -33,6 +33,10 @@ exit $LASTEXITCODE
 
 ![docker-rm-net.png](docker-rm-net.png)
 
+Rider 可以加入 PowerShell 腳本，用來執行 docker-compose.infrastructure.yml
+
+![rider-ps1.png](rider-ps1.png)
+
 ## Node.js
 ABP Studio 需要 Node.js 版本為 v16 或 v18
 
