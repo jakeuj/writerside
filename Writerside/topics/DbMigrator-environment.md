@@ -55,3 +55,8 @@ export DOTNET_ENVIRONMENT=Development
 這樣就可以在不同環境下使用不同的設定檔了。
 
 ![run-proj.png](run-proj.png)
+
+## 注意
+使用 Azure 時，如果連線字串包含建立資料庫權限，預設會自動建立一個新的挺貴的資料庫，所以要特別注意。
+
+換句話說，請先於 Azure Portal 中建立好資料庫，再將連線字串貼到 appsettings.json 中。
