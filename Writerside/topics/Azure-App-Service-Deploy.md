@@ -11,7 +11,7 @@
 ## 其他
 修改對應設定，尤其 DbMigrator 的設定，確保執行 Seed Data 時， DB 是正確的值，不然可能要手動修正 DB 與 Redis 的資料。
 
-1. Azure App Service 環境變數
+1. Azure App Service 環境變數 (**部署位置設定** 記得勾起來)
     - ASPNETCORE_ENVIRONMENT (Production, Staging, Dev)
     - Redis:Configuration
     - ConnectionStrings:Default
@@ -23,6 +23,8 @@
    - OpenIddict:Applications:{App}:RootUrl
    - RemoteServices:Default:BaseUrl
    - RemoteServices:AbpAccountPublic:BaseUrls
+
+**部署位置設定** 意思是在 Azure App Service 做 Swap 時，設定值會固定在原本的網站，反過來說就是如果沒有打勾，Swap 後設定值會跟著移動。
 
 ## 範例
 - authserver.pfx
