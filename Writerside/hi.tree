@@ -28,6 +28,7 @@
             <toc-element topic="Cli.md"/>
             <toc-element topic="Testing.md"/>
         </toc-element>
+        <toc-element topic="Azure-App-Service-Deploy.md"/>
         <toc-element topic="Azure.md">
             <toc-element topic="AI-Search-Service.md"/>
             <toc-element topic="App-Service-for-Container.md"/>
