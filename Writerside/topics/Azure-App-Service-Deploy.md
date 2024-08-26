@@ -8,6 +8,22 @@
 3. 在 Azure App Service 的 證書 選擇 `攜帶您自己的憑證` 並上傳 `authserver.pfx` 檔案，其中密碼為 `passPhrase` 變數的值
 4. 在 Azure App Service 的 環境變數 中新增 `WEBSITE_LOAD_CERTIFICATES` = `*` ，這樣就可以讓 Azure App Service 讀取到該憑證。
 
+## 其他
+修改對應設定，尤其 DbMigrator 的設定，確保執行 Seed Data 時， DB 是正確的值，不然可能要手動修正 DB 與 Redis 的資料。
+
+1. Azure App Service 環境變數
+    - ASPNETCORE_ENVIRONMENT (Production, Staging, Dev)
+    - Redis:Configuration
+    - ConnectionStrings:Default
+2. appsetting.{ENVIRONMENT}.json
+   - App:SelfUrl
+   - App:CorsOrigins
+   - App:RedirectAllowedUrls
+   - AuthServer:Authority
+   - OpenIddict:Applications:{App}:RootUrl
+   - RemoteServices:Default:BaseUrl
+   - RemoteServices:AbpAccountPublic:BaseUrls
+
 ## 範例
 - authserver.pfx
 - passPhrase = "xxxxxxxxxxxx"
