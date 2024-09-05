@@ -24,34 +24,39 @@ context.Add(
 UI 設定時的判斷順序為：使用者層級設定 -> 全域設定 -> 租戶設定
 
 ```mermaid
-graph TD
+graph LR
     A[UI 設定判斷] --> B[使用者層級設定]
     B -->|有設定| C[使用者設定應用]
     B -->|無設定| D[全域設定]
     D -->|有設定| E[全域設定應用]
     D -->|無設定| F[租戶設定]
     F -->|有設定| G[租戶設定應用]
-    F -->|無設定| H[無設定應用]
+    F -->|無設定| E
 ```
 
 ### 參照
 [SettingUiAppService.cs#L180-L183](https://github.com/EasyAbp/Abp.SettingUi/blob/42a639bc918184bad67194a27565012d97db8a3c/src/EasyAbp.Abp.SettingUi.Application/SettingUiAppService.cs#L180-L183)
 ```C#
-protected virtual Task SetSettingAsync(SettingDefinition setting, [CanBeNull] string value)
+protected virtual Task SetSettingAsync(
+    SettingDefinition setting, [CanBeNull] string value)
 {
-    if (setting.Providers.Any(p => p == UserSettingValueProvider.ProviderName))
+    if (setting.Providers
+        .Any(p => p == UserSettingValueProvider.ProviderName))
     {
-        return _settingManager.SetForCurrentUserAsync(setting.Name, value);
+        return _settingManager
+            .SetForCurrentUserAsync(setting.Name, value);
     }
 
-    if (setting.Providers.Any(p => p == GlobalSettingValueProvider.ProviderName))
+    if (setting.Providers
+        .Any(p => p == GlobalSettingValueProvider.ProviderName))
     {
         return _settingManager.SetGlobalAsync(setting.Name, value);
     }
 
     return ShouldManageAsGlobal(setting)
         ? _settingManager.SetGlobalAsync(setting.Name, value)
-        : _settingManager.SetForCurrentTenantAsync(setting.Name, value);
+        : _settingManager
+            .SetForCurrentTenantAsync(setting.Name, value);
 }
 ```
 
