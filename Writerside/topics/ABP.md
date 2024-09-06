@@ -10,6 +10,7 @@ ASP.NET Boilerplate Project
 * [Node](Node-js.md) v16 or v18
 * [Yarn v1.20+](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable) (not v2) 2 or npm v6+ (already installed with Node)
 * [Redis](Redis.md) (as the distributed cache).
+  * [Docker](https://docs.docker.com/desktop/install/windows-install/) 用來自動生成 Rides 服務
 
 ### Redis
 用 Studio 建立專案會自動使用 Docker 執行 Redis 並建立 network
