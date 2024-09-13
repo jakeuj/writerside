@@ -31,24 +31,20 @@ dotnet tool update -g Volo.Abp.Cli --version "8.1.*"
 ## Usage
 
 ```Shell
-abp new MyProject
+abp new MyProject -v 8.1.5
 ```
 
-## Samples
-- v8.1.5
-    ```Shell
-    abp new MyProject -v 8.1.5
-    ```
-- 比較不同的模板
-    ```Shell
-    $projectName = "MyProject"
-    
-    abp new $projectName -u mvc -o mvc --tiered
-    abp new $projectName -u blazor-server -o blazor-server --tiered
-    abp new $projectName -u angular -o angular --separate-auth-server
-    abp new $projectName -u blazor -o blazor --separate-auth-server
-    abp new $projectName -u none -o none --separate-auth-server
-    ```
+## 比較不同的模板
+```Shell
+$project = "MyProject"
+$version = "8.1.5"
+
+abp new $project -v $version -u mvc -o m --tiered
+abp new $project -v $version -u bs -o blazor-server --tiered
+abp new $project -v $version -u angular -o a --separate-auth-server
+abp new $project -v $version -u blazor -o b --separate-auth-server
+abp new $project -v $version -u none -o n --separate-auth-server
+```
 
 ## 專案名稱問題
 不能是 ABP，也不能是 CompanyName.Abp
