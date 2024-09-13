@@ -46,6 +46,13 @@ abp new $project -v $version -u blazor -o b --separate-auth-server
 abp new $project -v $version -u none -o n --separate-auth-server
 ```
 
+### skip-installing-libs
+單純看後端程式碼可以加上 -sib 跳過安裝客戶端軟體包，省去下載幾萬的檔案
+    
+```Shell
+abp new $project -v $version -u mvc -o m --tiered -sib
+```
+
 ## 專案名稱問題
 不能是 ABP，也不能是 CompanyName.Abp
 
