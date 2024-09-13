@@ -10,6 +10,12 @@ Auth Server 專案作為一個單獨的專案並在不同的端點上運行。
 如果未指定，您將在伺服器端有一個端點。 
 ```
 
+## Dotnet
+
+```Shell
+winget install Microsoft.DotNet.SDK.8
+```
+
 ## Install
 
 ```Shell

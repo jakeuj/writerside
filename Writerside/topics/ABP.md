@@ -12,6 +12,12 @@ ASP.NET Boilerplate Project
 * [Redis](Redis.md) (as the distributed cache).
   * [Docker](https://docs.docker.com/desktop/install/windows-install/) 用來自動生成 Rides 服務
 
+### Dotnet
+
+```Shell
+winget install Microsoft.DotNet.SDK.8
+```
+
 ### Redis
 用 Studio 建立專案會自動使用 Docker 執行 Redis 並建立 network
 
