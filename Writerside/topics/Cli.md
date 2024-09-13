@@ -40,7 +40,7 @@ $project = "MyProject"
 $version = "8.1.5"
 
 abp new $project -v $version -u mvc -o m --tiered
-abp new $project -v $version -u bs -o blazor-server --tiered
+abp new $project -v $version -u blazor-server -o bs --tiered
 abp new $project -v $version -u angular -o a --separate-auth-server
 abp new $project -v $version -u blazor -o b --separate-auth-server
 abp new $project -v $version -u none -o n --separate-auth-server
