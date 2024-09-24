@@ -11,6 +11,7 @@
         <toc-element href="https://www.dotblogs.com.tw/jakeuj/" toc-title="原筆記(點部落)"/>
         <toc-element topic="links.md"/>
         <toc-element topic="ABP.md">
+            <toc-element topic="OpenIddict.md"/>
             <toc-element topic="Azure-App-Service-Deploy.md"/>
             <toc-element topic="EasyAbp.md">
                 <toc-element topic="SettingUi.md"/>
