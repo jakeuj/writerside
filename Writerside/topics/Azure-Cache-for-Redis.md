@@ -30,11 +30,15 @@
    - 本地端連線 Redis：貼上剛才複製的連線字串
 
 ## 備註
-目前測試 Redis 不開公開連線時，需要設定私人端點，並且修改連線字串，加上 `privatelink`
+目前測試 Redis 不開公開連線時，需要設定私人端點，並且修改連線字串，加上 `sslHost`
 
-- 公開外網
-   - Redis=xxx.redis.cache.windows.net
-   - DB=xxx.database.windows.net
+- 主機名稱
+    - Redis=xxx.redis.cache.windows.net
 - 私人端點
-   - Redis=xxx.privatelink.redis.cache.windows.net
-   - DB=xxx.privatelink.database.windows.net
+    - Redis=xxx.privatelink.redis.cache.windows.net
+
+- 連線字串
+   - `Test.privatelink.redis.cache.windows.net:6380,password=XXX,ssl=True,abortConnect=False,sslHost=Test.privatelink.redis.cache.windows.net`
+
+主要是要加上 `sslHost=Test.privatelink.redis.cache.windows.net`, 不然會顯示憑證不符合主機名稱的錯誤導致連不到 Redis
+

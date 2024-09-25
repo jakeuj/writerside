@@ -12,7 +12,7 @@
     "Default": "Server=tcp:Test-sqlserver.privatelink.database.windows.net,1433;Initial Catalog=XXX;Persist Security Info=False;User ID=XXX;Password=XXX;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
   },
   "Redis": {
-    "Configuration": "XXX.redis.cache.windows.net:6380,password=XXX,ssl=True,abortConnect=False"
+    "Configuration": "Test.privatelink.redis.cache.windows.net:6380,password=XXX,ssl=True,abortConnect=False,sslHost=Test.privatelink.redis.cache.windows.net"
   },
   "OpenIddict": {
     "Applications": {
@@ -41,7 +41,7 @@
     "Default": "Server=tcp:Test-sqlserver.privatelink.database.windows.net,1433;Initial Catalog=Test;Persist Security Info=False;User ID=XXX;Password=XXX;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
   },
   "Redis": {
-    "Configuration": "Test.privatelink.redis.cache.windows.net:6380,password=XXX,ssl=True,abortConnect=False"
+    "Configuration": "Test.privatelink.redis.cache.windows.net:6380,password=XXX,ssl=True,abortConnect=False,sslHost=Test.privatelink.redis.cache.windows.net"
   }
 }
 ```
@@ -58,7 +58,7 @@
     "Default": "Server=tcp:Test-sqlserver.privatelink.database.windows.net,1433;Initial Catalog=Test;Persist Security Info=False;User ID=XXX;Password=XXX;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
   },
   "Redis": {
-    "Configuration": "Test.privatelink.redis.cache.windows.net:6380,password=XXX,ssl=True,abortConnect=False"
+    "Configuration": "Test.privatelink.redis.cache.windows.net:6380,password=XXX,ssl=True,abortConnect=False,sslHost=Test.privatelink.redis.cache.windows.net"
   },
   "AuthServer": {
     "Authority": "https://Auth.azurewebsites.net",
@@ -83,7 +83,7 @@
     }
   },
   "Redis": {
-    "Configuration": "Test.privatelink.redis.cache.windows.net:6380,password=XXX,ssl=True,abortConnect=False"
+    "Configuration": "Test.privatelink.redis.cache.windows.net:6380,password=XXX,ssl=True,abortConnect=False,sslHost=Test.privatelink.redis.cache.windows.net"
   },
   "AuthServer": {
     "Authority": "https://Auth.azurewebsites.net"
@@ -92,11 +92,4 @@
 ```
 
 ## 備註
-目前測試 Redis 不開公開連線時，需要設定私人端點，並且修改連線字串，加上 `privatelink`
-
-- 公開外網
-  - DB=xxx.database.windows.net
-  - Redis=xxx.redis.cache.windows.net
-- 私人端點
-  - DB=xxx.privatelink.database.windows.net
-  - Redis=xxx.privatelink.redis.cache.windows.net
+[Azure Redis SSL 問題](Azure-Cache-for-Redis.md)
