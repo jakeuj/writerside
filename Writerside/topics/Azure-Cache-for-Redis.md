@@ -28,3 +28,7 @@
    - 到 虛擬網路(VNet) 找到 Redis 私人端點的內網 IP 
    - C:\Windows\System32\drivers\etc\hosts 新增內網 IP 與 Redis 名稱的對應
    - 本地端連線 Redis：貼上剛才複製的連線字串
+
+## 備註
+Redis 只開私人端點時須使用 xxxxxxx.privatelink.redis.cache.windows.net
+如果全開走外網也是連得到就是了 xxxxxxx.redis.cache.windows.net

@@ -41,7 +41,7 @@
     "Default": "Server=tcp:Test-sqlserver.database.windows.net,1433;Initial Catalog=Test;Persist Security Info=False;User ID=XXX;Password=XXX;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
   },
   "Redis": {
-    "Configuration": "Test.redis.cache.windows.net:6380,password=XXX,ssl=True,abortConnect=False"
+    "Configuration": "Test.privatelink.redis.cache.windows.net:6380,password=XXX,ssl=True,abortConnect=False"
   }
 }
 ```
@@ -58,7 +58,7 @@
     "Default": "Server=tcp:Test-sqlserver.database.windows.net,1433;Initial Catalog=Test;Persist Security Info=False;User ID=XXX;Password=XXX;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
   },
   "Redis": {
-    "Configuration": "Test.redis.cache.windows.net:6380,password=XXX,ssl=True,abortConnect=False"
+    "Configuration": "Test.privatelink.redis.cache.windows.net:6380,password=XXX,ssl=True,abortConnect=False"
   },
   "AuthServer": {
     "Authority": "https://Auth.azurewebsites.net",
@@ -83,10 +83,14 @@
     }
   },
   "Redis": {
-    "Configuration": "Test.redis.cache.windows.net:6380,password=XXX,ssl=True,abortConnect=False"
+    "Configuration": "Test.privatelink.redis.cache.windows.net:6380,password=XXX,ssl=True,abortConnect=False"
   },
   "AuthServer": {
     "Authority": "https://Auth.azurewebsites.net"
   }
 }
 ```
+
+## 備註
+Redis 只開私人端點時須使用 xxxxxxx.privatelink.redis.cache.windows.net
+如果全開走外網也是連得到就是了 xxxxxxx.redis.cache.windows.net
