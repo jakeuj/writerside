@@ -30,5 +30,11 @@
    - 本地端連線 Redis：貼上剛才複製的連線字串
 
 ## 備註
-Redis 只開私人端點時須使用 xxxxxxx.privatelink.redis.cache.windows.net
-如果全開走外網也是連得到就是了 xxxxxxx.redis.cache.windows.net
+目前測試 Redis 不開公開連線時，需要設定私人端點，並且修改連線字串，加上 `privatelink`
+
+- 公開外網
+   - Redis=xxx.redis.cache.windows.net
+   - DB=xxx.database.windows.net
+- 私人端點
+   - Redis=xxx.privatelink.redis.cache.windows.net
+   - DB=xxx.privatelink.database.windows.net

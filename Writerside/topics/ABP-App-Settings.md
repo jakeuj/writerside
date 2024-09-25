@@ -9,7 +9,7 @@
 ```json
 {
   "ConnectionStrings": {
-    "Default": "Server=tcp:XXX-sqlserver.database.windows.net,1433;Initial Catalog=XXX;Persist Security Info=False;User ID=XXX;Password=XXX;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+    "Default": "Server=tcp:Test-sqlserver.privatelink.database.windows.net,1433;Initial Catalog=XXX;Persist Security Info=False;User ID=XXX;Password=XXX;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
   },
   "Redis": {
     "Configuration": "XXX.redis.cache.windows.net:6380,password=XXX,ssl=True,abortConnect=False"
@@ -38,7 +38,7 @@
     "RedirectAllowedUrls": "https://Swagger.azurewebsites.net,https://Web.azurewebsites.net"
   },
   "ConnectionStrings": {
-    "Default": "Server=tcp:Test-sqlserver.database.windows.net,1433;Initial Catalog=Test;Persist Security Info=False;User ID=XXX;Password=XXX;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+    "Default": "Server=tcp:Test-sqlserver.privatelink.database.windows.net,1433;Initial Catalog=Test;Persist Security Info=False;User ID=XXX;Password=XXX;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
   },
   "Redis": {
     "Configuration": "Test.privatelink.redis.cache.windows.net:6380,password=XXX,ssl=True,abortConnect=False"
@@ -55,7 +55,7 @@
     "CorsOrigins": "https://Angular.azurewebsites.net"
   },
   "ConnectionStrings": {
-    "Default": "Server=tcp:Test-sqlserver.database.windows.net,1433;Initial Catalog=Test;Persist Security Info=False;User ID=XXX;Password=XXX;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+    "Default": "Server=tcp:Test-sqlserver.privatelink.database.windows.net,1433;Initial Catalog=Test;Persist Security Info=False;User ID=XXX;Password=XXX;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
   },
   "Redis": {
     "Configuration": "Test.privatelink.redis.cache.windows.net:6380,password=XXX,ssl=True,abortConnect=False"
@@ -92,5 +92,11 @@
 ```
 
 ## 備註
-Redis 只開私人端點時須使用 xxxxxxx.privatelink.redis.cache.windows.net
-如果全開走外網也是連得到就是了 xxxxxxx.redis.cache.windows.net
+目前測試 Redis 不開公開連線時，需要設定私人端點，並且修改連線字串，加上 `privatelink`
+
+- 公開外網
+  - DB=xxx.database.windows.net
+  - Redis=xxx.redis.cache.windows.net
+- 私人端點
+  - DB=xxx.privatelink.database.windows.net
+  - Redis=xxx.privatelink.redis.cache.windows.net
