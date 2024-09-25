@@ -96,6 +96,8 @@ serverBuilder.AddProductionEncryptionAndSigningCertificate(
 
 這裡的問題是憑證過期之後，需要重新上傳憑證，並且更新指紋。
 
+可能要改用第三種直接允許讀憑證檔案，然後從程式檢查憑證過期，自動重新產生新憑證。
+
 [configure-ssl-certificate-in-code](https://learn.microsoft.com/en-us/azure/app-service/configure-ssl-certificate-in-code?tabs=windows)
 
 [setting-up-abp-with-openiddict-on-azure-app-services](https://brianmeeker.me/2022/08/29/setting-up-abp-with-openiddict-on-azure-app-services/)
