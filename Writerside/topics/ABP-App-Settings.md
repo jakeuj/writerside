@@ -61,7 +61,8 @@
     "Configuration": "Test.redis.cache.windows.net:6380,password=XXX,ssl=True,abortConnect=False"
   },
   "AuthServer": {
-    "Authority": "https://Auth.azurewebsites.net"
+    "Authority": "https://Auth.azurewebsites.net",
+    "MetaAddress": "https://Auth.azurewebsites.net"
   }
 }
 ```
