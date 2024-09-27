@@ -25,9 +25,10 @@
    - 於 Azure 建立 VPN 網路 
       [Azure SQL 透過 Azure VPN Gateway 實現內網連接](https://dotblogs.com.tw/jakeuj/2021/08/13/AzureSqlVpnGetway)
    - 本地端連上 Azure VPN
-   - 到 虛擬網路(VNet) 找到 Redis 私人端點的內網 IP 
-   - C:\Windows\System32\drivers\etc\hosts 新增內網 IP 與 Redis 名稱的對應
+   - 到 虛擬網路(VNet) 找到 Redis 私人端點的內網 IP
    - 本地端連線 Redis：貼上剛才複製的連線字串
+   - VPN 如果沒有將 Redis 連線字串解析 Azure VNet 內網私人端點 IP，可以到 hosts 新增內網 IP 與 Redis 名稱的對應
+   - hosts = C:\Windows\System32\drivers\etc\hosts
 
 ## 虛擬網路整合
 App Service 未設定時虛擬網路整合時， 解析 Redis 會取到公開 IP，但 Redis 不開放公開連線，所以會連不到 Redis。
@@ -36,3 +37,4 @@ App Service 未設定時虛擬網路整合時， 解析 Redis 會取到公開 IP
 
 ## 備註
 虛擬網路整合同樣會影響 SQL Server 的連線，所以設定好 Azure SQL 的 私人端點後，也要設定 App Service 的虛擬網路整合，實現內網連接。
+可以到 App Service 主控台中使用 nslookup 指令查詢 DNS 解析結果，確認是否有解析到內網 IP。
