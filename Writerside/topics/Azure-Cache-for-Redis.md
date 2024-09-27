@@ -29,16 +29,10 @@
    - C:\Windows\System32\drivers\etc\hosts 新增內網 IP 與 Redis 名稱的對應
    - 本地端連線 Redis：貼上剛才複製的連線字串
 
+## 虛擬網路整合
+App Service 未設定時虛擬網路整合時， 解析 Redis 會取到公開 IP，但 Redis 不開放公開連線，所以會連不到 Redis。
+設定後，即使設定的 Redis Configuration 連線字串中的 Server 位置不變，但實際再 App Service 會解析成內網 IP，這樣就可以連線到 Redis 了。
+原理是整合虛擬網路後，App Service 網路中的輸出 DNS 繼承 (來自虛擬網路)，此時會套用該 VNet 的 DNS 解析，所以會解析成內網 IP。
+
 ## 備註
-目前測試 Redis 不開公開連線時，需要設定私人端點，並且修改連線字串，加上 `sslHost`
-
-- 主機名稱
-    - Redis=xxx.redis.cache.windows.net
-- 私人端點
-    - Redis=xxx.privatelink.redis.cache.windows.net
-
-- 連線字串
-   - `Test.privatelink.redis.cache.windows.net:6380,password=XXX,ssl=True,abortConnect=False,sslHost=Test.privatelink.redis.cache.windows.net`
-
-主要是要加上 `sslHost=Test.privatelink.redis.cache.windows.net`, 不然會顯示憑證不符合主機名稱的錯誤導致連不到 Redis
-
+虛擬網路整合同樣會影響 SQL Server 的連線，所以設定好 Azure SQL 的 私人端點後，也要設定 App Service 的虛擬網路整合，實現內網連接。

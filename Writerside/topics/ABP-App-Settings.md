@@ -9,10 +9,10 @@
 ```json
 {
   "ConnectionStrings": {
-    "Default": "Server=tcp:Test-sqlserver.privatelink.database.windows.net,1433;Initial Catalog=XXX;Persist Security Info=False;User ID=XXX;Password=XXX;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+    "Default": "Server=tcp:Test-sqlserver.database.windows.net,1433;Initial Catalog=XXX;Persist Security Info=False;User ID=XXX;Password=XXX;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
   },
   "Redis": {
-    "Configuration": "Test.privatelink.redis.cache.windows.net:6380,password=XXX,ssl=True,abortConnect=False,sslHost=Test.privatelink.redis.cache.windows.net"
+    "Configuration": "Test.redis.cache.windows.net:6380,password=XXX,ssl=True,abortConnect=False"
   },
   "OpenIddict": {
     "Applications": {
@@ -38,10 +38,10 @@
     "RedirectAllowedUrls": "https://Swagger.azurewebsites.net,https://Web.azurewebsites.net"
   },
   "ConnectionStrings": {
-    "Default": "Server=tcp:Test-sqlserver.privatelink.database.windows.net,1433;Initial Catalog=Test;Persist Security Info=False;User ID=XXX;Password=XXX;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+    "Default": "Server=tcp:Test-sqlserver.database.windows.net,1433;Initial Catalog=Test;Persist Security Info=False;User ID=XXX;Password=XXX;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
   },
   "Redis": {
-    "Configuration": "Test.privatelink.redis.cache.windows.net:6380,password=XXX,ssl=True,abortConnect=False,sslHost=Test.privatelink.redis.cache.windows.net"
+    "Configuration": "Test.redis.cache.windows.net:6380,password=XXX,ssl=True,abortConnect=False"
   }
 }
 ```
@@ -55,10 +55,10 @@
     "CorsOrigins": "https://Angular.azurewebsites.net"
   },
   "ConnectionStrings": {
-    "Default": "Server=tcp:Test-sqlserver.privatelink.database.windows.net,1433;Initial Catalog=Test;Persist Security Info=False;User ID=XXX;Password=XXX;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+    "Default": "Server=tcp:Test-sqlserver.database.windows.net,1433;Initial Catalog=Test;Persist Security Info=False;User ID=XXX;Password=XXX;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
   },
   "Redis": {
-    "Configuration": "Test.privatelink.redis.cache.windows.net:6380,password=XXX,ssl=True,abortConnect=False,sslHost=Test.privatelink.redis.cache.windows.net"
+    "Configuration": "Test.redis.cache.windows.net:6380,password=XXX,ssl=True,abortConnect=False"
   },
   "AuthServer": {
     "Authority": "https://Auth.azurewebsites.net",
@@ -83,7 +83,7 @@
     }
   },
   "Redis": {
-    "Configuration": "Test.privatelink.redis.cache.windows.net:6380,password=XXX,ssl=True,abortConnect=False,sslHost=Test.privatelink.redis.cache.windows.net"
+    "Configuration": "Test.redis.cache.windows.net:6380,password=XXX,ssl=True,abortConnect=False"
   },
   "AuthServer": {
     "Authority": "https://Auth.azurewebsites.net"
