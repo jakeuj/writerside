@@ -30,5 +30,12 @@
 - [ ] [VM acceleration](https://developer.android.com/studio/run/emulator-acceleration#accel-vm)
 - [ ] [Chrome](https://www.google.com/chrome/)
 
+## 建立專案
+打開 `Android Studio` > Create Project > Flutter > 設定 Flutter SDK Path > Next > 
+![Flutter.png](Flutter.png)
+分別設定「專案名稱」、「專案存檔路徑」、「專案說明」、「專案類型」、「組織名稱」、「雙平台開發語言」-> 完成後點擊右下角 Finish
+![flutter-project.png](flutter-project.png)
+建立完成
+![flutter-demo.png](flutter-demo.png)
 ## 參照
 - [Get started with Flutter](https://docs.flutter.dev/get-started/install/windows/mobile#install-the-flutter-sdk)
