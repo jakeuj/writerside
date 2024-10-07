@@ -26,9 +26,6 @@
   - [ ] [Add Flutter to your PATH](https://docs.flutter.dev/get-started/install/windows/mobile?tab=download#update-your-windows-path-variable)
   - [ ] Run "flutter doctor" to check if your system is ready to run Flutter apps.
   - [ ] Run `flutter doctor --android-licenses` to accept the SDK licenses.
-- [ ] [JDK 8](https://www.oracle.com/tw/java/technologies/javase/javase8u211-later-archive-downloads.html)
-- [ ] [VM acceleration](https://developer.android.com/studio/run/emulator-acceleration#accel-vm)
-- [ ] [Chrome](https://www.google.com/chrome/)
 
 ## 建立專案
 打開 `Android Studio` > Create Project > Flutter > 設定 Flutter SDK Path > Next > 
