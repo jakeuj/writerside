@@ -35,7 +35,7 @@
 ![Flutter.png](Flutter.png)
 分別設定「專案名稱」、「專案存檔路徑」、「專案說明」、「專案類型」、「組織名稱」、「雙平台開發語言」-> 完成後點擊右下角 Finish
 ![flutter-project.png](flutter-project.png)
-建立完成
-![flutter-demo.png](flutter-demo.png)
+建立完成 > 右上角選擇裝置 > refresh > 找到之前建立的模擬手機型號
+![flutter-mobile.png](flutter-mobile.png)
 ## 參照
 - [Get started with Flutter](https://docs.flutter.dev/get-started/install/windows/mobile#install-the-flutter-sdk)
