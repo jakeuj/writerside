@@ -110,6 +110,7 @@
                 <toc-element topic="MatchCase.md"/>
             </toc-element>
             <toc-element topic="Default-topic.md">
+                <toc-element topic="MRK058-Large-image.md"/>
                 <toc-element topic="Search.md"/>
                 <toc-element topic="Google-Analytics.md"/>
                 <toc-element topic="shortcut.md"/>

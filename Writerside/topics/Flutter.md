@@ -28,11 +28,15 @@
   - [ ] Run `flutter doctor --android-licenses` to accept the SDK licenses.
 
 ## 建立專案
-打開 `Android Studio` > Create Project > Flutter > 設定 Flutter SDK Path > Next > 
-![Flutter.png](Flutter.png)
-分別設定「專案名稱」、「專案存檔路徑」、「專案說明」、「專案類型」、「組織名稱」、「雙平台開發語言」-> 完成後點擊右下角 Finish
-![flutter-project.png](flutter-project.png)
-建立完成 > 右上角選擇裝置 > refresh > 找到之前建立的模擬手機型號
-![flutter-mobile.png](flutter-mobile.png)
+1. 打開 `Android Studio` > Create Project > Flutter > 設定 Flutter SDK Path > Next
+![Flutter.png](Flutter.png){ style="inline" }
+
+2. 設定「專案名稱」、「專案存檔路徑」、「專案說明」、「專案類型」、「組織名稱」、「雙平台開發語言」-> Finish
+![flutter-project.png](flutter-project.png){ style="inline" }
+   - P.S. 這邊專案名稱好像不能有大寫，自己在調整一下大小寫，截圖我就不更新了
+
+3. 建立完成 > 右上角選擇裝置 > refresh > 找到之前建立的模擬手機型號
+![flutter-demo.png](flutter-demo.png){ style="inline" }
+
 ## 參照
 - [Get started with Flutter](https://docs.flutter.dev/get-started/install/windows/mobile#install-the-flutter-sdk)
