@@ -1,4 +1,4 @@
-# Flutter iOS 应用自动化上传至 TestFlight
+# Flutter iOS TestFlight
 
 本文档描述如何使用 GitHub Actions 自动构建 Flutter iOS 应用、递增构建号，并上传到 TestFlight。
 
@@ -25,6 +25,21 @@
 <key>NSPhotoLibraryUsageDescription</key>
 <string>我們需要訪問您的照片庫來讓您上傳和分享圖片。</string>
 ```
+
+7. 需要在 Mac 先 Build 一次，然後把 `build/ios/ipa/ExportOptions.plist` 複製到 `ios/GithubActionsExportOptions.plist`，並且把 `signingStyle` 改成 `manual`，這樣才能上傳到 TestFlight。
+   - `com.myapp.app.dev` 是你的 Bundle ID
+   - `{{ YOUR PROFIL NAME }}` 是你的 Provisioning Profile 名稱 [profiles](https://developer.apple.com/account/resources/profiles/list)
+   - 參照：[flutter-build-ios](https://github.com/marketplace/actions/flutter-build-ios#3-build-locally)
+      ```xml
+      <key>signingStyle</key>
+      <string>manual</string>
+      <key>provisioningProfiles</key>
+      <dict>
+      <key>com.myapp.app.dev</key>
+      <string>{{ YOUR PROFIL NAME }}</string>
+      </dict> 
+      ```
+
 
 ## 工作流程概览
 
