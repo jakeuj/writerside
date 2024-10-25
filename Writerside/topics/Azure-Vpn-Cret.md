@@ -10,7 +10,7 @@ $ClinetFriendlyName = "Azure Vpn Child 2025"
 
 $params = @{
     Type = 'Custom'
-    Subject = 'CN=RootSubject'
+    Subject = 'CN=P2SRootdCert'
     KeySpec = 'Signature'
     KeyExportPolicy = 'Exportable'
     KeyUsage = 'CertSign'
