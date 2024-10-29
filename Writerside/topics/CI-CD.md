@@ -191,3 +191,162 @@ jobs:
           package: .
           
 ```
+
+## Auth server 快取版本
+
+```YAML
+# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
+# More GitHub Actions for Azure: https://github.com/Azure/actions
+
+name: Build and deploy ASP.Net Core app to Azure Web App - BookStore
+
+on:
+  push:
+    branches:
+      - cicd/dev/auth
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    env:
+      PROJECT_PATH: 'src\BookStore.AuthServer'  # 參數化的路徑
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up .NET Core
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.x'
+          cache: true
+          cache-dependency-path: '**/package-lock.json'
+      - run: dotnet restore --locked-mode
+
+      - name: Install ABP CLI
+        run: dotnet tool install -g Volo.Abp.Studio.Cli
+
+      - name: Install ABP libs
+        run: abp install-libs -wd ${{ env.PROJECT_PATH }}
+
+      - name: Build with dotnet
+        run: dotnet build ${{ env.PROJECT_PATH }} --configuration Release
+
+      - name: dotnet publish
+        run: dotnet publish ${{ env.PROJECT_PATH }} -c Release -r win-x86 -o "${{env.DOTNET_ROOT}}/myapp"
+
+      - name: Upload artifact for deployment job
+        uses: actions/upload-artifact@v4
+        with:
+          name: .net-app
+          path: ${{env.DOTNET_ROOT}}/myapp
+
+  deploy:
+    runs-on: windows-latest
+    needs: build
+    environment:
+      name: 'dev'
+      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+    permissions:
+      id-token: write #This is required for requesting the JWT
+
+    steps:
+      - name: Download artifact from build job
+        uses: actions/download-artifact@v4
+        with:
+          name: .net-app
+      
+      - name: Login to Azure
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_XXX }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_XXX }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_XXX }}
+
+      - name: Deploy to Azure Web App
+        id: deploy-to-webapp
+        uses: azure/webapps-deploy@v3
+        with:
+          app-name: 'BookStore'
+          slot-name: 'dev'
+          package: .
+          
+```
+
+## Host API
+API 不需要 wwwroot libs，所以可以不用安裝 ABP libs。
+
+```YAML
+# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
+# More GitHub Actions for Azure: https://github.com/Azure/actions
+
+name: Build and deploy ASP.Net Core app to Azure Web App - BookStore
+
+on:
+  push:
+    branches:
+      - cicd/dev/api
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    env:
+      PROJECT_PATH: 'src\BookStore.HttpApi.Host'  # 參數化的路徑
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up .NET Core
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.x'
+          cache: true
+          cache-dependency-path: '**/package-lock.json'
+      - run: dotnet restore --locked-mode
+
+      - name: Build with dotnet
+        run: dotnet build ${{ env.PROJECT_PATH }} --configuration Release
+
+      - name: dotnet publish
+        run: dotnet publish ${{ env.PROJECT_PATH }} -c Release -r win-x86 -o "${{env.DOTNET_ROOT}}/myapp"
+
+      - name: Upload artifact for deployment job
+        uses: actions/upload-artifact@v4
+        with:
+          name: .net-app
+          path: ${{env.DOTNET_ROOT}}/myapp
+
+  deploy:
+    runs-on: windows-latest
+    needs: build
+    environment:
+      name: 'dev'
+      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+    permissions:
+      id-token: write #This is required for requesting the JWT
+
+    steps:
+      - name: Download artifact from build job
+        uses: actions/download-artifact@v4
+        with:
+          name: .net-app
+      
+      - name: Login to Azure
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_XXX }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_XXX }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_XXX }}
+
+      - name: Deploy to Azure Web App
+        id: deploy-to-webapp
+        uses: azure/webapps-deploy@v3
+        with:
+          app-name: 'BookStore'
+          slot-name: 'dev'
+          package: .
+          
+```
