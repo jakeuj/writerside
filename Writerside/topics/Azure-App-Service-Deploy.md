@@ -84,5 +84,41 @@ try
 
 利用以上程式碼防止主程序啟動失敗時，連帶 Log 也無法正常輸出。
 
+## 404
+預設網址長度 2048 字元，如果超過會出現 404 錯誤。
+
+1. maxQueryString
+2. maxQueryStringLength
+
+web.config
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <location path="." inheritInChildApplications="false">
+    <system.webServer>
+      <handlers>
+        <add name="aspNetCore" path="*" verb="*" modules="AspNetCoreModuleV2" resourceType="Unspecified" />
+      </handlers>
+      <aspNetCore processPath="dotnet" arguments=".\MyProj.AuthServer.dll" stdoutLogEnabled="false" stdoutLogFile=".\Logs\stdout" hostingModel="inprocess" />
+    </system.webServer>
+  </location>
+  <system.webServer>
+    <httpProtocol>
+      <customHeaders>
+        <remove name="x-powered-by" />
+      </customHeaders>
+    </httpProtocol>
+    <security>
+      <requestFiltering>
+        <requestLimits maxQueryString="4096" />
+      </requestFiltering>
+    </security>
+  </system.webServer>
+  <system.web>
+    <httpRuntime maxQueryStringLength = "4096" />
+  </system.web>
+</configuration>
+```
+
 ## 參照
 [Publish-an-abpio-project-to-an-azure-AppServices-Error-OpenIddict](https://abp.io/support/questions/5595/Publish-an-abpio-project-to-an-azure-AppServices-Error-OpenIddict)
