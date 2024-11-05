@@ -38,7 +38,7 @@ Password: <Your Key>
 ## 拉取並執行
 使用下面的命令調出並運行英偉達 NIM。這將為您的基礎架構下載最佳化模型。
 
-- Linux Bash
+- llama3-8b-instruct
     ```Bash
     export NGC_API_KEY=<PASTE_API_KEY_HERE>
     export LOCAL_NIM_CACHE=~/.cache/nim
@@ -52,6 +52,20 @@ Password: <Your Key>
         -p 8000:8000 \
         nvcr.io/nim/meta/llama3-8b-instruct:1.0.0
     ```
+- llama-3.1-8b-instruct
+    ```Bash
+    docker run -it --rm \
+        --gpus all \
+        --shm-size=16GB \
+        -e NGC_API_KEY \
+        -v "$LOCAL_NIM_CACHE:/opt/nim/.cache" \
+        -u $(id -u) \
+        -p 8000:8000 \
+        nvcr.io/nim/meta/llama-3.1-8b-instruct:latest \
+        python3 -m vllm_nvext.entrypoints.openai.api_server --max-model-len 42448
+    ```
+
+--max-model-len 42448 是為了避免 RoPE (Rotary Position Embedding) scaling 類型 "extended" 錯誤。
 
 ![llama3.png](llama3.png)
 
