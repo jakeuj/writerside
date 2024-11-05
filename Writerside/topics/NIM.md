@@ -62,10 +62,14 @@ Password: <Your Key>
         -u $(id -u) \
         -p 8000:8000 \
         nvcr.io/nim/meta/llama-3.1-8b-instruct:latest \
-        python3 -m vllm_nvext.entrypoints.openai.api_server --max-model-len 42448
+        python3 -m vllm_nvext.entrypoints.openai.api_server \
+        --max-model-len 42448
     ```
 
---max-model-len 42448 是為了避免 RoPE (Rotary Position Embedding) scaling 類型 "extended" 錯誤。
+`--max-model-len 42448` 
+是為了避免 
+`The model's max seq len (131072) is larger than the maximum number of tokens that can be stored in KV cache`
+錯誤。
 
 ![llama3.png](llama3.png)
 
