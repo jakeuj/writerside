@@ -78,6 +78,7 @@
             <toc-element topic="CUDA.md"/>
         </toc-element>
         <toc-element topic="Ubuntu.md">
+            <toc-element topic="Power-Shell-SSH.md"/>
             <toc-element topic="Docker-Install.md"/>
             <toc-element topic="Nvidia-Driver.md"/>
             <toc-element topic="Install.md"/>
