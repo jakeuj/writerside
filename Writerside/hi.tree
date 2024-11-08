@@ -40,6 +40,7 @@
             <toc-element topic="Testing.md"/>
         </toc-element>
         <toc-element topic="Azure.md">
+            <toc-element topic="中文亂碼問題.md"/>
             <toc-element topic="Azure-Vpn-Cret.md"/>
             <toc-element topic="VM-GPU-Driver.md"/>
             <toc-element topic="Azure-Cache-for-Redis.md"/>
