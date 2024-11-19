@@ -58,6 +58,7 @@
             <toc-element topic="configure-serverless-vpc-access.md"/>
         </toc-element>
         <toc-element toc-title="Entity Framework">
+            <toc-element topic="關聯性.md"/>
             <toc-element topic="Rider-Plugin.md"/>
             <toc-element topic="Composite-Keys.md"/>
             <toc-element topic="FK.md">
