@@ -25,7 +25,10 @@ protected override void AfterAddApplication(
     var mockDemoManager = Substitute.For<IDemoManager>();
     
     // Mock GetUserExtAsync 方法
-    mockDemoManager.GetUser(Arg.Any<string>()).Returns(mockUser);
+    mockDemoManager
+        .GetUser(Arg.Any<string>())
+        .Returns(mockUser);
+    
     services.AddSingleton(mockDemoManager);
 }
 ```
@@ -72,15 +75,18 @@ public abstract class DemoAppServiceTests<TStartupModule>
             IServiceCollection services
         )
     {
-        // Arrange
-        var mockDemoManager = Substitute.For<IDemoManager>();
         var mockUser = new DemoUserObject { 
                 Name = DemoConsts.DefaultName, 
                 Ext = DemoConsts.DefaultExt 
-            };
+        };
+            
+        var mockDemoManager = Substitute.For<IDemoManager>();
 
         // Mock GetUserExtAsync 方法
-        mockDemoManager.GetUser(Arg.Any<string>()).Returns(mockUser);
+        mockDemoManager
+            .GetUser(Arg.Any<string>())
+            .Returns(mockUser);
+        
         services.AddSingleton(mockDemoManager);
     }
 
@@ -93,10 +99,10 @@ public abstract class DemoAppServiceTests<TStartupModule>
             Demo = NandConsts.TestDemo
         };
 
-        //Act
+        // Act
         var result = await _appService.GetAsync(req);
 
-        //Assert
+        // Assert
         result.ShouldNotBeNull();
         result.Name.ShouldBe(NandConsts.DefaultName);
         result.Ext.ShouldBe(NandConsts.DefaultExt);
