@@ -20,6 +20,16 @@ node -v # 应该打印 `v18.20.5`
 npm -v # 应该打印 `10.8.2`
 ```
 
+## 找不到 FNM
+
+```PowerShell
+Add-Content $PROFILE 'fnm env | Out-String | Invoke-Expression'
+```
+
+## 找不到 node
+環境變數 > Path > 新增
+`C:\Users\<您的用戶名>\AppData\Roaming\fnm\node-versions\<Node 版本>\installation`
+
 ## Yarn 安裝
 
 ![yarn.png](yarn.png)
