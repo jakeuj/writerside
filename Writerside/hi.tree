@@ -72,6 +72,7 @@
             <toc-element topic="Changing-author-info.md"/>
         </toc-element>
         <toc-element topic="Windows.md">
+            <toc-element topic="開發人員磁碟機.md"/>
             <toc-element topic="Chocolatey.md"/>
             <toc-element topic="初始安裝.md"/>
             <toc-element topic="Share-Wifi.md"/>
