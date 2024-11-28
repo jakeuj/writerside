@@ -1,6 +1,16 @@
 # Directory.Packages.props
 
-`Directory.Packages.props` 是 .NET 的一個功能檔案，主要用於集中管理專案中共用的 NuGet 套件版本。從 .NET 6 開始，這種集中管理的方式被稱為 **Central Package Management (CPM)**，目的是減少各個專案檔案重複定義套件版本的麻煩，讓版本管理更容易一致化。
+`Directory.Packages.props` 是 .NET 的一個功能檔案，主要用於集中管理專案中共用的 NuGet 套件版本。
+
+從 .NET 6 開始，這種集中管理的方式被稱為 **Central Package Management (CPM)**，目的是減少各個專案檔案重複定義套件版本的麻煩，讓版本管理更容易一致化。
+
+## 說明
+
+- `Directory.Packages.props` 中央包管理檔內主要定義 **PackageVersion** 來指定版本資訊
+
+- `.csproj` 專案檔內則是定義 **PackageReference** 來引用套件
+
+※ 如果在 `Directory.Packages.props` 寫了 PackageReference 會造成全專案都會引用此包進而造成錯誤
 
 ### 基本功能
 1. **集中管理 NuGet 套件版本：**  
