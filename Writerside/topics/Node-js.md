@@ -27,8 +27,14 @@ Add-Content $PROFILE 'fnm env | Out-String | Invoke-Expression'
 ```
 
 ## 找不到 node
-環境變數 > Path > 新增
-`C:\Users\<您的用戶名>\AppData\Roaming\fnm\node-versions\<Node 版本>\installation`
+先考慮全局固定在某版本還是隨FNM變動對開發環境比較方便，然後到系統 > 環境變數 > Path > 新增下方其中一個路徑
+
+- FNM 目前指向的版本
+  - `C:\Users\<您的用戶名>\AppData\Roaming\fnm\aliases\default`
+- 固定版本 (V18 是在 `\installation`，其他版本可能在 `\installation\bin`)
+  - `C:\Users\<您的用戶名>\AppData\Roaming\fnm\node-versions\<Node 版本>\installation`
+
+比如 ABP 要求 V18，但 Electron 需要隨不同專案變動，所以我選擇固定 V18，然後在專案中使用 FNM
 
 ## Yarn 安裝
 
