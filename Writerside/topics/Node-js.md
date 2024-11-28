@@ -34,7 +34,7 @@ Add-Content $PROFILE 'fnm env | Out-String | Invoke-Expression'
 - 固定版本 (V18 是在 `\installation`，其他版本可能在 `\installation\bin`)
   - `C:\Users\<您的用戶名>\AppData\Roaming\fnm\node-versions\<Node 版本>\installation`
 
-比如 ABP 要求 V18，但 Electron 需要隨不同專案變動，所以我選擇固定 V18，然後在專案中使用 FNM
+比如 ABP Studio 要求 V18，並且無法使用 fnm 切版本，另外我有 Electron 需要隨不同專案變動 node 版本，所以我選擇固定 V18，然後在專案中使用 FNM
 
 ## Yarn 安裝
 
