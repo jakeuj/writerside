@@ -6,9 +6,9 @@ ABP 最近整了一個圖形化介面工具箱，叫做 Studio，可以用來快
 
 * [Rider](https://www.jetbrains.com/rider/download/#section=windows) / Visual Studio 2022 (v17.3+) for Windows / Visual Studio for Mac. 1
 * [.NET 8.0+](https://dotnet.microsoft.com/zh-tw/download/dotnet/8.0)
-* [Node](Node-js.md) v16 or v18
+* [Node](Node-js.md) v18 or v16
 * [Yarn v1.20+](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable) (not v2) 2 or npm v6+ (already installed with Node)
-* Docker
+* [Docker](https://docs.docker.com/get-started/get-docker/)
 
 以上需求沒有達成則會導致建立專案缺東西，比如無法用 Yarn 安裝 js lib，無法建立 Redis 服務...等等
 
@@ -54,7 +54,20 @@ Rider 可以加入 PowerShell 腳本，用來執行 docker-compose.infrastructur
 ![rider-ps1.png](rider-ps1.png)
 
 ## Node.js
-ABP Studio 需要 Node.js 版本為 v16 或 v18
+ABP Studio 需要 Node.js 版本為 v18 或 v16
+
+```PowerShell
+# 安装 fnm (快速 Node 管理器)
+winget install Schniz.fnm
+# 配置 fnm 环境
+fnm env --use-on-cd | Out-String | Invoke-Expression
+# 下载并安装 Node.js
+fnm use --install-if-missing 18
+# 验证环境中是否存在正确的 Node.js 版本
+node -v # 应该打印 `v18.20.5`
+# 验证环境中是否存在正确的 npm 版本
+npm -v # 应该打印 `10.8.2`
+```
 
 - 單一版本：僅需一個版本可以直接從 [Node.js 官方](https://nodejs.org/zh-cn/download/prebuilt-installer) 下載安裝
 ![nodejs18.png](nodejs18.png)

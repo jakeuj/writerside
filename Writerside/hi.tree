@@ -72,6 +72,7 @@
             <toc-element topic="Changing-author-info.md"/>
         </toc-element>
         <toc-element topic="Windows.md">
+            <toc-element topic="Chocolatey.md"/>
             <toc-element topic="初始安裝.md"/>
             <toc-element topic="Share-Wifi.md"/>
         </toc-element>
@@ -104,6 +105,7 @@
             <toc-element topic="NIM.md"/>
         </toc-element>
         <toc-element topic="Node-js.md">
+            <toc-element topic="NVM.md"/>
             <toc-element topic="Vue.md"/>
             <toc-element topic="Electron-Build.md"/>
             <toc-element topic="Electron.md"/>
