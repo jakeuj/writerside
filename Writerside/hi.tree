@@ -13,7 +13,9 @@
         <toc-element topic="Flutter.md">
             <toc-element topic="iOS.md"/>
         </toc-element>
-        <toc-element topic="SQL.md"/>
+        <toc-element topic="SQL.md">
+            <toc-element topic="CTE.md"/>
+        </toc-element>
         <toc-element href="https://www.dotblogs.com.tw/jakeuj/" toc-title="原筆記(點部落)"/>
         <toc-element topic="links.md"/>
         <toc-element topic="ABP.md">
