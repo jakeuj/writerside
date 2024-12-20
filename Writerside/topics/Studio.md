@@ -1,6 +1,6 @@
 # Studio
 
-ABP 最近整了一個圖形化介面工具箱，叫做 Studio，可以用來快速建立專案、模組、頁面、服務等等。
+ABP 最近整了一個圖形化介面工具箱，叫做 [ABP Studio](https://abp.io/studio)，可以用來快速建立專案、模組、頁面、服務等等。
 
 ## 需求
 
@@ -56,7 +56,7 @@ Rider 可以加入 PowerShell 腳本，用來執行 docker-compose.infrastructur
 ## Node.js
 ABP Studio 需要 Node.js 版本為 v18 或 v16
 
-```PowerShell
+```Shell
 # 安装 fnm (快速 Node 管理器)
 winget install Schniz.fnm
 # 配置 fnm 环境
