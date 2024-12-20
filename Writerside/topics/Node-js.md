@@ -7,7 +7,7 @@
 
 ## 安裝
 
-```PowerShell
+```Shell
 # 安装 fnm (快速 Node 管理器)
 winget install Schniz.fnm
 # 配置 fnm 环境
@@ -22,7 +22,7 @@ npm -v # 应该打印 `10.8.2`
 
 ## 找不到 FNM
 
-```PowerShell
+```Shell
 Add-Content $PROFILE 'fnm env | Out-String | Invoke-Expression'
 ```
 
