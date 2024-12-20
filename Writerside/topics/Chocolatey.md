@@ -8,7 +8,7 @@ Chocolatey 是一個 Windows 的軟體包管理工具，專為簡化 Windows 環
 使環境變數更新全局可用
 使用 refreshenv 工具（適用於安裝 [Chocolatey](https://chocolatey.org/) 的系統）：
 
-```PowerShell
+```shell
 refreshenv
 ```
 
@@ -24,7 +24,7 @@ refreshenv
 ### 如何安裝 Chocolatey
 1. 開啟 PowerShell（以系統管理員身份執行）。
 2. 執行以下命令來安裝 Chocolatey：
-   ```powershell
+   ```shell
    Set-ExecutionPolicy Bypass -Scope Process -Force; `
    [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; `
    iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
@@ -33,26 +33,26 @@ refreshenv
 
 ### 常用命令
 1. 安裝軟體：
-   ```powershell
+   ```shell
    choco install package_name -y
    ```
    例如，安裝 Google Chrome：
-   ```powershell
+   ```shell
    choco install googlechrome -y
    ```
 
 2. 更新軟體：
-   ```powershell
+   ```shell
    choco upgrade package_name -y
    ```
 
 3. 列出已安裝的軟體包：
-   ```powershell
+   ```shell
    choco list --localonly
    ```
 
 4. 移除軟體：
-   ```powershell
+   ```shell
    choco uninstall package_name -y
    ```
 
