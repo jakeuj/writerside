@@ -45,6 +45,7 @@
             <og-twitter>@jakeuj</og-twitter>
             <og-image>https://jakeuj.com/images/hatsune-miku-seeklogo.svg</og-image>
             <webmaster>jakeuj@hotmail.com</webmaster>
+            <ignore-problems>CDE016</ignore-problems>
         </variables>
     </build-profile>
 </buildprofiles>
