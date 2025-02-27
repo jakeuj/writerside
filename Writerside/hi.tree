@@ -8,6 +8,7 @@
 
     <toc-element topic="Default.md">
         <toc-element topic="LLM.md">
+            <toc-element topic="AnythingLLM.md"/>
             <toc-element topic="Ollama.md"/>
         </toc-element>
         <toc-element topic="C-Sharp.md">
