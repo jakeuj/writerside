@@ -59,6 +59,7 @@ msiexec.exe /i amazon-cloudwatch-agent.msi /quiet
 ```
 
 ### config
+設定自定義 Logs 時，需要指定到檔案，例如：`"file_path": "D:\\logs\\*.log",`
 
 ```shell
 cd "C:\Program Files\Amazon\AmazonCloudWatchAgent"
