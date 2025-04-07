@@ -67,6 +67,51 @@ cd "C:\Program Files\Amazon\AmazonCloudWatchAgent"
 .\amazon-cloudwatch-agent-config-wizard.exe
 ```
 
+預設只會記錄事件 system，如果要記錄登入事件，則需要在 `config.json` 中加入 `"event_name": "Security"` 區段：
+
+```json
+"windows_events": {
+  "collect_list": [
+  {
+  "event_format": "xml",
+  "event_levels": [
+  "VERBOSE",
+  "INFORMATION",
+  "WARNING",
+  "ERROR",
+  "CRITICAL"
+  ],
+  "event_name": "System",
+  "log_group_class": "STANDARD",
+  "log_group_name": "System",
+  "log_stream_name": "{instance_id}",
+  "retention_in_days": 180
+  },
+  {
+  "event_format": "xml",
+  "event_levels": [
+  "INFORMATION",
+  "WARNING",
+  "ERROR",
+  "CRITICAL"
+  ],
+  "event_name": "Security",
+  "log_group_class": "STANDARD",
+  "log_group_name": "Security",
+  "log_stream_name": "{instance_id}",
+  "retention_in_days": 180
+  }
+  ]
+}
+```
+
+改完記得重啟服務
+
+```powershell
+& "C:\Program Files\Amazon\AmazonCloudWatchAgent\amazon-cloudwatch-agent-ctl.ps1" -a stop
+& "C:\Program Files\Amazon\AmazonCloudWatchAgent\amazon-cloudwatch-agent-ctl.ps1" -a start
+```
+
 ### start
 
 ```shell
@@ -92,3 +137,25 @@ Configuration validation succeeded
 AmazonCloudWatchAgent has been stopped
 AmazonCloudWatchAgent has been started
 ```
+
+## Query
+- 登入成功 4624
+- 登入失敗 4625
+
+```
+fields @timestamp, @message
+| parse @message "<EventID*>*</EventID>" as qualifiers, EventID
+| filter EventID = 4624
+| display EventID, @message
+| limit 20
+```
+
+自己的 json log
+
+```
+fields @timestamp, MessageTemplate,Properties.IP,Properties.Uri,Properties.UserID,Timestamp
+| filter Properties.Uri like /Login/
+| sort @timestamp desc
+| limit 10000
+```
+
