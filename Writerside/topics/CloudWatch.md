@@ -71,38 +71,90 @@ cd "C:\Program Files\Amazon\AmazonCloudWatchAgent"
 
 `C:\ProgramData\Amazon\AmazonCloudWatchAgent\Configs\file_config.json`
 ```json
-"windows_events": {
-  "collect_list": [
-  {
-  "event_format": "xml",
-  "event_levels": [
-  "VERBOSE",
-  "INFORMATION",
-  "WARNING",
-  "ERROR",
-  "CRITICAL"
-  ],
-  "event_name": "System",
-  "log_group_class": "STANDARD",
-  "log_group_name": "System",
-  "log_stream_name": "{instance_id}",
-  "retention_in_days": 180
+{
+  "logs": {
+    "logs_collected": {
+      "files": {
+        "collect_list": [
+          {
+            "file_path": "D:\\logs\\*.json",
+            "log_group_class": "STANDARD",
+            "log_group_name": "logs",
+            "log_stream_name": "{instance_id}",
+            "retention_in_days": 180
+          }
+        ]
+      },
+      "windows_events": {
+        "collect_list": [
+          {
+            "event_format": "xml",
+            "event_levels": [
+              "VERBOSE",
+              "INFORMATION",
+              "WARNING",
+              "ERROR",
+              "CRITICAL"
+            ],
+            "event_name": "System",
+            "log_group_class": "STANDARD",
+            "log_group_name": "System",
+            "log_stream_name": "{instance_id}",
+            "retention_in_days": 180
+          },
+          {
+            "event_format": "xml",
+            "event_levels": [
+              "INFORMATION",
+              "WARNING",
+              "ERROR",
+              "CRITICAL"
+            ],
+            "event_name": "Security",
+            "log_group_class": "STANDARD",
+            "log_group_name": "Security",
+            "log_stream_name": "{instance_id}",
+            "retention_in_days": 180
+          }
+        ]
+      }
+    }
   },
-  {
-  "event_format": "xml",
-  "event_levels": [
-  "INFORMATION",
-  "WARNING",
-  "ERROR",
-  "CRITICAL"
-  ],
-  "event_name": "Security",
-  "log_group_class": "STANDARD",
-  "log_group_name": "Security",
-  "log_stream_name": "{instance_id}",
-  "retention_in_days": 180
+  "metrics": {
+    "aggregation_dimensions": [
+      [
+        "InstanceId"
+      ]
+    ],
+    "append_dimensions": {
+      "AutoScalingGroupName": "${aws:AutoScalingGroupName}",
+      "ImageId": "${aws:ImageId}",
+      "InstanceId": "${aws:InstanceId}",
+      "InstanceType": "${aws:InstanceType}"
+    },
+    "metrics_collected": {
+      "LogicalDisk": {
+        "measurement": [
+          "% Free Space"
+        ],
+        "metrics_collection_interval": 60,
+        "resources": [
+          "*"
+        ]
+      },
+      "Memory": {
+        "measurement": [
+          "% Committed Bytes In Use"
+        ],
+        "metrics_collection_interval": 60
+      },
+      "statsd": {
+        "metrics_aggregation_interval": 60,
+        "metrics_collection_interval": 10,
+        "service_address": ":8125"
+      }
+    }
   }
-  ]
 }
 ```
 
@@ -167,4 +219,3 @@ fields @timestamp, MessageTemplate,Properties.IP,Properties.Uri,Properties.UserI
 | sort @timestamp desc
 | limit 10000
 ```
-
