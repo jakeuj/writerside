@@ -69,6 +69,7 @@ cd "C:\Program Files\Amazon\AmazonCloudWatchAgent"
 
 預設只會記錄事件 system，如果要記錄登入事件，則需要在 `config.json` 中加入 `"event_name": "Security"` 區段：
 
+`C:\ProgramData\Amazon\AmazonCloudWatchAgent\Configs\file_config.json`
 ```json
 "windows_events": {
   "collect_list": [
@@ -142,11 +143,19 @@ AmazonCloudWatchAgent has been started
 - 登入成功 4624
 - 登入失敗 4625
 
+Windows Events Log 會有兩個 log group，分別是 `System` 和 `Security`，登入事件會在 `Security` 裡面。
 ```
-fields @timestamp, @message
-| parse @message "<EventID*>*</EventID>" as qualifiers, EventID
-| filter EventID = 4624
-| display EventID, @message
+filter @logStream = 'i-0416c1dd94d16227f'
+| fields @timestamp, @message
+| parse @message "<EventID>*</EventID>" as EventID
+| filter EventID = "4624"
+| parse @message "<Data Name='TargetUserName'>*</Data>" as TargetUserName
+| parse @message "<Data Name='TargetDomainName'>*</Data>" as TargetDomainName
+| parse @message "<Data Name='IpAddress'>*</Data>" as IpAddress
+| parse @message "<Data Name='LogonType'>*</Data>" as LogonType
+| parse @message "<Data Name='ProcessName'>*</Data>" as ProcessName
+| display @timestamp, TargetUserName, TargetDomainName, IpAddress, LogonType, ProcessName
+| sort @timestamp desc
 | limit 20
 ```
 
