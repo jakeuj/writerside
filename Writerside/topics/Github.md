@@ -2,6 +2,9 @@
 
 筆記下流程跟修正官方文件中的錯誤
 
+## 版號
+[The current latest version is 2025.04.8412](https://www.jetbrains.com/help/writerside/deploy-docs-to-github-pages.html#env.DOCKER_VERSION)
+
 ## 結論
 {collapsible="true"}
 
@@ -54,7 +57,7 @@ env:
   # Replace HI with the ID of the instance in capital letters
   ARTIFACT: webHelpHI2-all.zip
   # Writerside docker image version
-  DOCKER_VERSION: 233.14389
+  DOCKER_VERSION: 2025.04.8412
   # Add the variable below to upload Algolia indexes
   # Replace HI with the ID of the instance in capital letters
   ALGOLIA_ARTIFACT: algolia-indexes-HI.zip
@@ -75,7 +78,7 @@ jobs:
           docker-version: ${{ env.DOCKER_VERSION }}
       
       - name: Upload documentation
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: docs
           path: |
