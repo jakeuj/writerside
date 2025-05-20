@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE buildprofiles SYSTEM "https://resources.jetbrains.com/writerside/1.0/build-profiles.dtd">
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-
     <variables>
         <web-root>https://jakeuj.com/</web-root>
         <download-page>https://www.jetbrains.com/writerside/download/</download-page>
@@ -10,11 +10,12 @@
         <primary-color>strawberry</primary-color>
         <header-logo>hatsune-miku-seeklogo.svg</header-logo>
         <custom-favicons>miku.png</custom-favicons>
-        <browser-edits-url>https://github.com/jakeuj/writerside/tree/master/Writerside/topics</browser-edits-url>
-        <analytics-head-script-file>google-analytics.js</analytics-head-script-file>
         <algolia-index>Default</algolia-index>
         <algolia-id>8VA5LCDZGD</algolia-id>
         <algolia-api-key>f5eaff3acc1d2c2655c270fafab6834d</algolia-api-key>
+        <include-in-head>include-in-head.html</include-in-head>
+        <include-before-body>include-before-body.html</include-before-body>
+        <include-after-body>include-after-body.html</include-after-body>
     </variables>
 
     <shortcuts>
