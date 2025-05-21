@@ -16,6 +16,8 @@
         <include-in-head>include-in-head.html</include-in-head>
         <include-before-body>include-before-body.html</include-before-body>
         <include-after-body>include-after-body.html</include-after-body>
+        <analytics-body-html-file>analytics-body-html-file.html</analytics-body-html-file>
+        <analytics-head-script-file>analytics-head-script-file.js</analytics-head-script-file>
     </variables>
 
     <shortcuts>
