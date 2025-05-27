@@ -13,11 +13,12 @@
         <algolia-index>Default</algolia-index>
         <algolia-id>8VA5LCDZGD</algolia-id>
         <algolia-api-key>f5eaff3acc1d2c2655c270fafab6834d</algolia-api-key>
-        <include-in-head>include-in-head.html</include-in-head>
-        <include-before-body>include-before-body.html</include-before-body>
-        <include-after-body>include-after-body.html</include-after-body>
-        <analytics-body-html-file>analytics-body-html-file.html</analytics-body-html-file>
         <analytics-head-script-file>analytics-head-script-file.js</analytics-head-script-file>
+
+<!--        <analytics-body-html-file>analytics-body-html-file.html</analytics-body-html-file>-->
+<!--        <include-in-head>include-in-head.html</include-in-head>-->
+<!--        <include-before-body>include-before-body.html</include-before-body>-->
+<!--        <include-after-body>include-after-body.html</include-after-body>-->
     </variables>
 
     <shortcuts>
