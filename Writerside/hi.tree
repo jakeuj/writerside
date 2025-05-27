@@ -7,6 +7,7 @@
                  start-page="Default.md">
 
     <toc-element topic="Default.md">
+        <toc-element topic="贊助.md"/>
         <toc-element toc-title="AI">
             <toc-element topic="FramePack-圖生影.md"/>
         </toc-element>

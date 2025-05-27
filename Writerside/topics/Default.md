@@ -7,4 +7,3 @@
    - 使用 big5 防止中文亂碼
    - 使用瀏覽器取代 telnet
 4. [抖內](https://www.paypal.com/ncp/payment/PLYGLLUS2Z8VS)
-![Donate-qrcode.png](Donate-qrcode.png){style="auto"}
