@@ -69,7 +69,8 @@ using Microsoft.AspNetCore.Mvc;
 namespace TestProj.Tests;
 
 [IgnoreAntiforgeryToken]
-public class TestAppService : TestProjAppService
+public class TestAppService(ICurrentUser currentUser) 
+    : TestProjAppService
 {
     [Authorize(AuthenticationSchemes = 
             JwtBearerDefaults.AuthenticationScheme, 
