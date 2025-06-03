@@ -43,10 +43,10 @@ private void ConfigureAuthorization(
  {
      context.Services.AddAuthorization(options =>
      {
+         // 若是使用 client_credentials flow，會沒有 "sub"，但有 "client_id"
          options.AddPolicy("ClientPolicy", policy =>
          {
              policy.RequireAuthenticatedUser();
-              // 若是使用 client_credentials flow，會沒有 "sub"，但有 "client_id"
              policy.RequireAssertion(context =>
              {
                  var hasClientId = 
@@ -74,9 +74,13 @@ public class TestAppService : TestProjAppService
     [Authorize(AuthenticationSchemes = 
             JwtBearerDefaults.AuthenticationScheme, 
             Policy = "ClientPolicy")]
-    public string Get()
+    public List<string> Get()
     {
-        return "OK";
+        var claims = currentUser.GetAllClaims()
+            .Select(c => $"{c.Type}: {c.Value}")
+            .ToList();
+
+        return claims;
     }
 }
 ```
