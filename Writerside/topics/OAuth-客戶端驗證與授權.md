@@ -7,7 +7,6 @@ OAuth 客戶端驗證與授權通常涉及以下幾個步驟：
 ![oauth-client.png](oauth-client.png){style="auto"}
 2. **新增Policy**：
    在 `ConfigureServices` 方法中新增授權策略，指定使用 JWT Bearer 認證。
-
    ```C#
    services.AddAuthorization(options =>
    {
@@ -19,18 +18,14 @@ OAuth 客戶端驗證與授權通常涉及以下幾個步驟：
    P.S. 這通常位於 Host 專案的 `Module` 類別中。
 3. **設定 API 授權規則**：
    在需要授權的 API 控制器或方法上使用 `[Authorize]` 屬性，並指定使用的認證方案和授權策略。
+   ```C#
+   [Authorize( AuthenticationSchemes = 
+       JwtBearerDefaults.AuthenticationScheme, Policy = "ClientPolicy")]
+   ```
+4. CSRF Token 驗證：
+   使用 Rider HTTP Client 或 PostMan 等工具呼叫時，不能攜帶 Cookie CSRF Token，否則會驗證失敗。
 
-```C#
-[Authorize( AuthenticationSchemes = 
-    JwtBearerDefaults.AuthenticationScheme, Policy = "ClientPolicy")]
-```
-
-4. IgnoreAntiforgeryToken
-    在 API 方法中忽略 CSRF 防護，因為 OAuth 客戶端通常不需要 CSRF 保護。
-    
-    ```C#
-    [IgnoreAntiforgeryToken]
-    ```
+參照：[Want-to-disable-CSRFXSRF-for-API-access-because-it-is-not-working-as-expected-and-cannot-disable-it](https://abp.io/support/questions/1895/Want-to-disable-CSRFXSRF-for-API-access-because-it-is-not-working-as-expected-and-cannot-disable-it)
 
 ## 使用範例
 以下是一個簡單的範例，展示如何在 ASP.NET Core 中實現 OAuth 客戶端驗證與授權：
@@ -68,14 +63,12 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace TestProj.Tests;
 
-[IgnoreAntiforgeryToken]
+[Authorize(AuthenticationSchemes = 
+    JwtBearerDefaults.AuthenticationScheme, Policy = "ClientPolicy")]
 public class TestAppService(ICurrentUser currentUser) 
     : TestProjAppService
 {
-    [Authorize(AuthenticationSchemes = 
-            JwtBearerDefaults.AuthenticationScheme, 
-            Policy = "ClientPolicy")]
-    public List<string> Get()
+    public List<string> Post()
     {
         var claims = currentUser.GetAllClaims()
             .Select(c => $"{c.Type}: {c.Value}")
@@ -99,7 +92,8 @@ grant_type=client_credentials&scope=TestProj
 %}
 
 ### 驗證 Request
-GET https://{{apiBaseUrl}}/api/app/test
+// @no-cookie-jar
+POST https://{{apiBaseUrl}}/api/app/test
 Authorization: Bearer {{auth_token}}
 
 > {%
@@ -110,7 +104,8 @@ Authorization: Bearer {{auth_token}}
 %}
 
 ### 未驗證 Request
-GET https://{{apiBaseUrl}}/api/app/test
+// @no-cookie-jar
+POST https://{{apiBaseUrl}}/api/app/test
 
 > {%
     client.test("Request executed successfully 401", function () {
@@ -118,5 +113,9 @@ GET https://{{apiBaseUrl}}/api/app/test
     });
 %}
 ```
-P.S. 其中 `basicAuth` 是 Base64 編碼的 `ClientId:ClientSecret`，
+### basicAuth
+其中 `basicAuth` 是 Base64 編碼的 `ClientId:ClientSecret`，
 例如：`Y2xpZW50SWQ6Y2xpZW50U2VjcmV0`
+
+### Rider Http Client
+Rider Http Client 中要禁用 cookies 需要呼叫前加入 `// @no-cookie-jar`
