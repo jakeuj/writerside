@@ -71,6 +71,8 @@ FramePack 採用「下一幀預測」模型，核心在於：
 好處是可以裝 sageattention 來加速
 
 ### linux (Ubuntu 24.04)
+可以裝 sageattention 來加速
+[Besides hardware, what other methods can be used to speed up the process?](https://github.com/lllyasviel/FramePack/issues/380)
 
 ```bash
 sudo add-apt-repository ppa:deadsnakes/ppa
