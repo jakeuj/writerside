@@ -76,7 +76,7 @@ FramePack 採用「下一幀預測」模型，核心在於：
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt update
 sudo apt install python3.12 python3.12-venv python3.12-dev
-python3.10 -m venv .venv312
+python3.12 -m venv .venv312
 source .venv312/bin/activate
 pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
 pip install -r requirements.txt
