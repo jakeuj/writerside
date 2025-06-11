@@ -46,6 +46,7 @@ sudo apt-get install -y cuda-drivers
 - 參照：[Driver Installer](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=24.04&target_type=deb_network#:~:text=detailed%20here.-,Driver%20Installer,-NVIDIA%20Driver%20Instructions)
 
 ## PyTorch CUDA 驅動程式
+![PyTorch.png](PyTorch.png)
 - 使用 PyTorch 2.7.1 對應的 CUDA 12.8 wheel。
 - 不用額外安裝 CUDA Toolkit，安裝 PyTorch 時它會帶自己的 CUDA runtime（如果你用 pip install torch 裝的是 CUDA 版本）。
 - 安裝指令：
@@ -56,9 +57,10 @@ pip3 install --pre torch torchvision torchaudio --index-url https://download.pyt
 [pytorch](https://pytorch.org/get-started/locally/)
 
 ## CUDA Toolkit 安裝
+![Cuda-Toolkit.png](Cuda-Toolkit.png){style="auto"}
 如果你不是用 PyTorch 需要安裝 CUDA Toolkit，可以到官網選擇找你要的版本與作業系統
 
-以 Ubuntu 24.04 為例，可以使用以下指令安裝：
+以 Ubuntu 24.04 安裝 CUDA Toolkit 12.9 為例，可以使用以下指令安裝：
 ```bash
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2404/x86_64/cuda-keyring_1.1-1_all.deb
 sudo dpkg -i cuda-keyring_1.1-1_all.deb
@@ -84,5 +86,6 @@ sudo apt-get -y install cuda-toolkit-12-9
 
 ## 顯示卡相容性
 Nvidia 驅動程式和 CUDA 的相容性取決於你的顯示卡型號。
+- [全本版CUDA Toolkit 列表](https://developer.nvidia.com/cuda-toolkit-archive)
 ### 參照
 [上一篇關於 Nvidia Driver 的文章](Nvidia-Driver.md)
