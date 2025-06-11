@@ -97,6 +97,7 @@ sudo apt-get -y install cuda-toolkit-12-9
 2. 永久加入 PATH
     ```bash
     echo 'export PATH=/usr/local/cuda-12.9/bin:$PATH' >> ~/.bashrc
+    echo 'export LD_LIBRARY_PATH=/usr/local/cuda-12.9/lib64:$LD_LIBRARY_PATH' >> ~/.bashrc
     source ~/.bashrc
     ```
 3. 確認 nvcc 是否可以使用
@@ -111,6 +112,12 @@ sudo apt-get -y install cuda-toolkit-12-9
     Cuda compilation tools, release 12.9, V12.9.86
     Build cuda_12.9.r12.9/compiler.36037853_0
    ```
+
+✅ 什麼時候一定要加？
+•	自己手動安裝 CUDA 且沒使用 runfile installer 建立 symlink
+•	使用多版本 CUDA 切換時（例如有 /usr/local/cuda-11.8、cuda-12.9 等）
+•	在編譯 CUDA 應用程式或使用某些需要 LD_LIBRARY_PATH 的應用時
+
 #### 參照
 [CUDA Toolkit](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=24.04&target_type=deb_network)
 
