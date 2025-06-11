@@ -81,6 +81,36 @@ sudo apt-get -y install cuda-toolkit-12-9
         sudo sh cuda_<version>_linux.run
         ```
       
+### NVCC 編譯器
+`NVCC` 是 CUDA 的編譯器，但安裝 CUDA Toolkit 後，並不會自動將路徑加到環境變數，導致 nvcc 指令無法直接使用。
+解法步驟如下：
+
+1. 確認 nvcc 是否有被安裝（通常會在這）
+    ```bash
+    sudo find / -name nvcc 2>/dev/null
+    ```
+   你應該會看到類似這樣的輸出：
+    ```bash
+    /usr/local/cuda-12.9/bin/nvcc
+    /usr/local/cuda-12.6/bin/nvcc
+    ```
+2. 永久加入 PATH
+    ```bash
+    echo 'export PATH=/usr/local/cuda-12.9/bin:$PATH' >> ~/.bashrc
+    source ~/.bashrc
+    ```
+3. 確認 nvcc 是否可以使用
+    ```bash
+    nvcc --version
+    ```
+   會顯示像：
+    ```bash
+    nvcc: NVIDIA (R) Cuda compiler driver
+    Copyright (c) 2005-2025 NVIDIA Corporation
+    Built on Tue_May_27_02:21:03_PDT_2025
+    Cuda compilation tools, release 12.9, V12.9.86
+    Build cuda_12.9.r12.9/compiler.36037853_0
+   ```
 #### 參照
 [CUDA Toolkit](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=24.04&target_type=deb_network)
 
