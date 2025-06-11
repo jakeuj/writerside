@@ -74,6 +74,11 @@ FramePack 採用「下一幀預測」模型，核心在於：
 
 Python 3.10.
 ```bash
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+sudo apt install python3.10 python3.10-venv python3.10-dev
+python3.10 -m venv .venv310
+source .venv310/bin/activate
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
 pip install sageattention==1.0.6pip install sageattention==1.0.6
 pip install -r requirements.txt
