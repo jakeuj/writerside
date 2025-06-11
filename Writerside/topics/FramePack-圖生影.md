@@ -70,22 +70,73 @@ FramePack 採用「下一幀預測」模型，核心在於：
 
 好處是可以裝 sageattention 來加速
 
-### linux
+### linux (Ubuntu 24.04)
 
-Python 3.10.
 ```bash
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt update
-sudo apt install python3.10 python3.10-venv python3.10-dev
-python3.10 -m venv .venv310
-source .venv310/bin/activate
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
-pip install sageattention==1.0.6
+sudo apt install python3.12 python3.12-venv python3.12-dev
+python3.10 -m venv .venv312
+source .venv312/bin/activate
+pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
 pip install -r requirements.txt
-python demo_gradio.py
+pip install sageattention
+python demo_gradio_f1.py
 ```
 
-## Mac
+#### 啟動腳本
+
+```Bash
+nano run_gradio.sh
+chmod +x run_gradio.sh
+```
+
+```Bash
+#!/bin/bash
+
+# 此處應改成你放的程式位置!!!
+cd ~/FramePack
+
+PYTHON_BIN="./.venv312/bin/python"
+SCRIPT="demo_gradio_f1.py"
+
+# 函式：停止已執行的特定實例
+stop_if_running() {
+    GPU_ID=$1
+    PORT=$2
+    PIDS=$(pgrep -f "CUDA_VISIBLE_DEVICES=$GPU_ID.*$SCRIPT --port $PORT")
+    if [ -n "$PIDS" ]; then
+        echo "🛑 偵測到 GPU $GPU_ID / Port $PORT 已在執行，正在終止：$PIDS"
+        kill $PIDS
+        sleep 1
+    fi
+}
+
+# 函式：啟動指定 GPU 和 Port
+start_instance() {
+    GPU_ID=$1
+    PORT=$2
+    LOGFILE="output_${PORT}.log"
+
+    echo "🚀 啟動 GPU $GPU_ID / Port $PORT"
+    nohup env CUDA_VISIBLE_DEVICES=$GPU_ID $PYTHON_BIN $SCRIPT --port $PORT > $LOGFILE 2>&1 &
+    echo "✅ GPU $GPU_ID 實例已啟動，PID=$!"
+    # Debugging: 顯示最近的 50 行日誌
+    #tail -n 50 output_7860.log
+}
+
+# === 執行重啟程序 ===
+stop_if_running 0 7860
+start_instance 0 7860
+
+## 停止並重啟第二個實例
+#stop_if_running 1 7861
+#start_instance 1 7861
+
+echo "🔁 所有服務已強制重啟完成"
+```
+
+### Mac
 [Mac](https://github.com/brandon929/FramePack)
 
 FramePack recommends using Python 3.10. If you have homebrew installed, you can install Python 3.10 using brew.
