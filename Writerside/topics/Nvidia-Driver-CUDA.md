@@ -114,9 +114,9 @@ sudo apt-get -y install cuda-toolkit-12-9
    ```
 
 ✅ 什麼時候一定要加？
-•	自己手動安裝 CUDA 且沒使用 runfile installer 建立 symlink
-•	使用多版本 CUDA 切換時（例如有 /usr/local/cuda-11.8、cuda-12.9 等）
-•	在編譯 CUDA 應用程式或使用某些需要 LD_LIBRARY_PATH 的應用時
+- 自己手動安裝 CUDA 且沒使用 runfile installer 建立 symlink
+- 使用多版本 CUDA 切換時（例如有 /usr/local/cuda-11.8、cuda-12.9 等）
+- 在編譯 CUDA 應用程式或使用某些需要 LD_LIBRARY_PATH 的應用時
 
 #### 參照
 [CUDA Toolkit](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=24.04&target_type=deb_network)
