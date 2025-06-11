@@ -75,6 +75,8 @@ FramePack 採用「下一幀預測」模型，核心在於：
 [Besides hardware, what other methods can be used to speed up the process?](https://github.com/lllyasviel/FramePack/issues/380)
 
 ```bash
+cd ~
+git clone https://github.com/lllyasviel/FramePack.git
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt update
 sudo apt install python3.12 python3.12-venv python3.12-dev
@@ -123,8 +125,6 @@ start_instance() {
     echo "🚀 啟動 GPU $GPU_ID / Port $PORT"
     nohup env CUDA_VISIBLE_DEVICES=$GPU_ID $PYTHON_BIN $SCRIPT --port $PORT > $LOGFILE 2>&1 &
     echo "✅ GPU $GPU_ID 實例已啟動，PID=$!"
-    # Debugging: 顯示最近的 50 行日誌
-    #tail -n 50 output_7860.log
 }
 
 # === 執行重啟程序 ===
@@ -138,18 +138,30 @@ start_instance 0 7860
 echo "🔁 所有服務已強制重啟完成"
 ```
 
+#### Debug
+
+如果有問題可以用下面的指令來 debug
+
+```bash
+cd ~/FramePack
+tail -n 50 output_7860.log
+````
+
 ### Mac
 [Mac](https://github.com/brandon929/FramePack)
 
 FramePack recommends using Python 3.10. If you have homebrew installed, you can install Python 3.10 using brew.
 
 ```bash
+cd ~
+git clone https://github.com/brandon929/FramePack.git
+
 brew install python@3.10
 
 pip3.10 install --pre torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/nightly/cpu
 pip3.10 install -r requirements.txt
 
-python3.10 demo_gradio.py
+python3.10 demo_gradio_f1.py
 ```
 
 ## 雙顯卡
