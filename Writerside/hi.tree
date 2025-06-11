@@ -115,6 +115,7 @@
             <toc-element topic="Power-Shell-SSH.md"/>
             <toc-element topic="Docker-Install.md"/>
             <toc-element topic="Nvidia-Driver.md"/>
+            <toc-element topic="Nvidia-Driver-CUDA.md"/>
             <toc-element topic="Install.md"/>
             <toc-element topic="pip.md"/>
             <toc-element topic="SSH.md"/>
