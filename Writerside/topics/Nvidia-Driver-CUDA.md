@@ -48,7 +48,7 @@ sudo apt-get install -y cuda-drivers
 ## PyTorch CUDA 驅動程式
 ![PyTorch.png](PyTorch.png)
 - 使用 PyTorch 2.7.1 對應的 CUDA 12.8 wheel。
-- 不用額外安裝 CUDA Toolkit，安裝 PyTorch 時它會帶自己的 CUDA runtime（如果你用 pip install torch 裝的是 CUDA 版本）。
+- **不用額外安裝 CUDA Toolkit**，安裝 PyTorch 時它會 **帶自己的 CUDA runtime**（如果你用 pip install torch 裝的是 CUDA 版本）。
 - 安裝指令：
 ```bash
 pip3 install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
