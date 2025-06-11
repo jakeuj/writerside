@@ -80,7 +80,7 @@ sudo apt install python3.10 python3.10-venv python3.10-dev
 python3.10 -m venv .venv310
 source .venv310/bin/activate
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
-pip install sageattention==1.0.6pip install sageattention==1.0.6
+pip install sageattention==1.0.6
 pip install -r requirements.txt
 python demo_gradio.py
 ```
