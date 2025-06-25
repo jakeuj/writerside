@@ -35,6 +35,7 @@
         <toc-element href="https://www.dotblogs.com.tw/jakeuj/" toc-title="原筆記(點部落)"/>
         <toc-element topic="links.md"/>
         <toc-element topic="ABP.md">
+            <toc-element topic="ABP-AAD-選擇帳號.md"/>
             <toc-element topic="OAuth-客戶端驗證與授權.md"/>
             <toc-element topic="File-System.md"/>
             <toc-element topic="File-Management.md"/>
