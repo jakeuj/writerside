@@ -7,8 +7,6 @@
                  start-page="Default.md">
 
     <toc-element topic="Default.md">
-        <toc-element toc-title="iOS"/>
-        <toc-element topic="換筆電重建開發環境.md"/>
         <toc-element toc-title="破解">
             <toc-element topic="透過443代理內網特定port.md"/>
         </toc-element>
@@ -27,11 +25,14 @@
             <toc-element topic="Directory-Packages-props.md"/>
         </toc-element>
         <toc-element topic="Flutter.md">
+            <toc-element toc-title="iOS">
+                <toc-element topic="iOS.md"/>
+                <toc-element topic="換筆電重建開發環境.md"/>
+            </toc-element>
+            <toc-element topic="Android-Studio.md"/>
             <toc-element topic="手寫.md"/>
             <toc-element topic="推播.md"/>
-            <toc-element topic="iOS.md"/>
         </toc-element>
-        <toc-element topic="Android-Studio.md"/>
         <toc-element topic="SQL.md">
             <toc-element topic="CTE.md"/>
         </toc-element>
