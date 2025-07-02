@@ -18,13 +18,13 @@ curl -fsSL https://ollama.com/install.sh | sh
 ## 使用
 
 ```bash
-ollama run deepseek-r1:
+ollama run deepseek-r1
 ```
 
 ## API
 
 ```bash
-curl http://localhost:11434/api/generate -X POST -H "Content-Type: application/json" -d '{"model":"deepseek-r1:","prompt":"Hello, world!"}'
+curl http://localhost:11434/api/generate -X POST -H "Content-Type: application/json" -d '{"model":"deepseek-r1","prompt":"Hello, world!"}'
 ```
 
 ## 臨時開放外部呼叫
@@ -76,7 +76,7 @@ sudo systemctl start ollama.service
 用另一台電腦測試是否可以打 API
 
 ```bash
-curl http://{your_ip_address}:11434/api/generate -X POST -H "Content-Type: application/json" -d '{"model":"deepseek-r1:","prompt":"Hello, world!"}'
+curl http://{your_ip_address}:11434/api/generate -X POST -H "Content-Type: application/json" -d '{"model":"deepseek-r1","prompt":"Hello, world!"}'
 ```
 
 ## python
@@ -87,7 +87,7 @@ client = Client(
   host='http://localhost:11434',
   headers={'x-some-header': 'some-value'}
 )
-response = client.chat(model='deepseek-r1:', messages=[
+response = client.chat(model='deepseek-r1', messages=[
   {
     'role': 'user',
     'content': '为什么天空是蓝色的？',
