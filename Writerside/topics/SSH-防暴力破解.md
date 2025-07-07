@@ -16,12 +16,17 @@ sudo nano /etc/fail2ban/jail.local
 在 `jail.local` 中加入或修改：
 ```ini
 [sshd]
-enabled = true
-port = 10422
+port    = ssh
 logpath = %(sshd_log)s
-bantime = 3600       # 封鎖時間 (秒)
-findtime = 600       # 分析時間區間 (秒)
-maxretry = 5         # 幾次失敗就封鎖
+backend = %(sshd_backend)s
+# 上面是預設值，以下是需加上的設定
+enabled = true
+# 封鎖時間 (秒)
+bantime = 3600
+# 分析時間區間 (秒)
+findtime = 600
+# 幾次失敗就封鎖
+maxretry = 5
 ```
 
 ## ▶️ 啟動
