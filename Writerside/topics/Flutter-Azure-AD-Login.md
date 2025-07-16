@@ -1,6 +1,7 @@
 # Flutter Azure AD Login
 
-This Flutter application demonstrates how to implement Azure Active Directory (Azure AD) login using the `aad_oauth` package. It allows users to log in with their Azure AD credentials and displays their profile information.
+This Flutter application demonstrates how to implement Azure Active Directory (Azure AD) login using the `aad_oauth` package. 
+It allows users to log in with their Azure AD credentials and displays their profile information.
 
 ## Dependencies
 
@@ -40,7 +41,7 @@ class MyApp extends StatelessWidget {
 class AuthService {
   static const String tenantId = 'xxxx-xxxx-xxxx-xxxx-xxxx';
   static const String clientId = 'xxxx-xxxx-xxxx-xxxx-xxxx';
-  static const String redirectUri = 'http://localhost';
+  static const String redirectUri = 'https://login.live.com/oauth20_desktop.srf';
   static const String scope = 'openid profile email';
 
   static AadOAuth get oauth => AadOAuth(
@@ -203,3 +204,9 @@ class ProfilePage extends StatelessWidget {
   }
 }
 ```
+
+## 備註
+登入時會根據 Azure AD 設定的 redirect url 判斷是 web 或是 mobile，登入流程分別會是需要 secret 或是 public client。
+因為手機不應該使用 client secret，所以這邊使用的是 public client。
+Azure AD 上的應用程式登入設定下方有內建桌面與手機應用程的 redirect url，可以直接勾選啟用。
+- https://login.live.com/oauth20_desktop.srf
