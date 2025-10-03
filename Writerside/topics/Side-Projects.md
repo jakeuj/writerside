@@ -30,6 +30,9 @@
 ![pixerDotnet](https://opengraph.githubassets.com/1/jakeuj/pixerDotnet)
 
 
+## Fork 專案（有貢獻）
+這一區塊列出我 Fork 但有實際提交（commit）的專案，已標註「Fork｜有貢獻」，並附上徽章與預覽圖。
+
 ### pixer（Fork｜有貢獻）
 - 語言：JavaScript / Electron
 - 連結：https://github.com/jakeuj/pixer
@@ -162,6 +165,8 @@
 ### MyKirito
 - 語言：C#
 - 連結：https://github.com/jakeuj/MyKirito
+- 說明：以 C# 撰寫的個人練習/實驗專案，聚焦遊戲相關工具與腳本嘗試。
+
 
 ![Stars](https://img.shields.io/github/stars/jakeuj/MyKirito?style=social) ![Top language](https://img.shields.io/github/languages/top/jakeuj/MyKirito) ![Last commit](https://img.shields.io/github/last-commit/jakeuj/MyKirito)
 - 技術標籤：`C#`
@@ -171,6 +176,8 @@
 ### AiPlaform
 - 語言：JavaScript
 - 連結：https://github.com/jakeuj/AiPlaform
+- 說明：前端實驗專案，探索整合 AI 功能與 UI/互動流程的雛形。
+
 
 ![Stars](https://img.shields.io/github/stars/jakeuj/AiPlaform?style=social) ![Top language](https://img.shields.io/github/languages/top/jakeuj/AiPlaform) ![Last commit](https://img.shields.io/github/last-commit/jakeuj/AiPlaform)
 - 技術標籤：`JavaScript` `Web` `AI`
@@ -180,6 +187,8 @@
 ### PowerShellNetCoreQueue
 - 語言：C#
 - 連結：https://github.com/jakeuj/PowerShellNetCoreQueue
+- 說明：示範以 .NET 實作背景佇列並與 PowerShell 互動的範例。
+
 
 ![Stars](https://img.shields.io/github/stars/jakeuj/PowerShellNetCoreQueue?style=social) ![Top language](https://img.shields.io/github/languages/top/jakeuj/PowerShellNetCoreQueue) ![Last commit](https://img.shields.io/github/last-commit/jakeuj/PowerShellNetCoreQueue)
 - 技術標籤：`.NET` `Background-Task` `Queue`
@@ -189,6 +198,8 @@
 ### Drone
 - 語言：C#
 - 連結：https://github.com/jakeuj/Drone
+- 說明：C# 實驗性專案，用於測試與演練專案結構、工具鏈與模式。
+
 
 ![Stars](https://img.shields.io/github/stars/jakeuj/Drone?style=social) ![Top language](https://img.shields.io/github/languages/top/jakeuj/Drone) ![Last commit](https://img.shields.io/github/last-commit/jakeuj/Drone)
 - 技術標籤：`C#`
@@ -198,6 +209,8 @@
 ### MyAbpProject
 - 語言：C#
 - 連結：https://github.com/jakeuj/MyAbpProject
+- 說明：基於 ABP Framework 的學習/範例專案，用於練習模組化與基礎功能整合。
+
 
 ![Stars](https://img.shields.io/github/stars/jakeuj/MyAbpProject?style=social) ![Top language](https://img.shields.io/github/languages/top/jakeuj/MyAbpProject) ![Last commit](https://img.shields.io/github/last-commit/jakeuj/MyAbpProject)
 - 技術標籤：`ABP` `.NET`
@@ -207,6 +220,7 @@
 ### LINQPad-Queries
 - 語言：C#
 - 連結：https://github.com/jakeuj/LINQPad-Queries
+- 說明：用於彙整與分享我在 LINQPad 中撰寫的查詢與範例程式碼，涵蓋資料處理、EF/Dapper、實用小技巧等主題。
 
 ![Stars](https://img.shields.io/github/stars/jakeuj/LINQPad-Queries?style=social) ![Top language](https://img.shields.io/github/languages/top/jakeuj/LINQPad-Queries) ![Last commit](https://img.shields.io/github/last-commit/jakeuj/LINQPad-Queries)
 - 技術標籤：`C#` `LINQPad`
@@ -216,6 +230,8 @@
 ### TestDocker
 - 語言：C#
 - 連結：https://github.com/jakeuj/TestDocker
+- 說明：結合 C# 與 Docker 的打包/執行測試與流程驗證。
+
 
 ![Stars](https://img.shields.io/github/stars/jakeuj/TestDocker?style=social) ![Top language](https://img.shields.io/github/languages/top/jakeuj/TestDocker) ![Last commit](https://img.shields.io/github/last-commit/jakeuj/TestDocker)
 - 技術標籤：`C#` `Docker`
@@ -225,6 +241,8 @@
 ### electron
 - 語言：Shell
 - 連結：https://github.com/jakeuj/electron
+- 說明：Electron 相關腳本與樣板的實驗專案，包含 Shell 腳本與打包流程嘗試。
+
 
 ![Stars](https://img.shields.io/github/stars/jakeuj/electron?style=social) ![Top language](https://img.shields.io/github/languages/top/jakeuj/electron) ![Last commit](https://img.shields.io/github/last-commit/jakeuj/electron)
 - 技術標籤：`Shell` `Electron`
