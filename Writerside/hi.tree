@@ -13,6 +13,8 @@
         <toc-element href="https://www.dotblogs.com.tw/jakeuj/" toc-title="原筆記(點部落)"/>
         <toc-element topic="贊助.md"/>
         <toc-element topic="links.md"/>
+            <toc-element topic="Side-Projects.md"/>
+
         <toc-element toc-title="破解">
             <toc-element topic="透過443代理內網特定port.md"/>
         </toc-element>
