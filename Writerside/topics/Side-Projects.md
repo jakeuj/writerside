@@ -1,4 +1,4 @@
-# Side Projects｜我的 Side Projects
+# Side Projects
 
 <p>
 <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" alt="Pull Shark" width="48"/>
