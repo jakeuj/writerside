@@ -1,16 +1,13 @@
 # Side Projects｜我的 Side Projects
 
-<div align="center">
-  <a href="https://github.com/jakeuj?tab=achievements" target="_blank" rel="noopener">
-    <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" alt="Pull Shark" title="Pull Shark" height="48" />
-    <img src="https://github.githubassets.com/images/modules/profile/achievements/starstruck-default.png" alt="Starstruck" title="Starstruck" height="48" />
-    <img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" alt="Quickdraw" title="Quickdraw" height="48" />
-    <img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" alt="YOLO" title="YOLO" height="48" />
-  </a>
-  <div style="margin-top:6px;">
-    <a href="https://github.com/jakeuj?tab=achievements">查看我的 GitHub 成就</a>
-  </div>
-</div>
+<p>
+<img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" alt="Pull Shark" width="48"/>
+<img src="https://github.githubassets.com/images/modules/profile/achievements/starstruck-default.png" alt="Starstruck" width="48"/>
+<img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" alt="Quickdraw" width="48"/>
+<img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" alt="YOLO" width="48"/>
+</p>
+
+[查看我的 GitHub 成就](https://github.com/jakeuj?tab=achievements)
 
 
 這一頁整理我在 GitHub 上的 side projects，涵蓋 .NET、前端、AI、DevOps 等主題。完整清單請見：
