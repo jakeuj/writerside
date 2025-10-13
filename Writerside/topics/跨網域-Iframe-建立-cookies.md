@@ -52,9 +52,9 @@ Response.Cookies.Add(sameSiteCookie);
 
 PS5
 
-* [Cookies](/jakeuj/Tags?qq=Cookies)
+* Cookies
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

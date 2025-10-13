@@ -64,10 +64,10 @@
 
 PS5
 
-* [Roslyn](/jakeuj/Tags?qq=Roslyn)
-* [WSP](/jakeuj/Tags?qq=WSP)
+* Roslyn
+* WSP
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

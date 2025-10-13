@@ -25,10 +25,10 @@
 
 PS5
 
-* [PowerShell](/jakeuj/Tags?qq=PowerShell)
-* [VisualStudio](/jakeuj/Tags?qq=VisualStudio)
+* PowerShell
+* VisualStudio
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

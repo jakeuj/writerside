@@ -22,11 +22,11 @@ ng build --prod
 
 PS5
 
-* [Angular](/jakeuj/Tags?qq=Angular)
-* [Rider](/jakeuj/Tags?qq=Rider)
-* [JetBrains](/jakeuj/Tags?qq=JetBrains)
+* Angular
+* Rider
+* JetBrains
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

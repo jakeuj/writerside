@@ -34,9 +34,9 @@
 
 PS5
 
-* [HSTS](/jakeuj/Tags?qq=HSTS)
+* HSTS
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

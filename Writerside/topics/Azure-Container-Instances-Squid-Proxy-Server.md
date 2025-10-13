@@ -158,12 +158,12 @@ IT 何苦為難 RD？
 
 PS5
 
-* [Azure](/jakeuj/Tags?qq=Azure)
-* [Container](/jakeuj/Tags?qq=Container)
-* [Proxy](/jakeuj/Tags?qq=Proxy)
-* [Squid](/jakeuj/Tags?qq=Squid)
+* Azure
+* Container
+* Proxy
+* Squid
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

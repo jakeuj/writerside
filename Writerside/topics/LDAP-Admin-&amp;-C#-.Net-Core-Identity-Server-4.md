@@ -85,10 +85,10 @@ Ldap Admin 下載：http://www.ldapadmin.org/
 
 PS5
 
-* [AD](/jakeuj/Tags?qq=AD)
-* [LDAP](/jakeuj/Tags?qq=LDAP)
+* AD
+* LDAP
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

@@ -6,7 +6,7 @@
 
 ---
 
-註冊 IOptions<T> 繫結 appsettings.json
+註冊 ``IOptions<T>`` 繫結 appsettings.json
 
 結論
 
@@ -49,7 +49,7 @@ public override void ConfigureServices(ServiceConfigurationContext context)
 public void Should_Get_Options()
 {
     // Arrange
-    var options = GetRequiredService<IOptions<TestOptions>>().Value;
+    var options = GetRequiredService<`IOptions<TestOptions>`>().Value;
 
     // Act
     var result = options.Age;
@@ -67,10 +67,10 @@ public void Should_Get_Options()
 
 PS5
 
-* [C#](/jakeuj/Tags?qq=C%23)
+* C#
 {ignore-vars="true"}
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

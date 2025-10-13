@@ -67,7 +67,7 @@ Event Cloud是一個免費的SaaS（多租戶）應用程序。我們可以創�
 ```
 
 [Table("AppEvents")]
-public class Event : FullAuditedEntity<Guid>, IMustHaveTenant
+public class Event : FullAudited`Entity<Guid>`, IMustHaveTenant
 {
     public const int MaxTitleLength = 128;
     public const int MaxDescriptionLength = 2048;
@@ -994,14 +994,14 @@ UI上幾乎所有可用的操作也可用作Web API（因為UI使用相同的Web
 
 PS5
 
-* [Angular](/jakeuj/Tags?qq=Angular)
-* [C#](/jakeuj/Tags?qq=C%23)
+* Angular
+* C#
 {ignore-vars="true"}
-* [.Net Core](/jakeuj/Tags?qq=.Net%20Core)
+* .Net Core
 {ignore-vars="true"}
-* [ABP](/jakeuj/Tags?qq=ABP)
+* ABP
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

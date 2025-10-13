@@ -213,10 +213,10 @@ namespace TemplateReplace.Emailing
 
 PS5
 
-* [ABP](/jakeuj/Tags?qq=ABP)
-* [MAIL](/jakeuj/Tags?qq=MAIL)
+* ABP
+* MAIL
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

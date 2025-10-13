@@ -34,12 +34,12 @@ Get-AppxPackage Microsoft.SecHealthUI -AllUsers | Reset-AppxPackage
 
 PS5
 
-* [Win 11](/jakeuj/Tags?qq=Win%2011)
+* Win 11
 {ignore-vars="true"}
-* [Windows Defender](/jakeuj/Tags?qq=Windows%20Defender)
+* Windows Defender
 {ignore-vars="true"}
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

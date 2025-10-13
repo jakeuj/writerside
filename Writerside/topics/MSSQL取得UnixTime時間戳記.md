@@ -30,9 +30,9 @@ SELECT DATEDIFF(SS,'1970-01-01',GETUTCDATE())
 
 PS5
 
-* [MSSQL](/jakeuj/Tags?qq=MSSQL)
+* MSSQL
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

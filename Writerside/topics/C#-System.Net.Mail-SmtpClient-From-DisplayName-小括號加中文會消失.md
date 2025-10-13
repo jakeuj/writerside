@@ -83,9 +83,9 @@ public async Task Should_Get_Chinese_From_Mail()
 
 PS5
 
-* [SMTP](/jakeuj/Tags?qq=SMTP)
+* SMTP
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

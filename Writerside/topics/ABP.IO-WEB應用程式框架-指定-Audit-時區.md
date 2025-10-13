@@ -102,11 +102,11 @@ Configure<AbpClockOptions>(options => { options.Kind = DateTimeKind.Utc; });
 
 PS5
 
-* [ABP](/jakeuj/Tags?qq=ABP)
-* [Audit](/jakeuj/Tags?qq=Audit)
-* [TimeZone](/jakeuj/Tags?qq=TimeZone)
+* ABP
+* Audit
+* TimeZone
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

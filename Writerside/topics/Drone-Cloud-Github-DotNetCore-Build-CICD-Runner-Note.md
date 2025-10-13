@@ -210,15 +210,15 @@ Drone
 
 PS5
 
-* [CI/CD](/jakeuj/Tags?qq=CI%2FCD)
+* CI/CD
 {ignore-vars="true"}
-* [Cloud](/jakeuj/Tags?qq=Cloud)
-* [.Net Core](/jakeuj/Tags?qq=.Net%20Core)
+* Cloud
+* .Net Core
 {ignore-vars="true"}
-* [Drone](/jakeuj/Tags?qq=Drone)
-* [Github](/jakeuj/Tags?qq=Github)
+* Drone
+* Github
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

@@ -20,7 +20,7 @@ A second operation started on this context before a previous operation completed
 
 PS5
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

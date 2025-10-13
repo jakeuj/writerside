@@ -76,14 +76,14 @@ DataGrip
 
 PS5
 
-* [Docker](/jakeuj/Tags?qq=Docker)
-* [MySql](/jakeuj/Tags?qq=MySql)
-* [Ubuntu](/jakeuj/Tags?qq=Ubuntu)
-* [Win 11](/jakeuj/Tags?qq=Win%2011)
+* Docker
+* MySql
+* Ubuntu
+* Win 11
 {ignore-vars="true"}
-* [WSL](/jakeuj/Tags?qq=WSL)
+* WSL
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

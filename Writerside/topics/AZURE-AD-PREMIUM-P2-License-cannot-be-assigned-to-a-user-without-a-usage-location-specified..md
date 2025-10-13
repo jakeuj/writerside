@@ -28,12 +28,12 @@ AZURE AD > User > 個人資料 > 編輯 > 使用位置 > Taiwan
 
 PS5
 
-* [Azure AD](/jakeuj/Tags?qq=Azure%20AD)
+* Azure AD
 {ignore-vars="true"}
-* [AZURE AD PREMIUM P2](/jakeuj/Tags?qq=AZURE%20AD%20PREMIUM%20P2)
+* AZURE AD PREMIUM P2
 {ignore-vars="true"}
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

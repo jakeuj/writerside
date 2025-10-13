@@ -296,13 +296,13 @@ http://dog0416.blogspot.com/2020/06/aspnet-core-microsoftpowershellsdk-iis.html
 
 PS5
 
-* [C#](/jakeuj/Tags?qq=C%23)
+* C#
 {ignore-vars="true"}
-* [.Net Core](/jakeuj/Tags?qq=.Net%20Core)
+* .Net Core
 {ignore-vars="true"}
-* [PowerShell](/jakeuj/Tags?qq=PowerShell)
+* PowerShell
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

@@ -38,10 +38,10 @@
 
 PS5
 
-* [Apache](/jakeuj/Tags?qq=Apache)
-* [SSL](/jakeuj/Tags?qq=SSL)
+* Apache
+* SSL
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

@@ -17,7 +17,7 @@
 * 寫死在程式碼中
 * appsetting.json
   + IConfiguration
-  + IOptions<T>
+  + ``IOptions<T>``
 * Database
   + 自訂 Table 在需要時當作資料讀出來
 
@@ -206,9 +206,9 @@ namespace Demo
 
 PS5
 
-* [Setting](/jakeuj/Tags?qq=Setting)
+* Setting
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

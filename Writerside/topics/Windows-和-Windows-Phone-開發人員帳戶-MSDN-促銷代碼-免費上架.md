@@ -26,9 +26,9 @@
 
 PS5
 
-* [MSDN](/jakeuj/Tags?qq=MSDN)
+* MSDN
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

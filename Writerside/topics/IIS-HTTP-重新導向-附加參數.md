@@ -64,9 +64,9 @@ Ref：http://www.izhangheng.com/iis-301-permanent-redirect-settings-and-paramete
 
 PS5
 
-* [IIS](/jakeuj/Tags?qq=IIS)
+* IIS
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

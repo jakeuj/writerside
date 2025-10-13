@@ -112,12 +112,12 @@ public async Task<string> Profile()
 
 PS5
 
-* [Azure AD](/jakeuj/Tags?qq=Azure%20AD)
+* Azure AD
 {ignore-vars="true"}
-* [Microsoft Graph](/jakeuj/Tags?qq=Microsoft%20Graph)
+* Microsoft Graph
 {ignore-vars="true"}
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

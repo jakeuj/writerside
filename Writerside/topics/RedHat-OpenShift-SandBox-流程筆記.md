@@ -137,13 +137,13 @@ Example:
 
 PS5
 
-* [CI/CD](/jakeuj/Tags?qq=CI%2FCD)
+* CI/CD
 {ignore-vars="true"}
-* [Container](/jakeuj/Tags?qq=Container)
-* [OpenShift](/jakeuj/Tags?qq=OpenShift)
-* [WSL](/jakeuj/Tags?qq=WSL)
+* Container
+* OpenShift
+* WSL
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

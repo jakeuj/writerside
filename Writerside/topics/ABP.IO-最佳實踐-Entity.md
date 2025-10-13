@@ -168,7 +168,7 @@ public class IssueLabel : Entity
 
 PS5
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

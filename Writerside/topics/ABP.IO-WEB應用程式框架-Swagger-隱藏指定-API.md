@@ -53,10 +53,10 @@ services.AddAbpSwaggerGen(
 
 PS5
 
-* [ABP](/jakeuj/Tags?qq=ABP)
-* [Swagger](/jakeuj/Tags?qq=Swagger)
+* ABP
+* Swagger
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

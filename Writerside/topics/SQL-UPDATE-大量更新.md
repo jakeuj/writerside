@@ -33,9 +33,9 @@ UPDATE A SET A.C2=B.C3 FROM A JOIN B ON A.C1=B.C1;
 
 PS5
 
-* [SQL](/jakeuj/Tags?qq=SQL)
+* SQL
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

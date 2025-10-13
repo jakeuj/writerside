@@ -14,7 +14,7 @@ ConfigureServices 註冊服務階段無法使用 IOptions 來進行設定
 
 比如 AddHttpClient 時想要用 GithubOptions.BaseAddress 來設定 HttpClient.BaseAddress
 
-會發現因為 IOptions<GithubOptions> 在此時還在做 DI
+會發現因為 `IOptions<GithubOptions>` 在此時還在做 DI
 
 所以無法直接使用該設定值來進行 HttpClient 設定
 
@@ -51,10 +51,10 @@ public override void ConfigureServices(ServiceConfigurationContext context)
 
 PS5
 
-* [C#](/jakeuj/Tags?qq=C%23)
+* C#
 {ignore-vars="true"}
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

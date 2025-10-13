@@ -30,9 +30,9 @@ body {background: url(https://dotblogsfile.blob.core.windows.net/user/jakeuj/000
 
 PS5
 
-* [CSS](/jakeuj/Tags?qq=CSS)
+* CSS
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

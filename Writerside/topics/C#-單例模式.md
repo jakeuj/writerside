@@ -41,10 +41,10 @@ public sealed class Singleton
 
 PS5
 
-* [C#](/jakeuj/Tags?qq=C%23)
+* C#
 {ignore-vars="true"}
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

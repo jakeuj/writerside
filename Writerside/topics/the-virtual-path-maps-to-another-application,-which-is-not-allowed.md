@@ -40,9 +40,9 @@ VS 2022 偵錯正常，但 Rider 偵錯會報錯
 
 PS5
 
-* [WSP](/jakeuj/Tags?qq=WSP)
+* WSP
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

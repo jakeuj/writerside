@@ -241,14 +241,14 @@ steps:
 
 PS5
 
-* [Angular](/jakeuj/Tags?qq=Angular)
-* [Azure](/jakeuj/Tags?qq=Azure)
-* [Blazor](/jakeuj/Tags?qq=Blazor)
-* [CI/CD](/jakeuj/Tags?qq=CI%2FCD)
+* Angular
+* Azure
+* Blazor
+* CI/CD
 {ignore-vars="true"}
-* [DevOps](/jakeuj/Tags?qq=DevOps)
+* DevOps
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

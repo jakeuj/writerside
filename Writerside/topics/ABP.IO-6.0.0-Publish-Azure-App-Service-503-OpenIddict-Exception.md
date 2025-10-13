@@ -40,12 +40,12 @@ WindowsCryptographicException: Access is denied.
 
 PS5
 
-* [ABP](/jakeuj/Tags?qq=ABP)
-* [App Service](/jakeuj/Tags?qq=App%20Service)
+* ABP
+* App Service
 {ignore-vars="true"}
-* [Azure](/jakeuj/Tags?qq=Azure)
+* Azure
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

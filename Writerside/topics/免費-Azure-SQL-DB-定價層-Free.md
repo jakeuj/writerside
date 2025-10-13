@@ -95,10 +95,10 @@ App Service Plan **基本**、**標準**、**進階版 =>** **無論有多少個
 
 PS5
 
-* [Azure SQL](/jakeuj/Tags?qq=Azure%20SQL)
+* Azure SQL
 {ignore-vars="true"}
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

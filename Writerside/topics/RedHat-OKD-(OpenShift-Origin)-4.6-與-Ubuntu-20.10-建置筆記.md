@@ -128,14 +128,14 @@ Hint
 
 PS5
 
-* [CI/CD](/jakeuj/Tags?qq=CI%2FCD)
+* CI/CD
 {ignore-vars="true"}
-* [OKD](/jakeuj/Tags?qq=OKD)
-* [OpenShift](/jakeuj/Tags?qq=OpenShift)
-* [PowerShell](/jakeuj/Tags?qq=PowerShell)
-* [Ubuntu](/jakeuj/Tags?qq=Ubuntu)
+* OKD
+* OpenShift
+* PowerShell
+* Ubuntu
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

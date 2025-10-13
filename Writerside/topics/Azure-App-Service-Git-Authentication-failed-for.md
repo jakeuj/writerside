@@ -37,12 +37,12 @@ P.S. FTPS
 
 PS5
 
-* [App Service](/jakeuj/Tags?qq=App%20Service)
+* App Service
 {ignore-vars="true"}
-* [Azure](/jakeuj/Tags?qq=Azure)
-* [Git](/jakeuj/Tags?qq=Git)
+* Azure
+* Git
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

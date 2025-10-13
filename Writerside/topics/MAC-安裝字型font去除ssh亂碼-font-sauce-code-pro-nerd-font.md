@@ -37,11 +37,11 @@ brew cask install font-sauce-code-pro-nerd-font
 
 PS5
 
-* [Fonts](/jakeuj/Tags?qq=Fonts)
-* [MAC](/jakeuj/Tags?qq=MAC)
-* [Terminal](/jakeuj/Tags?qq=Terminal)
+* Fonts
+* MAC
+* Terminal
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

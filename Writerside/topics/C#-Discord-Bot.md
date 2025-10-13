@@ -55,9 +55,9 @@ await Task.Delay(-1);
 
 PS5
 
-* [Discord](/jakeuj/Tags?qq=Discord)
+* Discord
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

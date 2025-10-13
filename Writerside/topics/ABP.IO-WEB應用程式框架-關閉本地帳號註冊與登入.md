@@ -38,11 +38,11 @@ appsettings.json 設定以下內容
 
 PS5
 
-* [ABP](/jakeuj/Tags?qq=ABP)
-* [Azure AD](/jakeuj/Tags?qq=Azure%20AD)
+* ABP
+* Azure AD
 {ignore-vars="true"}
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

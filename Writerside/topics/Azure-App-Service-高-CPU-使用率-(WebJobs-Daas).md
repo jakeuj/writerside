@@ -48,10 +48,10 @@ Azure 自動新增 Daas 作業協助診斷問題
 
 PS5
 
-* [App Service](/jakeuj/Tags?qq=App%20Service)
+* App Service
 {ignore-vars="true"}
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

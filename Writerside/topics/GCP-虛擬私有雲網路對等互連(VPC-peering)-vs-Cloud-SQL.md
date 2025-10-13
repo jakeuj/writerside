@@ -38,11 +38,11 @@ https://stackoverflow.com/a/56743836/4104545
 
 PS5
 
-* [CloudSQL](/jakeuj/Tags?qq=CloudSQL)
-* [GCP](/jakeuj/Tags?qq=GCP)
-* [VPC](/jakeuj/Tags?qq=VPC)
+* CloudSQL
+* GCP
+* VPC
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

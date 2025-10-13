@@ -46,10 +46,10 @@ certhash=d37b844594e5c23702ef4e6bd17719a079b9bdf
 
 PS5
 
-* [SignalR](/jakeuj/Tags?qq=SignalR)
-* [WebSocket](/jakeuj/Tags?qq=WebSocket)
+* SignalR
+* WebSocket
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

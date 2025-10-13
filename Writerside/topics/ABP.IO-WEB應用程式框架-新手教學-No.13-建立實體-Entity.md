@@ -51,7 +51,7 @@ context.Services.Replace(ServiceDescriptor.Singleton<IEmailSender, NullEmailSend
 ```
 namespace Acme.BookStore.Books
 {
-    public class Book:Entity<int>
+    public class Book:`Entity<int>`
     {
         public string Name { get; set; }
 
@@ -64,7 +64,7 @@ namespace Acme.BookStore.Books
 }
 ```
 
-其中 `Entity<T>`是 Abp 提供的基底類別，主要就是定義實體要有個 Id 欄位，其中 T 是主鍵的型別，可以是 Guid,int,long…ETC.
+其中 ``Entity<T>``是 Abp 提供的基底類別，主要就是定義實體要有個 Id 欄位，其中 T 是主鍵的型別，可以是 Guid,int,long…ETC.
 
 另外也有提供 AggregateRoot 這個基底類別，這是DDD概念，大概是把同質性高的東西聚在一起，統一由 根 進行操作，避免直接操作其下的實體
 
@@ -102,7 +102,7 @@ PK 目前官方是推薦用 Guid，然後基底類別這邊使用審計聚合根
 
 關於審計 Abp 定義了很多介面，比如 IHasCreationTime，這可以統一全部實體的欄位名稱，避免有些人叫 CreationTime 有些人取 CreateTime，但其實是同一個東西。
 
-也有內建好的基底類別，比如 CreationAuditedEntity<TKey> 可以直接拿來當作實體的基底類別，當然你想自己時做也是可以。
+也有內建好的基底類別，比如 CreationAudited`Entity<TKey>` 可以直接拿來當作實體的基底類別，當然你想自己時做也是可以。
 
 另外這裡的欄位都是 public set ，如果遵照 DDD 這裡應該不能直接開放 set ，但這裡重點不放太多在 DDD ，所以大概知道一下就好，跑反正都是可以跑得。
 
@@ -249,9 +249,9 @@ No 2.5 [領域服務 Domain Service](https://docs.abp.io/en/abp/latest/Domain-Se
 
 PS5
 
-* [ABP](/jakeuj/Tags?qq=ABP)
+* ABP
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

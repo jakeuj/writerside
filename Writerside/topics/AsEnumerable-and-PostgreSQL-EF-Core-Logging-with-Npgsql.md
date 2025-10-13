@@ -120,14 +120,14 @@ CREATE TABLE distributors (
 
 PS5
 
-* [AsEnumerable](/jakeuj/Tags?qq=AsEnumerable)
-* [Entity Framework](/jakeuj/Tags?qq=Entity%20Framework)
+* AsEnumerable
+* Entity Framework
 {ignore-vars="true"}
-* [Log](/jakeuj/Tags?qq=Log)
-* [Npgsql](/jakeuj/Tags?qq=Npgsql)
-* [PostgreSQL](/jakeuj/Tags?qq=PostgreSQL)
+* Log
+* Npgsql
+* PostgreSQL
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

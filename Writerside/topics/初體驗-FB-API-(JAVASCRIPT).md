@@ -69,9 +69,9 @@ P.S.
 
 PS5
 
-* [Facebook](/jakeuj/Tags?qq=Facebook)
+* Facebook
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

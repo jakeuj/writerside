@@ -73,10 +73,10 @@ My question is that does Web Farm Framework 2.2 still support IIS 10?
 
 PS5
 
-* [IIS](/jakeuj/Tags?qq=IIS)
-* [Server](/jakeuj/Tags?qq=Server)
+* IIS
+* Server
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

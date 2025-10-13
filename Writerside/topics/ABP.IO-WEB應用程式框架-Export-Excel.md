@@ -101,10 +101,10 @@ public MemoryStream Generate()
 
 PS5
 
-* [ABP](/jakeuj/Tags?qq=ABP)
-* [Excel](/jakeuj/Tags?qq=Excel)
+* ABP
+* Excel
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

@@ -36,9 +36,9 @@ VM應該是用上面方法就可以了
 
 PS5
 
-* [Azure](/jakeuj/Tags?qq=Azure)
+* Azure
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

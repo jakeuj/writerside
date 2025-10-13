@@ -107,12 +107,12 @@ bin\apktool\signapk.bat
 
 PS5
 
-* [Riru-Il2CppDumper](/jakeuj/Tags?qq=Riru-Il2CppDumper)
-* [Unity](/jakeuj/Tags?qq=Unity)
-* [反編譯](/jakeuj/Tags?qq=%E5%8F%8D%E7%B7%A8%E8%AD%AF)
+* Riru-Il2CppDumper
+* Unity
+* 反編譯
 {ignore-vars="true"}
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

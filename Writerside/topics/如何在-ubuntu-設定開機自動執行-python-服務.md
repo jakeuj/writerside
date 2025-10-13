@@ -93,9 +93,9 @@ WantedBy=multi-user.target
 
 PS5
 
-* [Python](/jakeuj/Tags?qq=Python)
+* Python
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

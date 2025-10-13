@@ -122,12 +122,12 @@ namespace Acme.BookStore.Books
 ```
 
 * ABP為實體提供了兩個基本的基類：`AggregateRoot`和`Entity`。**Aggregate Root**是[**領域驅動設計**](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Domain-Driven-Design)概念一個。可以直接查詢和處理的根實體（請參閱[實體文檔](https://docs.abp.io/zh-Hans/abp/latest/Entities)）。
-  // 同聚合內非根的一般實體可以用 BookCover : Entity<Guid>，因為同聚合內應該只有一個根，DDD不熟暫時不想用也可以直接照你原本開發方式全部用一般實體基類Entity<T>
+  // 同聚合內非根的一般實體可以用 BookCover : `Entity<Guid>`，因為同聚合內應該只有一個根，DDD不熟暫時不想用也可以直接照你原本開發方式全部用一般實體基類`Entity<T>`
 * `Book`實體繼承了`AuditedAggregateRoot`，`AuditedAggregateRoot`類在`AggregateRoot`類的基礎上添加了一些審計屬性( `CreationTime`, `CreatorId`, `LastModificationTime`)。ABP框架自動為你管理這些屬性。
-  // 不用聚合根也不想那麼多審計屬性，[ABP 也提供其他基類](https://docs.abp.io/zh-Hans/abp/latest/Entities#%E5%AE%A1%E8%AE%A1%E5%9F%BA%E7%B1%BB)，比如：CreationAuditedEntity<TKey> ，再少也可以只使用 [ABP 提供的介面](https://docs.abp.io/zh-Hans/abp/latest/Entities#%E5%AE%A1%E8%AE%A1%E6%8E%A5%E5%8F%A3)，例如：IHasCreationTime，優點是可以統一屬性名稱為 `CreationTime`
+  // 不用聚合根也不想那麼多審計屬性，[ABP 也提供其他基類](https://docs.abp.io/zh-Hans/abp/latest/Entities#%E5%AE%A1%E8%AE%A1%E5%9F%BA%E7%B1%BB)，比如：CreationAudited`Entity<TKey>` ，再少也可以只使用 [ABP 提供的介面](https://docs.abp.io/zh-Hans/abp/latest/Entities#%E5%AE%A1%E8%AE%A1%E6%8E%A5%E5%8F%A3)，例如：IHasCreationTime，優點是可以統一屬性名稱為 `CreationTime`
 {ignore-vars="true"}
 * `Guid`是`Book`實體的主鍵類型。
-  // 主鍵類型也可以自己改，例如：BookPage : Entity<long> ，只是 [ABP 推薦使用 Guid](https://docs.abp.io/zh-Hans/abp/latest/Entities#guid%E4%B8%BB%E9%94%AE%E7%9A%84%E5%AE%9E%E4%BD%93) 就是了
+  // 主鍵類型也可以自己改，例如：BookPage : `Entity<long>` ，只是 [ABP 推薦使用 Guid](https://docs.abp.io/zh-Hans/abp/latest/Entities#guid%E4%B8%BB%E9%94%AE%E7%9A%84%E5%AE%9E%E4%BD%93) 就是了
 {ignore-vars="true"}
 
 > 為了保持簡單，本教程將實體屬性保留為**public get/set**。如果您想了解 DDD 最佳實踐，請參閱[實體文檔](https://docs.abp.io/zh-Hans/abp/latest/Entities)。
@@ -545,9 +545,9 @@ Swagger 有一個很好的 UI 來測試 API。
 
 PS5
 
-* [ABP](/jakeuj/Tags?qq=ABP)
+* ABP
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

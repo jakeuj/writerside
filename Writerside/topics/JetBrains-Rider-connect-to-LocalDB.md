@@ -41,11 +41,11 @@ connectionString="Server=(LocalDb)\\MSSQLLocalDB;Database=TestDB;Trusted\_Connec
 
 PS5
 
-* [MSSQL](/jakeuj/Tags?qq=MSSQL)
-* [Rider](/jakeuj/Tags?qq=Rider)
-* [SQL](/jakeuj/Tags?qq=SQL)
+* MSSQL
+* Rider
+* SQL
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

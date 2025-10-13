@@ -32,11 +32,11 @@ P.S. GCP > IAM > 服務帳戶 > Create > Key
 
 PS5
 
-* [Cloud](/jakeuj/Tags?qq=Cloud)
-* [GCP](/jakeuj/Tags?qq=GCP)
-* [Google](/jakeuj/Tags?qq=Google)
+* Cloud
+* GCP
+* Google
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

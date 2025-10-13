@@ -47,10 +47,10 @@
 
 PS5
 
-* [Linq](/jakeuj/Tags?qq=Linq)
-* [LINQPad](/jakeuj/Tags?qq=LINQPad)
+* Linq
+* LINQPad
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

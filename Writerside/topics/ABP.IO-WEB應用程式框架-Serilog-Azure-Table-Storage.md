@@ -126,12 +126,12 @@ try
 
 PS5
 
-* [ABP](/jakeuj/Tags?qq=ABP)
-* [Azure](/jakeuj/Tags?qq=Azure)
-* [Serilog](/jakeuj/Tags?qq=Serilog)
-* [Storage](/jakeuj/Tags?qq=Storage)
+* ABP
+* Azure
+* Serilog
+* Storage
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

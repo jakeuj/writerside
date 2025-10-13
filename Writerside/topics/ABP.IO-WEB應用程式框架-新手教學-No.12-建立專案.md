@@ -135,9 +135,9 @@ ABP.IO 實際將.Net Solution 依照 DDD 拆成以下 Projects
 
 PS5
 
-* [ABP](/jakeuj/Tags?qq=ABP)
+* ABP
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

@@ -30,10 +30,10 @@
 
 PS5
 
-* [Azure](/jakeuj/Tags?qq=Azure)
-* [AI](/jakeuj/Tags?qq=AI)
+* Azure
+* AI
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

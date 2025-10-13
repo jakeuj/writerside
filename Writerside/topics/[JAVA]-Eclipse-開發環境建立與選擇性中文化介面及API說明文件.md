@@ -53,10 +53,10 @@ Location:<http://download.eclipse.org/tools/ve/updates/1.4/>
 
 PS5
 
-* [Eclipse](/jakeuj/Tags?qq=Eclipse)
-* [JAVA](/jakeuj/Tags?qq=JAVA)
+* Eclipse
+* JAVA
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

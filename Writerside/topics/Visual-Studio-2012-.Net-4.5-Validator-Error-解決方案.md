@@ -28,9 +28,9 @@ Visual Studio 2012 .Net 4.5 Validator Error
 
 PS5
 
-* [VisualStudio](/jakeuj/Tags?qq=VisualStudio)
+* VisualStudio
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

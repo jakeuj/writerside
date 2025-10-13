@@ -22,12 +22,12 @@ LINQPad 加入 EntityFramework 支援 Include
 
 PS5
 
-* [Entity Framework](/jakeuj/Tags?qq=Entity%20Framework)
+* Entity Framework
 {ignore-vars="true"}
-* [Linq](/jakeuj/Tags?qq=Linq)
-* [LINQPad](/jakeuj/Tags?qq=LINQPad)
+* Linq
+* LINQPad
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

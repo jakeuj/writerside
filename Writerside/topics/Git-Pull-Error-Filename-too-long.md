@@ -22,10 +22,10 @@
 
 PS5
 
-* [Git](/jakeuj/Tags?qq=Git)
-* [Github](/jakeuj/Tags?qq=Github)
+* Git
+* Github
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

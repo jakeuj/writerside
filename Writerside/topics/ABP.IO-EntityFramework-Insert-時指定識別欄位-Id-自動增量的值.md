@@ -14,7 +14,7 @@ SET IDENTITY\_INSERT ON
 
 ## 問題1
 
-ABP 中 `Entity<int>` Id 屬性的 setter 是 private 所以無法指定該值
+ABP 中 ``Entity<int>`` Id 屬性的 setter 是 private 所以無法指定該值
 
 ### 解決方案
 
@@ -58,7 +58,7 @@ await db.Database.ExecuteSqlRawAsync("SET IDENTITY_INSERT dbo.NandPackageUsages 
 
 ### 備註
 
-目前是新開分支把 `Entity<int>` 改為 `Entity`
+目前是新開分支把 ``Entity<int>`` 改為 `Entity`
 
 並將邏輯寫在 `DataSeedContributor` 執行 `DbMigrator` 專案
 
@@ -72,10 +72,10 @@ await db.Database.ExecuteSqlRawAsync("SET IDENTITY_INSERT dbo.NandPackageUsages 
 
 PS5
 
-* [Entity Framework](/jakeuj/Tags?qq=Entity%20Framework)
+* Entity Framework
 {ignore-vars="true"}
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

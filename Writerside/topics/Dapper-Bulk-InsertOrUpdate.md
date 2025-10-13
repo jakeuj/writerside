@@ -26,12 +26,12 @@ connection.BulkMerge(order1, order2, order3);
 
 PS5
 
-* [C#](/jakeuj/Tags?qq=C%23)
+* C#
 {ignore-vars="true"}
-* [Dapper](/jakeuj/Tags?qq=Dapper)
-* [SQL](/jakeuj/Tags?qq=SQL)
+* Dapper
+* SQL
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

@@ -32,10 +32,10 @@ IS4 噴 500 Error，找元凶是裡面 Get /.well-known/openid-configuration 噴
 
 PS5
 
-* [App Service](/jakeuj/Tags?qq=App%20Service)
+* App Service
 {ignore-vars="true"}
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

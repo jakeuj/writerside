@@ -39,7 +39,7 @@ context.Services.AddAuthentication()
     // ...其他登入方式...
     .AddMicrosoftIdentityWebApp(configuration);
 
-context.Services.Configure<OpenIdConnectOptions>(OpenIdConnectDefaults.AuthenticationScheme, options =>
+context.Services.Configure<`OpenIdConnectOptions`>(OpenIdConnectDefaults.AuthenticationScheme, options =>
     {
         options.ResponseType = OpenIdConnectResponseType.CodeIdToken;
         options.GetClaimsFromUserInfoEndpoint = true;
@@ -69,7 +69,7 @@ appsetting.json
 
 .AddMicrosoftIdentityWebApp(configuration,openIdConnectScheme:"AzureAdOpenId");
 
-context.Services.Configure<OpenIdConnectOptions>("AzureAdOpenId", options =>
+context.Services.Configure<`OpenIdConnectOptions`>("AzureAdOpenId", options =>
 
 主要可能會想要有多種外部登入 (GoogleOpenId,FbOpenId,AzureAdOpenId…ETC.) 的情境了話可以參考一下。
 
@@ -230,7 +230,7 @@ private void ConfigureAuthentication(ServiceConfigurationContext context, IConfi
             options.Audience = "MyProjectName";
         })
         .AddAzureAD(options => configuration.Bind("AzureAd", options));
-    context.Services.Configure<OpenIdConnectOptions>(AzureADDefaults.OpenIdScheme, options =>
+    context.Services.Configure<`OpenIdConnectOptions`>(AzureADDefaults.OpenIdScheme, options =>
     {
         options.Authority = options.Authority + "/v2.0/";
         options.ClientId = configuration["AzureAd:ClientId"];
@@ -351,11 +351,11 @@ services.AddAuthentication()
 
 PS5
 
-* [Azure](/jakeuj/Tags?qq=Azure)
-* [Azure AD](/jakeuj/Tags?qq=Azure%20AD)
+* Azure
+* Azure AD
 {ignore-vars="true"}
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

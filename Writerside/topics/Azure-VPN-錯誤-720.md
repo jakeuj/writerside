@@ -30,10 +30,10 @@
 
 PS5
 
-* [Azure VPN](/jakeuj/Tags?qq=Azure%20VPN)
+* Azure VPN
 {ignore-vars="true"}
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

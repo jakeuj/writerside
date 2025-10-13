@@ -34,9 +34,9 @@ IIS刪除網站之後可能會造成原本網站異常
 
 PS5
 
-* [IIS](/jakeuj/Tags?qq=IIS)
+* IIS
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

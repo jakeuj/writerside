@@ -38,9 +38,9 @@ ABP 7.1 版本 新功能 摘要
 
 PS5
 
-* [ABP](/jakeuj/Tags?qq=ABP)
+* ABP
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

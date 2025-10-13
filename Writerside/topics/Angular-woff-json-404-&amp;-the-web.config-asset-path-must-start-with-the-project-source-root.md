@@ -92,9 +92,9 @@ The web.config asset path must start with the project source root
 
 PS5
 
-* [Angular](/jakeuj/Tags?qq=Angular)
+* Angular
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

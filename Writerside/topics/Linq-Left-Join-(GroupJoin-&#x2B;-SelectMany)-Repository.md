@@ -77,11 +77,11 @@ B倉儲只要沒有A的bID，該筆資料就不會出現在結果
 
 PS5
 
-* [Join](/jakeuj/Tags?qq=Join)
-* [Linq](/jakeuj/Tags?qq=Linq)
-* [Repository](/jakeuj/Tags?qq=Repository)
+* Join
+* Linq
+* Repository
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

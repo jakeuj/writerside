@@ -45,9 +45,9 @@ npm-windows-upgrade
 
 PS5
 
-* [NPM](/jakeuj/Tags?qq=NPM)
+* NPM
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

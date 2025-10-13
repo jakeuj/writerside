@@ -38,9 +38,9 @@ DevOps我想有兩個重點
 
 PS5
 
-* [DevOps](/jakeuj/Tags?qq=DevOps)
+* DevOps
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

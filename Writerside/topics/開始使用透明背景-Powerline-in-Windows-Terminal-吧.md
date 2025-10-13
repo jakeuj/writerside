@@ -127,10 +127,10 @@ acrylicOpacity 0.5 會比較亮
 
 PS5
 
-* [PowerShell](/jakeuj/Tags?qq=PowerShell)
-* [Terminal](/jakeuj/Tags?qq=Terminal)
+* PowerShell
+* Terminal
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

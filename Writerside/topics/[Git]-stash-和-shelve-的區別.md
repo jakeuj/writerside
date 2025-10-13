@@ -79,10 +79,10 @@ Jetbrains IDE 內建 stash 和 shelve
 
 PS5
 
-* [Git](/jakeuj/Tags?qq=Git)
-* [JetBrains](/jakeuj/Tags?qq=JetBrains)
+* Git
+* JetBrains
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

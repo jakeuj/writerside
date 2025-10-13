@@ -56,10 +56,10 @@ abp new Test501B -u blazor --separate-identity-server --version 5.0.1 -csf
 
 PS5
 
-* [ABP](/jakeuj/Tags?qq=ABP)
-* [Angular](/jakeuj/Tags?qq=Angular)
+* ABP
+* Angular
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

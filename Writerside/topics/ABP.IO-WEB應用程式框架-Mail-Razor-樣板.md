@@ -190,9 +190,9 @@ public class MailManager : DomainService
 
 PS5
 
-* [Razor](/jakeuj/Tags?qq=Razor)
+* Razor
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

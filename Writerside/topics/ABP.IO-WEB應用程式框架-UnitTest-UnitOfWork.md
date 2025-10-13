@@ -111,10 +111,10 @@ public class IssueRepository_Tests : MyProjectDomainTestBase
 
 PS5
 
-* [ABP](/jakeuj/Tags?qq=ABP)
-* [UnitTest](/jakeuj/Tags?qq=UnitTest)
+* ABP
+* UnitTest
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

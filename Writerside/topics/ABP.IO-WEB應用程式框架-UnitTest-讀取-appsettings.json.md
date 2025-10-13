@@ -83,10 +83,10 @@ private void ConfigureMyOptions(IConfiguration configuration)
 
 PS5
 
-* [HttpClinet](/jakeuj/Tags?qq=HttpClinet)
-* [UnitTest](/jakeuj/Tags?qq=UnitTest)
+* HttpClinet
+* UnitTest
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

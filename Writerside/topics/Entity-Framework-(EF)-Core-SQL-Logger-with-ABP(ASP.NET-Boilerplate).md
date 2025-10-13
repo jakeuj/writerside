@@ -58,15 +58,15 @@ public override void PreInitialize()
 
 PS5
 
-* [ABP](/jakeuj/Tags?qq=ABP)
-* [Entity Framework](/jakeuj/Tags?qq=Entity%20Framework)
+* ABP
+* Entity Framework
 {ignore-vars="true"}
-* [Entity Framework](/jakeuj/Tags?qq=Entity%20Framework)
+* Entity Framework
 {ignore-vars="true"}
-* [Log](/jakeuj/Tags?qq=Log)
-* [SQL](/jakeuj/Tags?qq=SQL)
+* Log
+* SQL
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

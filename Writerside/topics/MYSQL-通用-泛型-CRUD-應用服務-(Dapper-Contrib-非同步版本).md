@@ -38,7 +38,7 @@ public class PrizeWheelAppService:ObManAsyncCrudAppService<
 
 public abstract class ObManAsyncCrudAppService<TEntity, TGetOutputDto, TGetListOutputDto, TKey, TGetListInput, TCreateInput, TUpdateInput>
     : ObManAppServiceBase,IObManAsyncCrudAppService<TGetOutputDto, TGetListOutputDto, TKey, TGetListInput, TCreateInput, TUpdateInput>
-    where TEntity : class, IEntity<TKey>, new()
+    where TEntity : class, I`Entity<TKey>`, new()
     where TGetListInput :IPagedAndSortedResultRequest,IHasServerId
     where TGetOutputDto : IEntityDto<TKey>
     where TGetListOutputDto : IEntityDto<TKey>
@@ -248,15 +248,15 @@ public class GetAllActivitiesInput : ObManPagedAndSortedResultRequestDto
 
 PS5
 
-* [ABP](/jakeuj/Tags?qq=ABP)
-* [C#](/jakeuj/Tags?qq=C%23)
+* ABP
+* C#
 {ignore-vars="true"}
-* [Dapper](/jakeuj/Tags?qq=Dapper)
-* [MySql](/jakeuj/Tags?qq=MySql)
-* [SQL](/jakeuj/Tags?qq=SQL)
-* [CRUD](/jakeuj/Tags?qq=CRUD)
+* Dapper
+* MySql
+* SQL
+* CRUD
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

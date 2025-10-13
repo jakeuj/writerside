@@ -50,9 +50,9 @@ Windows Update 服務已經啟動成功。
 
 PS5
 
-* [Windows](/jakeuj/Tags?qq=Windows)
+* Windows
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

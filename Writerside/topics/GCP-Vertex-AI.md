@@ -168,10 +168,10 @@ Rest
 
 PS5
 
-* [ML](/jakeuj/Tags?qq=ML)
-* [GCP](/jakeuj/Tags?qq=GCP)
+* ML
+* GCP
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

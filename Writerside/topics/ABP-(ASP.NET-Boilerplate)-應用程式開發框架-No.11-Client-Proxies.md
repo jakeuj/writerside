@@ -85,10 +85,10 @@ https://docs.microsoft.com/zh-tw/aspnet/core/tutorials/getting-started-with-nswa
 
 PS5
 
-* [ABP](/jakeuj/Tags?qq=ABP)
-* [Angular](/jakeuj/Tags?qq=Angular)
+* ABP
+* Angular
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

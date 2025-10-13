@@ -84,9 +84,9 @@ linux 下先切到 db/locks
 
 PS5
 
-* [SVN](/jakeuj/Tags?qq=SVN)
+* SVN
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

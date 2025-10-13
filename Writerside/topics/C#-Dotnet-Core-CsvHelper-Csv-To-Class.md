@@ -54,10 +54,10 @@ public class Employee
 
 PS5
 
-* [.Net Core](/jakeuj/Tags?qq=.Net%20Core)
+* .Net Core
 {ignore-vars="true"}
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

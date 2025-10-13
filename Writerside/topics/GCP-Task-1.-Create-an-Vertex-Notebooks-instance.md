@@ -109,11 +109,11 @@ E2標準4=$0.15/H (本教程)
 
 PS5
 
-* [AI](/jakeuj/Tags?qq=AI)
-* [GCP](/jakeuj/Tags?qq=GCP)
-* [Google](/jakeuj/Tags?qq=Google)
+* AI
+* GCP
+* Google
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

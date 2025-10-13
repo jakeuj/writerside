@@ -39,9 +39,9 @@ See the tutorial for additional coverage on fine-tuning BERT models using Tensor
 
 PS5
 
-* [GCP](/jakeuj/Tags?qq=GCP)
+* GCP
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

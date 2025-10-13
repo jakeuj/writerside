@@ -118,9 +118,9 @@ https://github.com/igrmk/ubuntu-reinit-mysql。
 
 PS5
 
-* [PyCharm](/jakeuj/Tags?qq=PyCharm)
+* PyCharm
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

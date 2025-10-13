@@ -36,10 +36,10 @@ alias ll='ls -l'
 
 PS5
 
-* [PowerShell](/jakeuj/Tags?qq=PowerShell)
-* [Bash](/jakeuj/Tags?qq=Bash)
+* PowerShell
+* Bash
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

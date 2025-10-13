@@ -94,14 +94,14 @@ LIMIT 2;
 
 PS5
 
-* [CloudSQL](/jakeuj/Tags?qq=CloudSQL)
-* [GCP](/jakeuj/Tags?qq=GCP)
-* [LLM](/jakeuj/Tags?qq=LLM)
-* [PostgreSQL](/jakeuj/Tags?qq=PostgreSQL)
-* [Vector Search](/jakeuj/Tags?qq=Vector%20Search)
+* CloudSQL
+* GCP
+* LLM
+* PostgreSQL
+* Vector Search
 {ignore-vars="true"}
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

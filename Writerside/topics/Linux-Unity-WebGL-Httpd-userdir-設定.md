@@ -100,13 +100,13 @@ http://localhost/~jake/WebGL
 
 PS5
 
-* [Apache](/jakeuj/Tags?qq=Apache)
-* [Httpd](/jakeuj/Tags?qq=Httpd)
-* [Linux](/jakeuj/Tags?qq=Linux)
-* [Unity](/jakeuj/Tags?qq=Unity)
-* [WebGL](/jakeuj/Tags?qq=WebGL)
+* Apache
+* Httpd
+* Linux
+* Unity
+* WebGL
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

@@ -62,10 +62,10 @@ staticwebapp.config.json
 
 PS5
 
-* [Azure Static Web Apps](/jakeuj/Tags?qq=Azure%20Static%20Web%20Apps)
+* Azure Static Web Apps
 {ignore-vars="true"}
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

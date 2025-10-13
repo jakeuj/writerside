@@ -588,9 +588,9 @@
 
 PS5
 
-* [SFTP](/jakeuj/Tags?qq=SFTP)
+* SFTP
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

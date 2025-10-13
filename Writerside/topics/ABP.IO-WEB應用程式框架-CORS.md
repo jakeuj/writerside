@@ -120,13 +120,13 @@ public override void OnApplicationInitialization(ApplicationInitializationContex
 
 PS5
 
-* [.Net 7](/jakeuj/Tags?qq=.Net%207)
+* .Net 7
 {ignore-vars="true"}
-* [C#](/jakeuj/Tags?qq=C%23)
+* C#
 {ignore-vars="true"}
-* [CORS](/jakeuj/Tags?qq=CORS)
+* CORS
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

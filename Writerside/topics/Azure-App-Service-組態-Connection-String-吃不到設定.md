@@ -27,16 +27,16 @@ this magic is not available if you choose .NET 3.5 since it relies on functional
 
 PS5
 
-* [.Net 3.5](/jakeuj/Tags?qq=.Net%203.5)
+* .Net 3.5
 {ignore-vars="true"}
-* [.Net 4.8](/jakeuj/Tags?qq=.Net%204.8)
+* .Net 4.8
 {ignore-vars="true"}
-* [App Service](/jakeuj/Tags?qq=App%20Service)
+* App Service
 {ignore-vars="true"}
-* [Azure](/jakeuj/Tags?qq=Azure)
-* [Cloud](/jakeuj/Tags?qq=Cloud)
+* Azure
+* Cloud
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

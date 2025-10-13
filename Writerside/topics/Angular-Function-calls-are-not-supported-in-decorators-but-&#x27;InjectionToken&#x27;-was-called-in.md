@@ -27,9 +27,9 @@ tsconfig.json
 
 PS5
 
-* [Angular](/jakeuj/Tags?qq=Angular)
+* Angular
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

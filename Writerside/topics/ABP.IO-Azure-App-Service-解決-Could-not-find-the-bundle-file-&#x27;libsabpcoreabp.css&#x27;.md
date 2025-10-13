@@ -250,15 +250,15 @@ dotnet publish "$DEPLOYMENT_SOURCE\src/TestCiCd.HttpApi.Host/TestCiCd.HttpApi.Ho
 
 PS5
 
-* [ABP](/jakeuj/Tags?qq=ABP)
-* [App Service](/jakeuj/Tags?qq=App%20Service)
+* ABP
+* App Service
 {ignore-vars="true"}
-* [Azure](/jakeuj/Tags?qq=Azure)
-* [CI/CD](/jakeuj/Tags?qq=CI%2FCD)
+* Azure
+* CI/CD
 {ignore-vars="true"}
-* [DevOps](/jakeuj/Tags?qq=DevOps)
+* DevOps
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

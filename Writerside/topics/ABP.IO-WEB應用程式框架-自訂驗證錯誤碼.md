@@ -36,7 +36,7 @@ public class MyExceptionToErrorInfoConverter :
     IExceptionToErrorInfoConverter
 {
     public MyExceptionToErrorInfoConverter(
-        IOptions<AbpExceptionLocalizationOptions> localizationOptions,
+        `IOptions<AbpExceptionLocalizationOptions>` localizationOptions,
         IStringLocalizerFactory stringLocalizerFactory,
         IStringLocalizer<AbpExceptionHandlingResource> stringLocalizer,
         IServiceProvider serviceProvider) : base(localizationOptions,
@@ -88,9 +88,9 @@ public class MyExceptionToErrorInfoConverter :
 
 PS5
 
-* [ABP](/jakeuj/Tags?qq=ABP)
+* ABP
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

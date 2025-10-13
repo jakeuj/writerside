@@ -121,10 +121,10 @@ int main()
 
 PS5
 
-* [VisualStudio](/jakeuj/Tags?qq=VisualStudio)
-* [Lua](/jakeuj/Tags?qq=Lua)
+* VisualStudio
+* Lua
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

@@ -176,9 +176,9 @@ ABP可以[**自動**](https://docs.abp.io/zh-Hans/abp/latest/API/Auto-API-Contro
 
 PS5
 
-* [ABP](/jakeuj/Tags?qq=ABP)
+* ABP
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

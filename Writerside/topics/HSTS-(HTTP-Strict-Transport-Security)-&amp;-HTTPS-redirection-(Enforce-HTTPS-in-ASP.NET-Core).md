@@ -33,10 +33,10 @@ app.UseHttpsRedirection();
 
 PS5
 
-* [HSTS](/jakeuj/Tags?qq=HSTS)
-* [HTTPS](/jakeuj/Tags?qq=HTTPS)
+* HSTS
+* HTTPS
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

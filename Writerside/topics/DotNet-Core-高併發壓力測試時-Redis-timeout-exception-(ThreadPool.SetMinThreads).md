@@ -62,11 +62,11 @@ Redis 在瞬間大量 Request 逾時問題
 
 PS5
 
-* [.Net Core](/jakeuj/Tags?qq=.Net%20Core)
+* .Net Core
 {ignore-vars="true"}
-* [Redis](/jakeuj/Tags?qq=Redis)
+* Redis
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

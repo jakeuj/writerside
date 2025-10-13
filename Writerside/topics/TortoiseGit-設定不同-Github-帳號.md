@@ -40,9 +40,9 @@
 
 PS5
 
-* [Github](/jakeuj/Tags?qq=Github)
+* Github
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

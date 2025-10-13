@@ -121,11 +121,11 @@ TestBaseModule
 
 PS5
 
-* [ABP](/jakeuj/Tags?qq=ABP)
-* [C#](/jakeuj/Tags?qq=C%23)
+* ABP
+* C#
 {ignore-vars="true"}
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

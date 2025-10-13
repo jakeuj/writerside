@@ -52,12 +52,12 @@ Type 'typeof import("node\_modules/moment/moment.d.ts")' has no compatible call 
 
 PS5
 
-* [Angular](/jakeuj/Tags?qq=Angular)
-* [TypeScript](/jakeuj/Tags?qq=TypeScript)
-* [NSwag](/jakeuj/Tags?qq=NSwag)
-* [ES6](/jakeuj/Tags?qq=ES6)
+* Angular
+* TypeScript
+* NSwag
+* ES6
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

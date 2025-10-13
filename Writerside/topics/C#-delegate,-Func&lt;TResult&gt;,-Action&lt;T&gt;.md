@@ -16,7 +16,7 @@ delegate
 
 [委派 delegate C# 基本概念具現化 | 御用小本本 - 點部落 (dotblogs.com.tw)](https://dotblogs.com.tw/jakeuj/2012/10/30/CSharp-delegate)
 
-## Func<TResult>
+## `Func<TResult>`
 
 相當於委派的區域變數版本
 
@@ -78,16 +78,16 @@ public async Task DoSomethingAsync(
 
 ![](https://dotblogsfile.blob.core.windows.net/user/小小朱/7bdeeccd-06ec-4edf-87f6-4520d8919414/1681803742.png.png)
 
-## Action<T>
+## `Action<T>`
 
-相當於 Func<TResult> 的 void 版本
+相當於 `Func<TResult>` 的 void 版本
 
 也就是當你傳入的方法不需要回傳東西時改用 Action
 
 剩下的泛型則一樣是該方法的傳入參數的型別
 
-* void test() {} => Action<T> => Action
-* int test() {return 1;} => Func<TResult> => Func<int>
+* void test() {} => `Action<T>` => Action
+* int test() {return 1;} => `Func<TResult>` => Func<int>
 
 先考慮要傳入的方法是否需要回傳東西 (Task, int, string … ETC.)
 
@@ -101,17 +101,17 @@ Action
 
 [使用委派 - C# 程式設計手冊 | Microsoft Learn](https://learn.microsoft.com/zh-tw/dotnet/csharp/programming-guide/delegates/using-delegates)
 
-[Func<TResult> 代理人 (System) | Microsoft Learn](https://learn.microsoft.com/zh-tw/dotnet/api/system.func-1?view=net-7.0)
+[`Func<TResult>` 代理人 (System) | Microsoft Learn](https://learn.microsoft.com/zh-tw/dotnet/api/system.func-1?view=net-7.0)
 
-[Action<T> 代理人 (System) | Microsoft Learn](https://learn.microsoft.com/zh-tw/dotnet/api/system.action-1?view=net-7.0)
+[`Action<T>` 代理人 (System) | Microsoft Learn](https://learn.microsoft.com/zh-tw/dotnet/api/system.action-1?view=net-7.0)
 
 ![](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 
-* [delegate](/jakeuj/Tags?qq=delegate)
+* delegate
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

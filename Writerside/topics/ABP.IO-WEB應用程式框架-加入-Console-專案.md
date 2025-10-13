@@ -190,10 +190,10 @@ public async Task StartAsync(CancellationToken cancellationToken)
 
 PS5
 
-* [ABP](/jakeuj/Tags?qq=ABP)
-* [Console](/jakeuj/Tags?qq=Console)
+* ABP
+* Console
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

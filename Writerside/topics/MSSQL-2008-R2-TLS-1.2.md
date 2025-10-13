@@ -23,9 +23,9 @@
 
 PS5
 
-* [MSSQL](/jakeuj/Tags?qq=MSSQL)
+* MSSQL
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

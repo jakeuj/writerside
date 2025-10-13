@@ -16,12 +16,12 @@ C:\Program Files\Microsoft\HybridConnectionManager 0.7\Microsoft.HybridConnectio
 <configuration>
   <!-- 保留原本設定並增加以下區段來設定 Proxy -->
   <system.net>
-    <defaultProxy>
+    `<defaultProxy>`
       <proxy
         usesystemdefault="True"
         proxyaddress="http://192.168.1.10:3128"
         bypassonlocal="True" />
-    </defaultProxy>
+    `</defaultProxy>`
   </system.net>
 </configuration>
 ```
@@ -34,7 +34,7 @@ C:\Program Files\Microsoft\HybridConnectionManager 0.7\Microsoft.HybridConnectio
 
 [Azure App Service 混合式連線 (HCM) | Jakeuj - 點部落 (dotblogs.com.tw)](https://www.dotblogs.com.tw/jakeuj/2021/08/27/Azure-Relay-Hybrid-Connections)
 
-[<defaultProxy> 項目 (網路設定) - .NET Framework | Microsoft Docs](https://docs.microsoft.com/zh-tw/dotnet/framework/configure-apps/file-schema/network/defaultproxy-element-network-settings#example)
+[`<defaultProxy>` 項目 (網路設定) - .NET Framework | Microsoft Docs](https://docs.microsoft.com/zh-tw/dotnet/framework/configure-apps/file-schema/network/defaultproxy-element-network-settings#example)
 
 [Hybrid Connection behind Proxy Server (microsoft.com)](https://social.msdn.microsoft.com/Forums/azure/en-US/388b266f-2d56-4b41-a6f8-321c77d2a94b/hybrid-connection-behind-proxy-server?forum=servbus)
 
@@ -88,13 +88,13 @@ C:\Program Files\Microsoft\HybridConnectionManager 0.7\Microsoft.HybridConnectio
 
 PS5
 
-* [App Service](/jakeuj/Tags?qq=App%20Service)
+* App Service
 {ignore-vars="true"}
-* [Azure](/jakeuj/Tags?qq=Azure)
-* [Cloud](/jakeuj/Tags?qq=Cloud)
-* [HCM](/jakeuj/Tags?qq=HCM)
+* Azure
+* Cloud
+* HCM
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

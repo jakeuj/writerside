@@ -38,13 +38,13 @@
 
 PS5
 
-* [C#](/jakeuj/Tags?qq=C%23)
+* C#
 {ignore-vars="true"}
-* [VisualStudio](/jakeuj/Tags?qq=VisualStudio)
-* [.Net Core](/jakeuj/Tags?qq=.Net%20Core)
+* VisualStudio
+* .Net Core
 {ignore-vars="true"}
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

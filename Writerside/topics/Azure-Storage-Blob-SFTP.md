@@ -43,11 +43,11 @@ P.S. 既有 Storage 沒有開階層的能不能改我沒測試
 
 PS5
 
-* [Azure](/jakeuj/Tags?qq=Azure)
-* [SFTP](/jakeuj/Tags?qq=SFTP)
-* [Storage](/jakeuj/Tags?qq=Storage)
+* Azure
+* SFTP
+* Storage
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

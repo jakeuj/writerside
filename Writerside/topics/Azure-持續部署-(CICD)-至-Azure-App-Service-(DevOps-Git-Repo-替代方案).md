@@ -46,13 +46,13 @@ Example: <https://dev.azure.com/jakeuj/TestCiCd/_git/TestCiCd>
 
 PS5
 
-* [App Service](/jakeuj/Tags?qq=App%20Service)
+* App Service
 {ignore-vars="true"}
-* [Azure](/jakeuj/Tags?qq=Azure)
-* [CI/CD](/jakeuj/Tags?qq=CI%2FCD)
+* Azure
+* CI/CD
 {ignore-vars="true"}
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

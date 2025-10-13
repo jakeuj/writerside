@@ -18,13 +18,13 @@
 
 PS5
 
-* [Github](/jakeuj/Tags?qq=Github)
-* [GitHubPages](/jakeuj/Tags?qq=GitHubPages)
-* [JetBrains](/jakeuj/Tags?qq=JetBrains)
-* [Markdown](/jakeuj/Tags?qq=Markdown)
-* [Writerside](/jakeuj/Tags?qq=Writerside)
+* Github
+* GitHubPages
+* JetBrains
+* Markdown
+* Writerside
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

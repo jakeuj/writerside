@@ -244,17 +244,17 @@ ASPNETCORE_ENVIRONMENT=Staging
 
 PS5
 
-* [ABP](/jakeuj/Tags?qq=ABP)
-* [App Service](/jakeuj/Tags?qq=App%20Service)
+* ABP
+* App Service
 {ignore-vars="true"}
-* [Azure](/jakeuj/Tags?qq=Azure)
-* [CI/CD](/jakeuj/Tags?qq=CI%2FCD)
+* Azure
+* CI/CD
 {ignore-vars="true"}
-* [deployment](/jakeuj/Tags?qq=deployment)
-* [DevOps](/jakeuj/Tags?qq=DevOps)
-* [Github](/jakeuj/Tags?qq=Github)
+* deployment
+* DevOps
+* Github
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

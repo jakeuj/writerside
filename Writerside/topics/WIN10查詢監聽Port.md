@@ -18,9 +18,9 @@ netstat -aon | findstr :8000
 
 PS5
 
-* [Windows](/jakeuj/Tags?qq=Windows)
+* Windows
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

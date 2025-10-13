@@ -190,13 +190,13 @@ https://stackoverflow.com/questions/23399306/uploadifive-1-2-2-filetype-filter-c
 
 PS5
 
-* [HTML](/jakeuj/Tags?qq=HTML)
-* [Javascript](/jakeuj/Tags?qq=Javascript)
-* [jQuery](/jakeuj/Tags?qq=jQuery)
-* [UploadiFive](/jakeuj/Tags?qq=UploadiFive)
-* [Uploadify](/jakeuj/Tags?qq=Uploadify)
+* HTML
+* Javascript
+* jQuery
+* UploadiFive
+* Uploadify
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

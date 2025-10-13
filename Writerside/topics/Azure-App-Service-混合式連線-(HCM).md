@@ -99,12 +99,12 @@ Port 則是 6379
 
 PS5
 
-* [App Service](/jakeuj/Tags?qq=App%20Service)
+* App Service
 {ignore-vars="true"}
-* [Azure](/jakeuj/Tags?qq=Azure)
-* [Cloud](/jakeuj/Tags?qq=Cloud)
+* Azure
+* Cloud
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

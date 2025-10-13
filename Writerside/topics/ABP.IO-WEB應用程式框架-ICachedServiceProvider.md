@@ -60,10 +60,10 @@ private void ConfigureHttpClient(ServiceConfigurationContext context)
 
 PS5
 
-* [DI](/jakeuj/Tags?qq=DI)
-* [HttpClinet](/jakeuj/Tags?qq=HttpClinet)
+* DI
+* HttpClinet
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

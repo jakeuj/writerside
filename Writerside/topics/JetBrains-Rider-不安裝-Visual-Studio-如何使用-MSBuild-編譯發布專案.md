@@ -24,9 +24,9 @@ But,人生中最重要的就是這個But!
 
 PS5
 
-* [Rider](/jakeuj/Tags?qq=Rider)
+* Rider
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

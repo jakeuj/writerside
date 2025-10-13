@@ -182,9 +182,9 @@ MiniExcel.SaveAsByTemplate(path, templatePath, value);
 
 PS5
 
-* [Excel](/jakeuj/Tags?qq=Excel)
+* Excel
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

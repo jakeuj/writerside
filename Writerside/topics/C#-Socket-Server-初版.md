@@ -1228,11 +1228,11 @@ Client端
 
 PS5
 
-* [C#](/jakeuj/Tags?qq=C%23)
+* C#
 {ignore-vars="true"}
-* [Socket](/jakeuj/Tags?qq=Socket)
+* Socket
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

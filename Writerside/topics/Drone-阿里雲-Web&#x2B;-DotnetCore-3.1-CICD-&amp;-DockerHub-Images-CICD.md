@@ -211,15 +211,15 @@ Invoke-RestMethod 'https://notify-api.line.me/api/notify'
 
 PS5
 
-* [CI/CD](/jakeuj/Tags?qq=CI%2FCD)
+* CI/CD
 {ignore-vars="true"}
-* [.Net Core](/jakeuj/Tags?qq=.Net%20Core)
+* .Net Core
 {ignore-vars="true"}
-* [Drone](/jakeuj/Tags?qq=Drone)
-* [阿里雲](/jakeuj/Tags?qq=%E9%98%BF%E9%87%8C%E9%9B%B2)
+* Drone
+* 阿里雲
 {ignore-vars="true"}
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

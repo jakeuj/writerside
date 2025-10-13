@@ -91,13 +91,13 @@ public class MyApp
 
 PS5
 
-* [Apache](/jakeuj/Tags?qq=Apache)
-* [C#](/jakeuj/Tags?qq=C%23)
+* Apache
+* C#
 {ignore-vars="true"}
-* [Log](/jakeuj/Tags?qq=Log)
-* [Log](/jakeuj/Tags?qq=Log)
+* Log
+* Log
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

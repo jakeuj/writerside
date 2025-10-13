@@ -44,10 +44,10 @@ RIDER的快捷鍵是Ctrl+G
 
 PS5
 
-* [Rider](/jakeuj/Tags?qq=Rider)
-* [IDE](/jakeuj/Tags?qq=IDE)
+* Rider
+* IDE
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

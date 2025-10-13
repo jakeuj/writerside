@@ -106,15 +106,15 @@ AzureRoot.cer > 本機電腦\受信任的根憑證授權單位
 
 PS5
 
-* [Azure SQL](/jakeuj/Tags?qq=Azure%20SQL)
+* Azure SQL
 {ignore-vars="true"}
-* [Azure VPN](/jakeuj/Tags?qq=Azure%20VPN)
+* Azure VPN
 {ignore-vars="true"}
-* [Certificate](/jakeuj/Tags?qq=Certificate)
-* [PowerShell](/jakeuj/Tags?qq=PowerShell)
-* [SSL](/jakeuj/Tags?qq=SSL)
+* Certificate
+* PowerShell
+* SSL
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

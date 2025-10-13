@@ -39,9 +39,9 @@ Windows
 
 PS5
 
-* [Apache](/jakeuj/Tags?qq=Apache)
+* Apache
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

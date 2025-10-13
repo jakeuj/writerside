@@ -42,10 +42,10 @@ P.S. CTRL+ALT+S 可以直接開啟 File | Settings
 
 PS5
 
-* [Fonts](/jakeuj/Tags?qq=Fonts)
-* [Rider](/jakeuj/Tags?qq=Rider)
+* Fonts
+* Rider
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

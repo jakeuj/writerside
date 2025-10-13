@@ -103,10 +103,10 @@ Failed to find a valid digest in the 'integrity' in Blazor WASM
 
 PS5
 
-* [Blazor](/jakeuj/Tags?qq=Blazor)
-* [GitHubPages](/jakeuj/Tags?qq=GitHubPages)
+* Blazor
+* GitHubPages
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

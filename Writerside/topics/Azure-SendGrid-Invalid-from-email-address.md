@@ -113,9 +113,9 @@ PM> Install-Package SendGrid
 
 PS5
 
-* [SendGrid](/jakeuj/Tags?qq=SendGrid)
+* SendGrid
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

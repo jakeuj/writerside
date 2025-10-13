@@ -43,10 +43,10 @@
 
 PS5
 
-* [STFP](/jakeuj/Tags?qq=STFP)
-* [WSL](/jakeuj/Tags?qq=WSL)
+* STFP
+* WSL
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

@@ -118,12 +118,12 @@ GO
 
 PS5
 
-* [Azure SQL](/jakeuj/Tags?qq=Azure%20SQL)
+* Azure SQL
 {ignore-vars="true"}
-* [MSSQL](/jakeuj/Tags?qq=MSSQL)
-* [SQL](/jakeuj/Tags?qq=SQL)
+* MSSQL
+* SQL
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

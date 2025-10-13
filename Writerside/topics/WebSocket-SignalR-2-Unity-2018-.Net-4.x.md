@@ -72,11 +72,11 @@ SignalR Client API 相關說明文件請到下面連結查詢
 
 PS5
 
-* [SignalR](/jakeuj/Tags?qq=SignalR)
-* [Unity](/jakeuj/Tags?qq=Unity)
-* [WebSocket](/jakeuj/Tags?qq=WebSocket)
+* SignalR
+* Unity
+* WebSocket
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

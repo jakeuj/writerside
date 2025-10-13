@@ -21,10 +21,10 @@
 
 PS5
 
-* [Angular](/jakeuj/Tags?qq=Angular)
-* [NodeJs](/jakeuj/Tags?qq=NodeJs)
+* Angular
+* NodeJs
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

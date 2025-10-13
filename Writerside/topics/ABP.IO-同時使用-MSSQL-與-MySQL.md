@@ -77,12 +77,12 @@ Configure<AbpDbContextOptions>(options =>
 
 PS5
 
-* [Entity Framework](/jakeuj/Tags?qq=Entity%20Framework)
+* Entity Framework
 {ignore-vars="true"}
-* [MSSQL](/jakeuj/Tags?qq=MSSQL)
-* [MySql](/jakeuj/Tags?qq=MySql)
+* MSSQL
+* MySql
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

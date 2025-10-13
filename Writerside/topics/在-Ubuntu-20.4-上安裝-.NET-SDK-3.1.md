@@ -81,12 +81,12 @@ dotnet --info
 
 PS5
 
-* [.Net Core](/jakeuj/Tags?qq=.Net%20Core)
+* .Net Core
 {ignore-vars="true"}
-* [Linux](/jakeuj/Tags?qq=Linux)
-* [Ubuntu](/jakeuj/Tags?qq=Ubuntu)
+* Linux
+* Ubuntu
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

@@ -131,9 +131,9 @@ Encoding parameter.
 
 PS5
 
-* [PowerShell](/jakeuj/Tags?qq=PowerShell)
+* PowerShell
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

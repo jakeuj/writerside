@@ -38,9 +38,9 @@
 
 PS5
 
-* [Azure](/jakeuj/Tags?qq=Azure)
+* Azure
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

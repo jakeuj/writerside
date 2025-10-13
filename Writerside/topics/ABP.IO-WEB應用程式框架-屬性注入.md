@@ -103,9 +103,9 @@ Hello World
 
 PS5
 
-* [DI](/jakeuj/Tags?qq=DI)
+* DI
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

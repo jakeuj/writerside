@@ -103,11 +103,11 @@ But, 人生中最重要的就是這個 But！
 
 PS5
 
-* [Entity Framework](/jakeuj/Tags?qq=Entity%20Framework)
+* Entity Framework
 {ignore-vars="true"}
-* [Migrations](/jakeuj/Tags?qq=Migrations)
+* Migrations
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

@@ -34,12 +34,12 @@ Give the Startup Command with the command to start FastAPI on Azure App Service
 
 PS5
 
-* [App Service](/jakeuj/Tags?qq=App%20Service)
+* App Service
 {ignore-vars="true"}
-* [Azure](/jakeuj/Tags?qq=Azure)
-* [FastAPI](/jakeuj/Tags?qq=FastAPI)
+* Azure
+* FastAPI
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

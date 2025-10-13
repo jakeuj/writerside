@@ -153,13 +153,13 @@ jobs:
 
 PS5
 
-* [CI/CD](/jakeuj/Tags?qq=CI%2FCD)
+* CI/CD
 {ignore-vars="true"}
-* [GitHubPages](/jakeuj/Tags?qq=GitHubPages)
-* [JetBrains](/jakeuj/Tags?qq=JetBrains)
-* [Writerside](/jakeuj/Tags?qq=Writerside)
+* GitHubPages
+* JetBrains
+* Writerside
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

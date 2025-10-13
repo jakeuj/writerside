@@ -151,11 +151,11 @@ public class HelloWorldService : ITransientDependency
 
 PS5
 
-* [Console](/jakeuj/Tags?qq=Console)
-* [Dapper](/jakeuj/Tags?qq=Dapper)
-* [HttpClinet](/jakeuj/Tags?qq=HttpClinet)
+* Console
+* Dapper
+* HttpClinet
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

@@ -37,12 +37,12 @@ ssh-keygen
 
 PS5
 
-* [GCP](/jakeuj/Tags?qq=GCP)
-* [Git](/jakeuj/Tags?qq=Git)
-* [Github](/jakeuj/Tags?qq=Github)
-* [Linux](/jakeuj/Tags?qq=Linux)
+* GCP
+* Git
+* Github
+* Linux
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

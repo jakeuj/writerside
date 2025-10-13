@@ -48,10 +48,10 @@ C:\Program Files\TortoiseHg\i18n\cmenu\thg-cmenu-zh\_TW.reg
 
 PS5
 
-* [Mercuria](/jakeuj/Tags?qq=Mercuria)
-* [TortoiseHg](/jakeuj/Tags?qq=TortoiseHg)
+* Mercuria
+* TortoiseHg
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

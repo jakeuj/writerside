@@ -41,11 +41,11 @@ NPM：<https://dotblogs.com.tw/jamesfu/2017/08/02/vsts_angular4>
 
 PS5
 
-* [Angular](/jakeuj/Tags?qq=Angular)
-* [DevOps](/jakeuj/Tags?qq=DevOps)
-* [Azure](/jakeuj/Tags?qq=Azure)
+* Angular
+* DevOps
+* Azure
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

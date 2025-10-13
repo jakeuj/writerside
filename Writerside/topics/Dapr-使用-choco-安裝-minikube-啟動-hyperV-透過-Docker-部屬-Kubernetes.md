@@ -62,16 +62,16 @@ stderr:
 
 PS5
 
-* [choco](/jakeuj/Tags?qq=choco)
-* [DAPR](/jakeuj/Tags?qq=DAPR)
-* [Docker](/jakeuj/Tags?qq=Docker)
-* [hyperV](/jakeuj/Tags?qq=hyperV)
-* [K8S](/jakeuj/Tags?qq=K8S)
-* [Kubernetes](/jakeuj/Tags?qq=Kubernetes)
-* [MicroService](/jakeuj/Tags?qq=MicroService)
-* [minikube](/jakeuj/Tags?qq=minikube)
+* choco
+* DAPR
+* Docker
+* hyperV
+* K8S
+* Kubernetes
+* MicroService
+* minikube
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

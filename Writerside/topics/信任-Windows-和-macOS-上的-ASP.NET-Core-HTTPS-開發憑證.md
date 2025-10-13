@@ -28,12 +28,12 @@ Done.
 
 PS5
 
-* [.Net Core](/jakeuj/Tags?qq=.Net%20Core)
+* .Net Core
 {ignore-vars="true"}
-* [HTTPS](/jakeuj/Tags?qq=HTTPS)
-* [SSL](/jakeuj/Tags?qq=SSL)
+* HTTPS
+* SSL
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

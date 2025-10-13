@@ -93,9 +93,9 @@ jakeuj@instance-2 ~ $
 
 PS5
 
-* [LLM](/jakeuj/Tags?qq=LLM)
+* LLM
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

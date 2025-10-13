@@ -36,16 +36,16 @@ Azure Devops Pipeline CI/CD 被拿去挖礦
 
 PS5
 
-* [CI/CD](/jakeuj/Tags?qq=CI%2FCD)
+* CI/CD
 {ignore-vars="true"}
-* [Container](/jakeuj/Tags?qq=Container)
-* [Docker](/jakeuj/Tags?qq=Docker)
-* [.Net Core](/jakeuj/Tags?qq=.Net%20Core)
+* Container
+* Docker
+* .Net Core
 {ignore-vars="true"}
-* [Drone](/jakeuj/Tags?qq=Drone)
-* [Jenkins](/jakeuj/Tags?qq=Jenkins)
+* Drone
+* Jenkins
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

@@ -79,9 +79,9 @@ private static void ConfigureSwaggerServices(
 
 PS5
 
-* [Swagger](/jakeuj/Tags?qq=Swagger)
+* Swagger
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

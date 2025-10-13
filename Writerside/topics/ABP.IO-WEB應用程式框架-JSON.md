@@ -47,9 +47,9 @@ ABP框架提供了一個使用JSON的抽象.擁有這樣的抽象有一些好處
 
 PS5
 
-* [JSON](/jakeuj/Tags?qq=JSON)
+* JSON
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

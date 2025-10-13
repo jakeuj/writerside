@@ -85,9 +85,9 @@ rpm -qa |grep php
 
 PS5
 
-* [Server](/jakeuj/Tags?qq=Server)
+* Server
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

@@ -105,13 +105,13 @@ static async Task Main()
 
 PS5
 
-* [C#](/jakeuj/Tags?qq=C%23)
+* C#
 {ignore-vars="true"}
-* [.Net Core](/jakeuj/Tags?qq=.Net%20Core)
+* .Net Core
 {ignore-vars="true"}
-* [HttpClinet](/jakeuj/Tags?qq=HttpClinet)
+* HttpClinet
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

@@ -28,11 +28,11 @@
 
 PS5
 
-* [CloudSQL](/jakeuj/Tags?qq=CloudSQL)
-* [GCP](/jakeuj/Tags?qq=GCP)
-* [Proxy](/jakeuj/Tags?qq=Proxy)
+* CloudSQL
+* GCP
+* Proxy
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

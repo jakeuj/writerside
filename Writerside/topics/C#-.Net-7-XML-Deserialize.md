@@ -100,9 +100,9 @@ public class Test
 
 PS5
 
-* [XML](/jakeuj/Tags?qq=XML)
+* XML
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

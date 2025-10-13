@@ -48,7 +48,7 @@ using System.Collections.Generic;
 
 namespace MyCompany.MyProject.Entities
 {
-    public class Map : Entity<long>, IHasCreationTime
+    public class Map : `Entity<long>`, IHasCreationTime
     {
         public const string DefaultMapName = "DefaultMap";
 
@@ -66,11 +66,11 @@ namespace MyCompany.MyProject.Entities
 }
 ```
 
-類別Entity繼承後會自動含有一個資料型態為int的ID屬性，該類別還有一個泛型版本Entity<T>可以繼承，這邊我ID是long所以繼承Entity<long>
+類別Entity繼承後會自動含有一個資料型態為int的ID屬性，該類別還有一個泛型版本`Entity<T>`可以繼承，這邊我ID是long所以繼承`Entity<long>`
 
 ```
 
-public class Map : Entity<long>, IHasCreationTime
+public class Map : `Entity<long>`, IHasCreationTime
 ```
 
 ABP還提供了IHasCreationTime這個介面來讓我們統一所有會使用到建立時間這個屬性的實體，藉此統一該屬性名稱為CreationTime
@@ -114,7 +114,7 @@ using System;
 
 namespace MyCompany.MyProject.Entities
 {
-    public class Player : Entity<long>, IHasCreationTime
+    public class Player : `Entity<long>`, IHasCreationTime
     {
         public const string DefaultPlayerName = "DefaultPlayer";
 
@@ -159,10 +159,10 @@ public virtual Map Map { get; set; }
 
 PS5
 
-* [C#](/jakeuj/Tags?qq=C%23)
+* C#
 {ignore-vars="true"}
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

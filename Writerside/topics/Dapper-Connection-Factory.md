@@ -79,10 +79,10 @@ BJ4
 
 PS5
 
-* [ABP](/jakeuj/Tags?qq=ABP)
-* [Dapper](/jakeuj/Tags?qq=Dapper)
+* ABP
+* Dapper
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

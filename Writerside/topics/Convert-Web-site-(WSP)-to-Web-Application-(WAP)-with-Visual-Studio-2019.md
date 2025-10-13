@@ -47,11 +47,11 @@ WAP 步驟
 
 PS5
 
-* [VisualStudio](/jakeuj/Tags?qq=VisualStudio)
-* [WebApplication](/jakeuj/Tags?qq=WebApplication)
-* [WebSite](/jakeuj/Tags?qq=WebSite)
+* VisualStudio
+* WebApplication
+* WebSite
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

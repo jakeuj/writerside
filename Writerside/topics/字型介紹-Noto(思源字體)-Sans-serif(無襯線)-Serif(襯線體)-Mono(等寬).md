@@ -151,9 +151,9 @@ Special Note: This deployment format requires macOS (OS X) Version 10.8 (aka Mou
 
 PS5
 
-* [Fonts](/jakeuj/Tags?qq=Fonts)
+* Fonts
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

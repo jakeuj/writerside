@@ -41,11 +41,11 @@ namespace MyProjectName.Web.Pages.Account
 
         public CustomLoginModel(
             IAuthenticationSchemeProvider schemeProvider,
-            IOptions<AbpAccountOptions> accountOptions,
+            `IOptions<AbpAccountOptions>` accountOptions,
             IIdentityServerInteractionService interaction,
             IClientStore clientStore,
             IEventService identityServerEvents,
-            IOptions<IdentityOptions> identityOptions,
+            `IOptions<IdentityOptions>` identityOptions,
             ILogger<CustomLoginModel> logger) : base(
             schemeProvider,
             accountOptions,
@@ -203,7 +203,7 @@ public class MyIdentityUserManager : IdentityUserManager
             IdentityUserStore store,
             IIdentityRoleRepository roleRepository,
             IIdentityUserRepository userRepository,
-            IOptions<IdentityOptions> optionsAccessor,
+            `IOptions<IdentityOptions>` optionsAccessor,
             IPasswordHasher<IdentityUser> passwordHasher,
             IEnumerable<IUserValidator<IdentityUser>> userValidators,
             IEnumerable<IPasswordValidator<IdentityUser>> passwordValidators,
@@ -413,9 +413,9 @@ ObjectExtensionManager.Instance
 
 PS5
 
-* [ABP](/jakeuj/Tags?qq=ABP)
+* ABP
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

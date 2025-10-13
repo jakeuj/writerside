@@ -39,9 +39,9 @@ gitignore vs exclude
 
 PS5
 
-* [Git](/jakeuj/Tags?qq=Git)
+* Git
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

@@ -133,10 +133,10 @@ public class TemplateReplaceDomainModule : AbpModule
 
 PS5
 
-* [Azure](/jakeuj/Tags?qq=Azure)
-* [SendGrid](/jakeuj/Tags?qq=SendGrid)
+* Azure
+* SendGrid
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 

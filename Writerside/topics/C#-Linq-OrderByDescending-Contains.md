@@ -49,9 +49,9 @@ public class User
 
 PS5
 
-* [Linq](/jakeuj/Tags?qq=Linq)
+* Linq
 
-* [回首頁](/jakeuj)
+* 回首頁
 
 ---
 
