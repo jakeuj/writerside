@@ -1,4 +1,4 @@
-# Drone 阿里雲 Web&#x2B; DotnetCore 3.1 CI/CD &amp; DockerHub Images CI/CD
+# Drone 阿里雲 Web&#x2B; DotnetCore 3.1 CI/CD &amp; DockerHub Images CI/CD {id="Drone-阿里雲-Web&#x2B;-DotnetCore-3.1-CICD-&amp;-DockerHub-Images-CICD"}
 
 > **原文發布日期:** 2021-04-22
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/04/22/DroneAliWebPlusCICD

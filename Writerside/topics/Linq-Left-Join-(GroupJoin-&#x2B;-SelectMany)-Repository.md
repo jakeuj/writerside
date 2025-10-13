@@ -1,4 +1,4 @@
-# Linq Left Join (GroupJoin &#x2B; SelectMany) Repository
+# Linq Left Join (GroupJoin &#x2B; SelectMany) Repository {id="Linq-Left-Join-(GroupJoin-&#x2B;-SelectMany)-Repository"}
 
 > **原文發布日期:** 2019-06-19
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/06/19/LinqJoin

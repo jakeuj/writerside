@@ -1,4 +1,4 @@
-# DotNetCore HttpClient User-Agent &amp; Encoding
+# DotNetCore HttpClient User-Agent &amp; Encoding {id="DotNetCore-HttpClient-User-Agent-&amp;-Encoding"}
 
 > **原文發布日期:** 2019-01-29
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/01/29/173228

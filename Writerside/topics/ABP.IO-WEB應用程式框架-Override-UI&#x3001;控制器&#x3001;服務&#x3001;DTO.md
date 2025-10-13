@@ -1,4 +1,4 @@
-# ABP.IO WEB應用程式框架 Override UI&#x3001;控制器&#x3001;服務&#x3001;DTO
+# ABP.IO WEB應用程式框架 Override UI&#x3001;控制器&#x3001;服務&#x3001;DTO {id="ABP.IO-WEB應用程式框架-Override-UI&#x3001;控制器&#x3001;服務&#x3001;DTO"}
 
 > **原文發布日期:** 2021-07-27
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/07/27/ABP-Override-Controller

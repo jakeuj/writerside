@@ -1,4 +1,4 @@
-# ABP.IO WEB應用程式框架 新手教學 No.07 開發教學 第 6 部分 作者&#xFF1A;領域層
+# ABP.IO WEB應用程式框架 新手教學 No.07 開發教學 第 6 部分 作者&#xFF1A;領域層 {id="ABP.IO-WEB應用程式框架-新手教學-No.07-開發教學-第-6-部分-作者&#xFF1A;領域層"}
 
 > **原文發布日期:** 2021-07-23
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/07/23/ABP-Tutorials-Part-6

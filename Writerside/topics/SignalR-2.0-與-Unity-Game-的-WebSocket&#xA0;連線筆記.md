@@ -1,4 +1,4 @@
-# SignalR 2.0 與 Unity Game 的 WebSocket&#xA0;連線筆記
+# SignalR 2.0 與 Unity Game 的 WebSocket&#xA0;連線筆記 {id="SignalR-2.0-與-Unity-Game-的-WebSocket&#xA0;連線筆記"}
 
 > **原文發布日期:** 2016-07-07
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2016/07/07/UnitySignalR

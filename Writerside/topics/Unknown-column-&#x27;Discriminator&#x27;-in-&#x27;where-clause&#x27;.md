@@ -1,4 +1,4 @@
-# Unknown column &#x27;Discriminator&#x27; in &#x27;where clause&#x27;
+# Unknown column &#x27;Discriminator&#x27; in &#x27;where clause&#x27; {id="Unknown-column-&#x27;Discriminator&#x27;-in-&#x27;where-clause&#x27;"}
 
 > **原文發布日期:** 2019-06-10
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/06/10/EfCore

@@ -26,7 +26,9 @@ ABP 存檔使用兩個部份來達成
    * Minio：將BLOB存儲在MinIO Object storage中
    * Aws：將BLOB存儲在Amazon Simple Storage Service中
 
-### [BLOB Storing](https://docs.abp.io/zh-Hans/abp/latest/Blob-Storing)
+### BLOB Storing
+
+參考文檔：[BLOB Storing](https://docs.abp.io/zh-Hans/abp/latest/Blob-Storing)
 
 首先安裝 [Volo.Abp.BlobStoring](https://www.nuget.org/packages/Volo.Abp.BlobStoring) 到 Domain
 

@@ -1,4 +1,4 @@
-# ABP.IO WEB應用程式框架 新手教學 No.11 開發教學 第 10 部分&#xFF1A;書籍與作者的關係
+# ABP.IO WEB應用程式框架 新手教學 No.11 開發教學 第 10 部分&#xFF1A;書籍與作者的關係 {id="ABP.IO-WEB應用程式框架-新手教學-No.11-開發教學-第-10-部分&#xFF1A;書籍與作者的關係"}
 
 > **原文發布日期:** 2021-07-23
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/07/23/ABP-Tutorials-Part-10

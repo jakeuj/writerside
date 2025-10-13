@@ -1,4 +1,4 @@
-# HSTS (HTTP Strict Transport Security) &amp; HTTPS redirection (Enforce HTTPS in ASP.NET Core)
+# HSTS (HTTP Strict Transport Security) &amp; HTTPS redirection (Enforce HTTPS in ASP.NET Core) {id="HSTS-(HTTP-Strict-Transport-Security)-&amp;-HTTPS-redirection-(Enforce-HTTPS-in-ASP.NET-Core)"}
 
 > **原文發布日期:** 2019-12-18
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/12/18/HSTS

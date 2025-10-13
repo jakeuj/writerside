@@ -14,8 +14,6 @@ Cloudflare 就宣布換掉 Google reCAPTCHA
 
 這邊主要紀錄一下 dotnet core 實作流程
 
-##
-
 ## 簡介
 
 > „CDN及安全服務業者Cloudflare就宣布換掉Google reCAPTCHA，改用hCaptcha

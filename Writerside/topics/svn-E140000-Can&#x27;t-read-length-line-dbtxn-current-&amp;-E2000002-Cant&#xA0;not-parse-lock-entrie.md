@@ -1,4 +1,4 @@
-# svn: E140000: Can&#x27;t read length line: db/txn-current &amp; E2000002: Cant&#xA0;not parse lock / entries hashfile &#x27;{0}&#x27;
+# svn: E140000: Can&#x27;t read length line: db/txn-current &amp; E2000002: Cant&#xA0;not parse lock / entries hashfile &#x27;{0}&#x27; {id="svn-E140000-Can&#x27;t-read-length-line-dbtxn-current-&amp;-E2000002-Cant&#xA0;not-parse-lock-entrie"}
 
 > **原文發布日期:** 2019-01-09
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/01/09/txn-current

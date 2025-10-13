@@ -1,4 +1,4 @@
-# Azure DevOps Pipeline 合併 Vue &amp; .NetCore Project 並 Build &amp; Release
+# Azure DevOps Pipeline 合併 Vue &amp; .NetCore Project 並 Build &amp; Release {id="Azure-DevOps-Pipeline-合併-Vue-&amp;-.NetCore-Project-並-Build-&amp;-Release"}
 
 > **原文發布日期:** 2022-01-19
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/01/19/Azure-DevOps-Pipeline-Vue-DotNetCore

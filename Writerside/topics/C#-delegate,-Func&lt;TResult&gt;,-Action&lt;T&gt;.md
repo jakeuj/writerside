@@ -1,4 +1,4 @@
-# C# delegate, Func&lt;TResult&gt;, Action&lt;T&gt;
+# C# delegate, Func&lt;TResult&gt;, Action&lt;T&gt; {id="C#-delegate,-Func&lt;TResult&gt;,-Action&lt;T&gt;"}
 
 > **原文發布日期:** 2023-04-18
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/04/18/CSharp-delegate-Func-Action

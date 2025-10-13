@@ -1,4 +1,4 @@
-# NSwag Settings &amp; HttpClient Startup
+# NSwag Settings &amp; HttpClient Startup {id="NSwag-Settings-&amp;-HttpClient-Startup"}
 
 > **原文發布日期:** 2022-09-27
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/09/27/NSwag-Settings-HttpClient-Startup

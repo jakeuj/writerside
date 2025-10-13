@@ -342,9 +342,13 @@ public class HomeController : PlatRazorControllerBase
 
 12.TODO
 
-# [Add EfCoreTransactionStrategy to share transactions](https://github.com/aspnetboilerplate/aspnetboilerplate/pull/1834#issuecomment-283948116)
+## Add EfCoreTransactionStrategy to share transactions
 
-[IConnectionStringResolver](https://aspnetboilerplate.com/Pages/Documents/Entity-Framework-Core#configuration)
+參考連結：[GitHub PR #1834](https://github.com/aspnetboilerplate/aspnetboilerplate/pull/1834#issuecomment-283948116)
+
+## IConnectionStringResolver
+
+參考文檔：[Entity Framework Core Configuration](https://aspnetboilerplate.com/Pages/Documents/Entity-Framework-Core#configuration)
 
 ABP can use IConnectionStringResolver to determine it. This behaviour can be changed and the connection string can be determined dynamically.
 

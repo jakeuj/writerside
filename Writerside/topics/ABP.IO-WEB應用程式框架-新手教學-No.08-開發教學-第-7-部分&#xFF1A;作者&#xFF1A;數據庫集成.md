@@ -1,4 +1,4 @@
-# ABP.IO WEB應用程式框架 新手教學 No.08 開發教學 第 7 部分&#xFF1A;作者&#xFF1A;數據庫集成
+# ABP.IO WEB應用程式框架 新手教學 No.08 開發教學 第 7 部分&#xFF1A;作者&#xFF1A;數據庫集成 {id="ABP.IO-WEB應用程式框架-新手教學-No.08-開發教學-第-7-部分&#xFF1A;作者&#xFF1A;數據庫集成"}
 
 > **原文發布日期:** 2021-07-23
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/07/23/ABP-Tutorials-Part-7

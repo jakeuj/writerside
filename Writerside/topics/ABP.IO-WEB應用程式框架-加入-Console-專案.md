@@ -30,9 +30,7 @@
 
 編輯 `MyProject.ConsoleApp.csproj` 將 Console 用到的套件貼過去
 
-參照 `MyProject.Web.csproj` 將 <Import Project="..\..\common.props" />
-
-也貼過去 `MyProject.ConsoleApp.csproj`
+參照 `MyProject.Web.csproj` 將 `<Import Project="..\..\common.props" />` 也貼過去 `MyProject.ConsoleApp.csproj`
 
 範例：
 

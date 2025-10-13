@@ -1,4 +1,4 @@
-# 發布技術文章 (Windows Live Writer &#x2B; 程式碼插入外掛程式)
+# 發布技術文章 (Windows Live Writer &#x2B; 程式碼插入外掛程式) {id="發布技術文章-(Windows-Live-Writer-&#x2B;-程式碼插入外掛程式)"}
 
 > **原文發布日期:** 2011-07-08
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2011/07/08/31325

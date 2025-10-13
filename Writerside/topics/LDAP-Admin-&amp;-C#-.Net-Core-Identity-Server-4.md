@@ -1,4 +1,4 @@
-# LDAP Admin &amp; C# .Net Core Identity Server 4
+# LDAP Admin &amp; C# .Net Core Identity Server 4 {id="LDAP-Admin-&amp;-C#-.Net-Core-Identity-Server-4"}
 
 > **原文發布日期:** 2021-07-30
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/07/30/LdapAdmin
