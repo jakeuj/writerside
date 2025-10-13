@@ -59,8 +59,104 @@ type: "always_apply"
 1. **新增文檔**：在 `Writerside/topics/` 建立 `.md` 檔案
 2. **更新目錄**：在 `Writerside/hi.tree` 中添加對應的 `<toc-element>` 項目
 3. **圖片資源**：將圖片放在 `Writerside/images/` 目錄
-4. **測試**：推送後檢查 GitHub Actions 建構是否成功
-5. **驗證**：確認在 GitHub Pages 上的顯示效果
+4. **本地測試**：使用 Docker 或 Writerside IDE 在本地驗證文檔
+5. **推送測試**：推送後檢查 GitHub Actions 建構是否成功
+6. **驗證**：確認在 GitHub Pages 上的顯示效果
+
+## 本地測試 Writerside 文檔
+
+在推送到 GitHub 之前，可以在本地執行與 GitHub Actions 相同的檢查，避免 CI/CD 失敗。
+
+### 方法一：使用 Docker 執行 Writerside 檢查
+
+在專案根目錄執行（與 `.idea` / `Writerside` 同層）：
+
+```bash
+docker run --rm \
+  -v "$PWD":/docs \
+  jetbrains/writerside-checker:2025.04.8412 \
+  "artifacts/report.json" "Writerside/hi"
+```
+
+- `jetbrains/writerside-checker:2025.04.8412` - 使用與 GitHub Actions 相同的版本
+- `"Writerside/hi"` - Writerside instance 名稱（對應 `writerside.cfg` 中的設定）
+- 執行後會產生 `artifacts/report.json`，包含所有錯誤和警告
+
+#### 查看檢查結果
+
+```bash
+# 使用 jq 格式化輸出
+cat artifacts/report.json | jq
+
+# 或只顯示錯誤
+cat artifacts/report.json | jq '.errors'
+
+# 或只顯示警告
+cat artifacts/report.json | jq '.warnings'
+```
+
+### 方法二：使用 IntelliJ IDEA / Writerside IDE
+
+1. 安裝 [Writerside IDE](https://www.jetbrains.com/writerside/) 或在 IntelliJ IDEA 中安裝 Writerside Plugin
+2. 開啟專案
+3. 執行：**Build → Build Documentation**
+4. IDE 會在下方顯示具體的錯誤行數與問題
+
+### 常見錯誤修復
+
+#### MRK002: Source file syntax is corrupted
+
+**原因**: 未閉合的 XML/HTML 標籤，例如 `<T>`、`<int>` 被 Writerside 認為是 XML 而非 Markdown code。
+
+**修復方式**:
+```markdown
+# 錯誤寫法
+返回 IQueryable<T>
+
+# 正確寫法
+返回 `IQueryable<T>`
+```
+
+或使用程式碼區塊：
+````markdown
+```csharp
+Func<T>
+```
+````
+
+#### MRK003: Element ID is not unique
+
+**原因**: 多個標題產生了相同的 ID。
+
+**修復方式**:
+```markdown
+# 錯誤寫法
+### DTO
+### DTO
+
+# 正確寫法
+### GetAuthorListDto - 獲取作者列表
+### CreateAuthorDto - 創建作者
+```
+
+#### CTT004: Undefined variable
+
+**原因**: URL 中的 URL 編碼字符（如 `%E6%B7%BB%E5%8A%A0`）被誤認為變數引用。
+
+**修復方式**:
+```markdown
+# 方法 1: 使用 Markdown 連結語法
+[ABP 官方教學](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Part-1#%E6%B7%BB%E5%8A%A0)
+
+# 方法 2: 使用 {ignore-vars="true"} 屬性
+<https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Part-1#%E6%B7%BB%E5%8A%A0>
+{ignore-vars="true"}
+```
+
+### 參考資源
+
+- [JetBrains 官方指南 - 本地測試 Writerside](https://www.jetbrains.com/help/writerside/testing-your-docs-locally.html)
+- [writerside-checker-action GitHub Repository](https://github.com/JetBrains/writerside-checker-action)
 
 ## 技術重點領域
 
