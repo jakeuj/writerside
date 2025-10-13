@@ -9,7 +9,7 @@
             <toc-element topic="[CICD]-Azure-App-Service-發布-.Net-4.8-Web-Application-使用-C#-12.md" toc-title="[CI/CD] Azure App Service 發布 .Net 4.8 Web Application 使用 C# 12" />
             <toc-element topic="[Git]-.gitignore-和.gitinfoexclude-的區別.md" toc-title="[Git] .gitignore 和.git/info/exclude 的區別" />
             <toc-element topic="GCP-Cloud-SQL-Proxy-本地連線不開白名單.md" toc-title="GCP Cloud SQL Proxy 本地連線不開白名單" />
-            <toc-element topic="ABP.IO-Azure-App-Service-解決-Could-not-find-the-bundle-file-&#x27;libsabpcoreabp.css&#x27;.md" toc-title="ABP.IO Azure App Service 解決 Could not find the bundle file '/libs/abp/core/abp.css'" />
+            <toc-element topic="ABP-IO-Azure-App-Service-Bundle-File-Not-Found.md" toc-title="ABP.IO Azure App Service 解決 Could not find the bundle file '/libs/abp/core/abp.css'" />
             <toc-element topic="GCP-GAE-連-Google-Cloud-SQL-採坑紀錄.md" toc-title="GCP GAE 連 Google Cloud SQL 採坑紀錄" />
             <toc-element topic="Azure-Static-Web-Apps-設定-IP-限制.md" toc-title="Azure Static Web Apps 設定 IP 限制" />
             <toc-element topic="TortoiseGit-設定不同-Github-帳號.md" toc-title="TortoiseGit 設定不同 Github 帳號" />
@@ -49,7 +49,7 @@
             <toc-element topic="ABP.IO-WEB應用程式框架-CORS.md" toc-title="ABP.IO WEB應用程式框架 CORS" />
             <toc-element topic="C#-Swagger-UI-display-Enum-with-String.md" toc-title="C# Swagger UI display Enum with String" />
             <toc-element topic="ABP.IO-WEB應用程式框架-自訂驗證錯誤碼.md" toc-title="ABP.IO WEB應用程式框架 自訂驗證錯誤碼" />
-            <toc-element topic="C#-delegate,-Func&lt;TResult&gt;,-Action&lt;T&gt;.md" toc-title="C# delegate, Func&lt;TResult&gt;, Action&lt;T&gt;" />
+            <toc-element topic="CSharp-Delegate-Func-Action.md" toc-title="C# delegate, Func&lt;TResult&gt;, Action&lt;T&gt;" />
             <toc-element topic="ABP.IO-WEB應用程式框架-取得環境名稱.md" toc-title="ABP.IO WEB應用程式框架 取得環境名稱" />
             <toc-element topic="C#-具名選項模式.md" toc-title="C# 具名選項模式" />
             <toc-element topic="Windows-檔案總管緩慢甚至沒有回應.md" toc-title="Windows 檔案總管緩慢甚至沒有回應" />
@@ -94,12 +94,12 @@
             <toc-element topic="MSSQL-抓半年內的資料.md" toc-title="MSSQL 抓半年內的資料" />
             <toc-element topic="ABP.IO-WEB應用程式框架-CrudAppService-自訂-Header-驗證.md" toc-title="ABP.IO WEB應用程式框架 CrudAppService 自訂 Header 驗證" />
             <toc-element topic="ABP.IO-WEB應用程式框架-Swagger-Default-Value.md" toc-title="ABP.IO WEB應用程式框架 Swagger Default Value" />
-            <toc-element topic="NSwag-Settings-&amp;-HttpClient-Startup.md" toc-title="NSwag Settings &amp; HttpClient Startup" />
+            <toc-element topic="NSwag-Settings-And-HttpClient-Startup.md" toc-title="NSwag Settings &amp; HttpClient Startup" />
             <toc-element topic="ABP.IO-WEB應用程式框架-UnitTest-讀取-appsettings.json.md" toc-title="ABP.IO WEB應用程式框架 UnitTest 讀取 appsettings.json" />
             <toc-element topic="Azure-VPN-找不到可以使用這個可延伸的驗證通訊協定的憑證-(錯誤-798).md" toc-title="Azure VPN 找不到可以使用這個可延伸的驗證通訊協定的憑證 (錯誤 798)" />
             <toc-element topic="MSSQL-2008-R2-TLS-1.2.md" toc-title="MSSQL 2008 R2 TLS 1.2" />
             <toc-element topic="ABP.IO-WEB應用程式框架-BackgroundWorker-UOW-例外.md" toc-title="ABP.IO WEB應用程式框架 BackgroundWorker UOW 例外" />
-            <toc-element topic="ABP.IO-Could-not-find-the-bundle-file-&#x27;libsabpcoreabp.css&#x27;.md" toc-title="ABP.IO Could not find the bundle file '/libs/abp/core/abp.css'" />
+            <toc-element topic="ABP-IO-Bundle-File-Not-Found.md" toc-title="ABP.IO Could not find the bundle file '/libs/abp/core/abp.css'" />
             <toc-element topic="ACI-(Azure-Container-Instance)-部屬失敗.md" toc-title="ACI (Azure Container Instance) 部屬失敗" />
             <toc-element topic="How-to-Disable-TLS-1.0-1.1-in-Apache-Server.md" toc-title="How to Disable TLS 1.0 /1.1 in Apache Server" />
             <toc-element topic="Azure-VPN-Windows-Server-2012-R2-Error-812.md" toc-title="Azure VPN Windows Server 2012 R2 Error 812" />
@@ -108,7 +108,7 @@
             <toc-element topic="ABP.IO-WEB應用程式框架-Background-Job.md" toc-title="ABP.IO WEB應用程式框架 Background Job" />
             <toc-element topic="ABP.IO-WEB應用程式框架-Hangfire-Background-Job-And-Worker.md" toc-title="ABP.IO WEB應用程式框架 Hangfire Background Job And Worker" />
             <toc-element topic="Azure-App-Service-設定環境變數-ASPNETCORE_ENVIRONMENT.md" toc-title="Azure App Service 設定環境變數 ASPNETCORE_ENVIRONMENT" />
-            <toc-element topic="ABP.IO-WEB應用程式框架-烤肉串命名&#xFF08;Kebab-case&#xFF09;.md" toc-title="ABP.IO WEB應用程式框架 烤肉串命名（Kebab case）" />
+            <toc-element topic="ABP-IO-Kebab-Case-Naming.md" toc-title="ABP.IO WEB應用程式框架 烤肉串命名（Kebab case）" />
             <toc-element topic="MSSQL-Local-Db-服務無法啟動-Error-1069.md" toc-title="MSSQL Local Db 服務無法啟動 Error 1069" />
             <toc-element topic="透過-Proxy-使用-Azure-HCM-(混合式連線管理員).md" toc-title="透過 Proxy 使用 Azure HCM (混合式連線管理員)" />
             <toc-element topic="C#-使用-CsvHelper-讀取Csv並略過前N行非Csv內容.md" toc-title="C# 使用 CsvHelper 讀取Csv並略過前N行非Csv內容" />
@@ -118,7 +118,7 @@
             <toc-element topic="ABP.IO-WEB應用程式框架-Export-Excel.md" toc-title="ABP.IO WEB應用程式框架 Export Excel" />
             <toc-element topic="PowerShell-安裝並設定成-Visual-Studio-預設終端機.md" toc-title="PowerShell 安裝並設定成 Visual Studio 預設終端機" />
             <toc-element topic="ABP.IO-WEB應用程式框架-極簡主義應用程式.md" toc-title="ABP.IO WEB應用程式框架 極簡主義應用程式" />
-            <toc-element topic="Azure-DevOps-Pipeline-合併-Vue-&amp;-.NetCore-Project-並-Build-&amp;-Release.md" toc-title="Azure DevOps Pipeline 合併 Vue &amp; .NetCore Project 並 Build &amp; Release" />
+            <toc-element topic="Azure-DevOps-Pipeline-Merge-Vue-And-NetCore-Build-Release.md" toc-title="Azure DevOps Pipeline 合併 Vue &amp; .NetCore Project 並 Build &amp; Release" />
             <toc-element topic="Dapper-Connection-Factory.md" toc-title="Dapper Connection Factory" />
             <toc-element topic="SQL-臨時表-定序衝突-(COLLATE).md" toc-title="SQL 臨時表 定序衝突 (COLLATE)" />
             <toc-element topic="如何在舊的-ASP.NET-WebSite-使用新版-C#-語言特性-(7.3).md" toc-title="如何在舊的 ASP.NET WebSite 使用新版 C# 語言特性 (7.3)" />
@@ -158,19 +158,19 @@
             <toc-element topic="Azure-SQL-透過-Azure-VPN-Gateway-實現內網連接.md" toc-title="Azure SQL 透過 Azure VPN Gateway 實現內網連接" />
             <toc-element topic="DevOps-Git-Repo-連線失敗.md" toc-title="DevOps Git Repo 連線失敗" />
             <toc-element topic="更新-Entity-Framework-tools-版本.md" toc-title="更新 Entity Framework tools 版本" />
-            <toc-element topic="LDAP-Admin-&amp;-C#-.Net-Core-Identity-Server-4.md" toc-title="LDAP Admin &amp; C# .Net Core Identity Server 4" />
-            <toc-element topic="ABP.IO-WEB應用程式框架-Override-UI&#x3001;控制器&#x3001;服務&#x3001;DTO.md" toc-title="ABP.IO WEB應用程式框架 Override UI、控制器、服務、DTO" />
+            <toc-element topic="LDAP-Admin-And-CSharp-Net-Core-Identity-Server-4.md" toc-title="LDAP Admin &amp; C# .Net Core Identity Server 4" />
+            <toc-element topic="ABP-IO-Override-UI-Controller-Service-DTO.md" toc-title="ABP.IO WEB應用程式框架 Override UI、控制器、服務、DTO" />
             <toc-element topic="Git-Pull-Error-Filename-too-long.md" toc-title="Git Pull Error Filename too long" />
             <toc-element topic="ABP.IO-WEB應用程式框架-授權.md" toc-title="ABP.IO WEB應用程式框架 授權" />
             <toc-element topic="ABP.IO-WEB應用程式框架-授權資料表定義.md" toc-title="ABP.IO WEB應用程式框架 授權資料表定義" />
-            <toc-element topic="ABP.IO-WEB應用程式框架-新手教學-No.11-開發教學-第-10-部分&#xFF1A;書籍與作者的關係.md" toc-title="ABP.IO WEB應用程式框架 新手教學 No.11 開發教學 第 10 部分：書籍與作者的關係" />
-            <toc-element topic="ABP.IO-WEB應用程式框架-新手教學-No.10-開發教學-第-9-部分&#xFF1A;作者&#xFF1A;用戶界面.md" toc-title="ABP.IO WEB應用程式框架 新手教學 No.10 開發教學 第 9 部分：作者：用戶界面" />
-            <toc-element topic="ABP.IO-WEB應用程式框架-新手教學-No.09-開發教學-第-8-部分&#xFF1A;作者&#xFF1A;應用服務層.md" toc-title="ABP.IO WEB應用程式框架 新手教學 No.09 開發教學 第 8 部分：作者：應用服務層" />
-            <toc-element topic="ABP.IO-WEB應用程式框架-新手教學-No.08-開發教學-第-7-部分&#xFF1A;作者&#xFF1A;數據庫集成.md" toc-title="ABP.IO WEB應用程式框架 新手教學 No.08 開發教學 第 7 部分：作者：數據庫集成" />
-            <toc-element topic="ABP.IO-WEB應用程式框架-新手教學-No.07-開發教學-第-6-部分-作者&#xFF1A;領域層.md" toc-title="ABP.IO WEB應用程式框架 新手教學 No.07 開發教學 第 6 部分 作者：領域層" />
+            <toc-element topic="ABP-IO-Tutorial-No-11-Part-10-Books-Authors-Relationship.md" toc-title="ABP.IO WEB應用程式框架 新手教學 No.11 開發教學 第 10 部分：書籍與作者的關係" />
+            <toc-element topic="ABP-IO-Tutorial-No-10-Part-9-Authors-User-Interface.md" toc-title="ABP.IO WEB應用程式框架 新手教學 No.10 開發教學 第 9 部分：作者：用戶界面" />
+            <toc-element topic="ABP-IO-Tutorial-No-09-Part-8-Authors-Application-Service.md" toc-title="ABP.IO WEB應用程式框架 新手教學 No.09 開發教學 第 8 部分：作者：應用服務層" />
+            <toc-element topic="ABP-IO-Tutorial-No-08-Part-7-Authors-Database-Integration.md" toc-title="ABP.IO WEB應用程式框架 新手教學 No.08 開發教學 第 7 部分：作者：數據庫集成" />
+            <toc-element topic="ABP-IO-Tutorial-No-07-Part-6-Authors-Domain-Layer.md" toc-title="ABP.IO WEB應用程式框架 新手教學 No.07 開發教學 第 6 部分 作者：領域層" />
             <toc-element topic="ABP.IO-WEB應用程式框架-新手教學-No.06-開發教學-第-5-部分-授權.md" toc-title="ABP.IO WEB應用程式框架 新手教學 No.06 開發教學  第 5 部分 授權" />
             <toc-element topic="ABP.IO-WEB應用程式框架-新手教學-No.05-開發教學-第-4-部分-整合測試.md" toc-title="ABP.IO WEB應用程式框架 新手教學 No.05 開發教學 第 4 部分 整合測試" />
-            <toc-element topic="ABP.IO-WEB應用程式框架-新手教學-No.04-開發教學-第-3-部分-創建&#x3001;更新和刪除圖書.md" toc-title="ABP.IO WEB應用程式框架 新手教學 No.04 開發教學 第 3 部分 創建、更新和刪除圖書" />
+            <toc-element topic="ABP-IO-Tutorial-No-04-Part-3-Create-Update-Delete-Books.md" toc-title="ABP.IO WEB應用程式框架 新手教學 No.04 開發教學 第 3 部分 創建、更新和刪除圖書" />
             <toc-element topic="ABP.IO-WEB應用程式框架-新手教學-No.03-開發教學-第-2-部分-圖書列表頁面.md" toc-title="ABP.IO WEB應用程式框架 新手教學 No.03 開發教學 第 2 部分 圖書列表頁面" />
             <toc-element topic="ABP.IO-WEB應用程式框架-新手教學-No.02-開發教學-第-1-部分-創建服務端.md" toc-title="ABP.IO WEB應用程式框架 新手教學 No.02 開發教學 第 1 部分 創建服務端" />
             <toc-element topic="ABP.IO-WEB應用程式框架-新手教學-No.01-快速開始.md" toc-title="ABP.IO WEB應用程式框架 新手教學 No.01 快速開始" />
@@ -186,10 +186,10 @@
             <toc-element topic="Entity-Framework-Core-Lazy-Loading-消極載入巡覽屬性.md" toc-title="Entity Framework Core Lazy Loading 消極載入巡覽屬性" />
             <toc-element topic="DotNetCore-IIS-Hosting-Bundle.md" toc-title="DotNetCore IIS Hosting Bundle" />
             <toc-element topic="阿里雲-訪問控制-RAM-(Aliyun-Cloud-Resource-Access-Management)-使用筆記.md" toc-title="阿里雲 訪問控制 RAM (Aliyun Cloud Resource Access Management) 使用筆記" />
-            <toc-element topic="阿里雲-Web&#x2B;-(Aliyun-Cloud-Web-Plus)-使用筆記.md" toc-title="阿里雲 Web+ (Aliyun Cloud Web Plus) 使用筆記" />
+            <toc-element topic="Aliyun-Cloud-Web-Plus-Usage-Notes.md" toc-title="阿里雲 Web+ (Aliyun Cloud Web Plus) 使用筆記" />
             <toc-element topic="PowerShell-DotNetCore-Background-Task-Queue.md" toc-title="PowerShell DotNetCore Background Task Queue" />
-            <toc-element topic="Drone-阿里雲-Web&#x2B;-DotnetCore-3.1-CICD-&amp;-DockerHub-Images-CICD.md" toc-title="Drone 阿里雲 Web+ DotnetCore 3.1 CI/CD &amp; DockerHub Images CI/CD" />
-            <toc-element topic="阿里雲-Web&#x2B;-使用-Cli-部署-DotnetCore-3.1-專案筆記.md" toc-title="阿里雲 Web+ 使用 Cli  部署 DotnetCore 3.1 專案筆記" />
+            <toc-element topic="Drone-Aliyun-WebPlus-DotnetCore-CICD-DockerHub.md" toc-title="Drone 阿里雲 Web+ DotnetCore 3.1 CI/CD &amp; DockerHub Images CI/CD" />
+            <toc-element topic="Aliyun-Web-Plus-CLI-Deploy-DotnetCore-3-1.md" toc-title="阿里雲 Web+ 使用 Cli  部署 DotnetCore 3.1 專案筆記" />
             <toc-element topic="在-Ubuntu-20.4-上安裝-.NET-SDK-3.1.md" toc-title="在 Ubuntu 20.4 上安裝 .NET SDK 3.1" />
             <toc-element topic="Drone-Cloud-Github-DotNetCore-Build-CICD-Runner-Note.md" toc-title="Drone Cloud Github DotNetCore Build CI/CD Runner Note" />
             <toc-element topic="Docker-Jenkins-Agent-Dotnetcore-Drone.md" toc-title=" Docker Jenkins Agent Dotnetcore Drone" />
@@ -197,7 +197,7 @@
             <toc-element topic="CSS3-背景圖片加半透明黑色遮色片.md" toc-title="CSS3 背景圖片加半透明黑色遮色片" />
             <toc-element topic="Azure-Immersion-Cloud-Native-實作坊.md" toc-title="Azure Immersion: Cloud Native 實作坊" />
             <toc-element topic="Dapr-使用-choco-安裝-minikube-啟動-hyperV-透過-Docker-部屬-Kubernetes.md" toc-title="Dapr 使用 choco 安裝 minikube 啟動 hyperV 透過 Docker 部屬 Kubernetes" />
-            <toc-element topic="MSSQL-2012-&amp;-2008-分頁與計數.md" toc-title="MSSQL 2012 &amp; 2008 分頁與計數" />
+            <toc-element topic="MSSQL-2012-And-2008-Pagination-And-Count.md" toc-title="MSSQL 2012 &amp; 2008 分頁與計數" />
             <toc-element topic="邊緣運算-Edge-AI-Computing.md" toc-title="邊緣運算 Edge AI Computing" />
             <toc-element topic="Azure-VM-遠端桌面-Port-被公司防火牆擋住-繞過方法.md" toc-title="Azure VM 遠端桌面 Port 被公司防火牆擋住 繞過方法" />
             <toc-element topic="HashPasswordForStoringInConfigFile-已過時.md" toc-title="HashPasswordForStoringInConfigFile 已過時" />
@@ -218,7 +218,7 @@
             <toc-element topic="MAC-安裝字型font去除ssh亂碼-font-sauce-code-pro-nerd-font.md" toc-title="MAC 安裝字型font去除ssh亂碼 font-sauce-code-pro-nerd-font" />
             <toc-element topic="HttpClient-GetAsync-PostAsync-GZipStream-RequestHeaders-accept-encoding-gzip.md" toc-title="HttpClient GetAsync PostAsync GZipStream RequestHeaders accept-encoding gzip" />
             <toc-element topic="Angular-build-error-Command-failed-with-exit-code-134..md" toc-title="Angular build error Command failed with exit code 134." />
-            <toc-element topic="HSTS-(HTTP-Strict-Transport-Security)-&amp;-HTTPS-redirection-(Enforce-HTTPS-in-ASP.NET-Core).md" toc-title="HSTS (HTTP Strict Transport Security) &amp; HTTPS redirection (Enforce HTTPS in ASP.NET Core)" />
+            <toc-element topic="HSTS-And-HTTPS-Redirection-In-ASP-NET-Core.md" toc-title="HSTS (HTTP Strict Transport Security) &amp; HTTPS redirection (Enforce HTTPS in ASP.NET Core)" />
             <toc-element topic="Windows-10-bash-ll.md" toc-title="Windows 10 bash ll" />
             <toc-element topic="Rider-列出類別內的方法清單.md" toc-title="Rider 列出類別內的方法清單" />
             <toc-element topic="ERR_CONNECTION_RESET.md" toc-title="ERR_CONNECTION_RESET" />
@@ -228,7 +228,7 @@
             <toc-element topic="No.15-Angular-DateTime-UTC-Offset.md" toc-title="No.15 Angular DateTime UTC Offset" />
             <toc-element topic="MYSQL-通用-泛型-CRUD-應用服務-(Dapper-Contrib-非同步版本).md" toc-title="MYSQL 通用 泛型 CRUD 應用服務 (Dapper Contrib 非同步版本)" />
             <toc-element topic="IIS-提高併發連線數.md" toc-title="IIS 提高併發連線數" />
-            <toc-element topic="Angular-Function-calls-are-not-supported-in-decorators-but-&#x27;InjectionToken&#x27;-was-called-in.md" toc-title="Angular Function calls are not supported in decorators but 'InjectionToken' was called in" />
+            <toc-element topic="Angular-Function-Calls-Not-Supported-In-Decorators-InjectionToken.md" toc-title="Angular Function calls are not supported in decorators but 'InjectionToken' was called in" />
             <toc-element topic="No.14-SignalR-with-Angular.md" toc-title="No.14 SignalR with Angular" />
             <toc-element topic="SignalR-2-Server-with-Console-Application-ver.md" toc-title="SignalR 2 Server with Console Application ver" />
             <toc-element topic="Rider-目前的.NET-SDK-不支援以-.NET-core-3.0-做為目標.md" toc-title="Rider 目前的.NET SDK 不支援以 .NET core 3.0 做為目標" />
@@ -239,11 +239,11 @@
             <toc-element topic="SQL-UPDATE-大量更新.md" toc-title="SQL UPDATE 大量更新" />
             <toc-element topic="IIS-10-架設-FTP-Over-SSL.md" toc-title="IIS 10 架設 FTP Over SSL" />
             <toc-element topic="Entity-Framework-(EF)-Core-SQL-Logger-with-ABP(ASP.NET-Boilerplate).md" toc-title="Entity Framework (EF) Core SQL Logger with ABP(ASP.NET Boilerplate)" />
-            <toc-element topic="Linq-Left-Join-(GroupJoin-&#x2B;-SelectMany)-Repository.md" toc-title="Linq Left Join (GroupJoin + SelectMany) Repository" />
+            <toc-element topic="Linq-Left-Join-GroupJoin-SelectMany-Repository.md" toc-title="Linq Left Join (GroupJoin + SelectMany) Repository" />
             <toc-element topic="WebSocket-SignalR-2-Unity-2018-.Net-4.x.md" toc-title="WebSocket SignalR 2 Unity 2018 .Net 4.x" />
             <toc-element topic="JetBrains-Rider-更改字型.md" toc-title="JetBrains Rider 更改字型" />
             <toc-element topic="列舉值檢查-typeof(enumType).IsEnumDefined(intValue).md" toc-title="列舉值檢查 typeof(enumType).IsEnumDefined(intValue)" />
-            <toc-element topic="Unknown-column-&#x27;Discriminator&#x27;-in-&#x27;where-clause&#x27;.md" toc-title="Unknown column 'Discriminator' in 'where clause'" />
+            <toc-element topic="Unknown-Column-Discriminator-In-Where-Clause.md" toc-title="Unknown column 'Discriminator' in 'where clause'" />
             <toc-element topic="asp.net-core-在IIS設定環境變數.md" toc-title="asp.net core 在IIS設定環境變數" />
             <toc-element topic="Angular-IIS-正常開始-F5-之後-404.md" toc-title="Angular IIS 正常開始 F5 之後 404" />
             <toc-element topic="Angular-TypeScript-Enum-ngfor-enum-select-options.md" toc-title="Angular TypeScript Enum ngfor-enum-select-options" />
@@ -252,16 +252,16 @@
             <toc-element topic="字型介紹-Noto(思源字體)-Sans-serif(無襯線)-Serif(襯線體)-Mono(等寬).md" toc-title="字型介紹 Noto(思源字體) Sans-serif(無襯線) Serif(襯線體) Mono(等寬)" />
             <toc-element topic="JetBrains-Rider-Angular-NPM-Yarn-Launch-and-Build-Settings-Profile.md" toc-title="JetBrains Rider Angular NPM Yarn Launch and Build Settings Profile" />
             <toc-element topic="LINQPad-加入-EntityFramework-支援-Include.md" toc-title="LINQPad 加入 EntityFramework 支援 Include" />
-            <toc-element topic="Angular-woff-json-404-&amp;-the-web.config-asset-path-must-start-with-the-project-source-root.md" toc-title="Angular woff json 404 &amp; the web.config asset path must start with the project source root" />
+            <toc-element topic="Angular-Woff-Json-404-And-Web-Config-Asset-Path.md" toc-title="Angular woff json 404 &amp; the web.config asset path must start with the project source root" />
             <toc-element topic="Angular-Azure-DevOps-CICD.md" toc-title="Angular Azure DevOps CI/CD" />
             <toc-element topic="ABP-(ASP.NET-Boilerplate)-應用程式開發框架-No.12-複數資料庫(DBContext).md" toc-title="ABP (ASP.NET Boilerplate) 應用程式開發框架 No.12 複數資料庫(DBContext)" />
-            <toc-element topic="DotNetCore-HttpClient-User-Agent-&amp;-Encoding.md" toc-title="DotNetCore HttpClient User-Agent &amp; Encoding" />
+            <toc-element topic="DotNetCore-HttpClient-User-Agent-And-Encoding.md" toc-title="DotNetCore HttpClient User-Agent &amp; Encoding" />
             <toc-element topic="為什麼要使用ABP框架.md" toc-title="為什麼要使用ABP框架" />
             <toc-element topic="小心.NET-HttpClient.md" toc-title="小心.NET HttpClient" />
             <toc-element topic="正則表達式-大於1.01的兩位小數.md" toc-title="正則表達式 大於1.01的兩位小數" />
             <toc-element topic="ABP-(ASP.NET-Boilerplate)-應用程式開發框架-No.11-Client-Proxies.md" toc-title="ABP (ASP.NET Boilerplate) 應用程式開發框架 No.11 Client Proxies" />
             <toc-element topic="ABP-(ASP.NET-Boilerplate)-應用程式開發框架-新手教學-No.10-範例程式.md" toc-title="ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.10 範例程式" />
-            <toc-element topic="svn-E140000-Can&#x27;t-read-length-line-dbtxn-current-&amp;-E2000002-Cant&#xA0;not-parse-lock-entrie.md" toc-title="svn: E140000: Can't read length line: db/txn-current &amp; E2000002: Cant not parse lock / entries hashfile '{0}'" />
+            <toc-element topic="SVN-E140000-Cannot-Read-Length-Line-And-E2000002.md" toc-title="svn: E140000: Can't read length line: db/txn-current &amp; E2000002: Cant not parse lock / entries hashfile '{0}'" />
             <toc-element topic="如何在-Angular-CLI-建立的-Angular-2-開發環境呼叫遠端-RESTful-APIs.md" toc-title="如何在 Angular CLI 建立的 Angular 2 開發環境呼叫遠端 RESTful APIs" />
             <toc-element topic="Angular-Application.md" toc-title="Angular Application" />
             <toc-element topic="Migration-database-update-in-Rider.md" toc-title="Migration database update in Rider" />
@@ -283,7 +283,7 @@
             <toc-element topic="ABP-(ASP.NET-Boilerplate)-應用程式開發框架-新手教學-No.2-建立實體-Entity.md" toc-title="ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.2 建立實體 Entity" />
             <toc-element topic="ABP-(ASP.NET-Boilerplate)-應用程式開發框架-新手教學-No.1-建立專案.md" toc-title="ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.1 建立專案" />
             <toc-element topic="控制反轉(IoC)-與-相依性注入(DI)-簡單說明.md" toc-title="控制反轉(IoC) 與 相依性注入(DI) 簡單說明" />
-            <toc-element topic="SignalR-2.0-與-Unity-Game-的-WebSocket&#xA0;連線筆記.md" toc-title="SignalR 2.0 與 Unity Game 的 WebSocket 連線筆記" />
+            <toc-element topic="SignalR-2-0-Unity-Game-WebSocket-Connection.md" toc-title="SignalR 2.0 與 Unity Game 的 WebSocket 連線筆記" />
             <toc-element topic="Unity-5-使用-Android-SDK-API-24-問題.md" toc-title="Unity 5 使用 Android SDK API 24 問題" />
             <toc-element topic="[ASP.NET][C#]-使用-HtmlAgilityPack-擷取新聞-(爬文機器人).md" toc-title="[ASP.NET][C#] 使用 HtmlAgilityPack 擷取新聞 (爬文機器人)" />
             <toc-element topic="GUID-輸入不含連字號-處理.md" toc-title="GUID 輸入不含連字號 處理" />
@@ -293,7 +293,7 @@
             <toc-element topic="Windows-Server-2016-於-IIS-10-安裝-Web-Farm-Framework-問題與解答.md" toc-title="Windows Server 2016 於 IIS 10 安裝  Web Farm Framework 問題與解答" />
             <toc-element topic="Redis-Server-架設心得筆記.md" toc-title="Redis Server 架設心得筆記" />
             <toc-element topic="Windows-和-Windows-Phone-開發人員帳戶-MSDN-促銷代碼-免費上架.md" toc-title="Windows 和 Windows Phone 開發人員帳戶 MSDN 促銷代碼 免費上架" />
-            <toc-element topic="如何利用&#x300C;磁碟清理&#x300D;工具-安全的騰出系統硬碟的多餘空間.md" toc-title="如何利用「磁碟清理」工具 安全的騰出系統硬碟的多餘空間" />
+            <toc-element topic="How-To-Use-Disk-Cleanup-Tool-Safely.md" toc-title="如何利用「磁碟清理」工具 安全的騰出系統硬碟的多餘空間" />
             <toc-element topic="IIS-HTTP-重新導向-附加參數.md" toc-title="IIS HTTP 重新導向 附加參數" />
             <toc-element topic="Visual-Studio-2012-Update-2-找不到-WinLibJS_CORE.msi.md" toc-title="Visual Studio 2012 Update 2 找不到 WinLibJS_CORE.msi" />
             <toc-element topic="Wcf-Error-(Message-part-XXXXXResult-in-namespace-httptempuri.org-appears-more-than-once-in-Message.).md" toc-title="Wcf Error (Message part XXXXXResult in namespace http://tempuri.org/ appears more than once in Message.)" />
@@ -307,7 +307,7 @@
             <toc-element topic="初體驗-FB-API-(JAVASCRIPT).md" toc-title="初體驗 FB API (JAVASCRIPT)" />
             <toc-element topic="[JAVA]-Eclipse-開發環境建立與選擇性中文化介面及API說明文件.md" toc-title="[JAVA] Eclipse 開發環境建立與選擇性中文化介面及API說明文件" />
             <toc-element topic="ASP.NET-C#-URL-處理片段資訊(網址#後的訊息).md" toc-title="ASP.NET C# URL 處理片段資訊(網址#後的訊息)" />
-            <toc-element topic="發布技術文章-(Windows-Live-Writer-&#x2B;-程式碼插入外掛程式).md" toc-title="發布技術文章 (Windows Live Writer + 程式碼插入外掛程式)" />
+            <toc-element topic="Publish-Technical-Articles-Windows-Live-Writer-Code-Plugin.md" toc-title="發布技術文章 (Windows Live Writer + 程式碼插入外掛程式)" />
         </toc-element>
         <toc-element topic="links.md">
             <toc-element topic="Side-Projects.md" />
