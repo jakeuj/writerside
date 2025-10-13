@@ -23,6 +23,7 @@ Unknown column 'Discriminator' in 'where clause'
 PS5
 
 * [Entity Framework](/jakeuj/Tags?qq=Entity%20Framework)
+{ignore-vars="true"}
 
 * [回首頁](/jakeuj)
 

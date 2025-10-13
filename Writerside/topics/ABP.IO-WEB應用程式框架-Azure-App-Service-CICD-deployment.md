@@ -246,8 +246,10 @@ PS5
 
 * [ABP](/jakeuj/Tags?qq=ABP)
 * [App Service](/jakeuj/Tags?qq=App%20Service)
+{ignore-vars="true"}
 * [Azure](/jakeuj/Tags?qq=Azure)
 * [CI/CD](/jakeuj/Tags?qq=CI%2FCD)
+{ignore-vars="true"}
 * [deployment](/jakeuj/Tags?qq=deployment)
 * [DevOps](/jakeuj/Tags?qq=DevOps)
 * [Github](/jakeuj/Tags?qq=Github)

@@ -23,7 +23,9 @@ https://stackoverflow.com/questions/52108659/need-to-update-ef-core-tools
 PS5
 
 * [.Net Core](/jakeuj/Tags?qq=.Net%20Core)
+{ignore-vars="true"}
 * [.NET Framework](/jakeuj/Tags?qq=.NET%20Framework)
+{ignore-vars="true"}
 
 * [回首頁](/jakeuj)
 

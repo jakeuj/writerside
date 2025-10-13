@@ -11,6 +11,7 @@
 Failed to find a valid digest in the 'integrity' in Blazor WASM
 
 [裝載和部署 ASP.NET Core Blazor WebAssembly](https://github.com/dotnet/AspNetCore.Docs.zh-tw/blob/live/aspnetcore/blazor/host-and-deploy/webassembly.md#github-%E9%A0%81%E9%9D%A2)
+{ignore-vars="true"}
 
 首先將 publish 出來的 wwwroot 當作 root push 到 github 的 {yourname}.github.io 倉儲
 

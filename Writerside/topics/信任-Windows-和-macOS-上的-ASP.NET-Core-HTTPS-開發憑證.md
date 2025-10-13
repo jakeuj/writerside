@@ -29,6 +29,7 @@ Done.
 PS5
 
 * [.Net Core](/jakeuj/Tags?qq=.Net%20Core)
+{ignore-vars="true"}
 * [HTTPS](/jakeuj/Tags?qq=HTTPS)
 * [SSL](/jakeuj/Tags?qq=SSL)
 

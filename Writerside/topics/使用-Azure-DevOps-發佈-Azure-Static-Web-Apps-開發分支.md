@@ -62,8 +62,10 @@ steps:
 PS5
 
 * [CI/CD](/jakeuj/Tags?qq=CI%2FCD)
+{ignore-vars="true"}
 * [DevOps](/jakeuj/Tags?qq=DevOps)
 * [Azure Static Web Apps](/jakeuj/Tags?qq=Azure%20Static%20Web%20Apps)
+{ignore-vars="true"}
 
 * [回首頁](/jakeuj)
 

@@ -99,6 +99,7 @@ PS5
 * [LLM](/jakeuj/Tags?qq=LLM)
 * [PostgreSQL](/jakeuj/Tags?qq=PostgreSQL)
 * [Vector Search](/jakeuj/Tags?qq=Vector%20Search)
+{ignore-vars="true"}
 
 * [回首頁](/jakeuj)
 

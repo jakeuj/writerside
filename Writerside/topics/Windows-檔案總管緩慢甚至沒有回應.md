@@ -52,7 +52,9 @@ Windows 11 遇到開檔案很慢的問題
 PS5
 
 * [Win 10](/jakeuj/Tags?qq=Win%2010)
+{ignore-vars="true"}
 * [Win 11](/jakeuj/Tags?qq=Win%2011)
+{ignore-vars="true"}
 
 * [回首頁](/jakeuj)
 

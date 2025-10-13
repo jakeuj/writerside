@@ -33,6 +33,7 @@
 <http://social.msdn.microsoft.com/Forums/en/netfx64bit/thread/8b0ed9bb-1c05-4607-8130-46fb58d64d3e>
 
 <http://www.google.com.tw/search?ix=ieb&sourceid=chrome&ie=UTF-8&q=%E5%9C%A864%E4%BD%8D%E7%B3%BB%E7%BB%9F%E4%B8%AD%E4%BD%BF%E7%94%A8CAPICOM>
+{ignore-vars="true"}
 
 聲明：
 
@@ -45,6 +46,7 @@ By [jakeuj@hotmail.com](mailto:jakeuj@hotmail.com) 分享於 [點部落(DotBolog
 PS5
 
 * [C#](/jakeuj/Tags?qq=C%23)
+{ignore-vars="true"}
 
 * [回首頁](/jakeuj)
 

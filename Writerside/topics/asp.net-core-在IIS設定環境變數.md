@@ -30,6 +30,7 @@ PS5
 
 * [IIS](/jakeuj/Tags?qq=IIS)
 * [.Net Core](/jakeuj/Tags?qq=.Net%20Core)
+{ignore-vars="true"}
 * [EnvironmentVariables](/jakeuj/Tags?qq=EnvironmentVariables)
 
 * [回首頁](/jakeuj)

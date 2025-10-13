@@ -43,6 +43,7 @@ export class AppComponent  {
 ```
 
 Ref: <https://stackblitz.com/edit/ngfor-enum-select-options?file=app%2Fapp.component.ts>
+{ignore-vars="true"}
 
 ![](https://card.psnprofiles.com/1/jakeuj.png)
 

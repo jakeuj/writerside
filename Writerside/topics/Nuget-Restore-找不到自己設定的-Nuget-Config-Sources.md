@@ -64,6 +64,7 @@
 PS5
 
 * [C#](/jakeuj/Tags?qq=C%23)
+{ignore-vars="true"}
 * [NuGet](/jakeuj/Tags?qq=NuGet)
 
 * [回首頁](/jakeuj)

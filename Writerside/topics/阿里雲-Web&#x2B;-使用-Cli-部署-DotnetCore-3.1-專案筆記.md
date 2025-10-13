@@ -155,8 +155,10 @@ Resources:
 PS5
 
 * [.Net Core](/jakeuj/Tags?qq=.Net%20Core)
+{ignore-vars="true"}
 * [Ubuntu](/jakeuj/Tags?qq=Ubuntu)
 * [阿里雲](/jakeuj/Tags?qq=%E9%98%BF%E9%87%8C%E9%9B%B2)
+{ignore-vars="true"}
 
 * [回首頁](/jakeuj)
 

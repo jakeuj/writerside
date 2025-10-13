@@ -996,7 +996,9 @@ PS5
 
 * [Angular](/jakeuj/Tags?qq=Angular)
 * [C#](/jakeuj/Tags?qq=C%23)
+{ignore-vars="true"}
 * [.Net Core](/jakeuj/Tags?qq=.Net%20Core)
+{ignore-vars="true"}
 * [ABP](/jakeuj/Tags?qq=ABP)
 
 * [回首頁](/jakeuj)

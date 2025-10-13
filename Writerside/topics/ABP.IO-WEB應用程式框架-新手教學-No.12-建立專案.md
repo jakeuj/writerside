@@ -43,6 +43,7 @@
 [DDD 領域驅動設計 ABP官方說明](https://docs.abp.io/zh-Hans/abp/latest/Domain-Driven-Design-Implementation-Guide)
 
 關於文中提到的 SOLID 如果還不清楚的建議了解一下 [Wiki](https://zh.wikipedia.org/wiki/SOLID_(%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E8%AE%BE%E8%AE%A1))
+{ignore-vars="true"}
 
 其實這邊如果有localdb (沒有自己改 appsettings)，直接 [dotnet ef migrations add InitialCreate](https://docs.microsoft.com/zh-tw/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli#create-your-first-migration)，
 

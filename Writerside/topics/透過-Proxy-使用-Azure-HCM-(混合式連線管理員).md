@@ -41,6 +41,7 @@ C:\Program Files\Microsoft\HybridConnectionManager 0.7\Microsoft.HybridConnectio
 [What IP addresses do I need to add to allowlist? (FAQ) | Microsoft Docs](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-faq#what-ip-addresses-do-i-need-to-add-to-allowlist-)
 
 [Windows 環境 PowerShell 設定 proxy 方法 - I'm Ryan. (mvpdw06.github.io)](https://mvpdw06.github.io/Blog/2016/11/14/Windows-%E7%92%B0%E5%A2%83-PowerShell-%E8%A8%AD%E5%AE%9A-proxy-%E6%96%B9%E6%B3%95/)
+{ignore-vars="true"}
 
 ### 概要
 
@@ -88,6 +89,7 @@ C:\Program Files\Microsoft\HybridConnectionManager 0.7\Microsoft.HybridConnectio
 PS5
 
 * [App Service](/jakeuj/Tags?qq=App%20Service)
+{ignore-vars="true"}
 * [Azure](/jakeuj/Tags?qq=Azure)
 * [Cloud](/jakeuj/Tags?qq=Cloud)
 * [HCM](/jakeuj/Tags?qq=HCM)

@@ -59,6 +59,7 @@ ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.1 建立專�
 PS5
 
 * [C#](/jakeuj/Tags?qq=C%23)
+{ignore-vars="true"}
 
 * [回首頁](/jakeuj)
 

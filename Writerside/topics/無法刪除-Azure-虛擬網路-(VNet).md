@@ -43,6 +43,7 @@
 PS5
 
 * [App Service](/jakeuj/Tags?qq=App%20Service)
+{ignore-vars="true"}
 * [Azure](/jakeuj/Tags?qq=Azure)
 
 * [回首頁](/jakeuj)

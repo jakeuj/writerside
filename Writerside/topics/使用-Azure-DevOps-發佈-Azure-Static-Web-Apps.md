@@ -245,6 +245,7 @@ PS5
 * [Azure](/jakeuj/Tags?qq=Azure)
 * [Blazor](/jakeuj/Tags?qq=Blazor)
 * [CI/CD](/jakeuj/Tags?qq=CI%2FCD)
+{ignore-vars="true"}
 * [DevOps](/jakeuj/Tags?qq=DevOps)
 
 * [回首頁](/jakeuj)

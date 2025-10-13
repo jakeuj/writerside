@@ -50,6 +50,7 @@ Response.Write(ConvertGuid("6F9619FF8B86D011B42D00C04FC964FF"));
 PS5
 
 * [C#](/jakeuj/Tags?qq=C%23)
+{ignore-vars="true"}
 * [MSSQL](/jakeuj/Tags?qq=MSSQL)
 
 * [回首頁](/jakeuj)

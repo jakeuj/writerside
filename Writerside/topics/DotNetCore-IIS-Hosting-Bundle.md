@@ -74,6 +74,7 @@ https://blog.johnwu.cc/article/iis-run-asp-net-core.html
 PS5
 
 * [.Net Core](/jakeuj/Tags?qq=.Net%20Core)
+{ignore-vars="true"}
 * [IIS](/jakeuj/Tags?qq=IIS)
 
 * [回首頁](/jakeuj)

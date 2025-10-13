@@ -172,6 +172,7 @@ F5執行DEBUG模式，並將頁面往指定位於/home/chat
 PS5
 
 * [C#](/jakeuj/Tags?qq=C%23)
+{ignore-vars="true"}
 * [SignalR](/jakeuj/Tags?qq=SignalR)
 * [WebSocket](/jakeuj/Tags?qq=WebSocket)
 

@@ -33,6 +33,7 @@ ABP其實還有蠻多功能沒有在這幾篇講到，
 PS5
 
 * [C#](/jakeuj/Tags?qq=C%23)
+{ignore-vars="true"}
 
 * [回首頁](/jakeuj)
 

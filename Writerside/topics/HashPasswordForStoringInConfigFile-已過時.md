@@ -38,7 +38,9 @@ BitConverter.ToString(MD5.Create().ComputeHash(Encoding.UTF8.GetBytes(str)))
 PS5
 
 * [.NET Framework](/jakeuj/Tags?qq=.NET%20Framework)
+{ignore-vars="true"}
 * [C#](/jakeuj/Tags?qq=C%23)
+{ignore-vars="true"}
 
 * [回首頁](/jakeuj)
 

@@ -71,6 +71,7 @@ var joinQuery = _aRepository.GetAll()
 B倉儲只要沒有A的bID，該筆資料就不會出現在結果
 
 參照：[LINQ學習筆記(7)實作Left join(1) Join與Group join](https://medium.com/@ad57475747/linq%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-7-%E5%AF%A6%E4%BD%9Cleft-join-1-join%E8%88%87group-join-47e187d80894)
+{ignore-vars="true"}
 
 ![](https://card.psnprofiles.com/1/jakeuj.png)
 

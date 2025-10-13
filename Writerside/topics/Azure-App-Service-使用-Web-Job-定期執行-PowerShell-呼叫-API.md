@@ -31,6 +31,7 @@ Invoke-RestMethod -uri "https://test.azurewebsites.net/?a=1&b=2"
 PS5
 
 * [App Service](/jakeuj/Tags?qq=App%20Service)
+{ignore-vars="true"}
 * [Azure](/jakeuj/Tags?qq=Azure)
 * [PowerShell](/jakeuj/Tags?qq=PowerShell)
 

@@ -111,6 +111,7 @@ Step 1：建立 Azure VPN Getway
 那建立 Vnet 的時候就不要用 10.0.x.x or 192.168.x.x
 
 參照：[使用 P2S VPN 連線至 VNet & 憑證驗證：入口網站 - Azure VPN Gateway | Microsoft Docs](https://docs.microsoft.com/zh-tw/azure/vpn-gateway/vpn-gateway-howto-point-to-site-resource-manager-portal?ranMID=24542&ranEAID=je6NUbpObpQ&ranSiteID=je6NUbpObpQ-ve16QxMGvVJ..ucUbCtprQ&epi=je6NUbpObpQ-ve16QxMGvVJ..ucUbCtprQ&irgwc=1&OCID=AID2200057_aff_7593_1243925&tduid=%28ir__p1u96bibkskfqgpn1ah0e2el0e2xruyu3tdry3jc00%29%287593%29%281243925%29%28je6NUbpObpQ-ve16QxMGvVJ..ucUbCtprQ%29%28%29&irclickid=_p1u96bibkskfqgpn1ah0e2el0e2xruyu3tdry3jc00)
+{ignore-vars="true"}
 
 ---
 
@@ -176,6 +177,7 @@ Note：
 PS5
 
 * [Azure SQL](/jakeuj/Tags?qq=Azure%20SQL)
+{ignore-vars="true"}
 
 * [回首頁](/jakeuj)
 

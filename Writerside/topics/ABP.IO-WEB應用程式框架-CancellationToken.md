@@ -139,6 +139,7 @@ PS5
 
 * [ASYNC](/jakeuj/Tags?qq=ASYNC)
 * [非同步](/jakeuj/Tags?qq=%E9%9D%9E%E5%90%8C%E6%AD%A5)
+{ignore-vars="true"}
 
 * [回首頁](/jakeuj)
 

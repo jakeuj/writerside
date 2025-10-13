@@ -106,7 +106,9 @@ static async Task Main()
 PS5
 
 * [C#](/jakeuj/Tags?qq=C%23)
+{ignore-vars="true"}
 * [.Net Core](/jakeuj/Tags?qq=.Net%20Core)
+{ignore-vars="true"}
 * [HttpClinet](/jakeuj/Tags?qq=HttpClinet)
 
 * [回首頁](/jakeuj)

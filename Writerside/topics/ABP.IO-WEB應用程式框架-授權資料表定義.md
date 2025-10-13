@@ -99,6 +99,7 @@ Auth
 ![](https://dotblogsfile.blob.core.windows.net/user/御星幻/6fd09af3-b898-487f-9d4c-07560af3b657/1627278847.png)
 
 [以角色為基礎的存取控制](https://zh.wikipedia.org/wiki/%E4%BB%A5%E8%A7%92%E8%89%B2%E7%82%BA%E5%9F%BA%E7%A4%8E%E7%9A%84%E5%AD%98%E5%8F%96%E6%8E%A7%E5%88%B6)
+{ignore-vars="true"}
 
 1.會先建立角色
 

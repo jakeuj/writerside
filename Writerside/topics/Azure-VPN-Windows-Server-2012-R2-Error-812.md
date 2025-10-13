@@ -44,7 +44,9 @@ PS5
 
 * [Azure](/jakeuj/Tags?qq=Azure)
 * [Windows Server](/jakeuj/Tags?qq=Windows%20Server)
+{ignore-vars="true"}
 * [Azure VPN](/jakeuj/Tags?qq=Azure%20VPN)
+{ignore-vars="true"}
 
 * [回首頁](/jakeuj)
 

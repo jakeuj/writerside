@@ -29,6 +29,7 @@ brew cask install font-sauce-code-pro-nerd-font
 [開始使用透明背景 Powerline in Windows Terminal 吧 | 御用小本本 - 點部落 (dotblogs.com.tw)](https://dotblogs.com.tw/jakeuj/2021/02/01/WindowsTerminal)
 
 [看膩了一成不變的小黑窗？改用iterm2 + oh-my-zsh吧](https://medium.com/@h86991868/%E7%9C%8B%E8%86%A9%E4%BA%86%E4%B8%80%E6%88%90%E4%B8%8D%E8%AE%8A%E7%9A%84%E5%B0%8F%E9%BB%91%E7%AA%97-%E6%94%B9%E7%94%A8iterm2-oh-my-zsh%E5%90%A7-cc2b0683acb)
+{ignore-vars="true"}
 
 [字型介紹 Noto(思源字體) Sans-serif(無襯線) Serif(襯線體) Mono(等寬) | 御用小本本 - 點部落 (dotblogs.com.tw)](https://dotblogs.com.tw/jakeuj/2019/04/10/Fonts)
 

@@ -54,10 +54,12 @@ Git
 PS5
 
 * [C#](/jakeuj/Tags?qq=C%23)
+{ignore-vars="true"}
 * [Git](/jakeuj/Tags?qq=Git)
 * [Log](/jakeuj/Tags?qq=Log)
 * [Log](/jakeuj/Tags?qq=Log)
 * [.Net Core](/jakeuj/Tags?qq=.Net%20Core)
+{ignore-vars="true"}
 
 * [回首頁](/jakeuj)
 

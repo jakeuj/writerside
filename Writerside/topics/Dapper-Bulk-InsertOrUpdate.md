@@ -27,6 +27,7 @@ connection.BulkMerge(order1, order2, order3);
 PS5
 
 * [C#](/jakeuj/Tags?qq=C%23)
+{ignore-vars="true"}
 * [Dapper](/jakeuj/Tags?qq=Dapper)
 * [SQL](/jakeuj/Tags?qq=SQL)
 

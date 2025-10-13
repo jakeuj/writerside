@@ -55,6 +55,7 @@ applicationHost.xdt & web.config
 PS5
 
 * [.NET Framework](/jakeuj/Tags?qq=.NET%20Framework)
+{ignore-vars="true"}
 * [Azure](/jakeuj/Tags?qq=Azure)
 * [IIS](/jakeuj/Tags?qq=IIS)
 

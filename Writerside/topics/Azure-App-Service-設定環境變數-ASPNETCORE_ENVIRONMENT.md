@@ -43,6 +43,7 @@ ASPNETCORE\_ENVIRONMENT=staging
 PS5
 
 * [.Net Core](/jakeuj/Tags?qq=.Net%20Core)
+{ignore-vars="true"}
 
 * [回首頁](/jakeuj)
 

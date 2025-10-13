@@ -21,6 +21,7 @@
 PS5
 
 * [.Net Core](/jakeuj/Tags?qq=.Net%20Core)
+{ignore-vars="true"}
 * [Rider](/jakeuj/Tags?qq=Rider)
 
 * [回首頁](/jakeuj)

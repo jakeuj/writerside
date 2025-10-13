@@ -77,6 +77,7 @@ public async Task Should_Get_Chinese_From_Mail()
 [用C#寄Gmail信(純後端) - iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天 (ithome.com.tw)](https://ithelp.ithome.com.tw/articles/10190120)
 
 [原來 System.Net.Mail 也會有 Bug ... — 安德魯的部落格 (chicken-house.net)](https://columns.chicken-house.net/2007/04/06/%E5%8E%9F%E4%BE%86-system-net-mail-%E4%B9%9F%E6%9C%83%E6%9C%89-bug/)
+{ignore-vars="true"}
 
 ![](https://card.psnprofiles.com/1/jakeuj.png)
 

@@ -25,6 +25,7 @@
 接著參照以下文章使用
 
 <https://peterhpchen.github.io/DigDeeperLINQ/03_LINQPad.html#%E7%94%A8%E6%B3%95>
+{ignore-vars="true"}
 
 使用預設 Language => C# Expression (單行語法) 測試
 

@@ -44,6 +44,7 @@ sudo apt-get install -y nvidia-open
 sudo apt-get install -y cuda-drivers
 ```
 - 參照：[Driver Installer](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=24.04&target_type=deb_network#:~:text=detailed%20here.-,Driver%20Installer,-NVIDIA%20Driver%20Instructions)
+{ignore-vars="true"}
 
 ## PyTorch CUDA 驅動程式
 ![PyTorch.png](PyTorch.png)

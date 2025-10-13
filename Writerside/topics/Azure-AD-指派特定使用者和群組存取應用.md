@@ -37,6 +37,7 @@ Azure > AAD > 企業應用程式 > MyApp > 屬性 > 需要使用者指派嗎？
 PS5
 
 * [Azure AD](/jakeuj/Tags?qq=Azure%20AD)
+{ignore-vars="true"}
 
 * [回首頁](/jakeuj)
 

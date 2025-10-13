@@ -185,6 +185,7 @@ AAD 的功能真的挺多的，剛接觸有種眼花撩亂的感覺
 PS5
 
 * [Azure AD](/jakeuj/Tags?qq=Azure%20AD)
+{ignore-vars="true"}
 * [MFA](/jakeuj/Tags?qq=MFA)
 
 * [回首頁](/jakeuj)

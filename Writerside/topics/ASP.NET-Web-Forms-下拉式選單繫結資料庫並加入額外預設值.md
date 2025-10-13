@@ -30,6 +30,7 @@
 #### 參考
 
 [[程式筆記]下拉選單DropDownList範例(asp.net) @ 貓羽的文字日誌 :: 痞客邦 :: (pixnet.net)](https://whitecat2.pixnet.net/blog/post/63515803-%5B%E7%A8%8B%E5%BC%8F%E7%AD%86%E8%A8%98%5D%E4%B8%8B%E6%8B%89%E9%81%B8%E5%96%AEdropdownli)
+{ignore-vars="true"}
 
 ![](https://card.psnprofiles.com/1/jakeuj.png)
 

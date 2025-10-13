@@ -75,6 +75,7 @@ private void ConfigureAuthentication(ServiceConfigurationContext context,
 PS5
 
 * [Azure AD](/jakeuj/Tags?qq=Azure%20AD)
+{ignore-vars="true"}
 
 * [回首頁](/jakeuj)
 

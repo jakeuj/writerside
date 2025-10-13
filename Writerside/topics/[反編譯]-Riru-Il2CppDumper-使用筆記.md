@@ -75,6 +75,7 @@ Jar Sign (JDK\bin\)
 .\jarsigner.exe -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore D:\\my-key.keystore -storepass 123456 D:\\work\M173C.apk mykey01
 
 [Android 使用jarsigner給apk簽名的方法詳細介紹 | 程式前沿 (codertw.com)](https://codertw.com/android-%E9%96%8B%E7%99%BC/343323/)
+{ignore-vars="true"}
 
 ---
 
@@ -109,6 +110,7 @@ PS5
 * [Riru-Il2CppDumper](/jakeuj/Tags?qq=Riru-Il2CppDumper)
 * [Unity](/jakeuj/Tags?qq=Unity)
 * [反編譯](/jakeuj/Tags?qq=%E5%8F%8D%E7%B7%A8%E8%AD%AF)
+{ignore-vars="true"}
 
 * [回首頁](/jakeuj)
 

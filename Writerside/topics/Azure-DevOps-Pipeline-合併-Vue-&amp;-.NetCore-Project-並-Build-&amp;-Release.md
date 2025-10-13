@@ -237,6 +237,7 @@ Release 的時候會需要指定要發布的 zip 在 Artifacts 的相對路徑
 PS5
 
 * [.Net Core](/jakeuj/Tags?qq=.Net%20Core)
+{ignore-vars="true"}
 * [DevOps](/jakeuj/Tags?qq=DevOps)
 * [Vue](/jakeuj/Tags?qq=Vue)
 

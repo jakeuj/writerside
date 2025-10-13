@@ -165,6 +165,7 @@ Redis安裝提示
 ·        如果您在使用複製(Replication)，請確保你的master持久性啟用，或它不會在崩潰時自動重新開機︰ Slaves會儘量精確複製master，所以如果master重新開機時資料清空，Slaves也會把資料清除。
 
 ·        預設情況下Redis的不需要**任何身份驗證和監聽所有的網路介面**。這是一個大的安全問題，如果你讓Redis暴露在網際網路或其他攻擊者可以接觸到它的地方。例如，見[這種攻擊](https://ssl.translatoruser.net/bv.aspx?from=en&to=zh-CHT&a=http%3A%2F%2Fantirez.com%2Fnews%2F96)，看到它是多麼危險。請檢查我們的[安全頁面](https://ssl.translatoruser.net/bv.aspx?from=en&to=zh-CHT&a=http%3A%2F%2Fredis.io%2Ftopics%2Fsecurity)和[快速啟動](https://ssl.translatoruser.net/bv.aspx?from=en&to=zh-CHT&a=http%3A%2F%2Fredis.io%2Ftopics%2Fquickstart)有關如何確保Redis的資訊。
+{ignore-vars="true"}
 
 在 EC2 上運行Redis
 
@@ -179,6 +180,7 @@ Redis安裝提示
 升級或重新開機一個Redis的實例，而無需停機
 
 Redis的設計是一個執行時間非常長的過程，在您的伺服器。例如可以沒有任何重啟使用[配置設置命令](https://ssl.translatoruser.net/bv.aspx?from=en&to=zh-CHT&a=http%3A%2F%2Fredis.io%2Fcommands%2Fconfig-set)修改多個配置選項.
+{ignore-vars="true"}
 
 從Redis的 2.2 開始是甚至可能從 AOF 切換到 RDB 快照持久性或Redis的無需重新開機周圍的其他方式。檢查輸出配置得到 \* 命令的詳細資訊。
 
@@ -199,6 +201,7 @@ Redis的設計是一個執行時間非常長的過程，在您的伺服器。例
 ·        配置您的用戶端以使用新的實例 （即，副系統）。
 
 ·        一旦你確信主系統是不再接收任何查詢 （您可以檢查這與[監視器命令](https://ssl.translatoruser.net/bv.aspx?from=en&to=zh-CHT&a=http%3A%2F%2Fredis.io%2Fcommands%2Fmonitor)），選出的副系統使用**SLAVEOF 沒有人**命令和關閉你的主系統。
+{ignore-vars="true"}
 
 ![](https://card.psnprofiles.com/1/jakeuj.png)
 

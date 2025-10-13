@@ -92,6 +92,7 @@ Write-Host "End."
 PS5
 
 * [Entity Framework](/jakeuj/Tags?qq=Entity%20Framework)
+{ignore-vars="true"}
 * [PowerShell](/jakeuj/Tags?qq=PowerShell)
 * [Migration](/jakeuj/Tags?qq=Migration)
 

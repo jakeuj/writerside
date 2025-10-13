@@ -71,6 +71,7 @@ bin/roslyn/
 PS5
 
 * [.NET Framework](/jakeuj/Tags?qq=.NET%20Framework)
+{ignore-vars="true"}
 
 * [回首頁](/jakeuj)
 

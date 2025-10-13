@@ -125,12 +125,15 @@ namespace Acme.BookStore.Books
   // 同聚合內非根的一般實體可以用 BookCover : Entity<Guid>，因為同聚合內應該只有一個根，DDD不熟暫時不想用也可以直接照你原本開發方式全部用一般實體基類Entity<T>
 * `Book`實體繼承了`AuditedAggregateRoot`，`AuditedAggregateRoot`類在`AggregateRoot`類的基礎上添加了一些審計屬性( `CreationTime`, `CreatorId`, `LastModificationTime`)。ABP框架自動為你管理這些屬性。
   // 不用聚合根也不想那麼多審計屬性，[ABP 也提供其他基類](https://docs.abp.io/zh-Hans/abp/latest/Entities#%E5%AE%A1%E8%AE%A1%E5%9F%BA%E7%B1%BB)，比如：CreationAuditedEntity<TKey> ，再少也可以只使用 [ABP 提供的介面](https://docs.abp.io/zh-Hans/abp/latest/Entities#%E5%AE%A1%E8%AE%A1%E6%8E%A5%E5%8F%A3)，例如：IHasCreationTime，優點是可以統一屬性名稱為 `CreationTime`
+{ignore-vars="true"}
 * `Guid`是`Book`實體的主鍵類型。
   // 主鍵類型也可以自己改，例如：BookPage : Entity<long> ，只是 [ABP 推薦使用 Guid](https://docs.abp.io/zh-Hans/abp/latest/Entities#guid%E4%B8%BB%E9%94%AE%E7%9A%84%E5%AE%9E%E4%BD%93) 就是了
+{ignore-vars="true"}
 
 > 為了保持簡單，本教程將實體屬性保留為**public get/set**。如果您想了解 DDD 最佳實踐，請參閱[實體文檔](https://docs.abp.io/zh-Hans/abp/latest/Entities)。
 
 // 這邊引用一下 [ABP 審計基類](https://docs.abp.io/zh-Hans/abp/latest/Entities#%E5%AE%A1%E8%AE%A1%E5%9F%BA%E7%B1%BB) 中關於實體中巡覽屬性的一段敘述給大家參考一下
+{ignore-vars="true"}
 
 > 所有這些基類也有`... WithUser`,像`FullAuditedAggregateRootWithUser<TUser>`和`FullAuditedAggregateRootWithUser<TKey, TUser>`.
 >
@@ -210,6 +213,7 @@ dotnet ef migrations add Created_Book_Entity
 ```
 
 ![](https://dotblogsfile.blob.core.windows.net/user/%E5%BE%A1%E6%98%9F%E5%B9%BB/f8aa590e-d43b-4f53-afa6-cea509e45adf/1626682350.png)
+{ignore-vars="true"}
 
 它會添加新的遷移類到項目中：
 
@@ -217,6 +221,7 @@ dotnet ef migrations add Created_Book_Entity
 > 如果你使用Visual Studio 你可能想要在*包授權管理(PMC)中*`Add-Migration Created_Book_Entity -c BookStoreMigrationsDbContext`*和使用*`Update-Database -c BookStoreMigrationsDbContext`*命令。確保*`Acme.BookStore.Web`*是啟動項目並且*`Acme.BookStore.EntityFrameworkCore.DbMigrations`*是 PMC 的默認項目*。
 
 ![](https://dotblogsfile.blob.core.windows.net/user/%E5%BE%A1%E6%98%9F%E5%B9%BB/f8aa590e-d43b-4f53-afa6-cea509e45adf/1626682501.png)
+{ignore-vars="true"}
 
 #### 添加附加數據 (SeedData)
 
@@ -280,6 +285,7 @@ namespace Acme.BookStore
 * 如果中數據庫沒有當前圖書，則使用`IRepository<Book, Guid>`(默認為[知識庫](https://docs.abp.io/zh-Hans/abp/latest/Repositories))將兩本書插入數據庫。
 
 ![](https://dotblogsfile.blob.core.windows.net/user/%E5%BE%A1%E6%98%9F%E5%B9%BB/f8aa590e-d43b-4f53-afa6-cea509e45adf/1626683321.png)
+{ignore-vars="true"}
 
 ### 更新數據庫
 
@@ -335,6 +341,7 @@ namespace Acme.BookStore
   // 這邊為了用來做 CRUD，某些DTO可能需要繼承內鍵含有Id定義的基類，才能正常做Update與Delete，一般DTO則可以不用，可以參考 [快速開始](https://dotblogs.com.tw/jakeuj/2021/07/20/abpio01)
 
 ![](https://dotblogsfile.blob.core.windows.net/user/%E5%BE%A1%E6%98%9F%E5%B9%BB/bff36275-1beb-423a-9664-b96e21b3c91c/1626684853.png)
+{ignore-vars="true"}
 
 在將書籍返回到表示層時，需要將`Book`實體轉換為`BookDto`對象。[AutoMapper](https://automapper.org/)庫可以在定義正確的映射時自動執行此轉換。
 

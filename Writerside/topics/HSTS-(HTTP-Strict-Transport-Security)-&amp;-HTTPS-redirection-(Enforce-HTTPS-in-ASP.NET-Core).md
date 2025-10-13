@@ -25,6 +25,7 @@ app.UseHttpsRedirection();
 省得每次重新導向
 
 <https://zh.wikipedia.org/wiki/HTTP%E4%B8%A5%E6%A0%BC%E4%BC%A0%E8%BE%93%E5%AE%89%E5%85%A8>
+{ignore-vars="true"}
 
 <https://docs.microsoft.com/en-us/aspnet/core/fundamentals/startup?view=aspnetcore-3.1#the-configure-method>
 

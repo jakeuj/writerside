@@ -130,6 +130,7 @@ Special Note: This deployment format requires macOS (OS X) Version 10.8 (aka Mou
 ## 參照
 
 [一家人最紧要是齐齐整整 — — 安装最新的思源字体家族. 自本站建立，一周以来，我一直在跟踪翻译 小林剣… | by Fate/Typo | Medium](https://medium.com/@fatetypo/%E4%B8%80%E5%AE%B6%E4%BA%BA%E6%9C%80%E7%B4%A7%E8%A6%81%E6%98%AF%E9%BD%90%E9%BD%90%E6%95%B4%E6%95%B4-%E5%AE%89%E8%A3%85%E6%9C%80%E6%96%B0%E7%9A%84%E6%80%9D%E6%BA%90%E5%AD%97%E4%BD%93%E5%AE%B6%E6%97%8F-982abb4b8daa)
+{ignore-vars="true"}
 
 [思源黑體 (Source Han Sans) 的各個版本有什麼不同？ - 每日頭條 (kknews.cc)](https://kknews.cc/zh-tw/news/ya3om6n.html)
 
@@ -140,6 +141,7 @@ Special Note: This deployment format requires macOS (OS X) Version 10.8 (aka Mou
 <https://blog.justfont.com/2014/06/google-fonts-2/>
 
 [[設計] 使用 CSS 載入思源黑體(Noto Sans TC)的快速方式](https://www.tan-studio.net/programskill/divcss/%E8%A8%AD%E8%A8%88-%E4%BD%BF%E7%94%A8-css-%E8%BC%89%E5%85%A5%E6%80%9D%E6%BA%90%E9%BB%91%E9%AB%94noto-sans-tc%E7%9A%84%E5%BF%AB%E9%80%9F%E6%96%B9%E5%BC%8F/)
+{ignore-vars="true"}
 
 [JetBrains Rider 更改字型 | 御用小本本 - 點部落 (dotblogs.azurewebsites.net)](https://dotblogs.azurewebsites.net/jakeuj/2019/06/14/riderfont)
 

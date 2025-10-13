@@ -57,6 +57,7 @@ TODO: 後面這幾步如果可以用 PowerShell 指定操作，日後可能比�
 PS5
 
 * [Azure VPN](/jakeuj/Tags?qq=Azure%20VPN)
+{ignore-vars="true"}
 
 * [回首頁](/jakeuj)
 

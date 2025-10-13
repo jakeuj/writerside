@@ -85,6 +85,7 @@ ABP是一個**開源的且文檔友好的應用框架**，起始的想法是，�
 PS5
 
 * [C#](/jakeuj/Tags?qq=C%23)
+{ignore-vars="true"}
 * [ABP](/jakeuj/Tags?qq=ABP)
 
 * [回首頁](/jakeuj)

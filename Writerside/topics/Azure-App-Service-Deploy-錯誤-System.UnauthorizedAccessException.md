@@ -73,7 +73,9 @@ Azure App Service 部屬中心 選擇 DevOps Repo 來源完成 CI/CD 設定
 PS5
 
 * [App Service](/jakeuj/Tags?qq=App%20Service)
+{ignore-vars="true"}
 * [CI/CD](/jakeuj/Tags?qq=CI%2FCD)
+{ignore-vars="true"}
 
 * [回首頁](/jakeuj)
 
