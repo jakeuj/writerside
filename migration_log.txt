@@ -1,0 +1,2833 @@
+============================================================
+點部落文章遷移工具
+============================================================
+
+🔍 第一階段:收集所有文章連結...
+
+📄 正在爬取第 1 頁: https://www.dotblogs.com.tw/jakeuj/
+  ❌ 爬取失敗: HTTPSConnectionPool(host='www.dotblogs.com.tw', port=443): Read timed out. (read timeout=15)
+
+📄 正在爬取第 2 頁: https://www.dotblogs.com.tw/jakeuj/2
+  ✓ 找到 20 篇文章
+
+📄 正在爬取第 3 頁: https://www.dotblogs.com.tw/jakeuj/3
+  ✓ 找到 20 篇文章
+
+📄 正在爬取第 4 頁: https://www.dotblogs.com.tw/jakeuj/4
+  ✓ 找到 20 篇文章
+
+📄 正在爬取第 5 頁: https://www.dotblogs.com.tw/jakeuj/5
+  ✓ 找到 20 篇文章
+
+📄 正在爬取第 6 頁: https://www.dotblogs.com.tw/jakeuj/6
+  ✓ 找到 20 篇文章
+
+📄 正在爬取第 7 頁: https://www.dotblogs.com.tw/jakeuj/7
+  ✓ 找到 20 篇文章
+
+📄 正在爬取第 8 頁: https://www.dotblogs.com.tw/jakeuj/8
+  ✓ 找到 20 篇文章
+
+📄 正在爬取第 9 頁: https://www.dotblogs.com.tw/jakeuj/9
+  ✓ 找到 20 篇文章
+
+📄 正在爬取第 10 頁: https://www.dotblogs.com.tw/jakeuj/10
+  ✓ 找到 20 篇文章
+
+📄 正在爬取第 11 頁: https://www.dotblogs.com.tw/jakeuj/11
+  ✓ 找到 20 篇文章
+
+📄 正在爬取第 12 頁: https://www.dotblogs.com.tw/jakeuj/12
+  ✓ 找到 20 篇文章
+
+📄 正在爬取第 13 頁: https://www.dotblogs.com.tw/jakeuj/13
+  ✓ 找到 20 篇文章
+
+📄 正在爬取第 14 頁: https://www.dotblogs.com.tw/jakeuj/14
+  ✓ 找到 20 篇文章
+
+📄 正在爬取第 15 頁: https://www.dotblogs.com.tw/jakeuj/15
+  ✓ 找到 20 篇文章
+
+📄 正在爬取第 16 頁: https://www.dotblogs.com.tw/jakeuj/16
+  ✓ 找到 20 篇文章
+
+📄 正在爬取第 17 頁: https://www.dotblogs.com.tw/jakeuj/17
+  ✓ 找到 7 篇文章
+
+✓ 總共找到 307 篇文章
+✓ 去重後剩餘 307 篇文章
+
+📚 第二階段:爬取文章內容...
+
+[1/307]
+
+📖 正在爬取文章: ASP.NET Web Forms 下拉式選單繫結資料庫並加入額外預設值
+   URL: https://www.dotblogs.com.tw/jakeuj/2024/01/03/asp-net-web-form-dropdownlist
+  ✓ 標題: ASP.NET Web Forms 下拉式選單繫結資料庫並加入額外預設值
+  ✓ 日期: 2024-01-03
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ASP.NET-Web-Forms-下拉式選單繫結資料庫並加入額外預設值.md
+
+[2/307]
+
+📖 正在爬取文章: C# Web Site Project (WSP) 使用 roslyn 以支援新版 C#
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/12/28/WSP-Microsoft-CodeDom-Providers-DotNetCompilerPlatform-WebSites
+  ✓ 標題: C# Web Site Project (WSP) 使用 roslyn 以支援新版 C#
+  ✓ 日期: 2023-12-28
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/C#-Web-Site-Project-(WSP)-使用-roslyn-以支援新版-C#.md
+
+[3/307]
+
+📖 正在爬取文章: [Git] stash 和 shelve 的區別
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/12/25/git-stash-shelve
+  ✓ 標題: [Git] stash 和 shelve 的區別
+  ✓ 日期: 2023-12-25
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/[Git]-stash-和-shelve-的區別.md
+
+[4/307]
+
+📖 正在爬取文章: [Git] 跳過工作樹以忽略本地變更
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/12/25/git-update-index--skip-worktree
+  ✓ 標題: [Git] 跳過工作樹以忽略本地變更
+  ✓ 日期: 2023-12-25
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/[Git]-跳過工作樹以忽略本地變更.md
+
+[5/307]
+
+📖 正在爬取文章: [CI/CD] Azure App Service 發布 .Net 4.8 Web Application 使用 C# 12
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/12/25/Azure-App-Service-DevOps-deploy-ps1
+  ✓ 標題: [CI/CD] Azure App Service 發布 .Net 4.8 Web Application 使用 C# 12
+  ✓ 日期: 2023-12-25
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/[CICD]-Azure-App-Service-發布-.Net-4.8-Web-Application-使用-C#-12.md
+
+[6/307]
+
+📖 正在爬取文章: [Git] .gitignore 和.git/info/exclude 的區別
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/12/25/git-exclude
+  ✓ 標題: [Git] .gitignore 和.git/info/exclude 的區別
+  ✓ 日期: 2023-12-25
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/[Git]-.gitignore-和.gitinfoexclude-的區別.md
+
+[7/307]
+
+📖 正在爬取文章: GCP Cloud SQL Proxy 本地連線不開白名單
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/12/08/gcp-cloud-sql-onnect-auth-proxy
+  ✓ 標題: GCP Cloud SQL Proxy 本地連線不開白名單
+  ✓ 日期: 2023-12-08
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/GCP-Cloud-SQL-Proxy-本地連線不開白名單.md
+
+[8/307]
+
+📖 正在爬取文章: ABP.IO Azure App Service 解決 Could not find the bundle file '/libs/abp/core/abp.css'
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/12/06/abp-Azure-App-Service-DevOps-deploy-cmd
+  ✓ 標題: ABP.IO Azure App Service 解決 Could not find the bundle file &#x27;/libs/abp/core/abp.css&#x27;
+  ✓ 日期: 2023-12-06
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-Azure-App-Service-解決-Could-not-find-the-bundle-file-&#x27;libsabpcoreabp.css&#x27;.md
+
+[9/307]
+
+📖 正在爬取文章: GCP GAE 連 Google Cloud SQL 採坑紀錄
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/11/29/connect-instance-app-engine
+  ✓ 標題: GCP GAE 連 Google Cloud SQL 採坑紀錄
+  ✓ 日期: 2023-11-29
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/GCP-GAE-連-Google-Cloud-SQL-採坑紀錄.md
+
+[10/307]
+
+📖 正在爬取文章: Azure Static Web Apps 設定 IP 限制
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/11/09/azure-static-web-apps-configuration-networking
+  ✓ 標題: Azure Static Web Apps 設定 IP 限制
+  ✓ 日期: 2023-11-09
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Azure-Static-Web-Apps-設定-IP-限制.md
+
+[11/307]
+
+📖 正在爬取文章: TortoiseGit 設定不同 Github 帳號
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/11/03/tortoisegit-multiple-github-repositories
+  ✓ 標題: TortoiseGit 設定不同 Github 帳號
+  ✓ 日期: 2023-11-03
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/TortoiseGit-設定不同-Github-帳號.md
+
+[12/307]
+
+📖 正在爬取文章: GCP Vector Search (Matching Engine) Namespace Filtering
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/10/31/GCP-Vector-Search-Namespace-Filtering
+  ✓ 標題: GCP Vector Search (Matching Engine) Namespace Filtering
+  ✓ 日期: 2023-10-31
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/GCP-Vector-Search-(Matching-Engine)-Namespace-Filtering.md
+
+[13/307]
+
+📖 正在爬取文章: Azure VPN 錯誤 720
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/10/25/Azure-vpn-720
+  ✓ 標題: Azure VPN 錯誤 720
+  ✓ 日期: 2023-10-25
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Azure-VPN-錯誤-720.md
+
+[14/307]
+
+📖 正在爬取文章: Azure SFTP Container ARM Template 新增使用者
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/10/24/Azure-SFTP-Container-ARM-Template
+  ✓ 標題: Azure SFTP Container ARM Template 新增使用者
+  ✓ 日期: 2023-10-24
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Azure-SFTP-Container-ARM-Template-新增使用者.md
+
+[15/307]
+
+📖 正在爬取文章: 無法刪除 Azure 虛擬網路 (VNet)
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/10/24/azure-vnet-cant-delete
+  ✓ 標題: 無法刪除 Azure 虛擬網路 (VNet)
+  ✓ 日期: 2023-10-24
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/無法刪除-Azure-虛擬網路-(VNet).md
+
+[16/307]
+
+📖 正在爬取文章: 如何在 ubuntu 設定開機自動執行 python 服務
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/10/04/ubuntu-systemctl-python
+  ✓ 標題: 如何在 ubuntu 設定開機自動執行 python 服務
+  ✓ 日期: 2023-10-04
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/如何在-ubuntu-設定開機自動執行-python-服務.md
+
+[17/307]
+
+📖 正在爬取文章: 如何在 linux 從 github clone repo
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/10/04/ssh-git-clone
+  ✓ 標題: 如何在 linux 從 github clone repo
+  ✓ 日期: 2023-10-04
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/如何在-linux-從-github-clone-repo.md
+
+[18/307]
+
+📖 正在爬取文章: GCP 部屬 VUE
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/09/22/GCP-App-Engine-VUE
+  ✓ 標題: GCP 部屬 VUE
+  ✓ 日期: 2023-09-22
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/GCP-部屬-VUE.md
+
+[19/307]
+
+📖 正在爬取文章: GCE 安裝 Nvidia Driver
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/09/19/GCE-Nvidia-Driver
+  ✓ 標題: GCE 安裝 Nvidia Driver 
+  ✓ 日期: 2023-09-19
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/GCE-安裝-Nvidia-Driver.md
+
+[20/307]
+
+📖 正在爬取文章: GCP Task 3. Build and train your model locally in a Vertex notebook
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/09/05/GCP-Build-and-train-your-model-locally-in-a-Vertex-notebook
+  ✓ 標題: GCP Task 3. Build and train your model locally in a Vertex notebook
+  ✓ 日期: 2023-09-05
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/GCP-Task-3.-Build-and-train-your-model-locally-in-a-Vertex-notebook.md
+
+[21/307]
+
+📖 正在爬取文章: GCP Task 2. Download the challenge notebook
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/09/05/GCP-Download-the-challenge-notebook
+  ✓ 標題: GCP Task 2. Download the challenge notebook
+  ✓ 日期: 2023-09-05
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/GCP-Task-2.-Download-the-challenge-notebook.md
+
+[22/307]
+
+📖 正在爬取文章: C# Summary link url
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/08/31/CSharp-Summary-Href
+  ✓ 標題: C# Summary link url
+  ✓ 日期: 2023-08-31
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/C#-Summary-link-url.md
+
+[23/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 快取 cache
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/08/29/ABP-Caching
+  ✓ 標題: ABP.IO WEB應用程式框架 快取 cache
+  ✓ 日期: 2023-08-29
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-快取-cache.md
+
+[24/307]
+
+📖 正在爬取文章: GCP Task 1. Create an Vertex Notebooks instance
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/08/24/GCP-Vertex-NoteBook
+  ✓ 標題: GCP Task 1. Create an Vertex Notebooks instance
+  ✓ 日期: 2023-08-24
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/GCP-Task-1.-Create-an-Vertex-Notebooks-instance.md
+
+[25/307]
+
+📖 正在爬取文章: GCP PUB SUB
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/08/22/Google-Cloud-PUB-SUB-IAM
+  ✓ 標題: GCP PUB SUB
+  ✓ 日期: 2023-08-22
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/GCP-PUB-SUB.md
+
+[26/307]
+
+📖 正在爬取文章: GCP Vertex AI
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/08/21/Google-Cloud-Vertex-AI
+  ✓ 標題: GCP Vertex AI
+  ✓ 日期: 2023-08-21
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/GCP-Vertex-AI.md
+
+[27/307]
+
+📖 正在爬取文章: 使用 Azure DevOps 發佈 Azure Static Web Apps 開發分支
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/08/08/Azure-Static-Web-Apps
+  ✓ 標題: 使用 Azure DevOps 發佈 Azure Static Web Apps 開發分支
+  ✓ 日期: 2023-08-08
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/使用-Azure-DevOps-發佈-Azure-Static-Web-Apps-開發分支.md
+
+[28/307]
+
+📖 正在爬取文章: Azure Machine Learning
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/07/17/Azure-Machine-Learning-WorkSpace
+  ✓ 標題: Azure Machine Learning
+  ✓ 日期: 2023-07-17
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Azure-Machine-Learning.md
+
+[29/307]
+
+📖 正在爬取文章: Entity Framework Core DB First Computed Column 衍生欄位
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/07/10/computed-columns
+  ✓ 標題: Entity Framework Core DB First Computed Column 衍生欄位
+  ✓ 日期: 2023-07-10
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Entity-Framework-Core-DB-First-Computed-Column-衍生欄位.md
+
+[30/307]
+
+📖 正在爬取文章: A second operation started on this context
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/07/03/second-operation-started-on-this-context
+  ✓ 標題: A second operation started on this context
+  ✓ 日期: 2023-07-03
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/A-second-operation-started-on-this-context.md
+
+[31/307]
+
+📖 正在爬取文章: ABP.IO 最佳實踐 Entity
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/06/28/ABP-Best-Practices-Entities
+  ✓ 標題: ABP.IO 最佳實踐 Entity
+  ✓ 日期: 2023-06-28
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-最佳實踐-Entity.md
+
+[32/307]
+
+📖 正在爬取文章: ABP.IO EntityFramework Insert 時指定識別欄位 Id 自動增量的值
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/06/28/ABP-EF-SET-IDENTITY-INSERT-ON
+  ✓ 標題: ABP.IO EntityFramework Insert 時指定識別欄位 Id 自動增量的值
+  ✓ 日期: 2023-06-28
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-EntityFramework-Insert-時指定識別欄位-Id-自動增量的值.md
+
+[33/307]
+
+📖 正在爬取文章: ABP.IO 同時使用 MSSQL 與 MySQL
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/06/27/abp-MSSQL-MySQL
+  ✓ 標題: ABP.IO 同時使用 MSSQL 與 MySQL
+  ✓ 日期: 2023-06-27
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-同時使用-MSSQL-與-MySQL.md
+
+[34/307]
+
+📖 正在爬取文章: C# Linq 動態組裝 Expression 產生 WHERE 條件
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/06/20/CSharp-Linq-Expression-And-Where
+  ✓ 標題: C# Linq 動態組裝 Expression 產生 WHERE 條件
+  ✓ 日期: 2023-06-20
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/C#-Linq-動態組裝-Expression-產生-WHERE-條件.md
+
+[35/307]
+
+📖 正在爬取文章: C# Linq OrderByDescending Contains
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/06/19/CSharp-Linq-OrderByDescending-Contains
+  ✓ 標題: C# Linq OrderByDescending Contains
+  ✓ 日期: 2023-06-19
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/C#-Linq-OrderByDescending-Contains.md
+
+[36/307]
+
+📖 正在爬取文章: C# .Net Excel (MiniExcel)
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/06/13/CSharp-DotNet-MiniExcel
+  ✓ 標題: C# .Net Excel (MiniExcel)
+  ✓ 日期: 2023-06-13
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/C#-.Net-Excel-(MiniExcel).md
+
+[37/307]
+
+📖 正在爬取文章: PowerShell Self Signed Certificate
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/06/09/PowerShell-Self-Signed-Certificate
+  ✓ 標題: PowerShell Self Signed Certificate
+  ✓ 日期: 2023-06-09
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/PowerShell-Self-Signed-Certificate.md
+
+[38/307]
+
+📖 正在爬取文章: C# .Net 7 XML Deserialize
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/05/30/xml-serialization-xmlserializer-deserialize
+  ✓ 標題: C# .Net 7 XML Deserialize
+  ✓ 日期: 2023-05-30
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/C#-.Net-7-XML-Deserialize.md
+
+[39/307]
+
+📖 正在爬取文章: Deploy FastAPI on Azure App Service
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/05/30/deploy-fastapi-on-azure
+  ✓ 標題: Deploy FastAPI on Azure App Service
+  ✓ 日期: 2023-05-30
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Deploy-FastAPI-on-Azure-App-Service.md
+
+[40/307]
+
+📖 正在爬取文章: Python PyCharm Django Windows 11
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/05/25/Python-PyCharm
+  ✓ 標題: Python PyCharm Django Windows 11
+  ✓ 日期: 2023-05-25
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Python-PyCharm-Django-Windows-11.md
+
+[41/307]
+
+📖 正在爬取文章: Win 11 Docker WSL MySQL Ubuntu
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/05/23/Docker-MySQL-WSL-Win-11
+  ✓ 標題: Win 11 Docker WSL MySQL Ubuntu
+  ✓ 日期: 2023-05-23
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Win-11-Docker-WSL-MySQL-Ubuntu.md
+
+[42/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 ICachedServiceProvider
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/05/23/Dependency-Injection-Cached-Service-Providers
+  ✓ 標題: ABP.IO WEB應用程式框架 ICachedServiceProvider
+  ✓ 日期: 2023-05-23
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-ICachedServiceProvider.md
+
+[43/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 屬性注入
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/05/12/ABP-Dependency-Injection
+  ✓ 標題: ABP.IO WEB應用程式框架 屬性注入
+  ✓ 日期: 2023-05-12
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-屬性注入.md
+
+[44/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 CancellationToken
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/05/11/ABP-Cancellation-Token-Provider
+  ✓ 標題: ABP.IO WEB應用程式框架 CancellationToken
+  ✓ 日期: 2023-05-11
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-CancellationToken.md
+
+[45/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 CORS
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/05/09/ABP-CORS
+  ✓ 標題: ABP.IO WEB應用程式框架 CORS
+  ✓ 日期: 2023-05-09
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-CORS.md
+
+[46/307]
+
+📖 正在爬取文章: C# Swagger UI display Enum with String
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/04/25/CSharp-Swagger-UI-Enum-Display-String
+  ✓ 標題: C# Swagger UI display Enum with String
+  ✓ 日期: 2023-04-25
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/C#-Swagger-UI-display-Enum-with-String.md
+
+[47/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 自訂驗證錯誤碼
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/04/25/ABP-CustomExceptionToErrorInfoConverter
+  ✓ 標題: ABP.IO WEB應用程式框架 自訂驗證錯誤碼
+  ✓ 日期: 2023-04-25
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-自訂驗證錯誤碼.md
+
+[48/307]
+
+📖 正在爬取文章: C# delegate, Func<TResult>, Action<T>
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/04/18/CSharp-delegate-Func-Action
+  ✓ 標題: C# delegate, Func&lt;TResult&gt;, Action&lt;T&gt;
+  ✓ 日期: 2023-04-18
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/C#-delegate,-Func&lt;TResult&gt;,-Action&lt;T&gt;.md
+
+[49/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 取得環境名稱
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/04/14/abp-IAbpHostEnvironment
+  ✓ 標題: ABP.IO WEB應用程式框架 取得環境名稱
+  ✓ 日期: 2023-04-14
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-取得環境名稱.md
+
+[50/307]
+
+📖 正在爬取文章: C# 具名選項模式
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/04/11/CSharp-Named-IOptions-appsettings
+  ✓ 標題: C# 具名選項模式
+  ✓ 日期: 2023-04-11
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/C#-具名選項模式.md
+
+[51/307]
+
+📖 正在爬取文章: Windows 檔案總管緩慢甚至沒有回應
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/04/11/windows-explorer-slow-crash
+  ✓ 標題: Windows 檔案總管緩慢甚至沒有回應
+  ✓ 日期: 2023-04-11
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Windows-檔案總管緩慢甚至沒有回應.md
+
+[52/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 Serilog Azure Table Storage
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/03/23/ABP-Serilog-Azure-Table-Storage
+  ✓ 標題: ABP.IO WEB應用程式框架 Serilog Azure Table Storage
+  ✓ 日期: 2023-03-23
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-Serilog-Azure-Table-Storage.md
+
+[53/307]
+
+📖 正在爬取文章: C# Discord Bot
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/03/20/CSharp-Discord-Bot
+  ✓ 標題: C# Discord Bot
+  ✓ 日期: 2023-03-20
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/C#-Discord-Bot.md
+
+[54/307]
+
+📖 正在爬取文章: C# AutoMapper switch 運算式
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/03/07/CSharp-AutoMapper-Switch
+  ✓ 標題: C# AutoMapper switch 運算式
+  ✓ 日期: 2023-03-07
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/C#-AutoMapper-switch-運算式.md
+
+[55/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 DI 單一介面多個實作
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/03/03/abp-dealing-with-multiple-implementations
+  ✓ 標題: ABP.IO WEB應用程式框架 DI 單一介面多個實作
+  ✓ 日期: 2023-03-03
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-DI-單一介面多個實作.md
+
+[56/307]
+
+📖 正在爬取文章: C# System.Text.Json.Serialization 忽略 null
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/02/20/CSharp-Text-Json-Serialization-JsonIgnoreCondition-WhenWritingNull
+  ❌ 請求失敗: HTTPSConnectionPool(host='www.dotblogs.com.tw', port=443): Read timed out. (read timeout=15)
+
+[57/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 7.1
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/02/20/ABP-7-1
+  ✓ 標題: ABP.IO WEB應用程式框架 7.1
+  ✓ 日期: 2023-02-20
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-7.1.md
+
+[58/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 SendGrid 整合
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/02/13/ABP-SendGrid-IEmailSender-Attachments
+  ✓ 標題: ABP.IO WEB應用程式框架 SendGrid 整合
+  ✓ 日期: 2023-02-13
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-SendGrid-整合.md
+
+[59/307]
+
+📖 正在爬取文章: Azure storage blob Content-Disposition 中文亂碼
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/02/09/Azure-storage-blob-Content-Disposition
+  ✓ 標題: Azure storage blob Content-Disposition 中文亂碼
+  ✓ 日期: 2023-02-09
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Azure-storage-blob-Content-Disposition-中文亂碼.md
+
+[60/307]
+
+📖 正在爬取文章: C# Using Stream Flush
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/02/07/184530
+  ✓ 標題: C# Using Stream Flush
+  ✓ 日期: 2023-02-07
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/C#-Using-Stream-Flush.md
+
+[61/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 EF 整合 最佳實踐
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/02/06/abp-Entity-Framework-Core-Integration
+  ✓ 標題: ABP.IO WEB應用程式框架 EF 整合 最佳實踐
+  ✓ 日期: 2023-02-06
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-EF-整合-最佳實踐.md
+
+[62/307]
+
+📖 正在爬取文章: decimal 輸出小數點指定位數
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/02/02/decimal
+  ✓ 標題: decimal 輸出小數點指定位數
+  ✓ 日期: 2023-02-02
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/decimal-輸出小數點指定位數.md
+
+[63/307]
+
+📖 正在爬取文章: 將 nullable DateTime? 轉成指定格式字串
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/02/01/how-to-parse-nullable-datetime-object-in-c-sharp
+  ✓ 標題: 將 nullable DateTime? 轉成指定格式字串
+  ✓ 日期: 2023-02-01
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/將-nullable-DateTime-轉成指定格式字串.md
+
+[64/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 JSON
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/01/13/ABP-JSON
+  ✓ 標題: ABP.IO WEB應用程式框架 JSON
+  ✓ 日期: 2023-01-13
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-JSON.md
+
+[65/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 BLOB Storing File System Provider
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/01/13/ABP-BLOB-Storing-File-System-Provider
+  ✓ 標題: ABP.IO WEB應用程式框架 BLOB Storing File System Provider
+  ✓ 日期: 2023-01-13
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-BLOB-Storing-File-System-Provider.md
+
+[66/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 選項模式
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/01/12/ABP-Options-Pre-Configure
+  ✓ 標題: ABP.IO WEB應用程式框架 選項模式
+  ✓ 日期: 2023-01-12
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-選項模式.md
+
+[67/307]
+
+📖 正在爬取文章: C#11 Raw string literals 原始字符串 與 string.Format
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/01/11/CSharp-11-Raw-string-literals-string-Format
+  ✓ 標題: C#11 Raw string literals 原始字符串 與 string.Format
+  ✓ 日期: 2023-01-11
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/C#11-Raw-string-literals-原始字符串-與-string.Format.md
+
+[68/307]
+
+📖 正在爬取文章: C# System.Net.Mail SmtpClient From DisplayName 小括號加中文會消失
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/01/09/CSharp-System-Net-Mail-SmtpClient-From-DisplayName-Chinese
+  ✓ 標題: C# System.Net.Mail SmtpClient From DisplayName 小括號加中文會消失
+  ✓ 日期: 2023-01-09
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/C#-System.Net.Mail-SmtpClient-From-DisplayName-小括號加中文會消失.md
+
+[69/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 指定 Audit 時區
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/01/09/ABP-Audit-TimeZone-Pacific-Standard-Time
+  ✓ 標題: ABP.IO WEB應用程式框架 指定 Audit 時區
+  ✓ 日期: 2023-01-09
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-指定-Audit-時區.md
+
+[70/307]
+
+📖 正在爬取文章: ABP.IO Update 關於更新版本時遇到的 Git CRLF \r\n 問題
+   URL: https://www.dotblogs.com.tw/jakeuj/2023/01/03/abp-git-cr-lf
+  ✓ 標題: ABP.IO Update 關於更新版本時遇到的 Git CRLF 
+ 問題
+  ✓ 日期: 2023-01-03
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-Update-關於更新版本時遇到的-Git-CRLF-問題.md
+
+[71/307]
+
+📖 正在爬取文章: .Net 7 HttpClient 送出 JSON要求並接收 json 回應
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/12/30/HttpClient-PostAsJsonAsync-ReadFromJsonAsync-record
+  ✓ 標題: .Net 7 HttpClient 送出 JSON要求並接收 json 回應
+  ✓ 日期: 2022-12-30
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/.Net-7-HttpClient-送出-JSON要求並接收-json-回應.md
+
+[72/307]
+
+📖 正在爬取文章: Rider Http Client OAuth REST API
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/12/21/Rider-Http-Client-OAuth-REST-API
+  ✓ 標題: Rider Http Client OAuth REST API
+  ✓ 日期: 2022-12-21
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Rider-Http-Client-OAuth-REST-API.md
+
+[73/307]
+
+📖 正在爬取文章: 發布 Package 到自己的 Nuget Server
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/12/19/dotnet-nuget-push-Package-Nuget-Server
+  ✓ 標題: 發布 Package 到自己的 Nuget Server
+  ✓ 日期: 2022-12-19
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/發布-Package-到自己的-Nuget-Server.md
+
+[74/307]
+
+📖 正在爬取文章: Azure Container Instances Squid Proxy Server
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/11/24/Azure-Container-Instances-Squid-Proxy-Server
+  ✓ 標題: Azure Container Instances Squid Proxy Server
+  ✓ 日期: 2022-11-24
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Azure-Container-Instances-Squid-Proxy-Server.md
+
+[75/307]
+
+📖 正在爬取文章: Azure App Service 高 CPU 使用率 (WebJobs Daas)
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/11/17/AzureAppService-CPU-High-Usage-WebJobs-Daas
+  ✓ 標題: Azure App Service 高 CPU 使用率 (WebJobs Daas)
+  ✓ 日期: 2022-11-17
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Azure-App-Service-高-CPU-使用率-(WebJobs-Daas).md
+
+[76/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 Mail Razor 樣板
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/11/08/ABP-Mail-Razor
+  ✓ 標題: ABP.IO WEB應用程式框架 Mail Razor 樣板
+  ✓ 日期: 2022-11-08
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-Mail-Razor-樣板.md
+
+[77/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 Mail 樣板
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/11/07/abp-mail-template
+  ✓ 標題: ABP.IO WEB應用程式框架 Mail 樣板
+  ✓ 日期: 2022-11-07
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-Mail-樣板.md
+
+[78/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 Setting
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/11/04/Abp-Setting-Manager
+  ✓ 標題: ABP.IO WEB應用程式框架 Setting
+  ✓ 日期: 2022-11-04
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-Setting.md
+
+[79/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 SendGrid
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/11/04/abp-SendGrid-STMP-587
+  ✓ 標題: ABP.IO WEB應用程式框架 SendGrid
+  ✓ 日期: 2022-11-04
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-SendGrid.md
+
+[80/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 UnitTest UnitOfWork
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/10/28/abp--UnitTest-UnitOfWork
+  ✓ 標題: ABP.IO WEB應用程式框架 UnitTest UnitOfWork
+  ✓ 日期: 2022-10-28
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-UnitTest-UnitOfWork.md
+
+[81/307]
+
+📖 正在爬取文章: C# convert enum value to String
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/10/26/143813
+  ✓ 標題: C# convert enum value to String
+  ✓ 日期: 2022-10-26
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/C#-convert-enum-value-to-String.md
+
+[82/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 取得關聯資料 include
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/10/25/abp-ef-With-Details-Async
+  ✓ 標題: ABP.IO WEB應用程式框架 取得關聯資料 include
+  ✓ 日期: 2022-10-25
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-取得關聯資料-include.md
+
+[83/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 Azure App Service CI/CD deployment
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/10/21/abp-Azure-App-Service-Github-CICD
+  ✓ 標題: ABP.IO WEB應用程式框架 Azure App Service CI/CD deployment
+  ✓ 日期: 2022-10-21
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-Azure-App-Service-CICD-deployment.md
+
+[84/307]
+
+📖 正在爬取文章: ABP.IO Console Dapper and Typed HttpClient Demo
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/10/21/ABP-Console-Dapper-Typed-HttpClient-Demo
+  ✓ 標題: ABP.IO Console Dapper and Typed HttpClient Demo
+  ✓ 日期: 2022-10-21
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-Console-Dapper-and-Typed-HttpClient-Demo.md
+
+[85/307]
+
+📖 正在爬取文章: C# 選項模式
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/10/21/CSharp-IOptions-appsettings
+  ✓ 標題: C# 選項模式
+  ✓ 日期: 2022-10-21
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/C#-選項模式.md
+
+[86/307]
+
+📖 正在爬取文章: Azure Storage Blob 403 CORS
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/10/14/Azure-Storage-CORS-Blob-403
+  ✓ 標題: Azure Storage Blob 403 CORS
+  ✓ 日期: 2022-10-14
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Azure-Storage-Blob-403-CORS.md
+
+[87/307]
+
+📖 正在爬取文章: ABP.IO 6.0.0 Publish Azure App Service 503 OpenIddict Exception
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/10/13/OpenIddict-WindowsCryptographicException-Access-is-denied
+  ✓ 標題: ABP.IO 6.0.0 Publish Azure App Service 503 OpenIddict Exception
+  ✓ 日期: 2022-10-13
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-6.0.0-Publish-Azure-App-Service-503-OpenIddict-Exception.md
+
+[88/307]
+
+📖 正在爬取文章: Unit Test Stream
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/10/13/Unit-Test-Stream
+  ✓ 標題: Unit Test Stream
+  ✓ 日期: 2022-10-13
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Unit-Test-Stream.md
+
+[89/307]
+
+📖 正在爬取文章: Azure Storage Blob SFTP
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/10/13/Azure-Storage-SFTP
+  ✓ 標題: Azure Storage Blob SFTP
+  ✓ 日期: 2022-10-13
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Azure-Storage-Blob-SFTP.md
+
+[90/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 SaveChangesAsync vs UpdateAsync
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/10/04/abp-SaveChangesAsync-UpdateAsync
+  ✓ 標題: ABP.IO WEB應用程式框架 SaveChangesAsync vs UpdateAsync
+  ✓ 日期: 2022-10-04
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-SaveChangesAsync-vs-UpdateAsync.md
+
+[91/307]
+
+📖 正在爬取文章: MSSQL 抓半年內的資料
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/10/04/MSSQL-DateDiff
+  ✓ 標題: MSSQL 抓半年內的資料
+  ✓ 日期: 2022-10-04
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/MSSQL-抓半年內的資料.md
+
+[92/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 CrudAppService 自訂 Header 驗證
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/09/30/abp-CrudAppService-CheckGetPolicyAsync-Header
+  ✓ 標題: ABP.IO WEB應用程式框架 CrudAppService 自訂 Header 驗證
+  ✓ 日期: 2022-09-30
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-CrudAppService-自訂-Header-驗證.md
+
+[93/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 Swagger Default Value
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/09/30/abp-Swagger-Default-Value
+  ✓ 標題: ABP.IO WEB應用程式框架 Swagger Default Value
+  ✓ 日期: 2022-09-30
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-Swagger-Default-Value.md
+
+[94/307]
+
+📖 正在爬取文章: NSwag Settings & HttpClient Startup
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/09/27/NSwag-Settings-HttpClient-Startup
+  ✓ 標題: NSwag Settings &amp; HttpClient Startup
+  ✓ 日期: 2022-09-27
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/NSwag-Settings-&amp;-HttpClient-Startup.md
+
+[95/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 UnitTest 讀取 appsettings.json
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/09/22/abp-test-appsettings
+  ✓ 標題: ABP.IO WEB應用程式框架 UnitTest 讀取 appsettings.json
+  ✓ 日期: 2022-09-22
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-UnitTest-讀取-appsettings.json.md
+
+[96/307]
+
+📖 正在爬取文章: Azure VPN 找不到可以使用這個可延伸的驗證通訊協定的憑證 (錯誤 798)
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/09/05/AzureVpnError798
+  ✓ 標題: Azure VPN 找不到可以使用這個可延伸的驗證通訊協定的憑證 (錯誤 798)
+  ✓ 日期: 2022-09-05
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Azure-VPN-找不到可以使用這個可延伸的驗證通訊協定的憑證-(錯誤-798).md
+
+[97/307]
+
+📖 正在爬取文章: MSSQL 2008 R2 TLS 1.2
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/08/24/MSSQL2008R2TLS12
+  ✓ 標題: MSSQL 2008 R2 TLS 1.2
+  ✓ 日期: 2022-08-24
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/MSSQL-2008-R2-TLS-1.2.md
+
+[98/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 BackgroundWorker UOW 例外
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/08/19/abp-Background-Job-uow
+  ✓ 標題: ABP.IO WEB應用程式框架 BackgroundWorker UOW 例外
+  ✓ 日期: 2022-08-19
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-BackgroundWorker-UOW-例外.md
+
+[99/307]
+
+📖 正在爬取文章: ABP.IO Could not find the bundle file '/libs/abp/core/abp.css'
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/07/21/abp-NPM-not-installed
+  ✓ 標題: ABP.IO Could not find the bundle file &#x27;/libs/abp/core/abp.css&#x27;
+  ✓ 日期: 2022-07-21
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-Could-not-find-the-bundle-file-&#x27;libsabpcoreabp.css&#x27;.md
+
+[100/307]
+
+📖 正在爬取文章: ACI (Azure Container Instance) 部屬失敗
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/06/20/aci-quota-p100-limit
+  ✓ 標題: ACI (Azure Container Instance) 部屬失敗
+  ✓ 日期: 2022-06-20
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ACI-(Azure-Container-Instance)-部屬失敗.md
+
+[101/307]
+
+📖 正在爬取文章: How to Disable TLS 1.0 /1.1 in Apache Server
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/06/20/DisableTls1011
+  ✓ 標題: How to Disable TLS 1.0 /1.1 in Apache Server
+  ✓ 日期: 2022-06-20
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/How-to-Disable-TLS-1.0-1.1-in-Apache-Server.md
+
+[102/307]
+
+📖 正在爬取文章: Azure VPN Windows Server 2012 R2 Error 812
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/06/15/AzureVpnWindowsServer2012R2Error812
+  ✓ 標題: Azure VPN Windows Server 2012 R2 Error 812
+  ✓ 日期: 2022-06-15
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Azure-VPN-Windows-Server-2012-R2-Error-812.md
+
+[103/307]
+
+📖 正在爬取文章: SFTP to WSL on Windows 11
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/06/01/SftpWslWin11
+  ✓ 標題: SFTP to WSL on Windows 11
+  ✓ 日期: 2022-06-01
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/SFTP-to-WSL-on-Windows-11.md
+
+[104/307]
+
+📖 正在爬取文章: C# AddMonths vs AddDays
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/05/27/AddMonthsDays
+  ✓ 標題: C# AddMonths vs AddDays
+  ✓ 日期: 2022-05-27
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/C#-AddMonths-vs-AddDays.md
+
+[105/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 Background Job
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/04/27/abp-Background-Job
+  ✓ 標題: ABP.IO WEB應用程式框架 Background Job
+  ✓ 日期: 2022-04-27
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-Background-Job.md
+
+[106/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 Hangfire Background Job And Worker
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/04/26/abp-Hangfire-Background-Worker
+  ✓ 標題: ABP.IO WEB應用程式框架 Hangfire Background Job And Worker
+  ✓ 日期: 2022-04-26
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-Hangfire-Background-Job-And-Worker.md
+
+[107/307]
+
+📖 正在爬取文章: Azure App Service 設定環境變數 ASPNETCORE_ENVIRONMENT
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/04/20/AzureAppServiceASPNETCORE_ENVIRONMENT
+  ✓ 標題: Azure App Service 設定環境變數 ASPNETCORE_ENVIRONMENT
+  ✓ 日期: 2022-04-20
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Azure-App-Service-設定環境變數-ASPNETCORE_ENVIRONMENT.md
+
+[108/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 烤肉串命名（Kebab case）
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/04/14/abp-kebab-camel-case
+  ✓ 標題: ABP.IO WEB應用程式框架 烤肉串命名&#xFF08;Kebab case&#xFF09;
+  ✓ 日期: 2022-04-14
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-烤肉串命名&#xFF08;Kebab-case&#xFF09;.md
+
+[109/307]
+
+📖 正在爬取文章: MSSQL Local Db 服務無法啟動 Error 1069
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/03/14/MSSQL-LocalDb-Error-1069
+  ✓ 標題: MSSQL Local Db 服務無法啟動 Error 1069
+  ✓ 日期: 2022-03-14
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/MSSQL-Local-Db-服務無法啟動-Error-1069.md
+
+[110/307]
+
+📖 正在爬取文章: 透過 Proxy 使用 Azure HCM (混合式連線管理員)
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/03/14/Proxy-Azure-Relay-Hybrid-Connections
+  ✓ 標題: 透過 Proxy 使用 Azure HCM (混合式連線管理員)
+  ✓ 日期: 2022-03-14
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/透過-Proxy-使用-Azure-HCM-(混合式連線管理員).md
+
+[111/307]
+
+📖 正在爬取文章: C# 使用 CsvHelper 讀取Csv並略過前N行非Csv內容
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/03/11/CsvHelper
+  ✓ 標題: C# 使用 CsvHelper 讀取Csv並略過前N行非Csv內容
+  ✓ 日期: 2022-03-11
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/C#-使用-CsvHelper-讀取Csv並略過前N行非Csv內容.md
+
+[112/307]
+
+📖 正在爬取文章: Azure App Service 使用 Web Job 定期執行 PowerShell 呼叫 API
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/03/03/Azure-App-Service-Web-Job-PowerShell-API
+  ✓ 標題: Azure App Service 使用 Web Job 定期執行 PowerShell 呼叫 API
+  ✓ 日期: 2022-03-03
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Azure-App-Service-使用-Web-Job-定期執行-PowerShell-呼叫-API.md
+
+[113/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 加入 Console 專案
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/02/11/abp-console
+  ✓ 標題: ABP.IO WEB應用程式框架 加入 Console 專案
+  ✓ 日期: 2022-02-11
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-加入-Console-專案.md
+
+[114/307]
+
+📖 正在爬取文章: C# Dotnet Core CsvHelper Csv To Class
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/02/10/aspnet-core-csvhelper-c-csv
+  ✓ 標題: C# Dotnet Core CsvHelper Csv To Class
+  ✓ 日期: 2022-02-10
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/C#-Dotnet-Core-CsvHelper-Csv-To-Class.md
+
+[115/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 Export Excel
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/02/10/Abp-how-to-export-excel-files
+  ✓ 標題: ABP.IO WEB應用程式框架 Export Excel
+  ✓ 日期: 2022-02-10
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-Export-Excel.md
+
+[116/307]
+
+📖 正在爬取文章: PowerShell 安裝並設定成 Visual Studio 預設終端機
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/02/10/PowerShell-Install-Visual-Studio-terminal-default
+  ✓ 標題: PowerShell 安裝並設定成 Visual Studio 預設終端機
+  ✓ 日期: 2022-02-10
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/PowerShell-安裝並設定成-Visual-Studio-預設終端機.md
+
+[117/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 極簡主義應用程式
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/01/28/Abp-Developing-Minimalist-App
+  ✓ 標題: ABP.IO WEB應用程式框架 極簡主義應用程式
+  ✓ 日期: 2022-01-28
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-極簡主義應用程式.md
+
+[118/307]
+
+📖 正在爬取文章: Azure DevOps Pipeline 合併 Vue & .NetCore Project 並 Build & Release
+   URL: https://www.dotblogs.com.tw/jakeuj/2022/01/19/Azure-DevOps-Pipeline-Vue-DotNetCore
+  ✓ 標題: Azure DevOps Pipeline 合併 Vue &amp; .NetCore Project 並 Build &amp; Release
+  ✓ 日期: 2022-01-19
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Azure-DevOps-Pipeline-合併-Vue-&amp;-.NetCore-Project-並-Build-&amp;-Release.md
+
+[119/307]
+
+📖 正在爬取文章: Dapper Connection Factory
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/12/30/Dapper-Connection-Factory
+  ✓ 標題: Dapper Connection Factory
+  ✓ 日期: 2021-12-30
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Dapper-Connection-Factory.md
+
+[120/307]
+
+📖 正在爬取文章: SQL 臨時表 定序衝突 (COLLATE)
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/12/20/SQL-TempTable-COLLATE
+  ✓ 標題: SQL 臨時表 定序衝突 (COLLATE)
+  ✓ 日期: 2021-12-20
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/SQL-臨時表-定序衝突-(COLLATE).md
+
+[121/307]
+
+📖 正在爬取文章: 如何在舊的 ASP.NET WebSite 使用新版 C# 語言特性 (7.3)
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/12/16/WebSite-CSharp-7
+  ✓ 標題: 如何在舊的 ASP.NET WebSite 使用新版 C# 語言特性 (7.3)
+  ✓ 日期: 2021-12-16
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/如何在舊的-ASP.NET-WebSite-使用新版-C#-語言特性-(7.3).md
+
+[122/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 ABP Cli
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/11/26/Abp-Cli
+  ✓ 標題: ABP.IO WEB應用程式框架 ABP Cli
+  ✓ 日期: 2021-11-26
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-ABP-Cli.md
+
+[123/307]
+
+📖 正在爬取文章: Git 移除新增忽略之已推送檔案的追蹤
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/11/24/Git-RM-Cached
+  ✓ 標題: Git 移除新增忽略之已推送檔案的追蹤
+  ✓ 日期: 2021-11-24
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Git-移除新增忽略之已推送檔案的追蹤.md
+
+[124/307]
+
+📖 正在爬取文章: AZURE SQL DB 將定價層轉移到彈性集區
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/11/24/azure-sql-db-elastic-pool
+  ✓ 標題: AZURE SQL DB 將定價層轉移到彈性集區
+  ✓ 日期: 2021-11-24
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/AZURE-SQL-DB-將定價層轉移到彈性集區.md
+
+[125/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 EnableSensitiveDataLogging 啟用敏感資料紀錄
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/11/05/Abp-Enable-Sensitive-Data-Logging
+  ✓ 標題: ABP.IO WEB應用程式框架 EnableSensitiveDataLogging 啟用敏感資料紀錄
+  ✓ 日期: 2021-11-05
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-EnableSensitiveDataLogging-啟用敏感資料紀錄.md
+
+[126/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 使用 Azure Storage 上傳圖片
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/10/29/Abp-Blob-Storing-Azure
+  ✓ 標題: ABP.IO WEB應用程式框架 使用 Azure Storage 上傳圖片
+  ✓ 日期: 2021-10-29
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-使用-Azure-Storage-上傳圖片.md
+
+[127/307]
+
+📖 正在爬取文章: MSSQL text 請改用 varchar(max)
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/10/21/MSSQL-Text-Varchar
+  ✓ 標題: MSSQL text 請改用 varchar(max)
+  ✓ 日期: 2021-10-21
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/MSSQL-text-請改用-varchar(max).md
+
+[128/307]
+
+📖 正在爬取文章: Entity Framework Core DB First 將既有資料庫轉成 class
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/10/14/Entity-Framework-Core-DB-First
+  ✓ 標題: Entity Framework Core DB First 將既有資料庫轉成 class
+  ✓ 日期: 2021-10-14
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Entity-Framework-Core-DB-First-將既有資料庫轉成-class.md
+
+[129/307]
+
+📖 正在爬取文章: Azure App Service Delete Http Method for Restful API
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/10/12/Azure-App-Service-Delete
+  ✓ 標題: Azure App Service Delete Http Method for Restful API
+  ✓ 日期: 2021-10-12
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Azure-App-Service-Delete-Http-Method-for-Restful-API.md
+
+[130/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 使用多個資料庫
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/10/04/Abp-Using-Multiple-Databases
+  ✓ 標題: ABP.IO WEB應用程式框架 使用多個資料庫
+  ✓ 日期: 2021-10-04
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-使用多個資料庫.md
+
+[131/307]
+
+📖 正在爬取文章: [反編譯] Riru-Il2CppDumper 使用筆記
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/10/01/APK-Unity
+  ✓ 標題: [反編譯] Riru-Il2CppDumper 使用筆記
+  ✓ 日期: 2021-10-01
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/[反編譯]-Riru-Il2CppDumper-使用筆記.md
+
+[132/307]
+
+📖 正在爬取文章: AZURE AD Logout
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/09/28/AZURE-AD-OIDC-Logout
+  ✓ 標題: AZURE AD Logout
+  ✓ 日期: 2021-09-28
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/AZURE-AD-Logout.md
+
+[133/307]
+
+📖 正在爬取文章: AZURE AD 每次登入都要打帳號密碼
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/09/28/AZURE-AD-Prompt-Login
+  ✓ 標題: AZURE AD 每次登入都要打帳號密碼
+  ✓ 日期: 2021-09-28
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/AZURE-AD-每次登入都要打帳號密碼.md
+
+[134/307]
+
+📖 正在爬取文章: Azure SQL 新增使用者並授予讀寫權限
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/09/23/Azure-SQL-CREATE-LOGIN-USER
+  ✓ 標題: Azure SQL 新增使用者並授予讀寫權限
+  ✓ 日期: 2021-09-23
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Azure-SQL-新增使用者並授予讀寫權限.md
+
+[135/307]
+
+📖 正在爬取文章: AZURE AD 透過 Microsoft Graph API 取得登入使用者部門資訊
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/09/16/AAD-Microsoft-Graph-API
+  ✓ 標題: AZURE AD 透過 Microsoft Graph API 取得登入使用者部門資訊
+  ✓ 日期: 2021-09-16
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/AZURE-AD-透過-Microsoft-Graph-API-取得登入使用者部門資訊.md
+
+[136/307]
+
+📖 正在爬取文章: AZURE AD 條件式存取 MFA
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/09/10/azure-ad-conditional-access
+  ✓ 標題: AZURE AD 條件式存取 MFA
+  ✓ 日期: 2021-09-10
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/AZURE-AD-條件式存取-MFA.md
+
+[137/307]
+
+📖 正在爬取文章: AZURE AD PREMIUM P2 License cannot be assigned to a user without a usage location specified.
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/09/10/AZURE-AD-PREMIUM-P2
+  ✓ 標題: AZURE AD PREMIUM P2 License cannot be assigned to a user without a usage location specified.
+  ✓ 日期: 2021-09-10
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/AZURE-AD-PREMIUM-P2-License-cannot-be-assigned-to-a-user-without-a-usage-location-specified..md
+
+[138/307]
+
+📖 正在爬取文章: Azure AD 指派特定使用者和群組存取應用
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/09/09/Azure-AD-User-Assigned
+  ✓ 標題: Azure AD 指派特定使用者和群組存取應用
+  ✓ 日期: 2021-09-09
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Azure-AD-指派特定使用者和群組存取應用.md
+
+[139/307]
+
+📖 正在爬取文章: Azure SendGrid Invalid from email address
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/09/09/Azure-SendGrid-Invalid-from-email-address
+  ✓ 標題: Azure SendGrid Invalid from email address
+  ✓ 日期: 2021-09-09
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Azure-SendGrid-Invalid-from-email-address.md
+
+[140/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 批量預賦予 AzureAD User 角色
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/09/08/Abp-Create-Identity-Users-List
+  ✓ 標題: ABP.IO WEB應用程式框架 批量預賦予 AzureAD User 角色
+  ✓ 日期: 2021-09-08
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-批量預賦予-AzureAD-User-角色.md
+
+[141/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 Swagger 隱藏指定 API
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/09/08/Abp-Swagger-Hide-Endpoint
+  ✓ 標題: ABP.IO WEB應用程式框架 Swagger 隱藏指定 API
+  ✓ 日期: 2021-09-08
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-Swagger-隱藏指定-API.md
+
+[142/307]
+
+📖 正在爬取文章: Windows 11 Windows Defender 打不開
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/09/03/Windows11WindowsDefender
+  ✓ 標題: Windows 11 Windows Defender 打不開
+  ✓ 日期: 2021-09-03
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Windows-11-Windows-Defender-打不開.md
+
+[143/307]
+
+📖 正在爬取文章: Azure App Service 存取限制 導致自己Get自己 403
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/09/01/AzureAppService403
+  ✓ 標題: Azure App Service 存取限制 導致自己Get自己 403
+  ✓ 日期: 2021-09-01
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Azure-App-Service-存取限制-導致自己Get自己-403.md
+
+[144/307]
+
+📖 正在爬取文章: LINQ Join with Multiple Conditions in On Clause
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/09/01/LinqJoinMultipleConditions
+  ✓ 標題: LINQ Join with Multiple Conditions in On Clause
+  ✓ 日期: 2021-09-01
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/LINQ-Join-with-Multiple-Conditions-in-On-Clause.md
+
+[145/307]
+
+📖 正在爬取文章: Azure 持續部署 (CI/CD) 至 Azure App Service (DevOps Git Repo 替代方案)
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/08/30/AzureDevOpsGitRepoCiCdAppService
+  ✓ 標題: Azure 持續部署 (CI/CD) 至 Azure App Service (DevOps Git Repo 替代方案)
+  ✓ 日期: 2021-08-30
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Azure-持續部署-(CICD)-至-Azure-App-Service-(DevOps-Git-Repo-替代方案).md
+
+[146/307]
+
+📖 正在爬取文章: Azure App Service 混合式連線 (HCM)
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/08/27/Azure-Relay-Hybrid-Connections
+  ✓ 標題: Azure App Service 混合式連線 (HCM)
+  ✓ 日期: 2021-08-27
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Azure-App-Service-混合式連線-(HCM).md
+
+[147/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 更改 IS4 連線字串
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/08/26/Abp-IdentityServer-connection-string
+  ✓ 標題: ABP.IO WEB應用程式框架 更改 IS4 連線字串
+  ✓ 日期: 2021-08-26
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-更改-IS4-連線字串.md
+
+[148/307]
+
+📖 正在爬取文章: 使用 Azure DevOps 發佈 Azure Static Web Apps
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/08/25/static-web-apps-publish-devops
+  ✓ 標題: 使用 Azure DevOps 發佈 Azure Static Web Apps
+  ✓ 日期: 2021-08-25
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/使用-Azure-DevOps-發佈-Azure-Static-Web-Apps.md
+
+[149/307]
+
+📖 正在爬取文章: Azure App Service TimeOut 設定
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/08/23/AzureAppServiceTimeOut
+  ✓ 標題: Azure App Service TimeOut 設定
+  ✓ 日期: 2021-08-23
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Azure-App-Service-TimeOut-設定.md
+
+[150/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 AzureAD 登入
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/08/23/AbpAzureAdLogin
+  ✓ 標題: ABP.IO WEB應用程式框架 AzureAD 登入
+  ✓ 日期: 2021-08-23
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-AzureAD-登入.md
+
+[151/307]
+
+📖 正在爬取文章: 跨網域 Iframe 建立 cookies
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/08/19/sameSiteCookie
+  ✓ 標題: 跨網域 Iframe 建立 cookies
+  ✓ 日期: 2021-08-19
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/跨網域-Iframe-建立-cookies.md
+
+[152/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 關閉本地帳號註冊與登入
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/08/19/AbpAccountIsSelfRegistrationEnabledFalse
+  ✓ 標題: ABP.IO WEB應用程式框架 關閉本地帳號註冊與登入
+  ✓ 日期: 2021-08-19
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-關閉本地帳號註冊與登入.md
+
+[153/307]
+
+📖 正在爬取文章: 免費 Azure SQL DB 定價層 Free
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/08/16/AzureSqlDbFree
+  ✓ 標題: 免費 Azure SQL DB 定價層 Free
+  ✓ 日期: 2021-08-16
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/免費-Azure-SQL-DB-定價層-Free.md
+
+[154/307]
+
+📖 正在爬取文章: Visual Studio Web Depoly 發佈到 Azure App Service Virtual Application
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/08/16/VsDepolyVirtualApplication
+  ✓ 標題: Visual Studio Web Depoly 發佈到 Azure App Service Virtual Application
+  ✓ 日期: 2021-08-16
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Visual-Studio-Web-Depoly-發佈到-Azure-App-Service-Virtual-Application.md
+
+[155/307]
+
+📖 正在爬取文章: Azure SQL 透過 Azure VPN Gateway 實現內網連接
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/08/13/AzureSqlVpnGetway
+  ✓ 標題: Azure SQL 透過 Azure VPN Gateway 實現內網連接
+  ✓ 日期: 2021-08-13
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Azure-SQL-透過-Azure-VPN-Gateway-實現內網連接.md
+
+[156/307]
+
+📖 正在爬取文章: DevOps Git Repo 連線失敗
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/08/06/DevOpsGit
+  ✓ 標題: DevOps Git Repo 連線失敗
+  ✓ 日期: 2021-08-06
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/DevOps-Git-Repo-連線失敗.md
+
+[157/307]
+
+📖 正在爬取文章: 更新 Entity Framework tools 版本
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/08/04/Dotnet-Tool-Update-EF
+  ✓ 標題: 更新 Entity Framework tools 版本
+  ✓ 日期: 2021-08-04
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/更新-Entity-Framework-tools-版本.md
+
+[158/307]
+
+📖 正在爬取文章: LDAP Admin & C# .Net Core Identity Server 4
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/07/30/LdapAdmin
+  ✓ 標題: LDAP Admin &amp; C# .Net Core Identity Server 4
+  ✓ 日期: 2021-07-30
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/LDAP-Admin-&amp;-C#-.Net-Core-Identity-Server-4.md
+
+[159/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 Override UI、控制器、服務、DTO
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/07/27/ABP-Override-Controller
+  ✓ 標題: ABP.IO WEB應用程式框架 Override UI&#x3001;控制器&#x3001;服務&#x3001;DTO
+  ✓ 日期: 2021-07-27
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-Override-UI&#x3001;控制器&#x3001;服務&#x3001;DTO.md
+
+[160/307]
+
+📖 正在爬取文章: Git Pull Error Filename too long
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/07/27/Filename-too-long
+  ✓ 標題: Git Pull Error Filename too long
+  ✓ 日期: 2021-07-27
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Git-Pull-Error-Filename-too-long.md
+
+[161/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 授權
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/07/26/ABP-Authorization
+  ✓ 標題: ABP.IO WEB應用程式框架 授權
+  ✓ 日期: 2021-07-26
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-授權.md
+
+[162/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 授權資料表定義
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/07/26/ABP-Authorization-DB
+  ✓ 標題: ABP.IO WEB應用程式框架 授權資料表定義
+  ✓ 日期: 2021-07-26
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-授權資料表定義.md
+
+[163/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 新手教學 No.11 開發教學 第 10 部分：書籍與作者的關係
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/07/23/ABP-Tutorials-Part-10
+  ✓ 標題: ABP.IO WEB應用程式框架 新手教學 No.11 開發教學 第 10 部分&#xFF1A;書籍與作者的關係
+  ✓ 日期: 2021-07-23
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-新手教學-No.11-開發教學-第-10-部分&#xFF1A;書籍與作者的關係.md
+
+[164/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 新手教學 No.10 開發教學 第 9 部分：作者：用戶界面
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/07/23/ABP-Tutorials-Part-9
+  ✓ 標題: ABP.IO WEB應用程式框架 新手教學 No.10 開發教學 第 9 部分&#xFF1A;作者&#xFF1A;用戶界面
+  ✓ 日期: 2021-07-23
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-新手教學-No.10-開發教學-第-9-部分&#xFF1A;作者&#xFF1A;用戶界面.md
+
+[165/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 新手教學 No.09 開發教學 第 8 部分：作者：應用服務層
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/07/23/ABP-Tutorials-Part-8
+  ✓ 標題: ABP.IO WEB應用程式框架 新手教學 No.09 開發教學 第 8 部分&#xFF1A;作者&#xFF1A;應用服務層
+  ✓ 日期: 2021-07-23
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-新手教學-No.09-開發教學-第-8-部分&#xFF1A;作者&#xFF1A;應用服務層.md
+
+[166/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 新手教學 No.08 開發教學 第 7 部分：作者：數據庫集成
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/07/23/ABP-Tutorials-Part-7
+  ✓ 標題: ABP.IO WEB應用程式框架 新手教學 No.08 開發教學 第 7 部分&#xFF1A;作者&#xFF1A;數據庫集成
+  ✓ 日期: 2021-07-23
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-新手教學-No.08-開發教學-第-7-部分&#xFF1A;作者&#xFF1A;數據庫集成.md
+
+[167/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 新手教學 No.07 開發教學 第 6 部分 作者：領域層
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/07/23/ABP-Tutorials-Part-6
+  ✓ 標題: ABP.IO WEB應用程式框架 新手教學 No.07 開發教學 第 6 部分 作者&#xFF1A;領域層
+  ✓ 日期: 2021-07-23
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-新手教學-No.07-開發教學-第-6-部分-作者&#xFF1A;領域層.md
+
+[168/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 新手教學 No.06 開發教學  第 5 部分 授權
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/07/23/ABP-Tutorials-Part-5
+  ✓ 標題: ABP.IO WEB應用程式框架 新手教學 No.06 開發教學  第 5 部分 授權
+  ✓ 日期: 2021-07-23
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-新手教學-No.06-開發教學-第-5-部分-授權.md
+
+[169/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 新手教學 No.05 開發教學 第 4 部分 整合測試
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/07/23/abpio05
+  ✓ 標題: ABP.IO WEB應用程式框架 新手教學 No.05 開發教學 第 4 部分 整合測試
+  ✓ 日期: 2021-07-23
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-新手教學-No.05-開發教學-第-4-部分-整合測試.md
+
+[170/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 新手教學 No.04 開發教學 第 3 部分 創建、更新和刪除圖書
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/07/23/abpio04
+  ✓ 標題: ABP.IO WEB應用程式框架 新手教學 No.04 開發教學 第 3 部分 創建&#x3001;更新和刪除圖書
+  ✓ 日期: 2021-07-23
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-新手教學-No.04-開發教學-第-3-部分-創建&#x3001;更新和刪除圖書.md
+
+[171/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 新手教學 No.03 開發教學 第 2 部分 圖書列表頁面
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/07/21/abpio03
+  ✓ 標題: ABP.IO WEB應用程式框架 新手教學 No.03 開發教學 第 2 部分 圖書列表頁面
+  ✓ 日期: 2021-07-21
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-新手教學-No.03-開發教學-第-2-部分-圖書列表頁面.md
+
+[172/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 新手教學 No.02 開發教學 第 1 部分 創建服務端
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/07/21/abpio02
+  ✓ 標題: ABP.IO WEB應用程式框架 新手教學 No.02 開發教學 第 1 部分 創建服務端
+  ✓ 日期: 2021-07-21
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-新手教學-No.02-開發教學-第-1-部分-創建服務端.md
+
+[173/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 新手教學 No.01 快速開始
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/07/20/abpio01
+  ✓ 標題: ABP.IO WEB應用程式框架 新手教學 No.01 快速開始
+  ✓ 日期: 2021-07-20
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-新手教學-No.01-快速開始.md
+
+[174/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 新手教學 No.16 建立應用服務 Application Service
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/07/19/abpio5
+  ✓ 標題: ABP.IO WEB應用程式框架 新手教學 No.16 建立應用服務 Application Service
+  ✓ 日期: 2021-07-19
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-新手教學-No.16-建立應用服務-Application-Service.md
+
+[175/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 新手教學 No.15 資料庫遷移 Migration
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/07/19/abpio4
+  ✓ 標題: ABP.IO WEB應用程式框架 新手教學 No.15 資料庫遷移 Migration
+  ✓ 日期: 2021-07-19
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-新手教學-No.15-資料庫遷移-Migration.md
+
+[176/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 新手教學 No.14 建立資料庫上下文 DbContext
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/07/19/abpio3
+  ✓ 標題: ABP.IO WEB應用程式框架 新手教學 No.14 建立資料庫上下文 DbContext
+  ✓ 日期: 2021-07-19
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-新手教學-No.14-建立資料庫上下文-DbContext.md
+
+[177/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 新手教學 No.13 建立實體 Entity
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/07/19/aaboio2
+  ✓ 標題: ABP.IO WEB應用程式框架 新手教學 No.13 建立實體 Entity
+  ✓ 日期: 2021-07-19
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-新手教學-No.13-建立實體-Entity.md
+
+[178/307]
+
+📖 正在爬取文章: ABP.IO WEB應用程式框架 新手教學 No.12 建立專案
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/07/19/abpio1
+  ✓ 標題: ABP.IO WEB應用程式框架 新手教學 No.12 建立專案
+  ✓ 日期: 2021-07-19
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP.IO-WEB應用程式框架-新手教學-No.12-建立專案.md
+
+[179/307]
+
+📖 正在爬取文章: Linq 加總兩個欄位
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/07/19/LinqSumGroupBy
+  ✓ 標題: Linq 加總兩個欄位
+  ✓ 日期: 2021-07-19
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Linq-加總兩個欄位.md
+
+[180/307]
+
+📖 正在爬取文章: 使用 LINQPad 7 with EF Core (.Net 6 專案)
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/06/24/LINQPadEFCore
+  ✓ 標題: 使用 LINQPad 7 with EF Core (.Net 6 專案)
+  ✓ 日期: 2021-06-24
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/使用-LINQPad-7-with-EF-Core-(.Net-6-專案).md
+
+[181/307]
+
+📖 正在爬取文章: Dotnet Core NLog 於 Linux 無法產生 Log 問題
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/06/17/LinuxNLogConfig
+  ✓ 標題: Dotnet Core NLog 於 Linux 無法產生 Log 問題
+  ✓ 日期: 2021-06-17
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Dotnet-Core-NLog-於-Linux-無法產生-Log-問題.md
+
+[182/307]
+
+📖 正在爬取文章: .NET Core 5 Console 泛用主機 依照環境變數讀取對應設定檔 AppSetting
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/06/10/DotNetCoreConsoleAppsettingEnvironment
+  ✓ 標題: .NET Core 5 Console 泛用主機 依照環境變數讀取對應設定檔 AppSetting
+  ✓ 日期: 2021-06-10
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/.NET-Core-5-Console-泛用主機-依照環境變數讀取對應設定檔-AppSetting.md
+
+[183/307]
+
+📖 正在爬取文章: Entity Framework Core Lazy Loading 消極載入巡覽屬性
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/06/09/EFCoreLazyLoading
+  ✓ 標題: Entity Framework Core Lazy Loading 消極載入巡覽屬性
+  ✓ 日期: 2021-06-09
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Entity-Framework-Core-Lazy-Loading-消極載入巡覽屬性.md
+
+[184/307]
+
+📖 正在爬取文章: DotNetCore IIS Hosting Bundle
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/05/10/DotNetCoreHostingBundleIIS
+  ✓ 標題: DotNetCore IIS Hosting Bundle
+  ✓ 日期: 2021-05-10
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/DotNetCore-IIS-Hosting-Bundle.md
+
+[185/307]
+
+📖 正在爬取文章: 阿里雲 訪問控制 RAM (Aliyun Cloud Resource Access Management) 使用筆記
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/05/06/AliRam
+  ✓ 標題: 阿里雲 訪問控制 RAM (Aliyun Cloud Resource Access Management) 使用筆記
+  ✓ 日期: 2021-05-06
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/阿里雲-訪問控制-RAM-(Aliyun-Cloud-Resource-Access-Management)-使用筆記.md
+
+[186/307]
+
+📖 正在爬取文章: 阿里雲 Web+ (Aliyun Cloud Web Plus) 使用筆記
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/04/29/AliCloudWebPlus
+  ✓ 標題: 阿里雲 Web&#x2B; (Aliyun Cloud Web Plus) 使用筆記
+  ✓ 日期: 2021-04-29
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/阿里雲-Web&#x2B;-(Aliyun-Cloud-Web-Plus)-使用筆記.md
+
+[187/307]
+
+📖 正在爬取文章: PowerShell DotNetCore Background Task Queue
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/04/28/PowerShellNetCoreQueue
+  ✓ 標題: PowerShell DotNetCore Background Task Queue
+  ✓ 日期: 2021-04-28
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/PowerShell-DotNetCore-Background-Task-Queue.md
+
+[188/307]
+
+📖 正在爬取文章: Drone 阿里雲 Web+ DotnetCore 3.1 CI/CD & DockerHub Images CI/CD
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/04/22/DroneAliWebPlusCICD
+  ✓ 標題: Drone 阿里雲 Web&#x2B; DotnetCore 3.1 CI/CD &amp; DockerHub Images CI/CD
+  ✓ 日期: 2021-04-22
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Drone-阿里雲-Web&#x2B;-DotnetCore-3.1-CICD-&amp;-DockerHub-Images-CICD.md
+
+[189/307]
+
+📖 正在爬取文章: 阿里雲 Web+ 使用 Cli  部署 DotnetCore 3.1 專案筆記
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/04/22/AliWebPlusDepoly
+  ✓ 標題: 阿里雲 Web&#x2B; 使用 Cli  部署 DotnetCore 3.1 專案筆記
+  ✓ 日期: 2021-04-22
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/阿里雲-Web&#x2B;-使用-Cli-部署-DotnetCore-3.1-專案筆記.md
+
+[190/307]
+
+📖 正在爬取文章: 在 Ubuntu 20.4 上安裝 .NET SDK 3.1
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/04/22/UbuntuDotNetCore
+  ✓ 標題: 在 Ubuntu 20.4 上安裝 .NET SDK 3.1
+  ✓ 日期: 2021-04-22
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/在-Ubuntu-20.4-上安裝-.NET-SDK-3.1.md
+
+[191/307]
+
+📖 正在爬取文章: Drone Cloud Github DotNetCore Build CI/CD Runner Note
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/04/20/Drone
+  ✓ 標題: Drone Cloud Github DotNetCore Build CI/CD Runner Note
+  ✓ 日期: 2021-04-20
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Drone-Cloud-Github-DotNetCore-Build-CICD-Runner-Note.md
+
+[192/307]
+
+📖 正在爬取文章: Docker Jenkins Agent Dotnetcore Drone
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/04/19/Jenkins
+  ✓ 標題:  Docker Jenkins Agent Dotnetcore Drone
+  ✓ 日期: 2021-04-19
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Docker-Jenkins-Agent-Dotnetcore-Drone.md
+
+[193/307]
+
+📖 正在爬取文章: Github Pages 裝載和部署 ASP.NET Core Blazor WebAssembly
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/04/09/BlazorWebAssemblyGithubPages
+  ✓ 標題: Github Pages 裝載和部署 ASP.NET Core Blazor WebAssembly
+  ✓ 日期: 2021-04-09
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Github-Pages-裝載和部署-ASP.NET-Core-Blazor-WebAssembly.md
+
+[194/307]
+
+📖 正在爬取文章: CSS3 背景圖片加半透明黑色遮色片
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/04/08/cssbackground
+  ✓ 標題: CSS3 背景圖片加半透明黑色遮色片
+  ✓ 日期: 2021-04-08
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/CSS3-背景圖片加半透明黑色遮色片.md
+
+[195/307]
+
+📖 正在爬取文章: Azure Immersion: Cloud Native 實作坊
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/03/25/AzureCloudNative
+  ✓ 標題: Azure Immersion: Cloud Native 實作坊
+  ✓ 日期: 2021-03-25
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Azure-Immersion-Cloud-Native-實作坊.md
+
+[196/307]
+
+📖 正在爬取文章: Dapr 使用 choco 安裝 minikube 啟動 hyperV 透過 Docker 部屬 Kubernetes
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/03/23/minikube
+  ✓ 標題: Dapr 使用 choco 安裝 minikube 啟動 hyperV 透過 Docker 部屬 Kubernetes
+  ✓ 日期: 2021-03-23
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Dapr-使用-choco-安裝-minikube-啟動-hyperV-透過-Docker-部屬-Kubernetes.md
+
+[197/307]
+
+📖 正在爬取文章: MSSQL 2012 & 2008 分頁與計數
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/03/23/ROW_NUMBER
+  ✓ 標題: MSSQL 2012 &amp; 2008 分頁與計數
+  ✓ 日期: 2021-03-23
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/MSSQL-2012-&amp;-2008-分頁與計數.md
+
+[198/307]
+
+📖 正在爬取文章: 邊緣運算 Edge AI Computing
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/03/22/EdgeAiComputing
+  ✓ 標題: 邊緣運算 Edge AI Computing
+  ✓ 日期: 2021-03-22
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/邊緣運算-Edge-AI-Computing.md
+
+[199/307]
+
+📖 正在爬取文章: Azure VM 遠端桌面 Port 被公司防火牆擋住 繞過方法
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/03/22/SetRDPPort
+  ✓ 標題: Azure VM 遠端桌面 Port 被公司防火牆擋住 繞過方法
+  ✓ 日期: 2021-03-22
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Azure-VM-遠端桌面-Port-被公司防火牆擋住-繞過方法.md
+
+[200/307]
+
+📖 正在爬取文章: HashPasswordForStoringInConfigFile 已過時
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/03/19/HashPasswordForStoringInConfigFile
+  ✓ 標題: HashPasswordForStoringInConfigFile 已過時
+  ✓ 日期: 2021-03-19
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/HashPasswordForStoringInConfigFile-已過時.md
+
+[201/307]
+
+📖 正在爬取文章: Windows Update Error Code 0x8024401c
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/03/17/8024401c
+  ✓ 標題: Windows Update Error Code 0x8024401c
+  ✓ 日期: 2021-03-17
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Windows-Update-Error-Code-0x8024401c.md
+
+[202/307]
+
+📖 正在爬取文章: [2021] 檔案上傳到件 Uploadify 升級到 UploadiFive 的筆記
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/03/12/UploadiFive
+  ✓ 標題: [2021] 檔案上傳到件 Uploadify 升級到 UploadiFive 的筆記
+  ✓ 日期: 2021-03-12
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/[2021]-檔案上傳到件-Uploadify-升級到-UploadiFive-的筆記.md
+
+[203/307]
+
+📖 正在爬取文章: Convert Web site (WSP) to Web Application (WAP) with Visual Studio 2019
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/03/02/Convert-Web-site-to-WebApplication-Visual-Studio-2019
+  ✓ 標題: Convert Web site (WSP) to Web Application (WAP) with Visual Studio 2019
+  ✓ 日期: 2021-03-02
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Convert-Web-site-(WSP)-to-Web-Application-(WAP)-with-Visual-Studio-2019.md
+
+[204/307]
+
+📖 正在爬取文章: Azure App Service Git Authentication failed for
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/02/23/AzureAppServiceGit
+  ✓ 標題: Azure App Service Git Authentication failed for
+  ✓ 日期: 2021-02-23
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Azure-App-Service-Git-Authentication-failed-for.md
+
+[205/307]
+
+📖 正在爬取文章: Azure App Service 組態 Connection String 吃不到設定
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/02/23/AzureAppServiceConnectionString
+  ✓ 標題: Azure App Service 組態 Connection String 吃不到設定
+  ✓ 日期: 2021-02-23
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Azure-App-Service-組態-Connection-String-吃不到設定.md
+
+[206/307]
+
+📖 正在爬取文章: RedHat OpenShift SandBox 流程筆記
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/02/23/OpenShiftSandBox
+  ✓ 標題: RedHat OpenShift SandBox 流程筆記
+  ✓ 日期: 2021-02-23
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/RedHat-OpenShift-SandBox-流程筆記.md
+
+[207/307]
+
+📖 正在爬取文章: RedHat OKD (OpenShift Origin) 4.6 與 Ubuntu 20.10 建置筆記
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/02/09/OpenShift
+  ✓ 標題: RedHat OKD (OpenShift Origin) 4.6 與 Ubuntu 20.10 建置筆記
+  ✓ 日期: 2021-02-09
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/RedHat-OKD-(OpenShift-Origin)-4.6-與-Ubuntu-20.10-建置筆記.md
+
+[208/307]
+
+📖 正在爬取文章: 開始使用透明背景 Powerline in Windows Terminal 吧
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/02/01/WindowsTerminal
+  ✓ 標題: 開始使用透明背景 Powerline in Windows Terminal 吧
+  ✓ 日期: 2021-02-01
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/開始使用透明背景-Powerline-in-Windows-Terminal-吧.md
+
+[209/307]
+
+📖 正在爬取文章: 圖形驗證服務 hcaptcha dotnet core 實作筆記
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/01/28/hCaptcha
+  ✓ 標題: 圖形驗證服務 hcaptcha dotnet core 實作筆記
+  ✓ 日期: 2021-01-28
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/圖形驗證服務-hcaptcha-dotnet-core-實作筆記.md
+
+[210/307]
+
+📖 正在爬取文章: WebForm Log4Net
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/01/13/Log4Net
+  ✓ 標題: WebForm Log4Net
+  ✓ 日期: 2021-01-13
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/WebForm-Log4Net.md
+
+[211/307]
+
+📖 正在爬取文章: 信任 Windows 和 macOS 上的 ASP.NET Core HTTPS 開發憑證
+   URL: https://www.dotblogs.com.tw/jakeuj/2021/01/05/certificate-not-trusted
+  ✓ 標題: 信任 Windows 和 macOS 上的 ASP.NET Core HTTPS 開發憑證
+  ✓ 日期: 2021-01-05
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/信任-Windows-和-macOS-上的-ASP.NET-Core-HTTPS-開發憑證.md
+
+[212/307]
+
+📖 正在爬取文章: 購買 CheapSSL Comodo SSL 並設定 Windows server 2012 IIS 8
+   URL: https://www.dotblogs.com.tw/jakeuj/2020/12/26/SSLIIS
+  ✓ 標題: 購買 CheapSSL Comodo SSL 並設定 Windows server 2012 IIS 8
+  ✓ 日期: 2020-12-26
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/購買-CheapSSL-Comodo-SSL-並設定-Windows-server-2012-IIS-8.md
+
+[213/307]
+
+📖 正在爬取文章: 下載圖片檔案上傳到遠端伺服器API轉存
+   URL: https://www.dotblogs.com.tw/jakeuj/2020/11/20/MultipartFormDataContent
+  ✓ 標題: 下載圖片檔案上傳到遠端伺服器API轉存
+  ✓ 日期: 2020-11-20
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/下載圖片檔案上傳到遠端伺服器API轉存.md
+
+[214/307]
+
+📖 正在爬取文章: AsEnumerable and PostgreSQL EF Core Logging with Npgsql
+   URL: https://www.dotblogs.com.tw/jakeuj/2020/10/30/AsEnumerable
+  ✓ 標題: AsEnumerable and PostgreSQL EF Core Logging with Npgsql
+  ✓ 日期: 2020-10-30
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/AsEnumerable-and-PostgreSQL-EF-Core-Logging-with-Npgsql.md
+
+[215/307]
+
+📖 正在爬取文章: MAC 安裝字型font去除ssh亂碼 font-sauce-code-pro-nerd-font
+   URL: https://www.dotblogs.com.tw/jakeuj/2020/10/28/font-sourcecodepro-nerd-font
+  ✓ 標題: MAC 安裝字型font去除ssh亂碼 font-sauce-code-pro-nerd-font
+  ✓ 日期: 2020-10-28
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/MAC-安裝字型font去除ssh亂碼-font-sauce-code-pro-nerd-font.md
+
+[216/307]
+
+📖 正在爬取文章: HttpClient GetAsync PostAsync GZipStream RequestHeaders accept-encoding gzip
+   URL: https://www.dotblogs.com.tw/jakeuj/2020/05/18/GZipStream
+  ✓ 標題: HttpClient GetAsync PostAsync GZipStream RequestHeaders accept-encoding gzip
+  ✓ 日期: 2020-05-18
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/HttpClient-GetAsync-PostAsync-GZipStream-RequestHeaders-accept-encoding-gzip.md
+
+[217/307]
+
+📖 正在爬取文章: Angular build error Command failed with exit code 134.
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/12/20/node134error
+  ✓ 標題: Angular build error Command failed with exit code 134.
+  ✓ 日期: 2019-12-20
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Angular-build-error-Command-failed-with-exit-code-134..md
+
+[218/307]
+
+📖 正在爬取文章: HSTS (HTTP Strict Transport Security) & HTTPS redirection (Enforce HTTPS in ASP.NET Core)
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/12/18/HSTS
+  ✓ 標題: HSTS (HTTP Strict Transport Security) &amp; HTTPS redirection (Enforce HTTPS in ASP.NET Core)
+  ✓ 日期: 2019-12-18
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/HSTS-(HTTP-Strict-Transport-Security)-&amp;-HTTPS-redirection-(Enforce-HTTPS-in-ASP.NET-Core).md
+
+[219/307]
+
+📖 正在爬取文章: Windows 10 bash ll
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/12/16/bash
+  ✓ 標題: Windows 10 bash ll
+  ✓ 日期: 2019-12-16
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Windows-10-bash-ll.md
+
+[220/307]
+
+📖 正在爬取文章: Rider 列出類別內的方法清單
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/12/05/RiderFindFunction
+  ✓ 標題: Rider 列出類別內的方法清單
+  ✓ 日期: 2019-12-05
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Rider-列出類別內的方法清單.md
+
+[221/307]
+
+📖 正在爬取文章: ERR_CONNECTION_RESET
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/11/29/ERR_CONNECTION_RESET
+  ✓ 標題: ERR_CONNECTION_RESET
+  ✓ 日期: 2019-11-29
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ERR_CONNECTION_RESET.md
+
+[222/307]
+
+📖 正在爬取文章: MYSQL SQLEXCEPTION HANDLER 抓錯誤訊息
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/11/21/MYSQLEXCEPTION
+  ✓ 標題: MYSQL SQLEXCEPTION HANDLER 抓錯誤訊息
+  ✓ 日期: 2019-11-21
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/MYSQL-SQLEXCEPTION-HANDLER-抓錯誤訊息.md
+
+[223/307]
+
+📖 正在爬取文章: WIN10查詢監聽Port
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/11/07/findstr
+  ✓ 標題: WIN10查詢監聽Port
+  ✓ 日期: 2019-11-07
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/WIN10查詢監聽Port.md
+
+[224/307]
+
+📖 正在爬取文章: Dapper Bulk InsertOrUpdate
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/09/29/bulk-merge
+  ✓ 標題: Dapper Bulk InsertOrUpdate
+  ✓ 日期: 2019-09-29
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Dapper-Bulk-InsertOrUpdate.md
+
+[225/307]
+
+📖 正在爬取文章: No.15 Angular DateTime UTC Offset
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/09/17/abp15
+  ✓ 標題: No.15 Angular DateTime UTC Offset
+  ✓ 日期: 2019-09-17
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/No.15-Angular-DateTime-UTC-Offset.md
+
+[226/307]
+
+📖 正在爬取文章: MYSQL 通用 泛型 CRUD 應用服務 (Dapper Contrib 非同步版本)
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/09/06/CrudAppService
+  ✓ 標題: MYSQL 通用 泛型 CRUD 應用服務 (Dapper Contrib 非同步版本)
+  ✓ 日期: 2019-09-06
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/MYSQL-通用-泛型-CRUD-應用服務-(Dapper-Contrib-非同步版本).md
+
+[227/307]
+
+📖 正在爬取文章: IIS 提高併發連線數
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/09/03/iisconfig
+  ✓ 標題: IIS 提高併發連線數
+  ✓ 日期: 2019-09-03
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/IIS-提高併發連線數.md
+
+[228/307]
+
+📖 正在爬取文章: Angular Function calls are not supported in decorators but 'InjectionToken' was called in
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/08/26/angulardecoratorerror
+  ✓ 標題: Angular Function calls are not supported in decorators but &#x27;InjectionToken&#x27; was called in
+  ✓ 日期: 2019-08-26
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Angular-Function-calls-are-not-supported-in-decorators-but-&#x27;InjectionToken&#x27;-was-called-in.md
+
+[229/307]
+
+📖 正在爬取文章: No.14 SignalR with Angular
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/08/26/abp14
+  ✓ 標題: No.14 SignalR with Angular
+  ✓ 日期: 2019-08-26
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/No.14-SignalR-with-Angular.md
+
+[230/307]
+
+📖 正在爬取文章: SignalR 2 Server with Console Application ver
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/08/12/tutorial-signalr-self-host
+  ✓ 標題: SignalR 2 Server with Console Application ver
+  ✓ 日期: 2019-08-12
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/SignalR-2-Server-with-Console-Application-ver.md
+
+[231/307]
+
+📖 正在爬取文章: Rider 目前的.NET SDK 不支援以 .NET core 3.0 做為目標
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/08/08/Rider2019DotNetCore30
+  ✓ 標題: Rider 目前的.NET SDK 不支援以 .NET core 3.0 做為目標
+  ✓ 日期: 2019-08-08
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Rider-目前的.NET-SDK-不支援以-.NET-core-3.0-做為目標.md
+
+[232/307]
+
+📖 正在爬取文章: [NSwag] error TS2349: Cannot invoke an expression whose type lacks a call signature.
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/07/31/NSwagTemplate
+  ✓ 標題: [NSwag] error TS2349: Cannot invoke an expression whose type lacks a call signature.
+  ✓ 日期: 2019-07-31
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/[NSwag]-error-TS2349-Cannot-invoke-an-expression-whose-type-lacks-a-call-signature..md
+
+[233/307]
+
+📖 正在爬取文章: PowerShell Script Tool for Migrations
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/07/23/PowerShellMigrations
+  ✓ 標題: PowerShell Script Tool for Migrations
+  ✓ 日期: 2019-07-23
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/PowerShell-Script-Tool-for-Migrations.md
+
+[234/307]
+
+📖 正在爬取文章: Entity Framework Core Migrations
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/07/23/EFCoreMigrations
+  ✓ 標題: Entity Framework Core Migrations
+  ✓ 日期: 2019-07-23
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Entity-Framework-Core-Migrations.md
+
+[235/307]
+
+📖 正在爬取文章: JetBrains Rider connect to LocalDB
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/07/17/RiderLocalDB
+  ✓ 標題: JetBrains Rider connect to LocalDB
+  ✓ 日期: 2019-07-17
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/JetBrains-Rider-connect-to-LocalDB.md
+
+[236/307]
+
+📖 正在爬取文章: SQL UPDATE 大量更新
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/06/28/SQLUPDATE
+  ✓ 標題: SQL UPDATE 大量更新
+  ✓ 日期: 2019-06-28
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/SQL-UPDATE-大量更新.md
+
+[237/307]
+
+📖 正在爬取文章: IIS 10 架設 FTP Over SSL
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/06/27/IIS10FTPOverSSL
+  ✓ 標題: IIS 10 架設 FTP Over SSL
+  ✓ 日期: 2019-06-27
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/IIS-10-架設-FTP-Over-SSL.md
+
+[238/307]
+
+📖 正在爬取文章: Entity Framework (EF) Core SQL Logger with ABP(ASP.NET Boilerplate)
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/06/25/LoggerEFCoreSQL
+  ✓ 標題: Entity Framework (EF) Core SQL Logger with ABP(ASP.NET Boilerplate)
+  ✓ 日期: 2019-06-25
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Entity-Framework-(EF)-Core-SQL-Logger-with-ABP(ASP.NET-Boilerplate).md
+
+[239/307]
+
+📖 正在爬取文章: Linq Left Join (GroupJoin + SelectMany) Repository
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/06/19/LinqJoin
+  ✓ 標題: Linq Left Join (GroupJoin &#x2B; SelectMany) Repository
+  ✓ 日期: 2019-06-19
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Linq-Left-Join-(GroupJoin-&#x2B;-SelectMany)-Repository.md
+
+[240/307]
+
+📖 正在爬取文章: WebSocket SignalR 2 Unity 2018 .Net 4.x
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/06/19/UnitySignalR2
+  ✓ 標題: WebSocket SignalR 2 Unity 2018 .Net 4.x
+  ✓ 日期: 2019-06-19
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/WebSocket-SignalR-2-Unity-2018-.Net-4.x.md
+
+[241/307]
+
+📖 正在爬取文章: JetBrains Rider 更改字型
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/06/14/RiderFont
+  ✓ 標題: JetBrains Rider 更改字型
+  ✓ 日期: 2019-06-14
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/JetBrains-Rider-更改字型.md
+
+[242/307]
+
+📖 正在爬取文章: 列舉值檢查 typeof(enumType).IsEnumDefined(intValue)
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/06/13/IsEnumDefined
+  ✓ 標題: 列舉值檢查 typeof(enumType).IsEnumDefined(intValue)
+  ✓ 日期: 2019-06-13
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/列舉值檢查-typeof(enumType).IsEnumDefined(intValue).md
+
+[243/307]
+
+📖 正在爬取文章: Unknown column 'Discriminator' in 'where clause'
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/06/10/EfCore
+  ✓ 標題: Unknown column &#x27;Discriminator&#x27; in &#x27;where clause&#x27;
+  ✓ 日期: 2019-06-10
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Unknown-column-&#x27;Discriminator&#x27;-in-&#x27;where-clause&#x27;.md
+
+[244/307]
+
+📖 正在爬取文章: asp.net core 在IIS設定環境變數
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/06/05/EnvironmentVariables
+  ✓ 標題: asp.net core 在IIS設定環境變數
+  ✓ 日期: 2019-06-05
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/asp.net-core-在IIS設定環境變數.md
+
+[245/307]
+
+📖 正在爬取文章: Angular IIS 正常開始 F5 之後 404
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/06/04/Angular404
+  ✓ 標題: Angular IIS 正常開始 F5 之後 404
+  ✓ 日期: 2019-06-04
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Angular-IIS-正常開始-F5-之後-404.md
+
+[246/307]
+
+📖 正在爬取文章: Angular TypeScript Enum ngfor-enum-select-options
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/05/30/145328
+  ✓ 標題: Angular TypeScript Enum ngfor-enum-select-options
+  ✓ 日期: 2019-05-30
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Angular-TypeScript-Enum-ngfor-enum-select-options.md
+
+[247/307]
+
+📖 正在爬取文章: JetBrains Rider 不安裝 Visual Studio 如何使用 MSBuild 編譯發布專案
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/05/09/RiderMSBuild
+  ✓ 標題: JetBrains Rider 不安裝 Visual Studio 如何使用 MSBuild 編譯發布專案
+  ✓ 日期: 2019-05-09
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/JetBrains-Rider-不安裝-Visual-Studio-如何使用-MSBuild-編譯發布專案.md
+
+[248/307]
+
+📖 正在爬取文章: ABP (ASP.NET Boilerplate) 應用程式開發框架 No.13 Angular Service
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/04/23/abp13
+  ✓ 標題: ABP (ASP.NET Boilerplate) 應用程式開發框架 No.13 Angular Service
+  ✓ 日期: 2019-04-23
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP-(ASP.NET-Boilerplate)-應用程式開發框架-No.13-Angular-Service.md
+
+[249/307]
+
+📖 正在爬取文章: 字型介紹 Noto(思源字體) Sans-serif(無襯線) Serif(襯線體) Mono(等寬)
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/04/10/Fonts
+  ✓ 標題: 字型介紹 Noto(思源字體) Sans-serif(無襯線) Serif(襯線體) Mono(等寬)
+  ✓ 日期: 2019-04-10
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/字型介紹-Noto(思源字體)-Sans-serif(無襯線)-Serif(襯線體)-Mono(等寬).md
+
+[250/307]
+
+📖 正在爬取文章: JetBrains Rider Angular NPM Yarn Launch and Build Settings Profile
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/03/26/RiderAngularLaunch
+  ✓ 標題: JetBrains Rider Angular NPM Yarn Launch and Build Settings Profile
+  ✓ 日期: 2019-03-26
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/JetBrains-Rider-Angular-NPM-Yarn-Launch-and-Build-Settings-Profile.md
+
+[251/307]
+
+📖 正在爬取文章: LINQPad 加入 EntityFramework 支援 Include
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/03/22/LINQPad
+  ✓ 標題: LINQPad 加入 EntityFramework 支援 Include
+  ✓ 日期: 2019-03-22
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/LINQPad-加入-EntityFramework-支援-Include.md
+
+[252/307]
+
+📖 正在爬取文章: Angular woff json 404 & the web.config asset path must start with the project source root
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/02/19/angularwebconfig
+  ✓ 標題: Angular woff json 404 &amp; the web.config asset path must start with the project source root
+  ✓ 日期: 2019-02-19
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Angular-woff-json-404-&amp;-the-web.config-asset-path-must-start-with-the-project-source-root.md
+
+[253/307]
+
+📖 正在爬取文章: Angular Azure DevOps CI/CD
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/02/19/angular_ci_cd
+  ✓ 標題: Angular Azure DevOps CI/CD
+  ✓ 日期: 2019-02-19
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Angular-Azure-DevOps-CICD.md
+
+[254/307]
+
+📖 正在爬取文章: ABP (ASP.NET Boilerplate) 應用程式開發框架 No.12 複數資料庫(DBContext)
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/01/30/abp12
+  ✓ 標題: ABP (ASP.NET Boilerplate) 應用程式開發框架 No.12 複數資料庫(DBContext)
+  ✓ 日期: 2019-01-30
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP-(ASP.NET-Boilerplate)-應用程式開發框架-No.12-複數資料庫(DBContext).md
+
+[255/307]
+
+📖 正在爬取文章: DotNetCore HttpClient User-Agent & Encoding
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/01/29/173228
+  ✓ 標題: DotNetCore HttpClient User-Agent &amp; Encoding
+  ✓ 日期: 2019-01-29
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/DotNetCore-HttpClient-User-Agent-&amp;-Encoding.md
+
+[256/307]
+
+📖 正在爬取文章: 為什麼要使用ABP框架
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/01/25/ABP00
+  ✓ 標題: 為什麼要使用ABP框架
+  ✓ 日期: 2019-01-25
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/為什麼要使用ABP框架.md
+
+[257/307]
+
+📖 正在爬取文章: 小心.NET HttpClient
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/01/25/httpclient
+  ✓ 標題: 小心.NET HttpClient
+  ✓ 日期: 2019-01-25
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/小心.NET-HttpClient.md
+
+[258/307]
+
+📖 正在爬取文章: 正則表達式 大於1.01的兩位小數
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/01/24/regex
+  ✓ 標題: 正則表達式 大於1.01的兩位小數
+  ✓ 日期: 2019-01-24
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/正則表達式-大於1.01的兩位小數.md
+
+[259/307]
+
+📖 正在爬取文章: ABP (ASP.NET Boilerplate) 應用程式開發框架 No.11 Client Proxies
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/01/18/abp11
+  ✓ 標題: ABP (ASP.NET Boilerplate) 應用程式開發框架 No.11 Client Proxies
+  ✓ 日期: 2019-01-18
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP-(ASP.NET-Boilerplate)-應用程式開發框架-No.11-Client-Proxies.md
+
+[260/307]
+
+📖 正在爬取文章: ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.10 範例程式
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/01/15/abp10
+  ✓ 標題: ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.10 範例程式
+  ✓ 日期: 2019-01-15
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP-(ASP.NET-Boilerplate)-應用程式開發框架-新手教學-No.10-範例程式.md
+
+[261/307]
+
+📖 正在爬取文章: svn: E140000: Can't read length line: db/txn-current & E2000002: Cant not parse lock / entries hashfile '{0}'
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/01/09/txn-current
+  ✓ 標題: svn: E140000: Can&#x27;t read length line: db/txn-current &amp; E2000002: Cant&#xA0;not parse lock / entries hashfile &#x27;{0}&#x27;
+  ✓ 日期: 2019-01-09
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/svn-E140000-Can&#x27;t-read-length-line-dbtxn-current-&amp;-E2000002-Cant&#xA0;not-parse-lock-entrie.md
+
+[262/307]
+
+📖 正在爬取文章: 如何在 Angular CLI 建立的 Angular 2 開發環境呼叫遠端 RESTful APIs
+   URL: https://www.dotblogs.com.tw/jakeuj/2019/01/07/Setup-proxy-to-backend-in-Angular-CLI
+  ✓ 標題: 如何在 Angular CLI 建立的 Angular 2 開發環境呼叫遠端 RESTful APIs
+  ✓ 日期: 2019-01-07
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/如何在-Angular-CLI-建立的-Angular-2-開發環境呼叫遠端-RESTful-APIs.md
+
+[263/307]
+
+📖 正在爬取文章: Angular Application
+   URL: https://www.dotblogs.com.tw/jakeuj/2018/12/26/AngularApplication
+  ✓ 標題: Angular Application
+  ✓ 日期: 2018-12-26
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Angular-Application.md
+
+[264/307]
+
+📖 正在爬取文章: Migration database update in Rider
+   URL: https://www.dotblogs.com.tw/jakeuj/2018/12/25/jetbrains_rider_migration
+  ✓ 標題: Migration database update in Rider
+  ✓ 日期: 2018-12-25
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Migration-database-update-in-Rider.md
+
+[265/307]
+
+📖 正在爬取文章: 影片分享 介紹 DevOps 軟體開發文化 (TechDays)
+   URL: https://www.dotblogs.com.tw/jakeuj/2018/12/21/devops
+  ✓ 標題: 影片分享 介紹 DevOps 軟體開發文化 (TechDays)
+  ✓ 日期: 2018-12-21
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/影片分享-介紹-DevOps-軟體開發文化-(TechDays).md
+
+[266/307]
+
+📖 正在爬取文章: DotNet Core 高併發壓力測試時 Redis timeout exception (ThreadPool.SetMinThreads)
+   URL: https://www.dotblogs.com.tw/jakeuj/2018/07/18/DotNetCoreRedis
+  ✓ 標題: DotNet Core 高併發壓力測試時 Redis timeout exception (ThreadPool.SetMinThreads)
+  ✓ 日期: 2018-07-18
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/DotNet-Core-高併發壓力測試時-Redis-timeout-exception-(ThreadPool.SetMinThreads).md
+
+[267/307]
+
+📖 正在爬取文章: Linux Unity WebGL Httpd userdir 設定
+   URL: https://www.dotblogs.com.tw/jakeuj/2018/01/08/LinuxWebGL
+  ✓ 標題: Linux Unity WebGL Httpd userdir 設定
+  ✓ 日期: 2018-01-08
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Linux-Unity-WebGL-Httpd-userdir-設定.md
+
+[268/307]
+
+📖 正在爬取文章: C# 單例模式
+   URL: https://www.dotblogs.com.tw/jakeuj/2017/10/30/Singleton
+  ✓ 標題: C# 單例模式
+  ✓ 日期: 2017-10-30
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/C#-單例模式.md
+
+[269/307]
+
+📖 正在爬取文章: Visual Studio 2017 全新安裝之後無法正常開啟 DotNetCore 1.x 專案
+   URL: https://www.dotblogs.com.tw/jakeuj/2017/10/16/dotnetcore1
+  ✓ 標題: Visual Studio 2017 全新安裝之後無法正常開啟 DotNetCore 1.x 專案
+  ✓ 日期: 2017-10-16
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Visual-Studio-2017-全新安裝之後無法正常開啟-DotNetCore-1.x-專案.md
+
+[270/307]
+
+📖 正在爬取文章: ABP (ASP.NET Boilerplate) 應用程式開發框架 改用 MySql
+   URL: https://www.dotblogs.com.tw/jakeuj/2017/09/08/abp_mysql
+  ✓ 標題: ABP (ASP.NET Boilerplate) 應用程式開發框架 改用 MySql
+  ✓ 日期: 2017-09-08
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP-(ASP.NET-Boilerplate)-應用程式開發框架-改用-MySql.md
+
+[271/307]
+
+📖 正在爬取文章: 帳號密碼安全機制
+   URL: https://www.dotblogs.com.tw/jakeuj/2016/08/08/password
+  ✓ 標題: 帳號密碼安全機制
+  ✓ 日期: 2016-08-08
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/帳號密碼安全機制.md
+
+[272/307]
+
+📖 正在爬取文章: 在 CentOS/RHEL 7.1, 6.7 and 5.11 版本上用yum安裝  PHP 5.4
+   URL: https://www.dotblogs.com.tw/jakeuj/2016/08/01/php
+  ✓ 標題: 在 CentOS/RHEL 7.1, 6.7 and 5.11 版本上用yum安裝  PHP 5.4
+  ✓ 日期: 2016-08-01
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/在-CentOSRHEL-7.1,-6.7-and-5.11-版本上用yum安裝-PHP-5.4.md
+
+[273/307]
+
+📖 正在爬取文章: ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.9 全篇後記
+   URL: https://www.dotblogs.com.tw/jakeuj/2016/07/28/abp9
+  ✓ 標題: ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.9 全篇後記
+  ✓ 日期: 2016-07-28
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP-(ASP.NET-Boilerplate)-應用程式開發框架-新手教學-No.9-全篇後記.md
+
+[274/307]
+
+📖 正在爬取文章: ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.8 單元測試
+   URL: https://www.dotblogs.com.tw/jakeuj/2016/07/28/abp8
+  ✓ 標題: ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.8 單元測試
+  ✓ 日期: 2016-07-28
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP-(ASP.NET-Boilerplate)-應用程式開發框架-新手教學-No.8-單元測試.md
+
+[275/307]
+
+📖 正在爬取文章: ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.7 建立WebApi
+   URL: https://www.dotblogs.com.tw/jakeuj/2016/07/28/abp7
+  ✓ 標題: ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.7 建立WebApi
+  ✓ 日期: 2016-07-28
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP-(ASP.NET-Boilerplate)-應用程式開發框架-新手教學-No.7-建立WebApi.md
+
+[276/307]
+
+📖 正在爬取文章: ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.6 建立應用服務
+   URL: https://www.dotblogs.com.tw/jakeuj/2016/07/28/abp6
+  ✓ 標題: ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.6 建立應用服務
+  ✓ 日期: 2016-07-28
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP-(ASP.NET-Boilerplate)-應用程式開發框架-新手教學-No.6-建立應用服務.md
+
+[277/307]
+
+📖 正在爬取文章: ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.5 建立倉儲 Repository
+   URL: https://www.dotblogs.com.tw/jakeuj/2016/07/28/abp5
+  ✓ 標題: ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.5 建立倉儲 Repository
+  ✓ 日期: 2016-07-28
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP-(ASP.NET-Boilerplate)-應用程式開發框架-新手教學-No.5-建立倉儲-Repository.md
+
+[278/307]
+
+📖 正在爬取文章: ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.4 資料庫遷移 Migration
+   URL: https://www.dotblogs.com.tw/jakeuj/2016/07/27/abp4
+  ✓ 標題: ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.4 資料庫遷移 Migration
+  ✓ 日期: 2016-07-27
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP-(ASP.NET-Boilerplate)-應用程式開發框架-新手教學-No.4-資料庫遷移-Migration.md
+
+[279/307]
+
+📖 正在爬取文章: ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.3 建立資料庫上下文 DbContext
+   URL: https://www.dotblogs.com.tw/jakeuj/2016/07/27/abp3
+  ✓ 標題: ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.3 建立資料庫上下文 DbContext
+  ✓ 日期: 2016-07-27
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP-(ASP.NET-Boilerplate)-應用程式開發框架-新手教學-No.3-建立資料庫上下文-DbContext.md
+
+[280/307]
+
+📖 正在爬取文章: ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.2 建立實體 Entity
+   URL: https://www.dotblogs.com.tw/jakeuj/2016/07/26/abp2
+  ✓ 標題: ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.2 建立實體 Entity
+  ✓ 日期: 2016-07-26
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP-(ASP.NET-Boilerplate)-應用程式開發框架-新手教學-No.2-建立實體-Entity.md
+
+[281/307]
+
+📖 正在爬取文章: ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.1 建立專案
+   URL: https://www.dotblogs.com.tw/jakeuj/2016/07/26/abp1
+  ✓ 標題: ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.1 建立專案
+  ✓ 日期: 2016-07-26
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ABP-(ASP.NET-Boilerplate)-應用程式開發框架-新手教學-No.1-建立專案.md
+
+[282/307]
+
+📖 正在爬取文章: 控制反轉(IoC) 與 相依性注入(DI) 簡單說明
+   URL: https://www.dotblogs.com.tw/jakeuj/2016/07/15/IoC_DI
+  ✓ 標題: 控制反轉(IoC) 與 相依性注入(DI) 簡單說明
+  ✓ 日期: 2016-07-15
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/控制反轉(IoC)-與-相依性注入(DI)-簡單說明.md
+
+[283/307]
+
+📖 正在爬取文章: SignalR 2.0 與 Unity Game 的 WebSocket 連線筆記
+   URL: https://www.dotblogs.com.tw/jakeuj/2016/07/07/UnitySignalR
+  ✓ 標題: SignalR 2.0 與 Unity Game 的 WebSocket&#xA0;連線筆記
+  ✓ 日期: 2016-07-07
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/SignalR-2.0-與-Unity-Game-的-WebSocket&#xA0;連線筆記.md
+
+[284/307]
+
+📖 正在爬取文章: Unity 5 使用 Android SDK API 24 問題
+   URL: https://www.dotblogs.com.tw/jakeuj/2016/07/04/Unity
+  ✓ 標題: Unity 5 使用 Android SDK API 24 問題
+  ✓ 日期: 2016-07-04
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Unity-5-使用-Android-SDK-API-24-問題.md
+
+[285/307]
+
+📖 正在爬取文章: [ASP.NET][C#] 使用 HtmlAgilityPack 擷取新聞 (爬文機器人)
+   URL: https://www.dotblogs.com.tw/jakeuj/2016/06/14/HtmlAgilityPack
+  ✓ 標題: [ASP.NET][C#] 使用 HtmlAgilityPack 擷取新聞 (爬文機器人)
+  ✓ 日期: 2016-06-14
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/[ASP.NET][C#]-使用-HtmlAgilityPack-擷取新聞-(爬文機器人).md
+
+[286/307]
+
+📖 正在爬取文章: GUID 輸入不含連字號 處理
+   URL: https://www.dotblogs.com.tw/jakeuj/2016/03/30/GUID
+  ✓ 標題: GUID 輸入不含連字號 處理
+  ✓ 日期: 2016-03-30
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/GUID-輸入不含連字號-處理.md
+
+[287/307]
+
+📖 正在爬取文章: MSSQL 資料庫備份到網路磁碟機
+   URL: https://www.dotblogs.com.tw/jakeuj/2016/03/22/mssqlbackup
+  ✓ 標題: MSSQL 資料庫備份到網路磁碟機
+  ✓ 日期: 2016-03-22
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/MSSQL-資料庫備份到網路磁碟機.md
+
+[288/307]
+
+📖 正在爬取文章: Visual Studio 2015 Lua 環境建置
+   URL: https://www.dotblogs.com.tw/jakeuj/2016/03/21/lua
+  ✓ 標題: Visual Studio 2015 Lua 環境建置
+  ✓ 日期: 2016-03-21
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Visual-Studio-2015-Lua-環境建置.md
+
+[289/307]
+
+📖 正在爬取文章: SignalR 2.0 Web 聊天室 Demo
+   URL: https://www.dotblogs.com.tw/jakeuj/2016/02/15/SignalR
+  ✓ 標題: SignalR 2.0 Web 聊天室 Demo
+  ✓ 日期: 2016-02-15
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/SignalR-2.0-Web-聊天室-Demo.md
+
+[290/307]
+
+📖 正在爬取文章: Windows Server 2016 於 IIS 10 安裝  Web Farm Framework 問題與解答
+   URL: https://www.dotblogs.com.tw/jakeuj/2016/01/14/wff
+  ✓ 標題: Windows Server 2016 於 IIS 10 安裝  Web Farm Framework 問題與解答
+  ✓ 日期: 2016-01-14
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Windows-Server-2016-於-IIS-10-安裝-Web-Farm-Framework-問題與解答.md
+
+[291/307]
+
+📖 正在爬取文章: Redis Server 架設心得筆記
+   URL: https://www.dotblogs.com.tw/jakeuj/2015/12/24/Redis
+  ✓ 標題: Redis Server 架設心得筆記
+  ✓ 日期: 2015-12-24
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Redis-Server-架設心得筆記.md
+
+[292/307]
+
+📖 正在爬取文章: Windows 和 Windows Phone 開發人員帳戶 MSDN 促銷代碼 免費上架
+   URL: https://www.dotblogs.com.tw/jakeuj/2015/12/02/20151202
+  ✓ 標題: Windows 和 Windows Phone 開發人員帳戶 MSDN 促銷代碼 免費上架
+  ✓ 日期: 2015-12-02
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Windows-和-Windows-Phone-開發人員帳戶-MSDN-促銷代碼-免費上架.md
+
+[293/307]
+
+📖 正在爬取文章: 如何利用「磁碟清理」工具 安全的騰出系統硬碟的多餘空間
+   URL: https://www.dotblogs.com.tw/jakeuj/2015/08/13/153129
+  ✓ 標題: 如何利用&#x300C;磁碟清理&#x300D;工具 安全的騰出系統硬碟的多餘空間
+  ✓ 日期: 2015-08-13
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/如何利用&#x300C;磁碟清理&#x300D;工具-安全的騰出系統硬碟的多餘空間.md
+
+[294/307]
+
+📖 正在爬取文章: IIS HTTP 重新導向 附加參數
+   URL: https://www.dotblogs.com.tw/jakeuj/2014/10/14/146941
+  ✓ 標題: IIS HTTP 重新導向 附加參數
+  ✓ 日期: 2014-10-14
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/IIS-HTTP-重新導向-附加參數.md
+
+[295/307]
+
+📖 正在爬取文章: Visual Studio 2012 Update 2 找不到 WinLibJS_CORE.msi
+   URL: https://www.dotblogs.com.tw/jakeuj/2013/04/29/102467
+  ✓ 標題: Visual Studio 2012 Update 2 找不到 WinLibJS_CORE.msi
+  ✓ 日期: 2013-04-29
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Visual-Studio-2012-Update-2-找不到-WinLibJS_CORE.msi.md
+
+[296/307]
+
+📖 正在爬取文章: Wcf Error (Message part XXXXXResult in namespace http://tempuri.org/ appears more than once in Message.)
+   URL: https://www.dotblogs.com.tw/jakeuj/2012/11/20/84757
+  ✓ 標題: Wcf Error (Message part XXXXXResult in namespace http://tempuri.org/ appears more than once in Message.)
+  ✓ 日期: 2012-11-20
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Wcf-Error-(Message-part-XXXXXResult-in-namespace-httptempuri.org-appears-more-than-once-in-Message.).md
+
+[297/307]
+
+📖 正在爬取文章: 委派 delegate C# 基本概念具現化
+   URL: https://www.dotblogs.com.tw/jakeuj/2012/10/30/CSharp-delegate
+  ✓ 標題: 委派 delegate C# 基本概念具現化
+  ✓ 日期: 2012-10-30
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/委派-delegate-C#-基本概念具現化.md
+
+[298/307]
+
+📖 正在爬取文章: Yahoo! OpenID Api 之 CAPICOM 替代方案(C#)
+   URL: https://www.dotblogs.com.tw/jakeuj/2012/10/08/76334
+  ✓ 標題: Yahoo! OpenID Api 之 CAPICOM 替代方案(C#)
+  ✓ 日期: 2012-10-08
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Yahoo!-OpenID-Api-之-CAPICOM-替代方案(C#).md
+
+[299/307]
+
+📖 正在爬取文章: Visual Studio 2012 .Net 4.5 Validator Error 解決方案
+   URL: https://www.dotblogs.com.tw/jakeuj/2012/10/04/75269
+  ✓ 標題: Visual Studio 2012 .Net 4.5 Validator Error 解決方案
+  ✓ 日期: 2012-10-04
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Visual-Studio-2012-.Net-4.5-Validator-Error-解決方案.md
+
+[300/307]
+
+📖 正在爬取文章: MSSQL取得UnixTime時間戳記
+   URL: https://www.dotblogs.com.tw/jakeuj/2012/09/10/74694
+  ✓ 標題: MSSQL取得UnixTime時間戳記
+  ✓ 日期: 2012-09-10
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/MSSQL取得UnixTime時間戳記.md
+
+[301/307]
+
+📖 正在爬取文章: Mercuria 與 TortoiseHg 安裝與中文化教學
+   URL: https://www.dotblogs.com.tw/jakeuj/2012/07/13/Mercurial
+  ✓ 標題: Mercuria 與 TortoiseHg 安裝與中文化教學
+  ✓ 日期: 2012-07-13
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/Mercuria-與-TortoiseHg-安裝與中文化教學.md
+
+[302/307]
+
+📖 正在爬取文章: C# Socket Server 初版
+   URL: https://www.dotblogs.com.tw/jakeuj/2012/04/11/71413
+  ✓ 標題: C# Socket Server 初版
+  ✓ 日期: 2012-04-11
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/C#-Socket-Server-初版.md
+
+[303/307]
+
+📖 正在爬取文章: 使用CAPICOM於64位元系統 (CAPICOM on 64 Bit) Use C# With ASP.NET
+   URL: https://www.dotblogs.com.tw/jakeuj/2012/03/03/70494
+  ✓ 標題: 使用CAPICOM於64位元系統 (CAPICOM on 64 Bit) Use C# With ASP.NET
+  ✓ 日期: 2012-03-03
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/使用CAPICOM於64位元系統-(CAPICOM-on-64-Bit)-Use-C#-With-ASP.NET.md
+
+[304/307]
+
+📖 正在爬取文章: 初體驗 FB API (JAVASCRIPT)
+   URL: https://www.dotblogs.com.tw/jakeuj/2011/07/19/31795
+  ✓ 標題: 初體驗 FB API (JAVASCRIPT)
+  ✓ 日期: 2011-07-19
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/初體驗-FB-API-(JAVASCRIPT).md
+
+[305/307]
+
+📖 正在爬取文章: [JAVA] Eclipse 開發環境建立與選擇性中文化介面及API說明文件
+   URL: https://www.dotblogs.com.tw/jakeuj/2011/07/12/31512
+  ✓ 標題: [JAVA] Eclipse 開發環境建立與選擇性中文化介面及API說明文件
+  ✓ 日期: 2011-07-12
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/[JAVA]-Eclipse-開發環境建立與選擇性中文化介面及API說明文件.md
+
+[306/307]
+
+📖 正在爬取文章: ASP.NET C# URL 處理片段資訊(網址#後的訊息)
+   URL: https://www.dotblogs.com.tw/jakeuj/2011/07/08/31335
+  ✓ 標題: ASP.NET C# URL 處理片段資訊(網址#後的訊息)
+  ✓ 日期: 2011-07-08
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/ASP.NET-C#-URL-處理片段資訊(網址#後的訊息).md
+
+[307/307]
+
+📖 正在爬取文章: 發布技術文章 (Windows Live Writer + 程式碼插入外掛程式)
+   URL: https://www.dotblogs.com.tw/jakeuj/2011/07/08/31325
+  ✓ 標題: 發布技術文章 (Windows Live Writer &#x2B; 程式碼插入外掛程式)
+  ✓ 日期: 2011-07-08
+  ✓ 標籤: 無
+  ✓ 已保存: Writerside/topics/發布技術文章-(Windows-Live-Writer-&#x2B;-程式碼插入外掛程式).md
+
+============================================================
+✅ 完成!
+📊 統計:
+   - 總共處理: 306 篇文章
+   - 新增文章: 306 篇
+   - 跳過已存在: 0 篇
+📁 文章保存在: Writerside/topics
+🖼️  圖片保存在: Writerside/images/dotblog
+📋 文章資訊: Writerside/topics/_articles_info.json
+============================================================

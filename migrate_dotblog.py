@@ -16,9 +16,9 @@ from markdownify import markdownify as md
 
 # 配置
 BASE_URL = "https://www.dotblogs.com.tw/jakeuj/"
-OUTPUT_DIR = "Writerside/topics/dotblog"
+OUTPUT_DIR = "Writerside/topics"  # 直接輸出到 topics 根目錄(Writerside 不支援子資料夾)
 IMAGES_DIR = "Writerside/images/dotblog"
-TOTAL_PAGES = 1  # 實際上每頁都顯示相同的文章,只需爬取第1頁
+TOTAL_PAGES = 17  # 總共有 17 頁文章列表
 
 # 技術分類映射
 CATEGORY_MAPPING = {
@@ -122,7 +122,7 @@ def get_article_links_from_page(page_num):
     if page_num == 1:
         url = BASE_URL
     else:
-        url = f"{BASE_URL}?page={page_num}"
+        url = f"{BASE_URL}{page_num}"  # 修正: 點部落的分頁格式是 /jakeuj/2, /jakeuj/3 等
 
     print(f"\n📄 正在爬取第 {page_num} 頁: {url}")
 
@@ -300,6 +300,16 @@ def save_article_to_markdown(article):
 
     filepath = os.path.join(OUTPUT_DIR, f"{filename}.md")
 
+    # 檢查檔案是否已存在
+    if os.path.exists(filepath):
+        print(f"  ⏭️  檔案已存在,跳過: {filename}.md")
+        return {
+            'filename': f"{filename}.md",
+            'category': article['category'],
+            'title': article['title'],
+            'skipped': True
+        }
+
     # 確保目錄存在
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -359,6 +369,8 @@ def main():
     # 第二步:爬取每篇文章的內容
     print("\n📚 第二階段:爬取文章內容...")
     articles_info = []
+    skipped_count = 0
+    new_count = 0
 
     for idx, article_link in enumerate(all_article_links, 1):
         print(f"\n[{idx}/{len(all_article_links)}]")
@@ -366,6 +378,10 @@ def main():
         if article:
             file_info = save_article_to_markdown(article)
             articles_info.append(file_info)
+            if file_info.get('skipped'):
+                skipped_count += 1
+            else:
+                new_count += 1
 
         # 避免請求過快
         time.sleep(2)
@@ -379,7 +395,11 @@ def main():
         json.dump(articles_info, f, ensure_ascii=False, indent=2)
 
     print("\n" + "=" * 60)
-    print(f"✅ 完成! 共處理 {len(articles_info)} 篇文章")
+    print(f"✅ 完成!")
+    print(f"📊 統計:")
+    print(f"   - 總共處理: {len(articles_info)} 篇文章")
+    print(f"   - 新增文章: {new_count} 篇")
+    print(f"   - 跳過已存在: {skipped_count} 篇")
     print(f"📁 文章保存在: {OUTPUT_DIR}")
     print(f"🖼️  圖片保存在: {IMAGES_DIR}")
     print(f"📋 文章資訊: {info_file}")
