@@ -60,10 +60,11 @@ C:\Windows\System32\drivers\etc\hosts
 
 head 附加 api.js
 
+```html
 <script src="https://hcaptcha.com/1/api.js" async defer></script>
-
 ```
 
+```html
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
