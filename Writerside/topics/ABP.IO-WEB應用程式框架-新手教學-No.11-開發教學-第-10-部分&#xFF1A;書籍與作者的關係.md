@@ -236,7 +236,7 @@ namespace Acme.BookStore
 
 讓我們從 DTO 開始。
 
-#### 書Dto
+#### BookDto - 書籍資料傳輸對象
 
 打開 `Acme.BookStore.Application.Contracts` 項目 `Books` 文件夾中的`BookDto`類並添加以下屬性：
 
@@ -272,7 +272,7 @@ namespace Acme.BookStore.Books
 
 ![](https://dotblogsfile.blob.core.windows.net/user/御星幻/78eea910-a6d5-4f3e-94ae-85cae8430a5d/1627035471.png)
 
-#### 創建更新書Dto
+#### CreateUpdateBookDto - 創建更新書籍
 
 打開 `Acme.BookStore.Application.Contracts` 項目 `Books` 文件夾中的`CreateUpdateBookDto`類，添加一個屬性 `AuthorId`，如圖：
 
@@ -280,7 +280,7 @@ namespace Acme.BookStore.Books
 public Guid AuthorId { get; set; }
 ```
 
-#### 作者查找Dto
+#### AuthorLookupDto - 作者查找
 
 在`Acme.BookStore.Application.Contracts`項目裡面的`Books`文件夾創建一個新的類`AuthorLookupDto`：
 

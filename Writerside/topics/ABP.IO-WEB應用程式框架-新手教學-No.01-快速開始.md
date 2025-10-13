@@ -322,7 +322,9 @@ ABP 為實體提供默認的通用[存儲庫](https://docs.abp.io/zh-Hans/abp/la
 
 Implement
 
-#### [獲取 Todo 項目](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#getting-todo-items)
+#### GetListAsync - 獲取 Todo 項目
+
+參考: [ABP 官方教學 - 獲取 Todo 項目](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#getting-todo-items)
 
 讓我們從實現該`GetListAsync`方法開始：
 
@@ -347,7 +349,9 @@ public async Task<List<TodoItemDto>> GetListAsync()
 
 GetListAsync
 
-#### [創建一個新的 Todo 項目](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#creating-a-new-todo-item)
+#### CreateAsync - 創建一個新的 Todo 項目
+
+參考: [ABP 官方教學 - 創建一個新的 Todo 項目](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#creating-a-new-todo-item)
 
 下一個方法是`CreateAsync`，我們可以實現它，如下所示：
 

@@ -12,7 +12,7 @@
 
 ## 結論
 
-### Domain 專案
+### 1. Domain 專案安裝套件
 
 安裝 SendGrid.Extensions.DependencyInjection
 
@@ -65,7 +65,7 @@ public override void ConfigureServices(ServiceConfigurationContext context)
 
 例如內建 SMTP 或是 MailKit … ETC.
 
-### Domain 專案
+### 2. Domain 專案實作介面
 
 ISendGridEmailSender
 

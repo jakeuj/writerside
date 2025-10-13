@@ -86,8 +86,8 @@ public async Task DoSomethingAsync(
 
 剩下的泛型則一樣是該方法的傳入參數的型別
 
-* void test() {} => `Action<T>` => Action
-* int test() {return 1;} => `Func<TResult>` => Func<int>
+* void test() {} => `Action<T>` => `Action`
+* int test() {return 1;} => `Func<TResult>` => `Func<int>`
 
 先考慮要傳入的方法是否需要回傳東西 (Task, int, string … ETC.)
 

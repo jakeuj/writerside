@@ -91,10 +91,10 @@ namespace MyCompany.MyProject.EntityFramework.Repositories
 ```
 
 * GetAll()
-  返回IQueryable<T>
+  返回 `IQueryable<T>`
   因為有延遲載入(Lazy Loading)的特性，所以實際與資料庫連接是在使用ToList()方法時
 * GetAllList()
-  返回List<T>
+  返回 `List<T>`
   這個則是在呼叫時就會立即從資料來源取出資料
 
 到這邊倉儲就已經建立完成了

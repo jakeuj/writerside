@@ -69,10 +69,10 @@ memUrl: "Release/Reborn.memgz",
 firewall-cmd --zone=public --add-port=80/tcp --permanent
 systemctl restart firewalld.service
 
-### 安裝SELINUX政策管理
+### 步驟 1: 安裝 SELINUX 政策管理
 yum install policycoreutils-python
 
-### 設定SELINUX
+### 步驟 2: 設定 SELINUX 權限
 semanage fcontext -a -t httpd\_sys\_content\_t "/home/jake/public\_html(/.\*)?"
 
 ### 或是直接關閉防火牆 (不建議)
@@ -84,7 +84,7 @@ systemctl disable firewalld.service
 sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/sysconfig/selinux
 sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/selinux/config
 
-### 附上暫時關閉SELINUX
+### 替代方案 3: 暫時關閉 SELINUX
 
 sudo setenforce 0
 

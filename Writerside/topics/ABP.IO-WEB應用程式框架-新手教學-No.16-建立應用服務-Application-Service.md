@@ -49,7 +49,7 @@ namespace Acme.BookStore.Books
 
 ![](https://dotblogsfile.blob.core.windows.net/user/御星幻/bff36275-1beb-423a-9664-b96e21b3c91c/1626684853.png)
 
-這邊 Dto 基類可以自己換別的，比如只有Id的EntityDto<T>
+這邊 Dto 基類可以自己換別的，比如只有Id的 `EntityDto<T>`
 
 ```
 namespace AbpDemo

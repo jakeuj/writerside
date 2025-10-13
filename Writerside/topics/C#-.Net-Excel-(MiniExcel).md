@@ -32,7 +32,7 @@ P.S. 樣板填充支援 **合併欄位** 與 **多 Sheets** (會依序填充各�
 
 結果
 
-### Sample Code
+### 範例程式碼 1
 
 ```
 public async Task GenerateExcels(string path, string templatePath, List<Employee> input)
@@ -51,7 +51,7 @@ public async Task GenerateExcels(string path, string templatePath, List<Employee
 
 樣板
 
-### Sample Code
+### 範例程式碼 2
 
 ```
 public async Task<IRemoteStreamContent> GenerateExcels(List<User> input)

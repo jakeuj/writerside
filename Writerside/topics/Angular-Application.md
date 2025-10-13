@@ -6,11 +6,9 @@
 
 ---
 
-### Angular Application
+## 安裝步驟
 
-### Angular Application
-
-1.Node.Js
+### 1. Node.Js
 
 https://nodejs.org/en/download/
 

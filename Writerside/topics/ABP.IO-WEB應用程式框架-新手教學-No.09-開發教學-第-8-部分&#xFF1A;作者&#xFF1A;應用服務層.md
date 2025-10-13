@@ -105,7 +105,7 @@ namespace Acme.BookStore.Authors
 
 ![](https://dotblogsfile.blob.core.windows.net/user/御星幻/f2f20135-b3fd-4c0d-843e-dd74ccc5877a/1627030856.png)
 
-### 獲取作者列表Dto
+### GetAuthorListDto - 獲取作者列表
 
 ```
 using Volo.Abp.Application.Dtos;
@@ -125,7 +125,7 @@ namespace Acme.BookStore.Authors
 ![](https://dotblogsfile.blob.core.windows.net/user/御星幻/f2f20135-b3fd-4c0d-843e-dd74ccc5877a/1627030919.png)
 > ABP 框架有這樣的基本 DTO 類來簡化和標準化你的 DTO。請參閱[DTO 文檔](https://docs.abp.io/en/abp/latest/Data-Transfer-Objects)了解所有信息。
 
-### 創建作者Dto
+### CreateAuthorDto - 創建作者
 
 ```
 using System;
@@ -151,7 +151,7 @@ namespace Acme.BookStore.Authors
 
 ![](https://dotblogsfile.blob.core.windows.net/user/御星幻/f2f20135-b3fd-4c0d-843e-dd74ccc5877a/1627030989.png)
 
-### 更新作者Dto
+### UpdateAuthorDto - 更新作者
 
 ```
 using System;
