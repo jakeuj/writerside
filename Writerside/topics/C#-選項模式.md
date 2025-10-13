@@ -49,7 +49,7 @@ public override void ConfigureServices(ServiceConfigurationContext context)
 public void Should_Get_Options()
 {
     // Arrange
-    var options = GetRequiredService<`IOptions<TestOptions>`>().Value;
+    var options = GetRequiredService<IOptions<TestOptions>>().Value;
 
     // Act
     var result = options.Age;

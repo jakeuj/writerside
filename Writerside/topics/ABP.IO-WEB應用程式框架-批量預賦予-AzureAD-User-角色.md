@@ -31,10 +31,10 @@ public class CustomIdentityUserCreateDto
 public class CustomIdentityUserAppService : ApplicationService
 {
     private IdentityUserManager UserManager { get; }
-    private `IOptions<IdentityOptions>` IdentityOptions { get; }
+    private IOptions<IdentityOptions> IdentityOptions { get; }
     public CustomIdentityUserAppService(
         IdentityUserManager userManager,
-        `IOptions<IdentityOptions>` identityOptions)
+        IOptions<IdentityOptions> identityOptions)
     {
         UserManager = userManager;
         IdentityOptions = identityOptions;
@@ -96,7 +96,7 @@ public class MyIdentityUserAppService : IdentityUserAppService
         IdentityUserManager userManager,
         IIdentityUserRepository userRepository,
         IIdentityRoleRepository roleRepository,
-        `IOptions<IdentityOptions>` identityOptions) : base(userManager, userRepository, roleRepository,
+        IOptions<IdentityOptions> identityOptions) : base(userManager, userRepository, roleRepository,
         identityOptions)
     {
     }
