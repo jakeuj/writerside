@@ -7,6 +7,28 @@
                  start-page="Default.md">
 
     <toc-element topic="Default.md">
+        <toc-element topic="Dot-Blog.md">
+            <toc-element topic="dotblog/HTTP-301-Moved-Permanently-httpsjakeuj.com.md"/>
+            <toc-element topic="dotblog/[2021]-ABP.IO-WEB應用程式框架-新手教學-No.00-全篇索引.md"/>
+            <toc-element topic="dotblog/ABP-(ASP.NET-Boilerplate)-應用程式開發框架-新手教學-No.0-全篇索引.md"/>
+            <toc-element topic="dotblog/ABP.IO-File-System.md"/>
+            <toc-element topic="dotblog/ABP.IO-File-Management.md"/>
+            <toc-element topic="dotblog/Powershell-Test-NetConnection-Port.md"/>
+            <toc-element topic="dotblog/如何在收到-PFX-或-CER-憑證檔之後使用-OpenSSL-進行常見的格式轉換.md"/>
+            <toc-element topic="dotblog/常見的PowerShell-輸出訊息的-2-種方法.md"/>
+            <toc-element topic="dotblog/Docker-程序無法存取檔案&#xFF0C;因為另一個程序已鎖定檔案的一部分.md"/>
+            <toc-element topic="dotblog/Git-Credential-Manager-for-Windows.md"/>
+            <toc-element topic="dotblog/Nuget-Restore-找不到自己設定的-Nuget-Config-Sources.md"/>
+            <toc-element topic="dotblog/Azure-App-Service-Deploy-錯誤-System.UnauthorizedAccessException.md"/>
+            <toc-element topic="dotblog/Windows-Terminal-加入-Git-Bash.md"/>
+            <toc-element topic="dotblog/GCP-虛擬私有雲網路對等互連(VPC-peering)-vs-Cloud-SQL.md"/>
+            <toc-element topic="dotblog/Jetbrains-Writerside-CICD-自動化部署-Markdown-到-GIthub-Pages.md"/>
+            <toc-element topic="dotblog/CICD-Github-workflow-使用私人庫的子模組.md"/>
+            <toc-element topic="dotblog/在-Windows-使用-Docker-跑-ML-tensorflow-並啟用-GPU.md"/>
+            <toc-element topic="dotblog/GCP-Cloud-SQL-Postgres-向量搜尋.md"/>
+            <toc-element topic="dotblog/the-virtual-path-maps-to-another-application,-which-is-not-allowed.md"/>
+            <toc-element topic="dotblog/EDGE-刪除-localhost-的-HSTS.md"/>
+        </toc-element>
         <toc-element topic="links.md">
             <toc-element topic="Side-Projects.md"/>
             <toc-element topic="贊助.md"/>
