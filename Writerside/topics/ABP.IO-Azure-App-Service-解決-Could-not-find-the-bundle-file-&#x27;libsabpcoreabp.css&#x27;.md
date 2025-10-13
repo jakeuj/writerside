@@ -1,4 +1,4 @@
-# ABP.IO Azure App Service 解決 Could not find the bundle file &#x27;/libs/abp/core/abp.css&#x27;
+# ABP.IO Azure App Service 解決 Could not find the bundle file '/libs/abp/core/abp.css' {id="ABP.IO-Azure-App-Service-解決-Could-not-find-the-bundle-file-&#x27;libsabpcoreabp.css&#x27;"}
 
 > **原文發布日期:** 2023-12-06
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/12/06/abp-Azure-App-Service-DevOps-deploy-cmd

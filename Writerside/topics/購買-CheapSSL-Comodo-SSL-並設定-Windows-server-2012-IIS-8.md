@@ -14,13 +14,13 @@
 
 之類的筆記下
 
-## SSL 驗證級別
+## SSL 驗證級別 {id="ssl-validation-levels"}
 
 1. 域名型 DV (Domain validated)：只需要驗證網址所有權
 2. 企業型 OV (Organization validated)：驗證網址所有權 及 公司登記資料
 3. 增強型 EV (Extended validation)：驗證網址所有權 及 公司登記資料，網址列會呈現綠色，並且包含公司名稱
 
-## SSL 憑證種類
+## SSL 憑證種類 {id="ssl-certificate-types"}
 
 1. 單一憑證 (SSL Certificate)：參考價格 = $7.99/年
    domain.com 和 www.domain.com 可以使用，域名必須完全符合
@@ -53,7 +53,7 @@
 
    參考：[商店頁面](https://cheapsslsecurity.com/comodo/positivemultidomain-wildcardssl.html) 價格 = 基本2SAN $189/年，額外加購每SAN $88/年
 
-## SSL 設定範例
+## SSL 設定範例 - Windows Server 2012 IIS 8 {id="ssl-setup-example"}
 
 * 環境：Windows server 2012 IIS 8
 * 憑證：單一憑證
