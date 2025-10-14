@@ -1,4 +1,0 @@
-# Nvidia
-
-Start typing here...
-

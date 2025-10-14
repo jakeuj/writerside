@@ -1,3 +1,0 @@
-# JetBrains
-
-Start typing here...

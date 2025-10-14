@@ -1,3 +1,0 @@
-# Git
-
-Start typing here...

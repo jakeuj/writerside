@@ -1,3 +1,0 @@
-# PyCharm
-
-Start typing here...

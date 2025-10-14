@@ -1,3 +1,0 @@
-# Python
-
-Start typing here...
