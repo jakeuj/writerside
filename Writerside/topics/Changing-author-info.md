@@ -7,6 +7,7 @@
 1. 打開 Git Bash.
 
 ![git-bash.png](git-bash.png)
+
 2. Clone Repository.
 ```bash
 git clone --bare https://hostname/user/repo.git
