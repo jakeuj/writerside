@@ -103,16 +103,43 @@ Func<T>
 
 ### CTT004: Undefined variable
 
-**原因**: URL 中的 URL 編碼字符（如 `%E6%B7%BB%E5%8A%A0`）被誤認為變數引用。
+**原因**:
+- URL 中的 URL 編碼字符（如 `%E6%B7%BB%E5%8A%A0`）被誤認為變數引用
+- 行內程式碼中的 `%variable%` 語法（如 Windows 環境變數 `%windir%`）被誤認為 Writerside 變數
 
 **修復方式**:
+
+#### 情況 1: URL 中的百分號編碼
+
 ```markdown
-# 方法 1: 使用 Markdown 連結語法
+# 方法 1: 使用 Markdown 連結語法（推薦）
 [ABP 官方教學](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Part-1#%E6%B7%BB%E5%8A%A0)
 
-# 方法 2: 使用 {ignore-vars="true"} 屬性
-<https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Part-1#%E6%B7%BB%E5%8A%A0>
+# 方法 2: 在連結後添加 {ignore-vars="true"}
+- [msdn](http://social.msdn.microsoft.com/Forums/en/netfx64bit/thread/8b0ed9bb){ignore-vars="true"}
+- [google](http://www.google.com.tw/search?q=%E5%9C%A8){ignore-vars="true"}
+```
+
+#### 情況 2: 行內程式碼中的變數語法
+
+**重要**: `{ignore-vars="true"}` 必須**緊接在行內程式碼後面**，不能放在段落前面。
+
+```markdown
+# ❌ 錯誤寫法 - 放在段落前面無效
 {ignore-vars="true"}
+
+1. 複製檔案到 `%windir%\system32`
+2. 執行命令 `%windir%\system32\cmd.exe`
+
+# ✅ 正確寫法 - 緊接在每個行內程式碼後面
+1. 複製檔案到 `%windir%\system32`{ignore-vars="true"}
+2. 執行命令 `%windir%\system32\cmd.exe`{ignore-vars="true"}
+```
+
+**實際範例**:
+```markdown
+1. 複製 capicom.dll 到 `%windir%\syswow64`{ignore-vars="true"}
+2. 執行 CMD 命令 `%windir%\syswow64\regsvr32.exe %windir%\syswow64\capicom.dll`{ignore-vars="true"}
 ```
 
 ### MRK058: Large image in paragraph
@@ -120,7 +147,7 @@ Func<T>
 **原因**: 大圖片被放在段落內，Writerside 預設會將大圖片渲染為區塊元素，可能導致排版問題。
 
 **修復方式**:
-```markdown
+````markdown
 # 方法 1: 將圖片放在段落外（推薦）
 # 在圖片前後加空行，使其成為獨立的區塊
 
@@ -139,7 +166,7 @@ Func<T>
    ![圖片說明](image.png)
 
    圖片說明文字
-```
+````
 
 **參考文檔**: 詳細說明請參考 `Writerside/topics/MRK058-Large-image.md`
 

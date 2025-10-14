@@ -24,19 +24,23 @@ web.config
 <configuration>
   <configSections>
     <!-- 附加這行 -->
-    <section name="log4net" type="log4net.Config.Log4NetConfigurationSectionHandler, log4net"/>
+    <section name="log4net"
+             type="log4net.Config.Log4NetConfigurationSectionHandler, log4net"/>
   </configSections>
   <!-- 附加下面區塊 -->
   <log4net>
-    <appender name="RollingFile" type="log4net.Appender.RollingFileAppender">
+    <appender name="RollingFile"
+              type="log4net.Appender.RollingFileAppender">
       <file value="logs\log.log" />
       <appendToFile value="true" />
       <maximumFileSize value="100KB" />
       <maxSizeRollBackups value="2" />
-      <lockingmodel type="log4net.Appender.FileAppender+MinimalLock" />
+      <lockingmodel
+        type="log4net.Appender.FileAppender+MinimalLock" />
       <datepattern value="'.'yyyy-MM-dd" />
       <layout type="log4net.Layout.PatternLayout">
-        <conversionPattern value="%date | %-5level | %logger{1}.%method:%line | %message%newline" />
+        <conversionPattern
+          value="%date | %-5level | %logger{1}.%method:%line | %message%newline" />
       </layout>
       <filter type="log4net.Filter.LevelRangeFilter">
         <levelmin value="DEBUG" />
@@ -53,6 +57,7 @@ web.config
   <appSettings/>
 </configuration>
 ```
+{ignore-vars="true"}
 
 要用Log的class
 
@@ -66,7 +71,8 @@ public class MyApp
 {
     // Define a static logger variable so that it references the
     // Logger instance named "MyApp".
-    private static readonly ILog log = LogManager.GetLogger(typeof(MyApp));
+    private static readonly ILog log =
+        LogManager.GetLogger(typeof(MyApp));
 
     static void Main(string[] args)
     {

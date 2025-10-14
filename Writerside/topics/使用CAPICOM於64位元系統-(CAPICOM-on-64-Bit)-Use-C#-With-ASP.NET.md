@@ -16,9 +16,8 @@
 
 廢話不多說，以下是在X64系統使用CAPICOM的步驟：
 
-1. 複製 capicom.dll 到 `%windir%\syswow64`
-2. 執行 CMD 命令 `%windir%\syswow64\regsvr32.exe %windir%\syswow64\capicom.dll`
-{ignore-vars="true"}
+1. 複製 capicom.dll 到 `%windir%\syswow64`{ignore-vars="true"}
+2. 執行 CMD 命令 `%windir%\syswow64\regsvr32.exe %windir%\syswow64\capicom.dll`{ignore-vars="true"}
 3. 到 IIS → 應用程式集區 → 應用程式→ 進階設定→ 啟用32位元應用程式→ TRUE
    適用 IIS： *(Could not load file or assembly 'Interop.CAPICOM' or one of its dependencies. 試圖載入格式錯誤的程式。)*
 4. Visual Studios → 參考 → CAPICOM → 內嵌Interop型別 → false
@@ -33,14 +32,13 @@
 下載連結：[CAPICOM](http://www.microsoft.com/downloads/zh-tw/details.aspx?FamilyID=860ee43a-a843-462f-abb5-ff88ea5896f6&DisplayLang=zh-tw)
 
 參考：
-<http://social.msdn.microsoft.com/Forums/en/netfx64bit/thread/8b0ed9bb-1c05-4607-8130-46fb58d64d3e>
 
-<http://www.google.com.tw/search?ix=ieb&sourceid=chrome&ie=UTF-8&q=%E5%9C%A864%E4%BD%8D%E7%B3%BB%E7%BB%9F%E4%B8%AD%E4%BD%BF%E7%94%A8CAPICOM>
-{ignore-vars="true"}
+- [msdn](http://social.msdn.microsoft.com/Forums/en/netfx64bit/thread/8b0ed9bb-1c05-4607-8130-46fb58d64d3e){ignore-vars="true"}
+- [google](http://www.google.com.tw/search?ix=ieb&sourceid=chrome&ie=UTF-8&q=%E5%9C%A864%E4%BD%8D%E7%B3%BB%E7%BB%9F%E4%B8%AD%E4%BD%BF%E7%94%A8CAPICOM){ignore-vars="true"}
 
 聲明：
 
-歡迎轉載，請註明來源 <http://www.dotblogs.com.tw/jakeuj/>，感謝您的支持與配合！
+歡迎轉載，請註明來源 [http://www.dotblogs.com.tw/jakeuj/](http://www.dotblogs.com.tw/jakeuj/)，感謝您的支持與配合！
 
 By [jakeuj@hotmail.com](mailto:jakeuj@hotmail.com) 分享於 [點部落(DotBolog)](http://www.dotblogs.com.tw/)
 
@@ -49,8 +47,6 @@ By [jakeuj@hotmail.com](mailto:jakeuj@hotmail.com) 分享於 [點部落(DotBolog
 PS5
 
 * C#
-{ignore-vars="true"}
-
 * 回首頁
 
 ---

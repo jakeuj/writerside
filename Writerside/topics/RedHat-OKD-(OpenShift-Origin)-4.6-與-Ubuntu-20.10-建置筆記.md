@@ -44,6 +44,8 @@ Openshift 目前共提供三種產品
   SET PATH=C:\Users\yourName\.crc\bin\oc;%PATH%
   @FOR /f "tokens=*" %i IN ('crc oc-env') DO @call %i
   ```
+  {ignore-vars="true"}
+
   這段是在CMD跑，要用PS可能要自己去系統環境變數PATH自己加oc路徑
   然後還要重開機，重開完要重新 crc setup > crc start (有問題crc stop再重跑)
   或是先不管oc，直接從這拿帳密由 `PM> crc console` 開出 web 直接登入管理介面
