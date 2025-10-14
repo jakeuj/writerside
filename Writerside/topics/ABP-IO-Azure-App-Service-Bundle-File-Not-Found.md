@@ -13,6 +13,7 @@ Azure App Service 部屬中心 (Azure DevOps Repos) 自定義 .deployment 安裝
 ## 坑
 
 Powershell Script 中的 `"%DEPLOYMENT_TEMP%"` 最終會變成 `ÞPLOYMENT_TEMP%` 目錄，必須改成 `"$DEPLOYMENT_TEMP"`
+{ignore-vars="true"}
 
 ## 結論
 
@@ -169,6 +170,7 @@ echo "Finished successfully."
    `kuduscript -y --aspNetCore .\src\TestCiCd.HttpApi.Host\TestCiCd.HttpApi.Host.csproj -s .\TestCiCd.sln -t posh`
 5. 修改自動生成的部署腳本 `deploy.ps1`中的 `Deployment` 區塊
    1. `dotnet publish` 的 `"%DEPLOYMENT_TEMP%"` 必須改成 `"$DEPLOYMENT_TEMP"` 否則會輸出到 `ÞPLOYMENT_TEMP%` 導致最後產生空的網站！
+   {ignore-vars="true"}
    2. 加入代碼來安裝並執行 `abp install-libs` 以產生缺少的靜態資源，例如： `/libs/abp/core/abp.css` …ETC.
 
 ```
@@ -203,6 +205,7 @@ dotnet publish "$DEPLOYMENT_SOURCE\src/TestCiCd.HttpApi.Host/TestCiCd.HttpApi.Ho
 ```
 
 ※ 其中 `dotnet publish` 的 `"%DEPLOYMENT_TEMP%"` 改成 `"$DEPLOYMENT_TEMP"`
+{ignore-vars="true"}
 
 `kuduscript -y --aspNetCore .\src\TestCiCd.HttpApi.Host\TestCiCd.HttpApi.Host.csproj -s .\TestCiCd.sln -t posh`
 

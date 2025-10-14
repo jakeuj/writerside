@@ -58,7 +58,7 @@ public async Task<Guid?> CreateBackupAsync(IRemoteStreamContent Content)
 该代码定义了一个名为 `TestFileManagementAppService` 的类，它继承自 `NbEdiAppService`，并提供了一个方法用于创建备份文件夹并将文件存储到其中。以下是代码的详细解释：
 
 ### 构造函数
-```csharp
+```c#
 public TestFileManagementAppService(IRepository<DirectoryDescriptor> directoryDescriptorRepository,
     FileManager fileManager)
 ```
@@ -71,18 +71,18 @@ public TestFileManagementAppService(IRepository<DirectoryDescriptor> directoryDe
 ---
 
 ### `CreateBackupAsync` 方法
-```csharp
+```c#
 public async Task<Guid?> CreateBackupAsync(IRemoteStreamContent Content)
 ```
 该方法的目的是在一个名为 "Backup" 的目录中创建备份文件。如果目录不存在，则会先创建该目录。
 
 1. **查找或创建备份目录**：
-   ```csharp
+   ```c#
    var backup = await _directoryDescriptorRepository.FirstOrDefaultAsync(x =>
        x.Name == "Backup" && x.ParentId == null && x.TenantId == null);
    ```
    这里通过 `FirstOrDefaultAsync` 方法查询名为 "Backup" 的根目录（`ParentId == null` 且 `TenantId == null`）。如果目录不存在：
-   ```csharp
+   ```c#
    backup = await _directoryDescriptorRepository.InsertAsync(
        new DirectoryDescriptor(GuidGenerator.Create(), "Backup"),
        true);
@@ -90,13 +90,13 @@ public async Task<Guid?> CreateBackupAsync(IRemoteStreamContent Content)
    使用 `InsertAsync` 方法创建一个新的 `DirectoryDescriptor` 实体，并将其插入到存储库中。
 
 2. **创建文件**：
-   ```csharp
+   ```c#
    var f = await _fileManager.CreateAsync(Content.FileName, Content.ContentType, Content, backup.Id, null, true);
    ```
    使用 `FileManager` 的 `CreateAsync` 方法将文件存储到备份目录中。方法参数包括文件名、内容类型、文件内容、目标目录 ID 等。
 
 3. **返回目录 ID**：
-   ```csharp
+   ```c#
    return f.DirectoryId;
    ```
    方法返回文件所属目录的 ID（即备份目录的 ID）。

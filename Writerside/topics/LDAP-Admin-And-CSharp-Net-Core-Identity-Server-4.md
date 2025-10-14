@@ -54,6 +54,7 @@ LDAP目錄結構組成：
 * DC(Domain Componet)：網域元件
 
 參照：https://blog.xuite.net/tolarku/blog/151029105-LDAP+%E5%9F%BA%E7%A4%8E%E8%AA%AA%E6%98%8E
+{ignore-vars="true"}
 
  LADP 可以先透過 Client 叫做 Ldap Admin 來進行登入取得資料看一下長怎樣
 

@@ -134,7 +134,7 @@ P.S. You can also add checks for TenantId and UserId to retrieve file lists for 
 
 ### 参数处理
 首先，方法检查 `subPath` 是否为空或仅包含空白字符：
-```csharp
+```c#
 if (!string.IsNullOrWhiteSpace(subPath))
 {
     blobPath = Path.Combine(blobPath, subPath);
@@ -144,7 +144,7 @@ if (!string.IsNullOrWhiteSpace(subPath))
 
 ### 路径验证
 接下来，方法验证合并后的路径是否存在：
-```csharp
+```c#
 if (!Directory.Exists(blobPath))
 {
     return new List<string>();
@@ -154,11 +154,11 @@ if (!Directory.Exists(blobPath))
 
 ### 获取文件名列表
 如果路径存在，方法会创建一个 `DirectoryInfo` 实例来表示该目录：
-```csharp
+```c#
 var di = new DirectoryInfo(blobPath);
 ```
 然后通过调用 `GetFiles` 方法获取目录中的所有文件，并使用 LINQ 将每个文件的名称提取为字符串列表：
-```csharp
+```c#
 return di.GetFiles().Select(x => x.Name).ToList();
 ```
 

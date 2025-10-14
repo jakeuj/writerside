@@ -20,8 +20,7 @@
 
 web.config
 
-```
-
+```xml
 <configuration>
   <configSections>
     <!-- 附加這行 -->

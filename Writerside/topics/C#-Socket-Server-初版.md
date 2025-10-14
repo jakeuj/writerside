@@ -12,7 +12,7 @@ C# Socket Server 初版
 
 ## Server 端
 
-```csharp
+```c#
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -174,7 +174,7 @@ namespace MyServer
 
 ## Client 端
 
-```csharp
+```c#
 using System;
 using System.ComponentModel;
 using System.Net;

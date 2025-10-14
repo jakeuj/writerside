@@ -163,6 +163,7 @@ Acme.BookStore.HttpApi.Host appsettings.Development.json
 包含分頁、排序與篩選…等等常用功能。
 
 參考：https://docs.abp.io/zh-Hans/abp/latest/Application-Services#crud%E5%BA%94%E7%94%A8%E6%9C%8D%E5%8A%A1
+{ignore-vars="true"}
 
 ### 自動生成API Controllers
 

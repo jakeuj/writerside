@@ -16,8 +16,9 @@
 
 廢話不多說，以下是在X64系統使用CAPICOM的步驟：
 
-1. 複製 capicom.dll 到 %windir%\syswow64
-2. 執行 CMD 命令 %windir%\syswow64\regsvr32.exe %windir%\syswow64\capicom.dll
+1. 複製 capicom.dll 到 `%windir%\syswow64`
+2. 執行 CMD 命令 `%windir%\syswow64\regsvr32.exe %windir%\syswow64\capicom.dll`
+{ignore-vars="true"}
 3. 到 IIS → 應用程式集區 → 應用程式→ 進階設定→ 啟用32位元應用程式→ TRUE
    適用 IIS： *(Could not load file or assembly 'Interop.CAPICOM' or one of its dependencies. 試圖載入格式錯誤的程式。)*
 4. Visual Studios → 參考 → CAPICOM → 內嵌Interop型別 → false

@@ -22,7 +22,8 @@
 
 `pwsh`
 
-(%USERPROFILE%\.dotnet\tools\pwsh.exe)
+(`%USERPROFILE%\.dotnet\tools\pwsh.exe`)
+{ignore-vars="true"}
 
 ![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/ebafa58a-d66d-46c8-9056-462b4bc8d04f/1634788135.png)
 
