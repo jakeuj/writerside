@@ -1,5 +1,5 @@
 # Rider
 
-Press <shortcut key="CommentByLineComment"/> to comment.
+Press <shortcut>Ctrl+/</shortcut> to comment.
 
 Press <shortcut key="$Copy"/> to copy.

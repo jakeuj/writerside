@@ -22,7 +22,7 @@ For example, this is how you inject a procedure:
         <img src="completion_procedure.png" alt="completion suggestions for procedure" border-effect="line"/>
     </step>
     <step>
-        <p>Press <shortcut key="$EditorTab"/> or <shortcut key="$EditorEnter"/> to insert the markup.</p>
+        <p>Press <shortcut>Tab</shortcut> or <shortcut>Enter</shortcut> to insert the markup.</p>
     </step>
 </procedure>
 
@@ -53,7 +53,7 @@ but you can modify the behavior by adding the following attribute:
 ### Convert selection to XML
 If you need to extend an element with more functions, you can convert selected content from Markdown to semantic markup.
 For example, if you want to merge cells in a table, it's much easier to convert it to XML than do this in Markdown.
-Position the caret anywhere in the table and press <shortcut key="ShowIntentionActions"/>:
+Position the caret anywhere in the table and press <shortcut>Alt+Enter</shortcut>:
 
 <img src="convert_table_to_xml.png" alt="Convert table to XML" width="706" border-effect="line"/>
 
