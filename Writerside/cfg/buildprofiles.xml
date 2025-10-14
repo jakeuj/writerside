@@ -60,7 +60,7 @@
                 VIS011: 缺少深色模式圖片（Dark version of image not found）- 如果不需要深色模式可忽略
                 SCT001: 硬編碼快捷鍵（Hard-coded shortcut）- 示範文件中可忽略
             -->
-            <ignore-problems>CDE016,CTT004,VIS011,SCT001</ignore-problems>
+            <ignore-problems>VIS011,SCT001</ignore-problems>
         </variables>
     </build-profile>
 </buildprofiles>
