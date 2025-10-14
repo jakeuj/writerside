@@ -6,7 +6,7 @@ Start typing here...
 
 可以設定 `collapsible="true"` 將章節設定為可展開 (預設：`false`)
 
-![collapsible.png](collapsible.png)
+![collapsible.png](collapsible.png){style="block"}
 
 ## procedure
 

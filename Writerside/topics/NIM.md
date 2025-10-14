@@ -19,7 +19,7 @@ NVIDIA NIM 也提供了預建的容器，方便使用者快速部署大型語言
 - [Docker](https://docs.docker.com/engine/install/)
 - NVIDIA Container Toolkit：[installing-with-apt](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#installing-the-nvidia-container-toolkit)
 
-![nim-cuda.png](nim-cuda.png)
+![nim-cuda.png](nim-cuda.png){style="block"}
 
 ## 登入
 使用 Docker 拉取並執行 meta/llama-3_1-8b-instruct（這將下載完整模型並在本機環境中執行）。
@@ -29,11 +29,11 @@ $ docker login nvcr.io
 Username: $oauthtoken
 Password: <Your Key>
 ```
-![nvcr.png](nvcr.png)
+![nvcr.png](nvcr.png){style="block"}
 
 - `<Your Key>`
 
-![nim-key.png](nim-key.png)
+![nim-key.png](nim-key.png){style="block"}
 
 ## 拉取並執行
 使用下面的命令調出並運行英偉達 NIM。這將為您的基礎架構下載最佳化模型。
@@ -71,7 +71,7 @@ Password: <Your Key>
 `The model's max seq len (131072) is larger than the maximum number of tokens that can be stored in KV cache`
 錯誤。
 
-![llama3.png](llama3.png)
+![llama3.png](llama3.png){style="block"}
 
 - Windows PowerShell
     ```Shell
@@ -93,7 +93,7 @@ Password: <Your Key>
         nvcr.io/nim/meta/llama3-8b-instruct:1.0.0
     ```
 
-![nim-ps1.png](nim-ps1.png)
+![nim-ps1.png](nim-ps1.png){style="block"}
 
 ## 呼叫
 現在，您可以使用以下 curl 命令進行本機 API 呼叫
@@ -135,7 +135,7 @@ $response = Invoke-RestMethod -Uri 'http://localhost:8000/v1/chat/completions' `
 # 輸出結果
 $response | ConvertTo-Json -Depth 10
 ```
-![qa.png](qa.png)
+![qa.png](qa.png){style="block"}
 
 ## GPU 記憶體不足
 如果出現以下錯誤，表示 GPU 記憶體不足，無法執行模型。
@@ -181,7 +181,7 @@ SYSTEM INFO
 ```
 {ignore-vars="true"}
 
-![rope.png](rope.png)
+![rope.png](rope.png){style="block"}
 
 ## 沒有權限訪問 Docker daemon
 我在 Ubuntu 全新安裝 Docker 時，會遇到以下錯誤，表示沒有權限訪問 Docker daemon。
@@ -250,7 +250,7 @@ unsatisfied condition: cuda>=12.5, please update your driver to a newer version,
 or use an earlier cuda container: unknown.
 ```
 
-![nvidia-smi.png](nvidia-smi.png)
+![nvidia-smi.png](nvidia-smi.png){style="block"}
 
 3090 Ti 預設安裝的驅動是 535 版本(CUDA 12.2)，CUDA 12.5 需要 555 版本以上，所以需要更新驅動程式。
 
@@ -261,7 +261,7 @@ sudo init 6
 
 更新驅動版本後重新開機應該就可以正常執行 Docker 容器了。
 
-![nvidia-555.png](nvidia-555.png)
+![nvidia-555.png](nvidia-555.png){style="block"}
 
 - 驅動程式版本對應 CUDA 版本
 [CUDA Application Compatibility Support Matrix](https://docs.nvidia.com/deploy/cuda-compatibility/#id3)

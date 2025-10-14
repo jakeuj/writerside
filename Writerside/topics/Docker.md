@@ -2,7 +2,7 @@
 
 筆記下 Docker 的使用方式。
 
-![docker.png](docker.png)
+![docker.png](docker.png){style="block"}
 
 ## Dockerfile
 
@@ -176,7 +176,7 @@ volumes:
 
 如下圖所示
 
-![compose-config.png](compose-config.png)
+![compose-config.png](compose-config.png){style="block"}
 
 實測成功後再次移除 `Don't use Docker fast mode`，一樣會導致讀不到 `--migrate-database`。
 

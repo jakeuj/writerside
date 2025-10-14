@@ -2,7 +2,7 @@
 
 以下是在 Windows PowerShell 中生成 SSH 金鑰並將其傳輸到 `jake@1.2.3.4`（Ubuntu 伺服器）的詳細步驟：
 
-![ps-ssh.png](ps-ssh.png)
+![ps-ssh.png](ps-ssh.png){style="block"}
 
 ## 1. 生成 SSH 金鑰對
 

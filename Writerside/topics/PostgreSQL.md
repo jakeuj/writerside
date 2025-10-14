@@ -2,7 +2,7 @@
 
 Start typing here...
 
-![postgresql.png](postgresql.png)
+![postgresql.png](postgresql.png){style="block"}
 
 ## PostgreSQL
 
@@ -43,11 +43,11 @@ docker run --name some-postgres
 
 最終應該是有個加密憑證也要一起掛出來，保留當初憑證去解密？
 
-![postgresql-rider.png](postgresql-rider.png)
+![postgresql-rider.png](postgresql-rider.png){style="block"}
 
-![rider-ps.png](rider-ps.png)
+![rider-ps.png](rider-ps.png){style="block"}
 
-![migration.png](migration.png)
+![migration.png](migration.png){style="block"}
 
 ## ReFS
 

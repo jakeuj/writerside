@@ -10,11 +10,11 @@
 GET-CimInstance -query "SELECT * from Win32_DiskDrive"
 ```
 
-![image_1.png](image_1.png)
+![image_1.png](image_1.png){style="block"}
 
 下面如果有問題可以到磁碟管理將該磁碟先離線
 
-![image_7.png](image_7.png)
+![image_7.png](image_7.png){style="block"}
 
 ### 2. 掛載磁碟
 
@@ -22,7 +22,7 @@ GET-CimInstance -query "SELECT * from Win32_DiskDrive"
 wsl --mount \\.\PHYSICALDRIVE1 --bare
 ```
 
-![image_2.png](image_2.png)
+![image_2.png](image_2.png){style="block"}
 
 ### 3. 進入 WSL 2
 
@@ -30,7 +30,7 @@ wsl --mount \\.\PHYSICALDRIVE1 --bare
 lsblk
 ```
 
-![image_3.png](image_3.png)
+![image_3.png](image_3.png){style="block"}
 
 ### 4. 識別格式
 
@@ -38,7 +38,7 @@ lsblk
 sudo blkid
 ```
 
-![image_4.png](image_4.png)
+![image_4.png](image_4.png){style="block"}
 
 記錄下 ext4 的 ID = 4
 
@@ -48,7 +48,7 @@ sudo blkid
 wsl --unmount \\.\PHYSICALDRIVE1
 ```
 
-![image_5.png](image_5.png)
+![image_5.png](image_5.png){style="block"}
 
 ### 6. 重新掛載磁碟
 
@@ -58,7 +58,7 @@ wsl --unmount \\.\PHYSICALDRIVE1
 wsl --mount \\.\PHYSICALDRIVE1 --partition 4
 ```
 
-![image_6.png](image_6.png)
+![image_6.png](image_6.png){style="block"}
 
 磁碟已成功裝載為 '/mnt/wsl/PHYSICALDRIVE1p4'。
 

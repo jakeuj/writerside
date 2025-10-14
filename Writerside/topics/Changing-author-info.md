@@ -6,7 +6,7 @@
 
 1. 打開 Git Bash.
 
-![git-bash.png](git-bash.png)
+![git-bash.png](git-bash.png){style="block"}
 
 2. Clone Repository.
 ```bash

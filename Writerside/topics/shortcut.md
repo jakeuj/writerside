@@ -4,11 +4,11 @@ Start typing here...
 
 ## 本地自定義快捷鍵
 
-    Press <shortcut>Ctrl+/</shortcut> to commit.
+    Press <shortcut>Ctrl+/</shortcut> to comment.
 
 ### 輸出
 
-Press <shortcut>Ctrl+/</shortcut> to commit.
+Press <shortcut>Ctrl+/</shortcut> to comment.
 
 ### Ref
 

@@ -1,5 +1,5 @@
 # Rider
 
-Press <shortcut>Ctrl+/</shortcut> to commit.
+Press <shortcut key="CommentByLineComment"/> to comment.
 
 Press <shortcut key="$Copy"/> to copy.

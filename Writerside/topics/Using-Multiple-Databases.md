@@ -9,7 +9,7 @@
 
 需要特別注意一下定序問題
 
-![abp-sec.png](abp-sec.png)
+![abp-sec.png](abp-sec.png){style="block"}
 
 有需要可以改成 `Chinese_Taiwan_Stroke_CI_AS`
 ## 參照

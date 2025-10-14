@@ -19,4 +19,4 @@ abp suite install
 abp suite
 ```
 
-![suite.png](suite.png)
+![suite.png](suite.png){style="block"}

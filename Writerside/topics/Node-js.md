@@ -38,7 +38,7 @@ Add-Content $PROFILE 'fnm env | Out-String | Invoke-Expression'
 
 ## Yarn 安裝
 
-![yarn.png](yarn.png)
+![yarn.png](yarn.png){style="block"}
 
 ```Shell
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass

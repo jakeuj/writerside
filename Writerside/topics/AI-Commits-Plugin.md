@@ -2,31 +2,31 @@
 
 使用 GPT-3 生成代码提交信息。
 
-![plugin.gif](plugin.gif)
+![plugin.gif](plugin.gif){style="block"}
 
 ## 安裝
 [AI Commits](https://plugins.jetbrains.com/plugin/21335-ai-commits)
 
-![ai-commit.png](ai-commit.png)
+![ai-commit.png](ai-commit.png){style="block"}
 
 ## 設定
 
 設定 > 工具 > AI Commits > OpenAI API Key
 
-![open-ai-key.png](open-ai-key.png)
+![open-ai-key.png](open-ai-key.png){style="block"}
 
 Token 可以在 [OpenAI](https://platform.openai.com/account/api-keys) 獲取。
 
-![Token.png](Token.png)
+![Token.png](Token.png){style="block"}
 
 ## 使用
 
 提交時點擊 AI Commits 按鈕，即可生成提交信息。
 
-![commit-msg.png](commit-msg.png)
+![commit-msg.png](commit-msg.png){style="block"}
 
 ## 結果
-![Sc.png](Sc.png)
+![Sc.png](Sc.png){style="block"}
 
 ## 備註
 有需要可以自行調整 prompt，可以將 Commit 改成中文，目前測試用 gpt4o 比較正常。
@@ -55,6 +55,6 @@ Token 可以在 [OpenAI](https://platform.openai.com/account/api-keys) 獲取。
 你的回應應僅包含提交訊息，不包含其他說明或格式。避免冗長，這是 git diff --staged 命令的輸出：{diff}
 ```
 
-![ai-commit-cht.png](ai-commit-cht.png)
+![ai-commit-cht.png](ai-commit-cht.png){style="block"}
 
-![ai-actions.png](ai-actions.png)
+![ai-actions.png](ai-actions.png){style="block"}

@@ -2,7 +2,7 @@
 
 Web App Container 連到 Database Container，這是一個常見的情境。
 
-![link2.png](link2.png)
+![link2.png](link2.png){style="block"}
 
 ## link
 

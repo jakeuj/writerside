@@ -79,7 +79,7 @@ abp install-libs
 
 [AbpException: Could not find the bundle file '/libs/bootstrap-daterangepicker/daterangepicker.css' for the bundle 'Basic.Global'!](https://github.com/abpframework/abp/issues/14907)
 
-![libs.png](libs.png)
+![libs.png](libs.png){style="block"}
 
 ## abp update -v 8.0.0
 專案更新成 .Net 8 (7)

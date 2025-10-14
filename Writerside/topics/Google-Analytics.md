@@ -25,4 +25,4 @@
 
 ## 結果
 
-![ga.png](ga.png)
+![ga.png](ga.png){style="block"}

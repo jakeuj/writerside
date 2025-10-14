@@ -14,7 +14,7 @@ Start typing here...
 
 ## 輸出
 
-![topic-href.png](topic-href.png)
+![topic-href.png](topic-href.png){style="block"}
 
 ## Ref
 

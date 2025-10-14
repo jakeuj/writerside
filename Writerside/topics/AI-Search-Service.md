@@ -20,7 +20,7 @@ Azure 提供向量搜尋服務
 
 ### 1. 建立服務
 
-![ai-search-create.png](ai-search-create.png)
+![ai-search-create.png](ai-search-create.png){style="block"}
 
 ### 2. 取得搜尋服務端點
 
@@ -315,7 +315,7 @@ Request
 
 但目前好像要以組織名義填表單申請才能夠使用該服務
 
-![az-open-ai.png](az-open-ai.png)
+![az-open-ai.png](az-open-ai.png){style="block"}
 
 ```http request
 ### Upload documents

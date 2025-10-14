@@ -63,7 +63,7 @@ steps:
 
 ## 參考圖
 
-![CloudRun.png](CloudRun.png)
+![CloudRun.png](CloudRun.png){style="block"}
 
 ## REF
 

@@ -2,7 +2,7 @@
 
 筆記一下 Ubuntu Desktop 22.04 遠端桌面
 
-![rdp.png](rdp.png)
+![rdp.png](rdp.png){style="block"}
 
 ## update && upgrade
 

@@ -12,8 +12,8 @@ A[Rider] -->B(Solution)
     C -->  |前滾策略| E(latestMajor)
 ```
 
-![sdk.png](sdk.png)
+![sdk.png](sdk.png){style="block"}
 
-![latest.png](latest.png)
+![latest.png](latest.png){style="block"}
 ## REF
 [使用 global.json 精準的選擇 .NET SDK 版本](https://blog.miniasp.com/post/2021/06/04/Choose-the-right-DotNet-SDK-version-using-global-json)

@@ -61,8 +61,8 @@ sudo apt-get install xfce4
 sudo startxfce4
 ```
 
-![xfce4.png](xfce4.png)
+![xfce4.png](xfce4.png){style="block"}
 
 這樣就可以在 Windows 11 上運行 Linux 的桌面了。
 
-![image_11.png](image_11.png)
+![image_11.png](image_11.png){style="block"}

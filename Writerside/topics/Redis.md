@@ -11,7 +11,7 @@ docker run -d --name redis -p 6379:6379 redis
 
 - 注意 Docker 基本指令並不能讓人連進去，記得一定要加上 -p 之類的
 
-![redis.png](redis.png)
+![redis.png](redis.png){style="block"}
 
 ## REF
 - [Redis Server 架設心得筆記](https://dotblogs.com.tw/jakeuj/2015/12/24/redis)

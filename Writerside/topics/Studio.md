@@ -31,7 +31,7 @@ exit $LASTEXITCODE
 
 或是把 redis container 與 network 刪除，再用 Studio 執行方案內的 docker-dependencies 項目
 
-![docker-rm-net.png](docker-rm-net.png)
+![docker-rm-net.png](docker-rm-net.png){style="block"}
 
 ## network
 在您的 docker-compose.infrastructure.yml 文件中，abpsolution6 網路被設置為 external: true， 
@@ -51,7 +51,7 @@ docker network rm abpsolution6
 
 Rider 可以加入 PowerShell 腳本，用來執行 docker-compose.infrastructure.yml
 
-![rider-ps1.png](rider-ps1.png)
+![rider-ps1.png](rider-ps1.png){style="block"}
 
 ## Node.js
 ABP Studio 需要 Node.js 版本為 v18 或 v16
@@ -71,11 +71,11 @@ npm -v # 应该打印 `10.8.2`
 
 - 單一版本：僅需一個版本可以直接從 [Node.js 官方](https://nodejs.org/zh-cn/download/prebuilt-installer) 下載安裝
 
-![nodejs18.png](nodejs18.png)
+![nodejs18.png](nodejs18.png){style="block"}
 
 - 多版本切換：有其他專案會用到不同版本可以使用 NVM，可以參考此篇筆記 [Vue](Vue.md)
 
-![nvm18.png](nvm18.png)
+![nvm18.png](nvm18.png){style="block"}
 
 ## WireGuard (選擇性)
 WireGuard 是一個快速、現代、安全的 VPN 協議，可以用來連接到公司內部網路，或是在公共網路上保護隱私。
@@ -152,20 +152,20 @@ ABP Studio 在背景中定期檢查更新，當ABP Studio的新版本可用時�
 
 - 工具箱：用來建立與執行方案
 
-![abp-studio-rider.png](abp-studio-rider.png)
+![abp-studio-rider.png](abp-studio-rider.png){style="block"}
 
 - Docker-Dependencies：用來建立 Redis 服務
 
-![abp-docker.png](abp-docker.png)
+![abp-docker.png](abp-docker.png){style="block"}
 
 - Auth Server：用來建立身分驗證服務
 
-![abp-auth.png](abp-auth.png)
+![abp-auth.png](abp-auth.png){style="block"}
 
 - Swagger：用來建立 API 文件
 
-![abp-swagger](abp-swagger.png)
+![abp-swagger](abp-swagger.png){style="block"}
 
 - Blazor WebApp：提供管理介面，例如使用者、角色、權限、OpenId(OAuth)、設定(類似 appsettings.json)、多語言、審計(登入紀錄)...等等
 
-![abp-blazor.png](abp-blazor.png)
+![abp-blazor.png](abp-blazor.png){style="block"}

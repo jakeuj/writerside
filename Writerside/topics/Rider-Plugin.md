@@ -12,8 +12,8 @@
 
 ## 示意圖
 
-![ef-tool-plugin.png](ef-tool-plugin.png)
+![ef-tool-plugin.png](ef-tool-plugin.png){style="block"}
 
-![ef-tool.png](ef-tool.png)
+![ef-tool.png](ef-tool.png){style="block"}
 
-![migration.png](migration.png)
+![migration.png](migration.png){style="block"}

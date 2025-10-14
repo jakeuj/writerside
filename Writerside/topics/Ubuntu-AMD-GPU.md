@@ -6,7 +6,7 @@
 
 [Drivers and Support for Processors and Graphics](https://www.amd.com/en/support/professional-graphics/amd-radeon-pro/amd-radeon-pro-w7000-series/amd-radeon-pro-w7900)
 
-![7900XT.png](7900XT.png)
+![7900XT.png](7900XT.png){style="block"}
 
 ## 安裝 Driver
 
@@ -18,7 +18,7 @@ sudo amdgpu-install -y --usecase=graphics,rocm --accept-eula
 sudo usermod -a -G render,video $LOGNAME
 ```
 
-![7900Driver.png](7900Driver.png)
+![7900Driver.png](7900Driver.png){style="block"}
 
 ### Use Case
 [Installing the Workstation Use Case](https://amdgpu-install.readthedocs.io/en/latest/install-installing.html#installing-the-workstation-use-case)

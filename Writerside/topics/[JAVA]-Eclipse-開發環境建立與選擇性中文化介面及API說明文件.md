@@ -10,9 +10,9 @@
 
 1. 下載 JDK
 
-   [![](http://java.sun.com/im/logo_oracle_footer.gif)](http://java.sun.com/javase/downloads/index.jsp)
+[![](http://java.sun.com/im/logo_oracle_footer.gif){style="inline"}](http://java.sun.com/javase/downloads/index.jsp)
 
-   首先點上圖下載最新版本 JDK(內含JRE) 目前版本是 JDK 6 Update 20
+首先點上圖下載最新版本 JDK(內含JRE) 目前版本是 JDK 6 Update 20
 頁面下方可以選擇是否要額外下載 JDK 的 API 說明文件 Java SE 6 Documentation
 2.[![](http://www.eclipse.org/eclipse.org-common/themes/Nova/images/eclipse.png)](http://www.eclipse.org/downloads/)
 接著點上圖下載最新版本 IDE Eclipse 目前版本是 Eclipse 3.5 SR2

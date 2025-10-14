@@ -109,6 +109,34 @@ Func<T>
 {ignore-vars="true"}
 ```
 
+### MRK058: Large image in paragraph
+
+**原因**: 大圖片被放在段落內，Writerside 預設會將大圖片渲染為區塊元素，可能導致排版問題。
+
+**修復方式**:
+```markdown
+# 方法 1: 將圖片放在段落外（推薦）
+# 在圖片前後加空行，使其成為獨立的區塊
+
+這是一段文字。
+
+![flutter-project.png](flutter-project.png)
+
+這是另一段文字。
+
+# 方法 2: 使用 style 屬性明確指定為行內元素
+這是一段文字 ![flutter-project.png](flutter-project.png){ style="inline" } 繼續文字。
+
+# 方法 3: 在列表中使用圖片時，添加適當縮排
+1. 列表項目標題
+
+   ![圖片說明](image.png)
+
+   圖片說明文字
+```
+
+**參考文檔**: 詳細說明請參考 `Writerside/topics/MRK058-Large-image.md`
+
 ## 參考資源
 
 - [JetBrains 官方指南 - 本地測試 Writerside](https://www.jetbrains.com/help/writerside/testing-your-docs-locally.html)

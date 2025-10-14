@@ -2,7 +2,7 @@
 
 fatal: detected dubious ownership in repository at
 
-![gtt-fatal.png](gtt-fatal.png)
+![gtt-fatal.png](gtt-fatal.png){style="block"}
 
 ## 設定
 

@@ -47,11 +47,11 @@ v.list
 
 % 後面加上反斜線 \ 可以跳脫
 
-![Ignore.png](Ignore.png)
+![Ignore.png](Ignore.png){style="block"}
 
 或使用 `ignore-vars="true"` 來忽略
 
-![image.png](image.png)
+![image.png](image.png){style="block"}
 
 ## 輸出
 

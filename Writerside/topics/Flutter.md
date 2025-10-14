@@ -2,11 +2,11 @@
 
 紀錄開發 Flutter 所需的環境設定。
 
-![Andriod SDK API.png](Andriod SDK API.png)
+![Andriod SDK API.png](Andriod SDK API.png){style="block"}
 
 其中 `Android SDK Command-line Tools` 是必要的，可以透過 `Android Studio` 安裝。
 
-![Command-line.png](Command-line.png)
+![Command-line.png](Command-line.png){style="block"}
 
 ## 需求
 - [ ] [PowerShell](https://apps.microsoft.com/detail/9mz1snwt0n5d)

@@ -50,11 +50,11 @@ export DOTNET_ENVIRONMENT=Development
 }
 ```
 
-![launchSettings.png](launchSettings.png)
+![launchSettings.png](launchSettings.png){style="block"}
 
 這樣就可以在不同環境下使用不同的設定檔了。
 
-![run-proj.png](run-proj.png)
+![run-proj.png](run-proj.png){style="block"}
 
 ## 注意
 使用 Azure 時，如果連線字串包含建立資料庫權限，預設會自動建立一個新的挺貴的資料庫，所以要特別注意。

@@ -12,18 +12,18 @@
 
 登入 Azure Portal，搜尋 `Container Registry` 來建立 ACR。
 
-![acr-bar.png](acr-bar.png)
+![acr-bar.png](acr-bar.png){style="block"}
 
 建立好後可以啟用管理使用者
 
-![acr-mgr.png](acr-mgr.png)
+![acr-mgr.png](acr-mgr.png){style="block"}
 
 需要時可以用這組帳號密碼來連到 ACR 
 [Docker-Registry-settings](Docker-Registry-settings.md)
 
 另外可以到識別裡面啟用系統指派的受控識別
 
-![acr-identity.png](acr-identity.png)
+![acr-identity.png](acr-identity.png){style="block"}
 
 這樣就可以在 Github Actions 中使用這個識別來推送鏡像
 
@@ -31,15 +31,15 @@
 
 登入 Azure Portal，搜尋 `App Service` 來建立 App Service for Container。
 
-![aas-container.png](aas-container.png)
+![aas-container.png](aas-container.png){style="block"}
 
 在容器選擇部分沒有 Github 相關選項，所以先選快速入門
 
-![container.png](container.png)
+![container.png](container.png){style="block"}
 
 建好之後再來到部署中心，選擇 Github Actions
 
-![github-action.png](github-action.png)
+![github-action.png](github-action.png){style="block"}
 
 Registry 選擇剛剛建立的 ACR，如果有警告應該是要回去 ACR 設定管理帳號或識別之類的
 
@@ -81,18 +81,18 @@ TypeError: FastAPI.__call__() missing 1 required positional argument: 'send'
 
 到 Github repo 裡的 Action 應該就會看到部署的流程
 
-![git-act.png](git-act.png)
+![git-act.png](git-act.png){style="block"}
 
 ## Jetbrains IDEs
 
 如果是用 Jetbrains IDEs 的話，推送後可以看到 Action 狀態
 
-![push-act.png](push-act.png)
+![push-act.png](push-act.png){style="block"}
 
 ## 結果
 最後打開 Azure App Service for Container 的 URL 就可以看到部署的網站
 
-![wel-az.png](wel-az.png)
+![wel-az.png](wel-az.png){style="block"}
 
 ## 參照
 

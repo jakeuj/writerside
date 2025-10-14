@@ -54,6 +54,11 @@
             <og-twitter>@jakeuj</og-twitter>
             <og-image>https://jakeuj.com/images/hatsune-miku-seeklogo.svg</og-image>
             <webmaster>jakeuj@hotmail.com</webmaster>
+            <!--
+                CDE016: 未定義的程式碼實體（Code entity not defined）
+                CTT004: 未定義的變數（Undefined variable）- URL 編碼字符被誤認為變數
+                VIS011: 缺少深色模式圖片（Dark version of image not found）- 如果不需要深色模式可忽略
+            -->
             <ignore-problems>CDE016,CTT004</ignore-problems>
         </variables>
     </build-profile>

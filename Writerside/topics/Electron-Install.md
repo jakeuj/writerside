@@ -118,7 +118,7 @@ cd ~/my-electron-app
 yarn electron .
 ```
 
-![HelloWolrd.png](HelloWolrd.png)
+![HelloWolrd.png](HelloWolrd.png){style="block"}
 
 ## 非 WSL 顯示遠端 Ubuntu 的 electron 畫面
 
@@ -146,7 +146,7 @@ yarn electron .
    
 這樣就會在 Windows 直接顯示遠端 Ubuntu 的 electron 畫面。
 
-![xWindows.png](xWindows.png)
+![xWindows.png](xWindows.png){style="block"}
 
 ## REF
 

@@ -15,13 +15,13 @@ gcloud app deploy
 
 Working directory: `$SolutionDir$`
 
-![ps1.png](ps1.png)
+![ps1.png](ps1.png){style="block"}
 
 ## Run
-![run.png](run.png)
+![run.png](run.png){style="block"}
 
 ## Output
-![output.png](output.png)
+![output.png](output.png){style="block"}
 
 ## Ref
 [powershell-jetbrains-rider](https://blog.ironmansoftware.com/daily-powershell/powershell-jetbrains-rider/)

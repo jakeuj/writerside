@@ -2,7 +2,7 @@
 
 Windows 11 筆記型電腦可以通過 LAN 取得 IP 地址後，再使用 Wi-Fi 網卡作為 AP（接入點）來分享網絡給手機。
 
-![wifi.png](wifi.png)
+![wifi.png](wifi.png){style="block"}
 
 ## 行動熱點
 
@@ -31,11 +31,11 @@ Windows 11 筆記型電腦可以通過 LAN 取得 IP 地址後，再使用 Wi-Fi
 
 需要設定防火牆，在公開網路中允許服務使用的 port 連入方向的流量。
 
-![fwc.png](fwc.png)
+![fwc.png](fwc.png){style="block"}
 
 初步測試階段可以考慮先關閉公用網路的防火牆，以確保手機能夠正常連接。
 
-![firewall.png](firewall.png)
+![firewall.png](firewall.png){style="block"}
 
 測試可連線後記得回頭設定防火牆，並重新啟用公開網路的防火牆，以免被左右鄰兵攻擊！
 

@@ -7,7 +7,7 @@
 如果再從裡面安裝會覆蓋掉
 所以裡頭只要安裝 CUDA Toolkit 就好了
 
-![image_8.png](image_8.png)
+![image_8.png](image_8.png){style="block"}
 
 ## WSL 2
 用 WSL 安裝 Ubuntu, 這邊不贅述
@@ -31,7 +31,7 @@ sudo apt-key del 7FA2AF80
 - deb (network)：每次安裝都會重新下載 ~4GB 的檔案
 - runfile (local)：需自行安裝 GCC，否則報錯：`Missing gcc. gcc is required to continue`
 
-![CudaToolKitWsl2.png](CudaToolKitWsl2.png)
+![CudaToolKitWsl2.png](CudaToolKitWsl2.png){style="block"}
 
 ```bash
 wget https://developer.download.nvidia.com/compute/cuda/repos/wsl-ubuntu/x86_64/cuda-keyring_1.1-1_all.deb
@@ -65,7 +65,7 @@ nvidia-smi
 nvcc --version
 ```
 
-![image_10.png](image_10.png)
+![image_10.png](image_10.png){style="block"}
 
 ## REF
 [wsl-user-guide](https://docs.nvidia.com/cuda/wsl-user-guide/index.html)

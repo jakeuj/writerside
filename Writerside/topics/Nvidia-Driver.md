@@ -43,11 +43,11 @@ sudo ubuntu-drivers autoinstall
 
 [官網](https://www.nvidia.com/download/index.aspx) 搜尋最新驅動版本號。
 
-![search-driver.png](search-driver.png)
+![search-driver.png](search-driver.png){style="block"}
 
 以 3090 Ti 為例，最新版本為 555
 
-![lastest-driver.png](lastest-driver.png)
+![lastest-driver.png](lastest-driver.png){style="block"}
 
 最後可以看到 555 版本支援 20, 30, 40 系列顯卡
 
@@ -72,4 +72,4 @@ sudo ubuntu-drivers autoinstall
 
 [CUDA Toolkit Driver Installer](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=24.04&target_type=deb_network)
 
-![cuda-driver.png](cuda-driver.png)
+![cuda-driver.png](cuda-driver.png){style="block"}

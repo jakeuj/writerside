@@ -2,7 +2,7 @@
 
 Chocolatey 是一個 Windows 的軟體包管理工具，專為簡化 Windows 環境下的軟體安裝、更新和管理而設計，類似於 Linux 平台的 apt 或 yum。Chocolatey 利用 PowerShell 和 NuGet 來實現自動化安裝和管理軟體包的功能，特別適合開發者和 IT 管理員使用。
 
-![yarn.png](yarn.png)
+![yarn.png](yarn.png){style="block"}
 
 ## 更新環境變數
 使環境變數更新全局可用

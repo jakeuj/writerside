@@ -141,19 +141,19 @@ jobs:
       uses: actions/deploy-pages@v1
 ```
 
-![Writerside1.png](Writerside1.png)
+![Writerside1.png](Writerside1.png){style="block"}
 
-![writerside2.png](writerside2.png)
+![writerside2.png](writerside2.png){style="block"}
 
-![ws3.png](ws3.png)
+![ws3.png](ws3.png){style="block"}
 
-![ws4.png](ws4.png)
+![ws4.png](ws4.png){style="block"}
 
-![ws5.png](ws5.png)
+![ws5.png](ws5.png){style="block"}
 
-![ws6.png](ws6.png)
+![ws6.png](ws6.png){style="block"}
 
-![1707207729.png](1707207729.png)
+![1707207729.png](1707207729.png){style="block"}
 
 ## 來源
 - [Writerside](https://www.jetbrains.com/help/writerside/deploy-docs-to-github-pages.html#publish-github-pages)

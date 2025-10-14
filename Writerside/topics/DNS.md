@@ -29,13 +29,13 @@ GitHub Pages 將 TXT 記錄添加到 example.com 的 DNS 配置的說明的螢�
 
 ## Custom Domain
 
-![page.png](page.png)
+![page.png](page.png){style="block"}
 
 ## DNS Configuration
 
 [cloudflare](https://www.cloudflare.com/zh-tw/products/registrar/)
 
-![dns.png](dns.png)
+![dns.png](dns.png){style="block"}
 
 ### ERR_TOO_MANY_REDIRECTS
 
@@ -55,6 +55,6 @@ GitHub Pages 將 TXT 記錄添加到 example.com 的 DNS 配置的說明的螢�
 
 [Edge: DNS Flush](https://techcommunity.microsoft.com/t5/discussions/edge-dns-flush/m-p/1131012)
 
-![301.png](301.png)
+![301.png](301.png){style="block"}
 
-![sockets.png](sockets.png)
+![sockets.png](sockets.png){style="block"}

@@ -15,4 +15,4 @@
   
 這樣登出後才會導向正確的網址
 
-  ![logout.png](logout.png)
+  ![logout.png](logout.png){style="block"}
