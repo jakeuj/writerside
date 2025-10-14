@@ -10,9 +10,9 @@
 
 1. 下載 JDK
 
-[![](http://java.sun.com/im/logo_oracle_footer.gif)](http://java.sun.com/javase/downloads/index.jsp)
+   [Java SE downloads](http://java.sun.com/javase/downloads/index.jsp)
 
-首先點上圖下載最新版本 JDK(內含JRE) 目前版本是 JDK 6 Update 20
+   首先點擊下載最新版本 JDK(內含JRE) 目前版本是 JDK 6 Update 20
 頁面下方可以選擇是否要額外下載 JDK 的 API 說明文件 Java SE 6 Documentation
 
 2. 下載 Eclipse
