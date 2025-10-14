@@ -5,6 +5,7 @@
 ## 修改全部 Commit 的 Author 資訊
 
 1. 打開 Git Bash.
+
 ![git-bash.png](git-bash.png)
 2. Clone Repository.
 ```bash

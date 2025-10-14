@@ -70,8 +70,11 @@ npm -v # 应该打印 `10.8.2`
 ```
 
 - 單一版本：僅需一個版本可以直接從 [Node.js 官方](https://nodejs.org/zh-cn/download/prebuilt-installer) 下載安裝
+
 ![nodejs18.png](nodejs18.png)
+
 - 多版本切換：有其他專案會用到不同版本可以使用 NVM，可以參考此篇筆記 [Vue](Vue.md)
+
 ![nvm18.png](nvm18.png)
 
 ## WireGuard (選擇性)
@@ -146,13 +149,23 @@ ABP Studio 在背景中定期檢查更新，當ABP Studio的新版本可用時�
 ```
 
 ## 結果
+
 - 工具箱：用來建立與執行方案
+
 ![abp-studio-rider.png](abp-studio-rider.png)
+
 - Docker-Dependencies：用來建立 Redis 服務
+
 ![abp-docker.png](abp-docker.png)
+
 - Auth Server：用來建立身分驗證服務
+
 ![abp-auth.png](abp-auth.png)
+
 - Swagger：用來建立 API 文件
+
 ![abp-swagger](abp-swagger.png)
+
 - Blazor WebApp：提供管理介面，例如使用者、角色、權限、OpenId(OAuth)、設定(類似 appsettings.json)、多語言、審計(登入紀錄)...等等
+
 ![abp-blazor.png](abp-blazor.png)

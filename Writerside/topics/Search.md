@@ -12,11 +12,13 @@ Writeside 本身沒有搜尋功能，但可以利用 Algolia search 來做搜尋
 [App](https://dashboard.algolia.com/account/applications)
 
 3. 在 Algolia 應用程式頁面，點選 Data sources | Indices，然後點選 Create Index。
+
 ![datasources.png](datasources.png)
 
 4. 提供一個有意義的名稱並建立索引。
 
 5. 在索引頁面，點選 Configuration | Facets，然後點選 Attributes for faceting 下的 Add an attribute。
+
 ![Facets.png](Facets.png)
 
 6. 新增兩個屬性：product 和 version。
@@ -24,9 +26,11 @@ Writeside 本身沒有搜尋功能，但可以利用 Algolia search 來做搜尋
 7. 點選 Review and Save Settings 並確認。
 
 8. 在左下角點 Settings 到設定頁面，點選 API Keys。
+
 ![ApiKeys.png](ApiKeys.png)
 
 9. 然後找到 Application ID, Search API Key, Admin API Key，這些資訊會用在 Writeside 的設定。
+
 ![ApiKey.png](ApiKey.png)
 
 ## Add search to config
