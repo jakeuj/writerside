@@ -1,3 +1,7 @@
+---
+type: "agent_requested"
+description: "Example description"
+---
 # Writerside 本地測試與修復 Prompt
 
 ## 快速開始 Prompt
@@ -14,7 +18,7 @@
 專案資訊：
 - 專案根目錄：/Users/jakeuj/WritersideProjects/writerside
 - Writerside instance：Writerside/hi
-- Docker 版本：jetbrains/writerside-checker:2025.04.8412
+- Docker 映像：jetbrains/writerside-builder:2025.04.8412
 ```
 
 ---
@@ -29,7 +33,7 @@
 1. 在專案根目錄執行以下 Docker 命令：
    docker run --rm \
      -v "$PWD":/docs \
-     jetbrains/writerside-checker:2025.04.8412 \
+     jetbrains/writerside-builder:2025.04.8412 \
      "artifacts/report.json" "Writerside/hi"
 
 2. 使用 jq 格式化並顯示錯誤：
@@ -94,7 +98,7 @@
 
 【步驟 1】執行本地測試
 - 使用 Docker 執行 Writerside 檢查
-- 命令：docker run --rm -v "$PWD":/docs jetbrains/writerside-checker:2025.04.8412 "artifacts/report.json" "Writerside/hi"
+- 命令：docker run --rm -v "$PWD":/docs jetbrains/writerside-builder:2025.04.8412 "artifacts/report.json" "Writerside/hi"
 
 【步驟 2】分析錯誤
 - 解析 artifacts/report.json
