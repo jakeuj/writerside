@@ -21,35 +21,65 @@ ABP是一個**開源的且文檔友好的應用框架**，起始的想法是，�
 
 ---
 
-### [No.1 建立專案](https://dotblogs.com.tw/jakeuj/2016/07/26/abp1)
+### No.1 建立專案
 
-### [No.2 建立實體 Entity](https://dotblogs.com.tw/jakeuj/2016/07/26/abp2)
+參考文件：[No.1 建立專案](https://dotblogs.com.tw/jakeuj/2016/07/26/abp1)
 
-### [No.3 建立資料庫上下文 DbContext](https://dotblogs.com.tw/jakeuj/2016/07/27/abp3)
+### No.2 建立實體 Entity
 
-### [No.4 資料庫遷移 Migration](https://dotblogs.com.tw/jakeuj/2016/07/27/abp4)
+參考文件：[No.2 建立實體 Entity](https://dotblogs.com.tw/jakeuj/2016/07/26/abp2)
 
-### [No.5 建立倉儲 Repository](https://dotblogs.com.tw/jakeuj/2016/07/28/abp5)
+### No.3 建立資料庫上下文 DbContext
 
-### [No.6 建立應用服務](https://dotblogs.com.tw/jakeuj/2016/07/28/abp6)
+參考文件：[No.3 建立資料庫上下文 DbContext](https://dotblogs.com.tw/jakeuj/2016/07/27/abp3)
 
-### [No.7 建立WebApi](https://dotblogs.com.tw/jakeuj/2016/07/28/abp7)
+### No.4 資料庫遷移 Migration
 
-### [No.8 單元測試](https://dotblogs.com.tw/jakeuj/2016/07/28/abp8)
+參考文件：[No.4 資料庫遷移 Migration](https://dotblogs.com.tw/jakeuj/2016/07/27/abp4)
 
-### [No.9 全篇後記](https://dotblogs.com.tw/jakeuj/2016/07/28/abp9)
+### No.5 建立倉儲 Repository
 
-#### [No.10 範例程式](https://dotblogs.com.tw/jakeuj/2019/01/15/abp10)
+參考文件：[No.5 建立倉儲 Repository](https://dotblogs.com.tw/jakeuj/2016/07/28/abp5)
 
-### [No.11 Client Proxies (Angular Service)](https://dotblogs.com.tw/jakeuj/2019/01/18/abp11)
+### No.6 建立應用服務
 
-### [No.12 複數資料庫(DBContext)](https://dotblogs.com.tw/jakeuj/2019/01/30/abp12)
+參考文件：[No.6 建立應用服務](https://dotblogs.com.tw/jakeuj/2016/07/28/abp6)
 
-### [No.13 Angular Service](https://dotblogs.com.tw/jakeuj/2019/04/23/abp13)
+### No.7 建立WebApi
 
-### [No.14 SignalR with Angular](https://dotblogs.com.tw/jakeuj/2019/08/26/abp14)
+參考文件：[No.7 建立WebApi](https://dotblogs.com.tw/jakeuj/2016/07/28/abp7)
 
-### [No.15 Angular DateTime UTC Offset](https://dotblogs.com.tw/jakeuj/2019/09/17/abp15)
+### No.8 單元測試
+
+參考文件：[No.8 單元測試](https://dotblogs.com.tw/jakeuj/2016/07/28/abp8)
+
+### No.9 全篇後記
+
+參考文件：[No.9 全篇後記](https://dotblogs.com.tw/jakeuj/2016/07/28/abp9)
+
+#### No.10 範例程式
+
+參考文件：[No.10 範例程式](https://dotblogs.com.tw/jakeuj/2019/01/15/abp10)
+
+### No.11 Client Proxies (Angular Service)
+
+參考文件：[No.11 Client Proxies (Angular Service)](https://dotblogs.com.tw/jakeuj/2019/01/18/abp11)
+
+### No.12 複數資料庫(DBContext)
+
+參考文件：[No.12 複數資料庫(DBContext)](https://dotblogs.com.tw/jakeuj/2019/01/30/abp12)
+
+### No.13 Angular Service
+
+參考文件：[No.13 Angular Service](https://dotblogs.com.tw/jakeuj/2019/04/23/abp13)
+
+### No.14 SignalR with Angular
+
+參考文件：[No.14 SignalR with Angular](https://dotblogs.com.tw/jakeuj/2019/08/26/abp14)
+
+### No.15 Angular DateTime UTC Offset
+
+參考文件：[No.15 Angular DateTime UTC Offset](https://dotblogs.com.tw/jakeuj/2019/09/17/abp15)
 
 ---
 

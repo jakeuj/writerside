@@ -16,7 +16,9 @@
 
 ## **V1**
 
-### [**.drone.yml**](https://github.com/jakeuj/Drone/blob/main/.drone.yml)
+### **.drone.yml**
+
+參考文件：[**.drone.yml**](https://github.com/jakeuj/Drone/blob/main/.drone.yml)
 
 ```
 kind: pipeline
@@ -203,9 +205,13 @@ Invoke-RestMethod 'https://notify-api.line.me/api/notify'
 
 ## 延伸閱讀
 
-### [阿里雲 Web+ 使用 Cli 部署 DotnetCore 3.1 專案筆記](https://dotblogs.com.tw/jakeuj/2021/04/22/AliWebPlusDepoly)
+### 阿里雲 Web+ 使用 Cli 部署 DotnetCore 3.1 專案筆記
 
-### [Drone Cloud Github DotNetCore Build CI/CD Runner Note](https://dotblogs.com.tw/jakeuj/2021/04/20/Drone)
+參考文件：[阿里雲 Web+ 使用 Cli 部署 DotnetCore 3.1 專案筆記](https://dotblogs.com.tw/jakeuj/2021/04/22/AliWebPlusDepoly)
+
+### Drone Cloud Github DotNetCore Build CI/CD Runner Note
+
+參考文件：[Drone Cloud Github DotNetCore Build CI/CD Runner Note](https://dotblogs.com.tw/jakeuj/2021/04/20/Drone)
 
 ![](https://card.psnprofiles.com/1/jakeuj.png)
 

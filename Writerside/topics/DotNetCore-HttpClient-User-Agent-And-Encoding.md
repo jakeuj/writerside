@@ -97,9 +97,13 @@ static async Task Main()
 
 相關文章：
 
-### [小心.NET HttpClient](https://dotblogs.com.tw/jakeuj/2019/01/25/httpclient)
+### 小心.NET HttpClient
 
-### [[ASP.NET][C#] 使用 HtmlAgilityPack 擷取新聞 (爬文機器人)](https://dotblogs.com.tw/jakeuj/2016/06/14/htmlagilitypack)
+參考文件：[小心.NET HttpClient](https://dotblogs.com.tw/jakeuj/2019/01/25/httpclient)
+
+### [ASP.NET][C#] 使用 HtmlAgilityPack 擷取新聞 (爬文機器人)
+
+參考文件：[[ASP.NET][C#] 使用 HtmlAgilityPack 擷取新聞 (爬文機器人)](https://dotblogs.com.tw/jakeuj/2016/06/14/htmlagilitypack)
 
 ![](https://card.psnprofiles.com/1/jakeuj.png)
 

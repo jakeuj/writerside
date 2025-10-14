@@ -279,7 +279,9 @@ export class BookRoutingModule {}
 
 ---
 
-### [[2021] ABP.IO WEB應用程式框架 新手教學 No.0 全篇索引](https://dotblogs.com.tw/jakeuj/2021/07/15/abpio0)
+### 系列文章索引
+
+參考：[[2021] ABP.IO WEB應用程式框架 新手教學 No.0 全篇索引](https://dotblogs.com.tw/jakeuj/2021/07/15/abpio0)
 
 ![](https://card.psnprofiles.com/1/jakeuj.png)
 

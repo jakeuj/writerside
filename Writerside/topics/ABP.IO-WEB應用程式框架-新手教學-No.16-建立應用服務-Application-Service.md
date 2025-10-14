@@ -131,7 +131,9 @@ namespace Acme.BookStore.Books
 
 ![](https://dotblogsfile.blob.core.windows.net/user/御星幻/bff36275-1beb-423a-9664-b96e21b3c91c/1626686900.png)
 
-## [**Redis**](https://docs.abp.io/en/abp/latest/Redis-Cache)
+## **Redis**
+
+參考文件：[**Redis**](https://docs.abp.io/en/abp/latest/Redis-Cache)
 
 預設 Redis 是打開的，如果開發環境沒有 redis 可以關閉。
 
@@ -149,7 +151,9 @@ Acme.BookStore.HttpApi.Host appsettings.Development.json
 
 到這邊就可以執行 Acme.BookStore.HttpApi.Host 了，會跑出 Swagger Page，然後可以試著呼叫 API
 
-### [CrudAppService](https://docs.abp.io/zh-Hans/abp/latest/Application-Services#crud%E5%BA%94%E7%94%A8%E6%9C%8D%E5%8A%A1)
+### CrudAppService
+
+參考文件：[CrudAppService](https://docs.abp.io/zh-Hans/abp/latest/Application-Services#crud%E5%BA%94%E7%94%A8%E6%9C%8D%E5%8A%A1)
 {ignore-vars="true"}
 
 官方原教學：https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Part-1#ibookappservice
@@ -160,7 +164,9 @@ Acme.BookStore.HttpApi.Host appsettings.Development.json
 
 參考：https://docs.abp.io/zh-Hans/abp/latest/Application-Services#crud%E5%BA%94%E7%94%A8%E6%9C%8D%E5%8A%A1
 
-### [自動生成API Controllers](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Part-1#%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90api-controllers)
+### 自動生成API Controllers
+
+參考文件：[自動生成API Controllers](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Part-1#%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90api-controllers)
 {ignore-vars="true"}
 
 Abp 是不用自己再去寫薄博的控制器的，它會自動將 AppService 公開 API

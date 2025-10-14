@@ -99,7 +99,9 @@ namespace Acme.BookStore
 
 ---
 
-### [ABP.IO WEB應用程式框架 新手教學 No.5 建立應用服務 Application Service](https://dotblogs.com.tw/jakeuj/2021/07/19/abpio5)
+### ABP.IO WEB應用程式框架 新手教學 No.5 建立應用服務 Application Service
+
+參考文件：[ABP.IO WEB應用程式框架 新手教學 No.5 建立應用服務 Application Service](https://dotblogs.com.tw/jakeuj/2021/07/19/abpio5)
 
 ![](https://card.psnprofiles.com/1/jakeuj.png)
 

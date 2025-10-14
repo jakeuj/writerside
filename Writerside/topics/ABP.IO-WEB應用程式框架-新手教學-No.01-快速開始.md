@@ -80,7 +80,9 @@ Aspnet-core
 
 PowerShell
 
-### [運行應用程序](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#run-the-application)
+### 運行應用程序
+
+參考文件：[運行應用程序](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#run-the-application)
 
 在開始開發之前運行應用程序是很好的。該解決方案有兩個主要應用；
 
@@ -119,7 +121,9 @@ npm start
 
 一切準備就緒。我們可以開始編碼了！
 
-## [領域層](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#domain-layer)
+## 領域層
+
+參考文件：[領域層](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#domain-layer)
 
 這個應用程序只有一個[實體](https://docs.abp.io/zh-Hans/abp/latest/Entities)(Entity)，我們從創建它開始。`TodoItem`在 *TodoApp.Domain* 項目中創建一個新類：
 
@@ -146,11 +150,15 @@ TodoItem
 
 // 在其他層的專案也一樣，盡量保持同名方便理解，要移除時也比較清楚該刪除那些東西
 
-## [數據庫集成](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#database-integration)
+## 數據庫集成
+
+參考文件：[數據庫集成](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#database-integration)
 
 下一步是設置 [Entity Framework Core](https://docs.abp.io/zh-Hans/abp/latest/Entity-Framework-Core) 配置。
 
-### [映射配置](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#mapping-configuration)
+### 映射配置
+
+參考文件：[映射配置](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#mapping-configuration)
 
 打開 *TodoApp.EntityFrameworkCore* 項目文件夾中的`TodoAppDbContext`類，給這個類添加一個新的屬性：`EntityFrameworkCoreDbSet`
 
@@ -186,7 +194,9 @@ TodoAppDbContextModelCreatingExtensions
 
 // 這邊 `ToTable` 用來指定資料表名稱，可以參考 EF Core 的官方文件
 
-### [程式碼優先遷移](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#code-first-migrations)
+### 程式碼優先遷移
+
+參考文件：[程式碼優先遷移](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#code-first-migrations)
 
 啟動解決方案配置為使用 Entity Framework Core [Code First Migrations](https://docs.microsoft.com/en-us/ef/core/managing-schemas/migrations)。由於我們已經更改了數據庫映射配置，我們應該創建一個新的遷移並將更改應用於數據庫。
 
@@ -224,7 +234,9 @@ database update
 
 現在，我們可以使用 ABP 存儲庫來保存和檢索待辦事項，我們將在下一節中進行。
 
-## [應用層](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#application-layer)
+## 應用層
+
+參考文件：[應用層](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#application-layer)
 
 一個 [應用服務](https://docs.abp.io/zh-Hans/abp/latest/Application-Services) 被用來執行應用程序的使用情況。我們需要執行以下用例；
 
@@ -234,7 +246,9 @@ database update
 
 // 下面我將會調換原文說明順序，將應用服務合約中的資料傳輸物件與應用服務介面互換，因為 Application Service Interface 會用到 DTO
 
-### [數據傳輸對象](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#data-transfer-object)
+### 數據傳輸對象
+
+參考文件：[數據傳輸對象](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#data-transfer-object)
 
 `GetListAsync`和`CreateAsync`方法返回`TodoItemDto`。
 
@@ -263,7 +277,9 @@ namespace TodoApp
 
 TodoItemDto
 
-### [應用服務接口](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#application-service-interface)
+### 應用服務接口
+
+參考文件：[應用服務接口](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#application-service-interface)
 
 我們可以從為應用程序服務定義一個接口開始。在 *TodoApp.Application.Contracts* 項目中新建一個界面 `ITodoAppService`，如下：
 
@@ -290,7 +306,9 @@ ITodoAppService
 
 // 雖然不建立介面也可以直接實作應用服務，但最佳實踐建一位每個應用服務建立各自的 Interface
 
-### [應用服務實現](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#application-service-implementation)
+### 應用服務實現
+
+參考文件：[應用服務實現](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#application-service-implementation)
 
 在*TodoApp.Application*項目裡面創建一個類 `TodoAppService`，如下：
 
@@ -390,7 +408,9 @@ Repository 的`InsertAsync`方法將給定的`TodoItem`物件插入數據庫並�
 
 CreateAsync
 
-#### [刪除到每個項目](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#deleting-a-todo-item)
+#### 刪除到每個項目
+
+參考文件：[刪除到每個項目](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#deleting-a-todo-item)
 
 最後，我們可以實現`DeleteAsync`如下代碼塊：
 
@@ -413,14 +433,18 @@ DeleteAsync
 
 // 特別提一下[服務代理 (Service Proxy)](https://docs.abp.io/zh-Hans/abp/latest/UI/Angular/Service-Proxies)，大致功能是自動根據最新 API 的 JSON 生成 Client 呼叫用的 TypeScript，個人用 Angular 開發時覺得很方便。
 
-## [用戶界面層](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#user-interface-layer)
+## 用戶界面層
+
+參考文件：[用戶界面層](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#user-interface-layer)
 
 是時候在 UI 上顯示待辦事項了！在開始編寫代碼之前，最好記住我們正在嘗試構建的內容。這是最終用戶界面的示例屏幕截圖：
 
 ![全部列表](https://raw.githubusercontent.com/abpframework/abp/rel-4.3/docs/en/Tutorials/Todo/todo-list.png)
 > **我們將在本教程中盡量減少 UI 方面，以使教程簡單而集中。請參閱**[**Web 應用程序開發教程**](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Part-1)**以構建具有各個方面的真實頁面。**
 
-### [服務代理生成](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#service-proxy-generation)
+### 服務代理生成
+
+參考文件：[服務代理生成](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#service-proxy-generation)
 
 ABP 提供了一個方便的功能來自動創建客戶端服務，以輕鬆使用服務器提供的 HTTP API。
 
@@ -450,7 +474,9 @@ CREATE src/app/proxy/index.ts (58 bytes)
 
 然後我們可以使用`todoService`來使用服務器端 HTTP API，我們將在下一節中進行。
 
-### [home.component.ts](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#home-component-ts)
+### home.component.ts
+
+參考文件：[home.component.ts](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#home-component-ts)
 
 打開`/angular/src/app/home/home.component.ts`文件並將其內容替換為以下代碼塊：
 
@@ -498,7 +524,9 @@ export class HomeComponent implements OnInit {
 
 我們已經使用`todoService`來獲取待辦事項列表並將返回值分配給`todoItems`數組。我們還添加了`create`和`delete`方法。這些方法將在視圖端使用。
 
-### [home.component.html](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#home-component-html)
+### home.component.html
+
+參考文件：[home.component.html](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#home-component-html)
 
 打開`/angular/src/app/home/home.component.html`文件並將其內容替換為以下代碼塊：
 
@@ -532,7 +560,9 @@ export class HomeComponent implements OnInit {
 </div>
 ```
 
-### [home.component.scss](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#home-component-scss)
+### home.component.scss
+
+參考文件：[home.component.scss](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#home-component-scss)
 
 最後，打開`/angular/src/app/home/home.component.scss`文件並將其內容替換為以下代碼塊：
 
@@ -567,15 +597,21 @@ export class HomeComponent implements OnInit {
 
 現在，您可以再次運行該應用程序以查看結果。
 
-## [結論](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#conclusion)
+## 結論
+
+參考文件：[結論](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#conclusion)
 
 在本教程中，我們構建了一個非常簡單的應用程序來預熱 ABP 框架。如果您希望構建一個嚴肅的應用程序，請查看[Web 應用程序開發教程](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Part-1)，該[教程](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Part-1)涵蓋了實際 Web 應用程序開發的所有方面。
 
-## [源代碼](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#source-code)
+## 源代碼
+
+參考文件：[源代碼](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#source-code)
 
 您可以[在此處](https://github.com/abpframework/abp-samples/tree/master/TodoApp)找到已完成應用程序的源代碼。
 
-## [也可以看看](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#see-also)
+## 也可以看看
+
+參考文件：[也可以看看](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#see-also)
 
 * [Web 應用程序開發教程](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Part-1)
 
