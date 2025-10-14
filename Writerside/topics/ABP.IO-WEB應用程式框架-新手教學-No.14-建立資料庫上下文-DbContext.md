@@ -1,4 +1,4 @@
-# ABP.IO WEB應用程式框架 新手教學 No.14 建立資料庫上下文 DbContext
+# ABP.IO 新手教學 No.14 建立資料庫上下文 DbContext
 
 > **原文發布日期:** 2021-07-19
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/07/19/abpio3

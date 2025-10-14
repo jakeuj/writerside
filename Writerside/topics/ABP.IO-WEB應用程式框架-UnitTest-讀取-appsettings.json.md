@@ -1,4 +1,4 @@
-# ABP.IO WEB應用程式框架 UnitTest 讀取 appsettings.json
+# ABP.IO UnitTest 讀取 appsettings.json
 
 > **原文發布日期:** 2022-09-22
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/09/22/abp-test-appsettings

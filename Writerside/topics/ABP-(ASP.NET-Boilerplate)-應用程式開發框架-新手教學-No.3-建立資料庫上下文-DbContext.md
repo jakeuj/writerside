@@ -1,4 +1,4 @@
-# ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.3 建立資料庫上下文 DbContext
+# ABP 新手教學 No.3 建立資料庫上下文 DbContext
 
 > **原文發布日期:** 2016-07-27
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2016/07/27/abp3

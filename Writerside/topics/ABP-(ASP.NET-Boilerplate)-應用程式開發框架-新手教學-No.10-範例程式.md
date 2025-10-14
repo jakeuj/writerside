@@ -1,4 +1,4 @@
-# ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.10 範例程式
+# ABP 新手教學 No.10 範例程式
 
 > **原文發布日期:** 2019-01-15
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/01/15/abp10

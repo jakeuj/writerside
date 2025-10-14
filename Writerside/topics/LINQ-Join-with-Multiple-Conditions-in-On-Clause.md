@@ -1,4 +1,4 @@
-# LINQ Join with Multiple Conditions in On Clause
+# LINQ Join 多條件
 
 > **原文發布日期:** 2021-09-01
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/09/01/LinqJoinMultipleConditions

@@ -1,4 +1,4 @@
-# C#11 Raw string literals 原始字符串 與 string.Format
+# C#11 Raw String Literals
 
 > **原文發布日期:** 2023-01-11
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/01/11/CSharp-11-Raw-string-literals-string-Format

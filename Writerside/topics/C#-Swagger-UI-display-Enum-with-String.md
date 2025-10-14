@@ -1,4 +1,4 @@
-# C# Swagger UI display Enum with String
+# C# Swagger Enum 顯示
 
 > **原文發布日期:** 2023-04-25
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/04/25/CSharp-Swagger-UI-Enum-Display-String

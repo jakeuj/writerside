@@ -1,4 +1,4 @@
-# AZURE AD PREMIUM P2 License cannot be assigned to a user without a usage location specified.
+# Azure AD Premium P2 授權問題
 
 > **原文發布日期:** 2021-09-10
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/09/10/AZURE-AD-PREMIUM-P2

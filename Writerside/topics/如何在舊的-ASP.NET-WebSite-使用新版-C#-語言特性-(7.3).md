@@ -1,4 +1,4 @@
-# 如何在舊的 ASP.NET WebSite 使用新版 C# 語言特性 (7.3)
+# ASP.NET WebSite 使用新版 C#
 
 > **原文發布日期:** 2021-12-16
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/12/16/WebSite-CSharp-7

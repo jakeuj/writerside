@@ -1,4 +1,4 @@
-# ABP.IO WEB應用程式框架 取得關聯資料 include
+# ABP.IO 取得關聯資料 include
 
 > **原文發布日期:** 2022-10-25
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/10/25/abp-ef-With-Details-Async

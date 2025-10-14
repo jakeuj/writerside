@@ -1,4 +1,4 @@
-# Azure Container Instances Squid Proxy Server
+# Azure Container Squid Proxy
 
 > **原文發布日期:** 2022-11-24
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/11/24/Azure-Container-Instances-Squid-Proxy-Server

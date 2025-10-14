@@ -1,4 +1,4 @@
-# ABP.IO WEB應用程式框架 BLOB Storing File System Provider
+# ABP.IO BLOB Storing File System Provider
 
 > **原文發布日期:** 2023-01-13
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/01/13/ABP-BLOB-Storing-File-System-Provider

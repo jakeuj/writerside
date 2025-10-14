@@ -1,4 +1,4 @@
-# JetBrains Rider 不安裝 Visual Studio 如何使用 MSBuild 編譯發布專案
+# JetBrains Rider MSBuild
 
 > **原文發布日期:** 2019-05-09
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/05/09/RiderMSBuild

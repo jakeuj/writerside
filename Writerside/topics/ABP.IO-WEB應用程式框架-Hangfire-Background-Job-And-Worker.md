@@ -1,4 +1,4 @@
-# ABP.IO WEB應用程式框架 Hangfire Background Job And Worker
+# ABP.IO Hangfire Background Job And Worker
 
 > **原文發布日期:** 2022-04-26
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/04/26/abp-Hangfire-Background-Worker

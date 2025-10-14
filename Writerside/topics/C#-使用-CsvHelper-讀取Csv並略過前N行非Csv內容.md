@@ -1,4 +1,4 @@
-# C# 使用 CsvHelper 讀取Csv並略過前N行非Csv內容
+# C# CsvHelper 讀取技巧
 
 > **原文發布日期:** 2022-03-11
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/03/11/CsvHelper

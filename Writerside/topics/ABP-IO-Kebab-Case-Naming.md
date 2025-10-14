@@ -1,4 +1,4 @@
-# ABP.IO WEB應用程式框架 烤肉串命名&#xFF08;Kebab case&#xFF09; {id="ABP-IO-Kebab-Case-Naming"}
+# ABP.IO 烤肉串命名&#xFF08;Kebab case&#xFF09; {id="ABP-IO-Kebab-Case-Naming"}
 
 > **原文發布日期:** 2022-04-14
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/04/14/abp-kebab-camel-case

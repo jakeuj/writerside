@@ -1,4 +1,4 @@
-# ABP.IO WEB應用程式框架 SaveChangesAsync vs UpdateAsync
+# ABP.IO SaveChangesAsync vs UpdateAsync
 
 > **原文發布日期:** 2022-10-04
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/10/04/abp-SaveChangesAsync-UpdateAsync

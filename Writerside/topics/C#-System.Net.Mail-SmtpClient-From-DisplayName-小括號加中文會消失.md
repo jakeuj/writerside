@@ -1,4 +1,4 @@
-# C# System.Net.Mail SmtpClient From DisplayName 小括號加中文會消失
+# C# SmtpClient DisplayName 問題
 
 > **原文發布日期:** 2023-01-09
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/01/09/CSharp-System-Net-Mail-SmtpClient-From-DisplayName-Chinese

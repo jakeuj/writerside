@@ -1,4 +1,4 @@
-# 如何在收到 PFX 或 CER 憑證檔之後使用 OpenSSL 進行常見的格式轉換
+# OpenSSL 憑證格式轉換
 
 > **原文發布日期:** 2024-03-26
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2024/03/26/ssl--pfx-openssl

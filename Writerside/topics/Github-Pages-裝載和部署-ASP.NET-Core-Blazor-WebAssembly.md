@@ -1,4 +1,4 @@
-# Github Pages 裝載和部署 ASP.NET Core Blazor WebAssembly
+# Github Pages Blazor 部署
 
 > **原文發布日期:** 2021-04-09
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/04/09/BlazorWebAssemblyGithubPages
@@ -86,7 +86,7 @@ Failed to find a valid digest in the 'integrity' in Blazor WASM
 
 但可以成功看到畫面並正常運作
 
-<https://jakeuj.github.io/BlazorOnGitHubPages/>
+https://jakeuj.github.io/BlazorOnGitHubPages/
 
 * 如果 Github Pages 是使用專案模式 (每個專案一個網站)
   需要把 index.html 裡面的 baseUrl 加上專案名稱

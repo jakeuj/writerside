@@ -1,4 +1,4 @@
-# ABP.IO WEB應用程式框架 BackgroundWorker UOW 例外
+# ABP.IO BackgroundWorker UOW 例外
 
 > **原文發布日期:** 2022-08-19
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/08/19/abp-Background-Job-uow

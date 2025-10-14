@@ -1,4 +1,4 @@
-# GCP GAE 連 Google Cloud SQL 採坑紀錄
+# GCP GAE 連接 Cloud SQL
 
 > **原文發布日期:** 2023-11-29
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/11/29/connect-instance-app-engine

@@ -1,4 +1,4 @@
-# Yahoo! OpenID Api 之 CAPICOM 替代方案(C#)
+# Yahoo OpenID CAPICOM 替代
 
 > **原文發布日期:** 2012-10-08
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2012/10/08/76334
@@ -12,7 +12,7 @@ Yahoo! OpenID Api 之 CAPICOM 替代方案
 
 如果還是對CAPICOM有需求可以參考我之前寫得這篇
 
-<http://www.dotblogs.com.tw/jakeuj/archive/2012/03/03/70494.aspx>
+http://www.dotblogs.com.tw/jakeuj/archive/2012/03/03/70494.aspx
 
 ---
 

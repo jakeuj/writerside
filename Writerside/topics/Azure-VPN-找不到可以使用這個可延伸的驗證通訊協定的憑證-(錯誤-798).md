@@ -1,4 +1,4 @@
-# Azure VPN 找不到可以使用這個可延伸的驗證通訊協定的憑證 (錯誤 798)
+# Azure VPN 憑證錯誤 798
 
 > **原文發布日期:** 2022-09-05
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/09/05/AzureVpnError798

@@ -1,4 +1,4 @@
-# ABP.IO WEB應用程式框架 Background Job
+# ABP.IO Background Job
 
 > **原文發布日期:** 2022-04-27
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/04/27/abp-Background-Job

@@ -1,4 +1,4 @@
-# 透過 Proxy 使用 Azure HCM (混合式連線管理員)
+# Azure HCM Proxy 設定
 
 > **原文發布日期:** 2022-03-14
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/03/14/Proxy-Azure-Relay-Hybrid-Connections

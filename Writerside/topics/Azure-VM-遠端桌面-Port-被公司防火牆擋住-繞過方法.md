@@ -1,4 +1,4 @@
-# Azure VM 遠端桌面 Port 被公司防火牆擋住 繞過方法
+# Azure VM 遠端桌面繞過防火牆
 
 > **原文發布日期:** 2021-03-22
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/03/22/SetRDPPort

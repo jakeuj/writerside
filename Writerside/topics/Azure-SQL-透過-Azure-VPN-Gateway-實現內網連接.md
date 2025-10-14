@@ -1,4 +1,4 @@
-# Azure SQL 透過 Azure VPN Gateway 實現內網連接
+# Azure SQL VPN 連接
 
 > **原文發布日期:** 2021-08-13
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/08/13/AzureSqlVpnGetway

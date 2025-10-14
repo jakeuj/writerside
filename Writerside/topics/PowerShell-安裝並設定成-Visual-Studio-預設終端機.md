@@ -1,4 +1,4 @@
-# PowerShell 安裝並設定成 Visual Studio 預設終端機
+# PowerShell Visual Studio 終端機
 
 > **原文發布日期:** 2022-02-10
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/02/10/PowerShell-Install-Visual-Studio-terminal-default

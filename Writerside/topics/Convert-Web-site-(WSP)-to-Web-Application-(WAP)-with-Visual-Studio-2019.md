@@ -1,4 +1,4 @@
-# Convert Web site (WSP) to Web Application (WAP) with Visual Studio 2019
+# WSP 轉 WAP
 
 > **原文發布日期:** 2021-03-02
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/03/02/Convert-Web-site-to-WebApplication-Visual-Studio-2019

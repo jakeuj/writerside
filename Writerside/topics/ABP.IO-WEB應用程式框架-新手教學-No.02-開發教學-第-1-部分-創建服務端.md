@@ -1,10 +1,12 @@
-# ABP.IO WEB應用程式框架 新手教學 No.02 開發教學 第 1 部分 創建服務端
+# ABP.IO 新手教學 No.02
 
 > **原文發布日期:** 2021-07-21
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/07/21/abpio02
 > **標籤:** 無
 
 ---
+
+本文為 ABP.IO WEB應用程式框架開發教學第 1 部分，說明如何創建服務端。
 
 此開發教學相較上一篇 No.01 [快速開始](https://dotblogs.com.tw/jakeuj/2021/07/20/abpio01) 比較複雜一些
 

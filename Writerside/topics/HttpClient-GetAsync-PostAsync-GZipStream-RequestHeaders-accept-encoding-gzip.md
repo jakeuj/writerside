@@ -1,4 +1,4 @@
-# HttpClient GetAsync PostAsync GZipStream RequestHeaders accept-encoding gzip
+# HttpClient GZip 壓縮
 
 > **原文發布日期:** 2020-05-18
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2020/05/18/GZipStream

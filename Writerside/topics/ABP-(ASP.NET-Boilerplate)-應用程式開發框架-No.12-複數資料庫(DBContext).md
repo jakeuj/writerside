@@ -1,4 +1,4 @@
-# ABP (ASP.NET Boilerplate) 應用程式開發框架 No.12 複數資料庫(DBContext)
+# ABP No.12 複數資料庫(DBContext)
 
 > **原文發布日期:** 2019-01-30
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/01/30/abp12
@@ -22,7 +22,7 @@ ABP (ASP.NET Boilerplate) 應用程式開發框架 No.12 複數資料庫(DBConte
 
 總之參考以下範例即可
 
-<https://github.com/aspnetboilerplate/aspnetboilerplate-samples/tree/master/MultipleDbContextEfCoreDemo>
+https://github.com/aspnetboilerplate/aspnetboilerplate-samples/tree/master/MultipleDbContextEfCoreDemo
 
 ---
 

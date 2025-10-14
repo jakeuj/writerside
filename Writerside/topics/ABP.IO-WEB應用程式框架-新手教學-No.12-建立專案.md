@@ -1,4 +1,4 @@
-# ABP.IO WEB應用程式框架 新手教學 No.12 建立專案
+# ABP.IO 新手教學 No.12 建立專案
 
 > **原文發布日期:** 2021-07-19
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/07/19/abpio1
@@ -14,7 +14,7 @@
 
 首先下載基本樣板專案
 
-<https://abp.io/get-started>
+https://abp.io/get-started
 
 ![](https://dotblogsfile.blob.core.windows.net/user/御星幻/87bcc78e-ff0f-4121-8da5-3e2426d8cc84/1626662989.jpg)
 

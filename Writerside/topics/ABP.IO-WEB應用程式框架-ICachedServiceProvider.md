@@ -1,4 +1,4 @@
-# ABP.IO WEB應用程式框架 ICachedServiceProvider
+# ABP.IO ICachedServiceProvider
 
 > **原文發布日期:** 2023-05-23
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/05/23/Dependency-Injection-Cached-Service-Providers

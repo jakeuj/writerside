@@ -1,4 +1,4 @@
-# 影片分享 介紹 DevOps 軟體開發文化 (TechDays)
+# DevOps 軟體開發文化
 
 > **原文發布日期:** 2018-12-21
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2018/12/21/devops
@@ -18,7 +18,7 @@ https://www.microduo.tw/thread-30461-1-1.html
 主題是預計在未來2016可能會在業界大幅採用的DevOps，另外也興趣的朋友也可以藉此認識一下有著幾十年開發經驗的Ruddy桑~
 至於實際內容主要是由我所分享的影片，有興趣其實還有許多其它我覺得很有價值的演說影片可以瞧瞧。
 
-<https://channel9.msdn.com/Events/TechDays/TechDays-Taiwan-2015/DEV301?ocid=player>
+https://channel9.msdn.com/Events/TechDays/TechDays-Taiwan-2015/DEV301?ocid=player
 
 　　前一陣子有幸請到Ruddy老師到我們公司來聊聊軟體開發專案管理相關的議題，這次的微軟TechDays又有幸聽到Ruddy老師的演說，最深刻的印象是，非常有趣！(笑)
 
@@ -32,7 +32,7 @@ DevOps我想有兩個重點
 
 　　因應現在產業環境變化快速，企業需要迅速以新產品功能來回應新需求，而在競爭激烈的各產業界來說，能夠比對手更快提供新服務，就能增加企業競爭力，避免被環境所淘汰。
 
-<http://video.ch9.ms/ch9/8551/335491af-f416-4789-ac1e-76370a968551/DEV301_mid.mp4>
+http://video.ch9.ms/ch9/8551/335491af-f416-4789-ac1e-76370a968551/DEV301_mid.mp4
 
 ![](https://card.psnprofiles.com/1/jakeuj.png)
 

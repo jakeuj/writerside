@@ -1,4 +1,4 @@
-# JetBrains Rider Angular NPM Yarn Launch and Build Settings Profile
+# JetBrains Rider Angular 設定
 
 > **原文發布日期:** 2019-03-26
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/03/26/RiderAngularLaunch

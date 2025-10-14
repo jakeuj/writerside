@@ -1,4 +1,4 @@
-# 購買 CheapSSL Comodo SSL 並設定 Windows server 2012 IIS 8
+# CheapSSL Comodo SSL 設定
 
 > **原文發布日期:** 2020-12-26
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2020/12/26/SSLIIS

@@ -1,10 +1,12 @@
-# ABP.IO WEB應用程式框架 EnableSensitiveDataLogging 啟用敏感資料紀錄
+# ABP.IO EnableSensitiveDataLogging
 
 > **原文發布日期:** 2021-11-05
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/11/05/Abp-Enable-Sensitive-Data-Logging
 > **標籤:** 無
 
 ---
+
+本文說明如何在 ABP.IO WEB應用程式框架中啟用敏感資料紀錄（EnableSensitiveDataLogging）。
 
 紀錄 Framework 啟用輸入值顯示在 Log 的設定
 

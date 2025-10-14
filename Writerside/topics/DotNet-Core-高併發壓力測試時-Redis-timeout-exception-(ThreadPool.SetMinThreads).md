@@ -1,4 +1,4 @@
-# DotNet Core 高併發壓力測試時 Redis timeout exception (ThreadPool.SetMinThreads)
+# DotNet Core Redis Timeout
 
 > **原文發布日期:** 2018-07-18
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2018/07/18/DotNetCoreRedis
@@ -22,11 +22,11 @@ Redis 在瞬間大量 Request 逾時問題
 
 查了半天最後參照 Redis 文章
 
-<https://stackexchange.github.io/StackExchange.Redis/Timeouts>
+https://stackexchange.github.io/StackExchange.Redis/Timeouts
 
 其中 DotNet Core 要用程式碼設定
 
-<https://msdn.microsoft.com/library/system.threading.threadpool.setminthreads.aspx>
+https://msdn.microsoft.com/library/system.threading.threadpool.setminthreads.aspx
 
 雖然有環境變數跟登錄檔的設定方式
 

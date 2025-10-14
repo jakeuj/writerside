@@ -1,4 +1,4 @@
-# ABP.IO WEB應用程式框架 Override UI&#x3001;控制器&#x3001;服務&#x3001;DTO {id="ABP-IO-Override-UI-Controller-Service-DTO"}
+# ABP.IO Override UI&#x3001;控制器&#x3001;服務&#x3001;DTO {id="ABP-IO-Override-UI-Controller-Service-DTO"}
 
 > **原文發布日期:** 2021-07-27
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/07/27/ABP-Override-Controller
@@ -81,7 +81,7 @@ namespace MyProjectName.Web.Pages.Account
 
 總之如果要修改模塊的控制器或服務請參照以下連結
 
-<https://docs.abp.io/en/abp/latest/Customizing-Application-Modules-Overriding-Services#example-overriding-a-controller>
+https://docs.abp.io/en/abp/latest/Customizing-Application-Modules-Overriding-Services#example-overriding-a-controller
 
 ![](https://dotblogsfile.blob.core.windows.net/user/御星幻/e1b140f8-1c76-4157-a679-ff0de2c89ca0/1627460788.png)
 

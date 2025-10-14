@@ -1,4 +1,4 @@
-# 圖形驗證服務 hcaptcha dotnet core 實作筆記
+# hCaptcha DotNet Core 實作
 
 > **原文發布日期:** 2021-01-28
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/01/28/hCaptcha

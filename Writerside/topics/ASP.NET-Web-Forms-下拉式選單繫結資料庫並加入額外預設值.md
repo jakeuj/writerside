@@ -1,4 +1,4 @@
-# ASP.NET Web Forms 下拉式選單繫結資料庫並加入額外預設值
+# ASP.NET Web Forms 下拉式選單
 
 > **原文發布日期:** 2024-01-03
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2024/01/03/asp-net-web-form-dropdownlist
@@ -6,7 +6,7 @@
 
 ---
 
-筆記下老東西
+本文說明如何在 ASP.NET Web Forms 中，讓下拉式選單繫結資料庫資料的同時，加入額外的預設值選項。
 
 ## 結論
 

@@ -1,4 +1,4 @@
-# 開始使用透明背景 Powerline in Windows Terminal 吧
+# Windows Terminal Powerline
 
 > **原文發布日期:** 2021-02-01
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/02/01/WindowsTerminal
@@ -68,7 +68,7 @@ notepad $PROFILE
 
 最後一行可以改成自己要的主題樣式名稱
 
-<https://github.com/JanDeDobbeleer/oh-my-posh#themes>
+https://github.com/JanDeDobbeleer/oh-my-posh#themes
 
 ※ **重要的**
 

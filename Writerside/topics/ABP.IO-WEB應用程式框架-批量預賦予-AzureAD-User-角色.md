@@ -1,4 +1,4 @@
-# ABP.IO WEB應用程式框架 批量預賦予 AzureAD User 角色
+# ABP.IO 批量預賦予 AzureAD User 角色
 
 > **原文發布日期:** 2021-09-08
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/09/08/Abp-Create-Identity-Users-List

@@ -1,4 +1,4 @@
-# Windows 和 Windows Phone 開發人員帳戶 MSDN 促銷代碼 免費上架
+# Windows Phone 開發者帳戶
 
 > **原文發布日期:** 2015-12-02
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2015/12/02/20151202

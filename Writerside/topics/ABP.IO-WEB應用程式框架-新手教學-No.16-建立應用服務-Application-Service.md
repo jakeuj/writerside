@@ -1,4 +1,4 @@
-# ABP.IO WEB應用程式框架 新手教學 No.16 建立應用服務 Application Service
+# ABP.IO 新手教學 No.16 建立應用服務 Application Service
 
 > **原文發布日期:** 2021-07-19
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/07/19/abpio5
@@ -62,7 +62,7 @@ namespace AbpDemo
 }
 ```
 
-<https://docs.abp.io/zh-Hans/abp/latest/Data-Transfer-Objects#%E5%AE%9E%E4%BD%93%E7%9B%B8%E5%85%B3dto>
+https://docs.abp.io/zh-Hans/abp/latest/Data-Transfer-Objects#%E5%AE%9E%E4%BD%93%E7%9B%B8%E5%85%B3dto
 {ignore-vars="true"}
 
 ## AutoMapper

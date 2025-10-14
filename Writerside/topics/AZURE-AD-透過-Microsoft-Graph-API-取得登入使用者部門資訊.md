@@ -1,10 +1,12 @@
-# AZURE AD 透過 Microsoft Graph API 取得登入使用者部門資訊
+# Azure AD Microsoft Graph API
 
 > **原文發布日期:** 2021-09-16
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/09/16/AAD-Microsoft-Graph-API
 > **標籤:** 無
 
 ---
+
+本文說明如何透過 Microsoft Graph API 取得 Azure AD 登入使用者的部門資訊。
 
 紀錄 AAD 取得用戶部門
 

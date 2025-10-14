@@ -1,4 +1,4 @@
-# ABP.IO WEB應用程式框架 新手教學 No.01 快速開始
+# ABP.IO 新手教學 No.01 快速開始
 
 > **原文發布日期:** 2021-07-20
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/07/20/abpio01

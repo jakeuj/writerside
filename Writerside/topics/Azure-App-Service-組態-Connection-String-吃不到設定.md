@@ -1,4 +1,4 @@
-# Azure App Service 組態 Connection String 吃不到設定
+# Azure App Service Connection String
 
 > **原文發布日期:** 2021-02-23
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/02/23/AzureAppServiceConnectionString

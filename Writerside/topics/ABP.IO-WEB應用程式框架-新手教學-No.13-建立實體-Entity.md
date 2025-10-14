@@ -1,4 +1,4 @@
-# ABP.IO WEB應用程式框架 新手教學 No.13 建立實體 Entity
+# ABP.IO 新手教學 No.13 建立實體 Entity
 
 > **原文發布日期:** 2021-07-19
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/07/19/aaboio2
@@ -41,7 +41,7 @@ context.Services.Replace(ServiceDescriptor.Singleton<IEmailSender, NullEmailSend
 
 以上我這邊就先不動，只是稍微說明一下，這邊先專注於建立我們自己新的實體
 
-<https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Part-1?UI=NG&DB=EF#%E5%88%9B%E5%BB%BAbook%E5%AE%9E%E4%BD%93>
+https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Part-1?UI=NG&DB=EF#%E5%88%9B%E5%BB%BAbook%E5%AE%9E%E4%BD%93
 {ignore-vars="true"}
 
 官方教學是開一個 Books 資料夾然後放入 Book.cs 實體

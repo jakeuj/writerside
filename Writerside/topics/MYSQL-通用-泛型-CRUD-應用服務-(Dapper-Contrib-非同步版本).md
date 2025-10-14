@@ -1,4 +1,4 @@
-# MYSQL 通用 泛型 CRUD 應用服務 (Dapper Contrib 非同步版本)
+# MYSQL Dapper CRUD
 
 > **原文發布日期:** 2019-09-06
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/09/06/CrudAppService

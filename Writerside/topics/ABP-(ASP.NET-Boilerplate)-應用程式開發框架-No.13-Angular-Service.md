@@ -1,4 +1,4 @@
-# ABP (ASP.NET Boilerplate) 應用程式開發框架 No.13 Angular Service
+# ABP No.13 Angular Service
 
 > **原文發布日期:** 2019-04-23
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/04/23/abp13

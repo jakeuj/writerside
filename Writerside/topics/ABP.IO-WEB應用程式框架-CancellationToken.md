@@ -1,4 +1,4 @@
-# ABP.IO WEB應用程式框架 CancellationToken
+# ABP.IO CancellationToken
 
 > **原文發布日期:** 2023-05-11
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/05/11/ABP-Cancellation-Token-Provider

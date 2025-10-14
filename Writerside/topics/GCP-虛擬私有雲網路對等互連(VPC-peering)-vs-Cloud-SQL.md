@@ -1,4 +1,4 @@
-# GCP 虛擬私有雲網路對等互連(VPC peering) vs Cloud SQL
+# GCP VPC Peering
 
 > **原文發布日期:** 2024-02-19
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2024/02/19/unable-to-recreate-private-service-access-on-gcp

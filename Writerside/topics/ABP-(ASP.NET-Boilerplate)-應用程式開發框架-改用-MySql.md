@@ -1,4 +1,4 @@
-# ABP (ASP.NET Boilerplate) 應用程式開發框架 改用 MySql
+# ABP 改用 MySql
 
 > **原文發布日期:** 2017-09-08
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2017/09/08/abp_mysql

@@ -1,10 +1,12 @@
-# Azure App Service 使用 Web Job 定期執行 PowerShell 呼叫 API
+# Azure App Service Web Job
 
 > **原文發布日期:** 2022-03-03
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/03/03/Azure-App-Service-Web-Job-PowerShell-API
 > **標籤:** 無
 
 ---
+
+本文說明如何在 Azure App Service 使用 Web Job 定期執行 PowerShell 腳本來呼叫 API。
 
 應注意而未注意的事情
 

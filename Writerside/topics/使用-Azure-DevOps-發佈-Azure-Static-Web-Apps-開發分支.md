@@ -1,4 +1,4 @@
-# 使用 Azure DevOps 發佈 Azure Static Web Apps 開發分支
+# Azure DevOps 發佈 Static Web Apps
 
 > **原文發布日期:** 2023-08-08
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/08/08/Azure-Static-Web-Apps

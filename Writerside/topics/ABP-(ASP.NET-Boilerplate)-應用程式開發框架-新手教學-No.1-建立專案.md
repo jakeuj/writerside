@@ -1,4 +1,4 @@
-# ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.1 建立專案
+# ABP 新手教學 No.1 建立專案
 
 > **原文發布日期:** 2016-07-26
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2016/07/26/abp1
@@ -22,11 +22,15 @@ ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.1 建立專�
 
 ![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9886c5a0-bdd9-440d-aa02-d74325bbb6c0/1469525074_84791.png)如果沒有本機資料庫，則需到[MyCompany.MyProject.Web]→[Web.config]修改連接字串內的localhost字段，到你的資料庫IP或LocalDB
 
-<add name="Default" connectionString="Server=localhost; Database=MyProject; Trusted\_Connection=True;" providerName="System.Data.SqlClient" />
+```xml
+<add name="Default" connectionString="Server=localhost; Database=MyProject; Trusted_Connection=True;" providerName="System.Data.SqlClient" />
+```
 
 ![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9886c5a0-bdd9-440d-aa02-d74325bbb6c0/1469525126_1054.png)這邊我使用LocalDB來建置資料庫
 
-<add name="Default" connectionString="Server=(LocalDB)\MSSQLLocalDB; Database=AbsoluteDuo\_V4; Trusted\_Connection=True;" providerName="System.Data.SqlClient" />
+```xml
+<add name="Default" connectionString="Server=(LocalDB)\MSSQLLocalDB; Database=AbsoluteDuo_V4; Trusted_Connection=True;" providerName="System.Data.SqlClient" />
+```
 
 3.開啟 Package Manager Console
 

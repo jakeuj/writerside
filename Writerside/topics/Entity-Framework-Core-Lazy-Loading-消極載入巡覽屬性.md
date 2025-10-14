@@ -1,4 +1,4 @@
-# Entity Framework Core Lazy Loading 消極載入巡覽屬性
+# Entity Framework Core Lazy Loading
 
 > **原文發布日期:** 2021-06-09
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/06/09/EFCoreLazyLoading
@@ -43,7 +43,7 @@
 
 不過官方也警告延遲載入用不好會造成 N+1 效能問題
 
-<https://docs.microsoft.com/zh-tw/ef/core/querying/related-data/lazy#lazy-loading-with-proxies>
+https://docs.microsoft.com/zh-tw/ef/core/querying/related-data/lazy#lazy-loading-with-proxies
 
 > **警告**
 >
@@ -51,7 +51,7 @@
 
 建議沒特別要求就盡可能使用預設的積極載入就好
 
-<https://docs.microsoft.com/zh-tw/ef/core/performance/efficient-querying#load-related-entities-eagerly-when-possible>
+https://docs.microsoft.com/zh-tw/ef/core/performance/efficient-querying#load-related-entities-eagerly-when-possible
 
 ---
 

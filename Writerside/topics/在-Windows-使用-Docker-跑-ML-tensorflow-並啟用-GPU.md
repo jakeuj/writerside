@@ -1,4 +1,4 @@
-# 在 Windows 使用 Docker 跑 ML tensorflow 並啟用 GPU
+# Windows Docker TensorFlow GPU
 
 > **原文發布日期:** 2024-01-29
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2024/01/29/ml-tensorflow-windows-gpu

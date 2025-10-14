@@ -1,4 +1,4 @@
-# ABP.IO WEB應用程式框架 CrudAppService 自訂 Header 驗證
+# ABP.IO CrudAppService 自訂 Header 驗證
 
 > **原文發布日期:** 2022-09-30
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/09/30/abp-CrudAppService-CheckGetPolicyAsync-Header

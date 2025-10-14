@@ -1,4 +1,4 @@
-# ABP.IO WEB應用程式框架 Azure App Service CI/CD deployment
+# ABP.IO Azure App Service CI/CD deployment
 
 > **原文發布日期:** 2022-10-21
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/10/21/abp-Azure-App-Service-Github-CICD

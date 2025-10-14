@@ -1,4 +1,4 @@
-# ABP (ASP.NET Boilerplate) 應用程式開發框架 No.11 Client Proxies
+# ABP No.11 Client Proxies
 
 > **原文發布日期:** 2019-01-18
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/01/18/abp11

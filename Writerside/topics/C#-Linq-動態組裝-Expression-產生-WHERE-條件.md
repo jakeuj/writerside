@@ -1,4 +1,4 @@
-# C# Linq 動態組裝 Expression 產生 WHERE 條件
+# C# Linq 動態 Expression
 
 > **原文發布日期:** 2023-06-20
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/06/20/CSharp-Linq-Expression-And-Where

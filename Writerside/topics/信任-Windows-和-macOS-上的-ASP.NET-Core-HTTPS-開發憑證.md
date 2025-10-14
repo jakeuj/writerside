@@ -1,4 +1,4 @@
-# 信任 Windows 和 macOS 上的 ASP.NET Core HTTPS 開發憑證
+# ASP.NET Core HTTPS 憑證
 
 > **原文發布日期:** 2021-01-05
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/01/05/certificate-not-trusted

@@ -1,4 +1,4 @@
-# RedHat OKD (OpenShift Origin) 4.6 與 Ubuntu 20.10 建置筆記
+# RedHat OKD 建置筆記
 
 > **原文發布日期:** 2021-02-09
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/02/09/OpenShift

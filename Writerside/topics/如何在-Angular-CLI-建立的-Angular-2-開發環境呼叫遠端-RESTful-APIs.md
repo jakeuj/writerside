@@ -1,4 +1,4 @@
-# 如何在 Angular CLI 建立的 Angular 2 開發環境呼叫遠端 RESTful APIs
+# Angular 呼叫 RESTful API
 
 > **原文發布日期:** 2019-01-07
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/01/07/Setup-proxy-to-backend-in-Angular-CLI

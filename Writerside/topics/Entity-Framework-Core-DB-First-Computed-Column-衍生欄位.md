@@ -1,4 +1,4 @@
-# Entity Framework Core DB First Computed Column 衍生欄位
+# Entity Framework Core Computed Column
 
 > **原文發布日期:** 2023-07-10
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/07/10/computed-columns

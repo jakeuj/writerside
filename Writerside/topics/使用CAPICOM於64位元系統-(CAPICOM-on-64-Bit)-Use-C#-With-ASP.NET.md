@@ -1,4 +1,4 @@
-# 使用CAPICOM於64位元系統 (CAPICOM on 64 Bit) Use C# With ASP.NET
+# CAPICOM 64位元系統
 
 > **原文發布日期:** 2012-03-03
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2012/03/03/70494

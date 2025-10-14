@@ -1,4 +1,4 @@
-# Azure App Service 存取限制 導致自己Get自己 403
+# Azure App Service 存取限制
 
 > **原文發布日期:** 2021-09-01
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/09/01/AzureAppService403

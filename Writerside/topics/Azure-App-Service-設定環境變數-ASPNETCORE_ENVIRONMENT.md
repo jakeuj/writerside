@@ -1,4 +1,4 @@
-# Azure App Service 設定環境變數 ASPNETCORE_ENVIRONMENT
+# Azure App Service 環境變數
 
 > **原文發布日期:** 2022-04-20
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/04/20/AzureAppServiceASPNETCORE_ENVIRONMENT

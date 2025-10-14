@@ -1,4 +1,4 @@
-# Entity Framework Core DB First 將既有資料庫轉成 class
+# Entity Framework Core DB First
 
 > **原文發布日期:** 2021-10-14
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/10/14/Entity-Framework-Core-DB-First

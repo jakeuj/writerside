@@ -1,4 +1,4 @@
-# Visual Studio 2017 全新安裝之後無法正常開啟 DotNetCore 1.x 專案
+# Visual Studio 2017 DotNetCore 問題
 
 > **原文發布日期:** 2017-10-16
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2017/10/16/dotnetcore1

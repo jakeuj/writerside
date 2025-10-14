@@ -1,4 +1,4 @@
-# 使用 LINQPad 7 with EF Core (.Net 6 專案)
+# LINQPad 7 with EF Core
 
 > **原文發布日期:** 2021-06-24
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/06/24/LINQPadEFCore
@@ -9,9 +9,9 @@
 紀錄一下怎麼快速試寫專案要用的 Linq
 
 1. 首先下載安裝支援 .Net Core 的 LINQPad 7
-   <https://www.linqpad.net/Download.aspx>
+   https://www.linqpad.net/Download.aspx
 2. 參照官方連結建立與專案檔 .dll 的連結
-   <https://www.linqpad.net/EntityFramework.aspx>
+   https://www.linqpad.net/EntityFramework.aspx
 3. 既然是參照 dll 記得案文章所描述先 bulid 一次
    Example: `bin\Debug\netcoreapp3.1\Test.dll`
 4. 如果 appsettings 裡面的連結字串不是你要測試用的可以自己改
@@ -24,7 +24,7 @@
 
 接著參照以下文章使用
 
-<https://peterhpchen.github.io/DigDeeperLINQ/03_LINQPad.html#%E7%94%A8%E6%B3%95>
+https://peterhpchen.github.io/DigDeeperLINQ/03_LINQPad.html#%E7%94%A8%E6%B3%95
 {ignore-vars="true"}
 
 使用預設 Language => C# Expression (單行語法) 測試

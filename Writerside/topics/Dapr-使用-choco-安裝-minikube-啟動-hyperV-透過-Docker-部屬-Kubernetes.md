@@ -1,4 +1,4 @@
-# Dapr 使用 choco 安裝 minikube 啟動 hyperV 透過 Docker 部屬 Kubernetes
+# Dapr Kubernetes 部署
 
 > **原文發布日期:** 2021-03-23
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/03/23/minikube
@@ -16,7 +16,7 @@
 
 首先參照 Will 保哥的文章
 
-<快速體驗建構在 Dapr 架構下的微服務應用程式並部署到 Kubernetes 叢集>
+「快速體驗建構在 Dapr 架構下的微服務應用程式並部署到 Kubernetes 叢集」
 
 ```
 // 使用 chcoc 安裝套件

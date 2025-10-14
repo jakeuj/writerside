@@ -1,4 +1,4 @@
-# AsEnumerable and PostgreSQL EF Core Logging with Npgsql
+# PostgreSQL EF Core Logging
 
 > **原文發布日期:** 2020-10-30
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2020/10/30/AsEnumerable

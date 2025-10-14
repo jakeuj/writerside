@@ -1,4 +1,4 @@
-# 阿里雲 訪問控制 RAM (Aliyun Cloud Resource Access Management) 使用筆記
+# 阿里雲 RAM 使用筆記
 
 > **原文發布日期:** 2021-05-06
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/05/06/AliRam
@@ -88,7 +88,7 @@ EX: admin => Admin , Jake => WebPlus
 
 如此一來就可以開始在登入時改用 RAM 帳號 登入
 
-<https://signin.aliyun.com/domain.onaliyun.com/login.htm>
+https://signin.aliyun.com/domain.onaliyun.com/login.htm
 
 Id=admin@domain.onaliyun.com, Pwd={自動生成密碼}
 

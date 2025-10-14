@@ -1,4 +1,4 @@
-# ABP.IO WEB應用程式框架 新手教學 No.15 資料庫遷移 Migration
+# ABP.IO 新手教學 No.15 資料庫遷移 Migration
 
 > **原文發布日期:** 2021-07-19
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/07/19/abpio4
@@ -10,7 +10,7 @@
 
 參照官方教學
 
-<https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Part-1#%E6%B7%BB%E5%8A%A0%E6%95%B0%E6%8D%AE%E8%BF%81%E7%A7%BB>
+https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Part-1#%E6%B7%BB%E5%8A%A0%E6%95%B0%E6%8D%AE%E8%BF%81%E7%A7%BB
 {ignore-vars="true"}
 
 這邊使用 [Entity Framework Core 的 Code First Migrations](https://docs.microsoft.com/zh-cn/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli) 來操作資料庫
