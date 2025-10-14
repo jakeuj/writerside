@@ -27,7 +27,9 @@
 
 附上 CAPICOM 下載位置
 
-#### Platform SDK 可轉散佈程式碼： [CAPICOM](http://www.microsoft.com/downloads/zh-tw/details.aspx?FamilyID=860ee43a-a843-462f-abb5-ff88ea5896f6&DisplayLang=zh-tw)
+#### Platform SDK 可轉散佈程式碼
+
+下載連結：[CAPICOM](http://www.microsoft.com/downloads/zh-tw/details.aspx?FamilyID=860ee43a-a843-462f-abb5-ff88ea5896f6&DisplayLang=zh-tw)
 
 參考：
 <http://social.msdn.microsoft.com/Forums/en/netfx64bit/thread/8b0ed9bb-1c05-4607-8130-46fb58d64d3e>

@@ -14,7 +14,9 @@
 
 ABP 授權基於微軟官方 .Net Core Identity，這邊先看一下實體相關訊息
 
-### [實體類型](https://docs.microsoft.com/zh-tw/aspnet/core/security/authentication/customize-identity-model?view=aspnetcore-5.0#entity-types)
+### 實體類型
+
+參考文件：[實體類型](https://docs.microsoft.com/zh-tw/aspnet/core/security/authentication/customize-identity-model?view=aspnetcore-5.0#entity-types)
 
 此 Identity 模型包含下列實體類型：
 
@@ -26,7 +28,9 @@ ABP 授權基於微軟官方 .Net Core Identity，這邊先看一下實體相關
 * RoleClaim 代表授與角色內所有使用者的宣告。
 * UserRole 關聯使用者和角色的聯結實體。
 
-### [實體類型關聯性](https://docs.microsoft.com/zh-tw/aspnet/core/security/authentication/customize-identity-model?view=aspnetcore-5.0#entity-type-relationships)
+### 實體類型關聯性
+
+參考文件：[實體類型關聯性](https://docs.microsoft.com/zh-tw/aspnet/core/security/authentication/customize-identity-model?view=aspnetcore-5.0#entity-type-relationships)
 
 實體類型會以下列方式彼此相關：
 

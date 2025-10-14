@@ -12,13 +12,17 @@
 
 前端 Angular 不在本次重點會先快速帶過
 
-### [[2021] ABP.IO WEB應用程式框架 新手教學 No.0 全篇索引](https://dotblogs.com.tw/jakeuj/2021/07/15/abpio0)
+### 系列文章索引
+
+參考：[[2021] ABP.IO WEB應用程式框架 新手教學 No.0 全篇索引](https://dotblogs.com.tw/jakeuj/2021/07/15/abpio0)
 
 ---
 
 本篇會以官方文件 [快速開始](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index) 為依據中文化並附圖加以說明的方式進行
 
-## [快速開始](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#quick-start)
+## 快速開始
+
+參考文件：[快速開始](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#quick-start)
 
 這是一個單一部分的快速入門教程，用於使用 ABP 框架構建一個簡單的待辦事項應用程序。這是最終應用程序的屏幕截圖：
 
@@ -28,7 +32,9 @@ preview
 
 您可以[在此處](https://github.com/abpframework/abp-samples/tree/master/TodoApp)找到已完成應用程序的源代碼。
 
-## [先決條件](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#pre-requirements)
+## 先決條件
+
+參考文件：[先決條件](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#pre-requirements)
 
 支持[.NET 5.0+](https://dotnet.microsoft.com/download/dotnet) 開發的 IDE （例如:[Rider](https://www.jetbrains.com/rider/), [Visual Studio](https://visualstudio.microsoft.com/vs/)）
 
@@ -38,7 +44,9 @@ preview
 
 // Redis，可以安裝 [docker](https://www.docker.com/products/docker-desktop) 後執行，`docker pull redis` & `docker run --name some-redis -d redis -p 6379:6379`
 
-## [創建新解決方案](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#creating-a-new-solution)
+## 創建新解決方案
+
+參考文件：[創建新解決方案](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#creating-a-new-solution)
 
 我們將使用 [ABP CLI](https://docs.abp.io/zh-Hans/abp/latest/CLI) 通過 ABP 框架創建新的解決方案。您可以在命令行終端中運行以下命令來安裝它：
 
@@ -60,7 +68,9 @@ abp new TodoApp -u angular
 
 Aspnet-core
 
-### [創建數據庫](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#create-the-database)
+### 創建數據庫
+
+參考文件：[創建數據庫](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#create-the-database)
 
 如果您使用的是 Visual Studio，請右鍵單擊該`TodoApp.DbMigrator`項目，選擇*Set as StartUp Project*，然後*按 Ctrl+F5* 運行它而不進行調試。它將創建初始數據庫並建立初始種子資料(SeedData)。
 

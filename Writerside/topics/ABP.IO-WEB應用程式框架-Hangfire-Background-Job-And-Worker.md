@@ -70,7 +70,14 @@ public class YourHostModule : AbpModule
 
 P.S. Job 與 Worker 不需要與表現層互動，放在 Domain
 
-## [Volo.Abp.OpenIddict.Domain](https://github.com/abpframework/abp/tree/dev/modules/openiddict/src/Volo.Abp.OpenIddict.Domain)/[Volo](https://github.com/abpframework/abp/tree/dev/modules/openiddict/src/Volo.Abp.OpenIddict.Domain/Volo)/[Abp](https://github.com/abpframework/abp/tree/dev/modules/openiddict/src/Volo.Abp.OpenIddict.Domain/Volo/Abp)/[OpenIddict](https://github.com/abpframework/abp/tree/dev/modules/openiddict/src/Volo.Abp.OpenIddict.Domain/Volo/Abp/OpenIddict)/[Tokens](https://github.com/abpframework/abp/tree/dev/modules/openiddict/src/Volo.Abp.OpenIddict.Domain/Volo/Abp/OpenIddict/Tokens)/
+## Volo.Abp.OpenIddict.Domain 目錄結構
+
+GitHub 路徑：
+- [Volo.Abp.OpenIddict.Domain](https://github.com/abpframework/abp/tree/dev/modules/openiddict/src/Volo.Abp.OpenIddict.Domain)
+- [Volo](https://github.com/abpframework/abp/tree/dev/modules/openiddict/src/Volo.Abp.OpenIddict.Domain/Volo)
+- [Abp](https://github.com/abpframework/abp/tree/dev/modules/openiddict/src/Volo.Abp.OpenIddict.Domain/Volo/Abp)
+- [OpenIddict](https://github.com/abpframework/abp/tree/dev/modules/openiddict/src/Volo.Abp.OpenIddict.Domain/Volo/Abp/OpenIddict)
+- [Tokens](https://github.com/abpframework/abp/tree/dev/modules/openiddict/src/Volo.Abp.OpenIddict.Domain/Volo/Abp/OpenIddict/Tokens)
 
 ### 參照
 

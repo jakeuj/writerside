@@ -72,7 +72,9 @@ public class MyService : ITransientDependency
 
 ```
 
-### [BLOB Storing Provider](https://docs.abp.io/en/abp/latest/Blob-Storing-File-System)
+### BLOB Storing Provider
+
+參考文件：[BLOB Storing Provider](https://docs.abp.io/en/abp/latest/Blob-Storing-File-System)
 
 然後安裝存儲提供者到 Host 專案，這裡以檔案系統為例
 
