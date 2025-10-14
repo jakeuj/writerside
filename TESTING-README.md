@@ -173,7 +173,6 @@ git push origin master
 
 - **[WRITERSIDE-TEST-STRATEGY.md](WRITERSIDE-TEST-STRATEGY.md)** - 測試策略指南（必讀）
 - **[WRITERSIDE-LOCAL-TEST.md](WRITERSIDE-LOCAL-TEST.md)** - 本地測試詳細說明
-- **[.augment/rules/writerside-test-prompt.md](.augment/rules/writerside-test-prompt.md)** - AI 輔助測試 Prompt
 
 ---
 

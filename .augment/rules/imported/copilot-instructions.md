@@ -72,15 +72,31 @@ type: "always_apply"
 在專案根目錄執行（與 `.idea` / `Writerside` 同層）：
 
 ```bash
+# 方法 1: 使用 writerside-checker（推薦，與 GitHub Actions 一致）
 docker run --rm \
   -v "$PWD":/docs \
   jetbrains/writerside-checker:2025.04.8412 \
-  "artifacts/report.json" "Writerside/hi"
+  "Writerside/hi"
+
+# 方法 2: 使用完整的 builder 進行建構和檢查
+docker run --rm \
+  -v "$PWD":/opt/sources \
+  registry.jetbrains.team/p/writerside/builder/writerside-builder:2025.04.8412 \
+  --instance "Writerside/hi" \
+  --artifact "artifacts/webHelpHI2-all.zip" \
+  --output "artifacts"
 ```
 
+**參數說明**：
 - `jetbrains/writerside-checker:2025.04.8412` - 使用與 GitHub Actions 相同的版本
 - `"Writerside/hi"` - Writerside instance 名稱（對應 `writerside.cfg` 中的設定）
-- 執行後會產生 `artifacts/report.json`，包含所有錯誤和警告
+- 第二個參數可選：`true` 或 `false` 表示是否為 group instance（預設為 `false`）
+- 執行後會在 `artifacts/` 目錄產生 `report.json`，包含所有錯誤和警告
+
+**注意**：
+- writerside-checker 會自動在 `artifacts/` 目錄下尋找或生成 `report.json`
+- 如果 `artifacts/report.json` 不存在，checker 會先執行建構流程
+- 確保專案根目錄有 `artifacts/` 目錄的寫入權限
 
 #### 查看檢查結果
 
