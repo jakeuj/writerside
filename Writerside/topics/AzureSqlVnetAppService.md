@@ -1,4 +1,4 @@
-# AzureSqlVnetAppService
+# AzureSql Vnet AppService
 
 App Service 啟用虛擬網路整合後連不到 Azure SQL Database 的解決方法
 
@@ -10,7 +10,7 @@ App Service 啟用虛擬網路整合後連不到 Azure SQL Database 的解決方
 
 ## 解決方法
 
-到私人 DNS 區域中找到 privatelink.database.windows.net 的 A 記錄，並將其解析為私人 IP 位址。
+到 **私人 DNS 區域** 中找到 privatelink.database.windows.net 的 A 記錄，並將其解析為私人 IP 位址。
 例如：test-sqlserver.database.windows.net 解析為 10.1.0.2
 
 ## 確認連線
