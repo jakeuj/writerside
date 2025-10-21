@@ -1,5 +1,7 @@
 # AzureSql Vnet AppService
 
+![azurePrivate.png](azurePrivate.png)
+
 App Service 啟用虛擬網路整合後連不到 Azure SQL Database 的解決方法
 
 ![azureZone.png](azureZone.png)
