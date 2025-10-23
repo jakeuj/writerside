@@ -3,6 +3,10 @@
 Azure App Service 的 Abp 網站忽然無法正常啟動，Log 顯示錯誤關於 `X.509 encryption credentials`
 
 ## 結論
+[OpenIddict 憑證最佳實踐：Azure Key Vault 自動輪替方案](Azure-Key-Vault-OpenIddict.md)
+
+目前最新調研方案如上，以下既有方案留存備查...
+
 1. 於本機輸入輸入以下指令來產生新的開發憑證
 
     ```powershell
