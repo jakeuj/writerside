@@ -379,6 +379,7 @@
             </toc-element>
         </toc-element>
         <toc-element topic="Azure.md">
+            <toc-element topic="Abp-Opeciddict-Cert.md"/>
             <toc-element topic="Azure-VPN.md" />
             <toc-element topic="AzureSqlVnetAppService.md" />
             <toc-element topic="中文亂碼問題.md" />
