@@ -60,8 +60,8 @@ if (!string.IsNullOrEmpty(keyVaultUrl) && !string.IsNullOrEmpty(certificateName)
 
 ---
 
-## 生產環境 CA 憑證申請與配置
-
+## 憑證申請與配置 
+生產環境 CA
 ### OpenIddict 憑證需求說明
 
 OpenIddict 需要兩種憑證:
@@ -108,7 +108,8 @@ Azure App Service 可以自動管理 Let's Encrypt 憑證:
 
 **注意**: 託管憑證主要用於 HTTPS,若要用於 OpenIddict,需要額外匯出為 PFX 格式。
 
-### 方案二: 使用商業 CA 憑證
+### 方案二: 使用商業
+CA 憑證
 
 適合企業級應用,提供更長效期和更高信任度。
 
@@ -176,7 +177,8 @@ openssl pkcs12 -export \
 
 Azure Key Vault 可以自動管理憑證生命週期,包括自動續期。
 
-#### 在 Key Vault 中建立憑證
+#### 建立憑證
+在 Key Vault 中
 
 ```bash
 # 使用 Azure CLI
