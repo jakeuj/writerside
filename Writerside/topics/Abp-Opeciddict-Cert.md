@@ -17,6 +17,45 @@ Azure App Service 的 Abp 網站忽然無法正常啟動，Log 顯示錯誤關�
 [Azure-App-Service-CICD-deployment](ABP.IO-WEB應用程式框架-Azure-App-Service-CICD-deployment.md)
 4. 將環境變數中的指紋改成第二步驟所上傳的憑證指紋
 
+---
+
+## 憑證自動化管理與最佳實踐
+
+### 問題說明
+OpenIddict 若使用 dotnet dev-certs 產生的開發憑證，僅有一年效期，過期會導致服務中斷。手動更新容易遺漏，建議採用自動化與雲端憑證管理。
+
+### 更佳解法
+
+#### 1. 使用 Azure Key Vault 管理憑證
+- **自動續期**：將 JWT 加密/簽章憑證託管於 Azure Key Vault，並設定自動續期。
+- **App Service 整合**：App Service 可直接存取 Key Vault 憑證，無需手動上傳。
+- **程式自動載入**：OpenIddict 支援從 Key Vault 讀取憑證，程式碼可自動根據指紋或名稱載入最新憑證。
+
+**程式碼範例（Startup/Program.cs）**：
+```csharp
+// ...existing code...
+var keyVaultUrl = Environment.GetEnvironmentVariable("KEYVAULT_URL");
+var certificateName = Environment.GetEnvironmentVariable("OPENIDDICT_CERT_NAME");
+if (!string.IsNullOrEmpty(keyVaultUrl) && !string.IsNullOrEmpty(certificateName))
+{
+    var client = new SecretClient(new Uri(keyVaultUrl), new DefaultAzureCredential());
+    var certificate = new X509Certificate2(Convert.FromBase64String(
+        client.GetSecret(certificateName).Value.Value));
+    openIddictBuilder.AddEncryptionCertificate(certificate);
+}
+// ...existing code...
+```
+- 需安裝 `Azure.Security.KeyVault.Secrets` 與 `Azure.Identity` 套件。
+
+#### 2. 自動化腳本定期更新憑證
+- 可用 GitHub Actions、Azure CLI 或 PowerShell 定期產生新憑證並自動上傳至 Key Vault 或 App Service。
+- 參考 [Microsoft 官方自動化腳本](https://learn.microsoft.com/en-us/azure/app-service/configure-ssl-certificate#automate-certificate-renewal)。
+
+#### 3. 生產環境建議
+- 生產環境請勿使用 dev-certs，建議使用 CA 簽發的正式憑證，並託管於 Key Vault 或 App Service 憑證儲存區。
+
+---
+
 ## 徵狀
 abp 網站重啟時無法正常啟動，會出現以下錯誤訊息
 
@@ -70,3 +109,7 @@ Azure App Service > 環境變數 > OpenIddict:EncryptionCertificateThumbprint > 
 ## 參考
 Abp 官方針對此問題的疑難排解文章
 [dotnet dev-certs](https://abp.io/community/articles/fixing-openiddict-certificate-issues-in-iis-or-azure-0znavo8r#gsc.tab=0:~:text=and%20Azure%20environments.-,Troubleshooting,-Guide)
+
+- [OpenIddict 官方 Key Vault 整合說明](https://documentation.openiddict.com/configuration/encryption-and-signing-credentials.html#using-azure-key-vault)
+- [Azure App Service 憑證自動化](https://learn.microsoft.com/en-us/azure/app-service/configure-ssl-certificate)
+- [Key Vault 憑證自動續期](https://learn.microsoft.com/en-us/azure/key-vault/certificates/certificate-scenarios)
