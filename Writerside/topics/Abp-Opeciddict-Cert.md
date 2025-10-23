@@ -369,7 +369,6 @@ Azure App Service > 環境變數 > OpenIddict:EncryptionCertificateThumbprint > 
 Abp 官方針對此問題的疑難排解文章
 [dotnet dev-certs](https://abp.io/community/articles/fixing-openiddict-certificate-issues-in-iis-or-azure-0znavo8r#gsc.tab=0:~:text=and%20Azure%20environments.-,Troubleshooting,-Guide)
 
-- [OpenIddict 官方 Key Vault 整合說明](https://documentation.openiddict.com/configuration/encryption-and-signing-credentials.html#using-azure-key-vault)
+- [OpenIddict 官方說明 在生產環境中，建議使用兩個 RSA 憑證，與用於 HTTPS 的憑證不同：一個用於加密，一個用於簽署。您可以使用 .NET Core API 在本機產生憑證和自我簽署](https://documentation.openiddict.com/configuration/encryption-and-signing-credentials.html#registering-a-certificate-recommended-for-production-ready-scenarios)
 - [Azure App Service 憑證自動化](https://learn.microsoft.com/en-us/azure/app-service/configure-ssl-certificate)
 - [Key Vault 憑證自動續期](https://learn.microsoft.com/en-us/azure/key-vault/certificates/certificate-scenarios)
-- [在生產環境中，建議使用兩個 RSA 憑證，與用於 HTTPS 的憑證不同：一個用於加密，一個用於簽署。您可以使用 .NET Core API 在本機產生憑證和自我簽署](https://documentation.openiddict.com/configuration/encryption-and-signing-credentials.html#registering-a-certificate-recommended-for-production-ready-scenarios)
