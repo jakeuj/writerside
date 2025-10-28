@@ -328,6 +328,7 @@
             <toc-element topic="Ollama.md" />
         </toc-element>
         <toc-element topic="C-Sharp.md">
+            <toc-element topic="appsettings-json-環境變數.md"/>
             <toc-element topic="Swagger.md" />
             <toc-element topic="Directory-Packages-props.md" />
         </toc-element>
