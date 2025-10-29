@@ -1,5 +1,27 @@
 # Azure Managed Identity 受控識別
 
+> **重要提醒：使用者指派身份識別的環境變數設定**
+>
+> 在 Azure App Service 使用**使用者指派的受控識別**時，必須在應用程式的**環境變數**中設定：
+>
+> ```
+> AZURE_CLIENT_ID = <使用者指派身份識別的用戶端識別碼>
+> ```
+>
+> 若未設定此環境變數，會導致以下錯誤：
+> ```
+> ManagedIdentityCredential authentication failed: Unable to load the proper Managed Identity.
+> ```
+>
+> **如何取得用戶端識別碼：**
+> 1. 在 Azure Portal 中開啟您的**受控識別**資源
+> 2. 在**概觀**頁面中複製**用戶端識別碼**（Client ID）
+> 3. 在 App Service 的**設定** > **環境變數**中新增 `AZURE_CLIENT_ID`
+>
+> **注意：** 系統指派的受控識別不需要此設定。
+>
+{style="warning"}
+
 這是一篇關於 Azure App Service 裡面設定身份識別的說明文件，
 主要說明由 Azure Portal 搜尋 `受控識別`，來建立使用者指派的管理型身分識別，
 如此可以到 Key Vault 裡面授權該身分識別存取金鑰。
