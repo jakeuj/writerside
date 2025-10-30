@@ -318,6 +318,7 @@
             <toc-element topic="透過443代理內網特定port.md" />
         </toc-element>
         <toc-element toc-title="AI">
+            <toc-element topic="VM-GPU-Driver.md"/>
             <toc-element topic="FramePack-圖生影.md" />
         </toc-element>
         <toc-element toc-title="AWS">
@@ -380,21 +381,25 @@
             </toc-element>
         </toc-element>
         <toc-element topic="Azure.md">
-            <toc-element topic="managed-identities.md"/>
-            <toc-element topic="Azure-P2S-VPN-AAD.md"/>
-            <toc-element topic="Azure-Key-Vault-OpenIddict.md"/>
-            <toc-element topic="Abp-Opeciddict-Cert.md"/>
-            <toc-element topic="Azure-VPN.md" />
-            <toc-element topic="AzureSqlVnetAppService.md" />
-            <toc-element topic="中文亂碼問題.md" />
-            <toc-element topic="Azure-Vpn-Cret.md" />
-            <toc-element topic="VM-GPU-Driver.md" />
-            <toc-element topic="Azure-Cache-for-Redis.md" />
-            <toc-element topic="AI-Search-Service.md" />
-            <toc-element topic="App-Service-for-Container.md" />
-            <toc-element topic="StaticWebApp.md">
-                <toc-element topic="Blazor-CI-CD.md" />
+            <toc-element toc-title="Azure VPN">
+                <toc-element topic="Azure-Vpn-Cret.md"/>
+                <toc-element topic="Azure-P2S-VPN-AAD.md"/>
+                <toc-element topic="Azure-VPN.md"/>
             </toc-element>
+            <toc-element toc-title="Azure App Service">
+                <toc-element topic="中文亂碼問題.md"/>
+                <toc-element topic="Azure-Cache-for-Redis.md"/>
+                <toc-element topic="Azure-Key-Vault-OpenIddict.md"/>
+                <toc-element topic="managed-identities.md"/>
+                <toc-element topic="Abp-Opeciddict-Cert.md"/>
+                <toc-element topic="AzureSqlVnetAppService.md"/>
+                <toc-element topic="App-Service-for-Container.md"/>
+                <toc-element topic="Azure-App-Service-CICD-Lock.md"/>
+            </toc-element>
+            <toc-element topic="StaticWebApp.md">
+                <toc-element topic="Blazor-CI-CD.md"/>
+            </toc-element>
+            <toc-element topic="AI-Search-Service.md" />
         </toc-element>
         <toc-element topic="gcp.md">
             <toc-element topic="CloudRun.md" />
