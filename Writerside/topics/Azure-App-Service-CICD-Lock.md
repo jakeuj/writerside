@@ -13,7 +13,10 @@
 查看部署日誌會發現類似以下錯誤：
 
 ```
-Failed to delete log files: The process cannot access the file because it is being used by another process.
+Deleting file: 'Logs\logs20251028.txt'
+Failed exitCode=1, command="kudusync" -v 50 -x -f "C:\local\Temp\zipdeploy\extracted" -t "C:\home\site\wwwroot" -n "C:\local\Temp\tmpED4C.tmp" -p "C:\local\Temp\tmpED4C.tmp" -i ".git;.hg;.deployment;deploy.cmd"
+An error has occurred during web site deployment.
+Error: Failed to change file that is currently being used "C:\home\site\wwwroot\Logs\logs20251028.txt"\r\nC:\Program Files (x86)\SiteExtensions\Kudu\2025.09.1.1\bin\Scripts\starter.cmd "C:\home\site\deployments\tools\deploy.cmd"
 ```
 
 **根本原因**：應用程式在運行時持續寫入 log 檔案，導致部署腳本在清理舊檔案時遇到檔案鎖定 (file lock)，最終導致部署失敗。
