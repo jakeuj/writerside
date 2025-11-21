@@ -318,6 +318,7 @@
             <toc-element topic="透過443代理內網特定port.md" />
         </toc-element>
         <toc-element toc-title="AI">
+            <toc-element topic="PyTorchMac.md"/>
             <toc-element topic="VM-GPU-Driver.md"/>
             <toc-element topic="FramePack-圖生影.md" />
         </toc-element>
