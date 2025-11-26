@@ -358,6 +358,7 @@
             <toc-element topic="CI-CD.md" />
             <toc-element topic="OpenIddict.md" />
             <toc-element topic="Azure-App-Service-Deploy.md" />
+            <toc-element topic="ABP-Suite-Entity-Consts.md" />
             <toc-element topic="EasyAbp.md">
                 <toc-element topic="SettingUi.md" />
             </toc-element>
