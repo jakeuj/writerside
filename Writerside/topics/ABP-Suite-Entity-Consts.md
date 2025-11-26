@@ -1,6 +1,6 @@
 # ABP Suite：自訂 Entity Consts 的最佳做法
 
-## 為什麼要修改 Server.Entity.EntityConsts.txt
+## 為什麼要修改模板
 
 ABP Suite 會根據「實體欄位」自動產生：
 
@@ -26,27 +26,30 @@ ABP Suite 會根據「實體欄位」自動產生：
 
 確保模板內容為：
 
-```csharp
-namespace %%solution-namespace%%.%%entity-namespace%%
+```
+namespace <solution-namespace>.<entity-namespace>
 {
-    public static partial class %%entity-name%%Consts
+    public static partial class <entity-name>Consts
     {
-        private const string DefaultSorting = "%%default-sorting%%";
-        
+        private const string DefaultSorting = "<default-sorting>";
+
         public static string GetDefaultSorting(bool withEntityName)
         {
-            return string.Format(DefaultSorting, withEntityName ? "%%entity-name%%." : string.Empty);
+            return string.Format(DefaultSorting, withEntityName ? "<entity-name>." : string.Empty);
         }
-        
-        %%consts%%
+
+        <consts>
     }
 }
 ```
 
+> 實際模板使用 `%%` 包裹變數，例如 `%%entity-name%%`{ignore-vars="true"}
+{style="note"}
+
 > **重點**
-> 
+>
 > 將類別改為 `static partial class`（ABP 預設沒有 `partial`）
-> 
+>
 > 這樣 Suite 建檔時不會擋住你自己額外的 Consts 擴充
 {style="note"}
 
@@ -58,14 +61,14 @@ namespace %%solution-namespace%%.%%entity-namespace%%
 
 寫入：
 
-```csharp
+```c#
 namespace VenderPortal.PurchaseOrders
 {
     public static partial class PurchaseOrderConsts
     {
         public const string PlantChongqing = "重慶";
         public const string PlantKunshan = "昆山";
-        
+
         public static readonly HashSet<string> ValidPlants = new HashSet<string>
         {
             PlantChongqing,
@@ -84,18 +87,18 @@ namespace VenderPortal.PurchaseOrders
 
 ## Suite 模板修改後實際生成結果
 
-### ABP Suite 生成：
+### ABP Suite 生成
 
-```csharp
+```c#
 public static partial class PurchaseOrderConsts
 {
     private const string DefaultSorting = "{0}CreationTime desc";
-    
+
     public static string GetDefaultSorting(bool withEntityName)
     {
         return string.Format(DefaultSorting, withEntityName ? "PurchaseOrder." : string.Empty);
     }
-    
+
     public const int PoNoMaxLength = 50;
     public const int WorkOrderMaxLength = 50;
     public const int PoPnMaxLength = 50;
@@ -103,14 +106,14 @@ public static partial class PurchaseOrderConsts
 }
 ```
 
-### 你的擴充：
+### 你的擴充
 
-```csharp
+```c#
 public static partial class PurchaseOrderConsts
 {
     public const string PlantChongqing = "重慶";
     public const string PlantKunshan = "昆山";
-    
+
     public static readonly HashSet<string> ValidPlants = new HashSet<string>
     {
         PlantChongqing,
@@ -120,15 +123,15 @@ public static partial class PurchaseOrderConsts
 ```
 
 > **編譯後會合併成一個類別**
-> 
+>
 > 無須額外設定
 {style="tip"}
 
-## 延伸用法（可選）
+## 延伸用法
 
 ### 在 DTO 驗證中引用常數
 
-```csharp
+```c#
 [Required]
 [MaxLength(PurchaseOrderConsts.PlantMaxLength)]
 [AllowedValues(PurchaseOrderConsts.ValidPlants)]
@@ -137,7 +140,7 @@ public string Plant { get; set; }
 
 ### 在 Domain Layer 使用
 
-```csharp
+```c#
 if (!PurchaseOrderConsts.ValidPlants.Contains(plant))
 {
     throw new BusinessException("InvalidPlant").WithData("Plant", plant);
@@ -146,8 +149,8 @@ if (!PurchaseOrderConsts.ValidPlants.Contains(plant))
 
 ### 在 AppService 中做 mapping 或 filter
 
-```csharp
-var validItems = query.Where(po => 
+```c#
+var validItems = query.Where(po =>
     PurchaseOrderConsts.ValidPlants.Contains(po.Plant)
 );
 ```
