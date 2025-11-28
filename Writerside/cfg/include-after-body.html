@@ -1,11 +1,25 @@
 <!-- Disqus comments -->
 <div id="disqus_thread"></div>
 <script>
-  var disqus_config = function () {
-    this.page.url = window.location.href.split('#')[0];
-    this.page.identifier = window.location.pathname.replace(/\/$/, '');
-  };
   (function() {
+    var path = window.location.pathname || '';
+
+    // 只在 .html 內容頁，且不在黑名單中的頁面載入 Disqus
+    if (!/\.html$/i.test(path)) {
+      return;
+    }
+
+    // 不要顯示評論的頁面（例如首頁 default.html）
+    var noComments = ['/default.html'];
+    if (noComments.indexOf(path) !== -1) {
+      return;
+    }
+
+    window.disqus_config = function () {
+      this.page.url = window.location.href.split('#')[0];
+      this.page.identifier = path.replace(/\/$/, '');
+    };
+
     var d = document, s = d.createElement('script');
     s.src = 'https://jakeuj.disqus.com/embed.js';
     s.setAttribute('data-timestamp', +new Date());
