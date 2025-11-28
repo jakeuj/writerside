@@ -496,11 +496,13 @@
                 </toc-element>
             </toc-element>
         </toc-element>
-        <toc-element toc-title="FF14">
-            <toc-element topic="Mac.md" />
-        </toc-element>
-        <toc-element toc-title="PoE">
-            <toc-element topic="PoE-中文化.md" />
+        <toc-element toc-title="Games">
+            <toc-element toc-title="FF14">
+                <toc-element topic="Mac.md" />
+            </toc-element>
+            <toc-element toc-title="PoE">
+                <toc-element topic="PoE-中文化.md" />
+            </toc-element>
         </toc-element>
     </toc-element>
 </instance-profile>
