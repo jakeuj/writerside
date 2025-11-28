@@ -1,1 +1,15 @@
-<!-- include-after-body -->
+<!-- Disqus comments -->
+<div id="disqus_thread"></div>
+<script>
+  var disqus_config = function () {
+    this.page.url = window.location.href.split('#')[0];
+    this.page.identifier = window.location.pathname.replace(/\/$/, '');
+  };
+  (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://jakeuj.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>請啟用 JavaScript 以檢視由 <a href="https://disqus.com" rel="nofollow">Disqus</a> 提供的留言功能。</noscript>
