@@ -1,57 +1,120 @@
 <!-- Disqus comments -->
 <script>
   (function() {
-    var path = window.location.pathname || '';
-
-    // 只在 .html 內容頁，且不在黑名單中的頁面載入 Disqus
-    if (!/\.html$/i.test(path)) {
-      return;
-    }
-
     // 不要顯示評論的頁面（例如首頁 default.html）
     var noComments = ['/default.html'];
-    if (noComments.indexOf(path) !== -1) {
-      return;
+
+    function shouldShowComments(path) {
+      if (!/\.html$/i.test(path)) {
+        return false;
+      }
+      return noComments.indexOf(path) === -1;
     }
 
-    // Disqus 設定（照你現在的網址來）
-    window.disqus_config = function () {
-      this.page.url = window.location.href.split('#')[0];
-      this.page.identifier = path.replace(/\/$/, '');
-    };
-
-    function loadDisqusIntoArticle() {
+    function mountThreadContainer() {
       // 優先插在右側文章內容區塊底部
       var target = document.querySelector('.app__article .article.text2')
                  || document.querySelector('.app__article')
                  || document.body;
 
       if (!target) {
+        return null;
+      }
+
+      var thread = document.getElementById('disqus_thread');
+      if (!thread) {
+        thread = document.createElement('div');
+        thread.id = 'disqus_thread';
+      }
+      if (thread.parentNode !== target) {
+        target.appendChild(thread);
+      }
+      return thread;
+    }
+
+    function configureDisqus(path) {
+      window.disqus_config = function () {
+        this.page.url = window.location.href.split('#')[0];
+        this.page.identifier = path.replace(/\/$/, '');
+      };
+    }
+
+    function loadOrResetDisqus() {
+      var path = window.location.pathname || '';
+      if (!shouldShowComments(path)) {
         return;
       }
 
-      if (!document.getElementById('disqus_thread')) {
-        var thread = document.createElement('div');
-        thread.id = 'disqus_thread';
-        target.appendChild(thread);
+      configureDisqus(path);
+
+      var thread = mountThreadContainer();
+      if (!thread) {
+        return;
       }
 
-      var d = document;
-      if (d.getElementById('dsq-embed-scr')) {
-        return; // 已經載入過 embed.js
+      if (window.DISQUS && typeof window.DISQUS.reset === 'function') {
+        // 單頁應用（SPA）切換頁面時，重載對應的討論串
+        window.DISQUS.reset({
+          reload: true,
+          config: window.disqus_config
+        });
+      } else {
+        var d = document;
+        if (d.getElementById('dsq-embed-scr')) {
+          return; // 已經在載入 / 載入過 embed.js
+        }
+        var s = d.createElement('script');
+        s.src = 'https://jakeuj.disqus.com/embed.js';
+        s.id = 'dsq-embed-scr';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
       }
-      var s = d.createElement('script');
-      s.src = 'https://jakeuj.disqus.com/embed.js';
-      s.id = 'dsq-embed-scr';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
     }
 
-    if (document.readyState === 'complete') {
-      loadDisqusIntoArticle();
-    } else {
-      window.addEventListener('load', loadDisqusIntoArticle);
+    function onReady(fn) {
+      if (document.readyState === 'complete' || document.readyState === 'interactive') {
+        fn();
+      } else {
+        window.addEventListener('load', fn);
+      }
     }
+
+    // 監聽 SPA 導覽（pushState / replaceState / 返回 / hash 變更）
+    (function() {
+      var history = window.history;
+      if (!history || !history.pushState) {
+        return;
+      }
+
+      var origPushState = history.pushState;
+      history.pushState = function() {
+        var ret = origPushState.apply(this, arguments);
+        window.dispatchEvent(new Event('locationchange'));
+        return ret;
+      };
+
+      var origReplaceState = history.replaceState;
+      history.replaceState = function() {
+        var ret = origReplaceState.apply(this, arguments);
+        window.dispatchEvent(new Event('locationchange'));
+        return ret;
+      };
+
+      window.addEventListener('popstate', function() {
+        window.dispatchEvent(new Event('locationchange'));
+      });
+
+      window.addEventListener('hashchange', function() {
+        window.dispatchEvent(new Event('locationchange'));
+      });
+    })();
+
+    window.addEventListener('locationchange', function() {
+      onReady(loadOrResetDisqus);
+    });
+
+    // 首次載入頁面
+    onReady(loadOrResetDisqus);
   })();
 </script>
 <noscript>請啟用 JavaScript 以檢視由 <a href="https://disqus.com" rel="nofollow">Disqus</a> 提供的留言功能。</noscript>
