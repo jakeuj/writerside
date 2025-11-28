@@ -1,8 +1,8 @@
 <!-- Disqus comments -->
 <script>
   (function() {
-    // 不要顯示評論的頁面（例如首頁 default.html）
-    var noComments = ['/default.html'];
+    // 不要顯示評論的頁面（目前全部都顯示）
+    var noComments = [];
 
     function shouldShowComments(path) {
       if (!/\.html$/i.test(path)) {
