@@ -14,26 +14,44 @@
       return;
     }
 
+    // Disqus 設定（照你現在的網址來）
     window.disqus_config = function () {
       this.page.url = window.location.href.split('#')[0];
       this.page.identifier = path.replace(/\/$/, '');
     };
 
-    // 在右側文章內容區塊底部建立 Disqus 容器
-    var target = document.querySelector('.app__article .article.text2')
-               || document.querySelector('.app__article')
-               || document.body;
+    function loadDisqusIntoArticle() {
+      // 優先插在右側文章內容區塊底部
+      var target = document.querySelector('.app__article .article.text2')
+                 || document.querySelector('.app__article')
+                 || document.body;
 
-    if (!document.getElementById('disqus_thread')) {
-      var thread = document.createElement('div');
-      thread.id = 'disqus_thread';
-      target.appendChild(thread);
+      if (!target) {
+        return;
+      }
+
+      if (!document.getElementById('disqus_thread')) {
+        var thread = document.createElement('div');
+        thread.id = 'disqus_thread';
+        target.appendChild(thread);
+      }
+
+      var d = document;
+      if (d.getElementById('dsq-embed-scr')) {
+        return; // 已經載入過 embed.js
+      }
+      var s = d.createElement('script');
+      s.src = 'https://jakeuj.disqus.com/embed.js';
+      s.id = 'dsq-embed-scr';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
     }
 
-    var d = document, s = d.createElement('script');
-    s.src = 'https://jakeuj.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
+    if (document.readyState === 'complete') {
+      loadDisqusIntoArticle();
+    } else {
+      window.addEventListener('load', loadDisqusIntoArticle);
+    }
   })();
 </script>
 <noscript>請啟用 JavaScript 以檢視由 <a href="https://disqus.com" rel="nofollow">Disqus</a> 提供的留言功能。</noscript>
