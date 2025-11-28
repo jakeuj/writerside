@@ -1,5 +1,4 @@
 <!-- Disqus comments -->
-<div id="disqus_thread"></div>
 <script>
   (function() {
     var path = window.location.pathname || '';
@@ -19,6 +18,17 @@
       this.page.url = window.location.href.split('#')[0];
       this.page.identifier = path.replace(/\/$/, '');
     };
+
+    // 在右側文章內容區塊底部建立 Disqus 容器
+    var target = document.querySelector('.app__article .article.text2')
+               || document.querySelector('.app__article')
+               || document.body;
+
+    if (!document.getElementById('disqus_thread')) {
+      var thread = document.createElement('div');
+      thread.id = 'disqus_thread';
+      target.appendChild(thread);
+    }
 
     var d = document, s = d.createElement('script');
     s.src = 'https://jakeuj.disqus.com/embed.js';
