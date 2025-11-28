@@ -122,6 +122,44 @@ namespace %%solution-namespace%%.%%entity-namespace%%
 }
 </code-block>
 
+## 與 ABP 官方 EF Core 做法的關聯
+
+雖然這裡是修改 ABP Suite 的 Repository 樣板，但整體思路其實和 ABP 官方文件中的建議是一致的：
+
+- 每個模組應該有自己的 `IXXXDbContext` 介面 + `XXXDbContext` 類別，介面繼承 `IEfCoreDbContext`，並加上 `ConnectionStringName`。
+- DbContext 類別繼承 `AbpDbContext<TDbContext>`，實作對應的 `IXXXDbContext` 介面。
+- 自訂的 Repository 一律繼承 `EfCoreRepository<IXXXDbContext, TEntity, TKey>`（注意：**優先使用 DbContext 介面，而不是直接綁具體 DbContext 類別**）。
+- 如果需要，可以透過 `options.SetDefaultRepositoryClasses(...)` 自訂一個自己的 Repository Base 類別，統一讓所有 Repository 去繼承它。
+
+本篇做法就是沿用這個精神，只是把「要綁定哪個 DbContext」這件事，**直接鎖死在 ABP Suite 的 EfCoreRepository 樣板裡**，避免 Suite 自行判斷 DbContext 時選錯。
+
+### 實測補充：DbSet 會穩定生成到正確 DbContext
+
+完成上述 Template 修改之後，實測結果如下：
+
+- 每個模組有自己的 `IXxxDbContext` + `XxxDbContext`。
+- ABP Suite 產生的 `EfCore%%entity-name%%Repository`{ignore-vars="true"} 一律繼承你指定的 `YourActualDbContextName` 對應的 Repository Base。
+- 由於 Repository 參數型別已經**明確綁定到正確的 DbContext 介面 / 類別**，後續在 ABP Suite 中新增實體時，對應的 `DbSet<TEntity>` 也會**穩定地被產生到對的那個 DbContext**，不再出現「有時候被生到別的 DbContext」那種看似隨機的情況。
+
+換句話說，這個 Template 調整不只是讓 Repository 不會綁錯 DbContext，同時也「順便修正了」 ABP Suite 產生 `DbSet` 時的歸屬問題，整體行為會變得更可預期、更符合模組化的設計。
+
+### 已知限制：Manager.Extended override CRUD 的欄位變更問題
+
+目前實測下來，這樣修改 Template 本身不會造成 build 問題，但有一個**與 ABP Suite 產生碼相關的已知限制**需要注意：
+
+- 如果你有使用 `Manager.Extended`（或類似的 `*Manager` 擴充類別），並且在裡面 **override 了 CRUD 方法**（例如 `CreateAsync`, `UpdateAsync`）。
+- 之後你透過 ABP Suite 對該實體「新增或刪減欄位」時，Suite 會更新基底 Manager 的方法簽章，但**不會自動更新你在 `Manager.Extended` 裡手寫的 override 方法參數列表**。
+- 結果就是：基底類別的方法簽章已經包含新欄位，而 `Manager.Extended` 裡的 override 仍然是舊版本 → 簽章不相符 → 專案在編譯時會直接失敗。
+
+目前的解方是：
+
+1. 每次用 ABP Suite 調整實體欄位後，除了檢查實體 / DTO / AppService 之外，**要記得同步檢查所有 `*Manager.Extended` 的 override 方法**。
+2. 依照最新產生的基底 Manager 類別，把 override 方法的參數補上新欄位（或移除不再存在的欄位），讓方法簽章重新對齊。
+
+如果想減少這個問題的影響，可以考慮：
+
+- 儘量不要在 Extended 類別中直接 override 大顆的 CRUD 方法，而是改成在 Extended 裡多包一層自己的方法，再呼叫基底 CRUD。
+- 或者把「調整欄位後檢查 `Manager.Extended` override 簽章」當成固定流程的一部分，避免在 CI/CD 才發現 build 失敗。
 ## 重點總結
 
 | 項目 | 說明 |
