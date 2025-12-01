@@ -5,6 +5,8 @@
 ## XIV ON MAC
 [XIV ON MAC 官網](https://www.xivmac.com/)
 [Github XIV-on-Mac](https://github.com/marzent/XIV-on-Mac)
+[巴哈自制 XIV ON MAC](https://forum.gamer.com.tw/Co.php?bsn=17608&sn=110287)
+[巴哈可運行 CorssOver](https://forum.gamer.com.tw/C.php?bsn=17608&snA=25995)
 
 ## Git Clone 子模組
 直接 Clone 這個專案會遇到錯誤
