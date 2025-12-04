@@ -26,8 +26,10 @@
 - Augments：`https://blitz.gg/lol/aram-mayhem-augments`
   - 取得各顆海克斯的名稱、稀有度、描述、Tier 排名（S/A/B/C/D）、推薦英雄。
   - **重要**：頁面右上角可切換語言為「繁體中文」，切換後所有增幅名稱、描述、英雄名稱都會顯示台服正確的繁體中文。
+  - 資料存放：`Aram-blitz-augments.json`（英文）、`Aram-data.json` 的 `augments_summary`（繁體中文）
 - Tier List：`https://blitz.gg/lol/tierlist/aram-mayhem`
-  - 取得各英雄在 ARAM Mayhem 模式下的 Tier（S/A/B…）與大致定位。
+  - 取得各英雄在 ARAM Mayhem 模式下的 Tier（S/A/B/C/D）排名。
+  - 資料存放：`Aram-blitz-tierlist.json`
 
 #### 1.2.1 抓取繁體中文資料的方法
 
@@ -60,6 +62,53 @@
    | 描述 | `summary` | 增幅效果說明 |
    | 推薦英雄 | `strong_for` | Top 5 推薦英雄（繁體中文） |
    | 稀有度 | `rarity` | Prismatic / Gold / Silver |
+
+#### 1.2.2 抓取英雄 Tier List 的方法
+
+1. **使用 Chrome DevTools MCP**：
+   - 開啟 `https://blitz.gg/lol/tierlist/aram-mayhem`
+   - 確認語言為「繁體中文」
+   - 使用 JavaScript 評估抓取 DOM 內容：
+     ```javascript
+     (() => {
+       const result = {
+         patch: "25.24 (15.24)", // 從頁面標題取得
+         source: "https://blitz.gg/lol/tierlist/aram-mayhem",
+         last_updated: new Date().toISOString().split('T')[0],
+         tiers: { S: [], A: [], B: [], C: [], D: [] }
+       };
+
+       const links = Array.from(document.querySelectorAll('a[href*="/champions/"][href*="/aram-mayhem"]'));
+
+       links.forEach(link => {
+         const href = link.getAttribute('href');
+         const match = href.match(/\/champions\/([^/]+)\/aram-mayhem/);
+         if (match) {
+           const name_en = match[1];
+           const name_zh = link.textContent.trim();
+           // 找到前面最近的 h2 標題判斷 Tier
+           let el = link;
+           let tier = null;
+           while (el && !tier) {
+             el = el.previousElementSibling || el.parentElement;
+             if (el && el.tagName === 'H2') {
+               const t = el.textContent.trim();
+               if (['S', 'A', 'B', 'C', 'D'].includes(t)) tier = t;
+             }
+           }
+           if (tier && result.tiers[tier] && !result.tiers[tier].some(c => c.name_en === name_en)) {
+             result.tiers[tier].push({ name_zh, name_en });
+           }
+         }
+       });
+
+       return result;
+     })()
+     ```
+
+2. **資料存放**：
+   - 抓取後存入 `Writerside/topics/Aram-blitz-tierlist.json`
+   - 同時更新 `Aram-data.json` 的 `coverage.blitz_tierlist` 區塊
 
 ---
 

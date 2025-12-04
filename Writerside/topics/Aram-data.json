@@ -16,6 +16,13 @@
       "augment_count": 156,
       "last_updated": "2025-12-04",
       "language": "zh-TW"
+    },
+    "blitz_tierlist": {
+      "url": "https://blitz.gg/lol/tierlist/aram-mayhem",
+      "patch": "25.24 (15.24)",
+      "champion_count": 172,
+      "last_updated": "2025-12-04",
+      "data_file": "Aram-blitz-tierlist.json"
     }
   },
   "augments_summary": [
