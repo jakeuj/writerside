@@ -2,6 +2,11 @@
 
 > 本文件說明：之後若要重新爬巴哈 / Blitz 的資料來更新 `Aram.md`，請依照以下流程操作。
 
+## 相關連結
+
+- 🔗 **ChatGPT 機器人**：https://chatgpt.com/g/g-693125eb56948191ac6777f98b6eceb9-aram
+- 📝 **巴哈姆特分享文章**：https://forum.gamer.com.tw/C.php?bsn=17532&snA=706284&tnum=1
+
 ## 1. 資料來源與範圍
 
 ### 1.1 巴哈姆特討論串
