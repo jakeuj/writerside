@@ -10,7 +10,12 @@
       "last_floor": 0,
       "last_url": "https://forum.gamer.com.tw/C.php?bsn=17532&snA=705476&page=15"
     },
-    "last_updated": "2025-12-04"
+    "last_updated": "2025-12-04",
+    "blitz": {
+      "url": "https://blitz.gg/lol/aram-mayhem-augments",
+      "augment_count": 156,
+      "last_updated": "2025-12-04"
+    }
   },
   "augments_summary": [
     {
@@ -59,6 +64,2286 @@
         "需要拖後期的陣容"
       ],
       "summary": "一次取得多種龍魂被動，整體提升輸出、續戰與坦度，適合節奏偏長且需要全方位強化的陣容。",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Giant Slayer",
+      "rarity": "Prismatic",
+      "tier": "S",
+      "strong_for": [
+        "Gangplank",
+        "Lillia",
+        "Zeri",
+        "Jhin",
+        "Jayce"
+      ],
+      "summary": "Blitz Tier S - 推薦英雄: Gangplank, Lillia, Zeri",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Eureka",
+      "rarity": "Prismatic",
+      "tier": "S",
+      "strong_for": [
+        "Veigar",
+        "Syndra",
+        "Zilean",
+        "Ryze",
+        "Viktor"
+      ],
+      "summary": "Blitz Tier S - 推薦英雄: Veigar, Syndra, Zilean",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Infernal Conduit",
+      "rarity": "Prismatic",
+      "tier": "S",
+      "strong_for": [
+        "Brand",
+        "Malzahar",
+        "Zyra",
+        "AurelionSol",
+        "Lillia"
+      ],
+      "summary": "Blitz Tier S - 推薦英雄: Brand, Malzahar, Zyra",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Goliath",
+      "rarity": "Prismatic",
+      "tier": "S",
+      "strong_for": [
+        "DrMundo",
+        "Ornn",
+        "Braum",
+        "Sejuani",
+        "Rammus"
+      ],
+      "summary": "Blitz Tier S - 推薦英雄: DrMundo, Ornn, Braum",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Jeweled Gauntlet",
+      "rarity": "Prismatic",
+      "tier": "S",
+      "strong_for": [
+        "Jayce",
+        "Zoe",
+        "Ryze",
+        "Gangplank",
+        "Karthus"
+      ],
+      "summary": "Blitz Tier S - 推薦英雄: Jayce, Zoe, Ryze",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Dual Wield",
+      "rarity": "Prismatic",
+      "tier": "A",
+      "strong_for": [
+        "Akshan",
+        "Vayne",
+        "Jinx",
+        "Ashe",
+        "Tristana"
+      ],
+      "summary": "Blitz Tier A - 推薦英雄: Akshan, Vayne, Jinx",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Final Form",
+      "rarity": "Prismatic",
+      "tier": "A",
+      "strong_for": [
+        "Aatrox",
+        "Kassadin",
+        "Olaf",
+        "Naafiri",
+        "Samira"
+      ],
+      "summary": "Blitz Tier A - 推薦英雄: Aatrox, Kassadin, Olaf",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Scopiest Weapons",
+      "rarity": "Prismatic",
+      "tier": "A",
+      "strong_for": [
+        "Caitlyn",
+        "Jinx",
+        "Jhin",
+        "Tristana",
+        "Aphelios"
+      ],
+      "summary": "Blitz Tier A - 推薦英雄: Caitlyn, Jinx, Jhin",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Tap Dancer",
+      "rarity": "Prismatic",
+      "tier": "A",
+      "strong_for": [
+        "Zeri",
+        "Jinx",
+        "Kalista",
+        "Ashe",
+        "Sivir"
+      ],
+      "summary": "Blitz Tier A - 推薦英雄: Zeri, Jinx, Kalista",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Symphony of War",
+      "rarity": "Prismatic",
+      "tier": "A",
+      "strong_for": [
+        "Zeri",
+        "Aphelios",
+        "Yasuo",
+        "Yone",
+        "Zaahen"
+      ],
+      "summary": "Blitz Tier A - 推薦英雄: Zeri, Aphelios, Yasuo",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Quest: Wooglet's Witchcap",
+      "rarity": "Prismatic",
+      "tier": "B",
+      "strong_for": [
+        "Veigar",
+        "Zoe",
+        "Lissandra",
+        "Syndra",
+        "Viktor"
+      ],
+      "summary": "Blitz Tier B - 推薦英雄: Veigar, Zoe, Lissandra",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Clown College",
+      "rarity": "Prismatic",
+      "tier": "B",
+      "strong_for": [
+        "Khazix",
+        "Talon",
+        "Shaco",
+        "Qiyana",
+        "Zed"
+      ],
+      "summary": "Blitz Tier B - 推薦英雄: Khazix, Talon, Shaco",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Transmute: Chaos",
+      "rarity": "Prismatic",
+      "tier": "B",
+      "strong_for": [
+        "Yorick",
+        "Jayce",
+        "RekSai",
+        "Garen",
+        "Gangplank"
+      ],
+      "summary": "Blitz Tier B - 推薦英雄: Yorick, Jayce, RekSai",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Slow Cooker",
+      "rarity": "Prismatic",
+      "tier": "B",
+      "strong_for": [
+        "Ornn",
+        "Rammus",
+        "Sejuani",
+        "Braum",
+        "Leona"
+      ],
+      "summary": "Blitz Tier B - 推薦英雄: Ornn, Rammus, Sejuani",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Cruelty",
+      "rarity": "Prismatic",
+      "tier": "B",
+      "strong_for": [
+        "Rell",
+        "Lissandra",
+        "Leona",
+        "Galio",
+        "Alistar"
+      ],
+      "summary": "Blitz Tier B - 推薦英雄: Rell, Lissandra, Leona",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Dashing",
+      "rarity": "Prismatic",
+      "tier": "B",
+      "strong_for": [
+        "Riven",
+        "Fizz",
+        "Kayn",
+        "Qiyana",
+        "Pyke"
+      ],
+      "summary": "Blitz Tier B - 推薦英雄: Riven, Fizz, Kayn",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Ultimate Awakening",
+      "rarity": "Prismatic",
+      "tier": "B",
+      "strong_for": [
+        "Renata",
+        "Zed",
+        "Talon",
+        "Teemo",
+        "Lux"
+      ],
+      "summary": "Blitz Tier B - 推薦英雄: Renata, Zed, Talon",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Fan The Hammer",
+      "rarity": "Prismatic",
+      "tier": "B",
+      "strong_for": [
+        "Akshan",
+        "Caitlyn",
+        "Jhin",
+        "Vayne",
+        "Quinn"
+      ],
+      "summary": "Blitz Tier B - 推薦英雄: Akshan, Caitlyn, Jhin",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Ultimate Revolution",
+      "rarity": "Prismatic",
+      "tier": "B",
+      "strong_for": [
+        "Karthus",
+        "Malphite",
+        "Renata",
+        "Rumble",
+        "Amumu"
+      ],
+      "summary": "Blitz Tier B - 推薦英雄: Karthus, Malphite, Renata",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Trueshot Prodigy",
+      "rarity": "Prismatic",
+      "tier": "B",
+      "strong_for": [
+        "Jayce",
+        "Xerath",
+        "Nidalee",
+        "Ziggs",
+        "Ezreal"
+      ],
+      "summary": "Blitz Tier B - 推薦英雄: Jayce, Xerath, Nidalee",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Mystic Punch",
+      "rarity": "Prismatic",
+      "tier": "B",
+      "strong_for": [
+        "Hecarim",
+        "MasterYi",
+        "Jax",
+        "Ezreal",
+        "Zaahen"
+      ],
+      "summary": "Blitz Tier B - 推薦英雄: Hecarim, MasterYi, Jax",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Mad Scientist",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "strong_for": [
+        "Singed",
+        "TahmKench",
+        "Hecarim",
+        "Garen",
+        "Sett"
+      ],
+      "summary": "Blitz Tier C - 推薦英雄: Singed, TahmKench, Hecarim",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Gash",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "strong_for": [
+        "Rammus",
+        "Trundle",
+        "Belveth",
+        "Garen",
+        "Olaf"
+      ],
+      "summary": "Blitz Tier C - 推薦英雄: Rammus, Trundle, Belveth",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Earthwake",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "strong_for": [
+        "Ambessa",
+        "Riven",
+        "LeeSin",
+        "Pyke",
+        "Kassadin"
+      ],
+      "summary": "Blitz Tier C - 推薦英雄: Ambessa, Riven, LeeSin",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Ominous Pact",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "strong_for": [
+        "Vladimir",
+        "Singed",
+        "Lillia",
+        "Swain",
+        "Ryze"
+      ],
+      "summary": "Blitz Tier C - 推薦英雄: Vladimir, Singed, Lillia",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Courage of the Colossus",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "strong_for": [
+        "Leona",
+        "Rell",
+        "Sejuani",
+        "Nautilus",
+        "Galio"
+      ],
+      "summary": "Blitz Tier C - 推薦英雄: Leona, Rell, Sejuani",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Blade Waltz",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "strong_for": [
+        "Fiora",
+        "Garen",
+        "Nocturne",
+        "LeeSin",
+        "Camille"
+      ],
+      "summary": "Blitz Tier C - 推薦英雄: Fiora, Garen, Nocturne",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Cerberus",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "strong_for": [
+        "Draven",
+        "Nocturne",
+        "Quinn",
+        "Akshan",
+        "Tristana"
+      ],
+      "summary": "Blitz Tier C - 推薦英雄: Draven, Nocturne, Quinn",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Fey Magic",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "strong_for": [
+        "Anivia",
+        "Katarina",
+        "Fiddlesticks",
+        "Kennen",
+        "Samira"
+      ],
+      "summary": "Blitz Tier C - 推薦英雄: Anivia, Katarina, Fiddlesticks",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Protein Shake",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "strong_for": [
+        "DrMundo",
+        "KSante",
+        "Zac",
+        "Taric",
+        "TahmKench"
+      ],
+      "summary": "Blitz Tier C - 推薦英雄: DrMundo, KSante, Zac",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Cant Touch This",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "strong_for": [
+        "Samira",
+        "Katarina",
+        "Kassadin",
+        "Kennen",
+        "Nunu"
+      ],
+      "summary": "Blitz Tier C - 推薦英雄: Samira, Katarina, Kassadin",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Quantum Computing",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "strong_for": [
+        "Camille",
+        "Poppy",
+        "RekSai",
+        "JarvanIV",
+        "Skarner"
+      ],
+      "summary": "Blitz Tier C - 推薦英雄: Camille, Poppy, RekSai",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Master of Duality",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "strong_for": [
+        "Ezreal",
+        "Kayle",
+        "Kaisa",
+        "Bard",
+        "TwistedFate"
+      ],
+      "summary": "Blitz Tier C - 推薦英雄: Ezreal, Kayle, Kaisa",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Glass Cannon",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "strong_for": [
+        "Karthus",
+        "Gangplank",
+        "Jayce",
+        "Xerath",
+        "Zoe"
+      ],
+      "summary": "Blitz Tier C - 推薦英雄: Karthus, Gangplank, Jayce",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Upgrade Mikael's Blessing",
+      "rarity": "Prismatic",
+      "tier": "D",
+      "strong_for": [
+        "Yuumi",
+        "Lulu",
+        "Soraka",
+        "Renata",
+        "Ivern"
+      ],
+      "summary": "Blitz Tier D - 推薦英雄: Yuumi, Lulu, Soraka",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Windspeaker's Blessing",
+      "rarity": "Prismatic",
+      "tier": "D",
+      "strong_for": [
+        "Soraka",
+        "Ivern",
+        "Yuumi",
+        "Lulu",
+        "Sona"
+      ],
+      "summary": "Blitz Tier D - 推薦英雄: Soraka, Ivern, Yuumi",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Quest: Urf's Champion",
+      "rarity": "Prismatic",
+      "tier": "D",
+      "strong_for": [
+        "Camille",
+        "Darius",
+        "Jayce",
+        "Yorick",
+        "Khazix"
+      ],
+      "summary": "Blitz Tier D - 推薦英雄: Camille, Darius, Jayce",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "King Me",
+      "rarity": "Prismatic",
+      "tier": "D",
+      "strong_for": [
+        "Pyke",
+        "Khazix",
+        "Sion",
+        "TwistedFate",
+        "Pantheon"
+      ],
+      "summary": "Blitz Tier D - 推薦英雄: Pyke, Khazix, Sion",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Feel the Burn",
+      "rarity": "Prismatic",
+      "tier": "D",
+      "strong_for": [
+        "Renata",
+        "Yuumi",
+        "Lulu",
+        "Zilean",
+        "Ivern"
+      ],
+      "summary": "Blitz Tier D - 推薦英雄: Renata, Yuumi, Lulu",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Goldrend",
+      "rarity": "Prismatic",
+      "tier": "D",
+      "strong_for": [
+        "TwistedFate",
+        "Taliyah",
+        "Gangplank",
+        "Ezreal",
+        "Smolder"
+      ],
+      "summary": "Blitz Tier D - 推薦英雄: TwistedFate, Taliyah, Gangplank",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Biggest Snowball Ever",
+      "rarity": "Prismatic",
+      "tier": "D",
+      "strong_for": [
+        "Nunu",
+        "Poppy",
+        "Neeko",
+        "Blitzcrank",
+        "Skarner"
+      ],
+      "summary": "Blitz Tier D - 推薦英雄: Nunu, Poppy, Neeko",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Orbital Laser",
+      "rarity": "Prismatic",
+      "tier": "D",
+      "strong_for": [
+        "Zilean",
+        "Bard",
+        "AurelionSol",
+        "Renata",
+        "Anivia"
+      ],
+      "summary": "Blitz Tier D - 推薦英雄: Zilean, Bard, AurelionSol",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "I'm a Baby Kitty Where is Mama",
+      "rarity": "Prismatic",
+      "tier": "D",
+      "strong_for": [
+        "Yuumi",
+        "Soraka",
+        "Lulu",
+        "Nami",
+        "Milio"
+      ],
+      "summary": "Blitz Tier D - 推薦英雄: Yuumi, Soraka, Lulu",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Snowball Roulette",
+      "rarity": "Prismatic",
+      "tier": "D",
+      "strong_for": [
+        "Neeko",
+        "Nunu",
+        "Poppy",
+        "Braum",
+        "Udyr"
+      ],
+      "summary": "Blitz Tier D - 推薦英雄: Neeko, Nunu, Poppy",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Empyrean Promise",
+      "rarity": "Prismatic",
+      "tier": "D",
+      "strong_for": [
+        "Soraka",
+        "Nami",
+        "Sona",
+        "Lulu",
+        "Milio"
+      ],
+      "summary": "Blitz Tier D - 推薦英雄: Soraka, Nami, Sona",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Laser Heal",
+      "rarity": "Prismatic",
+      "tier": "D",
+      "strong_for": [
+        "Yuumi",
+        "Soraka",
+        "Janna",
+        "Ivern",
+        "Renata"
+      ],
+      "summary": "Blitz Tier D - 推薦英雄: Yuumi, Soraka, Janna",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Pandora's Box",
+      "rarity": "Prismatic",
+      "tier": "D",
+      "strong_for": [
+        "Talon",
+        "Khazix",
+        "Pyke",
+        "Qiyana",
+        "Zed"
+      ],
+      "summary": "Blitz Tier D - 推薦英雄: Talon, Khazix, Pyke",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Transmute: Prismatic",
+      "rarity": "Gold",
+      "tier": "S",
+      "strong_for": [
+        "AurelionSol",
+        "Karthus",
+        "Singed",
+        "Taliyah",
+        "RekSai"
+      ],
+      "summary": "Blitz Tier S - 推薦英雄: AurelionSol, Karthus, Singed",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Scopier Weapons",
+      "rarity": "Gold",
+      "tier": "S",
+      "strong_for": [
+        "Tristana",
+        "Jinx",
+        "Caitlyn",
+        "Aphelios",
+        "Jhin"
+      ],
+      "summary": "Blitz Tier S - 推薦英雄: Tristana, Jinx, Caitlyn",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Magic Missile",
+      "rarity": "Gold",
+      "tier": "S",
+      "strong_for": [
+        "Taliyah",
+        "Brand",
+        "Hwei",
+        "Malzahar",
+        "Zyra"
+      ],
+      "summary": "Blitz Tier S - 推薦英雄: Taliyah, Brand, Hwei",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Recursion",
+      "rarity": "Gold",
+      "tier": "S",
+      "strong_for": [
+        "Zilean",
+        "Vladimir",
+        "Syndra",
+        "Taliyah",
+        "Veigar"
+      ],
+      "summary": "Blitz Tier S - 推薦英雄: Zilean, Vladimir, Syndra",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Vampirism",
+      "rarity": "Gold",
+      "tier": "S",
+      "strong_for": [
+        "Aatrox",
+        "Briar",
+        "Ambessa",
+        "Kayn",
+        "Zaahen"
+      ],
+      "summary": "Blitz Tier S - 推薦英雄: Aatrox, Briar, Ambessa",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "It's Killing Time",
+      "rarity": "Gold",
+      "tier": "S",
+      "strong_for": [
+        "Karthus",
+        "Kennen",
+        "Fiddlesticks",
+        "Rumble",
+        "Anivia"
+      ],
+      "summary": "Blitz Tier S - 推薦英雄: Karthus, Kennen, Fiddlesticks",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Critical Rhythm",
+      "rarity": "Gold",
+      "tier": "S",
+      "strong_for": [
+        "Jinx",
+        "Tristana",
+        "Xayah",
+        "Aphelios",
+        "Quinn"
+      ],
+      "summary": "Blitz Tier S - 推薦英雄: Jinx, Tristana, Xayah",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Lightning Strikes",
+      "rarity": "Gold",
+      "tier": "S",
+      "strong_for": [
+        "Belveth",
+        "Kalista",
+        "Jinx",
+        "Tristana",
+        "Vayne"
+      ],
+      "summary": "Blitz Tier S - 推薦英雄: Belveth, Kalista, Jinx",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Executioner",
+      "rarity": "Gold",
+      "tier": "S",
+      "strong_for": [
+        "Zed",
+        "Talon",
+        "Khazix",
+        "Qiyana",
+        "Naafiri"
+      ],
+      "summary": "Blitz Tier S - 推薦英雄: Zed, Talon, Khazix",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Tank Engine",
+      "rarity": "Gold",
+      "tier": "S",
+      "strong_for": [
+        "DrMundo",
+        "Ornn",
+        "Rell",
+        "Sejuani",
+        "Braum"
+      ],
+      "summary": "Blitz Tier S - 推薦英雄: DrMundo, Ornn, Rell",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "From Beginning To End",
+      "rarity": "Gold",
+      "tier": "S",
+      "strong_for": [
+        "Karthus",
+        "Zoe",
+        "Gangplank",
+        "Evelynn",
+        "Syndra"
+      ],
+      "summary": "Blitz Tier S - 推薦英雄: Karthus, Zoe, Gangplank",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Bread And Butter",
+      "rarity": "Gold",
+      "tier": "S",
+      "strong_for": [
+        "Blitzcrank",
+        "Vladimir",
+        "Zilean",
+        "Morgana",
+        "Veigar"
+      ],
+      "summary": "Blitz Tier S - 推薦英雄: Blitzcrank, Vladimir, Zilean",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Thread the Needle",
+      "rarity": "Gold",
+      "tier": "S",
+      "strong_for": [
+        "Gangplank",
+        "Zed",
+        "Khazix",
+        "Karthus",
+        "Talon"
+      ],
+      "summary": "Blitz Tier S - 推薦英雄: Gangplank, Zed, Khazix",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Keystone Conjurer",
+      "rarity": "Gold",
+      "tier": "S",
+      "strong_for": [
+        "Malzahar",
+        "Orianna",
+        "Xerath",
+        "Taliyah",
+        "Ziggs"
+      ],
+      "summary": "Blitz Tier S - 推薦英雄: Malzahar, Orianna, Xerath",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Get Excited!",
+      "rarity": "Gold",
+      "tier": "S",
+      "strong_for": [
+        "Zeri",
+        "Jinx",
+        "MasterYi",
+        "Olaf",
+        "Aphelios"
+      ],
+      "summary": "Blitz Tier S - 推薦英雄: Zeri, Jinx, MasterYi",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Perseverance",
+      "rarity": "Gold",
+      "tier": "S",
+      "strong_for": [
+        "DrMundo",
+        "Braum",
+        "Rammus",
+        "Ornn",
+        "Sejuani"
+      ],
+      "summary": "Blitz Tier S - 推薦英雄: DrMundo, Braum, Rammus",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Twice Thrice",
+      "rarity": "Gold",
+      "tier": "S",
+      "strong_for": [
+        "Vayne",
+        "Akshan",
+        "Belveth",
+        "Kalista",
+        "MasterYi"
+      ],
+      "summary": "Blitz Tier S - 推薦英雄: Vayne, Akshan, Belveth",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Bread and Cheese",
+      "rarity": "Gold",
+      "tier": "S",
+      "strong_for": [
+        "AurelionSol",
+        "Fizz",
+        "Viktor",
+        "Shyvana",
+        "Gangplank"
+      ],
+      "summary": "Blitz Tier S - 推薦英雄: AurelionSol, Fizz, Viktor",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Skilled Sniper",
+      "rarity": "Gold",
+      "tier": "S",
+      "strong_for": [
+        "Jayce",
+        "Xerath",
+        "Nidalee",
+        "Ziggs",
+        "Mel"
+      ],
+      "summary": "Blitz Tier S - 推薦英雄: Jayce, Xerath, Nidalee",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Marksmage",
+      "rarity": "Gold",
+      "tier": "S",
+      "strong_for": [
+        "Gwen",
+        "Azir",
+        "Ekko",
+        "TwistedFate",
+        "Bard"
+      ],
+      "summary": "Blitz Tier S - 推薦英雄: Gwen, Azir, Ekko",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Spiritual Purification",
+      "rarity": "Gold",
+      "tier": "S",
+      "strong_for": [
+        "Lissandra",
+        "Pyke",
+        "Karthus",
+        "Fiddlesticks",
+        "Kennen"
+      ],
+      "summary": "Blitz Tier S - 推薦英雄: Lissandra, Pyke, Karthus",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Soul Siphon",
+      "rarity": "Gold",
+      "tier": "A",
+      "strong_for": [
+        "Yunara",
+        "Corki",
+        "Senna",
+        "Yone",
+        "Yasuo"
+      ],
+      "summary": "Blitz Tier A - 推薦英雄: Yunara, Corki, Senna",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Big Brain",
+      "rarity": "Gold",
+      "tier": "A",
+      "strong_for": [
+        "Veigar",
+        "Vex",
+        "Ryze",
+        "Syndra",
+        "Lissandra"
+      ],
+      "summary": "Blitz Tier A - 推薦英雄: Veigar, Vex, Ryze",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Rabble Rousing",
+      "rarity": "Gold",
+      "tier": "A",
+      "strong_for": [
+        "Cassiopeia",
+        "Ryze",
+        "Hecarim",
+        "Riven",
+        "Ambessa"
+      ],
+      "summary": "Blitz Tier A - 推薦英雄: Cassiopeia, Ryze, Hecarim",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Cheating",
+      "rarity": "Gold",
+      "tier": "A",
+      "strong_for": [
+        "Zilean",
+        "AurelionSol",
+        "Xerath",
+        "Anivia",
+        "Lux"
+      ],
+      "summary": "Blitz Tier A - 推薦英雄: Zilean, AurelionSol, Xerath",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Celestial Body",
+      "rarity": "Gold",
+      "tier": "A",
+      "strong_for": [
+        "Braum",
+        "Ornn",
+        "Leona",
+        "Rell",
+        "Rammus"
+      ],
+      "summary": "Blitz Tier A - 推薦英雄: Braum, Ornn, Leona",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Firebrand",
+      "rarity": "Gold",
+      "tier": "A",
+      "strong_for": [
+        "Zeri",
+        "Azir",
+        "Urgot",
+        "Sivir",
+        "Ashe"
+      ],
+      "summary": "Blitz Tier A - 推薦英雄: Zeri, Azir, Urgot",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Vulnerability",
+      "rarity": "Gold",
+      "tier": "A",
+      "strong_for": [
+        "Brand",
+        "Malzahar",
+        "Rumble",
+        "Smolder",
+        "Lillia"
+      ],
+      "summary": "Blitz Tier A - 推薦英雄: Brand, Malzahar, Rumble",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Bread And Jam",
+      "rarity": "Gold",
+      "tier": "A",
+      "strong_for": [
+        "Sylas",
+        "Zilean",
+        "Leblanc",
+        "Nami",
+        "Sett"
+      ],
+      "summary": "Blitz Tier A - 推薦英雄: Sylas, Zilean, Leblanc",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Overflow",
+      "rarity": "Gold",
+      "tier": "A",
+      "strong_for": [
+        "Ryze",
+        "Cassiopeia",
+        "Kassadin",
+        "Karthus",
+        "Sona"
+      ],
+      "summary": "Blitz Tier A - 推薦英雄: Ryze, Cassiopeia, Kassadin",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Quest: Steel Your Heart",
+      "rarity": "Gold",
+      "tier": "A",
+      "strong_for": [
+        "DrMundo",
+        "Ornn",
+        "Leona",
+        "Sejuani",
+        "Rell"
+      ],
+      "summary": "Blitz Tier A - 推薦英雄: DrMundo, Ornn, Leona",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "It's Critical",
+      "rarity": "Gold",
+      "tier": "A",
+      "strong_for": [
+        "Corki",
+        "Smolder",
+        "Yunara",
+        "Senna",
+        "Gangplank"
+      ],
+      "summary": "Blitz Tier A - 推薦英雄: Corki, Smolder, Yunara",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Nightstalking",
+      "rarity": "Gold",
+      "tier": "A",
+      "strong_for": [
+        "Khazix",
+        "Talon",
+        "Pyke",
+        "Zed",
+        "Qiyana"
+      ],
+      "summary": "Blitz Tier A - 推薦英雄: Khazix, Talon, Pyke",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Impassable",
+      "rarity": "Gold",
+      "tier": "A",
+      "strong_for": [
+        "Rell",
+        "Rammus",
+        "Sejuani",
+        "Leona",
+        "Nautilus"
+      ],
+      "summary": "Blitz Tier A - 推薦英雄: Rell, Rammus, Sejuani",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Critical Healing",
+      "rarity": "Gold",
+      "tier": "A",
+      "strong_for": [
+        "Soraka",
+        "Yuumi",
+        "Sona",
+        "Nami",
+        "Vladimir"
+      ],
+      "summary": "Blitz Tier A - 推薦英雄: Soraka, Yuumi, Sona",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Shrink Ray",
+      "rarity": "Gold",
+      "tier": "A",
+      "strong_for": [
+        "Urgot",
+        "Zeri",
+        "Sivir",
+        "Shen",
+        "RekSai"
+      ],
+      "summary": "Blitz Tier A - 推薦英雄: Urgot, Zeri, Sivir",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Upgrade Infinity Edge",
+      "rarity": "Gold",
+      "tier": "B",
+      "strong_for": [
+        "Yunara",
+        "Corki",
+        "Senna",
+        "Smolder",
+        "Jhin"
+      ],
+      "summary": "Blitz Tier B - 推薦英雄: Yunara, Corki, Senna",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Outlaw's Grit",
+      "rarity": "Gold",
+      "tier": "B",
+      "strong_for": [
+        "Ambessa",
+        "Riven",
+        "KSante",
+        "Kassadin",
+        "Irelia"
+      ],
+      "summary": "Blitz Tier B - 推薦英雄: Ambessa, Riven, KSante",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Upgrade Hubris",
+      "rarity": "Gold",
+      "tier": "B",
+      "strong_for": [
+        "Zed",
+        "Khazix",
+        "Pyke",
+        "Talon",
+        "Qiyana"
+      ],
+      "summary": "Blitz Tier B - 推薦英雄: Zed, Khazix, Pyke",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Restless Restoration",
+      "rarity": "Gold",
+      "tier": "B",
+      "strong_for": [
+        "Singed",
+        "Lillia",
+        "Soraka",
+        "Rammus",
+        "Rakan"
+      ],
+      "summary": "Blitz Tier B - 推薦英雄: Singed, Lillia, Soraka",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Demon's Dance",
+      "rarity": "Gold",
+      "tier": "B",
+      "strong_for": [
+        "Camille",
+        "Fiora",
+        "RekSai",
+        "Shen",
+        "Sion"
+      ],
+      "summary": "Blitz Tier B - 推薦英雄: Camille, Fiora, RekSai",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Dawnbringer's Resolve",
+      "rarity": "Gold",
+      "tier": "B",
+      "strong_for": [
+        "DrMundo",
+        "Chogath",
+        "Sion",
+        "Nautilus",
+        "Zac"
+      ],
+      "summary": "Blitz Tier B - 推薦英雄: DrMundo, Chogath, Sion",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "With Haste",
+      "rarity": "Gold",
+      "tier": "B",
+      "strong_for": [
+        "Lillia",
+        "Hecarim",
+        "Zilean",
+        "Singed",
+        "Vladimir"
+      ],
+      "summary": "Blitz Tier B - 推薦英雄: Lillia, Hecarim, Zilean",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Ethereal Weapon",
+      "rarity": "Gold",
+      "tier": "B",
+      "strong_for": [
+        "Hecarim",
+        "Katarina",
+        "Gangplank",
+        "Kaisa",
+        "Azir"
+      ],
+      "summary": "Blitz Tier B - 推薦英雄: Hecarim, Katarina, Gangplank",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Searing Dawn",
+      "rarity": "Gold",
+      "tier": "B",
+      "strong_for": [
+        "Renata",
+        "Morgana",
+        "Zyra",
+        "Anivia",
+        "Nami"
+      ],
+      "summary": "Blitz Tier B - 推薦英雄: Renata, Morgana, Zyra",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Apex Inventor",
+      "rarity": "Gold",
+      "tier": "B",
+      "strong_for": [
+        "Yuumi",
+        "Skarner",
+        "Ornn",
+        "Renata",
+        "Sion"
+      ],
+      "summary": "Blitz Tier B - 推薦英雄: Yuumi, Skarner, Ornn",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Divine Intervention",
+      "rarity": "Gold",
+      "tier": "B",
+      "strong_for": [
+        "Yuumi",
+        "Taric",
+        "Rakan",
+        "Braum",
+        "Renata"
+      ],
+      "summary": "Blitz Tier B - 推薦英雄: Yuumi, Taric, Rakan",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Holy Fire",
+      "rarity": "Gold",
+      "tier": "B",
+      "strong_for": [
+        "Taric",
+        "Sona",
+        "Yuumi",
+        "Milio",
+        "Nami"
+      ],
+      "summary": "Blitz Tier B - 推薦英雄: Taric, Sona, Yuumi",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Ok Boomerang",
+      "rarity": "Gold",
+      "tier": "C",
+      "strong_for": [
+        "Sivir",
+        "Nidalee",
+        "Heimerdinger",
+        "TwistedFate",
+        "Ziggs"
+      ],
+      "summary": "Blitz Tier C - 推薦英雄: Sivir, Nidalee, Heimerdinger",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Snowball Upgrade",
+      "rarity": "Gold",
+      "tier": "C",
+      "strong_for": [
+        "Neeko",
+        "Kennen",
+        "Nunu",
+        "Lissandra",
+        "Amumu"
+      ],
+      "summary": "Blitz Tier C - 推薦英雄: Neeko, Kennen, Nunu",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Slow And Steady",
+      "rarity": "Gold",
+      "tier": "C",
+      "strong_for": [
+        "Zeri",
+        "Graves",
+        "Urgot",
+        "Garen",
+        "Ezreal"
+      ],
+      "summary": "Blitz Tier C - 推薦英雄: Zeri, Graves, Urgot",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "All For You",
+      "rarity": "Gold",
+      "tier": "C",
+      "strong_for": [
+        "Soraka",
+        "Yuumi",
+        "Nami",
+        "Sona",
+        "Lulu"
+      ],
+      "summary": "Blitz Tier C - 推薦英雄: Soraka, Yuumi, Nami",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Flashy",
+      "rarity": "Gold",
+      "tier": "C",
+      "strong_for": [
+        "Kennen",
+        "Neeko",
+        "LeeSin",
+        "Blitzcrank",
+        "Annie"
+      ],
+      "summary": "Blitz Tier C - 推薦英雄: Kennen, Neeko, LeeSin",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Minionmancer",
+      "rarity": "Gold",
+      "tier": "D",
+      "strong_for": [
+        "Yorick",
+        "Heimerdinger",
+        "Zyra",
+        "Annie",
+        "Naafiri"
+      ],
+      "summary": "Blitz Tier D - 推薦英雄: Yorick, Heimerdinger, Zyra",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Upgrade Sheen",
+      "rarity": "Gold",
+      "tier": "D",
+      "strong_for": [
+        "Ezreal",
+        "Jax",
+        "Gangplank",
+        "Corki",
+        "Gnar"
+      ],
+      "summary": "Blitz Tier D - 推薦英雄: Ezreal, Jax, Gangplank",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Witchful Thinking",
+      "rarity": "Silver",
+      "tier": "S",
+      "strong_for": [
+        "Nidalee",
+        "Karthus",
+        "Orianna",
+        "Xerath",
+        "Zoe"
+      ],
+      "summary": "Blitz Tier S - 推薦英雄: Nidalee, Karthus, Orianna",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Deft",
+      "rarity": "Silver",
+      "tier": "S",
+      "strong_for": [
+        "Jinx",
+        "Sivir",
+        "Tristana",
+        "Xayah",
+        "Ashe"
+      ],
+      "summary": "Blitz Tier S - 推薦英雄: Jinx, Sivir, Tristana",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Goredrink",
+      "rarity": "Silver",
+      "tier": "S",
+      "strong_for": [
+        "Briar",
+        "Zaahen",
+        "Aatrox",
+        "Olaf",
+        "Samira"
+      ],
+      "summary": "Blitz Tier S - 推薦英雄: Briar, Zaahen, Aatrox",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Infernal Soul",
+      "rarity": "Silver",
+      "tier": "S",
+      "strong_for": [
+        "Gangplank",
+        "Jayce",
+        "Smolder",
+        "Zed",
+        "Shyvana"
+      ],
+      "summary": "Blitz Tier S - 推薦英雄: Gangplank, Jayce, Smolder",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Hat on a Hat",
+      "rarity": "Silver",
+      "tier": "S",
+      "strong_for": [
+        "Karthus",
+        "Veigar",
+        "Xerath",
+        "Nidalee",
+        "Velkoz"
+      ],
+      "summary": "Blitz Tier S - 推薦英雄: Karthus, Veigar, Xerath",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Transmute: Gold",
+      "rarity": "Silver",
+      "tier": "A",
+      "strong_for": [
+        "Karthus",
+        "Vladimir",
+        "Yorick",
+        "Evelynn",
+        "Gangplank"
+      ],
+      "summary": "Blitz Tier A - 推薦英雄: Karthus, Vladimir, Yorick",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Heavy Hitter",
+      "rarity": "Silver",
+      "tier": "A",
+      "strong_for": [
+        "DrMundo",
+        "Sion",
+        "Ornn",
+        "TahmKench",
+        "Kled"
+      ],
+      "summary": "Blitz Tier A - 推薦英雄: DrMundo, Sion, Ornn",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Scoped Weapons",
+      "rarity": "Silver",
+      "tier": "A",
+      "strong_for": [
+        "Caitlyn",
+        "Jinx",
+        "Tristana",
+        "Xayah",
+        "Ashe"
+      ],
+      "summary": "Blitz Tier A - 推薦英雄: Caitlyn, Jinx, Tristana",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Mind to Matter",
+      "rarity": "Silver",
+      "tier": "A",
+      "strong_for": [
+        "Ryze",
+        "Kassadin",
+        "Cassiopeia",
+        "Anivia",
+        "Veigar"
+      ],
+      "summary": "Blitz Tier A - 推薦英雄: Ryze, Kassadin, Cassiopeia",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "The Brutalizer",
+      "rarity": "Silver",
+      "tier": "A",
+      "strong_for": [
+        "Gangplank",
+        "Jayce",
+        "Zed",
+        "Khazix",
+        "Talon"
+      ],
+      "summary": "Blitz Tier A - 推薦英雄: Gangplank, Jayce, Zed",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Typhoon",
+      "rarity": "Silver",
+      "tier": "A",
+      "strong_for": [
+        "Akshan",
+        "Zeri",
+        "Ashe",
+        "Jinx",
+        "Yunara"
+      ],
+      "summary": "Blitz Tier A - 推薦英雄: Akshan, Zeri, Ashe",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Ice Cold",
+      "rarity": "Silver",
+      "tier": "A",
+      "strong_for": [
+        "AurelionSol",
+        "Anivia",
+        "Zyra",
+        "Brand",
+        "Malzahar"
+      ],
+      "summary": "Blitz Tier A - 推薦英雄: AurelionSol, Anivia, Zyra",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "ADAPt",
+      "rarity": "Silver",
+      "tier": "A",
+      "strong_for": [
+        "Nidalee",
+        "Karthus",
+        "TwistedFate",
+        "Veigar",
+        "Xerath"
+      ],
+      "summary": "Blitz Tier A - 推薦英雄: Nidalee, Karthus, TwistedFate",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Escape Plan",
+      "rarity": "Silver",
+      "tier": "B",
+      "strong_for": [
+        "Singed",
+        "Olaf",
+        "Darius",
+        "DrMundo",
+        "Vladimir"
+      ],
+      "summary": "Blitz Tier B - 推薦英雄: Singed, Olaf, Darius",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Shadow Runner",
+      "rarity": "Silver",
+      "tier": "B",
+      "strong_for": [
+        "Pyke",
+        "Aurora",
+        "Shaco",
+        "Kalista",
+        "Qiyana"
+      ],
+      "summary": "Blitz Tier B - 推薦英雄: Pyke, Aurora, Shaco",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Swift and Safe",
+      "rarity": "Silver",
+      "tier": "B",
+      "strong_for": [
+        "Ambessa",
+        "Riven",
+        "Kassadin",
+        "Fiora",
+        "Leblanc"
+      ],
+      "summary": "Blitz Tier B - 推薦英雄: Ambessa, Riven, Kassadin",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Homeguard",
+      "rarity": "Silver",
+      "tier": "B",
+      "strong_for": [
+        "Nunu",
+        "Zilean",
+        "TwistedFate",
+        "Mel",
+        "Lillia"
+      ],
+      "summary": "Blitz Tier B - 推薦英雄: Nunu, Zilean, TwistedFate",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Blunt Force",
+      "rarity": "Silver",
+      "tier": "B",
+      "strong_for": [
+        "Gangplank",
+        "Graves",
+        "Jayce",
+        "Zed",
+        "Jhin"
+      ],
+      "summary": "Blitz Tier B - 推薦英雄: Gangplank, Graves, Jayce",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Leg Day",
+      "rarity": "Silver",
+      "tier": "B",
+      "strong_for": [
+        "Singed",
+        "Lillia",
+        "Darius",
+        "Hecarim",
+        "Garen"
+      ],
+      "summary": "Blitz Tier B - 推薦英雄: Singed, Lillia, Darius",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Light 'em Up!",
+      "rarity": "Silver",
+      "tier": "B",
+      "strong_for": [
+        "Kayle",
+        "Akshan",
+        "KogMaw",
+        "Kaisa",
+        "Belveth"
+      ],
+      "summary": "Blitz Tier B - 推薦英雄: Kayle, Akshan, KogMaw",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Buff Buddies",
+      "rarity": "Silver",
+      "tier": "B",
+      "strong_for": [
+        "Xerath",
+        "Ziggs",
+        "Mel",
+        "Hwei",
+        "Elise"
+      ],
+      "summary": "Blitz Tier B - 推薦英雄: Xerath, Ziggs, Mel",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Ocean Soul",
+      "rarity": "Silver",
+      "tier": "B",
+      "strong_for": [
+        "Swain",
+        "Singed",
+        "DrMundo",
+        "Soraka",
+        "Illaoi"
+      ],
+      "summary": "Blitz Tier B - 推薦英雄: Swain, Singed, DrMundo",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Erosion",
+      "rarity": "Silver",
+      "tier": "B",
+      "strong_for": [
+        "Singed",
+        "Mordekaiser",
+        "Swain",
+        "Yorick",
+        "Amumu"
+      ],
+      "summary": "Blitz Tier B - 推薦英雄: Singed, Mordekaiser, Swain",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Upgrade Collector",
+      "rarity": "Silver",
+      "tier": "B",
+      "strong_for": [
+        "Aphelios",
+        "Akshan",
+        "Quinn",
+        "Caitlyn",
+        "Jhin"
+      ],
+      "summary": "Blitz Tier B - 推薦英雄: Aphelios, Akshan, Quinn",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "First-Aid Kit",
+      "rarity": "Silver",
+      "tier": "B",
+      "strong_for": [
+        "Yuumi",
+        "Soraka",
+        "Sona",
+        "Lulu",
+        "Nami"
+      ],
+      "summary": "Blitz Tier B - 推薦英雄: Yuumi, Soraka, Sona",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Upgrade Zhonya's",
+      "rarity": "Silver",
+      "tier": "C",
+      "strong_for": [
+        "Kennen",
+        "Fiddlesticks",
+        "Lissandra",
+        "Rumble",
+        "Morgana"
+      ],
+      "summary": "Blitz Tier C - 推薦英雄: Kennen, Fiddlesticks, Lissandra",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Veil of Warding",
+      "rarity": "Silver",
+      "tier": "C",
+      "strong_for": [
+        "Velkoz",
+        "Leblanc",
+        "Syndra",
+        "Taliyah",
+        "Xerath"
+      ],
+      "summary": "Blitz Tier C - 推薦英雄: Velkoz, Leblanc, Syndra",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "escAPADe",
+      "rarity": "Silver",
+      "tier": "C",
+      "strong_for": [
+        "Gangplank",
+        "Ezreal",
+        "Jayce",
+        "Smolder",
+        "Kaisa"
+      ],
+      "summary": "Blitz Tier C - 推薦英雄: Gangplank, Ezreal, Jayce",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Slap Around",
+      "rarity": "Silver",
+      "tier": "C",
+      "strong_for": [
+        "Morgana",
+        "Lux",
+        "Zilean",
+        "Seraphine",
+        "Janna"
+      ],
+      "summary": "Blitz Tier C - 推薦英雄: Morgana, Lux, Zilean",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Tank It Or Leave It",
+      "rarity": "Silver",
+      "tier": "C",
+      "strong_for": [
+        "Corki",
+        "Yunara",
+        "Smolder",
+        "Gangplank",
+        "Yasuo"
+      ],
+      "summary": "Blitz Tier C - 推薦英雄: Corki, Yunara, Smolder",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Guilty Pleasure",
+      "rarity": "Silver",
+      "tier": "C",
+      "strong_for": [
+        "Leona",
+        "Rell",
+        "Zac",
+        "Maokai",
+        "Nautilus"
+      ],
+      "summary": "Blitz Tier C - 推薦英雄: Leona, Rell, Zac",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Dive Bomber",
+      "rarity": "Silver",
+      "tier": "C",
+      "strong_for": [
+        "Karthus",
+        "Sion",
+        "Malphite",
+        "Nunu",
+        "Lissandra"
+      ],
+      "summary": "Blitz Tier C - 推薦英雄: Karthus, Sion, Malphite",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Mountain Soul",
+      "rarity": "Silver",
+      "tier": "C",
+      "strong_for": [
+        "Braum",
+        "DrMundo",
+        "Ornn",
+        "Rammus",
+        "Skarner"
+      ],
+      "summary": "Blitz Tier C - 推薦英雄: Braum, DrMundo, Ornn",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Frost Wraith",
+      "rarity": "Silver",
+      "tier": "C",
+      "strong_for": [
+        "Braum",
+        "Sejuani",
+        "Leona",
+        "Ornn",
+        "Rell"
+      ],
+      "summary": "Blitz Tier C - 推薦英雄: Braum, Sejuani, Leona",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Ultimate Unstoppable",
+      "rarity": "Silver",
+      "tier": "C",
+      "strong_for": [
+        "Katarina",
+        "Samira",
+        "Nunu",
+        "Kennen",
+        "Kassadin"
+      ],
+      "summary": "Blitz Tier C - 推薦英雄: Katarina, Samira, Nunu",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Tormentor",
+      "rarity": "Silver",
+      "tier": "C",
+      "strong_for": [
+        "Leona",
+        "Amumu",
+        "Rell",
+        "Maokai",
+        "Nautilus"
+      ],
+      "summary": "Blitz Tier C - 推薦英雄: Leona, Amumu, Rell",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Sonic Boom",
+      "rarity": "Silver",
+      "tier": "C",
+      "strong_for": [
+        "Yuumi",
+        "Sona",
+        "Nami",
+        "Lulu",
+        "Soraka"
+      ],
+      "summary": "Blitz Tier C - 推薦英雄: Yuumi, Sona, Nami",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Adamant",
+      "rarity": "Silver",
+      "tier": "C",
+      "strong_for": [
+        "Leona",
+        "Rell",
+        "Rammus",
+        "Sejuani",
+        "Nautilus"
+      ],
+      "summary": "Blitz Tier C - 推薦英雄: Leona, Rell, Rammus",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Self Destruct",
+      "rarity": "Silver",
+      "tier": "C",
+      "strong_for": [
+        "Malphite",
+        "Rammus",
+        "RekSai",
+        "Braum",
+        "Shaco"
+      ],
+      "summary": "Blitz Tier C - 推薦英雄: Malphite, Rammus, RekSai",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Stackosaurus Rex",
+      "rarity": "Silver",
+      "tier": "D",
+      "strong_for": [
+        "Smolder",
+        "AurelionSol",
+        "Nasus",
+        "Chogath",
+        "Veigar"
+      ],
+      "summary": "Blitz Tier D - 推薦英雄: Smolder, AurelionSol, Nasus",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Don't Blink",
+      "rarity": "Silver",
+      "tier": "D",
+      "strong_for": [
+        "Lillia",
+        "Singed",
+        "Hecarim",
+        "Nunu",
+        "MasterYi"
+      ],
+      "summary": "Blitz Tier D - 推薦英雄: Lillia, Singed, Hecarim",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Spin To Win",
+      "rarity": "Silver",
+      "tier": "D",
+      "strong_for": [
+        "Garen",
+        "Lillia",
+        "Katarina",
+        "Hecarim",
+        "Kayn"
+      ],
+      "summary": "Blitz Tier D - 推薦英雄: Garen, Lillia, Katarina",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Upgrade Immolate",
+      "rarity": "Silver",
+      "tier": "D",
+      "strong_for": [
+        "Ornn",
+        "Rammus",
+        "DrMundo",
+        "Sejuani",
+        "Amumu"
+      ],
+      "summary": "Blitz Tier D - 推薦英雄: Ornn, Rammus, DrMundo",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Wind Beneath Blade",
+      "rarity": "Silver",
+      "tier": "D",
+      "strong_for": [
+        "Pyke",
+        "Talon",
+        "Khazix",
+        "Jayce",
+        "Evelynn"
+      ],
+      "summary": "Blitz Tier D - 推薦英雄: Pyke, Talon, Khazix",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Mighty Shield",
+      "rarity": "Silver",
+      "tier": "D",
+      "strong_for": [
+        "Diana",
+        "Riven",
+        "Mordekaiser",
+        "Ambessa",
+        "LeeSin"
+      ],
+      "summary": "Blitz Tier D - 推薦英雄: Diana, Riven, Mordekaiser",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "ReEnergize",
+      "rarity": "Silver",
+      "tier": "D",
+      "strong_for": [
+        "Jhin",
+        "Caitlyn",
+        "Senna",
+        "Quinn",
+        "Smolder"
+      ],
+      "summary": "Blitz Tier D - 推薦英雄: Jhin, Caitlyn, Senna",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Flashbang",
+      "rarity": "Silver",
+      "tier": "D",
+      "strong_for": [
+        "Evelynn",
+        "Camille",
+        "LeeSin",
+        "Diana",
+        "Talon"
+      ],
+      "summary": "Blitz Tier D - 推薦英雄: Evelynn, Camille, LeeSin",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Flash 2",
+      "rarity": "Silver",
+      "tier": "D",
+      "strong_for": [
+        "Kennen",
+        "Annie",
+        "Neeko",
+        "Blitzcrank",
+        "Malphite"
+      ],
+      "summary": "Blitz Tier D - 推薦英雄: Kennen, Annie, Neeko",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Repulsor",
+      "rarity": "Silver",
+      "tier": "D",
+      "strong_for": [
+        "Renata",
+        "Velkoz",
+        "Nami",
+        "Heimerdinger",
+        "Janna"
+      ],
+      "summary": "Blitz Tier D - 推薦英雄: Renata, Velkoz, Nami",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "",
+      "augment_name_en": "Poltergeist",
+      "rarity": "Silver",
+      "tier": "D",
+      "strong_for": [
+        "Singed",
+        "Olaf",
+        "Darius",
+        "Vladimir",
+        "Viktor"
+      ],
+      "summary": "Blitz Tier D - 推薦英雄: Singed, Olaf, Darius",
       "bugs": []
     }
   ],
@@ -293,6 +2578,1880 @@
       "floor": 0,
       "text": "彈幕神童還蠻有趣的\n就看到伊澤的R一直飛過去\n威力還不差\n後面有600-700左右的傷害",
       "page": 15
+    }
+  ],
+  "blitz_augments": [
+    {
+      "name": "Giant Slayer",
+      "rarity": "Prismatic",
+      "tier": "S",
+      "champions": [
+        "Gangplank",
+        "Lillia",
+        "Zeri",
+        "Jhin",
+        "Jayce"
+      ]
+    },
+    {
+      "name": "Eureka",
+      "rarity": "Prismatic",
+      "tier": "S",
+      "champions": [
+        "Veigar",
+        "Syndra",
+        "Zilean",
+        "Ryze",
+        "Viktor"
+      ]
+    },
+    {
+      "name": "Infernal Conduit",
+      "rarity": "Prismatic",
+      "tier": "S",
+      "champions": [
+        "Brand",
+        "Malzahar",
+        "Zyra",
+        "AurelionSol",
+        "Lillia"
+      ]
+    },
+    {
+      "name": "Goliath",
+      "rarity": "Prismatic",
+      "tier": "S",
+      "champions": [
+        "DrMundo",
+        "Ornn",
+        "Braum",
+        "Sejuani",
+        "Rammus"
+      ]
+    },
+    {
+      "name": "Jeweled Gauntlet",
+      "rarity": "Prismatic",
+      "tier": "S",
+      "champions": [
+        "Jayce",
+        "Zoe",
+        "Ryze",
+        "Gangplank",
+        "Karthus"
+      ]
+    },
+    {
+      "name": "Dual Wield",
+      "rarity": "Prismatic",
+      "tier": "A",
+      "champions": [
+        "Akshan",
+        "Vayne",
+        "Jinx",
+        "Ashe",
+        "Tristana"
+      ]
+    },
+    {
+      "name": "Final Form",
+      "rarity": "Prismatic",
+      "tier": "A",
+      "champions": [
+        "Aatrox",
+        "Kassadin",
+        "Olaf",
+        "Naafiri",
+        "Samira"
+      ]
+    },
+    {
+      "name": "Scopiest Weapons",
+      "rarity": "Prismatic",
+      "tier": "A",
+      "champions": [
+        "Caitlyn",
+        "Jinx",
+        "Jhin",
+        "Tristana",
+        "Aphelios"
+      ]
+    },
+    {
+      "name": "Tap Dancer",
+      "rarity": "Prismatic",
+      "tier": "A",
+      "champions": [
+        "Zeri",
+        "Jinx",
+        "Kalista",
+        "Ashe",
+        "Sivir"
+      ]
+    },
+    {
+      "name": "Symphony of War",
+      "rarity": "Prismatic",
+      "tier": "A",
+      "champions": [
+        "Zeri",
+        "Aphelios",
+        "Yasuo",
+        "Yone",
+        "Zaahen"
+      ]
+    },
+    {
+      "name": "Quest: Wooglet's Witchcap",
+      "rarity": "Prismatic",
+      "tier": "B",
+      "champions": [
+        "Veigar",
+        "Zoe",
+        "Lissandra",
+        "Syndra",
+        "Viktor"
+      ]
+    },
+    {
+      "name": "Omni Soul",
+      "rarity": "Prismatic",
+      "tier": "B",
+      "champions": [
+        "Yorick",
+        "Elise",
+        "Jayce",
+        "Gangplank",
+        "Shyvana"
+      ]
+    },
+    {
+      "name": "Clown College",
+      "rarity": "Prismatic",
+      "tier": "B",
+      "champions": [
+        "Khazix",
+        "Talon",
+        "Shaco",
+        "Qiyana",
+        "Zed"
+      ]
+    },
+    {
+      "name": "Transmute: Chaos",
+      "rarity": "Prismatic",
+      "tier": "B",
+      "champions": [
+        "Yorick",
+        "Jayce",
+        "RekSai",
+        "Garen",
+        "Gangplank"
+      ]
+    },
+    {
+      "name": "Slow Cooker",
+      "rarity": "Prismatic",
+      "tier": "B",
+      "champions": [
+        "Ornn",
+        "Rammus",
+        "Sejuani",
+        "Braum",
+        "Leona"
+      ]
+    },
+    {
+      "name": "Cruelty",
+      "rarity": "Prismatic",
+      "tier": "B",
+      "champions": [
+        "Rell",
+        "Lissandra",
+        "Leona",
+        "Galio",
+        "Alistar"
+      ]
+    },
+    {
+      "name": "Dashing",
+      "rarity": "Prismatic",
+      "tier": "B",
+      "champions": [
+        "Riven",
+        "Fizz",
+        "Kayn",
+        "Qiyana",
+        "Pyke"
+      ]
+    },
+    {
+      "name": "Ultimate Awakening",
+      "rarity": "Prismatic",
+      "tier": "B",
+      "champions": [
+        "Renata",
+        "Zed",
+        "Talon",
+        "Teemo",
+        "Lux"
+      ]
+    },
+    {
+      "name": "Fan The Hammer",
+      "rarity": "Prismatic",
+      "tier": "B",
+      "champions": [
+        "Akshan",
+        "Caitlyn",
+        "Jhin",
+        "Vayne",
+        "Quinn"
+      ]
+    },
+    {
+      "name": "Ultimate Revolution",
+      "rarity": "Prismatic",
+      "tier": "B",
+      "champions": [
+        "Karthus",
+        "Malphite",
+        "Renata",
+        "Rumble",
+        "Amumu"
+      ]
+    },
+    {
+      "name": "Trueshot Prodigy",
+      "rarity": "Prismatic",
+      "tier": "B",
+      "champions": [
+        "Jayce",
+        "Xerath",
+        "Nidalee",
+        "Ziggs",
+        "Ezreal"
+      ]
+    },
+    {
+      "name": "Mystic Punch",
+      "rarity": "Prismatic",
+      "tier": "B",
+      "champions": [
+        "Hecarim",
+        "MasterYi",
+        "Jax",
+        "Ezreal",
+        "Zaahen"
+      ]
+    },
+    {
+      "name": "Mad Scientist",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "champions": [
+        "Singed",
+        "TahmKench",
+        "Hecarim",
+        "Garen",
+        "Sett"
+      ]
+    },
+    {
+      "name": "Gash",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "champions": [
+        "Rammus",
+        "Trundle",
+        "Belveth",
+        "Garen",
+        "Olaf"
+      ]
+    },
+    {
+      "name": "Earthwake",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "champions": [
+        "Ambessa",
+        "Riven",
+        "LeeSin",
+        "Pyke",
+        "Kassadin"
+      ]
+    },
+    {
+      "name": "Ominous Pact",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "champions": [
+        "Vladimir",
+        "Singed",
+        "Lillia",
+        "Swain",
+        "Ryze"
+      ]
+    },
+    {
+      "name": "Courage of the Colossus",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "champions": [
+        "Leona",
+        "Rell",
+        "Sejuani",
+        "Nautilus",
+        "Galio"
+      ]
+    },
+    {
+      "name": "Blade Waltz",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "champions": [
+        "Fiora",
+        "Garen",
+        "Nocturne",
+        "LeeSin",
+        "Camille"
+      ]
+    },
+    {
+      "name": "Cerberus",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "champions": [
+        "Draven",
+        "Nocturne",
+        "Quinn",
+        "Akshan",
+        "Tristana"
+      ]
+    },
+    {
+      "name": "Fey Magic",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "champions": [
+        "Anivia",
+        "Katarina",
+        "Fiddlesticks",
+        "Kennen",
+        "Samira"
+      ]
+    },
+    {
+      "name": "Protein Shake",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "champions": [
+        "DrMundo",
+        "KSante",
+        "Zac",
+        "Taric",
+        "TahmKench"
+      ]
+    },
+    {
+      "name": "Cant Touch This",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "champions": [
+        "Samira",
+        "Katarina",
+        "Kassadin",
+        "Kennen",
+        "Nunu"
+      ]
+    },
+    {
+      "name": "Quantum Computing",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "champions": [
+        "Camille",
+        "Poppy",
+        "RekSai",
+        "JarvanIV",
+        "Skarner"
+      ]
+    },
+    {
+      "name": "Master of Duality",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "champions": [
+        "Ezreal",
+        "Kayle",
+        "Kaisa",
+        "Bard",
+        "TwistedFate"
+      ]
+    },
+    {
+      "name": "Glass Cannon",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "champions": [
+        "Karthus",
+        "Gangplank",
+        "Jayce",
+        "Xerath",
+        "Zoe"
+      ]
+    },
+    {
+      "name": "Draw Your Sword",
+      "rarity": "Prismatic",
+      "tier": "D",
+      "champions": [
+        "Graves",
+        "Samira",
+        "Urgot",
+        "Ezreal",
+        "Corki"
+      ]
+    },
+    {
+      "name": "Back To Basics",
+      "rarity": "Prismatic",
+      "tier": "D",
+      "champions": [
+        "Ryze",
+        "Taliyah",
+        "Gangplank",
+        "TwistedFate",
+        "Pantheon"
+      ]
+    },
+    {
+      "name": "Upgrade Mikael's Blessing",
+      "rarity": "Prismatic",
+      "tier": "D",
+      "champions": [
+        "Yuumi",
+        "Lulu",
+        "Soraka",
+        "Renata",
+        "Ivern"
+      ]
+    },
+    {
+      "name": "Windspeaker's Blessing",
+      "rarity": "Prismatic",
+      "tier": "D",
+      "champions": [
+        "Soraka",
+        "Ivern",
+        "Yuumi",
+        "Lulu",
+        "Sona"
+      ]
+    },
+    {
+      "name": "Quest: Urf's Champion",
+      "rarity": "Prismatic",
+      "tier": "D",
+      "champions": [
+        "Camille",
+        "Darius",
+        "Jayce",
+        "Yorick",
+        "Khazix"
+      ]
+    },
+    {
+      "name": "King Me",
+      "rarity": "Prismatic",
+      "tier": "D",
+      "champions": [
+        "Pyke",
+        "Khazix",
+        "Sion",
+        "TwistedFate",
+        "Pantheon"
+      ]
+    },
+    {
+      "name": "Circle of Death",
+      "rarity": "Prismatic",
+      "tier": "D",
+      "champions": [
+        "Zac",
+        "Swain",
+        "Soraka",
+        "Vladimir",
+        "Sona"
+      ]
+    },
+    {
+      "name": "Feel the Burn",
+      "rarity": "Prismatic",
+      "tier": "D",
+      "champions": [
+        "Renata",
+        "Yuumi",
+        "Lulu",
+        "Zilean",
+        "Ivern"
+      ]
+    },
+    {
+      "name": "Goldrend",
+      "rarity": "Prismatic",
+      "tier": "D",
+      "champions": [
+        "TwistedFate",
+        "Taliyah",
+        "Gangplank",
+        "Ezreal",
+        "Smolder"
+      ]
+    },
+    {
+      "name": "Biggest Snowball Ever",
+      "rarity": "Prismatic",
+      "tier": "D",
+      "champions": [
+        "Nunu",
+        "Poppy",
+        "Neeko",
+        "Blitzcrank",
+        "Skarner"
+      ]
+    },
+    {
+      "name": "Orbital Laser",
+      "rarity": "Prismatic",
+      "tier": "D",
+      "champions": [
+        "Zilean",
+        "Bard",
+        "AurelionSol",
+        "Renata",
+        "Anivia"
+      ]
+    },
+    {
+      "name": "I'm a Baby Kitty Where is Mama",
+      "rarity": "Prismatic",
+      "tier": "D",
+      "champions": [
+        "Yuumi",
+        "Soraka",
+        "Lulu",
+        "Nami",
+        "Milio"
+      ]
+    },
+    {
+      "name": "Snowball Roulette",
+      "rarity": "Prismatic",
+      "tier": "D",
+      "champions": [
+        "Neeko",
+        "Nunu",
+        "Poppy",
+        "Braum",
+        "Udyr"
+      ]
+    },
+    {
+      "name": "Empyrean Promise",
+      "rarity": "Prismatic",
+      "tier": "D",
+      "champions": [
+        "Soraka",
+        "Nami",
+        "Sona",
+        "Lulu",
+        "Milio"
+      ]
+    },
+    {
+      "name": "Laser Heal",
+      "rarity": "Prismatic",
+      "tier": "D",
+      "champions": [
+        "Yuumi",
+        "Soraka",
+        "Janna",
+        "Ivern",
+        "Renata"
+      ]
+    },
+    {
+      "name": "Pandora's Box",
+      "rarity": "Prismatic",
+      "tier": "D",
+      "champions": [
+        "Talon",
+        "Khazix",
+        "Pyke",
+        "Qiyana",
+        "Zed"
+      ]
+    },
+    {
+      "name": "Transmute: Prismatic",
+      "rarity": "Gold",
+      "tier": "S",
+      "champions": [
+        "AurelionSol",
+        "Karthus",
+        "Singed",
+        "Taliyah",
+        "RekSai"
+      ]
+    },
+    {
+      "name": "Scopier Weapons",
+      "rarity": "Gold",
+      "tier": "S",
+      "champions": [
+        "Tristana",
+        "Jinx",
+        "Caitlyn",
+        "Aphelios",
+        "Jhin"
+      ]
+    },
+    {
+      "name": "Magic Missile",
+      "rarity": "Gold",
+      "tier": "S",
+      "champions": [
+        "Taliyah",
+        "Brand",
+        "Hwei",
+        "Malzahar",
+        "Zyra"
+      ]
+    },
+    {
+      "name": "Recursion",
+      "rarity": "Gold",
+      "tier": "S",
+      "champions": [
+        "Zilean",
+        "Vladimir",
+        "Syndra",
+        "Taliyah",
+        "Veigar"
+      ]
+    },
+    {
+      "name": "Vampirism",
+      "rarity": "Gold",
+      "tier": "S",
+      "champions": [
+        "Aatrox",
+        "Briar",
+        "Ambessa",
+        "Kayn",
+        "Zaahen"
+      ]
+    },
+    {
+      "name": "It's Killing Time",
+      "rarity": "Gold",
+      "tier": "S",
+      "champions": [
+        "Karthus",
+        "Kennen",
+        "Fiddlesticks",
+        "Rumble",
+        "Anivia"
+      ]
+    },
+    {
+      "name": "Critical Rhythm",
+      "rarity": "Gold",
+      "tier": "S",
+      "champions": [
+        "Jinx",
+        "Tristana",
+        "Xayah",
+        "Aphelios",
+        "Quinn"
+      ]
+    },
+    {
+      "name": "Lightning Strikes",
+      "rarity": "Gold",
+      "tier": "S",
+      "champions": [
+        "Belveth",
+        "Kalista",
+        "Jinx",
+        "Tristana",
+        "Vayne"
+      ]
+    },
+    {
+      "name": "Executioner",
+      "rarity": "Gold",
+      "tier": "S",
+      "champions": [
+        "Zed",
+        "Talon",
+        "Khazix",
+        "Qiyana",
+        "Naafiri"
+      ]
+    },
+    {
+      "name": "Tank Engine",
+      "rarity": "Gold",
+      "tier": "S",
+      "champions": [
+        "DrMundo",
+        "Ornn",
+        "Rell",
+        "Sejuani",
+        "Braum"
+      ]
+    },
+    {
+      "name": "From Beginning To End",
+      "rarity": "Gold",
+      "tier": "S",
+      "champions": [
+        "Karthus",
+        "Zoe",
+        "Gangplank",
+        "Evelynn",
+        "Syndra"
+      ]
+    },
+    {
+      "name": "Bread And Butter",
+      "rarity": "Gold",
+      "tier": "S",
+      "champions": [
+        "Blitzcrank",
+        "Vladimir",
+        "Zilean",
+        "Morgana",
+        "Veigar"
+      ]
+    },
+    {
+      "name": "Thread the Needle",
+      "rarity": "Gold",
+      "tier": "S",
+      "champions": [
+        "Gangplank",
+        "Zed",
+        "Khazix",
+        "Karthus",
+        "Talon"
+      ]
+    },
+    {
+      "name": "Keystone Conjurer",
+      "rarity": "Gold",
+      "tier": "S",
+      "champions": [
+        "Malzahar",
+        "Orianna",
+        "Xerath",
+        "Taliyah",
+        "Ziggs"
+      ]
+    },
+    {
+      "name": "Get Excited!",
+      "rarity": "Gold",
+      "tier": "S",
+      "champions": [
+        "Zeri",
+        "Jinx",
+        "MasterYi",
+        "Olaf",
+        "Aphelios"
+      ]
+    },
+    {
+      "name": "Perseverance",
+      "rarity": "Gold",
+      "tier": "S",
+      "champions": [
+        "DrMundo",
+        "Braum",
+        "Rammus",
+        "Ornn",
+        "Sejuani"
+      ]
+    },
+    {
+      "name": "Twice Thrice",
+      "rarity": "Gold",
+      "tier": "S",
+      "champions": [
+        "Vayne",
+        "Akshan",
+        "Belveth",
+        "Kalista",
+        "MasterYi"
+      ]
+    },
+    {
+      "name": "Bread and Cheese",
+      "rarity": "Gold",
+      "tier": "S",
+      "champions": [
+        "AurelionSol",
+        "Fizz",
+        "Viktor",
+        "Shyvana",
+        "Gangplank"
+      ]
+    },
+    {
+      "name": "Skilled Sniper",
+      "rarity": "Gold",
+      "tier": "S",
+      "champions": [
+        "Jayce",
+        "Xerath",
+        "Nidalee",
+        "Ziggs",
+        "Mel"
+      ]
+    },
+    {
+      "name": "Marksmage",
+      "rarity": "Gold",
+      "tier": "S",
+      "champions": [
+        "Gwen",
+        "Azir",
+        "Ekko",
+        "TwistedFate",
+        "Bard"
+      ]
+    },
+    {
+      "name": "Spiritual Purification",
+      "rarity": "Gold",
+      "tier": "S",
+      "champions": [
+        "Lissandra",
+        "Pyke",
+        "Karthus",
+        "Fiddlesticks",
+        "Kennen"
+      ]
+    },
+    {
+      "name": "Soul Siphon",
+      "rarity": "Gold",
+      "tier": "A",
+      "champions": [
+        "Yunara",
+        "Corki",
+        "Senna",
+        "Yone",
+        "Yasuo"
+      ]
+    },
+    {
+      "name": "Big Brain",
+      "rarity": "Gold",
+      "tier": "A",
+      "champions": [
+        "Veigar",
+        "Vex",
+        "Ryze",
+        "Syndra",
+        "Lissandra"
+      ]
+    },
+    {
+      "name": "Rabble Rousing",
+      "rarity": "Gold",
+      "tier": "A",
+      "champions": [
+        "Cassiopeia",
+        "Ryze",
+        "Hecarim",
+        "Riven",
+        "Ambessa"
+      ]
+    },
+    {
+      "name": "Cheating",
+      "rarity": "Gold",
+      "tier": "A",
+      "champions": [
+        "Zilean",
+        "AurelionSol",
+        "Xerath",
+        "Anivia",
+        "Lux"
+      ]
+    },
+    {
+      "name": "Celestial Body",
+      "rarity": "Gold",
+      "tier": "A",
+      "champions": [
+        "Braum",
+        "Ornn",
+        "Leona",
+        "Rell",
+        "Rammus"
+      ]
+    },
+    {
+      "name": "Firebrand",
+      "rarity": "Gold",
+      "tier": "A",
+      "champions": [
+        "Zeri",
+        "Azir",
+        "Urgot",
+        "Sivir",
+        "Ashe"
+      ]
+    },
+    {
+      "name": "Vulnerability",
+      "rarity": "Gold",
+      "tier": "A",
+      "champions": [
+        "Brand",
+        "Malzahar",
+        "Rumble",
+        "Smolder",
+        "Lillia"
+      ]
+    },
+    {
+      "name": "Bread And Jam",
+      "rarity": "Gold",
+      "tier": "A",
+      "champions": [
+        "Sylas",
+        "Zilean",
+        "Leblanc",
+        "Nami",
+        "Sett"
+      ]
+    },
+    {
+      "name": "Overflow",
+      "rarity": "Gold",
+      "tier": "A",
+      "champions": [
+        "Ryze",
+        "Cassiopeia",
+        "Kassadin",
+        "Karthus",
+        "Sona"
+      ]
+    },
+    {
+      "name": "Quest: Steel Your Heart",
+      "rarity": "Gold",
+      "tier": "A",
+      "champions": [
+        "DrMundo",
+        "Ornn",
+        "Leona",
+        "Sejuani",
+        "Rell"
+      ]
+    },
+    {
+      "name": "It's Critical",
+      "rarity": "Gold",
+      "tier": "A",
+      "champions": [
+        "Corki",
+        "Smolder",
+        "Yunara",
+        "Senna",
+        "Gangplank"
+      ]
+    },
+    {
+      "name": "Nightstalking",
+      "rarity": "Gold",
+      "tier": "A",
+      "champions": [
+        "Khazix",
+        "Talon",
+        "Pyke",
+        "Zed",
+        "Qiyana"
+      ]
+    },
+    {
+      "name": "Impassable",
+      "rarity": "Gold",
+      "tier": "A",
+      "champions": [
+        "Rell",
+        "Rammus",
+        "Sejuani",
+        "Leona",
+        "Nautilus"
+      ]
+    },
+    {
+      "name": "Critical Healing",
+      "rarity": "Gold",
+      "tier": "A",
+      "champions": [
+        "Soraka",
+        "Yuumi",
+        "Sona",
+        "Nami",
+        "Vladimir"
+      ]
+    },
+    {
+      "name": "Shrink Ray",
+      "rarity": "Gold",
+      "tier": "A",
+      "champions": [
+        "Urgot",
+        "Zeri",
+        "Sivir",
+        "Shen",
+        "RekSai"
+      ]
+    },
+    {
+      "name": "Upgrade Infinity Edge",
+      "rarity": "Gold",
+      "tier": "B",
+      "champions": [
+        "Yunara",
+        "Corki",
+        "Senna",
+        "Smolder",
+        "Jhin"
+      ]
+    },
+    {
+      "name": "Outlaw's Grit",
+      "rarity": "Gold",
+      "tier": "B",
+      "champions": [
+        "Ambessa",
+        "Riven",
+        "KSante",
+        "Kassadin",
+        "Irelia"
+      ]
+    },
+    {
+      "name": "Upgrade Hubris",
+      "rarity": "Gold",
+      "tier": "B",
+      "champions": [
+        "Zed",
+        "Khazix",
+        "Pyke",
+        "Talon",
+        "Qiyana"
+      ]
+    },
+    {
+      "name": "Restless Restoration",
+      "rarity": "Gold",
+      "tier": "B",
+      "champions": [
+        "Singed",
+        "Lillia",
+        "Soraka",
+        "Rammus",
+        "Rakan"
+      ]
+    },
+    {
+      "name": "Demon's Dance",
+      "rarity": "Gold",
+      "tier": "B",
+      "champions": [
+        "Camille",
+        "Fiora",
+        "RekSai",
+        "Shen",
+        "Sion"
+      ]
+    },
+    {
+      "name": "Dawnbringer's Resolve",
+      "rarity": "Gold",
+      "tier": "B",
+      "champions": [
+        "DrMundo",
+        "Chogath",
+        "Sion",
+        "Nautilus",
+        "Zac"
+      ]
+    },
+    {
+      "name": "With Haste",
+      "rarity": "Gold",
+      "tier": "B",
+      "champions": [
+        "Lillia",
+        "Hecarim",
+        "Zilean",
+        "Singed",
+        "Vladimir"
+      ]
+    },
+    {
+      "name": "Ethereal Weapon",
+      "rarity": "Gold",
+      "tier": "B",
+      "champions": [
+        "Hecarim",
+        "Katarina",
+        "Gangplank",
+        "Kaisa",
+        "Azir"
+      ]
+    },
+    {
+      "name": "Searing Dawn",
+      "rarity": "Gold",
+      "tier": "B",
+      "champions": [
+        "Renata",
+        "Morgana",
+        "Zyra",
+        "Anivia",
+        "Nami"
+      ]
+    },
+    {
+      "name": "Apex Inventor",
+      "rarity": "Gold",
+      "tier": "B",
+      "champions": [
+        "Yuumi",
+        "Skarner",
+        "Ornn",
+        "Renata",
+        "Sion"
+      ]
+    },
+    {
+      "name": "Divine Intervention",
+      "rarity": "Gold",
+      "tier": "B",
+      "champions": [
+        "Yuumi",
+        "Taric",
+        "Rakan",
+        "Braum",
+        "Renata"
+      ]
+    },
+    {
+      "name": "Holy Fire",
+      "rarity": "Gold",
+      "tier": "B",
+      "champions": [
+        "Taric",
+        "Sona",
+        "Yuumi",
+        "Milio",
+        "Nami"
+      ]
+    },
+    {
+      "name": "Ok Boomerang",
+      "rarity": "Gold",
+      "tier": "C",
+      "champions": [
+        "Sivir",
+        "Nidalee",
+        "Heimerdinger",
+        "TwistedFate",
+        "Ziggs"
+      ]
+    },
+    {
+      "name": "Snowball Upgrade",
+      "rarity": "Gold",
+      "tier": "C",
+      "champions": [
+        "Neeko",
+        "Kennen",
+        "Nunu",
+        "Lissandra",
+        "Amumu"
+      ]
+    },
+    {
+      "name": "Slow And Steady",
+      "rarity": "Gold",
+      "tier": "C",
+      "champions": [
+        "Zeri",
+        "Graves",
+        "Urgot",
+        "Garen",
+        "Ezreal"
+      ]
+    },
+    {
+      "name": "All For You",
+      "rarity": "Gold",
+      "tier": "C",
+      "champions": [
+        "Soraka",
+        "Yuumi",
+        "Nami",
+        "Sona",
+        "Lulu"
+      ]
+    },
+    {
+      "name": "Flashy",
+      "rarity": "Gold",
+      "tier": "C",
+      "champions": [
+        "Kennen",
+        "Neeko",
+        "LeeSin",
+        "Blitzcrank",
+        "Annie"
+      ]
+    },
+    {
+      "name": "Minionmancer",
+      "rarity": "Gold",
+      "tier": "D",
+      "champions": [
+        "Yorick",
+        "Heimerdinger",
+        "Zyra",
+        "Annie",
+        "Naafiri"
+      ]
+    },
+    {
+      "name": "Upgrade Sheen",
+      "rarity": "Gold",
+      "tier": "D",
+      "champions": [
+        "Ezreal",
+        "Jax",
+        "Gangplank",
+        "Corki",
+        "Gnar"
+      ]
+    },
+    {
+      "name": "Witchful Thinking",
+      "rarity": "Silver",
+      "tier": "S",
+      "champions": [
+        "Nidalee",
+        "Karthus",
+        "Orianna",
+        "Xerath",
+        "Zoe"
+      ]
+    },
+    {
+      "name": "Deft",
+      "rarity": "Silver",
+      "tier": "S",
+      "champions": [
+        "Jinx",
+        "Sivir",
+        "Tristana",
+        "Xayah",
+        "Ashe"
+      ]
+    },
+    {
+      "name": "Goredrink",
+      "rarity": "Silver",
+      "tier": "S",
+      "champions": [
+        "Briar",
+        "Zaahen",
+        "Aatrox",
+        "Olaf",
+        "Samira"
+      ]
+    },
+    {
+      "name": "Infernal Soul",
+      "rarity": "Silver",
+      "tier": "S",
+      "champions": [
+        "Gangplank",
+        "Jayce",
+        "Smolder",
+        "Zed",
+        "Shyvana"
+      ]
+    },
+    {
+      "name": "Hat on a Hat",
+      "rarity": "Silver",
+      "tier": "S",
+      "champions": [
+        "Karthus",
+        "Veigar",
+        "Xerath",
+        "Nidalee",
+        "Velkoz"
+      ]
+    },
+    {
+      "name": "Transmute: Gold",
+      "rarity": "Silver",
+      "tier": "A",
+      "champions": [
+        "Karthus",
+        "Vladimir",
+        "Yorick",
+        "Evelynn",
+        "Gangplank"
+      ]
+    },
+    {
+      "name": "Heavy Hitter",
+      "rarity": "Silver",
+      "tier": "A",
+      "champions": [
+        "DrMundo",
+        "Sion",
+        "Ornn",
+        "TahmKench",
+        "Kled"
+      ]
+    },
+    {
+      "name": "Scoped Weapons",
+      "rarity": "Silver",
+      "tier": "A",
+      "champions": [
+        "Caitlyn",
+        "Jinx",
+        "Tristana",
+        "Xayah",
+        "Ashe"
+      ]
+    },
+    {
+      "name": "Mind to Matter",
+      "rarity": "Silver",
+      "tier": "A",
+      "champions": [
+        "Ryze",
+        "Kassadin",
+        "Cassiopeia",
+        "Anivia",
+        "Veigar"
+      ]
+    },
+    {
+      "name": "The Brutalizer",
+      "rarity": "Silver",
+      "tier": "A",
+      "champions": [
+        "Gangplank",
+        "Jayce",
+        "Zed",
+        "Khazix",
+        "Talon"
+      ]
+    },
+    {
+      "name": "Typhoon",
+      "rarity": "Silver",
+      "tier": "A",
+      "champions": [
+        "Akshan",
+        "Zeri",
+        "Ashe",
+        "Jinx",
+        "Yunara"
+      ]
+    },
+    {
+      "name": "Ice Cold",
+      "rarity": "Silver",
+      "tier": "A",
+      "champions": [
+        "AurelionSol",
+        "Anivia",
+        "Zyra",
+        "Brand",
+        "Malzahar"
+      ]
+    },
+    {
+      "name": "ADAPt",
+      "rarity": "Silver",
+      "tier": "A",
+      "champions": [
+        "Nidalee",
+        "Karthus",
+        "TwistedFate",
+        "Veigar",
+        "Xerath"
+      ]
+    },
+    {
+      "name": "Escape Plan",
+      "rarity": "Silver",
+      "tier": "B",
+      "champions": [
+        "Singed",
+        "Olaf",
+        "Darius",
+        "DrMundo",
+        "Vladimir"
+      ]
+    },
+    {
+      "name": "Shadow Runner",
+      "rarity": "Silver",
+      "tier": "B",
+      "champions": [
+        "Pyke",
+        "Aurora",
+        "Shaco",
+        "Kalista",
+        "Qiyana"
+      ]
+    },
+    {
+      "name": "Swift and Safe",
+      "rarity": "Silver",
+      "tier": "B",
+      "champions": [
+        "Ambessa",
+        "Riven",
+        "Kassadin",
+        "Fiora",
+        "Leblanc"
+      ]
+    },
+    {
+      "name": "Homeguard",
+      "rarity": "Silver",
+      "tier": "B",
+      "champions": [
+        "Nunu",
+        "Zilean",
+        "TwistedFate",
+        "Mel",
+        "Lillia"
+      ]
+    },
+    {
+      "name": "Blunt Force",
+      "rarity": "Silver",
+      "tier": "B",
+      "champions": [
+        "Gangplank",
+        "Graves",
+        "Jayce",
+        "Zed",
+        "Jhin"
+      ]
+    },
+    {
+      "name": "Leg Day",
+      "rarity": "Silver",
+      "tier": "B",
+      "champions": [
+        "Singed",
+        "Lillia",
+        "Darius",
+        "Hecarim",
+        "Garen"
+      ]
+    },
+    {
+      "name": "Light 'em Up!",
+      "rarity": "Silver",
+      "tier": "B",
+      "champions": [
+        "Kayle",
+        "Akshan",
+        "KogMaw",
+        "Kaisa",
+        "Belveth"
+      ]
+    },
+    {
+      "name": "Buff Buddies",
+      "rarity": "Silver",
+      "tier": "B",
+      "champions": [
+        "Xerath",
+        "Ziggs",
+        "Mel",
+        "Hwei",
+        "Elise"
+      ]
+    },
+    {
+      "name": "Ocean Soul",
+      "rarity": "Silver",
+      "tier": "B",
+      "champions": [
+        "Swain",
+        "Singed",
+        "DrMundo",
+        "Soraka",
+        "Illaoi"
+      ]
+    },
+    {
+      "name": "Erosion",
+      "rarity": "Silver",
+      "tier": "B",
+      "champions": [
+        "Singed",
+        "Mordekaiser",
+        "Swain",
+        "Yorick",
+        "Amumu"
+      ]
+    },
+    {
+      "name": "Upgrade Collector",
+      "rarity": "Silver",
+      "tier": "B",
+      "champions": [
+        "Aphelios",
+        "Akshan",
+        "Quinn",
+        "Caitlyn",
+        "Jhin"
+      ]
+    },
+    {
+      "name": "First-Aid Kit",
+      "rarity": "Silver",
+      "tier": "B",
+      "champions": [
+        "Yuumi",
+        "Soraka",
+        "Sona",
+        "Lulu",
+        "Nami"
+      ]
+    },
+    {
+      "name": "Upgrade Zhonya's",
+      "rarity": "Silver",
+      "tier": "C",
+      "champions": [
+        "Kennen",
+        "Fiddlesticks",
+        "Lissandra",
+        "Rumble",
+        "Morgana"
+      ]
+    },
+    {
+      "name": "Veil of Warding",
+      "rarity": "Silver",
+      "tier": "C",
+      "champions": [
+        "Velkoz",
+        "Leblanc",
+        "Syndra",
+        "Taliyah",
+        "Xerath"
+      ]
+    },
+    {
+      "name": "escAPADe",
+      "rarity": "Silver",
+      "tier": "C",
+      "champions": [
+        "Gangplank",
+        "Ezreal",
+        "Jayce",
+        "Smolder",
+        "Kaisa"
+      ]
+    },
+    {
+      "name": "Slap Around",
+      "rarity": "Silver",
+      "tier": "C",
+      "champions": [
+        "Morgana",
+        "Lux",
+        "Zilean",
+        "Seraphine",
+        "Janna"
+      ]
+    },
+    {
+      "name": "Tank It Or Leave It",
+      "rarity": "Silver",
+      "tier": "C",
+      "champions": [
+        "Corki",
+        "Yunara",
+        "Smolder",
+        "Gangplank",
+        "Yasuo"
+      ]
+    },
+    {
+      "name": "Guilty Pleasure",
+      "rarity": "Silver",
+      "tier": "C",
+      "champions": [
+        "Leona",
+        "Rell",
+        "Zac",
+        "Maokai",
+        "Nautilus"
+      ]
+    },
+    {
+      "name": "Dive Bomber",
+      "rarity": "Silver",
+      "tier": "C",
+      "champions": [
+        "Karthus",
+        "Sion",
+        "Malphite",
+        "Nunu",
+        "Lissandra"
+      ]
+    },
+    {
+      "name": "Mountain Soul",
+      "rarity": "Silver",
+      "tier": "C",
+      "champions": [
+        "Braum",
+        "DrMundo",
+        "Ornn",
+        "Rammus",
+        "Skarner"
+      ]
+    },
+    {
+      "name": "Frost Wraith",
+      "rarity": "Silver",
+      "tier": "C",
+      "champions": [
+        "Braum",
+        "Sejuani",
+        "Leona",
+        "Ornn",
+        "Rell"
+      ]
+    },
+    {
+      "name": "Ultimate Unstoppable",
+      "rarity": "Silver",
+      "tier": "C",
+      "champions": [
+        "Katarina",
+        "Samira",
+        "Nunu",
+        "Kennen",
+        "Kassadin"
+      ]
+    },
+    {
+      "name": "Tormentor",
+      "rarity": "Silver",
+      "tier": "C",
+      "champions": [
+        "Leona",
+        "Amumu",
+        "Rell",
+        "Maokai",
+        "Nautilus"
+      ]
+    },
+    {
+      "name": "Sonic Boom",
+      "rarity": "Silver",
+      "tier": "C",
+      "champions": [
+        "Yuumi",
+        "Sona",
+        "Nami",
+        "Lulu",
+        "Soraka"
+      ]
+    },
+    {
+      "name": "Adamant",
+      "rarity": "Silver",
+      "tier": "C",
+      "champions": [
+        "Leona",
+        "Rell",
+        "Rammus",
+        "Sejuani",
+        "Nautilus"
+      ]
+    },
+    {
+      "name": "Self Destruct",
+      "rarity": "Silver",
+      "tier": "C",
+      "champions": [
+        "Malphite",
+        "Rammus",
+        "RekSai",
+        "Braum",
+        "Shaco"
+      ]
+    },
+    {
+      "name": "Stackosaurus Rex",
+      "rarity": "Silver",
+      "tier": "D",
+      "champions": [
+        "Smolder",
+        "AurelionSol",
+        "Nasus",
+        "Chogath",
+        "Veigar"
+      ]
+    },
+    {
+      "name": "Don't Blink",
+      "rarity": "Silver",
+      "tier": "D",
+      "champions": [
+        "Lillia",
+        "Singed",
+        "Hecarim",
+        "Nunu",
+        "MasterYi"
+      ]
+    },
+    {
+      "name": "Spin To Win",
+      "rarity": "Silver",
+      "tier": "D",
+      "champions": [
+        "Garen",
+        "Lillia",
+        "Katarina",
+        "Hecarim",
+        "Kayn"
+      ]
+    },
+    {
+      "name": "Upgrade Immolate",
+      "rarity": "Silver",
+      "tier": "D",
+      "champions": [
+        "Ornn",
+        "Rammus",
+        "DrMundo",
+        "Sejuani",
+        "Amumu"
+      ]
+    },
+    {
+      "name": "Wind Beneath Blade",
+      "rarity": "Silver",
+      "tier": "D",
+      "champions": [
+        "Pyke",
+        "Talon",
+        "Khazix",
+        "Jayce",
+        "Evelynn"
+      ]
+    },
+    {
+      "name": "Mighty Shield",
+      "rarity": "Silver",
+      "tier": "D",
+      "champions": [
+        "Diana",
+        "Riven",
+        "Mordekaiser",
+        "Ambessa",
+        "LeeSin"
+      ]
+    },
+    {
+      "name": "ReEnergize",
+      "rarity": "Silver",
+      "tier": "D",
+      "champions": [
+        "Jhin",
+        "Caitlyn",
+        "Senna",
+        "Quinn",
+        "Smolder"
+      ]
+    },
+    {
+      "name": "Flashbang",
+      "rarity": "Silver",
+      "tier": "D",
+      "champions": [
+        "Evelynn",
+        "Camille",
+        "LeeSin",
+        "Diana",
+        "Talon"
+      ]
+    },
+    {
+      "name": "Flash 2",
+      "rarity": "Silver",
+      "tier": "D",
+      "champions": [
+        "Kennen",
+        "Annie",
+        "Neeko",
+        "Blitzcrank",
+        "Malphite"
+      ]
+    },
+    {
+      "name": "Repulsor",
+      "rarity": "Silver",
+      "tier": "D",
+      "champions": [
+        "Renata",
+        "Velkoz",
+        "Nami",
+        "Heimerdinger",
+        "Janna"
+      ]
+    },
+    {
+      "name": "Poltergeist",
+      "rarity": "Silver",
+      "tier": "D",
+      "champions": [
+        "Singed",
+        "Olaf",
+        "Darius",
+        "Vladimir",
+        "Viktor"
+      ]
     }
   ]
 }

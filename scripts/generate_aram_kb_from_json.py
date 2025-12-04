@@ -39,19 +39,20 @@ def render_augment_index(augments):
     lines = [
         "## Augment → 英雄 / 類型 對照表",
         "",
-        "| 增幅 | 稀有度 | 適合英雄 / 類型 | 摘要 |",
-        "| --- | --- | --- | --- |",
+        "| 增幅 | 稀有度 | Tier | 適合英雄 / 類型 | 摘要 |",
+        "| --- | --- | --- | --- | --- |",
     ]
     for a in augments:
-        zh = a.get("augment_name_zh") or "?"
+        zh = a.get("augment_name_zh") or ""
         en = a.get("augment_name_en") or ""
-        name = f"{en} ({zh})" if en else zh
+        name = f"{en} ({zh})" if en and zh else (en or zh or "?")
         rarity = a.get("rarity") or "?"
+        tier = a.get("tier") or "-"
         strong_for = "、".join(a.get("strong_for") or []) or "(待補)"
         summary = (a.get("summary") or "").replace("\n", " ")
-        if len(summary) > 80:
-            summary = summary[:77] + "..."
-        lines.append(f"| {name} | {rarity} | {strong_for} | {summary} |")
+        if len(summary) > 60:
+            summary = summary[:57] + "..."
+        lines.append(f"| {name} | {rarity} | {tier} | {strong_for} | {summary} |")
     lines.append("")
     return "\n".join(lines)
 
