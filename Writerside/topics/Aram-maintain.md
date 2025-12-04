@@ -19,9 +19,42 @@
 ### 1.2 Blitz ARAM Mayhem 資料
 
 - Augments：`https://blitz.gg/lol/aram-mayhem-augments`
-  - 取得各顆海克斯的英文名稱、稀有度、描述、簡要勝率／出場率（如有）。
+  - 取得各顆海克斯的名稱、稀有度、描述、Tier 排名（S/A/B/C/D）、推薦英雄。
+  - **重要**：頁面右上角可切換語言為「繁體中文」，切換後所有增幅名稱、描述、英雄名稱都會顯示台服正確的繁體中文。
 - Tier List：`https://blitz.gg/lol/tierlist/aram-mayhem`
   - 取得各英雄在 ARAM Mayhem 模式下的 Tier（S/A/B…）與大致定位。
+
+#### 1.2.1 抓取繁體中文資料的方法
+
+由於 Blitz.gg 是 JavaScript 渲染的 SPA 頁面，無法直接用 `requests` 或 `web-fetch` 抓取，需要使用瀏覽器自動化工具：
+
+1. **使用 Chrome DevTools MCP**（推薦）：
+   - 開啟 `https://blitz.gg/lol/aram-mayhem-augments`
+   - 點擊右上角設定圖示 → 選擇「繁體中文」→ 等待頁面重新載入
+   - 使用 JavaScript 評估抓取 DOM 內容：
+     ```javascript
+     // 抓取所有增幅資料
+     Array.from(document.querySelectorAll('[class*="AugmentRow"]')).map(row => ({
+       name_zh: row.querySelector('[class*="Name"]')?.textContent?.trim(),
+       tier: row.querySelector('[class*="Tier"]')?.textContent?.trim(),
+       description: row.querySelector('[class*="Description"]')?.textContent?.trim(),
+       champions: Array.from(row.querySelectorAll('[class*="Champion"] img'))
+         .map(img => img.alt).slice(0, 5)
+     }))
+     ```
+
+2. **稀有度判斷**：
+   - 頁面上增幅按稀有度分組顯示（Prismatic / Gold / Silver）
+   - 可透過 DOM 結構或 CSS class 判斷當前增幅屬於哪個稀有度區塊
+
+3. **資料欄位對應**：
+   | Blitz 欄位 | JSON 欄位 | 說明 |
+   |-----------|----------|------|
+   | 增幅名稱 | `augment_name_zh` | 繁體中文名稱（如「巨人殺手」） |
+   | Tier | `tier` | S/A/B/C/D 排名 |
+   | 描述 | `summary` | 增幅效果說明 |
+   | 推薦英雄 | `strong_for` | Top 5 推薦英雄（繁體中文） |
+   | 稀有度 | `rarity` | Prismatic / Gold / Silver |
 
 ---
 
@@ -95,11 +128,15 @@
 
 ### 4.1 Augments 頁面
 
-- 對每顆 Augment 抽出：
-  - `augment_name_en`
-  - `rarity`
-  - `description`（簡短即可）
-  - `win_rate`、`pick_rate`（若頁面有提供，可只記大約值或等級分群）
+- 對每顆 Augment 抽出（**建議切換為繁體中文後抓取**）：
+  - `augment_name_zh`：繁體中文名稱（如「巨人殺手」、「靈光一閃」）
+  - `rarity`：Prismatic / Gold / Silver
+  - `tier`：S / A / B / C / D（Blitz 評分）
+  - `description`：增幅效果說明（繁體中文）
+  - `strong_for`：推薦英雄列表（繁體中文，如「剛普朗克」、「雷茲」）
+
+> **注意**：Blitz 頁面是 JavaScript 渲染，需使用瀏覽器自動化工具抓取。
+> 詳見 1.2.1 節的抓取方法說明。
 
 ### 4.2 Tier List 頁面
 
@@ -118,21 +155,43 @@
 
 ```json
 {
+  "coverage": {
+    "bahamut": {
+      "bsn": 17532,
+      "snA": 705476,
+      "from_page": 1,
+      "to_page": 15,
+      "last_updated": "2025-12-04"
+    },
+    "blitz": {
+      "url": "https://blitz.gg/lol/aram-mayhem-augments",
+      "language": "zh-TW",
+      "augment_count": 156,
+      "last_updated": "2025-12-04"
+    }
+  },
   "augments_summary": [
     {
-      "augment_name_zh": "基本功",
-      "augment_name_en": "Back To Basics",
+      "augment_name_zh": "巨人殺手",
       "rarity": "Prismatic",
-      "strong_for": ["雷茲", "剛普拉克"],
-      "summary": "大幅提升 Q/W/E 技能輸出，在吃技能係數的英雄身上上限極高。",
-      "bugs": [
-        "剛普拉克桶子會疊加增傷，使 3 連桶 > 2 連 > 單桶，接近 Bug 級互動。"
-      ]
+      "tier": "S",
+      "strong_for": ["剛普朗克", "莉莉亞", "婕莉", "燼", "杰西"],
+      "summary": "體型變小，增加跑速，並根據目標英雄與你的體型差距造成額外傷害。",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "基本功夫",
+      "rarity": "Prismatic",
+      "tier": "D",
+      "strong_for": ["雷茲", "塔莉雅", "剛普朗克", "逆命", "潘森"],
+      "summary": "增加技能傷害、治療、護盾，並獲得技能加速，但無法使用大絕。",
+      "bugs": []
     }
   ],
   "hero_synergy": [
     {
       "hero": "札克",
+      "hero_en": "Zac",
       "core_augments": ["死亡循環", "回血類海克斯"],
       "build_notes": "全坦 + 高回血裝，靠死亡循環把治療量轉為爆炸輸出。"
     }
@@ -147,11 +206,57 @@
   "macro_tips": [
     "前中期以線權與清線為優先，爆水晶後特別重要",
     "大後期注意關鍵主 C 的買一送一概念（一起死一起生）"
+  ],
+  "raw_floors": [
+    { "page": 1, "floor": 1, "author": "xxx", "content": "..." }
   ]
 }
 ```
 
-### 5.2 生成 / 更新 Aram.md 的邏輯
+> **欄位說明**：
+> - `coverage`：記錄資料來源與抓取範圍，方便追蹤更新進度
+> - `augments_summary`：從 Blitz 抓取的增幅資料（繁體中文）
+>   - `tier`：Blitz 評分（S/A/B/C/D）
+>   - `strong_for`：推薦英雄（繁體中文名稱）
+> - `hero_synergy`：從巴哈討論串萃取的英雄 × 增幅搭配
+> - `raw_floors`：巴哈原始留言（供後續萃取用）
+
+### 5.2 Python 腳本說明
+
+專案中已建立以下 Python 腳本，用於自動化資料抓取與生成流程：
+
+| 腳本 | 用途 |
+|------|------|
+| `scripts/scrape_bahamut_aram.py` | 爬取巴哈討論串，存入 `Aram-data.json` 的 `raw_floors` |
+| `scripts/extract_aram_insights.py` | 從 `raw_floors` 萃取英雄 × 增幅資訊 |
+| `scripts/merge_blitz_augments.py` | 合併 Blitz 增幅資料（需先手動抓取繁體中文資料） |
+| `scripts/generate_aram_from_json.py` | 從 JSON 生成 `Aram.generated.md`（Writerside 文章） |
+| `scripts/generate_aram_kb_from_json.py` | 從 JSON 生成 `Aram-kb.md`（ChatGPT 知識庫） |
+
+#### 執行流程
+
+```bash
+# 進入專案目錄
+cd /path/to/writerside
+
+# 啟動虛擬環境
+source .venv/bin/activate
+
+# 1. 抓取巴哈資料（例如抓 1~15 頁）
+python3 scripts/scrape_bahamut_aram.py --from-page 1 --to-page 15
+
+# 2. 萃取結構化資料
+python3 scripts/extract_aram_insights.py
+
+# 3. 重新生成 Markdown
+python3 scripts/generate_aram_from_json.py
+python3 scripts/generate_aram_kb_from_json.py
+```
+
+> **注意**：Blitz 繁體中文資料需透過瀏覽器自動化抓取（見 1.2.1 節），
+> 抓取後可使用 `merge_blitz_augments.py` 合併到 `Aram-data.json`。
+
+### 5.3 生成 / 更新 Aram.md 的邏輯
 
 1. 檢查 `Writerside/topics/Aram.md` 是否存在與是否有實質內容：
    - 若「檔案不存在」或內容仍為預設 placeholder（例如只有 `# Aram` / `Start typing here...`），則視為**首次建立**：
