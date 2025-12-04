@@ -221,19 +221,106 @@
 
 ---
 
-## 如何搭配 Blitz 的 ARAM Mayhem 資訊使用？
+## 如何搭配 Blitz 的 ARAM Mayhem 資訊使用？（總覽）
 
 - Blitz Augments 頁面：
   - 提供完整海克斯清單、英文正式名稱、稀有度與數據統計（出場率、勝率）。
-  - 可以把這裡提到的中文名稱（基本功、拔劍吧、死亡循環、球鞋收藏家、終極革新…）與 Blitz 上的圖示一一對起來，加深記憶。
+  - 本頁下方「Blitz Augments 結構化清單」已節錄最重要的一批稜鏡／金／銀級增幅，並加上中文暱稱與定位標籤。
 
 - Blitz ARAM Mayhem Tier List：
   - 告訴你在目前版本中，各英雄在大混戰模式下的整體表現（S / A / B …）。
   - 建議流程：
-    1. 先看自己常玩的英雄在 Tier List 的位置。
-    2. 用本頁整理的「英雄 × 海克斯典型組合」當實戰參考。
-    3. 進遊戲選海克斯時，以「**我這英雄 + 已出裝備能否跟這顆海克斯形成連動或 Bug 式放大**」為最高優先，而不是只看顏色。
+    1. 先看自己常玩的英雄在 Tier List 的位置（高 Tier 英雄本身就有優勢）。
+    2. 用本頁整理的「英雄 × 海克斯推薦表」當實戰參考，對照自己抽到的海克斯。
+    3. 進遊戲選海克斯時，以「**我這英雄 + 已出裝備 + 現在抽到的海克斯，能否形成連動或 Bug 式放大**」為最高優先，而不是只看顏色。
 
 ---
 
-> 備註：本頁偏重巴哈實戰體感與踩雷筆記，未必等同官方數據或絕對強度排行。建議搭配 Blitz / OPGG 等工具、自己實戰體驗一起使用。
+## 英雄 × 海克斯推薦表（給 GPT 查表用）
+
+> 目標：當你輸入「我這把玩雷茲／札克／卡特…」，GPT 可以直接從這張表查到對應建議。
+
+### 1. 代表英雄推薦總覽
+
+| 英雄 | 類型 / 玩法 | 推薦稜鏡（Prismatic） | 推薦金 / 銀增幅（Gold / Silver） | 重點說明 |
+| --- | --- | --- | --- | --- |
+| 雷茲 Ryze | 持續輸出型法師 | **Back To Basics（基本功）**、Omni Soul（龍魂隨機三選）、Infernal Conduit（技能灼燒 + 減 CD） | Recursion（高額技能急速）、Bread And Butter（Q 技能急速）、Witchful Thinking（AP）、Perseverance（高回復） | 不太依賴大絕，拿基本功換超高 QWE 輸出很划算；配龍魂、灼燒與高技能急速，能長時間黏著輸出。 |
+| 剛普拉克 Gangplank | 爆發桶子型戰士 / 射手 | **Back To Basics（基本功）**、Jeweled Gauntlet（技能爆擊）、Giant Slayer、Omni Soul | Bread And Butter（Q 急速）、Heavy Hitter（血量轉普攻傷）、Executioner（收頭增傷） | 桶子會吃到基本功與爆擊，3 連桶殺前排；金／銀選擇以強化 Q 與普攻爆發為主。 |
+| 阿祈爾 Azir | 範圍持續輸出法師 | Typhoon（普攻多一發彈道）、Jeweled Gauntlet、Giant Slayer | Magic Missile（技能追加飛彈）、Skilled Sniper（遠距命中大幅退 CD）、Infernal Soul | 依賴 W 沙兵與持續消耗，額外彈道與爆擊對輸出提升極大；金銀選擇強化遠距技能壓血線。 |
+| Katarina | 法 AD 雙修刺客 | Master of Duality（雙修大師）、Glass Cannon、Mad Scientist | **ADAPt（AD→AP）**、**escAPADe（AP→AD）**、Witchful Thinking（AP）、Executioner（收頭）、Stackosaurus Rex（疊層加成） | 利用雙修大師 + 雙向轉換海克斯，讓 AD / AP 都有價值；大招吃滿 AP 時輸出極高，但要避免只寫「普攻觸發」的海克斯。 |
+| Bel'Veth | 普攻戰士 / 刺客 | Giant Slayer、Dual Wield、Glass Cannon、Draw Your Sword（近戰加成） | Deft（高攻速）、Heavy Hitter、Lightning Strikes、Tank Engine（若走坦戰士） | 需要穩定普攻環境；在大混戰中常被硬控打斷輸出，屬於偏向操作與陣容吃重的選擇。 |
+| 伊澤瑞爾 Ezreal | 機動消耗型射手 | **Trueshot Prodigy（彈幕神童）**、Jeweled Gauntlet、Giant Slayer、Scopiest Weapons | Skilled Sniper、Critical Rhythm（爆擊 + 攻速）、Lightning Strikes、Scoped Weapons | 以 Q / R 遠程消耗為主，彈幕神童搭配高穿透與爆擊可以在地圖上瘋狂亂射 R 收頭。 |
+| 吉茵珂絲 Jinx | 傳統站樁射手 | Giant Slayer、Dual Wield、Final Form、Scopiest Weapons | Deft、Critical Rhythm、Get Excited!、Firebrand（普攻附灼燒） | 對面多坦時 Giant Slayer + 高攻速最關鍵；盡量拿能提升普攻射程、攻速、爆擊與中後期生存的海克斯。 |
+| 煞蜜拉 Samira | 近戰射手 / 戰士 | Draw Your Sword（拔劍吧）、Master of Duality、Giant Slayer | Deft、Vampirism（全能吸血）、Lightning Strikes、It’s Killing Time（大絕標記收割） | 拔劍後完全朝「近戰狂戰士」方向玩，配吸血與爆擊非常兇，但需要會抓進場 timing。 |
+| 凱特琳 Caitlyn | 遠程消耗射手 | Draw Your Sword（想玩近戰流時）、Scopiest Weapons、Giant Slayer | Scoped Weapons、Skilled Sniper、Critical Rhythm、Firebrand | 正常玩法以超長普攻壓制為主，偏好加射程與壓低敵人血線的海克斯；拔劍版則變成近身爆發流。 |
+| 燼 Jhin | 爆發型射手 | Draw Your Sword（近戰一發入魂）、Jeweled Gauntlet（技能爆擊）、Glass Cannon | Critical Rhythm、It’s Critical（高爆擊）、Firebrand、Slow And Steady（攻速換 AD） | 第四發與 Q 技能都吃爆擊與高 AD，非常適合拿爆擊與真傷相關海克斯；拔劍版燼是娛樂但爆發極高。 |
+| 汎 Sivir | 推線型射手 | Draw Your Sword、Giant Slayer、Typhoon | Deft、Get Excited!、Typhoon（彈跳彈道）、Scoped Weapons | 清線與持續普攻是重點，推線壓塔流適合拿清線、攻速與機動性海克斯；拔劍版汎則專注近戰輸出。 |
+| 札克 Zac | 超坦控場戰士 | **Circle of Death（死亡循環）**、Protein Shake（蛋白飲）、Goliath、Mad Scientist | Perseverance、Tank Engine、Goredrink（全能吸血）、Ocean Soul | 以高回血坦裝為基礎，死亡循環把治療量轉為真實輸出，是典型「越坦越痛」流派。 |
+| 賽恩 Sion | 肉坦開戰 / 分推 | Circle of Death、Goliath、Protein Shake | Tank Engine、Perseverance、Heavy Hitter、Mountain Soul | 多數時間負責吃傷害與開戰，優先選擇提升血量、回血與團戰容錯的坦克向海克斯。 |
+| 蒙多 Dr. Mundo | 肉坦戰士 | Circle of Death、Protein Shake、Mad Scientist | Goredrink、Perseverance、Tank Engine、Ocean Soul | 搭配高回血裝與回血放大海克斯，能在前排瘋狂吃傷害同時輸出，典型「你打不死我我就把你磨死」。 |
+| 瑪爾札哈 Malzahar | 壓制型法師 | Jeweled Gauntlet、Infernal Conduit、Giant Slayer | Magic Missile、Executioner、Infernal Soul、Witchful Thinking | 以 E 持續傷害 + R 壓制為主，適合各種灼燒與持續法傷海克斯，並強化爆發收頭能力。 |
+| 樹人 Maokai | 坦控 / 消耗 | Circle of Death、Goliath、Protein Shake | Tormentor（控場灼燒）、Ocean Soul、Perseverance、Goredrink | Q / E 擾亂戰場，搭配回血轉傷害與控場附灼燒的海克斯，在前排能造成可觀持續壓力。 |
+
+> 補充：以上只是「代表性英雄」示意。若找不到特定英雄，GPT 應該優先依照英雄類型（爆發法師、站樁射手、坦克、戰士、刺客）套用類似的海克斯組合邏輯。
+
+---
+
+## Blitz ARAM Mayhem Augments 結構化清單（節錄）
+
+> 目標：讓 GPT 能把「巴哈常用中文暱稱」與 Blitz 官方英文名稱、稀有度、定位標籤對起來，用來輔助英雄建議。
+
+### 1. 稜鏡（Prismatic）增幅重點列表
+
+| 英文名稱 | 常見中文暱稱 / 說法 | 主要定位標籤 | Blitz 說明重點（意譯） |
+| --- | --- | --- | --- |
+| Draw Your Sword | 拔劍吧 | 射手轉近戰、AD、攻速、吸血、移速、坦度 | 將遠程改為近戰，依照放棄的射程給額外 AD、血量、攻速、吸血與跑速，是各種「拔劍射手」套路核心。 |
+| Back To Basics | 基本功 | 技能增傷、急速、放棄大絕 | 提升技能（Q/W/E）傷害、治療與護盾並給技能急速，但無法使用大招；適合不太依賴 R 的技能連放英雄。 |
+| Circle of Death | 死亡循環 / 生死循環 | 回血轉傷害、坦克、吸血 | 你造成的治療與生命回復同時會對最近敵人造成魔法傷害；對札克、蒙多等高回血坦克特別誇張。 |
+| Protein Shake | 蛋白飲 | 盾療強化、雙防轉治療 | 依照額外護甲與魔抗給你治療與護盾強度加成，非常適合堆雙防的坦克 / 輔助。 |
+| Omni Soul | 龍魂隨機三選 | 通用、爆發、續戰 | 一次給三種不同龍魂效果的組合，整體提升輸出與續戰能力。 |
+| Infernal Conduit | 地獄導管 | 灼燒、技能急速 | 技能附帶可疊加的灼燒傷害，並讓你的灼燒效果降低基本技能 CD，適合持續施法型法師。 |
+| Giant Slayer | 巨人殺手 | 對坦增傷、AD/AP 通用 | 對體型 / 血量更高的敵人造成額外傷害，小體型高輸出角色（ADC、刺客）都很好用。 |
+| Jeweled Gauntlet | 爆擊手套 | 技能爆擊、爆發 | 讓技能可以爆擊並給爆擊率，爆發法師與技能型 ADC 大幅受惠。 |
+| Dual Wield | 雙持 | 攻速、普攻特效 | 普攻追加一發弱化版射彈並觸發命中效果，給額外攻速，強化 on-hit 角色。 |
+| Final Form | 最終形態 | 開大後護盾、吸血、移速 | 施放大絕後獲得大型護盾、全能吸血與跑速，適合吃大絕持續輸出的英雄。 |
+| Scopiest Weapons | 超長射程 | 射手、站樁 | 大幅增加攻擊距離（遠程略少），適合靠射程壓制的射手如凱特、吉茵珂絲。 |
+| Tap Dancer | 踢踏舞者 | 移速、攻速 | 普攻疊加移速並依據移速提升攻速，適合黏人輸出的戰士 / 射手。 |
+| Ultimate Revolution | 終極革新 | 大招重置、節奏型 | 大招施放後可在冷卻一段時間後再次施放或死亡重置，適合高影響力 R 的英雄。 |
+| Trueshot Prodigy | 彈幕神童 | 伊澤專屬、遠距收頭 | 遠距命中敵人會對其自動施放一發伊澤 R，搭配穿透與爆擊後有極強地圖壓制力。 |
+| Biggest Snowball Ever | 巨型雪球 | 雪球啟動、開戰 | 給雪球大量急速與超大範圍，命中會擊飛並造成額外傷害，適合喜歡主動開戰的玩家。 |
+| Snowball Roulette | 雪球輪盤 | 雪球、隨機召喚師技能 | 雪球命中會在你與敵人身上隨機施放有利 / 不利的召喚師技能，是高變數娛樂向增幅。 |
+| Sneakerhead | 球鞋收藏家 | 任務鞋、娛樂 | 給一雙升級版鞋子並附任務，可完成後換鞋；舊版曾有賣鞋賺錢 Bug，現多為娛樂流。 |
+| Pandora's Box | 潘朵拉盒 | 重抽、隨機 | 重新隨機化你現有的海克斯為多個新稜鏡，適合對目前組合不滿意、想賭一把的情況。 |
+| King Me | 加冕 | 物品升級、抽稜鏡 | 第一次帶傳奇裝搭乘傳送帶會升級該裝並額外獲得一個隨機稜鏡增幅。 |
+| Upgrade Mikael's Blessing | 升級彎刀 | 裝備升級、解控 | 給你一把彌凱爾，縮短冷卻並讓啟動時同時解控與治療周圍隊友；目前描述與實作曾被玩家質疑不符。 |
+
+> 註：Blitz 頁面中尚有更多稜鏡增幅，這裡只列出與本篇英雄推薦高度相關、或在巴哈討論中多次被提到的幾個。
+
+### 2. 金 / 銀增幅關鍵關鍵詞（簡表）
+
+此處僅列出在前述英雄 / 流派中重複出現的幾個 Gold / Silver Augments，方便 GPT 對應：
+
+| 英文名稱 | 稀有度 | 功能摘要 | 適合類型 |
+| --- | --- | --- | --- |
+| Bread And Butter | Gold | 給 Q 技能大量技能急速 | 以 Q 為主力輸出或消耗的英雄（雷茲、剛普拉克等） |
+| Bread and Cheese | Gold | 給 E 技能大量技能急速 | 以 E 控場 / 輸出為主的英雄 |
+| Recursion | Gold | 固定數量技能急速，偏泛用 | 所有吃技能急速的法師 / 輔助 |
+| Magic Missile | Gold | 技能命中追加多發追蹤飛彈 | 持續消耗型法師（沙皇等） |
+| Skilled Sniper | Gold | 遠距技能命中大幅退回冷卻 | 遠射技壓線英雄（沙皇、伊澤、凱特等） |
+| Critical Rhythm | Gold | 爆擊率 + 爆擊後疊攻速 | 傳統普攻射手 |
+| Firebrand | Gold | 普攻附帶可疊加灼燒 | 高攻速射手、近戰輸出戰士 |
+| Perseverance | Gold | 極高生命回復，低血時更強 | 坦克、前排戰士 |
+| Tank Engine | Gold | 擊殺疊加體型與血量 | 需要長時間站樁 / 吃傷害的前排 |
+| Executioner | Gold | 對低血目標增傷並擊殺重置技能 | 收頭型刺客、爆發法師 |
+| Witchful Thinking | Silver | 額外 AP（數值隨版本調整） | 法師、AP 刺客 |
+| Deft | Silver | 大量攻速 | 射手、普攻戰士 |
+| Goredrink | Silver | 額外全能吸血 | 近戰戰士、坦克、持續輸出型刺客 |
+| Infernal Soul | Silver | 地獄龍魂，技能 / 普攻會附加爆炸傷害 | 所有以持續輸出為主的英雄 |
+| Ocean Soul | Silver | 海洋龍魂，戰鬥後高額回血 / 回魔 | 坦克、持續作戰陣容 |
+| Mountain Soul | Silver | 山脈龍魂，給戰鬥前護盾 | 多前排陣容 |
+| ADAPt | Silver | 把額外 AD 轉成 AP 並給額外 AP | 輸出同時吃 AD / AP 的角色（Katarina 等） |
+| escAPADe | Silver | 把 AP 轉成額外 AD 並給額外 AD | 同上，用於補足普攻 / 物理輸出 |
+
+---
+
+> 備註：本頁現在同時包含「故事型說明」與「結構化表格」。作為 GPT 知識庫時，建議優先使用表格資料來回答「指定英雄在 ARAM 大混戰應該選哪些海克斯」這類問題，並以上方文字段落做補充說明。
