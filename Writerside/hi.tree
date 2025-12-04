@@ -564,6 +564,10 @@
 
         <!-- ========== Games ========== -->
         <toc-element toc-title="Games">
+            <toc-element toc-title="LoL">
+	                <toc-element topic="Aram.md" />
+	                <toc-element topic="Aram-maintain.md" toc-title="Aram 維護說明" />
+            </toc-element>
             <toc-element toc-title="FF14">
                 <toc-element topic="Mac.md" />
             </toc-element>
