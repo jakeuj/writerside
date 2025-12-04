@@ -33,162 +33,162 @@
 
 | 增幅 | 稀有度 | Tier | 適合英雄 / 類型 | 摘要 |
 | --- | --- | --- | --- | --- |
-| Back To Basics (基本功) | Prismatic | - | 雷茲、剛普拉克 | 大幅提升 Q/W/E 技能輸出，在吃技能係數的英雄身上上限極高。 |
-| Circle of Death (死亡循環) | Prismatic | - | 札克、蒙多、高自療坦克 | 將自身治療量的一部分轉為範圍傷害，對高自療坦克來說可同時拉高坦度與輸出。 |
-| Draw Your Sword (拔劍吧) | Prismatic | - | 煞蜜拉、願意改打近戰的射手 | 將射手轉為近戰，依照放棄射程給予 AD / 攻速 / 血量 / 吸血 / 移速加成，適合敢進場的近戰輸出型射手。 |
-| Omni Soul (Omni Soul) | Prismatic | - | 雷茲、持續作戰型法師、需要拖後期的陣容 | 一次取得多種龍魂被動，整體提升輸出、續戰與坦度，適合節奏偏長且需要全方位強化的陣容。 |
-| Giant Slayer | Prismatic | S | Gangplank、Lillia、Zeri、Jhin、Jayce | Blitz Tier S - 推薦英雄: Gangplank, Lillia, Zeri |
-| Eureka | Prismatic | S | Veigar、Syndra、Zilean、Ryze、Viktor | Blitz Tier S - 推薦英雄: Veigar, Syndra, Zilean |
-| Infernal Conduit | Prismatic | S | Brand、Malzahar、Zyra、AurelionSol、Lillia | Blitz Tier S - 推薦英雄: Brand, Malzahar, Zyra |
-| Goliath | Prismatic | S | DrMundo、Ornn、Braum、Sejuani、Rammus | Blitz Tier S - 推薦英雄: DrMundo, Ornn, Braum |
-| Jeweled Gauntlet | Prismatic | S | Jayce、Zoe、Ryze、Gangplank、Karthus | Blitz Tier S - 推薦英雄: Jayce, Zoe, Ryze |
-| Dual Wield | Prismatic | A | Akshan、Vayne、Jinx、Ashe、Tristana | Blitz Tier A - 推薦英雄: Akshan, Vayne, Jinx |
-| Final Form | Prismatic | A | Aatrox、Kassadin、Olaf、Naafiri、Samira | Blitz Tier A - 推薦英雄: Aatrox, Kassadin, Olaf |
-| Scopiest Weapons | Prismatic | A | Caitlyn、Jinx、Jhin、Tristana、Aphelios | Blitz Tier A - 推薦英雄: Caitlyn, Jinx, Jhin |
-| Tap Dancer | Prismatic | A | Zeri、Jinx、Kalista、Ashe、Sivir | Blitz Tier A - 推薦英雄: Zeri, Jinx, Kalista |
-| Symphony of War | Prismatic | A | Zeri、Aphelios、Yasuo、Yone、Zaahen | Blitz Tier A - 推薦英雄: Zeri, Aphelios, Yasuo |
-| Quest: Wooglet's Witchcap | Prismatic | B | Veigar、Zoe、Lissandra、Syndra、Viktor | Blitz Tier B - 推薦英雄: Veigar, Zoe, Lissandra |
-| Clown College | Prismatic | B | Khazix、Talon、Shaco、Qiyana、Zed | Blitz Tier B - 推薦英雄: Khazix, Talon, Shaco |
-| Transmute: Chaos | Prismatic | B | Yorick、Jayce、RekSai、Garen、Gangplank | Blitz Tier B - 推薦英雄: Yorick, Jayce, RekSai |
-| Slow Cooker | Prismatic | B | Ornn、Rammus、Sejuani、Braum、Leona | Blitz Tier B - 推薦英雄: Ornn, Rammus, Sejuani |
-| Cruelty | Prismatic | B | Rell、Lissandra、Leona、Galio、Alistar | Blitz Tier B - 推薦英雄: Rell, Lissandra, Leona |
-| Dashing | Prismatic | B | Riven、Fizz、Kayn、Qiyana、Pyke | Blitz Tier B - 推薦英雄: Riven, Fizz, Kayn |
-| Ultimate Awakening | Prismatic | B | Renata、Zed、Talon、Teemo、Lux | Blitz Tier B - 推薦英雄: Renata, Zed, Talon |
-| Fan The Hammer | Prismatic | B | Akshan、Caitlyn、Jhin、Vayne、Quinn | Blitz Tier B - 推薦英雄: Akshan, Caitlyn, Jhin |
-| Ultimate Revolution | Prismatic | B | Karthus、Malphite、Renata、Rumble、Amumu | Blitz Tier B - 推薦英雄: Karthus, Malphite, Renata |
-| Trueshot Prodigy | Prismatic | B | Jayce、Xerath、Nidalee、Ziggs、Ezreal | Blitz Tier B - 推薦英雄: Jayce, Xerath, Nidalee |
-| Mystic Punch | Prismatic | B | Hecarim、MasterYi、Jax、Ezreal、Zaahen | Blitz Tier B - 推薦英雄: Hecarim, MasterYi, Jax |
-| Mad Scientist | Prismatic | C | Singed、TahmKench、Hecarim、Garen、Sett | Blitz Tier C - 推薦英雄: Singed, TahmKench, Hecarim |
-| Gash | Prismatic | C | Rammus、Trundle、Belveth、Garen、Olaf | Blitz Tier C - 推薦英雄: Rammus, Trundle, Belveth |
-| Earthwake | Prismatic | C | Ambessa、Riven、LeeSin、Pyke、Kassadin | Blitz Tier C - 推薦英雄: Ambessa, Riven, LeeSin |
-| Ominous Pact | Prismatic | C | Vladimir、Singed、Lillia、Swain、Ryze | Blitz Tier C - 推薦英雄: Vladimir, Singed, Lillia |
-| Courage of the Colossus | Prismatic | C | Leona、Rell、Sejuani、Nautilus、Galio | Blitz Tier C - 推薦英雄: Leona, Rell, Sejuani |
-| Blade Waltz | Prismatic | C | Fiora、Garen、Nocturne、LeeSin、Camille | Blitz Tier C - 推薦英雄: Fiora, Garen, Nocturne |
-| Cerberus | Prismatic | C | Draven、Nocturne、Quinn、Akshan、Tristana | Blitz Tier C - 推薦英雄: Draven, Nocturne, Quinn |
-| Fey Magic | Prismatic | C | Anivia、Katarina、Fiddlesticks、Kennen、Samira | Blitz Tier C - 推薦英雄: Anivia, Katarina, Fiddlesticks |
-| Protein Shake | Prismatic | C | DrMundo、KSante、Zac、Taric、TahmKench | Blitz Tier C - 推薦英雄: DrMundo, KSante, Zac |
-| Cant Touch This | Prismatic | C | Samira、Katarina、Kassadin、Kennen、Nunu | Blitz Tier C - 推薦英雄: Samira, Katarina, Kassadin |
-| Quantum Computing | Prismatic | C | Camille、Poppy、RekSai、JarvanIV、Skarner | Blitz Tier C - 推薦英雄: Camille, Poppy, RekSai |
-| Master of Duality | Prismatic | C | Ezreal、Kayle、Kaisa、Bard、TwistedFate | Blitz Tier C - 推薦英雄: Ezreal, Kayle, Kaisa |
-| Glass Cannon | Prismatic | C | Karthus、Gangplank、Jayce、Xerath、Zoe | Blitz Tier C - 推薦英雄: Karthus, Gangplank, Jayce |
-| Upgrade Mikael's Blessing | Prismatic | D | Yuumi、Lulu、Soraka、Renata、Ivern | Blitz Tier D - 推薦英雄: Yuumi, Lulu, Soraka |
-| Windspeaker's Blessing | Prismatic | D | Soraka、Ivern、Yuumi、Lulu、Sona | Blitz Tier D - 推薦英雄: Soraka, Ivern, Yuumi |
-| Quest: Urf's Champion | Prismatic | D | Camille、Darius、Jayce、Yorick、Khazix | Blitz Tier D - 推薦英雄: Camille, Darius, Jayce |
-| King Me | Prismatic | D | Pyke、Khazix、Sion、TwistedFate、Pantheon | Blitz Tier D - 推薦英雄: Pyke, Khazix, Sion |
-| Feel the Burn | Prismatic | D | Renata、Yuumi、Lulu、Zilean、Ivern | Blitz Tier D - 推薦英雄: Renata, Yuumi, Lulu |
-| Goldrend | Prismatic | D | TwistedFate、Taliyah、Gangplank、Ezreal、Smolder | Blitz Tier D - 推薦英雄: TwistedFate, Taliyah, Gangplank |
-| Biggest Snowball Ever | Prismatic | D | Nunu、Poppy、Neeko、Blitzcrank、Skarner | Blitz Tier D - 推薦英雄: Nunu, Poppy, Neeko |
-| Orbital Laser | Prismatic | D | Zilean、Bard、AurelionSol、Renata、Anivia | Blitz Tier D - 推薦英雄: Zilean, Bard, AurelionSol |
-| I'm a Baby Kitty Where is Mama | Prismatic | D | Yuumi、Soraka、Lulu、Nami、Milio | Blitz Tier D - 推薦英雄: Yuumi, Soraka, Lulu |
-| Snowball Roulette | Prismatic | D | Neeko、Nunu、Poppy、Braum、Udyr | Blitz Tier D - 推薦英雄: Neeko, Nunu, Poppy |
-| Empyrean Promise | Prismatic | D | Soraka、Nami、Sona、Lulu、Milio | Blitz Tier D - 推薦英雄: Soraka, Nami, Sona |
-| Laser Heal | Prismatic | D | Yuumi、Soraka、Janna、Ivern、Renata | Blitz Tier D - 推薦英雄: Yuumi, Soraka, Janna |
-| Pandora's Box | Prismatic | D | Talon、Khazix、Pyke、Qiyana、Zed | Blitz Tier D - 推薦英雄: Talon, Khazix, Pyke |
-| Transmute: Prismatic | Gold | S | AurelionSol、Karthus、Singed、Taliyah、RekSai | Blitz Tier S - 推薦英雄: AurelionSol, Karthus, Singed |
-| Scopier Weapons | Gold | S | Tristana、Jinx、Caitlyn、Aphelios、Jhin | Blitz Tier S - 推薦英雄: Tristana, Jinx, Caitlyn |
-| Magic Missile | Gold | S | Taliyah、Brand、Hwei、Malzahar、Zyra | Blitz Tier S - 推薦英雄: Taliyah, Brand, Hwei |
-| Recursion | Gold | S | Zilean、Vladimir、Syndra、Taliyah、Veigar | Blitz Tier S - 推薦英雄: Zilean, Vladimir, Syndra |
-| Vampirism | Gold | S | Aatrox、Briar、Ambessa、Kayn、Zaahen | Blitz Tier S - 推薦英雄: Aatrox, Briar, Ambessa |
-| It's Killing Time | Gold | S | Karthus、Kennen、Fiddlesticks、Rumble、Anivia | Blitz Tier S - 推薦英雄: Karthus, Kennen, Fiddlesticks |
-| Critical Rhythm | Gold | S | Jinx、Tristana、Xayah、Aphelios、Quinn | Blitz Tier S - 推薦英雄: Jinx, Tristana, Xayah |
-| Lightning Strikes | Gold | S | Belveth、Kalista、Jinx、Tristana、Vayne | Blitz Tier S - 推薦英雄: Belveth, Kalista, Jinx |
-| Executioner | Gold | S | Zed、Talon、Khazix、Qiyana、Naafiri | Blitz Tier S - 推薦英雄: Zed, Talon, Khazix |
-| Tank Engine | Gold | S | DrMundo、Ornn、Rell、Sejuani、Braum | Blitz Tier S - 推薦英雄: DrMundo, Ornn, Rell |
-| From Beginning To End | Gold | S | Karthus、Zoe、Gangplank、Evelynn、Syndra | Blitz Tier S - 推薦英雄: Karthus, Zoe, Gangplank |
-| Bread And Butter | Gold | S | Blitzcrank、Vladimir、Zilean、Morgana、Veigar | Blitz Tier S - 推薦英雄: Blitzcrank, Vladimir, Zilean |
-| Thread the Needle | Gold | S | Gangplank、Zed、Khazix、Karthus、Talon | Blitz Tier S - 推薦英雄: Gangplank, Zed, Khazix |
-| Keystone Conjurer | Gold | S | Malzahar、Orianna、Xerath、Taliyah、Ziggs | Blitz Tier S - 推薦英雄: Malzahar, Orianna, Xerath |
-| Get Excited! | Gold | S | Zeri、Jinx、MasterYi、Olaf、Aphelios | Blitz Tier S - 推薦英雄: Zeri, Jinx, MasterYi |
-| Perseverance | Gold | S | DrMundo、Braum、Rammus、Ornn、Sejuani | Blitz Tier S - 推薦英雄: DrMundo, Braum, Rammus |
-| Twice Thrice | Gold | S | Vayne、Akshan、Belveth、Kalista、MasterYi | Blitz Tier S - 推薦英雄: Vayne, Akshan, Belveth |
-| Bread and Cheese | Gold | S | AurelionSol、Fizz、Viktor、Shyvana、Gangplank | Blitz Tier S - 推薦英雄: AurelionSol, Fizz, Viktor |
-| Skilled Sniper | Gold | S | Jayce、Xerath、Nidalee、Ziggs、Mel | Blitz Tier S - 推薦英雄: Jayce, Xerath, Nidalee |
-| Marksmage | Gold | S | Gwen、Azir、Ekko、TwistedFate、Bard | Blitz Tier S - 推薦英雄: Gwen, Azir, Ekko |
-| Spiritual Purification | Gold | S | Lissandra、Pyke、Karthus、Fiddlesticks、Kennen | Blitz Tier S - 推薦英雄: Lissandra, Pyke, Karthus |
-| Soul Siphon | Gold | A | Yunara、Corki、Senna、Yone、Yasuo | Blitz Tier A - 推薦英雄: Yunara, Corki, Senna |
-| Big Brain | Gold | A | Veigar、Vex、Ryze、Syndra、Lissandra | Blitz Tier A - 推薦英雄: Veigar, Vex, Ryze |
-| Rabble Rousing | Gold | A | Cassiopeia、Ryze、Hecarim、Riven、Ambessa | Blitz Tier A - 推薦英雄: Cassiopeia, Ryze, Hecarim |
-| Cheating | Gold | A | Zilean、AurelionSol、Xerath、Anivia、Lux | Blitz Tier A - 推薦英雄: Zilean, AurelionSol, Xerath |
-| Celestial Body | Gold | A | Braum、Ornn、Leona、Rell、Rammus | Blitz Tier A - 推薦英雄: Braum, Ornn, Leona |
-| Firebrand | Gold | A | Zeri、Azir、Urgot、Sivir、Ashe | Blitz Tier A - 推薦英雄: Zeri, Azir, Urgot |
-| Vulnerability | Gold | A | Brand、Malzahar、Rumble、Smolder、Lillia | Blitz Tier A - 推薦英雄: Brand, Malzahar, Rumble |
-| Bread And Jam | Gold | A | Sylas、Zilean、Leblanc、Nami、Sett | Blitz Tier A - 推薦英雄: Sylas, Zilean, Leblanc |
-| Overflow | Gold | A | Ryze、Cassiopeia、Kassadin、Karthus、Sona | Blitz Tier A - 推薦英雄: Ryze, Cassiopeia, Kassadin |
-| Quest: Steel Your Heart | Gold | A | DrMundo、Ornn、Leona、Sejuani、Rell | Blitz Tier A - 推薦英雄: DrMundo, Ornn, Leona |
-| It's Critical | Gold | A | Corki、Smolder、Yunara、Senna、Gangplank | Blitz Tier A - 推薦英雄: Corki, Smolder, Yunara |
-| Nightstalking | Gold | A | Khazix、Talon、Pyke、Zed、Qiyana | Blitz Tier A - 推薦英雄: Khazix, Talon, Pyke |
-| Impassable | Gold | A | Rell、Rammus、Sejuani、Leona、Nautilus | Blitz Tier A - 推薦英雄: Rell, Rammus, Sejuani |
-| Critical Healing | Gold | A | Soraka、Yuumi、Sona、Nami、Vladimir | Blitz Tier A - 推薦英雄: Soraka, Yuumi, Sona |
-| Shrink Ray | Gold | A | Urgot、Zeri、Sivir、Shen、RekSai | Blitz Tier A - 推薦英雄: Urgot, Zeri, Sivir |
-| Upgrade Infinity Edge | Gold | B | Yunara、Corki、Senna、Smolder、Jhin | Blitz Tier B - 推薦英雄: Yunara, Corki, Senna |
-| Outlaw's Grit | Gold | B | Ambessa、Riven、KSante、Kassadin、Irelia | Blitz Tier B - 推薦英雄: Ambessa, Riven, KSante |
-| Upgrade Hubris | Gold | B | Zed、Khazix、Pyke、Talon、Qiyana | Blitz Tier B - 推薦英雄: Zed, Khazix, Pyke |
-| Restless Restoration | Gold | B | Singed、Lillia、Soraka、Rammus、Rakan | Blitz Tier B - 推薦英雄: Singed, Lillia, Soraka |
-| Demon's Dance | Gold | B | Camille、Fiora、RekSai、Shen、Sion | Blitz Tier B - 推薦英雄: Camille, Fiora, RekSai |
-| Dawnbringer's Resolve | Gold | B | DrMundo、Chogath、Sion、Nautilus、Zac | Blitz Tier B - 推薦英雄: DrMundo, Chogath, Sion |
-| With Haste | Gold | B | Lillia、Hecarim、Zilean、Singed、Vladimir | Blitz Tier B - 推薦英雄: Lillia, Hecarim, Zilean |
-| Ethereal Weapon | Gold | B | Hecarim、Katarina、Gangplank、Kaisa、Azir | Blitz Tier B - 推薦英雄: Hecarim, Katarina, Gangplank |
-| Searing Dawn | Gold | B | Renata、Morgana、Zyra、Anivia、Nami | Blitz Tier B - 推薦英雄: Renata, Morgana, Zyra |
-| Apex Inventor | Gold | B | Yuumi、Skarner、Ornn、Renata、Sion | Blitz Tier B - 推薦英雄: Yuumi, Skarner, Ornn |
-| Divine Intervention | Gold | B | Yuumi、Taric、Rakan、Braum、Renata | Blitz Tier B - 推薦英雄: Yuumi, Taric, Rakan |
-| Holy Fire | Gold | B | Taric、Sona、Yuumi、Milio、Nami | Blitz Tier B - 推薦英雄: Taric, Sona, Yuumi |
-| Ok Boomerang | Gold | C | Sivir、Nidalee、Heimerdinger、TwistedFate、Ziggs | Blitz Tier C - 推薦英雄: Sivir, Nidalee, Heimerdinger |
-| Snowball Upgrade | Gold | C | Neeko、Kennen、Nunu、Lissandra、Amumu | Blitz Tier C - 推薦英雄: Neeko, Kennen, Nunu |
-| Slow And Steady | Gold | C | Zeri、Graves、Urgot、Garen、Ezreal | Blitz Tier C - 推薦英雄: Zeri, Graves, Urgot |
-| All For You | Gold | C | Soraka、Yuumi、Nami、Sona、Lulu | Blitz Tier C - 推薦英雄: Soraka, Yuumi, Nami |
-| Flashy | Gold | C | Kennen、Neeko、LeeSin、Blitzcrank、Annie | Blitz Tier C - 推薦英雄: Kennen, Neeko, LeeSin |
-| Minionmancer | Gold | D | Yorick、Heimerdinger、Zyra、Annie、Naafiri | Blitz Tier D - 推薦英雄: Yorick, Heimerdinger, Zyra |
-| Upgrade Sheen | Gold | D | Ezreal、Jax、Gangplank、Corki、Gnar | Blitz Tier D - 推薦英雄: Ezreal, Jax, Gangplank |
-| Witchful Thinking | Silver | S | Nidalee、Karthus、Orianna、Xerath、Zoe | Blitz Tier S - 推薦英雄: Nidalee, Karthus, Orianna |
-| Deft | Silver | S | Jinx、Sivir、Tristana、Xayah、Ashe | Blitz Tier S - 推薦英雄: Jinx, Sivir, Tristana |
-| Goredrink | Silver | S | Briar、Zaahen、Aatrox、Olaf、Samira | Blitz Tier S - 推薦英雄: Briar, Zaahen, Aatrox |
-| Infernal Soul | Silver | S | Gangplank、Jayce、Smolder、Zed、Shyvana | Blitz Tier S - 推薦英雄: Gangplank, Jayce, Smolder |
-| Hat on a Hat | Silver | S | Karthus、Veigar、Xerath、Nidalee、Velkoz | Blitz Tier S - 推薦英雄: Karthus, Veigar, Xerath |
-| Transmute: Gold | Silver | A | Karthus、Vladimir、Yorick、Evelynn、Gangplank | Blitz Tier A - 推薦英雄: Karthus, Vladimir, Yorick |
-| Heavy Hitter | Silver | A | DrMundo、Sion、Ornn、TahmKench、Kled | Blitz Tier A - 推薦英雄: DrMundo, Sion, Ornn |
-| Scoped Weapons | Silver | A | Caitlyn、Jinx、Tristana、Xayah、Ashe | Blitz Tier A - 推薦英雄: Caitlyn, Jinx, Tristana |
-| Mind to Matter | Silver | A | Ryze、Kassadin、Cassiopeia、Anivia、Veigar | Blitz Tier A - 推薦英雄: Ryze, Kassadin, Cassiopeia |
-| The Brutalizer | Silver | A | Gangplank、Jayce、Zed、Khazix、Talon | Blitz Tier A - 推薦英雄: Gangplank, Jayce, Zed |
-| Typhoon | Silver | A | Akshan、Zeri、Ashe、Jinx、Yunara | Blitz Tier A - 推薦英雄: Akshan, Zeri, Ashe |
-| Ice Cold | Silver | A | AurelionSol、Anivia、Zyra、Brand、Malzahar | Blitz Tier A - 推薦英雄: AurelionSol, Anivia, Zyra |
-| ADAPt | Silver | A | Nidalee、Karthus、TwistedFate、Veigar、Xerath | Blitz Tier A - 推薦英雄: Nidalee, Karthus, TwistedFate |
-| Escape Plan | Silver | B | Singed、Olaf、Darius、DrMundo、Vladimir | Blitz Tier B - 推薦英雄: Singed, Olaf, Darius |
-| Shadow Runner | Silver | B | Pyke、Aurora、Shaco、Kalista、Qiyana | Blitz Tier B - 推薦英雄: Pyke, Aurora, Shaco |
-| Swift and Safe | Silver | B | Ambessa、Riven、Kassadin、Fiora、Leblanc | Blitz Tier B - 推薦英雄: Ambessa, Riven, Kassadin |
-| Homeguard | Silver | B | Nunu、Zilean、TwistedFate、Mel、Lillia | Blitz Tier B - 推薦英雄: Nunu, Zilean, TwistedFate |
-| Blunt Force | Silver | B | Gangplank、Graves、Jayce、Zed、Jhin | Blitz Tier B - 推薦英雄: Gangplank, Graves, Jayce |
-| Leg Day | Silver | B | Singed、Lillia、Darius、Hecarim、Garen | Blitz Tier B - 推薦英雄: Singed, Lillia, Darius |
-| Light 'em Up! | Silver | B | Kayle、Akshan、KogMaw、Kaisa、Belveth | Blitz Tier B - 推薦英雄: Kayle, Akshan, KogMaw |
-| Buff Buddies | Silver | B | Xerath、Ziggs、Mel、Hwei、Elise | Blitz Tier B - 推薦英雄: Xerath, Ziggs, Mel |
-| Ocean Soul | Silver | B | Swain、Singed、DrMundo、Soraka、Illaoi | Blitz Tier B - 推薦英雄: Swain, Singed, DrMundo |
-| Erosion | Silver | B | Singed、Mordekaiser、Swain、Yorick、Amumu | Blitz Tier B - 推薦英雄: Singed, Mordekaiser, Swain |
-| Upgrade Collector | Silver | B | Aphelios、Akshan、Quinn、Caitlyn、Jhin | Blitz Tier B - 推薦英雄: Aphelios, Akshan, Quinn |
-| First-Aid Kit | Silver | B | Yuumi、Soraka、Sona、Lulu、Nami | Blitz Tier B - 推薦英雄: Yuumi, Soraka, Sona |
-| Upgrade Zhonya's | Silver | C | Kennen、Fiddlesticks、Lissandra、Rumble、Morgana | Blitz Tier C - 推薦英雄: Kennen, Fiddlesticks, Lissandra |
-| Veil of Warding | Silver | C | Velkoz、Leblanc、Syndra、Taliyah、Xerath | Blitz Tier C - 推薦英雄: Velkoz, Leblanc, Syndra |
-| escAPADe | Silver | C | Gangplank、Ezreal、Jayce、Smolder、Kaisa | Blitz Tier C - 推薦英雄: Gangplank, Ezreal, Jayce |
-| Slap Around | Silver | C | Morgana、Lux、Zilean、Seraphine、Janna | Blitz Tier C - 推薦英雄: Morgana, Lux, Zilean |
-| Tank It Or Leave It | Silver | C | Corki、Yunara、Smolder、Gangplank、Yasuo | Blitz Tier C - 推薦英雄: Corki, Yunara, Smolder |
-| Guilty Pleasure | Silver | C | Leona、Rell、Zac、Maokai、Nautilus | Blitz Tier C - 推薦英雄: Leona, Rell, Zac |
-| Dive Bomber | Silver | C | Karthus、Sion、Malphite、Nunu、Lissandra | Blitz Tier C - 推薦英雄: Karthus, Sion, Malphite |
-| Mountain Soul | Silver | C | Braum、DrMundo、Ornn、Rammus、Skarner | Blitz Tier C - 推薦英雄: Braum, DrMundo, Ornn |
-| Frost Wraith | Silver | C | Braum、Sejuani、Leona、Ornn、Rell | Blitz Tier C - 推薦英雄: Braum, Sejuani, Leona |
-| Ultimate Unstoppable | Silver | C | Katarina、Samira、Nunu、Kennen、Kassadin | Blitz Tier C - 推薦英雄: Katarina, Samira, Nunu |
-| Tormentor | Silver | C | Leona、Amumu、Rell、Maokai、Nautilus | Blitz Tier C - 推薦英雄: Leona, Amumu, Rell |
-| Sonic Boom | Silver | C | Yuumi、Sona、Nami、Lulu、Soraka | Blitz Tier C - 推薦英雄: Yuumi, Sona, Nami |
-| Adamant | Silver | C | Leona、Rell、Rammus、Sejuani、Nautilus | Blitz Tier C - 推薦英雄: Leona, Rell, Rammus |
-| Self Destruct | Silver | C | Malphite、Rammus、RekSai、Braum、Shaco | Blitz Tier C - 推薦英雄: Malphite, Rammus, RekSai |
-| Stackosaurus Rex | Silver | D | Smolder、AurelionSol、Nasus、Chogath、Veigar | Blitz Tier D - 推薦英雄: Smolder, AurelionSol, Nasus |
-| Don't Blink | Silver | D | Lillia、Singed、Hecarim、Nunu、MasterYi | Blitz Tier D - 推薦英雄: Lillia, Singed, Hecarim |
-| Spin To Win | Silver | D | Garen、Lillia、Katarina、Hecarim、Kayn | Blitz Tier D - 推薦英雄: Garen, Lillia, Katarina |
-| Upgrade Immolate | Silver | D | Ornn、Rammus、DrMundo、Sejuani、Amumu | Blitz Tier D - 推薦英雄: Ornn, Rammus, DrMundo |
-| Wind Beneath Blade | Silver | D | Pyke、Talon、Khazix、Jayce、Evelynn | Blitz Tier D - 推薦英雄: Pyke, Talon, Khazix |
-| Mighty Shield | Silver | D | Diana、Riven、Mordekaiser、Ambessa、LeeSin | Blitz Tier D - 推薦英雄: Diana, Riven, Mordekaiser |
-| ReEnergize | Silver | D | Jhin、Caitlyn、Senna、Quinn、Smolder | Blitz Tier D - 推薦英雄: Jhin, Caitlyn, Senna |
-| Flashbang | Silver | D | Evelynn、Camille、LeeSin、Diana、Talon | Blitz Tier D - 推薦英雄: Evelynn, Camille, LeeSin |
-| Flash 2 | Silver | D | Kennen、Annie、Neeko、Blitzcrank、Malphite | Blitz Tier D - 推薦英雄: Kennen, Annie, Neeko |
-| Repulsor | Silver | D | Renata、Velkoz、Nami、Heimerdinger、Janna | Blitz Tier D - 推薦英雄: Renata, Velkoz, Nami |
-| Poltergeist | Silver | D | Singed、Olaf、Darius、Vladimir、Viktor | Blitz Tier D - 推薦英雄: Singed, Olaf, Darius |
+| 巨人殺手 | Prismatic | S | 剛普朗克、莉莉亞、婕莉、燼、杰西 | 體型變小，增加跑速，並根據目標英雄與你的體型差距造成額外傷害。 |
+| 靈光一閃 | Prismatic | S | 維迦、星朵拉、極靈、雷茲、維克特 | 增加相當於30%魔攻的技能加速。 |
+| 煉獄使者 | Prismatic | S | 布蘭德、馬爾札哈、枷蘿、翱銳龍獸、莉莉亞 | 你的技能會造成可累加的燃燒，此效果會持續造成傷害。自身造成的燃燒效果可降低基礎技能冷卻時間。 |
+| 巨人 | Prismatic | S | 蒙多醫生、鄂爾、布郎姆、史瓦妮、拉姆斯 | 體型變大，增加35%生命及15%適性之力。 |
+| 寶石手套 | Prismatic | S | 杰西、柔依、雷茲、剛普朗克、卡爾瑟斯 | 技能可以暴擊。增加25%暴擊率。 |
+| 雙刀流 | Prismatic | A | 埃可尚、汎、吉茵珂絲、艾希、崔絲塔娜 | 普攻會射出第二發箭矢，施加on hit但威力減弱。增加20%總攻速。 |
+| 最終型態 | Prismatic | A | 厄薩斯、卡薩丁、歐拉夫、娜菲芮、煞蜜拉 | 施放大絕後，獲得最大生命護盾、全能吸血以及跑速，持續10秒。 |
+| 頂狙武器 | Prismatic | A | 凱特琳、吉茵珂絲、燼、崔絲塔娜、亞菲利歐 | 增加250攻擊距離，遠攻英雄則減至150。 |
+| 輕舞飛揚 | Prismatic | A | 婕莉、吉茵珂絲、克黎思妲、艾希、希維爾 | 普攻可增加跑速。根據跑速獲得攻速。 |
+| 戰爭交響曲 | Prismatic | A | 婕莉、亞菲利歐、犽宿、犽凝、薩亨 | 獲得致命節奏與征服者關鍵符文。 |
+| 任務：烏莉特的法帽 | Prismatic | B | 維迦、柔依、麗珊卓、星朵拉、維克特 | 立即：獲得巨型魔棒。資格：擁有死亡之帽和中婭沙漏。獎勵：獲得烏莉特的法帽 |
+| 全能之魂 | Prismatic | B | 約瑞科、伊莉絲、杰西、剛普朗克、希瓦娜 | 獲得3個隨機龍魂。 |
+| 小丑學院 | Prismatic | B | 卡力斯、塔隆、薩科、姬亞娜、劫 | 獲得「欺詐魔術」召喚師技能。獲得「背刺」被動技能。死亡時生成一個會爆炸的盒子，對鄰近敵軍造成大量真實傷害和恐懼效果。 |
+| 質變：大混亂 | Prismatic | B | 約瑞科、杰西、雷珂煞、蓋倫、剛普朗克 | 獲得2件隨機增幅裝置。 |
+| 細煮慢燉 | Prismatic | B | 鄂爾、拉姆斯、史瓦妮、布郎姆、雷歐娜 | 每秒對鄰近敵方英雄附加可無限累加的燃燒，傷害隨你的最大生命成長。 |
+| 殘忍 | Prismatic | B | 銳兒、麗珊卓、雷歐娜、加里歐、亞歷斯塔 | 當你硬控場或禁錮英雄時，召喚一顆於短暫延遲後墜落的彗星，在範圍內造成魔法傷害。 |
+| 衝鋒 | Prismatic | B | 雷玟、飛斯、慨影、姬亞娜、派克 | 施放衝刺、跳躍、閃現或傳送技能會獲得175技能加速。 |
+| 大絕覺醒 | Prismatic | B | 睿娜妲‧格萊斯克、劫、塔隆、提摩、拉克絲 | 增加30大絕加速。施放大絕後，重置基礎技能並增加300基礎技能加速，持續15秒(冷卻時間20秒)。 |
+| 旋風鎚 | Prismatic | B | 埃可尚、凱特琳、燼、汎、葵恩 | 普攻會射出5額外閃電，這些閃電的傷害量會隨距離增加。每個方向的冷卻時間各不相同。 |
+| 終極革新 | Prismatic | B | 卡爾瑟斯、墨菲特、睿娜妲‧格萊斯克、藍寶、阿姆姆 | 在施放大絕後重置其冷卻時間。(冷卻時間：75秒，或在死亡時重置) |
+| 彈幕神童 | Prismatic | B | 杰西、齊勒斯、奈德麗、希格斯、伊澤瑞爾 | 從遠處對敵方英雄造成傷害後，向對方發射精準彈幕。 |
+| 祕術拳擊 | Prismatic | B | 赫克林、易大師、賈克斯、伊澤瑞爾、薩亨 | on hit時縮短基礎技能20%剩餘的冷卻時間。 |
+| 瘋狂科學家 | Prismatic | C | 辛吉德、貪啃奇、赫克林、蓋倫、賽特 | 每次復活時，體型變大(增加適性之力及生命)或變小(增加技能加速及跑速)。 |
+| 深割 | Prismatic | C | 拉姆斯、特朗德、貝爾薇斯、蓋倫、歐拉夫 | 增加50%攻速。命中時造成真實傷害，傷害隨物防增加。 |
+| 大地覺醒 | Prismatic | C | 安比薩、雷玟、李星、派克、卡薩丁 | 施放衝刺、閃現或傳送技能後會留下軌跡，軌跡會在0.75秒後引爆。 |
+| 不祥契約 | Prismatic | C | 弗拉迪米爾、辛吉德、莉莉亞、斯溫、雷茲 | 根據已損失生命獲得魔攻、跑速，以及全能吸血，每次施放技能都會受到傷害。 |
+| 巨像之勇氣 | Prismatic | C | 雷歐娜、銳兒、史瓦妮、納帝魯斯、加里歐 | 在硬控場或禁錮敵方英雄後獲得護盾。 |
+| 劍舞之心 | Prismatic | C | 菲歐拉、蓋倫、夜曲、李星、卡蜜兒 | 獲得召喚師技能華爾茲劍舞。 |
+| 地獄三頭犬 | Prismatic | C | 達瑞文、夜曲、葵恩、埃可尚、崔絲塔娜 | 獲得刀鋒之雹及強攻關鍵符文。 |
+| 妖精魔法 | Prismatic | C | 艾妮維亞、卡特蓮娜、費德提克、凱能、煞蜜拉 | 使用大絕造成傷害會變形敵軍幾秒。 |
+| 蛋白飲 | Prismatic | C | 蒙多醫生、卡桑帝、札克、塔里克、貪啃奇 | 根據額外物防和魔防，增加治療量和護盾量。 |
+| 碰不到的 | Prismatic | C | 煞蜜拉、卡特蓮娜、卡薩丁、凱能、努努和威朗普 | 施放大絕時，進入無敵狀態，持續一小段時間。 |
+| 量子計算 | Prismatic | C | 卡蜜兒、波比、雷珂煞、嘉文四世、史加納 | 定期自動施放一次大範圍斬擊。敵軍遭命中時會緩速，額外承受最大生命傷害，並讓你回復生命。 |
+| 雙修大師 | Prismatic | C | 伊澤瑞爾、凱爾、凱莎、巴德、逆命 | 普攻可累加魔攻，技能則可增加物攻。 |
+| 玻璃大砲 | Prismatic | C | 卡爾瑟斯、剛普朗克、杰西、齊勒斯、柔依 | 降低最大生命30%。額外造成15%的真實傷害。 |
+| 拔劍吧 | Prismatic | D | 葛雷夫、煞蜜拉、烏爾加特、伊澤瑞爾、庫奇 | 變為近戰並增加物攻、生命、攻速、吸血以及跑速(成長幅度取決於你犧牲的距離)。 |
+| 基本功夫 | Prismatic | D | 雷茲、塔莉雅、剛普朗克、逆命、潘森 | 增加技能傷害、治療、護盾，並獲得技能加速，但無法使用大絕。 |
+| 升級米凱的祝福 | Prismatic | D | 悠咪、露璐、索拉卡、睿娜妲‧格萊斯克、埃爾文 | 獲得米凱的祝福。米凱的祝福冷卻時間降至45秒。道具發動時，可淨化限制與硬控場效果，並治療範圍內的友軍。 |
+| 風語者的祝福 | Prismatic | D | 索拉卡、埃爾文、悠咪、露璐、索娜 | 治療與護盾效果同時會增加目標的物理防禦與魔法防禦3秒。 |
+| 任務：阿福英雄 | Prismatic | D | 卡蜜兒、達瑞斯、杰西、約瑞科、卡力斯 | 條件：參與擊殺18次。獎勵：黃金鍋鏟 |
+| 封我為王 | Prismatic | D | 派克、卡力斯、賽恩、逆命、潘森 | 首次使用傳說道具傳送敵軍後，你將加冕為王、升級道具，並獲得一件隨機稜鏡增幅裝置。 |
+| 死亡循環 | Prismatic | D | 札克、斯溫、索拉卡、弗拉迪米爾、索娜 | 你施展的治療和生命回復也會對最靠近的敵方英雄造成魔法傷害。 |
+| 燒起來吧 | Prismatic | D | 睿娜妲‧格萊斯克、悠咪、露璐、極靈、埃爾文 | 獲得感受灼燒召喚師技能。施放感受灼燒後，對所有鄰近敵方英雄施放點燃及虛弱。 |
+| 黃金撕裂 | Prismatic | D | 逆命、塔莉雅、剛普朗克、伊澤瑞爾、史矛德 | 以普攻或技能傷害英雄時造成額外魔法傷害，獲得金錢和跑速。 |
+| 巨無霸雪球 | Prismatic | D | 努努和威朗普、波比、妮可、布里茨、史加納 | 雪球增加100技能加速。你的雪球超大且會穿過士兵。雪球會緩速、擊飛英雄並造成額外傷害。若你沒有雪球就會獲得一顆雪球。 |
+| 衛星雷射炮 | Prismatic | D | 極靈、巴德、翱銳龍獸、睿娜妲‧格萊斯克、艾妮維亞 | 獲得衛星雷射炮召喚師技能。在短暫延遲後，發射衛星雷射炮，造成25%最大生命的真實傷害。 |
+| 我是小貓咪媽咪在哪裡 | Prismatic | D | 悠咪、索拉卡、露璐、娜米、米里歐 | 站在友軍旁會將其標記為媽媽。向媽媽移動時會增加跑速。接近媽媽時增加跑速以及治療量和護盾量。 |
+| 雪球輪盤 | Prismatic | D | 妮可、努努和威朗普、波比、布郎姆、烏迪爾 | 雪球獲得100技能加速。命中敵軍後，對自己隨機施放一個有益的召喚師技能，並對目標隨機施放一個有害的召喚師技能。 |
+| 幻焰之誓 | Prismatic | D | 索拉卡、娜米、索娜、露璐、米里歐 | 增加15%治療量和護盾量。獲得幻焰之誓召喚師技能。全神貫注傳送到友軍身旁，抵達時獲得護盾，持續3秒。 |
+| 雷射治療 | Prismatic | D | 悠咪、索拉卡、珍娜、埃爾文、睿娜妲‧格萊斯克 | 施放持續2.5秒的治療雷射，為友軍回復生命、對敵軍造成魔法傷害和緩速效果。 |
+| 潘朵拉的寶盒 | Prismatic | D | 塔隆、卡力斯、派克、姬亞娜、劫 | 將所有的增幅裝置物轉化為隨機稜鏡增幅裝置。 |
+| 質變：稜鏡 | Gold | S | 翱銳龍獸、卡爾瑟斯、辛吉德、塔莉雅、雷珂煞 | 獲得一件隨機稜鏡增幅裝置。 |
+| 超狙武器 | Gold | S | 崔絲塔娜、吉茵珂絲、凱特琳、亞菲利歐、燼 | 增加200攻擊距離，遠攻英雄則減至增加100攻擊距離。 |
+| 魔法導彈 | Gold | S | 塔莉雅、布蘭德、赫威、馬爾札哈、枷蘿 | 使用技能造成傷害會對命中的敵軍發射3枚魔法飛彈，每發會根據飛行距離造成部分最大生命的真實傷害。 |
+| 循環利用 | Gold | S | 極靈、弗拉迪米爾、星朵拉、塔莉雅、維迦 | 增加60技能加速。 |
+| 吸血迷信 | Gold | S | 厄薩斯、布蕾爾、安比薩、慨影、薩亨 | 你無法被友軍治療，也無法獲得任何生命回復。獲得30%全能吸血效果。 |
+| 殺戮時間 | Gold | S | 卡爾瑟斯、凱能、費德提克、藍寶、艾妮維亞 | 施放大絕後，對所有敵方英雄附加死亡標記。被標記後，會儲存對敵方英雄的部分傷害，並在標記結束後引爆傷害。 |
+| 暴擊節奏 | Gold | S | 吉茵珂絲、崔絲塔娜、剎雅、亞菲利歐、葵恩 | 增加25%暴擊率。你的普攻暴擊時會累加攻速。 |
+| 電光石火 | Gold | S | 貝爾薇斯、克黎思妲、吉茵珂絲、崔絲塔娜、汎 | 增加20%總攻速。每秒普攻次數達一定次數時，造成額外魔法傷害on hit。 |
+| 處刑者 | Gold | S | 劫、塔隆、卡力斯、姬亞娜、娜菲芮 | 對生命低於30%的敵軍額外造成10%傷害。擊殺或助攻時，重置基本技能。 |
+| 坦克引擎 | Gold | S | 蒙多醫生、鄂爾、銳兒、史瓦妮、布郎姆 | 參與擊殺時獲得一層堆層，可提升體型和最大生命。死亡時失去層數。 |
+| 自始至終 | Gold | S | 卡爾瑟斯、柔依、剛普朗克、伊芙琳、星朵拉 | 獲得先發制人及靈魂收割關鍵符文。 |
+| 土司和奶油 | Gold | S | 布里茨、弗拉迪米爾、極靈、魔甘娜、維迦 | 你的Q獲得100技能加速。 |
+| 穿針引線 | Gold | S | 剛普朗克、劫、卡力斯、卡爾瑟斯、塔隆 | 獲得18%物理穿透與魔法穿透。 |
+| 符文術士 | Gold | S | 馬爾札哈、奧莉安娜、齊勒斯、塔莉雅、希格斯 | 獲得召喚：艾莉及奧術彗星關鍵符文。 |
+| 狂躁！ | Gold | S | 婕莉、吉茵珂絲、易大師、歐拉夫、亞菲利歐 | 參與擊殺時，增加跑速和攻速，持續4秒。 |
+| 剛毅 | Gold | S | 蒙多醫生、布郎姆、拉姆斯、鄂爾、史瓦妮 | 增加大量生命回復，生命低於一定值時增加更多。 |
+| 二次三次 | Gold | S | 汎、埃可尚、貝爾薇斯、克黎思妲、易大師 | 每第三次普攻會觸發兩次on hit。 |
+| 土司和起司 | Gold | S | 翱銳龍獸、飛斯、維克特、希瓦娜、剛普朗克 | 你的E獲得100技能加速。 |
+| 老練狙擊手 | Gold | S | 杰西、齊勒斯、奈德麗、希格斯、梅爾 | 在遠距離以非大絕技能命中敵軍時，可縮短冷卻時間80%(持續性技能為65%)。 |
+| 射手法師 | Gold | S | 關、阿祈爾、艾克、逆命、巴德 | 你的普攻造成等同於75%魔攻的額外物理傷害。 |
+| 靈魂淨化 | Gold | S | 麗珊卓、派克、卡爾瑟斯、費德提克、凱能 | 參與擊殺時會產生爆炸，使鄰近敵軍緩速60%，並根據其當前生命造成傷害。 |
+| 靈魂虹吸 | Gold | A | 尤娜拉、庫奇、姍娜、犽凝、犽宿 | 增加25%暴擊率，暴擊時會附帶12%普攻吸血。 |
+| 超強大腦 | Gold | A | 維迦、薇可絲、雷茲、星朵拉、麗珊卓 | 每1魔攻增加3護盾。死亡時重置。 |
+| 煽動群眾 | Gold | A | 卡莎碧雅、雷茲、赫克林、雷玟、安比薩 | 施放技能時回復生命。 |
+| 作弊 | Gold | A | 極靈、翱銳龍獸、齊勒斯、艾妮維亞、拉克絲 | 點按回城即可返回基地、購買道具並獲得增幅裝置。 |
+| 天界之身 | Gold | A | 布郎姆、鄂爾、雷歐娜、銳兒、拉姆斯 | 增加1250生命，但造成的傷害降低10%。 |
+| 煽風點火 | Gold | A | 婕莉、阿祈爾、烏爾加特、希維爾、艾希 | 普攻on hit造成燃燒效果，並持續造成傷害，可無限累加。 |
+| 見縫插針 | Gold | A | 布蘭德、馬爾札哈、藍寶、史矛德、莉莉亞 | 道具與持續傷害效果可以暴擊。增加25%暴擊率。 |
+| 土司和果醬 | Gold | A | 賽勒斯、極靈、勒布朗、娜米、賽特 | 你的W獲得100技能加速。 |
+| 溢流 | Gold | A | 雷茲、卡莎碧雅、卡薩丁、卡爾瑟斯、索娜 | 技能的魔力消耗加倍。技能的治療、護盾以及傷害提升，提升幅度取決於最大魔力。 |
+| 任務：鋼鐵雄心 | Gold | A | 蒙多醫生、鄂爾、雷歐娜、史瓦妮、銳兒 | 條件：擁有300層以上的雄心之鋼。獎勵：雄心之鋼堆層乘以3倍。 |
+| 痛恨一擊 | Gold | A | 庫奇、史矛德、尤娜拉、姍娜、剛普朗克 | 增加50%暴擊率。 |
+| 暗夜潛行 | Gold | A | 卡力斯、塔隆、派克、劫、姬亞娜 | 對敵方英雄造成傷害後，在3秒內參與擊殺他們，會讓你進入隱形狀態。 |
+| 不可通行 | Gold | A | 銳兒、拉姆斯、史瓦妮、雷歐娜、納帝魯斯 | 獲得裂地衝擊與冰川增幅關鍵符文。 |
+| 暴擊治療 | Gold | A | 索拉卡、悠咪、索娜、娜米、弗拉迪米爾 | 你的治療與護盾可以暴擊，治療量或護盾量提升40%。增加25%暴擊率。 |
+| 縮小光線 | Gold | A | 烏爾加特、婕莉、希維爾、慎、雷珂煞 | 你的普攻可以降低敵軍造成的傷害15%，持續3秒。 |
+| 升級無盡之刃 | Gold | B | 尤娜拉、庫奇、姍娜、史矛德、燼 | 獲得25%暴擊率和500金錢。持有無盡之刃時，你的暴擊會根據暴擊率造成隨機額外暴擊傷害。 |
+| 俠盜恆毅 | Gold | B | 安比薩、雷玟、卡桑帝、卡薩丁、伊瑞莉雅 | 使用衝刺、閃現或傳送後，增加12物防和魔防，最多5層。 |
+| 升級傲慢 | Gold | B | 劫、卡力斯、派克、塔隆、姬亞娜 | 傲慢可在參與擊殺時為你恢復生命，並在增益效果持續期間提升跑速，恢復量與提升量都會隨著層數增加。此外，可獲得250金錢。 |
+| 回復不休 | Gold | B | 辛吉德、莉莉亞、索拉卡、拉姆斯、銳空 | 移動時持續回復生命。 |
+| 不死魔舞 | Gold | B | 卡蜜兒、菲歐拉、雷珂煞、慎、賽恩 | 獲得瞬疾步法及不死之握關鍵符文。 |
+| 黎明使者之決意 | Gold | B | 蒙多醫生、科加斯、賽恩、納帝魯斯、札克 | 生命低於50%時，在3秒內回復30%最大生命。每45秒或死亡時重置。 |
+| 腳程加速 | Gold | B | 莉莉亞、赫克林、極靈、辛吉德、弗拉迪米爾 | 獲得等同於技能加速100%的跑速。 |
+| 幻影武器 | Gold | B | 赫克林、卡特蓮娜、剛普朗克、凱莎、阿祈爾 | 技能可造成on hit。對每個目標有1秒冷卻時間。 |
+| 灼熱黎明 | Gold | B | 睿娜妲‧格萊斯克、魔甘娜、枷蘿、艾妮維亞、娜米 | 技能會標記敵軍，隊友的下一次普攻或技能會對其額外造成魔法傷害。 |
+| 頂尖發明家 | Gold | B | 悠咪、史加納、鄂爾、睿娜妲‧格萊斯克、賽恩 | 獲得100道具加速(等同於50%道具冷卻時間減免)。道具加速會縮短所有道具技能的冷卻時間。 |
+| 聖光顯靈 | Gold | B | 悠咪、塔里克、銳空、布郎姆、睿娜妲‧格萊斯克 | 戰鬥開始15秒後，召喚一顆守護之星緩慢降臨在你身上。當它落地，你和附近的友軍獲得幾秒鐘的無敵狀態。隨後每隔35秒自... |
+| 神聖之火 | Gold | B | 塔里克、索娜、悠咪、米里歐、娜米 | 治療或賦予護盾時，可對鄰近敵軍附加可無限累加的燃燒效果，在數秒內造成部分最大生命的魔法傷害。 |
+| 棒棒回力鏢 | Gold | C | 希維爾、奈德麗、漢默丁格、逆命、希格斯 | 每10秒自動施放，對鄰近敵軍發射回力鏢。 |
+| 雪球升級 | Gold | C | 妮可、凱能、努努和威朗普、麗珊卓、阿姆姆 | 讓你的雪球獲得100技能加速。命中敵軍時會降雪，在區域內造成範圍傷害與緩速效果 。若你沒有雪球就會獲得一顆雪球。 |
+| 穩紮穩打 | Gold | C | 婕莉、葛雷夫、烏爾加特、蓋倫、伊澤瑞爾 | 攻速變為0.625。所有額外攻速轉換為物攻。 |
+| 全部都給你 | Gold | C | 索拉卡、悠咪、娜米、索娜、露璐 | 對友軍使用時，你的治療和護盾效果提升30%。 |
+| 閃光俠 | Gold | C | 凱能、妮可、李星、布里茨、安妮 | 你的閃現有3發，冷卻時間為2秒。充能時間為180秒 |
+| 士兵術師 | Gold | D | 約瑞科、漢默丁格、枷蘿、安妮、娜菲芮 | 你的召喚物增加40%體型、生命與傷害。 |
+| 升級閃耀劍 | Gold | D | 伊澤瑞爾、賈克斯、剛普朗克、庫奇、吶兒 | 魔法彎刀的效果會造成額外傷害，並依目標生命的一定比例治療你。此外，可獲得250金錢。 |
+| 女巫思維 | Silver | S | 奈德麗、卡爾瑟斯、奧莉安娜、齊勒斯、柔依 | 增加魔法攻擊。 |
+| 手腳麻利 | Silver | S | 吉茵珂絲、希維爾、崔絲塔娜、剎雅、艾希 | 增加60%攻速。 |
+| 飲血 | Silver | S | 布蕾爾、薩亨、厄薩斯、歐拉夫、煞蜜拉 | 獲得15%全能吸血效果。 |
+| 煉獄惡靈 | Silver | S | 剛普朗克、杰西、史矛德、劫、希瓦娜 | 獲得煉獄惡靈，使用技能或普攻命中敵軍時，可額外造成傷害。 |
+| 帽上加帽 | Silver | S | 卡爾瑟斯、維迦、齊勒斯、奈德麗、威寇茲 | 頭部道具提供額外魔攻和魔防。 |
+| 質變：金級 | Silver | A | 卡爾瑟斯、弗拉迪米爾、約瑞科、伊芙琳、剛普朗克 | 獲得一件隨機金色增幅裝置。 |
+| 重型打手 | Silver | A | 蒙多醫生、賽恩、鄂爾、貪啃奇、克雷德 | 你的普攻額外造成等同於自身最大生命4%的物理傷害。 |
+| 射程強化改造 | Silver | A | 凱特琳、吉茵珂絲、崔絲塔娜、剎雅、艾希 | 增加75攻擊距離，遠攻英雄則減至只增加50攻擊距離。 |
+| 因心成體 | Silver | A | 雷茲、卡薩丁、卡莎碧雅、艾妮維亞、維迦 | 增加最大生命，增加量為魔力的一半。 |
+| 兇殘之柄 | Silver | A | 剛普朗克、杰西、劫、卡力斯、塔隆 | 增加20物攻、10技能加速、以及5物理致命。 |
+| 颱風 | Silver | A | 埃可尚、婕莉、艾希、吉茵珂絲、尤娜拉 | 普攻會朝額外一名目標射出箭矢，造成較低傷害，並附加on hit。 |
+| 雪地踱步 | Silver | A | 翱銳龍獸、艾妮維亞、枷蘿、布蘭德、馬爾札哈 | 造成的緩速效果額外降低100跑速。 |
+| 靈活轉換 | Silver | A | 奈德麗、卡爾瑟斯、逆命、維迦、齊勒斯 | 將額外物攻轉換為魔攻。增加15%魔攻。 |
+| 逃跑計畫 | Silver | B | 辛吉德、歐拉夫、達瑞斯、蒙多醫生、弗拉迪米爾 | 達到35%生命時，獲得大量逐漸衰減的護盾、逐漸衰減的跑速，以及逐漸恢復的縮小效果。 |
+| 飛影跑法 | Silver | B | 派克、歐羅拉、薩科、克黎思妲、姬亞娜 | 使用衝刺、跳躍、閃現或傳送技能或脫離潛行後，增加跑速。 |
+| 又快又穩 | Silver | B | 安比薩、雷玟、卡薩丁、菲歐拉、勒布朗 | 衝刺或閃現後獲得護盾。 |
+| 溫泉加速 | Silver | B | 努努和威朗普、極靈、逆命、梅爾、莉莉亞 | 獲得100%跑速，承受傷害後3秒內會失效。 |
+| 蠻力重擊 | Silver | B | 剛普朗克、葛雷夫、杰西、劫、燼 | 增加20%物攻。 |
+| 腿部訓練日 | Silver | B | 辛吉德、莉莉亞、達瑞斯、赫克林、蓋倫 | 獲得50跑速和40%緩速抗性。 |
+| 來點顏色 | Silver | B | 凱爾、埃可尚、寇格魔、凱莎、貝爾薇斯 | 每四下普攻on hit可額外造成魔法傷害。 |
+| 增益麻吉 | Silver | B | 齊勒斯、希格斯、梅爾、赫威、伊莉絲 | 你獲得力量的餘燼和智慧的餘燼。 |
+| 海洋之魂 | Silver | B | 斯溫、辛吉德、蒙多醫生、索拉卡、伊羅旖 | 獲得海洋之魂，對敵軍造成傷害後可增加大量生命及魔力回復。 |
+| 侵蝕裝甲 | Silver | B | 辛吉德、魔鬥凱薩、斯溫、約瑞科、阿姆姆 | 對敵軍造成傷害可累加一層物理與魔法防禦削弱，持續4秒。 |
+| 升級收藏家 | Silver | B | 亞菲利歐、埃可尚、葵恩、凱特琳、燼 | 以蒐集者的被動效果處決敵軍時，會提升處決門檻並獲得額外金錢。獲得250金錢。 |
+| 急救箱 | Silver | B | 悠咪、索拉卡、索娜、露璐、娜米 | 增加20%治療與護盾強度。 |
+| 升級中婭沙漏 | Silver | C | 凱能、費德提克、麗珊卓、藍寶、魔甘娜 | 將中婭沙漏的冷卻時間縮短至45秒。你現在處於中婭沙漏、探索者護腕或烏莉特的法帽的凝滯狀態時可以移動。獲得250金錢。 |
+| 守護面紗 | Silver | C | 威寇茲、勒布朗、星朵拉、塔莉雅、齊勒斯 | 每30秒獲得一道法術護盾，可阻擋下一個敵方技能。 |
+| 轉換惡作劇 | Silver | C | 剛普朗克、伊澤瑞爾、杰西、史矛德、凱莎 | 將魔攻轉換為額外物攻。增加15%物攻。 |
+| 痛打一頓 | Silver | C | 魔甘娜、拉克絲、極靈、瑟菈紛、珍娜 | 硬控場或禁錮敵軍時，獲得10適性之力。死亡時失去50%。 |
+| 毫髮無傷 | Silver | C | 庫奇、尤娜拉、史矛德、剛普朗克、犽宿 | 你可以根據自身暴擊率進行完美防禦（上限為50%機率），觸發時減少承受的傷害。增加25%暴擊率。 |
+| 惡趣味 | Silver | C | 雷歐娜、銳兒、札克、茂凱、納帝魯斯 | 硬控場或禁錮敵方英雄時使你回復生命。 |
+| 自爆炸彈客 | Silver | C | 卡爾瑟斯、賽恩、墨菲特、努努和威朗普、麗珊卓 | 你陣亡時爆炸，造成大量真實傷害。 |
+| 裂地龍魂 | Silver | C | 布郎姆、蒙多醫生、鄂爾、拉姆斯、史加納 | 獲得裂地龍魂，脫離戰鬥一段時間後可獲得一道護盾。 |
+| 寒霜幽魂 | Silver | C | 布郎姆、史瓦妮、雷歐娜、鄂爾、銳兒 | 每6.5秒自動施放，對鄰近敵軍造成定身效果，持續1.25秒。 |
+| 無敵大絕 | Silver | C | 卡特蓮娜、煞蜜拉、努努和威朗普、凱能、卡薩丁 | 使用大絕後會免疫控場效果3秒(冷卻時間：8秒)。 |
+| 烈焰折磨 | Silver | C | 雷歐娜、阿姆姆、銳兒、茂凱、納帝魯斯 | 硬控場或禁錮敵方英雄時對其施加一項燃燒效果，造成持續傷害，可無限累加。 |
+| 餘音震盪 | Silver | C | 悠咪、索娜、娜米、露璐、索拉卡 | 強化、治療、或賦予友軍護盾時，會對友軍周圍的敵人造成傷害與緩速。 |
+| 意志堅定 | Silver | C | 雷歐娜、銳兒、拉姆斯、史瓦妮、納帝魯斯 | 每次硬控場或禁錮敵軍時，增加雙防。 |
+| 自我毀滅 | Silver | C | 墨菲特、拉姆斯、雷珂煞、布郎姆、薩科 | 每25秒，在自身放置一顆炸彈。炸彈在5秒後爆炸，造成真實傷害並擊飛敵軍。 |
+| 堆層暴龍 | Silver | D | 史矛德、翱銳龍獸、納瑟斯、科加斯、維迦 | 永久獲得技能的堆層時，額外獲得75%！ |
+| 別眨眼 | Silver | D | 莉莉亞、辛吉德、赫克林、努努和威朗普、易大師 | 高出敵軍的跑速越多，造成的傷害越多。 |
+| 一轉就贏 | Silver | D | 蓋倫、莉莉亞、卡特蓮娜、赫克林、慨影 | 旋轉技能增加30技能加速，並額外造成30%傷害！ |
+| 升級獻祭 | Silver | D | 鄂爾、拉姆斯、蒙多醫生、史瓦妮、阿姆姆 | 虛偽光彩和日炎聖盾現在每有一名受到獻祭影響的目標，賦予10金錢。獲得250金錢。 |
+| 刃下狂風 | Silver | D | 派克、塔隆、卡力斯、杰西、伊芙琳 | 物理穿透和魔法穿透越高，跑速越快。 |
+| 巨大盾牌 | Silver | D | 黛安娜、雷玟、魔鬥凱薩、安比薩、李星 | 獲得護盾時，增加適性之力，持續3秒(冷卻時間5秒)。 |
+| 活力補給 | Silver | D | 燼、凱特琳、姍娜、葵恩、史矛德 | 若當前目標非上次的目標，你的充能普攻會完全返還充能。充能普攻可造成額外傷害。 |
+| 閃光彈 | Silver | D | 伊芙琳、卡蜜兒、李星、黛安娜、塔隆 | 閃現導致爆炸，會造成傷害並緩速。閃現會於每次死亡時重置。 |
+| 二次閃現 | Silver | D | 凱能、安妮、妮可、布里茨、墨菲特 | 獲得第二次閃現召喚師技能和70召喚師技能加速。 |
+| 反重力裝置 | Silver | D | 睿娜妲‧格萊斯克、威寇茲、娜米、漢默丁格、珍娜 | 生命低於35%時，擊退鄰近敵軍並使其緩速90%。 |
+| 搗蛋鬼 | Silver | D | 辛吉德、歐拉夫、達瑞斯、弗拉迪米爾、維克特 | 獲得召喚師技能「搗蛋鬼」。「搗蛋鬼」可施放召喚師技能「光盾」和「鬼步」。 |
 
 ## Bug / 坑點與翻譯雷區
 

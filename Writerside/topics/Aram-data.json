@@ -14,2336 +14,2193 @@
     "blitz": {
       "url": "https://blitz.gg/lol/aram-mayhem-augments",
       "augment_count": 156,
-      "last_updated": "2025-12-04"
+      "last_updated": "2025-12-04",
+      "language": "zh-TW"
     }
   },
   "augments_summary": [
     {
-      "augment_name_zh": "基本功",
-      "augment_name_en": "Back To Basics",
+      "augment_name_zh": "巨人殺手",
       "rarity": "Prismatic",
+      "tier": "S",
       "strong_for": [
-        "雷茲",
-        "剛普拉克"
+        "剛普朗克",
+        "莉莉亞",
+        "婕莉",
+        "燼",
+        "杰西"
       ],
-      "summary": "大幅提升 Q/W/E 技能輸出，在吃技能係數的英雄身上上限極高。",
-      "bugs": [
-        "剛普拉克桶子會疊加增傷，使 3 連桶 > 2 連 > 單桶，接近 Bug 級互動。"
-      ]
+      "summary": "體型變小，增加跑速，並根據目標英雄與你的體型差距造成額外傷害。",
+      "bugs": []
     },
     {
-      "augment_name_zh": "死亡循環",
-      "augment_name_en": "Circle of Death",
+      "augment_name_zh": "靈光一閃",
       "rarity": "Prismatic",
+      "tier": "S",
       "strong_for": [
-        "札克",
-        "蒙多",
-        "高自療坦克"
+        "維迦",
+        "星朵拉",
+        "極靈",
+        "雷茲",
+        "維克特"
       ],
-      "summary": "將自身治療量的一部分轉為範圍傷害，對高自療坦克來說可同時拉高坦度與輸出。",
+      "summary": "增加相當於30%魔攻的技能加速。",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "煉獄使者",
+      "rarity": "Prismatic",
+      "tier": "S",
+      "strong_for": [
+        "布蘭德",
+        "馬爾札哈",
+        "枷蘿",
+        "翱銳龍獸",
+        "莉莉亞"
+      ],
+      "summary": "你的技能會造成可累加的燃燒，此效果會持續造成傷害。自身造成的燃燒效果可降低基礎技能冷卻時間。",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "巨人",
+      "rarity": "Prismatic",
+      "tier": "S",
+      "strong_for": [
+        "蒙多醫生",
+        "鄂爾",
+        "布郎姆",
+        "史瓦妮",
+        "拉姆斯"
+      ],
+      "summary": "體型變大，增加35%生命及15%適性之力。",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "寶石手套",
+      "rarity": "Prismatic",
+      "tier": "S",
+      "strong_for": [
+        "杰西",
+        "柔依",
+        "雷茲",
+        "剛普朗克",
+        "卡爾瑟斯"
+      ],
+      "summary": "技能可以暴擊。增加25%暴擊率。",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "雙刀流",
+      "rarity": "Prismatic",
+      "tier": "A",
+      "strong_for": [
+        "埃可尚",
+        "汎",
+        "吉茵珂絲",
+        "艾希",
+        "崔絲塔娜"
+      ],
+      "summary": "普攻會射出第二發箭矢，施加on hit但威力減弱。增加20%總攻速。",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "最終型態",
+      "rarity": "Prismatic",
+      "tier": "A",
+      "strong_for": [
+        "厄薩斯",
+        "卡薩丁",
+        "歐拉夫",
+        "娜菲芮",
+        "煞蜜拉"
+      ],
+      "summary": "施放大絕後，獲得最大生命護盾、全能吸血以及跑速，持續10秒。",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "頂狙武器",
+      "rarity": "Prismatic",
+      "tier": "A",
+      "strong_for": [
+        "凱特琳",
+        "吉茵珂絲",
+        "燼",
+        "崔絲塔娜",
+        "亞菲利歐"
+      ],
+      "summary": "增加250攻擊距離，遠攻英雄則減至150。",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "輕舞飛揚",
+      "rarity": "Prismatic",
+      "tier": "A",
+      "strong_for": [
+        "婕莉",
+        "吉茵珂絲",
+        "克黎思妲",
+        "艾希",
+        "希維爾"
+      ],
+      "summary": "普攻可增加跑速。根據跑速獲得攻速。",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "戰爭交響曲",
+      "rarity": "Prismatic",
+      "tier": "A",
+      "strong_for": [
+        "婕莉",
+        "亞菲利歐",
+        "犽宿",
+        "犽凝",
+        "薩亨"
+      ],
+      "summary": "獲得致命節奏與征服者關鍵符文。",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "任務：烏莉特的法帽",
+      "rarity": "Prismatic",
+      "tier": "B",
+      "strong_for": [
+        "維迦",
+        "柔依",
+        "麗珊卓",
+        "星朵拉",
+        "維克特"
+      ],
+      "summary": "立即：獲得巨型魔棒。資格：擁有死亡之帽和中婭沙漏。獎勵：獲得烏莉特的法帽",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "全能之魂",
+      "rarity": "Prismatic",
+      "tier": "B",
+      "strong_for": [
+        "約瑞科",
+        "伊莉絲",
+        "杰西",
+        "剛普朗克",
+        "希瓦娜"
+      ],
+      "summary": "獲得3個隨機龍魂。",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "小丑學院",
+      "rarity": "Prismatic",
+      "tier": "B",
+      "strong_for": [
+        "卡力斯",
+        "塔隆",
+        "薩科",
+        "姬亞娜",
+        "劫"
+      ],
+      "summary": "獲得「欺詐魔術」召喚師技能。獲得「背刺」被動技能。死亡時生成一個會爆炸的盒子，對鄰近敵軍造成大量真實傷害和恐懼效果。",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "質變：大混亂",
+      "rarity": "Prismatic",
+      "tier": "B",
+      "strong_for": [
+        "約瑞科",
+        "杰西",
+        "雷珂煞",
+        "蓋倫",
+        "剛普朗克"
+      ],
+      "summary": "獲得2件隨機增幅裝置。",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "細煮慢燉",
+      "rarity": "Prismatic",
+      "tier": "B",
+      "strong_for": [
+        "鄂爾",
+        "拉姆斯",
+        "史瓦妮",
+        "布郎姆",
+        "雷歐娜"
+      ],
+      "summary": "每秒對鄰近敵方英雄附加可無限累加的燃燒，傷害隨你的最大生命成長。",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "殘忍",
+      "rarity": "Prismatic",
+      "tier": "B",
+      "strong_for": [
+        "銳兒",
+        "麗珊卓",
+        "雷歐娜",
+        "加里歐",
+        "亞歷斯塔"
+      ],
+      "summary": "當你硬控場或禁錮英雄時，召喚一顆於短暫延遲後墜落的彗星，在範圍內造成魔法傷害。",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "衝鋒",
+      "rarity": "Prismatic",
+      "tier": "B",
+      "strong_for": [
+        "雷玟",
+        "飛斯",
+        "慨影",
+        "姬亞娜",
+        "派克"
+      ],
+      "summary": "施放衝刺、跳躍、閃現或傳送技能會獲得175技能加速。",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "大絕覺醒",
+      "rarity": "Prismatic",
+      "tier": "B",
+      "strong_for": [
+        "睿娜妲‧格萊斯克",
+        "劫",
+        "塔隆",
+        "提摩",
+        "拉克絲"
+      ],
+      "summary": "增加30大絕加速。施放大絕後，重置基礎技能並增加300基礎技能加速，持續15秒(冷卻時間20秒)。",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "旋風鎚",
+      "rarity": "Prismatic",
+      "tier": "B",
+      "strong_for": [
+        "埃可尚",
+        "凱特琳",
+        "燼",
+        "汎",
+        "葵恩"
+      ],
+      "summary": "普攻會射出5額外閃電，這些閃電的傷害量會隨距離增加。每個方向的冷卻時間各不相同。",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "終極革新",
+      "rarity": "Prismatic",
+      "tier": "B",
+      "strong_for": [
+        "卡爾瑟斯",
+        "墨菲特",
+        "睿娜妲‧格萊斯克",
+        "藍寶",
+        "阿姆姆"
+      ],
+      "summary": "在施放大絕後重置其冷卻時間。(冷卻時間：75秒，或在死亡時重置)",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "彈幕神童",
+      "rarity": "Prismatic",
+      "tier": "B",
+      "strong_for": [
+        "杰西",
+        "齊勒斯",
+        "奈德麗",
+        "希格斯",
+        "伊澤瑞爾"
+      ],
+      "summary": "從遠處對敵方英雄造成傷害後，向對方發射精準彈幕。",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "祕術拳擊",
+      "rarity": "Prismatic",
+      "tier": "B",
+      "strong_for": [
+        "赫克林",
+        "易大師",
+        "賈克斯",
+        "伊澤瑞爾",
+        "薩亨"
+      ],
+      "summary": "on hit時縮短基礎技能20%剩餘的冷卻時間。",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "瘋狂科學家",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "strong_for": [
+        "辛吉德",
+        "貪啃奇",
+        "赫克林",
+        "蓋倫",
+        "賽特"
+      ],
+      "summary": "每次復活時，體型變大(增加適性之力及生命)或變小(增加技能加速及跑速)。",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "深割",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "strong_for": [
+        "拉姆斯",
+        "特朗德",
+        "貝爾薇斯",
+        "蓋倫",
+        "歐拉夫"
+      ],
+      "summary": "增加50%攻速。命中時造成真實傷害，傷害隨物防增加。",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "大地覺醒",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "strong_for": [
+        "安比薩",
+        "雷玟",
+        "李星",
+        "派克",
+        "卡薩丁"
+      ],
+      "summary": "施放衝刺、閃現或傳送技能後會留下軌跡，軌跡會在0.75秒後引爆。",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "不祥契約",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "strong_for": [
+        "弗拉迪米爾",
+        "辛吉德",
+        "莉莉亞",
+        "斯溫",
+        "雷茲"
+      ],
+      "summary": "根據已損失生命獲得魔攻、跑速，以及全能吸血，每次施放技能都會受到傷害。",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "巨像之勇氣",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "strong_for": [
+        "雷歐娜",
+        "銳兒",
+        "史瓦妮",
+        "納帝魯斯",
+        "加里歐"
+      ],
+      "summary": "在硬控場或禁錮敵方英雄後獲得護盾。",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "劍舞之心",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "strong_for": [
+        "菲歐拉",
+        "蓋倫",
+        "夜曲",
+        "李星",
+        "卡蜜兒"
+      ],
+      "summary": "獲得召喚師技能華爾茲劍舞。",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "地獄三頭犬",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "strong_for": [
+        "達瑞文",
+        "夜曲",
+        "葵恩",
+        "埃可尚",
+        "崔絲塔娜"
+      ],
+      "summary": "獲得刀鋒之雹及強攻關鍵符文。",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "妖精魔法",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "strong_for": [
+        "艾妮維亞",
+        "卡特蓮娜",
+        "費德提克",
+        "凱能",
+        "煞蜜拉"
+      ],
+      "summary": "使用大絕造成傷害會變形敵軍幾秒。",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "蛋白飲",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "strong_for": [
+        "蒙多醫生",
+        "卡桑帝",
+        "札克",
+        "塔里克",
+        "貪啃奇"
+      ],
+      "summary": "根據額外物防和魔防，增加治療量和護盾量。",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "碰不到的",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "strong_for": [
+        "煞蜜拉",
+        "卡特蓮娜",
+        "卡薩丁",
+        "凱能",
+        "努努和威朗普"
+      ],
+      "summary": "施放大絕時，進入無敵狀態，持續一小段時間。",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "量子計算",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "strong_for": [
+        "卡蜜兒",
+        "波比",
+        "雷珂煞",
+        "嘉文四世",
+        "史加納"
+      ],
+      "summary": "定期自動施放一次大範圍斬擊。敵軍遭命中時會緩速，額外承受最大生命傷害，並讓你回復生命。",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "雙修大師",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "strong_for": [
+        "伊澤瑞爾",
+        "凱爾",
+        "凱莎",
+        "巴德",
+        "逆命"
+      ],
+      "summary": "普攻可累加魔攻，技能則可增加物攻。",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "玻璃大砲",
+      "rarity": "Prismatic",
+      "tier": "C",
+      "strong_for": [
+        "卡爾瑟斯",
+        "剛普朗克",
+        "杰西",
+        "齊勒斯",
+        "柔依"
+      ],
+      "summary": "降低最大生命30%。額外造成15%的真實傷害。",
       "bugs": []
     },
     {
       "augment_name_zh": "拔劍吧",
-      "augment_name_en": "Draw Your Sword",
       "rarity": "Prismatic",
+      "tier": "D",
       "strong_for": [
+        "葛雷夫",
         "煞蜜拉",
-        "願意改打近戰的射手"
+        "烏爾加特",
+        "伊澤瑞爾",
+        "庫奇"
       ],
-      "summary": "將射手轉為近戰，依照放棄射程給予 AD / 攻速 / 血量 / 吸血 / 移速加成，適合敢進場的近戰輸出型射手。",
+      "summary": "變為近戰並增加物攻、生命、攻速、吸血以及跑速(成長幅度取決於你犧牲的距離)。",
       "bugs": []
     },
     {
-      "augment_name_zh": "Omni Soul",
-      "augment_name_en": "Omni Soul",
+      "augment_name_zh": "基本功夫",
       "rarity": "Prismatic",
+      "tier": "D",
       "strong_for": [
         "雷茲",
-        "持續作戰型法師",
-        "需要拖後期的陣容"
+        "塔莉雅",
+        "剛普朗克",
+        "逆命",
+        "潘森"
       ],
-      "summary": "一次取得多種龍魂被動，整體提升輸出、續戰與坦度，適合節奏偏長且需要全方位強化的陣容。",
+      "summary": "增加技能傷害、治療、護盾，並獲得技能加速，但無法使用大絕。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Giant Slayer",
-      "rarity": "Prismatic",
-      "tier": "S",
-      "strong_for": [
-        "Gangplank",
-        "Lillia",
-        "Zeri",
-        "Jhin",
-        "Jayce"
-      ],
-      "summary": "Blitz Tier S - 推薦英雄: Gangplank, Lillia, Zeri",
-      "bugs": []
-    },
-    {
-      "augment_name_zh": "",
-      "augment_name_en": "Eureka",
-      "rarity": "Prismatic",
-      "tier": "S",
-      "strong_for": [
-        "Veigar",
-        "Syndra",
-        "Zilean",
-        "Ryze",
-        "Viktor"
-      ],
-      "summary": "Blitz Tier S - 推薦英雄: Veigar, Syndra, Zilean",
-      "bugs": []
-    },
-    {
-      "augment_name_zh": "",
-      "augment_name_en": "Infernal Conduit",
-      "rarity": "Prismatic",
-      "tier": "S",
-      "strong_for": [
-        "Brand",
-        "Malzahar",
-        "Zyra",
-        "AurelionSol",
-        "Lillia"
-      ],
-      "summary": "Blitz Tier S - 推薦英雄: Brand, Malzahar, Zyra",
-      "bugs": []
-    },
-    {
-      "augment_name_zh": "",
-      "augment_name_en": "Goliath",
-      "rarity": "Prismatic",
-      "tier": "S",
-      "strong_for": [
-        "DrMundo",
-        "Ornn",
-        "Braum",
-        "Sejuani",
-        "Rammus"
-      ],
-      "summary": "Blitz Tier S - 推薦英雄: DrMundo, Ornn, Braum",
-      "bugs": []
-    },
-    {
-      "augment_name_zh": "",
-      "augment_name_en": "Jeweled Gauntlet",
-      "rarity": "Prismatic",
-      "tier": "S",
-      "strong_for": [
-        "Jayce",
-        "Zoe",
-        "Ryze",
-        "Gangplank",
-        "Karthus"
-      ],
-      "summary": "Blitz Tier S - 推薦英雄: Jayce, Zoe, Ryze",
-      "bugs": []
-    },
-    {
-      "augment_name_zh": "",
-      "augment_name_en": "Dual Wield",
-      "rarity": "Prismatic",
-      "tier": "A",
-      "strong_for": [
-        "Akshan",
-        "Vayne",
-        "Jinx",
-        "Ashe",
-        "Tristana"
-      ],
-      "summary": "Blitz Tier A - 推薦英雄: Akshan, Vayne, Jinx",
-      "bugs": []
-    },
-    {
-      "augment_name_zh": "",
-      "augment_name_en": "Final Form",
-      "rarity": "Prismatic",
-      "tier": "A",
-      "strong_for": [
-        "Aatrox",
-        "Kassadin",
-        "Olaf",
-        "Naafiri",
-        "Samira"
-      ],
-      "summary": "Blitz Tier A - 推薦英雄: Aatrox, Kassadin, Olaf",
-      "bugs": []
-    },
-    {
-      "augment_name_zh": "",
-      "augment_name_en": "Scopiest Weapons",
-      "rarity": "Prismatic",
-      "tier": "A",
-      "strong_for": [
-        "Caitlyn",
-        "Jinx",
-        "Jhin",
-        "Tristana",
-        "Aphelios"
-      ],
-      "summary": "Blitz Tier A - 推薦英雄: Caitlyn, Jinx, Jhin",
-      "bugs": []
-    },
-    {
-      "augment_name_zh": "",
-      "augment_name_en": "Tap Dancer",
-      "rarity": "Prismatic",
-      "tier": "A",
-      "strong_for": [
-        "Zeri",
-        "Jinx",
-        "Kalista",
-        "Ashe",
-        "Sivir"
-      ],
-      "summary": "Blitz Tier A - 推薦英雄: Zeri, Jinx, Kalista",
-      "bugs": []
-    },
-    {
-      "augment_name_zh": "",
-      "augment_name_en": "Symphony of War",
-      "rarity": "Prismatic",
-      "tier": "A",
-      "strong_for": [
-        "Zeri",
-        "Aphelios",
-        "Yasuo",
-        "Yone",
-        "Zaahen"
-      ],
-      "summary": "Blitz Tier A - 推薦英雄: Zeri, Aphelios, Yasuo",
-      "bugs": []
-    },
-    {
-      "augment_name_zh": "",
-      "augment_name_en": "Quest: Wooglet's Witchcap",
-      "rarity": "Prismatic",
-      "tier": "B",
-      "strong_for": [
-        "Veigar",
-        "Zoe",
-        "Lissandra",
-        "Syndra",
-        "Viktor"
-      ],
-      "summary": "Blitz Tier B - 推薦英雄: Veigar, Zoe, Lissandra",
-      "bugs": []
-    },
-    {
-      "augment_name_zh": "",
-      "augment_name_en": "Clown College",
-      "rarity": "Prismatic",
-      "tier": "B",
-      "strong_for": [
-        "Khazix",
-        "Talon",
-        "Shaco",
-        "Qiyana",
-        "Zed"
-      ],
-      "summary": "Blitz Tier B - 推薦英雄: Khazix, Talon, Shaco",
-      "bugs": []
-    },
-    {
-      "augment_name_zh": "",
-      "augment_name_en": "Transmute: Chaos",
-      "rarity": "Prismatic",
-      "tier": "B",
-      "strong_for": [
-        "Yorick",
-        "Jayce",
-        "RekSai",
-        "Garen",
-        "Gangplank"
-      ],
-      "summary": "Blitz Tier B - 推薦英雄: Yorick, Jayce, RekSai",
-      "bugs": []
-    },
-    {
-      "augment_name_zh": "",
-      "augment_name_en": "Slow Cooker",
-      "rarity": "Prismatic",
-      "tier": "B",
-      "strong_for": [
-        "Ornn",
-        "Rammus",
-        "Sejuani",
-        "Braum",
-        "Leona"
-      ],
-      "summary": "Blitz Tier B - 推薦英雄: Ornn, Rammus, Sejuani",
-      "bugs": []
-    },
-    {
-      "augment_name_zh": "",
-      "augment_name_en": "Cruelty",
-      "rarity": "Prismatic",
-      "tier": "B",
-      "strong_for": [
-        "Rell",
-        "Lissandra",
-        "Leona",
-        "Galio",
-        "Alistar"
-      ],
-      "summary": "Blitz Tier B - 推薦英雄: Rell, Lissandra, Leona",
-      "bugs": []
-    },
-    {
-      "augment_name_zh": "",
-      "augment_name_en": "Dashing",
-      "rarity": "Prismatic",
-      "tier": "B",
-      "strong_for": [
-        "Riven",
-        "Fizz",
-        "Kayn",
-        "Qiyana",
-        "Pyke"
-      ],
-      "summary": "Blitz Tier B - 推薦英雄: Riven, Fizz, Kayn",
-      "bugs": []
-    },
-    {
-      "augment_name_zh": "",
-      "augment_name_en": "Ultimate Awakening",
-      "rarity": "Prismatic",
-      "tier": "B",
-      "strong_for": [
-        "Renata",
-        "Zed",
-        "Talon",
-        "Teemo",
-        "Lux"
-      ],
-      "summary": "Blitz Tier B - 推薦英雄: Renata, Zed, Talon",
-      "bugs": []
-    },
-    {
-      "augment_name_zh": "",
-      "augment_name_en": "Fan The Hammer",
-      "rarity": "Prismatic",
-      "tier": "B",
-      "strong_for": [
-        "Akshan",
-        "Caitlyn",
-        "Jhin",
-        "Vayne",
-        "Quinn"
-      ],
-      "summary": "Blitz Tier B - 推薦英雄: Akshan, Caitlyn, Jhin",
-      "bugs": []
-    },
-    {
-      "augment_name_zh": "",
-      "augment_name_en": "Ultimate Revolution",
-      "rarity": "Prismatic",
-      "tier": "B",
-      "strong_for": [
-        "Karthus",
-        "Malphite",
-        "Renata",
-        "Rumble",
-        "Amumu"
-      ],
-      "summary": "Blitz Tier B - 推薦英雄: Karthus, Malphite, Renata",
-      "bugs": []
-    },
-    {
-      "augment_name_zh": "",
-      "augment_name_en": "Trueshot Prodigy",
-      "rarity": "Prismatic",
-      "tier": "B",
-      "strong_for": [
-        "Jayce",
-        "Xerath",
-        "Nidalee",
-        "Ziggs",
-        "Ezreal"
-      ],
-      "summary": "Blitz Tier B - 推薦英雄: Jayce, Xerath, Nidalee",
-      "bugs": []
-    },
-    {
-      "augment_name_zh": "",
-      "augment_name_en": "Mystic Punch",
-      "rarity": "Prismatic",
-      "tier": "B",
-      "strong_for": [
-        "Hecarim",
-        "MasterYi",
-        "Jax",
-        "Ezreal",
-        "Zaahen"
-      ],
-      "summary": "Blitz Tier B - 推薦英雄: Hecarim, MasterYi, Jax",
-      "bugs": []
-    },
-    {
-      "augment_name_zh": "",
-      "augment_name_en": "Mad Scientist",
-      "rarity": "Prismatic",
-      "tier": "C",
-      "strong_for": [
-        "Singed",
-        "TahmKench",
-        "Hecarim",
-        "Garen",
-        "Sett"
-      ],
-      "summary": "Blitz Tier C - 推薦英雄: Singed, TahmKench, Hecarim",
-      "bugs": []
-    },
-    {
-      "augment_name_zh": "",
-      "augment_name_en": "Gash",
-      "rarity": "Prismatic",
-      "tier": "C",
-      "strong_for": [
-        "Rammus",
-        "Trundle",
-        "Belveth",
-        "Garen",
-        "Olaf"
-      ],
-      "summary": "Blitz Tier C - 推薦英雄: Rammus, Trundle, Belveth",
-      "bugs": []
-    },
-    {
-      "augment_name_zh": "",
-      "augment_name_en": "Earthwake",
-      "rarity": "Prismatic",
-      "tier": "C",
-      "strong_for": [
-        "Ambessa",
-        "Riven",
-        "LeeSin",
-        "Pyke",
-        "Kassadin"
-      ],
-      "summary": "Blitz Tier C - 推薦英雄: Ambessa, Riven, LeeSin",
-      "bugs": []
-    },
-    {
-      "augment_name_zh": "",
-      "augment_name_en": "Ominous Pact",
-      "rarity": "Prismatic",
-      "tier": "C",
-      "strong_for": [
-        "Vladimir",
-        "Singed",
-        "Lillia",
-        "Swain",
-        "Ryze"
-      ],
-      "summary": "Blitz Tier C - 推薦英雄: Vladimir, Singed, Lillia",
-      "bugs": []
-    },
-    {
-      "augment_name_zh": "",
-      "augment_name_en": "Courage of the Colossus",
-      "rarity": "Prismatic",
-      "tier": "C",
-      "strong_for": [
-        "Leona",
-        "Rell",
-        "Sejuani",
-        "Nautilus",
-        "Galio"
-      ],
-      "summary": "Blitz Tier C - 推薦英雄: Leona, Rell, Sejuani",
-      "bugs": []
-    },
-    {
-      "augment_name_zh": "",
-      "augment_name_en": "Blade Waltz",
-      "rarity": "Prismatic",
-      "tier": "C",
-      "strong_for": [
-        "Fiora",
-        "Garen",
-        "Nocturne",
-        "LeeSin",
-        "Camille"
-      ],
-      "summary": "Blitz Tier C - 推薦英雄: Fiora, Garen, Nocturne",
-      "bugs": []
-    },
-    {
-      "augment_name_zh": "",
-      "augment_name_en": "Cerberus",
-      "rarity": "Prismatic",
-      "tier": "C",
-      "strong_for": [
-        "Draven",
-        "Nocturne",
-        "Quinn",
-        "Akshan",
-        "Tristana"
-      ],
-      "summary": "Blitz Tier C - 推薦英雄: Draven, Nocturne, Quinn",
-      "bugs": []
-    },
-    {
-      "augment_name_zh": "",
-      "augment_name_en": "Fey Magic",
-      "rarity": "Prismatic",
-      "tier": "C",
-      "strong_for": [
-        "Anivia",
-        "Katarina",
-        "Fiddlesticks",
-        "Kennen",
-        "Samira"
-      ],
-      "summary": "Blitz Tier C - 推薦英雄: Anivia, Katarina, Fiddlesticks",
-      "bugs": []
-    },
-    {
-      "augment_name_zh": "",
-      "augment_name_en": "Protein Shake",
-      "rarity": "Prismatic",
-      "tier": "C",
-      "strong_for": [
-        "DrMundo",
-        "KSante",
-        "Zac",
-        "Taric",
-        "TahmKench"
-      ],
-      "summary": "Blitz Tier C - 推薦英雄: DrMundo, KSante, Zac",
-      "bugs": []
-    },
-    {
-      "augment_name_zh": "",
-      "augment_name_en": "Cant Touch This",
-      "rarity": "Prismatic",
-      "tier": "C",
-      "strong_for": [
-        "Samira",
-        "Katarina",
-        "Kassadin",
-        "Kennen",
-        "Nunu"
-      ],
-      "summary": "Blitz Tier C - 推薦英雄: Samira, Katarina, Kassadin",
-      "bugs": []
-    },
-    {
-      "augment_name_zh": "",
-      "augment_name_en": "Quantum Computing",
-      "rarity": "Prismatic",
-      "tier": "C",
-      "strong_for": [
-        "Camille",
-        "Poppy",
-        "RekSai",
-        "JarvanIV",
-        "Skarner"
-      ],
-      "summary": "Blitz Tier C - 推薦英雄: Camille, Poppy, RekSai",
-      "bugs": []
-    },
-    {
-      "augment_name_zh": "",
-      "augment_name_en": "Master of Duality",
-      "rarity": "Prismatic",
-      "tier": "C",
-      "strong_for": [
-        "Ezreal",
-        "Kayle",
-        "Kaisa",
-        "Bard",
-        "TwistedFate"
-      ],
-      "summary": "Blitz Tier C - 推薦英雄: Ezreal, Kayle, Kaisa",
-      "bugs": []
-    },
-    {
-      "augment_name_zh": "",
-      "augment_name_en": "Glass Cannon",
-      "rarity": "Prismatic",
-      "tier": "C",
-      "strong_for": [
-        "Karthus",
-        "Gangplank",
-        "Jayce",
-        "Xerath",
-        "Zoe"
-      ],
-      "summary": "Blitz Tier C - 推薦英雄: Karthus, Gangplank, Jayce",
-      "bugs": []
-    },
-    {
-      "augment_name_zh": "",
-      "augment_name_en": "Upgrade Mikael's Blessing",
+      "augment_name_zh": "升級米凱的祝福",
       "rarity": "Prismatic",
       "tier": "D",
       "strong_for": [
-        "Yuumi",
-        "Lulu",
-        "Soraka",
-        "Renata",
-        "Ivern"
+        "悠咪",
+        "露璐",
+        "索拉卡",
+        "睿娜妲‧格萊斯克",
+        "埃爾文"
       ],
-      "summary": "Blitz Tier D - 推薦英雄: Yuumi, Lulu, Soraka",
+      "summary": "獲得米凱的祝福。米凱的祝福冷卻時間降至45秒。道具發動時，可淨化限制與硬控場效果，並治療範圍內的友軍。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Windspeaker's Blessing",
+      "augment_name_zh": "風語者的祝福",
       "rarity": "Prismatic",
       "tier": "D",
       "strong_for": [
-        "Soraka",
-        "Ivern",
-        "Yuumi",
-        "Lulu",
-        "Sona"
+        "索拉卡",
+        "埃爾文",
+        "悠咪",
+        "露璐",
+        "索娜"
       ],
-      "summary": "Blitz Tier D - 推薦英雄: Soraka, Ivern, Yuumi",
+      "summary": "治療與護盾效果同時會增加目標的物理防禦與魔法防禦3秒。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Quest: Urf's Champion",
+      "augment_name_zh": "任務：阿福英雄",
       "rarity": "Prismatic",
       "tier": "D",
       "strong_for": [
-        "Camille",
-        "Darius",
-        "Jayce",
-        "Yorick",
-        "Khazix"
+        "卡蜜兒",
+        "達瑞斯",
+        "杰西",
+        "約瑞科",
+        "卡力斯"
       ],
-      "summary": "Blitz Tier D - 推薦英雄: Camille, Darius, Jayce",
+      "summary": "條件：參與擊殺18次。獎勵：黃金鍋鏟",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "King Me",
+      "augment_name_zh": "封我為王",
       "rarity": "Prismatic",
       "tier": "D",
       "strong_for": [
-        "Pyke",
-        "Khazix",
-        "Sion",
-        "TwistedFate",
-        "Pantheon"
+        "派克",
+        "卡力斯",
+        "賽恩",
+        "逆命",
+        "潘森"
       ],
-      "summary": "Blitz Tier D - 推薦英雄: Pyke, Khazix, Sion",
+      "summary": "首次使用傳說道具傳送敵軍後，你將加冕為王、升級道具，並獲得一件隨機稜鏡增幅裝置。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Feel the Burn",
+      "augment_name_zh": "死亡循環",
       "rarity": "Prismatic",
       "tier": "D",
       "strong_for": [
-        "Renata",
-        "Yuumi",
-        "Lulu",
-        "Zilean",
-        "Ivern"
+        "札克",
+        "斯溫",
+        "索拉卡",
+        "弗拉迪米爾",
+        "索娜"
       ],
-      "summary": "Blitz Tier D - 推薦英雄: Renata, Yuumi, Lulu",
+      "summary": "你施展的治療和生命回復也會對最靠近的敵方英雄造成魔法傷害。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Goldrend",
+      "augment_name_zh": "燒起來吧",
       "rarity": "Prismatic",
       "tier": "D",
       "strong_for": [
-        "TwistedFate",
-        "Taliyah",
-        "Gangplank",
-        "Ezreal",
-        "Smolder"
+        "睿娜妲‧格萊斯克",
+        "悠咪",
+        "露璐",
+        "極靈",
+        "埃爾文"
       ],
-      "summary": "Blitz Tier D - 推薦英雄: TwistedFate, Taliyah, Gangplank",
+      "summary": "獲得感受灼燒召喚師技能。施放感受灼燒後，對所有鄰近敵方英雄施放點燃及虛弱。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Biggest Snowball Ever",
+      "augment_name_zh": "黃金撕裂",
       "rarity": "Prismatic",
       "tier": "D",
       "strong_for": [
-        "Nunu",
-        "Poppy",
-        "Neeko",
-        "Blitzcrank",
-        "Skarner"
+        "逆命",
+        "塔莉雅",
+        "剛普朗克",
+        "伊澤瑞爾",
+        "史矛德"
       ],
-      "summary": "Blitz Tier D - 推薦英雄: Nunu, Poppy, Neeko",
+      "summary": "以普攻或技能傷害英雄時造成額外魔法傷害，獲得金錢和跑速。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Orbital Laser",
+      "augment_name_zh": "巨無霸雪球",
       "rarity": "Prismatic",
       "tier": "D",
       "strong_for": [
-        "Zilean",
-        "Bard",
-        "AurelionSol",
-        "Renata",
-        "Anivia"
+        "努努和威朗普",
+        "波比",
+        "妮可",
+        "布里茨",
+        "史加納"
       ],
-      "summary": "Blitz Tier D - 推薦英雄: Zilean, Bard, AurelionSol",
+      "summary": "雪球增加100技能加速。你的雪球超大且會穿過士兵。雪球會緩速、擊飛英雄並造成額外傷害。若你沒有雪球就會獲得一顆雪球。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "I'm a Baby Kitty Where is Mama",
+      "augment_name_zh": "衛星雷射炮",
       "rarity": "Prismatic",
       "tier": "D",
       "strong_for": [
-        "Yuumi",
-        "Soraka",
-        "Lulu",
-        "Nami",
-        "Milio"
+        "極靈",
+        "巴德",
+        "翱銳龍獸",
+        "睿娜妲‧格萊斯克",
+        "艾妮維亞"
       ],
-      "summary": "Blitz Tier D - 推薦英雄: Yuumi, Soraka, Lulu",
+      "summary": "獲得衛星雷射炮召喚師技能。在短暫延遲後，發射衛星雷射炮，造成25%最大生命的真實傷害。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Snowball Roulette",
+      "augment_name_zh": "我是小貓咪媽咪在哪裡",
       "rarity": "Prismatic",
       "tier": "D",
       "strong_for": [
-        "Neeko",
-        "Nunu",
-        "Poppy",
-        "Braum",
-        "Udyr"
+        "悠咪",
+        "索拉卡",
+        "露璐",
+        "娜米",
+        "米里歐"
       ],
-      "summary": "Blitz Tier D - 推薦英雄: Neeko, Nunu, Poppy",
+      "summary": "站在友軍旁會將其標記為媽媽。向媽媽移動時會增加跑速。接近媽媽時增加跑速以及治療量和護盾量。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Empyrean Promise",
+      "augment_name_zh": "雪球輪盤",
       "rarity": "Prismatic",
       "tier": "D",
       "strong_for": [
-        "Soraka",
-        "Nami",
-        "Sona",
-        "Lulu",
-        "Milio"
+        "妮可",
+        "努努和威朗普",
+        "波比",
+        "布郎姆",
+        "烏迪爾"
       ],
-      "summary": "Blitz Tier D - 推薦英雄: Soraka, Nami, Sona",
+      "summary": "雪球獲得100技能加速。命中敵軍後，對自己隨機施放一個有益的召喚師技能，並對目標隨機施放一個有害的召喚師技能。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Laser Heal",
+      "augment_name_zh": "幻焰之誓",
       "rarity": "Prismatic",
       "tier": "D",
       "strong_for": [
-        "Yuumi",
-        "Soraka",
-        "Janna",
-        "Ivern",
-        "Renata"
+        "索拉卡",
+        "娜米",
+        "索娜",
+        "露璐",
+        "米里歐"
       ],
-      "summary": "Blitz Tier D - 推薦英雄: Yuumi, Soraka, Janna",
+      "summary": "增加15%治療量和護盾量。獲得幻焰之誓召喚師技能。全神貫注傳送到友軍身旁，抵達時獲得護盾，持續3秒。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Pandora's Box",
+      "augment_name_zh": "雷射治療",
       "rarity": "Prismatic",
       "tier": "D",
       "strong_for": [
-        "Talon",
-        "Khazix",
-        "Pyke",
-        "Qiyana",
-        "Zed"
+        "悠咪",
+        "索拉卡",
+        "珍娜",
+        "埃爾文",
+        "睿娜妲‧格萊斯克"
       ],
-      "summary": "Blitz Tier D - 推薦英雄: Talon, Khazix, Pyke",
+      "summary": "施放持續2.5秒的治療雷射，為友軍回復生命、對敵軍造成魔法傷害和緩速效果。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Transmute: Prismatic",
+      "augment_name_zh": "潘朵拉的寶盒",
+      "rarity": "Prismatic",
+      "tier": "D",
+      "strong_for": [
+        "塔隆",
+        "卡力斯",
+        "派克",
+        "姬亞娜",
+        "劫"
+      ],
+      "summary": "將所有的增幅裝置物轉化為隨機稜鏡增幅裝置。",
+      "bugs": []
+    },
+    {
+      "augment_name_zh": "質變：稜鏡",
       "rarity": "Gold",
       "tier": "S",
       "strong_for": [
-        "AurelionSol",
-        "Karthus",
-        "Singed",
-        "Taliyah",
-        "RekSai"
+        "翱銳龍獸",
+        "卡爾瑟斯",
+        "辛吉德",
+        "塔莉雅",
+        "雷珂煞"
       ],
-      "summary": "Blitz Tier S - 推薦英雄: AurelionSol, Karthus, Singed",
+      "summary": "獲得一件隨機稜鏡增幅裝置。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Scopier Weapons",
+      "augment_name_zh": "超狙武器",
       "rarity": "Gold",
       "tier": "S",
       "strong_for": [
-        "Tristana",
-        "Jinx",
-        "Caitlyn",
-        "Aphelios",
-        "Jhin"
+        "崔絲塔娜",
+        "吉茵珂絲",
+        "凱特琳",
+        "亞菲利歐",
+        "燼"
       ],
-      "summary": "Blitz Tier S - 推薦英雄: Tristana, Jinx, Caitlyn",
+      "summary": "增加200攻擊距離，遠攻英雄則減至增加100攻擊距離。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Magic Missile",
+      "augment_name_zh": "魔法導彈",
       "rarity": "Gold",
       "tier": "S",
       "strong_for": [
-        "Taliyah",
-        "Brand",
-        "Hwei",
-        "Malzahar",
-        "Zyra"
+        "塔莉雅",
+        "布蘭德",
+        "赫威",
+        "馬爾札哈",
+        "枷蘿"
       ],
-      "summary": "Blitz Tier S - 推薦英雄: Taliyah, Brand, Hwei",
+      "summary": "使用技能造成傷害會對命中的敵軍發射3枚魔法飛彈，每發會根據飛行距離造成部分最大生命的真實傷害。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Recursion",
+      "augment_name_zh": "循環利用",
       "rarity": "Gold",
       "tier": "S",
       "strong_for": [
-        "Zilean",
-        "Vladimir",
-        "Syndra",
-        "Taliyah",
-        "Veigar"
+        "極靈",
+        "弗拉迪米爾",
+        "星朵拉",
+        "塔莉雅",
+        "維迦"
       ],
-      "summary": "Blitz Tier S - 推薦英雄: Zilean, Vladimir, Syndra",
+      "summary": "增加60技能加速。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Vampirism",
+      "augment_name_zh": "吸血迷信",
       "rarity": "Gold",
       "tier": "S",
       "strong_for": [
-        "Aatrox",
-        "Briar",
-        "Ambessa",
-        "Kayn",
-        "Zaahen"
+        "厄薩斯",
+        "布蕾爾",
+        "安比薩",
+        "慨影",
+        "薩亨"
       ],
-      "summary": "Blitz Tier S - 推薦英雄: Aatrox, Briar, Ambessa",
+      "summary": "你無法被友軍治療，也無法獲得任何生命回復。獲得30%全能吸血效果。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "It's Killing Time",
+      "augment_name_zh": "殺戮時間",
       "rarity": "Gold",
       "tier": "S",
       "strong_for": [
-        "Karthus",
-        "Kennen",
-        "Fiddlesticks",
-        "Rumble",
-        "Anivia"
+        "卡爾瑟斯",
+        "凱能",
+        "費德提克",
+        "藍寶",
+        "艾妮維亞"
       ],
-      "summary": "Blitz Tier S - 推薦英雄: Karthus, Kennen, Fiddlesticks",
+      "summary": "施放大絕後，對所有敵方英雄附加死亡標記。被標記後，會儲存對敵方英雄的部分傷害，並在標記結束後引爆傷害。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Critical Rhythm",
+      "augment_name_zh": "暴擊節奏",
       "rarity": "Gold",
       "tier": "S",
       "strong_for": [
-        "Jinx",
-        "Tristana",
-        "Xayah",
-        "Aphelios",
-        "Quinn"
+        "吉茵珂絲",
+        "崔絲塔娜",
+        "剎雅",
+        "亞菲利歐",
+        "葵恩"
       ],
-      "summary": "Blitz Tier S - 推薦英雄: Jinx, Tristana, Xayah",
+      "summary": "增加25%暴擊率。你的普攻暴擊時會累加攻速。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Lightning Strikes",
+      "augment_name_zh": "電光石火",
       "rarity": "Gold",
       "tier": "S",
       "strong_for": [
-        "Belveth",
-        "Kalista",
-        "Jinx",
-        "Tristana",
-        "Vayne"
+        "貝爾薇斯",
+        "克黎思妲",
+        "吉茵珂絲",
+        "崔絲塔娜",
+        "汎"
       ],
-      "summary": "Blitz Tier S - 推薦英雄: Belveth, Kalista, Jinx",
+      "summary": "增加20%總攻速。每秒普攻次數達一定次數時，造成額外魔法傷害on hit。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Executioner",
+      "augment_name_zh": "處刑者",
       "rarity": "Gold",
       "tier": "S",
       "strong_for": [
-        "Zed",
-        "Talon",
-        "Khazix",
-        "Qiyana",
-        "Naafiri"
+        "劫",
+        "塔隆",
+        "卡力斯",
+        "姬亞娜",
+        "娜菲芮"
       ],
-      "summary": "Blitz Tier S - 推薦英雄: Zed, Talon, Khazix",
+      "summary": "對生命低於30%的敵軍額外造成10%傷害。擊殺或助攻時，重置基本技能。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Tank Engine",
+      "augment_name_zh": "坦克引擎",
       "rarity": "Gold",
       "tier": "S",
       "strong_for": [
-        "DrMundo",
-        "Ornn",
-        "Rell",
-        "Sejuani",
-        "Braum"
+        "蒙多醫生",
+        "鄂爾",
+        "銳兒",
+        "史瓦妮",
+        "布郎姆"
       ],
-      "summary": "Blitz Tier S - 推薦英雄: DrMundo, Ornn, Rell",
+      "summary": "參與擊殺時獲得一層堆層，可提升體型和最大生命。死亡時失去層數。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "From Beginning To End",
+      "augment_name_zh": "自始至終",
       "rarity": "Gold",
       "tier": "S",
       "strong_for": [
-        "Karthus",
-        "Zoe",
-        "Gangplank",
-        "Evelynn",
-        "Syndra"
+        "卡爾瑟斯",
+        "柔依",
+        "剛普朗克",
+        "伊芙琳",
+        "星朵拉"
       ],
-      "summary": "Blitz Tier S - 推薦英雄: Karthus, Zoe, Gangplank",
+      "summary": "獲得先發制人及靈魂收割關鍵符文。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Bread And Butter",
+      "augment_name_zh": "土司和奶油",
       "rarity": "Gold",
       "tier": "S",
       "strong_for": [
-        "Blitzcrank",
-        "Vladimir",
-        "Zilean",
-        "Morgana",
-        "Veigar"
+        "布里茨",
+        "弗拉迪米爾",
+        "極靈",
+        "魔甘娜",
+        "維迦"
       ],
-      "summary": "Blitz Tier S - 推薦英雄: Blitzcrank, Vladimir, Zilean",
+      "summary": "你的Q獲得100技能加速。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Thread the Needle",
+      "augment_name_zh": "穿針引線",
       "rarity": "Gold",
       "tier": "S",
       "strong_for": [
-        "Gangplank",
-        "Zed",
-        "Khazix",
-        "Karthus",
-        "Talon"
+        "剛普朗克",
+        "劫",
+        "卡力斯",
+        "卡爾瑟斯",
+        "塔隆"
       ],
-      "summary": "Blitz Tier S - 推薦英雄: Gangplank, Zed, Khazix",
+      "summary": "獲得18%物理穿透與魔法穿透。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Keystone Conjurer",
+      "augment_name_zh": "符文術士",
       "rarity": "Gold",
       "tier": "S",
       "strong_for": [
-        "Malzahar",
-        "Orianna",
-        "Xerath",
-        "Taliyah",
-        "Ziggs"
+        "馬爾札哈",
+        "奧莉安娜",
+        "齊勒斯",
+        "塔莉雅",
+        "希格斯"
       ],
-      "summary": "Blitz Tier S - 推薦英雄: Malzahar, Orianna, Xerath",
+      "summary": "獲得召喚：艾莉及奧術彗星關鍵符文。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Get Excited!",
+      "augment_name_zh": "狂躁！",
       "rarity": "Gold",
       "tier": "S",
       "strong_for": [
-        "Zeri",
-        "Jinx",
-        "MasterYi",
-        "Olaf",
-        "Aphelios"
+        "婕莉",
+        "吉茵珂絲",
+        "易大師",
+        "歐拉夫",
+        "亞菲利歐"
       ],
-      "summary": "Blitz Tier S - 推薦英雄: Zeri, Jinx, MasterYi",
+      "summary": "參與擊殺時，增加跑速和攻速，持續4秒。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Perseverance",
+      "augment_name_zh": "剛毅",
       "rarity": "Gold",
       "tier": "S",
       "strong_for": [
-        "DrMundo",
-        "Braum",
-        "Rammus",
-        "Ornn",
-        "Sejuani"
+        "蒙多醫生",
+        "布郎姆",
+        "拉姆斯",
+        "鄂爾",
+        "史瓦妮"
       ],
-      "summary": "Blitz Tier S - 推薦英雄: DrMundo, Braum, Rammus",
+      "summary": "增加大量生命回復，生命低於一定值時增加更多。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Twice Thrice",
+      "augment_name_zh": "二次三次",
       "rarity": "Gold",
       "tier": "S",
       "strong_for": [
-        "Vayne",
-        "Akshan",
-        "Belveth",
-        "Kalista",
-        "MasterYi"
+        "汎",
+        "埃可尚",
+        "貝爾薇斯",
+        "克黎思妲",
+        "易大師"
       ],
-      "summary": "Blitz Tier S - 推薦英雄: Vayne, Akshan, Belveth",
+      "summary": "每第三次普攻會觸發兩次on hit。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Bread and Cheese",
+      "augment_name_zh": "土司和起司",
       "rarity": "Gold",
       "tier": "S",
       "strong_for": [
-        "AurelionSol",
-        "Fizz",
-        "Viktor",
-        "Shyvana",
-        "Gangplank"
+        "翱銳龍獸",
+        "飛斯",
+        "維克特",
+        "希瓦娜",
+        "剛普朗克"
       ],
-      "summary": "Blitz Tier S - 推薦英雄: AurelionSol, Fizz, Viktor",
+      "summary": "你的E獲得100技能加速。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Skilled Sniper",
+      "augment_name_zh": "老練狙擊手",
       "rarity": "Gold",
       "tier": "S",
       "strong_for": [
-        "Jayce",
-        "Xerath",
-        "Nidalee",
-        "Ziggs",
-        "Mel"
+        "杰西",
+        "齊勒斯",
+        "奈德麗",
+        "希格斯",
+        "梅爾"
       ],
-      "summary": "Blitz Tier S - 推薦英雄: Jayce, Xerath, Nidalee",
+      "summary": "在遠距離以非大絕技能命中敵軍時，可縮短冷卻時間80%(持續性技能為65%)。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Marksmage",
+      "augment_name_zh": "射手法師",
       "rarity": "Gold",
       "tier": "S",
       "strong_for": [
-        "Gwen",
-        "Azir",
-        "Ekko",
-        "TwistedFate",
-        "Bard"
+        "關",
+        "阿祈爾",
+        "艾克",
+        "逆命",
+        "巴德"
       ],
-      "summary": "Blitz Tier S - 推薦英雄: Gwen, Azir, Ekko",
+      "summary": "你的普攻造成等同於75%魔攻的額外物理傷害。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Spiritual Purification",
+      "augment_name_zh": "靈魂淨化",
       "rarity": "Gold",
       "tier": "S",
       "strong_for": [
-        "Lissandra",
-        "Pyke",
-        "Karthus",
-        "Fiddlesticks",
-        "Kennen"
+        "麗珊卓",
+        "派克",
+        "卡爾瑟斯",
+        "費德提克",
+        "凱能"
       ],
-      "summary": "Blitz Tier S - 推薦英雄: Lissandra, Pyke, Karthus",
+      "summary": "參與擊殺時會產生爆炸，使鄰近敵軍緩速60%，並根據其當前生命造成傷害。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Soul Siphon",
+      "augment_name_zh": "靈魂虹吸",
       "rarity": "Gold",
       "tier": "A",
       "strong_for": [
-        "Yunara",
-        "Corki",
-        "Senna",
-        "Yone",
-        "Yasuo"
+        "尤娜拉",
+        "庫奇",
+        "姍娜",
+        "犽凝",
+        "犽宿"
       ],
-      "summary": "Blitz Tier A - 推薦英雄: Yunara, Corki, Senna",
+      "summary": "增加25%暴擊率，暴擊時會附帶12%普攻吸血。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Big Brain",
+      "augment_name_zh": "超強大腦",
       "rarity": "Gold",
       "tier": "A",
       "strong_for": [
-        "Veigar",
-        "Vex",
-        "Ryze",
-        "Syndra",
-        "Lissandra"
+        "維迦",
+        "薇可絲",
+        "雷茲",
+        "星朵拉",
+        "麗珊卓"
       ],
-      "summary": "Blitz Tier A - 推薦英雄: Veigar, Vex, Ryze",
+      "summary": "每1魔攻增加3護盾。死亡時重置。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Rabble Rousing",
+      "augment_name_zh": "煽動群眾",
       "rarity": "Gold",
       "tier": "A",
       "strong_for": [
-        "Cassiopeia",
-        "Ryze",
-        "Hecarim",
-        "Riven",
-        "Ambessa"
+        "卡莎碧雅",
+        "雷茲",
+        "赫克林",
+        "雷玟",
+        "安比薩"
       ],
-      "summary": "Blitz Tier A - 推薦英雄: Cassiopeia, Ryze, Hecarim",
+      "summary": "施放技能時回復生命。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Cheating",
+      "augment_name_zh": "作弊",
       "rarity": "Gold",
       "tier": "A",
       "strong_for": [
-        "Zilean",
-        "AurelionSol",
-        "Xerath",
-        "Anivia",
-        "Lux"
+        "極靈",
+        "翱銳龍獸",
+        "齊勒斯",
+        "艾妮維亞",
+        "拉克絲"
       ],
-      "summary": "Blitz Tier A - 推薦英雄: Zilean, AurelionSol, Xerath",
+      "summary": "點按回城即可返回基地、購買道具並獲得增幅裝置。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Celestial Body",
+      "augment_name_zh": "天界之身",
       "rarity": "Gold",
       "tier": "A",
       "strong_for": [
-        "Braum",
-        "Ornn",
-        "Leona",
-        "Rell",
-        "Rammus"
+        "布郎姆",
+        "鄂爾",
+        "雷歐娜",
+        "銳兒",
+        "拉姆斯"
       ],
-      "summary": "Blitz Tier A - 推薦英雄: Braum, Ornn, Leona",
+      "summary": "增加1250生命，但造成的傷害降低10%。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Firebrand",
+      "augment_name_zh": "煽風點火",
       "rarity": "Gold",
       "tier": "A",
       "strong_for": [
-        "Zeri",
-        "Azir",
-        "Urgot",
-        "Sivir",
-        "Ashe"
+        "婕莉",
+        "阿祈爾",
+        "烏爾加特",
+        "希維爾",
+        "艾希"
       ],
-      "summary": "Blitz Tier A - 推薦英雄: Zeri, Azir, Urgot",
+      "summary": "普攻on hit造成燃燒效果，並持續造成傷害，可無限累加。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Vulnerability",
+      "augment_name_zh": "見縫插針",
       "rarity": "Gold",
       "tier": "A",
       "strong_for": [
-        "Brand",
-        "Malzahar",
-        "Rumble",
-        "Smolder",
-        "Lillia"
+        "布蘭德",
+        "馬爾札哈",
+        "藍寶",
+        "史矛德",
+        "莉莉亞"
       ],
-      "summary": "Blitz Tier A - 推薦英雄: Brand, Malzahar, Rumble",
+      "summary": "道具與持續傷害效果可以暴擊。增加25%暴擊率。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Bread And Jam",
+      "augment_name_zh": "土司和果醬",
       "rarity": "Gold",
       "tier": "A",
       "strong_for": [
-        "Sylas",
-        "Zilean",
-        "Leblanc",
-        "Nami",
-        "Sett"
+        "賽勒斯",
+        "極靈",
+        "勒布朗",
+        "娜米",
+        "賽特"
       ],
-      "summary": "Blitz Tier A - 推薦英雄: Sylas, Zilean, Leblanc",
+      "summary": "你的W獲得100技能加速。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Overflow",
+      "augment_name_zh": "溢流",
       "rarity": "Gold",
       "tier": "A",
       "strong_for": [
-        "Ryze",
-        "Cassiopeia",
-        "Kassadin",
-        "Karthus",
-        "Sona"
+        "雷茲",
+        "卡莎碧雅",
+        "卡薩丁",
+        "卡爾瑟斯",
+        "索娜"
       ],
-      "summary": "Blitz Tier A - 推薦英雄: Ryze, Cassiopeia, Kassadin",
+      "summary": "技能的魔力消耗加倍。技能的治療、護盾以及傷害提升，提升幅度取決於最大魔力。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Quest: Steel Your Heart",
+      "augment_name_zh": "任務：鋼鐵雄心",
       "rarity": "Gold",
       "tier": "A",
       "strong_for": [
-        "DrMundo",
-        "Ornn",
-        "Leona",
-        "Sejuani",
-        "Rell"
+        "蒙多醫生",
+        "鄂爾",
+        "雷歐娜",
+        "史瓦妮",
+        "銳兒"
       ],
-      "summary": "Blitz Tier A - 推薦英雄: DrMundo, Ornn, Leona",
+      "summary": "條件：擁有300層以上的雄心之鋼。獎勵：雄心之鋼堆層乘以3倍。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "It's Critical",
+      "augment_name_zh": "痛恨一擊",
       "rarity": "Gold",
       "tier": "A",
       "strong_for": [
-        "Corki",
-        "Smolder",
-        "Yunara",
-        "Senna",
-        "Gangplank"
+        "庫奇",
+        "史矛德",
+        "尤娜拉",
+        "姍娜",
+        "剛普朗克"
       ],
-      "summary": "Blitz Tier A - 推薦英雄: Corki, Smolder, Yunara",
+      "summary": "增加50%暴擊率。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Nightstalking",
+      "augment_name_zh": "暗夜潛行",
       "rarity": "Gold",
       "tier": "A",
       "strong_for": [
-        "Khazix",
-        "Talon",
-        "Pyke",
-        "Zed",
-        "Qiyana"
+        "卡力斯",
+        "塔隆",
+        "派克",
+        "劫",
+        "姬亞娜"
       ],
-      "summary": "Blitz Tier A - 推薦英雄: Khazix, Talon, Pyke",
+      "summary": "對敵方英雄造成傷害後，在3秒內參與擊殺他們，會讓你進入隱形狀態。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Impassable",
+      "augment_name_zh": "不可通行",
       "rarity": "Gold",
       "tier": "A",
       "strong_for": [
-        "Rell",
-        "Rammus",
-        "Sejuani",
-        "Leona",
-        "Nautilus"
+        "銳兒",
+        "拉姆斯",
+        "史瓦妮",
+        "雷歐娜",
+        "納帝魯斯"
       ],
-      "summary": "Blitz Tier A - 推薦英雄: Rell, Rammus, Sejuani",
+      "summary": "獲得裂地衝擊與冰川增幅關鍵符文。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Critical Healing",
+      "augment_name_zh": "暴擊治療",
       "rarity": "Gold",
       "tier": "A",
       "strong_for": [
-        "Soraka",
-        "Yuumi",
-        "Sona",
-        "Nami",
-        "Vladimir"
+        "索拉卡",
+        "悠咪",
+        "索娜",
+        "娜米",
+        "弗拉迪米爾"
       ],
-      "summary": "Blitz Tier A - 推薦英雄: Soraka, Yuumi, Sona",
+      "summary": "你的治療與護盾可以暴擊，治療量或護盾量提升40%。增加25%暴擊率。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Shrink Ray",
+      "augment_name_zh": "縮小光線",
       "rarity": "Gold",
       "tier": "A",
       "strong_for": [
-        "Urgot",
-        "Zeri",
-        "Sivir",
-        "Shen",
-        "RekSai"
+        "烏爾加特",
+        "婕莉",
+        "希維爾",
+        "慎",
+        "雷珂煞"
       ],
-      "summary": "Blitz Tier A - 推薦英雄: Urgot, Zeri, Sivir",
+      "summary": "你的普攻可以降低敵軍造成的傷害15%，持續3秒。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Upgrade Infinity Edge",
+      "augment_name_zh": "升級無盡之刃",
       "rarity": "Gold",
       "tier": "B",
       "strong_for": [
-        "Yunara",
-        "Corki",
-        "Senna",
-        "Smolder",
-        "Jhin"
+        "尤娜拉",
+        "庫奇",
+        "姍娜",
+        "史矛德",
+        "燼"
       ],
-      "summary": "Blitz Tier B - 推薦英雄: Yunara, Corki, Senna",
+      "summary": "獲得25%暴擊率和500金錢。持有無盡之刃時，你的暴擊會根據暴擊率造成隨機額外暴擊傷害。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Outlaw's Grit",
+      "augment_name_zh": "俠盜恆毅",
       "rarity": "Gold",
       "tier": "B",
       "strong_for": [
-        "Ambessa",
-        "Riven",
-        "KSante",
-        "Kassadin",
-        "Irelia"
+        "安比薩",
+        "雷玟",
+        "卡桑帝",
+        "卡薩丁",
+        "伊瑞莉雅"
       ],
-      "summary": "Blitz Tier B - 推薦英雄: Ambessa, Riven, KSante",
+      "summary": "使用衝刺、閃現或傳送後，增加12物防和魔防，最多5層。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Upgrade Hubris",
+      "augment_name_zh": "升級傲慢",
       "rarity": "Gold",
       "tier": "B",
       "strong_for": [
-        "Zed",
-        "Khazix",
-        "Pyke",
-        "Talon",
-        "Qiyana"
+        "劫",
+        "卡力斯",
+        "派克",
+        "塔隆",
+        "姬亞娜"
       ],
-      "summary": "Blitz Tier B - 推薦英雄: Zed, Khazix, Pyke",
+      "summary": "傲慢可在參與擊殺時為你恢復生命，並在增益效果持續期間提升跑速，恢復量與提升量都會隨著層數增加。此外，可獲得250金錢。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Restless Restoration",
+      "augment_name_zh": "回復不休",
       "rarity": "Gold",
       "tier": "B",
       "strong_for": [
-        "Singed",
-        "Lillia",
-        "Soraka",
-        "Rammus",
-        "Rakan"
+        "辛吉德",
+        "莉莉亞",
+        "索拉卡",
+        "拉姆斯",
+        "銳空"
       ],
-      "summary": "Blitz Tier B - 推薦英雄: Singed, Lillia, Soraka",
+      "summary": "移動時持續回復生命。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Demon's Dance",
+      "augment_name_zh": "不死魔舞",
       "rarity": "Gold",
       "tier": "B",
       "strong_for": [
-        "Camille",
-        "Fiora",
-        "RekSai",
-        "Shen",
-        "Sion"
+        "卡蜜兒",
+        "菲歐拉",
+        "雷珂煞",
+        "慎",
+        "賽恩"
       ],
-      "summary": "Blitz Tier B - 推薦英雄: Camille, Fiora, RekSai",
+      "summary": "獲得瞬疾步法及不死之握關鍵符文。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Dawnbringer's Resolve",
+      "augment_name_zh": "黎明使者之決意",
       "rarity": "Gold",
       "tier": "B",
       "strong_for": [
-        "DrMundo",
-        "Chogath",
-        "Sion",
-        "Nautilus",
-        "Zac"
+        "蒙多醫生",
+        "科加斯",
+        "賽恩",
+        "納帝魯斯",
+        "札克"
       ],
-      "summary": "Blitz Tier B - 推薦英雄: DrMundo, Chogath, Sion",
+      "summary": "生命低於50%時，在3秒內回復30%最大生命。每45秒或死亡時重置。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "With Haste",
+      "augment_name_zh": "腳程加速",
       "rarity": "Gold",
       "tier": "B",
       "strong_for": [
-        "Lillia",
-        "Hecarim",
-        "Zilean",
-        "Singed",
-        "Vladimir"
+        "莉莉亞",
+        "赫克林",
+        "極靈",
+        "辛吉德",
+        "弗拉迪米爾"
       ],
-      "summary": "Blitz Tier B - 推薦英雄: Lillia, Hecarim, Zilean",
+      "summary": "獲得等同於技能加速100%的跑速。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Ethereal Weapon",
+      "augment_name_zh": "幻影武器",
       "rarity": "Gold",
       "tier": "B",
       "strong_for": [
-        "Hecarim",
-        "Katarina",
-        "Gangplank",
-        "Kaisa",
-        "Azir"
+        "赫克林",
+        "卡特蓮娜",
+        "剛普朗克",
+        "凱莎",
+        "阿祈爾"
       ],
-      "summary": "Blitz Tier B - 推薦英雄: Hecarim, Katarina, Gangplank",
+      "summary": "技能可造成on hit。對每個目標有1秒冷卻時間。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Searing Dawn",
+      "augment_name_zh": "灼熱黎明",
       "rarity": "Gold",
       "tier": "B",
       "strong_for": [
-        "Renata",
-        "Morgana",
-        "Zyra",
-        "Anivia",
-        "Nami"
+        "睿娜妲‧格萊斯克",
+        "魔甘娜",
+        "枷蘿",
+        "艾妮維亞",
+        "娜米"
       ],
-      "summary": "Blitz Tier B - 推薦英雄: Renata, Morgana, Zyra",
+      "summary": "技能會標記敵軍，隊友的下一次普攻或技能會對其額外造成魔法傷害。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Apex Inventor",
+      "augment_name_zh": "頂尖發明家",
       "rarity": "Gold",
       "tier": "B",
       "strong_for": [
-        "Yuumi",
-        "Skarner",
-        "Ornn",
-        "Renata",
-        "Sion"
+        "悠咪",
+        "史加納",
+        "鄂爾",
+        "睿娜妲‧格萊斯克",
+        "賽恩"
       ],
-      "summary": "Blitz Tier B - 推薦英雄: Yuumi, Skarner, Ornn",
+      "summary": "獲得100道具加速(等同於50%道具冷卻時間減免)。道具加速會縮短所有道具技能的冷卻時間。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Divine Intervention",
+      "augment_name_zh": "聖光顯靈",
       "rarity": "Gold",
       "tier": "B",
       "strong_for": [
-        "Yuumi",
-        "Taric",
-        "Rakan",
-        "Braum",
-        "Renata"
+        "悠咪",
+        "塔里克",
+        "銳空",
+        "布郎姆",
+        "睿娜妲‧格萊斯克"
       ],
-      "summary": "Blitz Tier B - 推薦英雄: Yuumi, Taric, Rakan",
+      "summary": "戰鬥開始15秒後，召喚一顆守護之星緩慢降臨在你身上。當它落地，你和附近的友軍獲得幾秒鐘的無敵狀態。隨後每隔35秒自動施放一次。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Holy Fire",
+      "augment_name_zh": "神聖之火",
       "rarity": "Gold",
       "tier": "B",
       "strong_for": [
-        "Taric",
-        "Sona",
-        "Yuumi",
-        "Milio",
-        "Nami"
+        "塔里克",
+        "索娜",
+        "悠咪",
+        "米里歐",
+        "娜米"
       ],
-      "summary": "Blitz Tier B - 推薦英雄: Taric, Sona, Yuumi",
+      "summary": "治療或賦予護盾時，可對鄰近敵軍附加可無限累加的燃燒效果，在數秒內造成部分最大生命的魔法傷害。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Ok Boomerang",
+      "augment_name_zh": "棒棒回力鏢",
       "rarity": "Gold",
       "tier": "C",
       "strong_for": [
-        "Sivir",
-        "Nidalee",
-        "Heimerdinger",
-        "TwistedFate",
-        "Ziggs"
+        "希維爾",
+        "奈德麗",
+        "漢默丁格",
+        "逆命",
+        "希格斯"
       ],
-      "summary": "Blitz Tier C - 推薦英雄: Sivir, Nidalee, Heimerdinger",
+      "summary": "每10秒自動施放，對鄰近敵軍發射回力鏢。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Snowball Upgrade",
+      "augment_name_zh": "雪球升級",
       "rarity": "Gold",
       "tier": "C",
       "strong_for": [
-        "Neeko",
-        "Kennen",
-        "Nunu",
-        "Lissandra",
-        "Amumu"
+        "妮可",
+        "凱能",
+        "努努和威朗普",
+        "麗珊卓",
+        "阿姆姆"
       ],
-      "summary": "Blitz Tier C - 推薦英雄: Neeko, Kennen, Nunu",
+      "summary": "讓你的雪球獲得100技能加速。命中敵軍時會降雪，在區域內造成範圍傷害與緩速效果 。若你沒有雪球就會獲得一顆雪球。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Slow And Steady",
+      "augment_name_zh": "穩紮穩打",
       "rarity": "Gold",
       "tier": "C",
       "strong_for": [
-        "Zeri",
-        "Graves",
-        "Urgot",
-        "Garen",
-        "Ezreal"
+        "婕莉",
+        "葛雷夫",
+        "烏爾加特",
+        "蓋倫",
+        "伊澤瑞爾"
       ],
-      "summary": "Blitz Tier C - 推薦英雄: Zeri, Graves, Urgot",
+      "summary": "攻速變為0.625。所有額外攻速轉換為物攻。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "All For You",
+      "augment_name_zh": "全部都給你",
       "rarity": "Gold",
       "tier": "C",
       "strong_for": [
-        "Soraka",
-        "Yuumi",
-        "Nami",
-        "Sona",
-        "Lulu"
+        "索拉卡",
+        "悠咪",
+        "娜米",
+        "索娜",
+        "露璐"
       ],
-      "summary": "Blitz Tier C - 推薦英雄: Soraka, Yuumi, Nami",
+      "summary": "對友軍使用時，你的治療和護盾效果提升30%。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Flashy",
+      "augment_name_zh": "閃光俠",
       "rarity": "Gold",
       "tier": "C",
       "strong_for": [
-        "Kennen",
-        "Neeko",
-        "LeeSin",
-        "Blitzcrank",
-        "Annie"
+        "凱能",
+        "妮可",
+        "李星",
+        "布里茨",
+        "安妮"
       ],
-      "summary": "Blitz Tier C - 推薦英雄: Kennen, Neeko, LeeSin",
+      "summary": "你的閃現有3發，冷卻時間為2秒。充能時間為180秒",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Minionmancer",
+      "augment_name_zh": "士兵術師",
       "rarity": "Gold",
       "tier": "D",
       "strong_for": [
-        "Yorick",
-        "Heimerdinger",
-        "Zyra",
-        "Annie",
-        "Naafiri"
+        "約瑞科",
+        "漢默丁格",
+        "枷蘿",
+        "安妮",
+        "娜菲芮"
       ],
-      "summary": "Blitz Tier D - 推薦英雄: Yorick, Heimerdinger, Zyra",
+      "summary": "你的召喚物增加40%體型、生命與傷害。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Upgrade Sheen",
+      "augment_name_zh": "升級閃耀劍",
       "rarity": "Gold",
       "tier": "D",
       "strong_for": [
-        "Ezreal",
-        "Jax",
-        "Gangplank",
-        "Corki",
-        "Gnar"
+        "伊澤瑞爾",
+        "賈克斯",
+        "剛普朗克",
+        "庫奇",
+        "吶兒"
       ],
-      "summary": "Blitz Tier D - 推薦英雄: Ezreal, Jax, Gangplank",
+      "summary": "魔法彎刀的效果會造成額外傷害，並依目標生命的一定比例治療你。此外，可獲得250金錢。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Witchful Thinking",
+      "augment_name_zh": "女巫思維",
       "rarity": "Silver",
       "tier": "S",
       "strong_for": [
-        "Nidalee",
-        "Karthus",
-        "Orianna",
-        "Xerath",
-        "Zoe"
+        "奈德麗",
+        "卡爾瑟斯",
+        "奧莉安娜",
+        "齊勒斯",
+        "柔依"
       ],
-      "summary": "Blitz Tier S - 推薦英雄: Nidalee, Karthus, Orianna",
+      "summary": "增加魔法攻擊。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Deft",
+      "augment_name_zh": "手腳麻利",
       "rarity": "Silver",
       "tier": "S",
       "strong_for": [
-        "Jinx",
-        "Sivir",
-        "Tristana",
-        "Xayah",
-        "Ashe"
+        "吉茵珂絲",
+        "希維爾",
+        "崔絲塔娜",
+        "剎雅",
+        "艾希"
       ],
-      "summary": "Blitz Tier S - 推薦英雄: Jinx, Sivir, Tristana",
+      "summary": "增加60%攻速。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Goredrink",
+      "augment_name_zh": "飲血",
       "rarity": "Silver",
       "tier": "S",
       "strong_for": [
-        "Briar",
-        "Zaahen",
-        "Aatrox",
-        "Olaf",
-        "Samira"
+        "布蕾爾",
+        "薩亨",
+        "厄薩斯",
+        "歐拉夫",
+        "煞蜜拉"
       ],
-      "summary": "Blitz Tier S - 推薦英雄: Briar, Zaahen, Aatrox",
+      "summary": "獲得15%全能吸血效果。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Infernal Soul",
+      "augment_name_zh": "煉獄惡靈",
       "rarity": "Silver",
       "tier": "S",
       "strong_for": [
-        "Gangplank",
-        "Jayce",
-        "Smolder",
-        "Zed",
-        "Shyvana"
+        "剛普朗克",
+        "杰西",
+        "史矛德",
+        "劫",
+        "希瓦娜"
       ],
-      "summary": "Blitz Tier S - 推薦英雄: Gangplank, Jayce, Smolder",
+      "summary": "獲得煉獄惡靈，使用技能或普攻命中敵軍時，可額外造成傷害。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Hat on a Hat",
+      "augment_name_zh": "帽上加帽",
       "rarity": "Silver",
       "tier": "S",
       "strong_for": [
-        "Karthus",
-        "Veigar",
-        "Xerath",
-        "Nidalee",
-        "Velkoz"
+        "卡爾瑟斯",
+        "維迦",
+        "齊勒斯",
+        "奈德麗",
+        "威寇茲"
       ],
-      "summary": "Blitz Tier S - 推薦英雄: Karthus, Veigar, Xerath",
+      "summary": "頭部道具提供額外魔攻和魔防。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Transmute: Gold",
+      "augment_name_zh": "質變：金級",
       "rarity": "Silver",
       "tier": "A",
       "strong_for": [
-        "Karthus",
-        "Vladimir",
-        "Yorick",
-        "Evelynn",
-        "Gangplank"
+        "卡爾瑟斯",
+        "弗拉迪米爾",
+        "約瑞科",
+        "伊芙琳",
+        "剛普朗克"
       ],
-      "summary": "Blitz Tier A - 推薦英雄: Karthus, Vladimir, Yorick",
+      "summary": "獲得一件隨機金色增幅裝置。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Heavy Hitter",
+      "augment_name_zh": "重型打手",
       "rarity": "Silver",
       "tier": "A",
       "strong_for": [
-        "DrMundo",
-        "Sion",
-        "Ornn",
-        "TahmKench",
-        "Kled"
+        "蒙多醫生",
+        "賽恩",
+        "鄂爾",
+        "貪啃奇",
+        "克雷德"
       ],
-      "summary": "Blitz Tier A - 推薦英雄: DrMundo, Sion, Ornn",
+      "summary": "你的普攻額外造成等同於自身最大生命4%的物理傷害。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Scoped Weapons",
+      "augment_name_zh": "射程強化改造",
       "rarity": "Silver",
       "tier": "A",
       "strong_for": [
-        "Caitlyn",
-        "Jinx",
-        "Tristana",
-        "Xayah",
-        "Ashe"
+        "凱特琳",
+        "吉茵珂絲",
+        "崔絲塔娜",
+        "剎雅",
+        "艾希"
       ],
-      "summary": "Blitz Tier A - 推薦英雄: Caitlyn, Jinx, Tristana",
+      "summary": "增加75攻擊距離，遠攻英雄則減至只增加50攻擊距離。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Mind to Matter",
+      "augment_name_zh": "因心成體",
       "rarity": "Silver",
       "tier": "A",
       "strong_for": [
-        "Ryze",
-        "Kassadin",
-        "Cassiopeia",
-        "Anivia",
-        "Veigar"
+        "雷茲",
+        "卡薩丁",
+        "卡莎碧雅",
+        "艾妮維亞",
+        "維迦"
       ],
-      "summary": "Blitz Tier A - 推薦英雄: Ryze, Kassadin, Cassiopeia",
+      "summary": "增加最大生命，增加量為魔力的一半。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "The Brutalizer",
+      "augment_name_zh": "兇殘之柄",
       "rarity": "Silver",
       "tier": "A",
       "strong_for": [
-        "Gangplank",
-        "Jayce",
-        "Zed",
-        "Khazix",
-        "Talon"
+        "剛普朗克",
+        "杰西",
+        "劫",
+        "卡力斯",
+        "塔隆"
       ],
-      "summary": "Blitz Tier A - 推薦英雄: Gangplank, Jayce, Zed",
+      "summary": "增加20物攻、10技能加速、以及5物理致命。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Typhoon",
+      "augment_name_zh": "颱風",
       "rarity": "Silver",
       "tier": "A",
       "strong_for": [
-        "Akshan",
-        "Zeri",
-        "Ashe",
-        "Jinx",
-        "Yunara"
+        "埃可尚",
+        "婕莉",
+        "艾希",
+        "吉茵珂絲",
+        "尤娜拉"
       ],
-      "summary": "Blitz Tier A - 推薦英雄: Akshan, Zeri, Ashe",
+      "summary": "普攻會朝額外一名目標射出箭矢，造成較低傷害，並附加on hit。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Ice Cold",
+      "augment_name_zh": "雪地踱步",
       "rarity": "Silver",
       "tier": "A",
       "strong_for": [
-        "AurelionSol",
-        "Anivia",
-        "Zyra",
-        "Brand",
-        "Malzahar"
+        "翱銳龍獸",
+        "艾妮維亞",
+        "枷蘿",
+        "布蘭德",
+        "馬爾札哈"
       ],
-      "summary": "Blitz Tier A - 推薦英雄: AurelionSol, Anivia, Zyra",
+      "summary": "造成的緩速效果額外降低100跑速。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "ADAPt",
+      "augment_name_zh": "靈活轉換",
       "rarity": "Silver",
       "tier": "A",
       "strong_for": [
-        "Nidalee",
-        "Karthus",
-        "TwistedFate",
-        "Veigar",
-        "Xerath"
+        "奈德麗",
+        "卡爾瑟斯",
+        "逆命",
+        "維迦",
+        "齊勒斯"
       ],
-      "summary": "Blitz Tier A - 推薦英雄: Nidalee, Karthus, TwistedFate",
+      "summary": "將額外物攻轉換為魔攻。增加15%魔攻。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Escape Plan",
+      "augment_name_zh": "逃跑計畫",
       "rarity": "Silver",
       "tier": "B",
       "strong_for": [
-        "Singed",
-        "Olaf",
-        "Darius",
-        "DrMundo",
-        "Vladimir"
+        "辛吉德",
+        "歐拉夫",
+        "達瑞斯",
+        "蒙多醫生",
+        "弗拉迪米爾"
       ],
-      "summary": "Blitz Tier B - 推薦英雄: Singed, Olaf, Darius",
+      "summary": "達到35%生命時，獲得大量逐漸衰減的護盾、逐漸衰減的跑速，以及逐漸恢復的縮小效果。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Shadow Runner",
+      "augment_name_zh": "飛影跑法",
       "rarity": "Silver",
       "tier": "B",
       "strong_for": [
-        "Pyke",
-        "Aurora",
-        "Shaco",
-        "Kalista",
-        "Qiyana"
+        "派克",
+        "歐羅拉",
+        "薩科",
+        "克黎思妲",
+        "姬亞娜"
       ],
-      "summary": "Blitz Tier B - 推薦英雄: Pyke, Aurora, Shaco",
+      "summary": "使用衝刺、跳躍、閃現或傳送技能或脫離潛行後，增加跑速。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Swift and Safe",
+      "augment_name_zh": "又快又穩",
       "rarity": "Silver",
       "tier": "B",
       "strong_for": [
-        "Ambessa",
-        "Riven",
-        "Kassadin",
-        "Fiora",
-        "Leblanc"
+        "安比薩",
+        "雷玟",
+        "卡薩丁",
+        "菲歐拉",
+        "勒布朗"
       ],
-      "summary": "Blitz Tier B - 推薦英雄: Ambessa, Riven, Kassadin",
+      "summary": "衝刺或閃現後獲得護盾。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Homeguard",
+      "augment_name_zh": "溫泉加速",
       "rarity": "Silver",
       "tier": "B",
       "strong_for": [
-        "Nunu",
-        "Zilean",
-        "TwistedFate",
-        "Mel",
-        "Lillia"
+        "努努和威朗普",
+        "極靈",
+        "逆命",
+        "梅爾",
+        "莉莉亞"
       ],
-      "summary": "Blitz Tier B - 推薦英雄: Nunu, Zilean, TwistedFate",
+      "summary": "獲得100%跑速，承受傷害後3秒內會失效。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Blunt Force",
+      "augment_name_zh": "蠻力重擊",
       "rarity": "Silver",
       "tier": "B",
       "strong_for": [
-        "Gangplank",
-        "Graves",
-        "Jayce",
-        "Zed",
-        "Jhin"
+        "剛普朗克",
+        "葛雷夫",
+        "杰西",
+        "劫",
+        "燼"
       ],
-      "summary": "Blitz Tier B - 推薦英雄: Gangplank, Graves, Jayce",
+      "summary": "增加20%物攻。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Leg Day",
+      "augment_name_zh": "腿部訓練日",
       "rarity": "Silver",
       "tier": "B",
       "strong_for": [
-        "Singed",
-        "Lillia",
-        "Darius",
-        "Hecarim",
-        "Garen"
+        "辛吉德",
+        "莉莉亞",
+        "達瑞斯",
+        "赫克林",
+        "蓋倫"
       ],
-      "summary": "Blitz Tier B - 推薦英雄: Singed, Lillia, Darius",
+      "summary": "獲得50跑速和40%緩速抗性。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Light 'em Up!",
+      "augment_name_zh": "來點顏色",
       "rarity": "Silver",
       "tier": "B",
       "strong_for": [
-        "Kayle",
-        "Akshan",
-        "KogMaw",
-        "Kaisa",
-        "Belveth"
+        "凱爾",
+        "埃可尚",
+        "寇格魔",
+        "凱莎",
+        "貝爾薇斯"
       ],
-      "summary": "Blitz Tier B - 推薦英雄: Kayle, Akshan, KogMaw",
+      "summary": "每四下普攻on hit可額外造成魔法傷害。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Buff Buddies",
+      "augment_name_zh": "增益麻吉",
       "rarity": "Silver",
       "tier": "B",
       "strong_for": [
-        "Xerath",
-        "Ziggs",
-        "Mel",
-        "Hwei",
-        "Elise"
+        "齊勒斯",
+        "希格斯",
+        "梅爾",
+        "赫威",
+        "伊莉絲"
       ],
-      "summary": "Blitz Tier B - 推薦英雄: Xerath, Ziggs, Mel",
+      "summary": "你獲得力量的餘燼和智慧的餘燼。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Ocean Soul",
+      "augment_name_zh": "海洋之魂",
       "rarity": "Silver",
       "tier": "B",
       "strong_for": [
-        "Swain",
-        "Singed",
-        "DrMundo",
-        "Soraka",
-        "Illaoi"
+        "斯溫",
+        "辛吉德",
+        "蒙多醫生",
+        "索拉卡",
+        "伊羅旖"
       ],
-      "summary": "Blitz Tier B - 推薦英雄: Swain, Singed, DrMundo",
+      "summary": "獲得海洋之魂，對敵軍造成傷害後可增加大量生命及魔力回復。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Erosion",
+      "augment_name_zh": "侵蝕裝甲",
       "rarity": "Silver",
       "tier": "B",
       "strong_for": [
-        "Singed",
-        "Mordekaiser",
-        "Swain",
-        "Yorick",
-        "Amumu"
+        "辛吉德",
+        "魔鬥凱薩",
+        "斯溫",
+        "約瑞科",
+        "阿姆姆"
       ],
-      "summary": "Blitz Tier B - 推薦英雄: Singed, Mordekaiser, Swain",
+      "summary": "對敵軍造成傷害可累加一層物理與魔法防禦削弱，持續4秒。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Upgrade Collector",
+      "augment_name_zh": "升級收藏家",
       "rarity": "Silver",
       "tier": "B",
       "strong_for": [
-        "Aphelios",
-        "Akshan",
-        "Quinn",
-        "Caitlyn",
-        "Jhin"
+        "亞菲利歐",
+        "埃可尚",
+        "葵恩",
+        "凱特琳",
+        "燼"
       ],
-      "summary": "Blitz Tier B - 推薦英雄: Aphelios, Akshan, Quinn",
+      "summary": "以蒐集者的被動效果處決敵軍時，會提升處決門檻並獲得額外金錢。獲得250金錢。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "First-Aid Kit",
+      "augment_name_zh": "急救箱",
       "rarity": "Silver",
       "tier": "B",
       "strong_for": [
-        "Yuumi",
-        "Soraka",
-        "Sona",
-        "Lulu",
-        "Nami"
+        "悠咪",
+        "索拉卡",
+        "索娜",
+        "露璐",
+        "娜米"
       ],
-      "summary": "Blitz Tier B - 推薦英雄: Yuumi, Soraka, Sona",
+      "summary": "增加20%治療與護盾強度。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Upgrade Zhonya's",
+      "augment_name_zh": "升級中婭沙漏",
       "rarity": "Silver",
       "tier": "C",
       "strong_for": [
-        "Kennen",
-        "Fiddlesticks",
-        "Lissandra",
-        "Rumble",
-        "Morgana"
+        "凱能",
+        "費德提克",
+        "麗珊卓",
+        "藍寶",
+        "魔甘娜"
       ],
-      "summary": "Blitz Tier C - 推薦英雄: Kennen, Fiddlesticks, Lissandra",
+      "summary": "將中婭沙漏的冷卻時間縮短至45秒。你現在處於中婭沙漏、探索者護腕或烏莉特的法帽的凝滯狀態時可以移動。獲得250金錢。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Veil of Warding",
+      "augment_name_zh": "守護面紗",
       "rarity": "Silver",
       "tier": "C",
       "strong_for": [
-        "Velkoz",
-        "Leblanc",
-        "Syndra",
-        "Taliyah",
-        "Xerath"
+        "威寇茲",
+        "勒布朗",
+        "星朵拉",
+        "塔莉雅",
+        "齊勒斯"
       ],
-      "summary": "Blitz Tier C - 推薦英雄: Velkoz, Leblanc, Syndra",
+      "summary": "每30秒獲得一道法術護盾，可阻擋下一個敵方技能。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "escAPADe",
+      "augment_name_zh": "轉換惡作劇",
       "rarity": "Silver",
       "tier": "C",
       "strong_for": [
-        "Gangplank",
-        "Ezreal",
-        "Jayce",
-        "Smolder",
-        "Kaisa"
+        "剛普朗克",
+        "伊澤瑞爾",
+        "杰西",
+        "史矛德",
+        "凱莎"
       ],
-      "summary": "Blitz Tier C - 推薦英雄: Gangplank, Ezreal, Jayce",
+      "summary": "將魔攻轉換為額外物攻。增加15%物攻。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Slap Around",
+      "augment_name_zh": "痛打一頓",
       "rarity": "Silver",
       "tier": "C",
       "strong_for": [
-        "Morgana",
-        "Lux",
-        "Zilean",
-        "Seraphine",
-        "Janna"
+        "魔甘娜",
+        "拉克絲",
+        "極靈",
+        "瑟菈紛",
+        "珍娜"
       ],
-      "summary": "Blitz Tier C - 推薦英雄: Morgana, Lux, Zilean",
+      "summary": "硬控場或禁錮敵軍時，獲得10適性之力。死亡時失去50%。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Tank It Or Leave It",
+      "augment_name_zh": "毫髮無傷",
       "rarity": "Silver",
       "tier": "C",
       "strong_for": [
-        "Corki",
-        "Yunara",
-        "Smolder",
-        "Gangplank",
-        "Yasuo"
+        "庫奇",
+        "尤娜拉",
+        "史矛德",
+        "剛普朗克",
+        "犽宿"
       ],
-      "summary": "Blitz Tier C - 推薦英雄: Corki, Yunara, Smolder",
+      "summary": "你可以根據自身暴擊率進行完美防禦（上限為50%機率），觸發時減少承受的傷害。增加25%暴擊率。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Guilty Pleasure",
+      "augment_name_zh": "惡趣味",
       "rarity": "Silver",
       "tier": "C",
       "strong_for": [
-        "Leona",
-        "Rell",
-        "Zac",
-        "Maokai",
-        "Nautilus"
+        "雷歐娜",
+        "銳兒",
+        "札克",
+        "茂凱",
+        "納帝魯斯"
       ],
-      "summary": "Blitz Tier C - 推薦英雄: Leona, Rell, Zac",
+      "summary": "硬控場或禁錮敵方英雄時使你回復生命。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Dive Bomber",
+      "augment_name_zh": "自爆炸彈客",
       "rarity": "Silver",
       "tier": "C",
       "strong_for": [
-        "Karthus",
-        "Sion",
-        "Malphite",
-        "Nunu",
-        "Lissandra"
+        "卡爾瑟斯",
+        "賽恩",
+        "墨菲特",
+        "努努和威朗普",
+        "麗珊卓"
       ],
-      "summary": "Blitz Tier C - 推薦英雄: Karthus, Sion, Malphite",
+      "summary": "你陣亡時爆炸，造成大量真實傷害。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Mountain Soul",
+      "augment_name_zh": "裂地龍魂",
       "rarity": "Silver",
       "tier": "C",
       "strong_for": [
-        "Braum",
-        "DrMundo",
-        "Ornn",
-        "Rammus",
-        "Skarner"
+        "布郎姆",
+        "蒙多醫生",
+        "鄂爾",
+        "拉姆斯",
+        "史加納"
       ],
-      "summary": "Blitz Tier C - 推薦英雄: Braum, DrMundo, Ornn",
+      "summary": "獲得裂地龍魂，脫離戰鬥一段時間後可獲得一道護盾。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Frost Wraith",
+      "augment_name_zh": "寒霜幽魂",
       "rarity": "Silver",
       "tier": "C",
       "strong_for": [
-        "Braum",
-        "Sejuani",
-        "Leona",
-        "Ornn",
-        "Rell"
+        "布郎姆",
+        "史瓦妮",
+        "雷歐娜",
+        "鄂爾",
+        "銳兒"
       ],
-      "summary": "Blitz Tier C - 推薦英雄: Braum, Sejuani, Leona",
+      "summary": "每6.5秒自動施放，對鄰近敵軍造成定身效果，持續1.25秒。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Ultimate Unstoppable",
+      "augment_name_zh": "無敵大絕",
       "rarity": "Silver",
       "tier": "C",
       "strong_for": [
-        "Katarina",
-        "Samira",
-        "Nunu",
-        "Kennen",
-        "Kassadin"
+        "卡特蓮娜",
+        "煞蜜拉",
+        "努努和威朗普",
+        "凱能",
+        "卡薩丁"
       ],
-      "summary": "Blitz Tier C - 推薦英雄: Katarina, Samira, Nunu",
+      "summary": "使用大絕後會免疫控場效果3秒(冷卻時間：8秒)。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Tormentor",
+      "augment_name_zh": "烈焰折磨",
       "rarity": "Silver",
       "tier": "C",
       "strong_for": [
-        "Leona",
-        "Amumu",
-        "Rell",
-        "Maokai",
-        "Nautilus"
+        "雷歐娜",
+        "阿姆姆",
+        "銳兒",
+        "茂凱",
+        "納帝魯斯"
       ],
-      "summary": "Blitz Tier C - 推薦英雄: Leona, Amumu, Rell",
+      "summary": "硬控場或禁錮敵方英雄時對其施加一項燃燒效果，造成持續傷害，可無限累加。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Sonic Boom",
+      "augment_name_zh": "餘音震盪",
       "rarity": "Silver",
       "tier": "C",
       "strong_for": [
-        "Yuumi",
-        "Sona",
-        "Nami",
-        "Lulu",
-        "Soraka"
+        "悠咪",
+        "索娜",
+        "娜米",
+        "露璐",
+        "索拉卡"
       ],
-      "summary": "Blitz Tier C - 推薦英雄: Yuumi, Sona, Nami",
+      "summary": "強化、治療、或賦予友軍護盾時，會對友軍周圍的敵人造成傷害與緩速。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Adamant",
+      "augment_name_zh": "意志堅定",
       "rarity": "Silver",
       "tier": "C",
       "strong_for": [
-        "Leona",
-        "Rell",
-        "Rammus",
-        "Sejuani",
-        "Nautilus"
+        "雷歐娜",
+        "銳兒",
+        "拉姆斯",
+        "史瓦妮",
+        "納帝魯斯"
       ],
-      "summary": "Blitz Tier C - 推薦英雄: Leona, Rell, Rammus",
+      "summary": "每次硬控場或禁錮敵軍時，增加雙防。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Self Destruct",
+      "augment_name_zh": "自我毀滅",
       "rarity": "Silver",
       "tier": "C",
       "strong_for": [
-        "Malphite",
-        "Rammus",
-        "RekSai",
-        "Braum",
-        "Shaco"
+        "墨菲特",
+        "拉姆斯",
+        "雷珂煞",
+        "布郎姆",
+        "薩科"
       ],
-      "summary": "Blitz Tier C - 推薦英雄: Malphite, Rammus, RekSai",
+      "summary": "每25秒，在自身放置一顆炸彈。炸彈在5秒後爆炸，造成真實傷害並擊飛敵軍。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Stackosaurus Rex",
+      "augment_name_zh": "堆層暴龍",
       "rarity": "Silver",
       "tier": "D",
       "strong_for": [
-        "Smolder",
-        "AurelionSol",
-        "Nasus",
-        "Chogath",
-        "Veigar"
+        "史矛德",
+        "翱銳龍獸",
+        "納瑟斯",
+        "科加斯",
+        "維迦"
       ],
-      "summary": "Blitz Tier D - 推薦英雄: Smolder, AurelionSol, Nasus",
+      "summary": "永久獲得技能的堆層時，額外獲得75%！",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Don't Blink",
+      "augment_name_zh": "別眨眼",
       "rarity": "Silver",
       "tier": "D",
       "strong_for": [
-        "Lillia",
-        "Singed",
-        "Hecarim",
-        "Nunu",
-        "MasterYi"
+        "莉莉亞",
+        "辛吉德",
+        "赫克林",
+        "努努和威朗普",
+        "易大師"
       ],
-      "summary": "Blitz Tier D - 推薦英雄: Lillia, Singed, Hecarim",
+      "summary": "高出敵軍的跑速越多，造成的傷害越多。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Spin To Win",
+      "augment_name_zh": "一轉就贏",
       "rarity": "Silver",
       "tier": "D",
       "strong_for": [
-        "Garen",
-        "Lillia",
-        "Katarina",
-        "Hecarim",
-        "Kayn"
+        "蓋倫",
+        "莉莉亞",
+        "卡特蓮娜",
+        "赫克林",
+        "慨影"
       ],
-      "summary": "Blitz Tier D - 推薦英雄: Garen, Lillia, Katarina",
+      "summary": "旋轉技能增加30技能加速，並額外造成30%傷害！",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Upgrade Immolate",
+      "augment_name_zh": "升級獻祭",
       "rarity": "Silver",
       "tier": "D",
       "strong_for": [
-        "Ornn",
-        "Rammus",
-        "DrMundo",
-        "Sejuani",
-        "Amumu"
+        "鄂爾",
+        "拉姆斯",
+        "蒙多醫生",
+        "史瓦妮",
+        "阿姆姆"
       ],
-      "summary": "Blitz Tier D - 推薦英雄: Ornn, Rammus, DrMundo",
+      "summary": "虛偽光彩和日炎聖盾現在每有一名受到獻祭影響的目標，賦予10金錢。獲得250金錢。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Wind Beneath Blade",
+      "augment_name_zh": "刃下狂風",
       "rarity": "Silver",
       "tier": "D",
       "strong_for": [
-        "Pyke",
-        "Talon",
-        "Khazix",
-        "Jayce",
-        "Evelynn"
+        "派克",
+        "塔隆",
+        "卡力斯",
+        "杰西",
+        "伊芙琳"
       ],
-      "summary": "Blitz Tier D - 推薦英雄: Pyke, Talon, Khazix",
+      "summary": "物理穿透和魔法穿透越高，跑速越快。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Mighty Shield",
+      "augment_name_zh": "巨大盾牌",
       "rarity": "Silver",
       "tier": "D",
       "strong_for": [
-        "Diana",
-        "Riven",
-        "Mordekaiser",
-        "Ambessa",
-        "LeeSin"
+        "黛安娜",
+        "雷玟",
+        "魔鬥凱薩",
+        "安比薩",
+        "李星"
       ],
-      "summary": "Blitz Tier D - 推薦英雄: Diana, Riven, Mordekaiser",
+      "summary": "獲得護盾時，增加適性之力，持續3秒(冷卻時間5秒)。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "ReEnergize",
+      "augment_name_zh": "活力補給",
       "rarity": "Silver",
       "tier": "D",
       "strong_for": [
-        "Jhin",
-        "Caitlyn",
-        "Senna",
-        "Quinn",
-        "Smolder"
+        "燼",
+        "凱特琳",
+        "姍娜",
+        "葵恩",
+        "史矛德"
       ],
-      "summary": "Blitz Tier D - 推薦英雄: Jhin, Caitlyn, Senna",
+      "summary": "若當前目標非上次的目標，你的充能普攻會完全返還充能。充能普攻可造成額外傷害。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Flashbang",
+      "augment_name_zh": "閃光彈",
       "rarity": "Silver",
       "tier": "D",
       "strong_for": [
-        "Evelynn",
-        "Camille",
-        "LeeSin",
-        "Diana",
-        "Talon"
+        "伊芙琳",
+        "卡蜜兒",
+        "李星",
+        "黛安娜",
+        "塔隆"
       ],
-      "summary": "Blitz Tier D - 推薦英雄: Evelynn, Camille, LeeSin",
+      "summary": "閃現導致爆炸，會造成傷害並緩速。閃現會於每次死亡時重置。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Flash 2",
+      "augment_name_zh": "二次閃現",
       "rarity": "Silver",
       "tier": "D",
       "strong_for": [
-        "Kennen",
-        "Annie",
-        "Neeko",
-        "Blitzcrank",
-        "Malphite"
+        "凱能",
+        "安妮",
+        "妮可",
+        "布里茨",
+        "墨菲特"
       ],
-      "summary": "Blitz Tier D - 推薦英雄: Kennen, Annie, Neeko",
+      "summary": "獲得第二次閃現召喚師技能和70召喚師技能加速。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Repulsor",
+      "augment_name_zh": "反重力裝置",
       "rarity": "Silver",
       "tier": "D",
       "strong_for": [
-        "Renata",
-        "Velkoz",
-        "Nami",
-        "Heimerdinger",
-        "Janna"
+        "睿娜妲‧格萊斯克",
+        "威寇茲",
+        "娜米",
+        "漢默丁格",
+        "珍娜"
       ],
-      "summary": "Blitz Tier D - 推薦英雄: Renata, Velkoz, Nami",
+      "summary": "生命低於35%時，擊退鄰近敵軍並使其緩速90%。",
       "bugs": []
     },
     {
-      "augment_name_zh": "",
-      "augment_name_en": "Poltergeist",
+      "augment_name_zh": "搗蛋鬼",
       "rarity": "Silver",
       "tier": "D",
       "strong_for": [
-        "Singed",
-        "Olaf",
-        "Darius",
-        "Vladimir",
-        "Viktor"
+        "辛吉德",
+        "歐拉夫",
+        "達瑞斯",
+        "弗拉迪米爾",
+        "維克特"
       ],
-      "summary": "Blitz Tier D - 推薦英雄: Singed, Olaf, Darius",
+      "summary": "獲得召喚師技能「搗蛋鬼」。「搗蛋鬼」可施放召喚師技能「光盾」和「鬼步」。",
       "bugs": []
     }
   ],
