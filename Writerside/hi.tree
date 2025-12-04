@@ -567,7 +567,6 @@
             <toc-element toc-title="LoL">
                 <toc-element topic="Aram.md" />
                 <toc-element topic="Aram-maintain.md" toc-title="Aram 維護說明" />
-                <toc-element topic="Aram-kb.md" toc-title="ARAM 海克斯增幅知識庫" />
                 <toc-element topic="Aram.generated.md" toc-title="ARAM 自動生成文件" />
             </toc-element>
             <toc-element toc-title="FF14">
