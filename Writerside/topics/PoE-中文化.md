@@ -43,6 +43,54 @@ chmod +x ./PoeChinese3_osx-x64
 
 > **注意**：請根據你的實際安裝路徑修改上述指令中的路徑。
 
+### 5. 建立自動化腳本（可選）
+
+為了方便日後重複執行中文化工具，可以建立一個可執行腳本。
+
+#### 建立腳本檔案
+
+將以下內容存成 `~/Desktop/run-poe-chinese.command`：
+
+```bash
+#!/bin/bash
+
+# 切換到 PoeChinese3 的資料夾
+cd "/Users/jakeuj/Downloads/Heebo,Montserrat,Noto_Sans_Mono,Noto_Sans_TC 2/Noto_Sans_TC/PoeChinese3_osx-x64"
+
+# ggpk 檔案路徑
+GGPK_PATH="/Users/jakeuj/Applications/Sikarugir/PoE.app/Contents/SharedSupport/prefix/drive_c/Program Files (x86)/Grinding Gear Games/Path of Exile/Content.ggpk"
+
+# 主程式
+EXEC="./PoeChinese3_osx-x64"
+
+echo "Running PoeChinese3..."
+$EXEC "$GGPK_PATH"
+
+echo ""
+echo "=== Done ==="
+read -n 1 -s -r -p "Press any key to close"
+```
+
+#### 設定執行權限
+
+建立檔案後，在終端機執行：
+
+```bash
+chmod +x ~/Desktop/run-poe-chinese.command
+```
+
+#### 解除 macOS 安全性限制
+
+若雙擊出現「無法打開、因為無法確認開發者身分」，請解除隔離：
+
+```bash
+xattr -d com.apple.quarantine ~/Desktop/run-poe-chinese.command
+```
+
+#### 使用方式
+
+完成後直接雙擊 `run-poe-chinese.command` 即可啟動 PoeChinese3，並自動套用正體中文資料。
+
 ### 線上查詢
 
 直接訪問 [https://poedb.tw/tw/chinese](https://poedb.tw/tw/chinese) 即可查詢各種遊戲內容的中文翻譯。
