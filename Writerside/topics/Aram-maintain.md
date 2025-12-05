@@ -34,28 +34,50 @@
 3. 簡短的選擇理由
 
 【回答格式】
-因為選完角色馬上就要開打，請用以下格式快速回覆：
+因為選完角色馬上就要開打，請用以下「重點先行」格式回覆：
+
+---
 
 ## 🎮 [英雄名稱] - [Tier 等級]
 
-### ⭐ 推薦增幅（按優先順序）
-1. **[增幅名稱]**（[稀有度]）- [一句話理由]
-2. **[增幅名稱]**（[稀有度]）- [一句話理由]
-3. ...
+### ⭐ 核心增幅（優先拿）
+1. **[增幅名稱]**（[稀有度]）
+2. **[增幅名稱]**（[稀有度]）
+3. **[增幅名稱]**（[稀有度]）
 
-### 💡 快速提示
-- [1-2 句核心玩法建議]
+### 💡 一句話打法
+[10 字以內的核心策略]
+
+---
+
+<details>
+<summary>📖 詳細說明（有空再看）</summary>
+
+**定位**：[英雄定位與玩法風格]
+
+**Prismatic 推薦**
+- **[增幅名稱]**：[為什麼適合這個英雄]
+- ...
+
+**Gold / Silver 推薦**
+- **[增幅名稱]**：[效果與適配理由]
+- ...
+
+**不推薦 / 地雷**
+- [增幅名稱]：[為什麼不適合]
+
+</details>
 
 ---
 
 【查詢邏輯】
-1. 優先查《英雄 Tier 排名》確認英雄強度
-2. 查《英雄 × 海克斯建議索引》找該英雄的推薦增幅
-3. 若找不到該英雄，查《Augment → 英雄 / 類型 對照表》依英雄類型推薦
-4. 回答時使用繁體中文，語氣簡潔實戰向
+1. 優先查《英雄攻略索引》找該英雄的完整推薦
+2. 若找不到，查《英雄 Tier 排名》確認強度，再查《Augment 對照表》依英雄類型推薦
+3. 回答時使用繁體中文，語氣簡潔實戰向
 
 【重要原則】
-- 不要含糊其詞，要給出具體的增幅名稱和優先順序
+- 重點放最上面，詳細說明放 <details> 裡
+- 不要含糊其詞，要給出具體的增幅名稱
 - 先看英雄機制與玩法，再看稀有度
 - 放大英雄既有強項優先，補短板其次
 ```
@@ -86,20 +108,76 @@
 | `Aram-kb.md` | ChatGPT 知識庫（機器人用） | ✅ **必須** |
 | `Aram.md` | Writerside 網站文章（人類閱讀） | ❌ |
 | `Aram.generated.md` | 自動生成的 Writerside 文章 | ❌ |
-| `Aram-data.json` | 中介資料（給腳本用） | ❌ |
+| `Aram-data.json` | 整合資料（給腳本用） | ❌ |
+| `Aram-baha-raw.json` | 巴哈姆特原始留言 | ❌ |
 | `Aram-blitz-augments.json` | Blitz 增幅資料（英文） | ❌ |
 | `Aram-blitz-tierlist.json` | Blitz 英雄 Tier 資料 | ❌ |
 
 ### 2.2 資料流向圖
 
 ```
-資料來源                    中介資料                     輸出檔案
-─────────────────────────────────────────────────────────────────
-巴哈姆特討論串 ──┐
-                 ├──→ Aram-data.json ──┬──→ Aram-kb.md (ChatGPT 用)
-Blitz.gg ────────┘                     │
-                                       └──→ Aram.generated.md (Writerside 用)
+資料來源                原始資料 JSON              整合資料              輸出檔案
+───────────────────────────────────────────────────────────────────────────────────
+巴哈姆特討論串 ───→ Aram-baha-raw.json ──┐
+                                         │
+Blitz 增幅 ───────→ Aram-blitz-augments.json ├──→ Aram-data.json ──┬──→ Aram-kb.md
+                                         │                        │   (ChatGPT 用)
+Blitz Tier ───────→ Aram-blitz-tierlist.json ┘                    │
+                                                                   └──→ Aram.generated.md
+                                                                       (Writerside 用)
 ```
+
+### 2.3 原始資料檔案說明
+
+| 檔案 | 來源 | 內容 | 更新時機 |
+|------|------|------|----------|
+| `Aram-baha-raw.json` | 巴哈姆特 | 討論串原始留言（樓 + 留言） | 有新討論時 |
+| `Aram-blitz-augments.json` | Blitz.gg | 增幅名稱、Tier、推薦英雄 | 版本更新時 |
+| `Aram-blitz-tierlist.json` | Blitz.gg | 英雄 Tier 排名 | 版本更新時 |
+| `Aram-data.json` | 整合 | 整合上述資料 + 人工標註 | 任一來源更新時 |
+
+**優點**：
+- 原始資料與整合資料分離，除錯時可追溯來源
+- 不需重複爬取，節省 token
+- 各來源可獨立更新
+
+### 2.4 知識庫結構要求（Aram-kb.md）
+
+為了讓 ChatGPT 能回答詳細的英雄攻略，`Aram-kb.md` 必須包含以下章節：
+
+| 章節 | 內容 | 用途 |
+|------|------|------|
+| 英雄 Tier 排名 | S/A/B/C/D 分級 | 快速判斷英雄強度 |
+| **英雄攻略索引** | 每個英雄的詳細推薦 | **核心章節** |
+| Augment 對照表 | 增幅 → 適合英雄 | 反向查詢 |
+| Bug / 坑點整理 | 已知問題 | 避雷用 |
+
+#### 英雄攻略索引格式
+
+每個英雄應包含以下資訊（以札克為例）：
+
+```markdown
+### 札克 Zac
+
+- **Tier**：C
+- **定位**：高機動坦克兼開團者，依賴位移與自我治療
+- **核心關鍵字**：治療轉輸出、坦度、開團能力
+
+**Prismatic 推薦**
+- **死亡循環（Circle of Death）**：將自身治療量轉為範圍傷害，札克先天大量自我治療，這顆能把坦度轉化成輸出
+- 任何增加最大生命、治療量或強化開團能力的稜鏡
+
+**Gold / Silver 推薦**
+- **黎明使者之決意**：低血量時回復 30% 最大生命，配合被動更難死
+- **惡趣味**：硬控場時回復生命，開團同時補血
+- 提供生命、護甲、魔抗、治療加成的增幅
+
+**不推薦**
+- 純輸出型增幅（札克不是 Carry）
+- 需要疊層的任務型增幅（坦克難完成）
+```
+
+> **重點**：這個格式讓 ChatGPT 能回答「重點 + 詳細說明」兩層資訊。
 
 ---
 
@@ -210,31 +288,84 @@ Blitz.gg ────────┘                     │
 
 ## 4. 從巴哈抓取與解析留言的邏輯
 
-### 4.1 抓取
+### 4.1 巴哈姆特論壇結構
 
-1. 對目標頁面（`page=N`）使用網頁抓取工具取得 HTML。
-2. 僅保留「主文 + 各樓層留言」區塊：
-   - 含：樓層編號、作者、時間、GP、留言內容。
-   - 忽略：JS、CSS、廣告、導覽列等。
+巴哈姆特論壇採用三層結構：
 
-### 4.2 結構化留言
+```
+頁面 (Page)
+├── 樓 (Floor/Post) - 每頁約 20 樓
+│   ├── 主文內容
+│   └── 留言區 (Comments) - 預設隱藏，需展開
+│       ├── B1 留言
+│       ├── B2 留言
+│       └── ... (可能有數十則)
+```
 
-把每一則留言整理成類似下列結構（示意）：
+**重要**：每樓下方的留言預設是隱藏的，會顯示「還有 X 則留言」按鈕。
+
+### 4.2 抓取步驟（使用腳本 + AJAX API）
+
+腳本 `scrape_bahamut_aram.py` 已整合留言抓取功能，透過巴哈姆特的 AJAX API 自動取得所有留言：
+
+**留言 API**：
+```
+GET https://forum.gamer.com.tw/ajax/moreCommend.php?bsn=17532&snB={樓層ID}&returnHtml=1
+```
+
+**執行指令**：
+```bash
+# 完整抓取（包含留言）
+python3 scripts/scrape_bahamut_aram.py --force
+
+# 只更新留言（不抓取新樓層）
+python3 scripts/scrape_bahamut_aram.py --comments-only
+
+# 快速抓取（不抓留言）
+python3 scripts/scrape_bahamut_aram.py --no-comments
+```
+
+**腳本會自動**：
+1. 抓取每頁的樓層主文
+2. 從樓層連結取得 `snB`（樓層 ID）
+3. 呼叫 AJAX API 取得該樓的所有留言
+4. 解析 HTML 回應中的 `data-comment` JSON 屬性
+5. 儲存到 `Aram-baha-raw.json`
+
+### 4.3 資料結構
+
+`Aram-baha-raw.json` 的樓層結構：
 
 ```json
 {
-  "page": 3,
-  "floor": 41,
-  "author": "某ID",
-  "time": "2024-01-01 12:34",
-  "content": "這則留言的純文字內容（可視情況去掉引用與表情圖片）。"
+  "page": 1,
+  "floor": "樓主",
+  "snB": "6276939",
+  "author": "猛姜",
+  "time": "2025-10-25 21:22:49",
+  "content": "大混戰模式因為沒有符文的關係...",
+  "comments": [
+    { "floor": "B1", "author": "松鼠放電", "content": "雪球兔子有奇效" },
+    { "floor": "B2", "author": "那泥溝咧", "content": "確定有像競技場那樣的免控嗎？" },
+    ...
+  ]
 }
 ```
 
-### 4.3 抽取海克斯相關資訊
+| 欄位 | 說明 |
+|------|------|
+| `snB` | 樓層 ID，用於呼叫留言 API |
+| `comments` | 該樓的所有留言（透過 AJAX API 取得） |
+
+### 4.4 抽取海克斯相關資訊
 
 - 只處理含有明確「海克斯增幅裝置」資訊的句子
 - 純抱怨隊友／炫耀戰績的留言可忽略
+- **重點關注**：
+  - 英雄 + 增幅組合（如「札克 + 死亡循環」）
+  - 增幅效果說明或 Bug 回報
+  - 裝備搭配建議（如「終末戰戟 + 爆擊治療」）
+  - 不推薦的增幅（避雷資訊）
 
 ---
 
@@ -248,8 +379,56 @@ Blitz.gg ────────┘                     │
 |------|------|
 | `coverage` | 記錄資料來源與抓取範圍 |
 | `augments_summary` | 從 Blitz 抓取的增幅資料（繁體中文） |
-| `hero_synergy` | 從巴哈討論串萃取的英雄 × 增幅搭配 |
+| `hero_synergy` | 英雄 × 增幅搭配（**詳細結構見下方**） |
 | `raw_floors` | 巴哈原始留言（供後續萃取用） |
+
+#### hero_synergy 結構（重要）
+
+為了讓知識庫能呈現完整的英雄攻略，`hero_synergy` 每個英雄應包含：
+
+```json
+{
+  "hero": "札克",
+  "hero_en": "Zac",
+  "tier": "C",
+  "role": "高機動坦克兼開團者，依賴位移與自我治療",
+  "keywords": ["治療轉輸出", "坦度", "開團能力"],
+  "prismatic": [
+    {
+      "name": "死亡循環",
+      "name_en": "Circle of Death",
+      "reason": "將自身治療量轉為範圍傷害，札克先天大量自我治療，這顆能把坦度轉化成輸出"
+    },
+    {
+      "name": "蛋白飲",
+      "name_en": "Protein Shake",
+      "reason": "根據物防魔防增加治療量，坦裝越多回越多"
+    }
+  ],
+  "gold_silver": [
+    {
+      "name": "黎明使者之決意",
+      "reason": "低血量時回復 30% 最大生命，配合被動更難死"
+    },
+    {
+      "name": "惡趣味",
+      "reason": "硬控場時回復生命，開團同時補血"
+    }
+  ],
+  "not_recommended": [
+    {
+      "name": "純輸出型增幅",
+      "reason": "札克不是 Carry"
+    }
+  ],
+  "sources": [
+    { "from": "Bahamut", "page": 5, "floor": 23 },
+    { "from": "Aram.md", "section": "3.3" }
+  ]
+}
+```
+
+> **關鍵**：這個結構讓生成腳本可以自動產出「重點 + 詳細說明」兩層資訊的知識庫。
 
 ### 5.2 Python 腳本說明
 
@@ -398,16 +577,80 @@ ARAM-DATA-COVERAGE:
 
 ## 7. 更新流程總結
 
-### 7.1 更新 ChatGPT 知識庫
+### 7.1 環境設定（首次執行）
 
-1. 抓取最新資料（Blitz / 巴哈）
-2. 更新 `Aram-data.json`
-3. 重新生成 `Aram-kb.md`
-4. 到 [ChatGPT GPTs](https://chatgpt.com/gpts) 重新上傳 `Aram-kb.md`
+macOS 需要使用虛擬環境：
 
-### 7.2 更新 Writerside 文章
+```bash
+# 建立虛擬環境（只需執行一次）
+python3 -m venv .venv
 
-1. 抓取最新資料
-2. 更新 `Aram-data.json`
-3. 重新生成 `Aram.generated.md`
-4. 推送到 GitHub，自動部署到 GitHub Pages
+# 啟用虛擬環境
+source .venv/bin/activate
+
+# 安裝依賴
+pip install requests beautifulsoup4
+```
+
+之後每次執行腳本前，記得先啟用虛擬環境：
+
+```bash
+source .venv/bin/activate
+```
+
+### 7.2 完整更新流程（腳本執行順序）
+
+```bash
+# 1. 抓取巴哈姆特最新資料（增量更新，只抓新內容）
+python3 scripts/scrape_bahamut_aram.py
+
+# 2. 從原始資料萃取英雄/增幅資訊，更新到 Aram-data.json
+python3 scripts/extract_aram_insights.py
+
+# 3. 生成 ChatGPT 知識庫
+python3 scripts/generate_aram_kb_from_json.py
+
+# 4. 生成 Writerside 文章
+python3 scripts/generate_aram_from_json.py
+```
+
+### 7.3 腳本說明
+
+| 腳本 | 輸入 | 輸出 | 說明 |
+|------|------|------|------|
+| `scrape_bahamut_aram.py` | 巴哈姆特網頁 | `Aram-baha-raw.json` | 增量抓取，記錄進度 |
+| `extract_aram_insights.py` | `Aram-baha-raw.json` | `Aram-data.json` | 萃取英雄/增幅資訊 |
+| `generate_aram_kb_from_json.py` | `Aram-data.json` | `Aram-kb.md` | 生成 ChatGPT 知識庫 |
+| `generate_aram_from_json.py` | `Aram-data.json` | `Aram.generated.md` | 生成 Writerside 文章 |
+
+### 7.4 增量更新選項
+
+```bash
+# 預設：從上次進度繼續
+python3 scripts/scrape_bahamut_aram.py
+
+# 只抓新頁面
+python3 scripts/scrape_bahamut_aram.py --new-only
+
+# 強制重新抓取全部
+python3 scripts/scrape_bahamut_aram.py --force
+
+# 指定頁面範圍
+python3 scripts/scrape_bahamut_aram.py --from-page 10 --to-page 15
+```
+
+### 7.5 上傳 ChatGPT 知識庫
+
+1. 前往 [ChatGPT GPTs](https://chatgpt.com/gpts)
+2. 編輯你的 GPT
+3. 在「知識」區塊上傳 `Writerside/topics/Aram-kb.md`
+4. 儲存並發布
+
+### 7.6 更新 Writerside 文章
+
+```bash
+# 推送到 GitHub，自動部署到 GitHub Pages
+git add .
+git commit -m "更新 ARAM 資料"
+git push
+```

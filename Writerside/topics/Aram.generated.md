@@ -1,7 +1,7 @@
 <!--
 ARAM-DATA-COVERAGE:
 {
-  "note": "SCRAPED_FROM_BAHAMUT",
+  "note": "整合自多個原始資料來源",
   "bahamut": {
     "bsn": 17532,
     "snA": 705476,
@@ -9,13 +9,23 @@ ARAM-DATA-COVERAGE:
     "to_page": 15,
     "last_page": 15,
     "last_floor": 0,
-    "last_url": "https://forum.gamer.com.tw/C.php?bsn=17532&snA=705476&page=15"
+    "last_url": "https://forum.gamer.com.tw/C.php?bsn=17532&snA=705476&page=15",
+    "raw_data_file": "Aram-baha-raw.json"
   },
   "last_updated": "2025-12-04",
-  "blitz": {
+  "blitz_augments": {
     "url": "https://blitz.gg/lol/aram-mayhem-augments",
     "augment_count": 156,
-    "last_updated": "2025-12-04"
+    "last_updated": "2025-12-04",
+    "language": "zh-TW",
+    "raw_data_file": "Aram-blitz-augments.json"
+  },
+  "blitz_tierlist": {
+    "url": "https://blitz.gg/lol/tierlist/aram-mayhem",
+    "patch": "25.24 (15.24)",
+    "champion_count": 172,
+    "last_updated": "2025-12-04",
+    "raw_data_file": "Aram-blitz-tierlist.json"
   }
 }
 -->
@@ -36,14 +46,14 @@ ARAM-DATA-COVERAGE:
 
 ### 英雄：雷茲 Ryze
 
-- 主要核心海克斯：魔力轉血量、物轉法、溢流、Omni Soul、回歸基本功、技能急速類海克斯、水龍魂、基本功
+- 主要核心海克斯：技能急速類海克斯、Omni Soul、基本功、溢流、水龍魂、魔力轉血量、回歸基本功、物轉法
 
 **玩法與選擇說明**
 
 持續輸出型法師，優先選擇提升 Q/W/E 非大絕技能輸出與技能急速的增幅，其次是 AP與穿透。
 
 
-### 英雄：剛普拉克 Gangplank
+### 英雄：剛普朗克 Gangplank
 
 - 主要核心海克斯：基本功、暴擊與穿透類海克斯
 
@@ -54,7 +64,7 @@ ARAM-DATA-COVERAGE:
 
 ### 英雄：札克 Zac
 
-- 主要核心海克斯：死亡循環、回血類海克斯
+- 主要核心海克斯：回血類海克斯、死亡循環、拔劍、帽上加帽、煉獄、封我為王
 
 **玩法與選擇說明**
 
@@ -72,7 +82,7 @@ ARAM-DATA-COVERAGE:
 
 ### 英雄：烏迪爾
 
-- 主要核心海克斯：幻影武器
+- 主要核心海克斯：幻影武器、溢流
 
 **玩法與選擇說明**
 
@@ -90,7 +100,7 @@ ARAM-DATA-COVERAGE:
 
 ### 英雄：火人
 
-- 主要核心海克斯：雪地、導彈、物轉魔、煉獄
+- 主要核心海克斯：物轉魔、煉獄、導彈、雪地
 
 **玩法與選擇說明**
 
@@ -99,7 +109,7 @@ ARAM-DATA-COVERAGE:
 
 ### 英雄：汎
 
-- 主要核心海克斯：輕舞飛揚
+- 主要核心海克斯：狂躁、拔劍、輕舞飛揚
 
 **玩法與選擇說明**
 
@@ -124,793 +134,818 @@ ARAM-DATA-COVERAGE:
 (自動從巴哈討論串萃取)
 
 
+### 英雄：煞蜜拉
+
+- 主要核心海克斯：拔劍、基本功、輕舞飛揚
+
+**玩法與選擇說明**
+
+(自動從巴哈討論串萃取)
+
+
+### 英雄：凱特琳
+
+- 主要核心海克斯：拔劍、超狙
+
+**玩法與選擇說明**
+
+(自動從巴哈討論串萃取)
+
+
+### 英雄：燼
+
+- 主要核心海克斯：拔劍、超狙、狂躁、溢流
+
+**玩法與選擇說明**
+
+(自動從巴哈討論串萃取)
+
+
 
 
 ## 代表性海克斯增幅摘要
 
 > 本章內容由中介 JSON (`augments_summary`) 自動生成。
 
-### Back To Basics（基本功）
+### 巨人殺手
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：雷茲、剛普拉克
-- 摘要：大幅提升 Q/W/E 技能輸出，在吃技能係數的英雄身上上限極高。
-- 已知問題：
-  - 剛普拉克桶子會疊加增傷，使 3 連桶 > 2 連 > 單桶，接近 Bug 級互動。
+- 推薦英雄 / 類型：剛普朗克、莉莉亞、婕莉、燼、杰西
+- 摘要：體型變小，增加跑速，並根據目標英雄與你的體型差距造成額外傷害。
 
-### Circle of Death（死亡循環）
+### 靈光一閃
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：札克、蒙多、高自療坦克
-- 摘要：將自身治療量的一部分轉為範圍傷害，對高自療坦克來說可同時拉高坦度與輸出。
+- 推薦英雄 / 類型：維迦、星朵拉、極靈、雷茲、維克特
+- 摘要：增加相當於30%魔攻的技能加速。
 
-### Draw Your Sword（拔劍吧）
+### 煉獄使者
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：煞蜜拉、願意改打近戰的射手
-- 摘要：將射手轉為近戰，依照放棄射程給予 AD / 攻速 / 血量 / 吸血 / 移速加成，適合敢進場的近戰輸出型射手。
+- 推薦英雄 / 類型：布蘭德、馬爾札哈、枷蘿、翱銳龍獸、莉莉亞
+- 摘要：你的技能會造成可累加的燃燒，此效果會持續造成傷害。自身造成的燃燒效果可降低基礎技能冷卻時間。
 
-### Omni Soul（Omni Soul）
+### 巨人
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：雷茲、持續作戰型法師、需要拖後期的陣容
-- 摘要：一次取得多種龍魂被動，整體提升輸出、續戰與坦度，適合節奏偏長且需要全方位強化的陣容。
+- 推薦英雄 / 類型：蒙多醫生、鄂爾、布郎姆、史瓦妮、拉姆斯
+- 摘要：體型變大，增加35%生命及15%適性之力。
 
-### Giant Slayer（）
+### 寶石手套
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Gangplank、Lillia、Zeri、Jhin、Jayce
-- 摘要：Blitz Tier S - 推薦英雄: Gangplank, Lillia, Zeri
+- 推薦英雄 / 類型：杰西、柔依、雷茲、剛普朗克、卡爾瑟斯
+- 摘要：技能可以暴擊。增加25%暴擊率。
 
-### Eureka（）
+### 雙刀流
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Veigar、Syndra、Zilean、Ryze、Viktor
-- 摘要：Blitz Tier S - 推薦英雄: Veigar, Syndra, Zilean
+- 推薦英雄 / 類型：埃可尚、汎、吉茵珂絲、艾希、崔絲塔娜
+- 摘要：普攻會射出第二發箭矢，施加on hit但威力減弱。增加20%總攻速。
 
-### Infernal Conduit（）
+### 最終型態
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Brand、Malzahar、Zyra、AurelionSol、Lillia
-- 摘要：Blitz Tier S - 推薦英雄: Brand, Malzahar, Zyra
+- 推薦英雄 / 類型：厄薩斯、卡薩丁、歐拉夫、娜菲芮、煞蜜拉
+- 摘要：施放大絕後，獲得最大生命護盾、全能吸血以及跑速，持續10秒。
 
-### Goliath（）
+### 頂狙武器
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：DrMundo、Ornn、Braum、Sejuani、Rammus
-- 摘要：Blitz Tier S - 推薦英雄: DrMundo, Ornn, Braum
+- 推薦英雄 / 類型：凱特琳、吉茵珂絲、燼、崔絲塔娜、亞菲利歐
+- 摘要：增加250攻擊距離，遠攻英雄則減至150。
 
-### Jeweled Gauntlet（）
+### 輕舞飛揚
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Jayce、Zoe、Ryze、Gangplank、Karthus
-- 摘要：Blitz Tier S - 推薦英雄: Jayce, Zoe, Ryze
+- 推薦英雄 / 類型：婕莉、吉茵珂絲、克黎思妲、艾希、希維爾
+- 摘要：普攻可增加跑速。根據跑速獲得攻速。
 
-### Dual Wield（）
+### 戰爭交響曲
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Akshan、Vayne、Jinx、Ashe、Tristana
-- 摘要：Blitz Tier A - 推薦英雄: Akshan, Vayne, Jinx
+- 推薦英雄 / 類型：婕莉、亞菲利歐、犽宿、犽凝、薩亨
+- 摘要：獲得致命節奏與征服者關鍵符文。
 
-### Final Form（）
+### 任務：烏莉特的法帽
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Aatrox、Kassadin、Olaf、Naafiri、Samira
-- 摘要：Blitz Tier A - 推薦英雄: Aatrox, Kassadin, Olaf
+- 推薦英雄 / 類型：維迦、柔依、麗珊卓、星朵拉、維克特
+- 摘要：立即：獲得巨型魔棒。資格：擁有死亡之帽和中婭沙漏。獎勵：獲得烏莉特的法帽
 
-### Scopiest Weapons（）
+### 全能之魂
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Caitlyn、Jinx、Jhin、Tristana、Aphelios
-- 摘要：Blitz Tier A - 推薦英雄: Caitlyn, Jinx, Jhin
+- 推薦英雄 / 類型：約瑞科、伊莉絲、杰西、剛普朗克、希瓦娜
+- 摘要：獲得3個隨機龍魂。
 
-### Tap Dancer（）
+### 小丑學院
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Zeri、Jinx、Kalista、Ashe、Sivir
-- 摘要：Blitz Tier A - 推薦英雄: Zeri, Jinx, Kalista
+- 推薦英雄 / 類型：卡力斯、塔隆、薩科、姬亞娜、劫
+- 摘要：獲得「欺詐魔術」召喚師技能。獲得「背刺」被動技能。死亡時生成一個會爆炸的盒子，對鄰近敵軍造成大量真實傷害和恐懼效果。
 
-### Symphony of War（）
+### 質變：大混亂
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Zeri、Aphelios、Yasuo、Yone、Zaahen
-- 摘要：Blitz Tier A - 推薦英雄: Zeri, Aphelios, Yasuo
+- 推薦英雄 / 類型：約瑞科、杰西、雷珂煞、蓋倫、剛普朗克
+- 摘要：獲得2件隨機增幅裝置。
 
-### Quest: Wooglet's Witchcap（）
+### 細煮慢燉
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Veigar、Zoe、Lissandra、Syndra、Viktor
-- 摘要：Blitz Tier B - 推薦英雄: Veigar, Zoe, Lissandra
+- 推薦英雄 / 類型：鄂爾、拉姆斯、史瓦妮、布郎姆、雷歐娜
+- 摘要：每秒對鄰近敵方英雄附加可無限累加的燃燒，傷害隨你的最大生命成長。
 
-### Clown College（）
+### 殘忍
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Khazix、Talon、Shaco、Qiyana、Zed
-- 摘要：Blitz Tier B - 推薦英雄: Khazix, Talon, Shaco
+- 推薦英雄 / 類型：銳兒、麗珊卓、雷歐娜、加里歐、亞歷斯塔
+- 摘要：當你硬控場或禁錮英雄時，召喚一顆於短暫延遲後墜落的彗星，在範圍內造成魔法傷害。
 
-### Transmute: Chaos（）
+### 衝鋒
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Yorick、Jayce、RekSai、Garen、Gangplank
-- 摘要：Blitz Tier B - 推薦英雄: Yorick, Jayce, RekSai
+- 推薦英雄 / 類型：雷玟、飛斯、慨影、姬亞娜、派克
+- 摘要：施放衝刺、跳躍、閃現或傳送技能會獲得175技能加速。
 
-### Slow Cooker（）
+### 大絕覺醒
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Ornn、Rammus、Sejuani、Braum、Leona
-- 摘要：Blitz Tier B - 推薦英雄: Ornn, Rammus, Sejuani
+- 推薦英雄 / 類型：睿娜妲‧格萊斯克、劫、塔隆、提摩、拉克絲
+- 摘要：增加30大絕加速。施放大絕後，重置基礎技能並增加300基礎技能加速，持續15秒(冷卻時間20秒)。
 
-### Cruelty（）
+### 旋風鎚
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Rell、Lissandra、Leona、Galio、Alistar
-- 摘要：Blitz Tier B - 推薦英雄: Rell, Lissandra, Leona
+- 推薦英雄 / 類型：埃可尚、凱特琳、燼、汎、葵恩
+- 摘要：普攻會射出5額外閃電，這些閃電的傷害量會隨距離增加。每個方向的冷卻時間各不相同。
 
-### Dashing（）
+### 終極革新
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Riven、Fizz、Kayn、Qiyana、Pyke
-- 摘要：Blitz Tier B - 推薦英雄: Riven, Fizz, Kayn
+- 推薦英雄 / 類型：卡爾瑟斯、墨菲特、睿娜妲‧格萊斯克、藍寶、阿姆姆
+- 摘要：在施放大絕後重置其冷卻時間。(冷卻時間：75秒，或在死亡時重置)
 
-### Ultimate Awakening（）
+### 彈幕神童
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Renata、Zed、Talon、Teemo、Lux
-- 摘要：Blitz Tier B - 推薦英雄: Renata, Zed, Talon
+- 推薦英雄 / 類型：杰西、齊勒斯、奈德麗、希格斯、伊澤瑞爾
+- 摘要：從遠處對敵方英雄造成傷害後，向對方發射精準彈幕。
 
-### Fan The Hammer（）
+### 祕術拳擊
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Akshan、Caitlyn、Jhin、Vayne、Quinn
-- 摘要：Blitz Tier B - 推薦英雄: Akshan, Caitlyn, Jhin
+- 推薦英雄 / 類型：赫克林、易大師、賈克斯、伊澤瑞爾、薩亨
+- 摘要：on hit時縮短基礎技能20%剩餘的冷卻時間。
 
-### Ultimate Revolution（）
+### 瘋狂科學家
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Karthus、Malphite、Renata、Rumble、Amumu
-- 摘要：Blitz Tier B - 推薦英雄: Karthus, Malphite, Renata
+- 推薦英雄 / 類型：辛吉德、貪啃奇、赫克林、蓋倫、賽特
+- 摘要：每次復活時，體型變大(增加適性之力及生命)或變小(增加技能加速及跑速)。
 
-### Trueshot Prodigy（）
+### 深割
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Jayce、Xerath、Nidalee、Ziggs、Ezreal
-- 摘要：Blitz Tier B - 推薦英雄: Jayce, Xerath, Nidalee
+- 推薦英雄 / 類型：拉姆斯、特朗德、貝爾薇斯、蓋倫、歐拉夫
+- 摘要：增加50%攻速。命中時造成真實傷害，傷害隨物防增加。
 
-### Mystic Punch（）
+### 大地覺醒
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Hecarim、MasterYi、Jax、Ezreal、Zaahen
-- 摘要：Blitz Tier B - 推薦英雄: Hecarim, MasterYi, Jax
+- 推薦英雄 / 類型：安比薩、雷玟、李星、派克、卡薩丁
+- 摘要：施放衝刺、閃現或傳送技能後會留下軌跡，軌跡會在0.75秒後引爆。
 
-### Mad Scientist（）
+### 不祥契約
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Singed、TahmKench、Hecarim、Garen、Sett
-- 摘要：Blitz Tier C - 推薦英雄: Singed, TahmKench, Hecarim
+- 推薦英雄 / 類型：弗拉迪米爾、辛吉德、莉莉亞、斯溫、雷茲
+- 摘要：根據已損失生命獲得魔攻、跑速，以及全能吸血，每次施放技能都會受到傷害。
 
-### Gash（）
+### 巨像之勇氣
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Rammus、Trundle、Belveth、Garen、Olaf
-- 摘要：Blitz Tier C - 推薦英雄: Rammus, Trundle, Belveth
+- 推薦英雄 / 類型：雷歐娜、銳兒、史瓦妮、納帝魯斯、加里歐
+- 摘要：在硬控場或禁錮敵方英雄後獲得護盾。
 
-### Earthwake（）
+### 劍舞之心
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Ambessa、Riven、LeeSin、Pyke、Kassadin
-- 摘要：Blitz Tier C - 推薦英雄: Ambessa, Riven, LeeSin
+- 推薦英雄 / 類型：菲歐拉、蓋倫、夜曲、李星、卡蜜兒
+- 摘要：獲得召喚師技能華爾茲劍舞。
 
-### Ominous Pact（）
+### 地獄三頭犬
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Vladimir、Singed、Lillia、Swain、Ryze
-- 摘要：Blitz Tier C - 推薦英雄: Vladimir, Singed, Lillia
+- 推薦英雄 / 類型：達瑞文、夜曲、葵恩、埃可尚、崔絲塔娜
+- 摘要：獲得刀鋒之雹及強攻關鍵符文。
 
-### Courage of the Colossus（）
+### 妖精魔法
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Leona、Rell、Sejuani、Nautilus、Galio
-- 摘要：Blitz Tier C - 推薦英雄: Leona, Rell, Sejuani
+- 推薦英雄 / 類型：艾妮維亞、卡特蓮娜、費德提克、凱能、煞蜜拉
+- 摘要：使用大絕造成傷害會變形敵軍幾秒。
 
-### Blade Waltz（）
+### 蛋白飲
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Fiora、Garen、Nocturne、LeeSin、Camille
-- 摘要：Blitz Tier C - 推薦英雄: Fiora, Garen, Nocturne
+- 推薦英雄 / 類型：蒙多醫生、卡桑帝、札克、塔里克、貪啃奇
+- 摘要：根據額外物防和魔防，增加治療量和護盾量。
 
-### Cerberus（）
+### 碰不到的
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Draven、Nocturne、Quinn、Akshan、Tristana
-- 摘要：Blitz Tier C - 推薦英雄: Draven, Nocturne, Quinn
+- 推薦英雄 / 類型：煞蜜拉、卡特蓮娜、卡薩丁、凱能、努努和威朗普
+- 摘要：施放大絕時，進入無敵狀態，持續一小段時間。
 
-### Fey Magic（）
+### 量子計算
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Anivia、Katarina、Fiddlesticks、Kennen、Samira
-- 摘要：Blitz Tier C - 推薦英雄: Anivia, Katarina, Fiddlesticks
+- 推薦英雄 / 類型：卡蜜兒、波比、雷珂煞、嘉文四世、史加納
+- 摘要：定期自動施放一次大範圍斬擊。敵軍遭命中時會緩速，額外承受最大生命傷害，並讓你回復生命。
 
-### Protein Shake（）
+### 雙修大師
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：DrMundo、KSante、Zac、Taric、TahmKench
-- 摘要：Blitz Tier C - 推薦英雄: DrMundo, KSante, Zac
+- 推薦英雄 / 類型：伊澤瑞爾、凱爾、凱莎、巴德、逆命
+- 摘要：普攻可累加魔攻，技能則可增加物攻。
 
-### Cant Touch This（）
+### 玻璃大砲
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Samira、Katarina、Kassadin、Kennen、Nunu
-- 摘要：Blitz Tier C - 推薦英雄: Samira, Katarina, Kassadin
+- 推薦英雄 / 類型：卡爾瑟斯、剛普朗克、杰西、齊勒斯、柔依
+- 摘要：降低最大生命30%。額外造成15%的真實傷害。
 
-### Quantum Computing（）
+### 拔劍吧
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Camille、Poppy、RekSai、JarvanIV、Skarner
-- 摘要：Blitz Tier C - 推薦英雄: Camille, Poppy, RekSai
+- 推薦英雄 / 類型：葛雷夫、煞蜜拉、烏爾加特、伊澤瑞爾、庫奇
+- 摘要：變為近戰並增加物攻、生命、攻速、吸血以及跑速(成長幅度取決於你犧牲的距離)。
 
-### Master of Duality（）
+### 基本功夫
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Ezreal、Kayle、Kaisa、Bard、TwistedFate
-- 摘要：Blitz Tier C - 推薦英雄: Ezreal, Kayle, Kaisa
+- 推薦英雄 / 類型：雷茲、塔莉雅、剛普朗克、逆命、潘森
+- 摘要：增加技能傷害、治療、護盾，並獲得技能加速，但無法使用大絕。
 
-### Glass Cannon（）
+### 升級米凱的祝福
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Karthus、Gangplank、Jayce、Xerath、Zoe
-- 摘要：Blitz Tier C - 推薦英雄: Karthus, Gangplank, Jayce
+- 推薦英雄 / 類型：悠咪、露璐、索拉卡、睿娜妲‧格萊斯克、埃爾文
+- 摘要：獲得米凱的祝福。米凱的祝福冷卻時間降至45秒。道具發動時，可淨化限制與硬控場效果，並治療範圍內的友軍。
 
-### Upgrade Mikael's Blessing（）
+### 風語者的祝福
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Yuumi、Lulu、Soraka、Renata、Ivern
-- 摘要：Blitz Tier D - 推薦英雄: Yuumi, Lulu, Soraka
+- 推薦英雄 / 類型：索拉卡、埃爾文、悠咪、露璐、索娜
+- 摘要：治療與護盾效果同時會增加目標的物理防禦與魔法防禦3秒。
 
-### Windspeaker's Blessing（）
+### 任務：阿福英雄
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Soraka、Ivern、Yuumi、Lulu、Sona
-- 摘要：Blitz Tier D - 推薦英雄: Soraka, Ivern, Yuumi
+- 推薦英雄 / 類型：卡蜜兒、達瑞斯、杰西、約瑞科、卡力斯
+- 摘要：條件：參與擊殺18次。獎勵：黃金鍋鏟
 
-### Quest: Urf's Champion（）
+### 封我為王
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Camille、Darius、Jayce、Yorick、Khazix
-- 摘要：Blitz Tier D - 推薦英雄: Camille, Darius, Jayce
+- 推薦英雄 / 類型：派克、卡力斯、賽恩、逆命、潘森
+- 摘要：首次使用傳說道具傳送敵軍後，你將加冕為王、升級道具，並獲得一件隨機稜鏡增幅裝置。
 
-### King Me（）
+### 死亡循環
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Pyke、Khazix、Sion、TwistedFate、Pantheon
-- 摘要：Blitz Tier D - 推薦英雄: Pyke, Khazix, Sion
+- 推薦英雄 / 類型：札克、斯溫、索拉卡、弗拉迪米爾、索娜
+- 摘要：你施展的治療和生命回復也會對最靠近的敵方英雄造成魔法傷害。
 
-### Feel the Burn（）
+### 燒起來吧
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Renata、Yuumi、Lulu、Zilean、Ivern
-- 摘要：Blitz Tier D - 推薦英雄: Renata, Yuumi, Lulu
+- 推薦英雄 / 類型：睿娜妲‧格萊斯克、悠咪、露璐、極靈、埃爾文
+- 摘要：獲得感受灼燒召喚師技能。施放感受灼燒後，對所有鄰近敵方英雄施放點燃及虛弱。
 
-### Goldrend（）
+### 黃金撕裂
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：TwistedFate、Taliyah、Gangplank、Ezreal、Smolder
-- 摘要：Blitz Tier D - 推薦英雄: TwistedFate, Taliyah, Gangplank
+- 推薦英雄 / 類型：逆命、塔莉雅、剛普朗克、伊澤瑞爾、史矛德
+- 摘要：以普攻或技能傷害英雄時造成額外魔法傷害，獲得金錢和跑速。
 
-### Biggest Snowball Ever（）
+### 巨無霸雪球
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Nunu、Poppy、Neeko、Blitzcrank、Skarner
-- 摘要：Blitz Tier D - 推薦英雄: Nunu, Poppy, Neeko
+- 推薦英雄 / 類型：努努和威朗普、波比、妮可、布里茨、史加納
+- 摘要：雪球增加100技能加速。你的雪球超大且會穿過士兵。雪球會緩速、擊飛英雄並造成額外傷害。若你沒有雪球就會獲得一顆雪球。
 
-### Orbital Laser（）
+### 衛星雷射炮
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Zilean、Bard、AurelionSol、Renata、Anivia
-- 摘要：Blitz Tier D - 推薦英雄: Zilean, Bard, AurelionSol
+- 推薦英雄 / 類型：極靈、巴德、翱銳龍獸、睿娜妲‧格萊斯克、艾妮維亞
+- 摘要：獲得衛星雷射炮召喚師技能。在短暫延遲後，發射衛星雷射炮，造成25%最大生命的真實傷害。
 
-### I'm a Baby Kitty Where is Mama（）
+### 我是小貓咪媽咪在哪裡
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Yuumi、Soraka、Lulu、Nami、Milio
-- 摘要：Blitz Tier D - 推薦英雄: Yuumi, Soraka, Lulu
+- 推薦英雄 / 類型：悠咪、索拉卡、露璐、娜米、米里歐
+- 摘要：站在友軍旁會將其標記為媽媽。向媽媽移動時會增加跑速。接近媽媽時增加跑速以及治療量和護盾量。
 
-### Snowball Roulette（）
+### 雪球輪盤
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Neeko、Nunu、Poppy、Braum、Udyr
-- 摘要：Blitz Tier D - 推薦英雄: Neeko, Nunu, Poppy
+- 推薦英雄 / 類型：妮可、努努和威朗普、波比、布郎姆、烏迪爾
+- 摘要：雪球獲得100技能加速。命中敵軍後，對自己隨機施放一個有益的召喚師技能，並對目標隨機施放一個有害的召喚師技能。
 
-### Empyrean Promise（）
+### 幻焰之誓
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Soraka、Nami、Sona、Lulu、Milio
-- 摘要：Blitz Tier D - 推薦英雄: Soraka, Nami, Sona
+- 推薦英雄 / 類型：索拉卡、娜米、索娜、露璐、米里歐
+- 摘要：增加15%治療量和護盾量。獲得幻焰之誓召喚師技能。全神貫注傳送到友軍身旁，抵達時獲得護盾，持續3秒。
 
-### Laser Heal（）
+### 雷射治療
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Yuumi、Soraka、Janna、Ivern、Renata
-- 摘要：Blitz Tier D - 推薦英雄: Yuumi, Soraka, Janna
+- 推薦英雄 / 類型：悠咪、索拉卡、珍娜、埃爾文、睿娜妲‧格萊斯克
+- 摘要：施放持續2.5秒的治療雷射，為友軍回復生命、對敵軍造成魔法傷害和緩速效果。
 
-### Pandora's Box（）
+### 潘朵拉的寶盒
 - 稀有度：Prismatic
-- 推薦英雄 / 類型：Talon、Khazix、Pyke、Qiyana、Zed
-- 摘要：Blitz Tier D - 推薦英雄: Talon, Khazix, Pyke
+- 推薦英雄 / 類型：塔隆、卡力斯、派克、姬亞娜、劫
+- 摘要：將所有的增幅裝置物轉化為隨機稜鏡增幅裝置。
 
-### Transmute: Prismatic（）
+### 質變：稜鏡
 - 稀有度：Gold
-- 推薦英雄 / 類型：AurelionSol、Karthus、Singed、Taliyah、RekSai
-- 摘要：Blitz Tier S - 推薦英雄: AurelionSol, Karthus, Singed
+- 推薦英雄 / 類型：翱銳龍獸、卡爾瑟斯、辛吉德、塔莉雅、雷珂煞
+- 摘要：獲得一件隨機稜鏡增幅裝置。
 
-### Scopier Weapons（）
+### 超狙武器
 - 稀有度：Gold
-- 推薦英雄 / 類型：Tristana、Jinx、Caitlyn、Aphelios、Jhin
-- 摘要：Blitz Tier S - 推薦英雄: Tristana, Jinx, Caitlyn
+- 推薦英雄 / 類型：崔絲塔娜、吉茵珂絲、凱特琳、亞菲利歐、燼
+- 摘要：增加200攻擊距離，遠攻英雄則減至增加100攻擊距離。
 
-### Magic Missile（）
+### 魔法導彈
 - 稀有度：Gold
-- 推薦英雄 / 類型：Taliyah、Brand、Hwei、Malzahar、Zyra
-- 摘要：Blitz Tier S - 推薦英雄: Taliyah, Brand, Hwei
+- 推薦英雄 / 類型：塔莉雅、布蘭德、赫威、馬爾札哈、枷蘿
+- 摘要：使用技能造成傷害會對命中的敵軍發射3枚魔法飛彈，每發會根據飛行距離造成部分最大生命的真實傷害。
 
-### Recursion（）
+### 循環利用
 - 稀有度：Gold
-- 推薦英雄 / 類型：Zilean、Vladimir、Syndra、Taliyah、Veigar
-- 摘要：Blitz Tier S - 推薦英雄: Zilean, Vladimir, Syndra
+- 推薦英雄 / 類型：極靈、弗拉迪米爾、星朵拉、塔莉雅、維迦
+- 摘要：增加60技能加速。
 
-### Vampirism（）
+### 吸血迷信
 - 稀有度：Gold
-- 推薦英雄 / 類型：Aatrox、Briar、Ambessa、Kayn、Zaahen
-- 摘要：Blitz Tier S - 推薦英雄: Aatrox, Briar, Ambessa
+- 推薦英雄 / 類型：厄薩斯、布蕾爾、安比薩、慨影、薩亨
+- 摘要：你無法被友軍治療，也無法獲得任何生命回復。獲得30%全能吸血效果。
 
-### It's Killing Time（）
+### 殺戮時間
 - 稀有度：Gold
-- 推薦英雄 / 類型：Karthus、Kennen、Fiddlesticks、Rumble、Anivia
-- 摘要：Blitz Tier S - 推薦英雄: Karthus, Kennen, Fiddlesticks
+- 推薦英雄 / 類型：卡爾瑟斯、凱能、費德提克、藍寶、艾妮維亞
+- 摘要：施放大絕後，對所有敵方英雄附加死亡標記。被標記後，會儲存對敵方英雄的部分傷害，並在標記結束後引爆傷害。
 
-### Critical Rhythm（）
+### 暴擊節奏
 - 稀有度：Gold
-- 推薦英雄 / 類型：Jinx、Tristana、Xayah、Aphelios、Quinn
-- 摘要：Blitz Tier S - 推薦英雄: Jinx, Tristana, Xayah
+- 推薦英雄 / 類型：吉茵珂絲、崔絲塔娜、剎雅、亞菲利歐、葵恩
+- 摘要：增加25%暴擊率。你的普攻暴擊時會累加攻速。
 
-### Lightning Strikes（）
+### 電光石火
 - 稀有度：Gold
-- 推薦英雄 / 類型：Belveth、Kalista、Jinx、Tristana、Vayne
-- 摘要：Blitz Tier S - 推薦英雄: Belveth, Kalista, Jinx
+- 推薦英雄 / 類型：貝爾薇斯、克黎思妲、吉茵珂絲、崔絲塔娜、汎
+- 摘要：增加20%總攻速。每秒普攻次數達一定次數時，造成額外魔法傷害on hit。
 
-### Executioner（）
+### 處刑者
 - 稀有度：Gold
-- 推薦英雄 / 類型：Zed、Talon、Khazix、Qiyana、Naafiri
-- 摘要：Blitz Tier S - 推薦英雄: Zed, Talon, Khazix
+- 推薦英雄 / 類型：劫、塔隆、卡力斯、姬亞娜、娜菲芮
+- 摘要：對生命低於30%的敵軍額外造成10%傷害。擊殺或助攻時，重置基本技能。
 
-### Tank Engine（）
+### 坦克引擎
 - 稀有度：Gold
-- 推薦英雄 / 類型：DrMundo、Ornn、Rell、Sejuani、Braum
-- 摘要：Blitz Tier S - 推薦英雄: DrMundo, Ornn, Rell
+- 推薦英雄 / 類型：蒙多醫生、鄂爾、銳兒、史瓦妮、布郎姆
+- 摘要：參與擊殺時獲得一層堆層，可提升體型和最大生命。死亡時失去層數。
 
-### From Beginning To End（）
+### 自始至終
 - 稀有度：Gold
-- 推薦英雄 / 類型：Karthus、Zoe、Gangplank、Evelynn、Syndra
-- 摘要：Blitz Tier S - 推薦英雄: Karthus, Zoe, Gangplank
+- 推薦英雄 / 類型：卡爾瑟斯、柔依、剛普朗克、伊芙琳、星朵拉
+- 摘要：獲得先發制人及靈魂收割關鍵符文。
 
-### Bread And Butter（）
+### 土司和奶油
 - 稀有度：Gold
-- 推薦英雄 / 類型：Blitzcrank、Vladimir、Zilean、Morgana、Veigar
-- 摘要：Blitz Tier S - 推薦英雄: Blitzcrank, Vladimir, Zilean
+- 推薦英雄 / 類型：布里茨、弗拉迪米爾、極靈、魔甘娜、維迦
+- 摘要：你的Q獲得100技能加速。
 
-### Thread the Needle（）
+### 穿針引線
 - 稀有度：Gold
-- 推薦英雄 / 類型：Gangplank、Zed、Khazix、Karthus、Talon
-- 摘要：Blitz Tier S - 推薦英雄: Gangplank, Zed, Khazix
+- 推薦英雄 / 類型：剛普朗克、劫、卡力斯、卡爾瑟斯、塔隆
+- 摘要：獲得18%物理穿透與魔法穿透。
 
-### Keystone Conjurer（）
+### 符文術士
 - 稀有度：Gold
-- 推薦英雄 / 類型：Malzahar、Orianna、Xerath、Taliyah、Ziggs
-- 摘要：Blitz Tier S - 推薦英雄: Malzahar, Orianna, Xerath
+- 推薦英雄 / 類型：馬爾札哈、奧莉安娜、齊勒斯、塔莉雅、希格斯
+- 摘要：獲得召喚：艾莉及奧術彗星關鍵符文。
 
-### Get Excited!（）
+### 狂躁！
 - 稀有度：Gold
-- 推薦英雄 / 類型：Zeri、Jinx、MasterYi、Olaf、Aphelios
-- 摘要：Blitz Tier S - 推薦英雄: Zeri, Jinx, MasterYi
+- 推薦英雄 / 類型：婕莉、吉茵珂絲、易大師、歐拉夫、亞菲利歐
+- 摘要：參與擊殺時，增加跑速和攻速，持續4秒。
 
-### Perseverance（）
+### 剛毅
 - 稀有度：Gold
-- 推薦英雄 / 類型：DrMundo、Braum、Rammus、Ornn、Sejuani
-- 摘要：Blitz Tier S - 推薦英雄: DrMundo, Braum, Rammus
+- 推薦英雄 / 類型：蒙多醫生、布郎姆、拉姆斯、鄂爾、史瓦妮
+- 摘要：增加大量生命回復，生命低於一定值時增加更多。
 
-### Twice Thrice（）
+### 二次三次
 - 稀有度：Gold
-- 推薦英雄 / 類型：Vayne、Akshan、Belveth、Kalista、MasterYi
-- 摘要：Blitz Tier S - 推薦英雄: Vayne, Akshan, Belveth
+- 推薦英雄 / 類型：汎、埃可尚、貝爾薇斯、克黎思妲、易大師
+- 摘要：每第三次普攻會觸發兩次on hit。
 
-### Bread and Cheese（）
+### 土司和起司
 - 稀有度：Gold
-- 推薦英雄 / 類型：AurelionSol、Fizz、Viktor、Shyvana、Gangplank
-- 摘要：Blitz Tier S - 推薦英雄: AurelionSol, Fizz, Viktor
+- 推薦英雄 / 類型：翱銳龍獸、飛斯、維克特、希瓦娜、剛普朗克
+- 摘要：你的E獲得100技能加速。
 
-### Skilled Sniper（）
+### 老練狙擊手
 - 稀有度：Gold
-- 推薦英雄 / 類型：Jayce、Xerath、Nidalee、Ziggs、Mel
-- 摘要：Blitz Tier S - 推薦英雄: Jayce, Xerath, Nidalee
+- 推薦英雄 / 類型：杰西、齊勒斯、奈德麗、希格斯、梅爾
+- 摘要：在遠距離以非大絕技能命中敵軍時，可縮短冷卻時間80%(持續性技能為65%)。
 
-### Marksmage（）
+### 射手法師
 - 稀有度：Gold
-- 推薦英雄 / 類型：Gwen、Azir、Ekko、TwistedFate、Bard
-- 摘要：Blitz Tier S - 推薦英雄: Gwen, Azir, Ekko
+- 推薦英雄 / 類型：關、阿祈爾、艾克、逆命、巴德
+- 摘要：你的普攻造成等同於75%魔攻的額外物理傷害。
 
-### Spiritual Purification（）
+### 靈魂淨化
 - 稀有度：Gold
-- 推薦英雄 / 類型：Lissandra、Pyke、Karthus、Fiddlesticks、Kennen
-- 摘要：Blitz Tier S - 推薦英雄: Lissandra, Pyke, Karthus
+- 推薦英雄 / 類型：麗珊卓、派克、卡爾瑟斯、費德提克、凱能
+- 摘要：參與擊殺時會產生爆炸，使鄰近敵軍緩速60%，並根據其當前生命造成傷害。
 
-### Soul Siphon（）
+### 靈魂虹吸
 - 稀有度：Gold
-- 推薦英雄 / 類型：Yunara、Corki、Senna、Yone、Yasuo
-- 摘要：Blitz Tier A - 推薦英雄: Yunara, Corki, Senna
+- 推薦英雄 / 類型：尤娜拉、庫奇、姍娜、犽凝、犽宿
+- 摘要：增加25%暴擊率，暴擊時會附帶12%普攻吸血。
 
-### Big Brain（）
+### 超強大腦
 - 稀有度：Gold
-- 推薦英雄 / 類型：Veigar、Vex、Ryze、Syndra、Lissandra
-- 摘要：Blitz Tier A - 推薦英雄: Veigar, Vex, Ryze
+- 推薦英雄 / 類型：維迦、薇可絲、雷茲、星朵拉、麗珊卓
+- 摘要：每1魔攻增加3護盾。死亡時重置。
 
-### Rabble Rousing（）
+### 煽動群眾
 - 稀有度：Gold
-- 推薦英雄 / 類型：Cassiopeia、Ryze、Hecarim、Riven、Ambessa
-- 摘要：Blitz Tier A - 推薦英雄: Cassiopeia, Ryze, Hecarim
+- 推薦英雄 / 類型：卡莎碧雅、雷茲、赫克林、雷玟、安比薩
+- 摘要：施放技能時回復生命。
 
-### Cheating（）
+### 作弊
 - 稀有度：Gold
-- 推薦英雄 / 類型：Zilean、AurelionSol、Xerath、Anivia、Lux
-- 摘要：Blitz Tier A - 推薦英雄: Zilean, AurelionSol, Xerath
+- 推薦英雄 / 類型：極靈、翱銳龍獸、齊勒斯、艾妮維亞、拉克絲
+- 摘要：點按回城即可返回基地、購買道具並獲得增幅裝置。
 
-### Celestial Body（）
+### 天界之身
 - 稀有度：Gold
-- 推薦英雄 / 類型：Braum、Ornn、Leona、Rell、Rammus
-- 摘要：Blitz Tier A - 推薦英雄: Braum, Ornn, Leona
+- 推薦英雄 / 類型：布郎姆、鄂爾、雷歐娜、銳兒、拉姆斯
+- 摘要：增加1250生命，但造成的傷害降低10%。
 
-### Firebrand（）
+### 煽風點火
 - 稀有度：Gold
-- 推薦英雄 / 類型：Zeri、Azir、Urgot、Sivir、Ashe
-- 摘要：Blitz Tier A - 推薦英雄: Zeri, Azir, Urgot
+- 推薦英雄 / 類型：婕莉、阿祈爾、烏爾加特、希維爾、艾希
+- 摘要：普攻on hit造成燃燒效果，並持續造成傷害，可無限累加。
 
-### Vulnerability（）
+### 見縫插針
 - 稀有度：Gold
-- 推薦英雄 / 類型：Brand、Malzahar、Rumble、Smolder、Lillia
-- 摘要：Blitz Tier A - 推薦英雄: Brand, Malzahar, Rumble
+- 推薦英雄 / 類型：布蘭德、馬爾札哈、藍寶、史矛德、莉莉亞
+- 摘要：道具與持續傷害效果可以暴擊。增加25%暴擊率。
 
-### Bread And Jam（）
+### 土司和果醬
 - 稀有度：Gold
-- 推薦英雄 / 類型：Sylas、Zilean、Leblanc、Nami、Sett
-- 摘要：Blitz Tier A - 推薦英雄: Sylas, Zilean, Leblanc
+- 推薦英雄 / 類型：賽勒斯、極靈、勒布朗、娜米、賽特
+- 摘要：你的W獲得100技能加速。
 
-### Overflow（）
+### 溢流
 - 稀有度：Gold
-- 推薦英雄 / 類型：Ryze、Cassiopeia、Kassadin、Karthus、Sona
-- 摘要：Blitz Tier A - 推薦英雄: Ryze, Cassiopeia, Kassadin
+- 推薦英雄 / 類型：雷茲、卡莎碧雅、卡薩丁、卡爾瑟斯、索娜
+- 摘要：技能的魔力消耗加倍。技能的治療、護盾以及傷害提升，提升幅度取決於最大魔力。
 
-### Quest: Steel Your Heart（）
+### 任務：鋼鐵雄心
 - 稀有度：Gold
-- 推薦英雄 / 類型：DrMundo、Ornn、Leona、Sejuani、Rell
-- 摘要：Blitz Tier A - 推薦英雄: DrMundo, Ornn, Leona
+- 推薦英雄 / 類型：蒙多醫生、鄂爾、雷歐娜、史瓦妮、銳兒
+- 摘要：條件：擁有300層以上的雄心之鋼。獎勵：雄心之鋼堆層乘以3倍。
 
-### It's Critical（）
+### 痛恨一擊
 - 稀有度：Gold
-- 推薦英雄 / 類型：Corki、Smolder、Yunara、Senna、Gangplank
-- 摘要：Blitz Tier A - 推薦英雄: Corki, Smolder, Yunara
+- 推薦英雄 / 類型：庫奇、史矛德、尤娜拉、姍娜、剛普朗克
+- 摘要：增加50%暴擊率。
 
-### Nightstalking（）
+### 暗夜潛行
 - 稀有度：Gold
-- 推薦英雄 / 類型：Khazix、Talon、Pyke、Zed、Qiyana
-- 摘要：Blitz Tier A - 推薦英雄: Khazix, Talon, Pyke
+- 推薦英雄 / 類型：卡力斯、塔隆、派克、劫、姬亞娜
+- 摘要：對敵方英雄造成傷害後，在3秒內參與擊殺他們，會讓你進入隱形狀態。
 
-### Impassable（）
+### 不可通行
 - 稀有度：Gold
-- 推薦英雄 / 類型：Rell、Rammus、Sejuani、Leona、Nautilus
-- 摘要：Blitz Tier A - 推薦英雄: Rell, Rammus, Sejuani
+- 推薦英雄 / 類型：銳兒、拉姆斯、史瓦妮、雷歐娜、納帝魯斯
+- 摘要：獲得裂地衝擊與冰川增幅關鍵符文。
 
-### Critical Healing（）
+### 暴擊治療
 - 稀有度：Gold
-- 推薦英雄 / 類型：Soraka、Yuumi、Sona、Nami、Vladimir
-- 摘要：Blitz Tier A - 推薦英雄: Soraka, Yuumi, Sona
+- 推薦英雄 / 類型：索拉卡、悠咪、索娜、娜米、弗拉迪米爾
+- 摘要：你的治療與護盾可以暴擊，治療量或護盾量提升40%。增加25%暴擊率。
 
-### Shrink Ray（）
+### 縮小光線
 - 稀有度：Gold
-- 推薦英雄 / 類型：Urgot、Zeri、Sivir、Shen、RekSai
-- 摘要：Blitz Tier A - 推薦英雄: Urgot, Zeri, Sivir
+- 推薦英雄 / 類型：烏爾加特、婕莉、希維爾、慎、雷珂煞
+- 摘要：你的普攻可以降低敵軍造成的傷害15%，持續3秒。
 
-### Upgrade Infinity Edge（）
+### 升級無盡之刃
 - 稀有度：Gold
-- 推薦英雄 / 類型：Yunara、Corki、Senna、Smolder、Jhin
-- 摘要：Blitz Tier B - 推薦英雄: Yunara, Corki, Senna
+- 推薦英雄 / 類型：尤娜拉、庫奇、姍娜、史矛德、燼
+- 摘要：獲得25%暴擊率和500金錢。持有無盡之刃時，你的暴擊會根據暴擊率造成隨機額外暴擊傷害。
 
-### Outlaw's Grit（）
+### 俠盜恆毅
 - 稀有度：Gold
-- 推薦英雄 / 類型：Ambessa、Riven、KSante、Kassadin、Irelia
-- 摘要：Blitz Tier B - 推薦英雄: Ambessa, Riven, KSante
+- 推薦英雄 / 類型：安比薩、雷玟、卡桑帝、卡薩丁、伊瑞莉雅
+- 摘要：使用衝刺、閃現或傳送後，增加12物防和魔防，最多5層。
 
-### Upgrade Hubris（）
+### 升級傲慢
 - 稀有度：Gold
-- 推薦英雄 / 類型：Zed、Khazix、Pyke、Talon、Qiyana
-- 摘要：Blitz Tier B - 推薦英雄: Zed, Khazix, Pyke
+- 推薦英雄 / 類型：劫、卡力斯、派克、塔隆、姬亞娜
+- 摘要：傲慢可在參與擊殺時為你恢復生命，並在增益效果持續期間提升跑速，恢復量與提升量都會隨著層數增加。此外，可獲得250金錢。
 
-### Restless Restoration（）
+### 回復不休
 - 稀有度：Gold
-- 推薦英雄 / 類型：Singed、Lillia、Soraka、Rammus、Rakan
-- 摘要：Blitz Tier B - 推薦英雄: Singed, Lillia, Soraka
+- 推薦英雄 / 類型：辛吉德、莉莉亞、索拉卡、拉姆斯、銳空
+- 摘要：移動時持續回復生命。
 
-### Demon's Dance（）
+### 不死魔舞
 - 稀有度：Gold
-- 推薦英雄 / 類型：Camille、Fiora、RekSai、Shen、Sion
-- 摘要：Blitz Tier B - 推薦英雄: Camille, Fiora, RekSai
+- 推薦英雄 / 類型：卡蜜兒、菲歐拉、雷珂煞、慎、賽恩
+- 摘要：獲得瞬疾步法及不死之握關鍵符文。
 
-### Dawnbringer's Resolve（）
+### 黎明使者之決意
 - 稀有度：Gold
-- 推薦英雄 / 類型：DrMundo、Chogath、Sion、Nautilus、Zac
-- 摘要：Blitz Tier B - 推薦英雄: DrMundo, Chogath, Sion
+- 推薦英雄 / 類型：蒙多醫生、科加斯、賽恩、納帝魯斯、札克
+- 摘要：生命低於50%時，在3秒內回復30%最大生命。每45秒或死亡時重置。
 
-### With Haste（）
+### 腳程加速
 - 稀有度：Gold
-- 推薦英雄 / 類型：Lillia、Hecarim、Zilean、Singed、Vladimir
-- 摘要：Blitz Tier B - 推薦英雄: Lillia, Hecarim, Zilean
+- 推薦英雄 / 類型：莉莉亞、赫克林、極靈、辛吉德、弗拉迪米爾
+- 摘要：獲得等同於技能加速100%的跑速。
 
-### Ethereal Weapon（）
+### 幻影武器
 - 稀有度：Gold
-- 推薦英雄 / 類型：Hecarim、Katarina、Gangplank、Kaisa、Azir
-- 摘要：Blitz Tier B - 推薦英雄: Hecarim, Katarina, Gangplank
+- 推薦英雄 / 類型：赫克林、卡特蓮娜、剛普朗克、凱莎、阿祈爾
+- 摘要：技能可造成on hit。對每個目標有1秒冷卻時間。
 
-### Searing Dawn（）
+### 灼熱黎明
 - 稀有度：Gold
-- 推薦英雄 / 類型：Renata、Morgana、Zyra、Anivia、Nami
-- 摘要：Blitz Tier B - 推薦英雄: Renata, Morgana, Zyra
+- 推薦英雄 / 類型：睿娜妲‧格萊斯克、魔甘娜、枷蘿、艾妮維亞、娜米
+- 摘要：技能會標記敵軍，隊友的下一次普攻或技能會對其額外造成魔法傷害。
 
-### Apex Inventor（）
+### 頂尖發明家
 - 稀有度：Gold
-- 推薦英雄 / 類型：Yuumi、Skarner、Ornn、Renata、Sion
-- 摘要：Blitz Tier B - 推薦英雄: Yuumi, Skarner, Ornn
+- 推薦英雄 / 類型：悠咪、史加納、鄂爾、睿娜妲‧格萊斯克、賽恩
+- 摘要：獲得100道具加速(等同於50%道具冷卻時間減免)。道具加速會縮短所有道具技能的冷卻時間。
 
-### Divine Intervention（）
+### 聖光顯靈
 - 稀有度：Gold
-- 推薦英雄 / 類型：Yuumi、Taric、Rakan、Braum、Renata
-- 摘要：Blitz Tier B - 推薦英雄: Yuumi, Taric, Rakan
+- 推薦英雄 / 類型：悠咪、塔里克、銳空、布郎姆、睿娜妲‧格萊斯克
+- 摘要：戰鬥開始15秒後，召喚一顆守護之星緩慢降臨在你身上。當它落地，你和附近的友軍獲得幾秒鐘的無敵狀態。隨後每隔35秒自動施放一次。
 
-### Holy Fire（）
+### 神聖之火
 - 稀有度：Gold
-- 推薦英雄 / 類型：Taric、Sona、Yuumi、Milio、Nami
-- 摘要：Blitz Tier B - 推薦英雄: Taric, Sona, Yuumi
+- 推薦英雄 / 類型：塔里克、索娜、悠咪、米里歐、娜米
+- 摘要：治療或賦予護盾時，可對鄰近敵軍附加可無限累加的燃燒效果，在數秒內造成部分最大生命的魔法傷害。
 
-### Ok Boomerang（）
+### 棒棒回力鏢
 - 稀有度：Gold
-- 推薦英雄 / 類型：Sivir、Nidalee、Heimerdinger、TwistedFate、Ziggs
-- 摘要：Blitz Tier C - 推薦英雄: Sivir, Nidalee, Heimerdinger
+- 推薦英雄 / 類型：希維爾、奈德麗、漢默丁格、逆命、希格斯
+- 摘要：每10秒自動施放，對鄰近敵軍發射回力鏢。
 
-### Snowball Upgrade（）
+### 雪球升級
 - 稀有度：Gold
-- 推薦英雄 / 類型：Neeko、Kennen、Nunu、Lissandra、Amumu
-- 摘要：Blitz Tier C - 推薦英雄: Neeko, Kennen, Nunu
+- 推薦英雄 / 類型：妮可、凱能、努努和威朗普、麗珊卓、阿姆姆
+- 摘要：讓你的雪球獲得100技能加速。命中敵軍時會降雪，在區域內造成範圍傷害與緩速效果 。若你沒有雪球就會獲得一顆雪球。
 
-### Slow And Steady（）
+### 穩紮穩打
 - 稀有度：Gold
-- 推薦英雄 / 類型：Zeri、Graves、Urgot、Garen、Ezreal
-- 摘要：Blitz Tier C - 推薦英雄: Zeri, Graves, Urgot
+- 推薦英雄 / 類型：婕莉、葛雷夫、烏爾加特、蓋倫、伊澤瑞爾
+- 摘要：攻速變為0.625。所有額外攻速轉換為物攻。
 
-### All For You（）
+### 全部都給你
 - 稀有度：Gold
-- 推薦英雄 / 類型：Soraka、Yuumi、Nami、Sona、Lulu
-- 摘要：Blitz Tier C - 推薦英雄: Soraka, Yuumi, Nami
+- 推薦英雄 / 類型：索拉卡、悠咪、娜米、索娜、露璐
+- 摘要：對友軍使用時，你的治療和護盾效果提升30%。
 
-### Flashy（）
+### 閃光俠
 - 稀有度：Gold
-- 推薦英雄 / 類型：Kennen、Neeko、LeeSin、Blitzcrank、Annie
-- 摘要：Blitz Tier C - 推薦英雄: Kennen, Neeko, LeeSin
+- 推薦英雄 / 類型：凱能、妮可、李星、布里茨、安妮
+- 摘要：你的閃現有3發，冷卻時間為2秒。充能時間為180秒
 
-### Minionmancer（）
+### 士兵術師
 - 稀有度：Gold
-- 推薦英雄 / 類型：Yorick、Heimerdinger、Zyra、Annie、Naafiri
-- 摘要：Blitz Tier D - 推薦英雄: Yorick, Heimerdinger, Zyra
+- 推薦英雄 / 類型：約瑞科、漢默丁格、枷蘿、安妮、娜菲芮
+- 摘要：你的召喚物增加40%體型、生命與傷害。
 
-### Upgrade Sheen（）
+### 升級閃耀劍
 - 稀有度：Gold
-- 推薦英雄 / 類型：Ezreal、Jax、Gangplank、Corki、Gnar
-- 摘要：Blitz Tier D - 推薦英雄: Ezreal, Jax, Gangplank
+- 推薦英雄 / 類型：伊澤瑞爾、賈克斯、剛普朗克、庫奇、吶兒
+- 摘要：魔法彎刀的效果會造成額外傷害，並依目標生命的一定比例治療你。此外，可獲得250金錢。
 
-### Witchful Thinking（）
+### 女巫思維
 - 稀有度：Silver
-- 推薦英雄 / 類型：Nidalee、Karthus、Orianna、Xerath、Zoe
-- 摘要：Blitz Tier S - 推薦英雄: Nidalee, Karthus, Orianna
+- 推薦英雄 / 類型：奈德麗、卡爾瑟斯、奧莉安娜、齊勒斯、柔依
+- 摘要：增加魔法攻擊。
 
-### Deft（）
+### 手腳麻利
 - 稀有度：Silver
-- 推薦英雄 / 類型：Jinx、Sivir、Tristana、Xayah、Ashe
-- 摘要：Blitz Tier S - 推薦英雄: Jinx, Sivir, Tristana
+- 推薦英雄 / 類型：吉茵珂絲、希維爾、崔絲塔娜、剎雅、艾希
+- 摘要：增加60%攻速。
 
-### Goredrink（）
+### 飲血
 - 稀有度：Silver
-- 推薦英雄 / 類型：Briar、Zaahen、Aatrox、Olaf、Samira
-- 摘要：Blitz Tier S - 推薦英雄: Briar, Zaahen, Aatrox
+- 推薦英雄 / 類型：布蕾爾、薩亨、厄薩斯、歐拉夫、煞蜜拉
+- 摘要：獲得15%全能吸血效果。
 
-### Infernal Soul（）
+### 煉獄惡靈
 - 稀有度：Silver
-- 推薦英雄 / 類型：Gangplank、Jayce、Smolder、Zed、Shyvana
-- 摘要：Blitz Tier S - 推薦英雄: Gangplank, Jayce, Smolder
+- 推薦英雄 / 類型：剛普朗克、杰西、史矛德、劫、希瓦娜
+- 摘要：獲得煉獄惡靈，使用技能或普攻命中敵軍時，可額外造成傷害。
 
-### Hat on a Hat（）
+### 帽上加帽
 - 稀有度：Silver
-- 推薦英雄 / 類型：Karthus、Veigar、Xerath、Nidalee、Velkoz
-- 摘要：Blitz Tier S - 推薦英雄: Karthus, Veigar, Xerath
+- 推薦英雄 / 類型：卡爾瑟斯、維迦、齊勒斯、奈德麗、威寇茲
+- 摘要：頭部道具提供額外魔攻和魔防。
 
-### Transmute: Gold（）
+### 質變：金級
 - 稀有度：Silver
-- 推薦英雄 / 類型：Karthus、Vladimir、Yorick、Evelynn、Gangplank
-- 摘要：Blitz Tier A - 推薦英雄: Karthus, Vladimir, Yorick
+- 推薦英雄 / 類型：卡爾瑟斯、弗拉迪米爾、約瑞科、伊芙琳、剛普朗克
+- 摘要：獲得一件隨機金色增幅裝置。
 
-### Heavy Hitter（）
+### 重型打手
 - 稀有度：Silver
-- 推薦英雄 / 類型：DrMundo、Sion、Ornn、TahmKench、Kled
-- 摘要：Blitz Tier A - 推薦英雄: DrMundo, Sion, Ornn
+- 推薦英雄 / 類型：蒙多醫生、賽恩、鄂爾、貪啃奇、克雷德
+- 摘要：你的普攻額外造成等同於自身最大生命4%的物理傷害。
 
-### Scoped Weapons（）
+### 射程強化改造
 - 稀有度：Silver
-- 推薦英雄 / 類型：Caitlyn、Jinx、Tristana、Xayah、Ashe
-- 摘要：Blitz Tier A - 推薦英雄: Caitlyn, Jinx, Tristana
+- 推薦英雄 / 類型：凱特琳、吉茵珂絲、崔絲塔娜、剎雅、艾希
+- 摘要：增加75攻擊距離，遠攻英雄則減至只增加50攻擊距離。
 
-### Mind to Matter（）
+### 因心成體
 - 稀有度：Silver
-- 推薦英雄 / 類型：Ryze、Kassadin、Cassiopeia、Anivia、Veigar
-- 摘要：Blitz Tier A - 推薦英雄: Ryze, Kassadin, Cassiopeia
+- 推薦英雄 / 類型：雷茲、卡薩丁、卡莎碧雅、艾妮維亞、維迦
+- 摘要：增加最大生命，增加量為魔力的一半。
 
-### The Brutalizer（）
+### 兇殘之柄
 - 稀有度：Silver
-- 推薦英雄 / 類型：Gangplank、Jayce、Zed、Khazix、Talon
-- 摘要：Blitz Tier A - 推薦英雄: Gangplank, Jayce, Zed
+- 推薦英雄 / 類型：剛普朗克、杰西、劫、卡力斯、塔隆
+- 摘要：增加20物攻、10技能加速、以及5物理致命。
 
-### Typhoon（）
+### 颱風
 - 稀有度：Silver
-- 推薦英雄 / 類型：Akshan、Zeri、Ashe、Jinx、Yunara
-- 摘要：Blitz Tier A - 推薦英雄: Akshan, Zeri, Ashe
+- 推薦英雄 / 類型：埃可尚、婕莉、艾希、吉茵珂絲、尤娜拉
+- 摘要：普攻會朝額外一名目標射出箭矢，造成較低傷害，並附加on hit。
 
-### Ice Cold（）
+### 雪地踱步
 - 稀有度：Silver
-- 推薦英雄 / 類型：AurelionSol、Anivia、Zyra、Brand、Malzahar
-- 摘要：Blitz Tier A - 推薦英雄: AurelionSol, Anivia, Zyra
+- 推薦英雄 / 類型：翱銳龍獸、艾妮維亞、枷蘿、布蘭德、馬爾札哈
+- 摘要：造成的緩速效果額外降低100跑速。
 
-### ADAPt（）
+### 靈活轉換
 - 稀有度：Silver
-- 推薦英雄 / 類型：Nidalee、Karthus、TwistedFate、Veigar、Xerath
-- 摘要：Blitz Tier A - 推薦英雄: Nidalee, Karthus, TwistedFate
+- 推薦英雄 / 類型：奈德麗、卡爾瑟斯、逆命、維迦、齊勒斯
+- 摘要：將額外物攻轉換為魔攻。增加15%魔攻。
 
-### Escape Plan（）
+### 逃跑計畫
 - 稀有度：Silver
-- 推薦英雄 / 類型：Singed、Olaf、Darius、DrMundo、Vladimir
-- 摘要：Blitz Tier B - 推薦英雄: Singed, Olaf, Darius
+- 推薦英雄 / 類型：辛吉德、歐拉夫、達瑞斯、蒙多醫生、弗拉迪米爾
+- 摘要：達到35%生命時，獲得大量逐漸衰減的護盾、逐漸衰減的跑速，以及逐漸恢復的縮小效果。
 
-### Shadow Runner（）
+### 飛影跑法
 - 稀有度：Silver
-- 推薦英雄 / 類型：Pyke、Aurora、Shaco、Kalista、Qiyana
-- 摘要：Blitz Tier B - 推薦英雄: Pyke, Aurora, Shaco
+- 推薦英雄 / 類型：派克、歐羅拉、薩科、克黎思妲、姬亞娜
+- 摘要：使用衝刺、跳躍、閃現或傳送技能或脫離潛行後，增加跑速。
 
-### Swift and Safe（）
+### 又快又穩
 - 稀有度：Silver
-- 推薦英雄 / 類型：Ambessa、Riven、Kassadin、Fiora、Leblanc
-- 摘要：Blitz Tier B - 推薦英雄: Ambessa, Riven, Kassadin
+- 推薦英雄 / 類型：安比薩、雷玟、卡薩丁、菲歐拉、勒布朗
+- 摘要：衝刺或閃現後獲得護盾。
 
-### Homeguard（）
+### 溫泉加速
 - 稀有度：Silver
-- 推薦英雄 / 類型：Nunu、Zilean、TwistedFate、Mel、Lillia
-- 摘要：Blitz Tier B - 推薦英雄: Nunu, Zilean, TwistedFate
+- 推薦英雄 / 類型：努努和威朗普、極靈、逆命、梅爾、莉莉亞
+- 摘要：獲得100%跑速，承受傷害後3秒內會失效。
 
-### Blunt Force（）
+### 蠻力重擊
 - 稀有度：Silver
-- 推薦英雄 / 類型：Gangplank、Graves、Jayce、Zed、Jhin
-- 摘要：Blitz Tier B - 推薦英雄: Gangplank, Graves, Jayce
+- 推薦英雄 / 類型：剛普朗克、葛雷夫、杰西、劫、燼
+- 摘要：增加20%物攻。
 
-### Leg Day（）
+### 腿部訓練日
 - 稀有度：Silver
-- 推薦英雄 / 類型：Singed、Lillia、Darius、Hecarim、Garen
-- 摘要：Blitz Tier B - 推薦英雄: Singed, Lillia, Darius
+- 推薦英雄 / 類型：辛吉德、莉莉亞、達瑞斯、赫克林、蓋倫
+- 摘要：獲得50跑速和40%緩速抗性。
 
-### Light 'em Up!（）
+### 來點顏色
 - 稀有度：Silver
-- 推薦英雄 / 類型：Kayle、Akshan、KogMaw、Kaisa、Belveth
-- 摘要：Blitz Tier B - 推薦英雄: Kayle, Akshan, KogMaw
+- 推薦英雄 / 類型：凱爾、埃可尚、寇格魔、凱莎、貝爾薇斯
+- 摘要：每四下普攻on hit可額外造成魔法傷害。
 
-### Buff Buddies（）
+### 增益麻吉
 - 稀有度：Silver
-- 推薦英雄 / 類型：Xerath、Ziggs、Mel、Hwei、Elise
-- 摘要：Blitz Tier B - 推薦英雄: Xerath, Ziggs, Mel
+- 推薦英雄 / 類型：齊勒斯、希格斯、梅爾、赫威、伊莉絲
+- 摘要：你獲得力量的餘燼和智慧的餘燼。
 
-### Ocean Soul（）
+### 海洋之魂
 - 稀有度：Silver
-- 推薦英雄 / 類型：Swain、Singed、DrMundo、Soraka、Illaoi
-- 摘要：Blitz Tier B - 推薦英雄: Swain, Singed, DrMundo
+- 推薦英雄 / 類型：斯溫、辛吉德、蒙多醫生、索拉卡、伊羅旖
+- 摘要：獲得海洋之魂，對敵軍造成傷害後可增加大量生命及魔力回復。
 
-### Erosion（）
+### 侵蝕裝甲
 - 稀有度：Silver
-- 推薦英雄 / 類型：Singed、Mordekaiser、Swain、Yorick、Amumu
-- 摘要：Blitz Tier B - 推薦英雄: Singed, Mordekaiser, Swain
+- 推薦英雄 / 類型：辛吉德、魔鬥凱薩、斯溫、約瑞科、阿姆姆
+- 摘要：對敵軍造成傷害可累加一層物理與魔法防禦削弱，持續4秒。
 
-### Upgrade Collector（）
+### 升級收藏家
 - 稀有度：Silver
-- 推薦英雄 / 類型：Aphelios、Akshan、Quinn、Caitlyn、Jhin
-- 摘要：Blitz Tier B - 推薦英雄: Aphelios, Akshan, Quinn
+- 推薦英雄 / 類型：亞菲利歐、埃可尚、葵恩、凱特琳、燼
+- 摘要：以蒐集者的被動效果處決敵軍時，會提升處決門檻並獲得額外金錢。獲得250金錢。
 
-### First-Aid Kit（）
+### 急救箱
 - 稀有度：Silver
-- 推薦英雄 / 類型：Yuumi、Soraka、Sona、Lulu、Nami
-- 摘要：Blitz Tier B - 推薦英雄: Yuumi, Soraka, Sona
+- 推薦英雄 / 類型：悠咪、索拉卡、索娜、露璐、娜米
+- 摘要：增加20%治療與護盾強度。
 
-### Upgrade Zhonya's（）
+### 升級中婭沙漏
 - 稀有度：Silver
-- 推薦英雄 / 類型：Kennen、Fiddlesticks、Lissandra、Rumble、Morgana
-- 摘要：Blitz Tier C - 推薦英雄: Kennen, Fiddlesticks, Lissandra
+- 推薦英雄 / 類型：凱能、費德提克、麗珊卓、藍寶、魔甘娜
+- 摘要：將中婭沙漏的冷卻時間縮短至45秒。你現在處於中婭沙漏、探索者護腕或烏莉特的法帽的凝滯狀態時可以移動。獲得250金錢。
 
-### Veil of Warding（）
+### 守護面紗
 - 稀有度：Silver
-- 推薦英雄 / 類型：Velkoz、Leblanc、Syndra、Taliyah、Xerath
-- 摘要：Blitz Tier C - 推薦英雄: Velkoz, Leblanc, Syndra
+- 推薦英雄 / 類型：威寇茲、勒布朗、星朵拉、塔莉雅、齊勒斯
+- 摘要：每30秒獲得一道法術護盾，可阻擋下一個敵方技能。
 
-### escAPADe（）
+### 轉換惡作劇
 - 稀有度：Silver
-- 推薦英雄 / 類型：Gangplank、Ezreal、Jayce、Smolder、Kaisa
-- 摘要：Blitz Tier C - 推薦英雄: Gangplank, Ezreal, Jayce
+- 推薦英雄 / 類型：剛普朗克、伊澤瑞爾、杰西、史矛德、凱莎
+- 摘要：將魔攻轉換為額外物攻。增加15%物攻。
 
-### Slap Around（）
+### 痛打一頓
 - 稀有度：Silver
-- 推薦英雄 / 類型：Morgana、Lux、Zilean、Seraphine、Janna
-- 摘要：Blitz Tier C - 推薦英雄: Morgana, Lux, Zilean
+- 推薦英雄 / 類型：魔甘娜、拉克絲、極靈、瑟菈紛、珍娜
+- 摘要：硬控場或禁錮敵軍時，獲得10適性之力。死亡時失去50%。
 
-### Tank It Or Leave It（）
+### 毫髮無傷
 - 稀有度：Silver
-- 推薦英雄 / 類型：Corki、Yunara、Smolder、Gangplank、Yasuo
-- 摘要：Blitz Tier C - 推薦英雄: Corki, Yunara, Smolder
+- 推薦英雄 / 類型：庫奇、尤娜拉、史矛德、剛普朗克、犽宿
+- 摘要：你可以根據自身暴擊率進行完美防禦（上限為50%機率），觸發時減少承受的傷害。增加25%暴擊率。
 
-### Guilty Pleasure（）
+### 惡趣味
 - 稀有度：Silver
-- 推薦英雄 / 類型：Leona、Rell、Zac、Maokai、Nautilus
-- 摘要：Blitz Tier C - 推薦英雄: Leona, Rell, Zac
+- 推薦英雄 / 類型：雷歐娜、銳兒、札克、茂凱、納帝魯斯
+- 摘要：硬控場或禁錮敵方英雄時使你回復生命。
 
-### Dive Bomber（）
+### 自爆炸彈客
 - 稀有度：Silver
-- 推薦英雄 / 類型：Karthus、Sion、Malphite、Nunu、Lissandra
-- 摘要：Blitz Tier C - 推薦英雄: Karthus, Sion, Malphite
+- 推薦英雄 / 類型：卡爾瑟斯、賽恩、墨菲特、努努和威朗普、麗珊卓
+- 摘要：你陣亡時爆炸，造成大量真實傷害。
 
-### Mountain Soul（）
+### 裂地龍魂
 - 稀有度：Silver
-- 推薦英雄 / 類型：Braum、DrMundo、Ornn、Rammus、Skarner
-- 摘要：Blitz Tier C - 推薦英雄: Braum, DrMundo, Ornn
+- 推薦英雄 / 類型：布郎姆、蒙多醫生、鄂爾、拉姆斯、史加納
+- 摘要：獲得裂地龍魂，脫離戰鬥一段時間後可獲得一道護盾。
 
-### Frost Wraith（）
+### 寒霜幽魂
 - 稀有度：Silver
-- 推薦英雄 / 類型：Braum、Sejuani、Leona、Ornn、Rell
-- 摘要：Blitz Tier C - 推薦英雄: Braum, Sejuani, Leona
+- 推薦英雄 / 類型：布郎姆、史瓦妮、雷歐娜、鄂爾、銳兒
+- 摘要：每6.5秒自動施放，對鄰近敵軍造成定身效果，持續1.25秒。
 
-### Ultimate Unstoppable（）
+### 無敵大絕
 - 稀有度：Silver
-- 推薦英雄 / 類型：Katarina、Samira、Nunu、Kennen、Kassadin
-- 摘要：Blitz Tier C - 推薦英雄: Katarina, Samira, Nunu
+- 推薦英雄 / 類型：卡特蓮娜、煞蜜拉、努努和威朗普、凱能、卡薩丁
+- 摘要：使用大絕後會免疫控場效果3秒(冷卻時間：8秒)。
 
-### Tormentor（）
+### 烈焰折磨
 - 稀有度：Silver
-- 推薦英雄 / 類型：Leona、Amumu、Rell、Maokai、Nautilus
-- 摘要：Blitz Tier C - 推薦英雄: Leona, Amumu, Rell
+- 推薦英雄 / 類型：雷歐娜、阿姆姆、銳兒、茂凱、納帝魯斯
+- 摘要：硬控場或禁錮敵方英雄時對其施加一項燃燒效果，造成持續傷害，可無限累加。
 
-### Sonic Boom（）
+### 餘音震盪
 - 稀有度：Silver
-- 推薦英雄 / 類型：Yuumi、Sona、Nami、Lulu、Soraka
-- 摘要：Blitz Tier C - 推薦英雄: Yuumi, Sona, Nami
+- 推薦英雄 / 類型：悠咪、索娜、娜米、露璐、索拉卡
+- 摘要：強化、治療、或賦予友軍護盾時，會對友軍周圍的敵人造成傷害與緩速。
 
-### Adamant（）
+### 意志堅定
 - 稀有度：Silver
-- 推薦英雄 / 類型：Leona、Rell、Rammus、Sejuani、Nautilus
-- 摘要：Blitz Tier C - 推薦英雄: Leona, Rell, Rammus
+- 推薦英雄 / 類型：雷歐娜、銳兒、拉姆斯、史瓦妮、納帝魯斯
+- 摘要：每次硬控場或禁錮敵軍時，增加雙防。
 
-### Self Destruct（）
+### 自我毀滅
 - 稀有度：Silver
-- 推薦英雄 / 類型：Malphite、Rammus、RekSai、Braum、Shaco
-- 摘要：Blitz Tier C - 推薦英雄: Malphite, Rammus, RekSai
+- 推薦英雄 / 類型：墨菲特、拉姆斯、雷珂煞、布郎姆、薩科
+- 摘要：每25秒，在自身放置一顆炸彈。炸彈在5秒後爆炸，造成真實傷害並擊飛敵軍。
 
-### Stackosaurus Rex（）
+### 堆層暴龍
 - 稀有度：Silver
-- 推薦英雄 / 類型：Smolder、AurelionSol、Nasus、Chogath、Veigar
-- 摘要：Blitz Tier D - 推薦英雄: Smolder, AurelionSol, Nasus
+- 推薦英雄 / 類型：史矛德、翱銳龍獸、納瑟斯、科加斯、維迦
+- 摘要：永久獲得技能的堆層時，額外獲得75%！
 
-### Don't Blink（）
+### 別眨眼
 - 稀有度：Silver
-- 推薦英雄 / 類型：Lillia、Singed、Hecarim、Nunu、MasterYi
-- 摘要：Blitz Tier D - 推薦英雄: Lillia, Singed, Hecarim
+- 推薦英雄 / 類型：莉莉亞、辛吉德、赫克林、努努和威朗普、易大師
+- 摘要：高出敵軍的跑速越多，造成的傷害越多。
 
-### Spin To Win（）
+### 一轉就贏
 - 稀有度：Silver
-- 推薦英雄 / 類型：Garen、Lillia、Katarina、Hecarim、Kayn
-- 摘要：Blitz Tier D - 推薦英雄: Garen, Lillia, Katarina
+- 推薦英雄 / 類型：蓋倫、莉莉亞、卡特蓮娜、赫克林、慨影
+- 摘要：旋轉技能增加30技能加速，並額外造成30%傷害！
 
-### Upgrade Immolate（）
+### 升級獻祭
 - 稀有度：Silver
-- 推薦英雄 / 類型：Ornn、Rammus、DrMundo、Sejuani、Amumu
-- 摘要：Blitz Tier D - 推薦英雄: Ornn, Rammus, DrMundo
+- 推薦英雄 / 類型：鄂爾、拉姆斯、蒙多醫生、史瓦妮、阿姆姆
+- 摘要：虛偽光彩和日炎聖盾現在每有一名受到獻祭影響的目標，賦予10金錢。獲得250金錢。
 
-### Wind Beneath Blade（）
+### 刃下狂風
 - 稀有度：Silver
-- 推薦英雄 / 類型：Pyke、Talon、Khazix、Jayce、Evelynn
-- 摘要：Blitz Tier D - 推薦英雄: Pyke, Talon, Khazix
+- 推薦英雄 / 類型：派克、塔隆、卡力斯、杰西、伊芙琳
+- 摘要：物理穿透和魔法穿透越高，跑速越快。
 
-### Mighty Shield（）
+### 巨大盾牌
 - 稀有度：Silver
-- 推薦英雄 / 類型：Diana、Riven、Mordekaiser、Ambessa、LeeSin
-- 摘要：Blitz Tier D - 推薦英雄: Diana, Riven, Mordekaiser
+- 推薦英雄 / 類型：黛安娜、雷玟、魔鬥凱薩、安比薩、李星
+- 摘要：獲得護盾時，增加適性之力，持續3秒(冷卻時間5秒)。
 
-### ReEnergize（）
+### 活力補給
 - 稀有度：Silver
-- 推薦英雄 / 類型：Jhin、Caitlyn、Senna、Quinn、Smolder
-- 摘要：Blitz Tier D - 推薦英雄: Jhin, Caitlyn, Senna
+- 推薦英雄 / 類型：燼、凱特琳、姍娜、葵恩、史矛德
+- 摘要：若當前目標非上次的目標，你的充能普攻會完全返還充能。充能普攻可造成額外傷害。
 
-### Flashbang（）
+### 閃光彈
 - 稀有度：Silver
-- 推薦英雄 / 類型：Evelynn、Camille、LeeSin、Diana、Talon
-- 摘要：Blitz Tier D - 推薦英雄: Evelynn, Camille, LeeSin
+- 推薦英雄 / 類型：伊芙琳、卡蜜兒、李星、黛安娜、塔隆
+- 摘要：閃現導致爆炸，會造成傷害並緩速。閃現會於每次死亡時重置。
 
-### Flash 2（）
+### 二次閃現
 - 稀有度：Silver
-- 推薦英雄 / 類型：Kennen、Annie、Neeko、Blitzcrank、Malphite
-- 摘要：Blitz Tier D - 推薦英雄: Kennen, Annie, Neeko
+- 推薦英雄 / 類型：凱能、安妮、妮可、布里茨、墨菲特
+- 摘要：獲得第二次閃現召喚師技能和70召喚師技能加速。
 
-### Repulsor（）
+### 反重力裝置
 - 稀有度：Silver
-- 推薦英雄 / 類型：Renata、Velkoz、Nami、Heimerdinger、Janna
-- 摘要：Blitz Tier D - 推薦英雄: Renata, Velkoz, Nami
+- 推薦英雄 / 類型：睿娜妲‧格萊斯克、威寇茲、娜米、漢默丁格、珍娜
+- 摘要：生命低於35%時，擊退鄰近敵軍並使其緩速90%。
 
-### Poltergeist（）
+### 搗蛋鬼
 - 稀有度：Silver
-- 推薦英雄 / 類型：Singed、Olaf、Darius、Vladimir、Viktor
-- 摘要：Blitz Tier D - 推薦英雄: Singed, Olaf, Darius
+- 推薦英雄 / 類型：辛吉德、歐拉夫、達瑞斯、弗拉迪米爾、維克特
+- 摘要：獲得召喚師技能「搗蛋鬼」。「搗蛋鬼」可施放召喚師技能「光盾」和「鬼步」。
 
 
 
@@ -934,15 +969,173 @@ ARAM-DATA-COVERAGE:
   - 輕舞飛揚這東西真的有夠噁心 應該砍成打小兵不能累積吧 不然就砍持續時間 被ad拿到這東西根本整把摸不到人 今天玩一把對面有汎選到這個跟2次3次整隊被射成白癡
 - [bug] 請問一下 如果是抽到的加射程海克斯 最後再抽拔劍 射程是不是不會被拿掉? 昨天遇...
   - 請問一下 如果是抽到的加射程海克斯 最後再抽拔劍 射程是不是不會被拿掉? 昨天遇到一場對面吉茵拿超狙+頂狙+強化射程 前面被射爛 對面還開始不要G不要G 最後第四個拿拔劍 我們看到還笑出來 結果射程還
+- [trap] 有大量回復的角色 可以注意 爆擊治療+死亡循環 還蠻有趣的  威寇茲 選到重置C...
+  - 有大量回復的角色 可以注意 爆擊治療+死亡循環 還蠻有趣的  威寇茲 選到重置CD W重置的是兩次W之間的CD不是W本人的CD 今天才被一個死亡循環的札克噁心到死，滿血螳螂直接被變不見 玩過一把爆擊治
+- [bug] 分享一些看到或體驗到的冷知識  金色增幅心之剛350層任務 那個有BUG只會加數...
+  - 分享一些看到或體驗到的冷知識  金色增幅心之剛350層任務 那個有BUG只會加數字不會加血量 別選 銀色增幅可以撿雪球的那個會讓部分角色廢掉一個技能 別選  彩色增幅雪球命中敵人會上增益的很爛別選 (
+- [trap] 射手有加射程的優先射程 除非對方完全沒有射手 不然太難活命了
+  - 射手有加射程的優先射程 除非對方完全沒有射手 不然太難活命了
+- [bug] 玻璃大砲目前不知道誰適合，扣30%血傷害12%轉真傷，性價比有點低，炸彈人764...
+  - 玻璃大砲目前不知道誰適合，扣30%血傷害12%轉真傷，性價比有點低，炸彈人764這種手長但傷害低的感覺也不合，唯一想到的可能只有自爆型刺客 鞋子任務ad拿了不會太差，一些機動差的戰士也可以拿，強度還行
+- [bug] 英文維基最下面有講所以我幫大家翻譯好了 以下物品將被視為「帽上加帽」增幅裝置中的...
+  - 英文維基最下面有講所以我幫大家翻譯好了 以下物品將被視為「帽上加帽」增幅裝置中的頭飾/帽子物品：深淵面具、血書詛咒、星河馳騁、夜色緣界、芬布爾之冬、實驗型海克斯板甲、幽魂面具、虛偽光彩、傲慢、千變萬化
+- [bug] 提摩大招有問題 他選到放大招變身的妖精魔法 我沒被炸到距離也很遠 但還是會被變身...
+  - 提摩大招有問題 他選到放大招變身的妖精魔法 我沒被炸到距離也很遠 但還是會被變身 而且是整隊5個人都變 然後關於婕莉的普攻機制 幫忙避一下雷 放技能回血的煽動群眾 Q不會觸發 普攻的被動能觸發 但爆擊
+- [trap] 這場雷茲超白癡 開場選到科技+殭屍+水龍魂 魔根本用不完 第二個選到丟技能回血 ...
+  - 這場雷茲超白癡 開場選到科技+殭屍+水龍魂 魔根本用不完 第二個選到丟技能回血 後面兩個又補了火龍+地龍魂 整把就是亂亂丟就贏了 還開了兩次車進去找對面泡溫泉，出來的時候還是滿血
+- [bug] 沒錯 又是Adc的模式 滑板鞋拿到飛影跑法直接無敵 天湖龍王被打成白癡 笑死 有...
+  - 沒錯 又是Adc的模式 滑板鞋拿到飛影跑法直接無敵 天湖龍王被打成白癡 笑死 有adc直接選 要嗎拔劍要嗎衝刺增益類型 甚至雙刀流拿到直接無敵 少在那邊20xxadc 胡說八道
+- [trap] 坦克前排拿剛毅是不是有點厲害 增加基礎生命回復 25%血以下效果翻倍 昨天開局出...
+  - 坦克前排拿剛毅是不是有點厲害 增加基礎生命回復 25%血以下效果翻倍 昨天開局出門拿了一秒回20血 配上守望者號角基本上被POKE都不會掉血 效果看起來很雷但感覺被低估了 而且中期也不弱 一秒回120
+- [bug] 昨天打一把賽恩中BUG，Q完全沒傷害沒緩速沒CC，唯一功用就是CC自己，不知道怎...
+  - 昨天打一把賽恩中BUG，Q完全沒傷害沒緩速沒CC，唯一功用就是CC自己，不知道怎麼觸發的 選的是不死魔舞、坦克引擎、接匕首、煽動群眾，造型西域牛仔 直接少一招真的超憨，還少最重要的Q 看到4樓了原來就
+- [bug] 法師的爆擊裝是不是有問題啊？我沒按召喚師技能結果也增加爆擊，狀態欄BUFF圖示上...
+  - 法師的爆擊裝是不是有問題啊？我沒按召喚師技能結果也增加爆擊，狀態欄BUFF圖示上說此單位被護盾庇護著？？
+- [bug] 煞密拉配拔劍根本做壞 傷害有夠高 變成近戰又可以出傲慢疊層 只要隊友有cc幾乎都...
+  - 煞密拉配拔劍根本做壞 傷害有夠高 變成近戰又可以出傲慢疊層 只要隊友有cc幾乎都爽局
+- [bug] 有沒有卡特愛好者來研討一下跟各海克斯的互動以及適合跟不適合的海克斯 目前是被電光...
+  - 有沒有卡特愛好者來研討一下跟各海克斯的互動以及適合跟不適合的海克斯 目前是被電光石火搞過 雖然有20%總攻速 但少了傷害總感覺少了個海克斯 以及魔法導彈技能觸發是不是有內置CD 我以為大絕每把匕首都能
+- [bug] 稜彩海克斯送鞋子的那個有bug 或者是機制 他每個任務給的鞋子都可以賣 你全力做...
+  - 稜彩海克斯送鞋子的那個有bug 或者是機制 他每個任務給的鞋子都可以賣 你全力做任務不管對局一下就能領先對面兩件大裝
+- [bug] 寶石手套個人測試結果， 強度遠不如競技場， 只適合本來就出爆擊穿甲的角色， 物理...
+  - 寶石手套個人測試結果， 強度遠不如競技場， 只適合本來就出爆擊穿甲的角色， 物理刺客由於傲慢和公里圓弧過於超模， 導致這兩件很難被取代， 收集者大穿不僅貴還沒cd， 強度實在不高， 法師的部分最大的問
+- [bug] 雷茲也很不錯 隨便湊都有不錯傷害 拿到基本功夫後基本無敵
+  - 雷茲也很不錯 隨便湊都有不錯傷害 拿到基本功夫後基本無敵
+- [bug] 幹 飛斯的w+幻影武器有BUG吧 直接無限觸發到死欸
+  - 幹 飛斯的w+幻影武器有BUG吧 直接無限觸發到死欸
+- [bug] 板上玩卡特的 這個才是卡特專用的海克斯 我出坦選到物攻轉魔攻+雙修大師 大招可以...
+  - 板上玩卡特的 這個才是卡特專用的海克斯 我出坦選到物攻轉魔攻+雙修大師 大招可以瘋狂疊ap 一波會戰打完1000多ap
+- [bug] 大亂鬥最OP角色(撇除BUG)，沒有之一 札克(核心科技：生死循環，開局12分鐘...
+  - 大亂鬥最OP角色(撇除BUG)，沒有之一 札克(核心科技：生死循環，開局12分鐘2萬5傷害) 吃一塊軟泥對面直接蒸發 沒有拿到生死，拿坦或+生命的科技也都是躺贏 3控制技+變態回血+復活被動 一打二是
+- [bug] 我想問一下 吉茵抽到狂躁會疊上去嗎 杰西單中有bug嗎 我剛剛玩遠近攻血量不一樣...
+  - 我想問一下 吉茵抽到狂躁會疊上去嗎 杰西單中有bug嗎 我剛剛玩遠近攻血量不一樣(差500) 還會觸發氣定神閒
+- [trap] 基本功船長超強 目前還想測試基本功雷茲 但選不到
+  - 基本功船長超強 目前還想測試基本功雷茲 但選不到
+- [bug] * 稜鏡增幅裝置 [ 終極革新 ] 有兩個bug。:: 1.是如果約瑞科大招不連...
+  - * 稜鏡增幅裝置 [ 終極革新 ] 有兩個bug。:: 1.是如果約瑞科大招不連續開不能有第二次 2.是死亡會重置沒錯。但75秒騙你的根本不會75秒能有重置機會 ~~ 然後提供一個好用的小技巧。前期可
+- [bug] 蜘蛛可以選衝鋒減少人型態綁的CD 競技場觸發條件是切成蜘蛛型態再選增幅 這裡可以...
+  - 蜘蛛可以選衝鋒減少人型態綁的CD 競技場觸發條件是切成蜘蛛型態再選增幅 這裡可以直接選 選了以後變成蜘蛛型態死一次就會觸發 大概E點3級就可以綁到連技破壞
+- [bug] 這個到底有沒有用啊 每次看到數字都是0 還是顯示BUG嗎 實際傷害有感嗎?
+  - 這個到底有沒有用啊 每次看到數字都是0 還是顯示BUG嗎 實際傷害有感嗎?
+- [trap] 不知道這算不算“已知用火” 刷牙兄弟或蛇女、雷茲這種一直按的法師 出法爆書小技可...
+  - 不知道這算不算“已知用火” 刷牙兄弟或蛇女、雷茲這種一直按的法師 出法爆書小技可以一直刷盾 昨天有個犽凝靠這個跟吸血直接1打5 沒多點控制即使有重創和破盾者也很難打死他
+- [bug] * * * * * / / / / / 我這個布蕾爾已經pr99頂標了吧。 還以...
+  - * * * * * / / / / / 我這個布蕾爾已經pr99頂標了吧。 還以為我是在玩dota。 可惜不是我來打世界賽冠亞軍幫臺灣得名次~~ I.出裝路線 : 1.考菲爾特的戰槌 -> 2.狂怒九
+- [bug] 感覺一定會修的 沒玩過記得玩 臉書 影片 彩色鞋子任務1分鐘內即可完成 最重要的...
+  - 感覺一定會修的 沒玩過記得玩 臉書 影片 彩色鞋子任務1分鐘內即可完成 最重要的就是發完鞋子後賣掉買CD鞋(讓任務判定成CD鞋的丟技能) 然後在溫泉裡丟技能丟滿 任務完成之後賣掉買回CD鞋丟技能就會直
+- [bug] 有一個魔功轉物攻海克斯 484很猛啊 畢竟魔功比較好撐 滿裝的話700以上不是問...
+  - 有一個魔功轉物攻海克斯 484很猛啊 畢竟魔功比較好撐 滿裝的話700以上不是問題 物攻了不起400 但如果不是第一個選到那很難 因為裝備已經出了 有什麼角色適合的啊
+- [bug] 沒意思,  現在誰到選到任務鞋誰就贏, 全是死媽的卡BUG仔
+  - 沒意思,  現在誰到選到任務鞋誰就贏, 全是死媽的卡BUG仔
+- [trap] * 有點可惜欸。回復不休被砍一刀。甚麼巴德 艾克 葵恩 牙膏 各種英雄我都用過回...
+  - * 有點可惜欸。回復不休被砍一刀。甚麼巴德 艾克 葵恩 牙膏 各種英雄我都用過回復不休一直不死一直爽 阿然後其實雷射治療本來就已經超級OP你補一次等於在前中期隊友多5條命。還加強。~~趕快爽一下吧。 
+- [bug] 剛遇到一把有人洗錢 選球鞋收藏家 開場就三件套怎麼打 到底是啥小BUG 只看他就...
+  - 剛遇到一把有人洗錢 選球鞋收藏家 開場就三件套怎麼打 到底是啥小BUG 只看他就一直在家按動作和賣裝之類的方式洗
+- [trap] * 葵恩買輕靈+妖夢。如果配上極靈的大招跟幻影之舞是不是全聯盟最快。要是再來個嘉...
+  - * 葵恩買輕靈+妖夢。如果配上極靈的大招跟幻影之舞是不是全聯盟最快。要是再來個嘉文1世。蘇瑞亞狂想曲。克雷德R跟露露W米里歐E。外加溫泉加速和巨人殺手+瘋狂科學家。全地圖14000瑪。可望突破7000
+- [trap] 有加攻擊距離的裝置盡量都別選 尤其對方角色很容易打混戰的情況 因為那個白癡裝置攻...
+  - 有加攻擊距離的裝置盡量都別選 尤其對方角色很容易打混戰的情況 因為那個白癡裝置攻擊距離給的是假的 沒有用右鍵點人的話一律都只有原本的攻擊距離，手感會超級不順 如果對方都丟丟怪還可以選選，如果是混戰團會
+- [bug] 大亂鬥球形收藏家還是能卡bug 透過cd鞋子溫泉b回城鍵做任務  賣系統發的 重...
+  - 大亂鬥球形收藏家還是能卡bug 透過cd鞋子溫泉b回城鍵做任務  賣系統發的 重複撤銷購買cd鞋 這動作能重複 且時間大概兩秒內左右 開局完成只要一分鐘實現財富自由 有無熱修和對比修復前手法有無不一樣
+- [bug] 娜米有bug 選到妖精魔法+全都給你+艾莉 有時候沒放大絕能把人變動物，但觸發原...
+  - 娜米有bug 選到妖精魔法+全都給你+艾莉 有時候沒放大絕能把人變動物，但觸發原因不明
+- [bug] 這裡給一個輔助雙彩組合 當你選擇了能給隊友護盾的角色 拿到小貓咪找媽媽或是蛋白粉...
+  - 這裡給一個輔助雙彩組合 當你選擇了能給隊友護盾的角色 拿到小貓咪找媽媽或是蛋白粉奶昔都可以試著找另一個 你就會發現你同時又肉護盾或是治療超高 完美解決了給盾角站不住的問題 出了蛋白粉奶昔只要堆防禦自然
+- [bug] 黃金撕裂是不是有BUG 我是用維克特 拿了一整場偷不到400塊 傷害不到1000...
+  - 黃金撕裂是不是有BUG 我是用維克特 拿了一整場偷不到400塊 傷害不到1000 我發誓我沒有摸魚
+- [bug] 軟輔的話 米里歐別拿 幾乎沒有適配的符文 由於海克斯大亂鬥數值膨脹，米里歐給的被...
+  - 軟輔的話 米里歐別拿 幾乎沒有適配的符文 由於海克斯大亂鬥數值膨脹，米里歐給的被動加成就不夠看了 貓可以拿 但沒有拿到小貓咪找媽媽會很弱 娜美也是沒有適配符文的問題 不推薦 卡瑪的話還是以護盾為主，輸
+- [bug] 卡馬在這模式算做壞了 加盾的隨便抽都有 白色 金色裡面隨便抽都有20% 30% ...
+  - 卡馬在這模式算做壞了 加盾的隨便抽都有 白色 金色裡面隨便抽都有20% 30% 裝備就穿都盾的 隨便抽一抽後面按個RE盾就5.6K 團戰打下去隊友整條都白的,對面出破盾也才破一半,盾還有2.3K 天胡
+- [bug] 遇到一把斯溫bug 拿到吸血迷信後自身獲得30%全能吸血 但是將無法受到隊友的技...
+  - 遇到一把斯溫bug 拿到吸血迷信後自身獲得30%全能吸血 但是將無法受到隊友的技能治療 拿吸血迷信後吃極靈R，極靈R的回血沒辦法作用給斯溫 斯溫不主動吃被動回血就無敵 真噁心啊這東西
+- [trap] 垃圾車拿到穩打+拔劍 超猛
+  - 垃圾車拿到穩打+拔劍 超猛
+- [bug] 30秒法術護盾是不是有bug? 被打掉後就不會再次刷新了
+  - 30秒法術護盾是不是有bug? 被打掉後就不會再次刷新了
+- [bug] 這幾天有人抽中過鞋中王嗎? 聽說有強力BUG，但我都沒見過有人抽了，暗改了?
+  - 這幾天有人抽中過鞋中王嗎? 聽說有強力BUG，但我都沒見過有人抽了，暗改了?
+- [bug] 昨天凱能拿到劍舞之心 玩起來超級斜咖 大招進去劍舞之心 還不小心電死躲在草叢想蹲...
+  - 昨天凱能拿到劍舞之心 玩起來超級斜咖 大招進去劍舞之心 還不小心電死躲在草叢想蹲人的小壞蛋
+- [bug] BUG有夠多 大絕刷新那招說是75秒CD或者死亡時重置 結果時鐘老頭R刷新一次以...
+  - BUG有夠多 大絕刷新那招說是75秒CD或者死亡時重置 結果時鐘老頭R刷新一次以後 就算右下角CD跑好了再放R也不會刷新第二次 只有死了才會重置
+- [bug] 身為法爆黑，只能說果然有問題，根本打不出傷害，誰選誰傻逼
+  - 身為法爆黑，只能說果然有問題，根本打不出傷害，誰選誰傻逼
+- [bug] 最近建議不要玩前排了 腦殘設計師為了修復奈德麗 蜘蛛 變形回覆血量的問題 他想出...
+  - 最近建議不要玩前排了 腦殘設計師為了修復奈德麗 蜘蛛 變形回覆血量的問題 他想出的解決方法是給後排+600血，直接拿到跟近戰一樣的血量加成 最近玩進戰真的很容易被秒又拿對面沒辦法
+- [bug] 欸輔助真的很爛嗎 我朋友都很靠北我玩輔助 我個人覺得蘇瑞雅 贖罪 盾 很好拉扯又...
+  - 欸輔助真的很爛嗎 我朋友都很靠北我玩輔助 我個人覺得蘇瑞雅 贖罪 盾 很好拉扯又很好增加容錯率 當然我是會看陣容才選 每次都叫我玩坦 有時候角色沒那麼優或是我覺得要保排就還是得照著他的意來玩 所以這遊
+- [trap] 設計師真的應該改改鬥士坦克的池子 或者是多給一倍的選擇權 0法強的垃圾車能拿到最...
+  - 設計師真的應該改改鬥士坦克的池子 或者是多給一倍的選擇權 0法強的垃圾車能拿到最強大腦你敢信？
+- [bug] *會少一個海克斯* 前陣子看到的BUG 剛剛用出來了 7等前去送頭 11等前再送...
+  - *會少一個海克斯* 前陣子看到的BUG 剛剛用出來了 7等前去送頭 11等前再送一次 只要10等經驗過半在溫泉等到11等 存到兩個增幅裝置 7等刷新的增幅會是11等增幅的等級 有機會人造全彩局
+- [bug] * * * * * * * * * * * * = = 來個錯誤示範的潮流XD ...
+  - * * * * * * * * * * * * = = 來個錯誤示範的潮流XD 雖然我不認同任何人用龍獸跟燼鍛體。 但我吉茵專精14了可以鍛了吧 ~~ 增幅裝置的選擇 : i.吸血迷信 ii.超狙武器
+- [bug] 我不知道我有沒有理解錯誤 但是法師遇到寶石手套 選了後在後期魔攻和爆擊率都撐起來...
+  - 我不知道我有沒有理解錯誤 但是法師遇到寶石手套 選了後在後期魔攻和爆擊率都撐起來的狀況下 就算是法師再出一把無盡 這樣是不是很強 現在看別人寶石手套的測試影片說傷害會*0.75 假設一個法師有寶石手套
+- [bug] 有人測試過這裝備嗎?敘述看起來很怪，跟競技場的不一樣，感覺有問題
+  - 有人測試過這裝備嗎?敘述看起來很怪，跟競技場的不一樣，感覺有問題
+- [trap] 這版單中平衡BUFF一堆坦 我有體感到為什麼了 雷西到底是什麼垃圾陷阱角 要坦坦...
+  - 這版單中平衡BUFF一堆坦 我有體感到為什麼了 雷西到底是什麼垃圾陷阱角 要坦坦不住 要開超被動 要保保不住 就是個比較肉的派克 隊友還超愛選雷西= =
+- [bug] 飛揚 雙修 這兩個 可以靠颶風a小兵疊層 鬼索 三下兩下 台風 這些效果命中不知...
+  - 飛揚 雙修 這兩個 可以靠颶風a小兵疊層 鬼索 三下兩下 台風 這些效果命中不知道能不能 有沒有實測過的人願意分享經驗 玩寇格魔 天使 有雙修層數疊起來 都能秒坦克 有看過隊友玩死哥 一開始選雙修 就
+- [trap] * * * * * * * * * * * ARAM大混戰精華分享 : 難得被眾...
+  - * * * * * * * * * * * ARAM大混戰精華分享 : 難得被眾多隊友給輔助。 ! ! ! ! ! ! ! 增幅裝置的整體配置 : i.[溢流] ii.[狂躁] iii.[見縫插針] 
+- [bug] 殺戮時間根本有BUG 傷害連小兵打 隊友打的也算上去 而且還是真傷
+  - 殺戮時間根本有BUG 傷害連小兵打 隊友打的也算上去 而且還是真傷
+- [bug] 想問一下前幾天抽到心之鋼3倍但看起來沒給額外血量是bug 嗎？不給血量只有層數就...
+  - 想問一下前幾天抽到心之鋼3倍但看起來沒給額外血量是bug 嗎？不給血量只有層數就完全沒用啊
+- [trap] 有人試過雷歐娜被動的那個海克斯能不能互相觸發嗎？ A打了上被動 B再打觸發A的被...
+  - 有人試過雷歐娜被動的那個海克斯能不能互相觸發嗎？ A打了上被動 B再打觸發A的被動同時掛上B的被動 A的被動這個時候能不能觸發B的被動？
+- [trap] 能不能把火人移掉 操你媽的 垃圾角色 符文又跟自選的一樣 隨便就天胡
+  - 能不能把火人移掉 操你媽的 垃圾角色 符文又跟自選的一樣 隨便就天胡
+- [trap] 刪遊戲了 玩整天只有一把順風 會玩的角色一隻不給 大逆風死不投降 對面的派克把把...
+  - 刪遊戲了 玩整天只有一把順風 會玩的角色一隻不給 大逆風死不投降 對面的派克把把天湖 好累喔 單排想躺贏果然是癡人說夢 有機會再見吧 垃圾遊戲
+- [bug] 抱歉了 遇到對面這樣三次 我現在開始也就是玩坦坦克引擎 卡bug開心買裝不死 2...
+  - 抱歉了 遇到對面這樣三次 我現在開始也就是玩坦坦克引擎 卡bug開心買裝不死 20場勝率55% 這bug也沒多好用就是
+- [bug] 根本沒修好 還當作修好在那發公告 什麼噁心公司
+  - 根本沒修好 還當作修好在那發公告 什麼噁心公司
+- [bug] 有沒有基本功夫 玩起來特別超模的 除了 剛普 （這大家都知道） 昨天玩了一把基本...
+  - 有沒有基本功夫 玩起來特別超模的 除了 剛普 （這大家都知道） 昨天玩了一把基本功夫 人馬 也還不錯
+- [bug] 黃金撕裂有BUG，隊上兩個人選，一個人觸發完後另一個人觸發不了
+  - 黃金撕裂有BUG，隊上兩個人選，一個人觸發完後另一個人觸發不了
+- [trap] 玩到雷茲 記得要選 魔力轉生命 物理轉魔法 霸王血鍇 那是說個無限法王需要什麼條...
+  - 玩到雷茲 記得要選 魔力轉生命 物理轉魔法 霸王血鍇 那是說個無限法王需要什麼條件啊
+- [bug] 這是BUG還是外掛 遇到1場給他打開一看 挖操
+  - 這是BUG還是外掛 遇到1場給他打開一看 挖操
+- [bug] 符紋術士的艾莉給盾是不是有BUG阿，每次出都是0，彗星傷害也挺可憐的
+  - 符紋術士的艾莉給盾是不是有BUG阿，每次出都是0，彗星傷害也挺可憐的
+- [bug] 剛玩了一把薩亨 一開始拿吸血迷信 後面質變到蛋白飲 最後拿一個急救箱 治療量20...
+  - 剛玩了一把薩亨 一開始拿吸血迷信 後面質變到蛋白飲 最後拿一個急救箱 治療量200多% 一下普攻回1800… 蛋白飲真的離譜 賈克修+無盡絕望
+- [trap] 衛星雷射砲要如何施放才容易命中目標？
+  - 衛星雷射砲要如何施放才容易命中目標？
+- [bug] 彩色稜鏡:潘朵拉寶盒 BUG 如果一開始拿了穩扎穩打質變過後變成其他彩色稜鏡  ...
+  - 彩色稜鏡:潘朵拉寶盒 BUG 如果一開始拿了穩扎穩打質變過後變成其他彩色稜鏡  一樣公速會被鎖死在0.63
+- [bug] 破曉綻放之劍是不是有bug 常常讓你a了也不會回血
+  - 破曉綻放之劍是不是有bug 常常讓你a了也不會回血
 
 
 
 ## 模式與增幅整體原則摘要
 
-- 前中期以線權與清線為優先，爆水晶後特別重要。
-- 選擇海克斯時優先放大英雄既有強項，其次才是補短板或撐防禦。
-- 雷茲可以拿魔力轉血量 物轉法 溢流 回歸基本功 恢復不夠可拿使用技能恢復生命或移動恢復生命或水龍魂 出裝順序 時光 魔劍 霸王 死帽 峽谷 黯影之炎 至於還有什麼強力的自己去b站搜尋
 - 大後期注意關鍵主 C 的買一送一概念（一起死一起生）。
+- 前中期以線權與清線為優先，爆水晶後特別重要。
+- 有沒有卡特愛好者來研討一下跟各海克斯的互動以及適合跟不適合的海克斯 目前是被電光石火搞過 雖然有20%總攻速 但少了傷害總感覺少了個海克斯 以及魔法導彈技能觸發是不是有內置CD 我以為大絕每把匕首都能觸發 選得很開心 一看傷害二百五 然後有
+- * 稜鏡增幅裝置 [ 終極革新 ] 有兩個bug。:: 1.是如果約瑞科大招不連續開不能有第二次 2.是死亡會重置沒錯。但75秒騙你的根本不會75秒能有重置機會 ~~ 然後提供一個好用的小技巧。前期可以每波都只開一次大招。然後你死掉之後再繼
+- * * * * * * * * * * * / / / / / / / / / / / 之後可能會平衡掉這個搭配。 颶風和輕舞飛揚的搭配。 相信地球上某個角落也有人發現和使用這招。 ~~ 剛才玩一場汎輕舞飛揚待到颶風買出來之後。會戰直接起飛
+- * * * * * * * * * * * ARAM大混戰精華分享 : 難得被眾多隊友給輔助。 ! ! ! ! ! ! ! 增幅裝置的整體配置 : i.[溢流] ii.[狂躁] iii.[見縫插針] iv.[最終型態] 增幅裝置的簡單解釋 
+- 想贏的話 坦克引擎是不是陷阱? 還是有我沒想到的用法? 我個人覺得 1. 玩ar最忌諱沒血量退回塔下結果啥招都放不出來就死 會直接掉塔 尤其要死掉才能補裝備 補海克斯 2. 坦克最忌諱怕死不幫輸出製造輸出空間 大順風局不會有人需要死 那還好
+- * * * * * 我剛剛會笑死 我蠻王拿 超狙起手 結尾拿到 頂狙 ~~ 隔山打牛。打起來~~ 出裝也很搞笑。隊內有馬爾但沒有adc。我就九頭蛇+星蝕之後後面補殞落跟幻影之舞 ~~ 整體配備的完整版是 : 1.[ 超狙武器 ] 2.[ 最
+- 選擇海克斯時優先放大英雄既有強項，其次才是補短板或撐防禦。
+- 其實吃大招的角色不一定選到基本功就覺得贏不了 我有一把卡薩丁拿到基本功，但贏了 我跟朋友排他煞蜜拉也選到過，也贏了 基本功讓其他技能傷害變成爆炸高 改個出裝還是能爆炸輸出 我改法刺的出裝基本也隨便秒 他煞蜜拉改出刺客裝也是隨便秒人
+- * * * * * / / / / / 我這個布蕾爾已經pr99頂標了吧。 還以為我是在玩dota。 可惜不是我來打世界賽冠亞軍幫臺灣得名次~~ I.出裝路線 : 1.考菲爾特的戰槌 -> 2.狂怒九頭蛇 -> 3.星蝕 -> 4.海妖殺手
+- 大亂鬥最OP角色(撇除BUG)，沒有之一 札克(核心科技：生死循環，開局12分鐘2萬5傷害) 吃一塊軟泥對面直接蒸發 沒有拿到生死，拿坦或+生命的科技也都是躺贏 3控制技+變態回血+復活被動 一打二是常態，一打三不在話下，一打五稍微認真，殘
+- 雷茲可以拿魔力轉血量 物轉法 溢流 回歸基本功 恢復不夠可拿使用技能恢復生命或移動恢復生命或水龍魂 出裝順序 時光 魔劍 霸王 死帽 峽谷 黯影之炎 至於還有什麼強力的自己去b站搜尋
+- 目前為止玩到最爽的一局 龍女，剛好雙方都不是丟丟怪陣容可以苟到後期 戰爭交響曲-吸血迷信-逃跑計畫-質變骰出頂狙武器 龍女Q可以直接遠程施放配上泰坦，大型噴火龍 不過能贏感覺也多虧對面jinx沒出殞落不然感覺不好說
+- 最近建議不要玩前排了 腦殘設計師為了修復奈德麗 蜘蛛 變形回覆血量的問題 他想出的解決方法是給後排+600血，直接拿到跟近戰一樣的血量加成 最近玩進戰真的很容易被秒又拿對面沒辦法
+- * * * * * * * * * * * 我要被自己選的增幅笑死 0.0 區區大眾以為矛盾 其實沒有/哈哈哈哈 第377+374場 這告訴我們軟實力的角超強XD 我就靠煙霧彈 跟兩個位移在那邊繡起來 結束的時候我 "血已經將近 13000
+- 我不知道我有沒有理解錯誤 但是法師遇到寶石手套 選了後在後期魔攻和爆擊率都撐起來的狀況下 就算是法師再出一把無盡 這樣是不是很強 現在看別人寶石手套的測試影片說傷害會*0.75 假設一個法師有寶石手套 不考慮魔防 某一招能打500，AP轉換
+- 沒啥討論度我猜大概是都在關注比賽吧 這邊分享一些心得  大混戰模式因為沒有符文的關係，前期強度甚至比一般AR還弱，因此開局選擇的增益會決定你前期的舒適度及未來走向，通常前中期會是坦克、鬥士、的天下，但11級第三個增益之後，通常就是輸出位開始
 
 > 本檔案為由中介 JSON 自動生成；若要更新內容，請先依 `/Writerside/topics/Aram-maintain.md` 5.1～5.3 更新 JSON，
 > 再重新執行產生腳本覆寫本檔。

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Extract structured insights from raw_floors in Aram-data.json.
+Extract structured insights from Aram-baha-raw.json and merge into Aram-data.json.
 
 This script parses the scraped Bahamut floor text and extracts:
 - Hero + Augment synergy mentions
@@ -17,6 +17,7 @@ from collections import defaultdict
 
 ROOT = Path(__file__).resolve().parent.parent
 TOPICS_DIR = ROOT / "Writerside" / "topics"
+RAW_PATH = TOPICS_DIR / "Aram-baha-raw.json"
 JSON_PATH = TOPICS_DIR / "Aram-data.json"
 
 # 常見英雄名（中文）- 從巴哈討論串常見的英雄名
@@ -55,22 +56,41 @@ BUG_KEYWORDS = ["bug", "BUG", "Bug", "問題", "不符", "沒有生效", "修", 
 TRAP_KEYWORDS = ["噁心", "垃圾", "難", "坑", "雷", "不配"]
 
 
-def load_json() -> dict:
+def load_raw() -> dict:
+    """Load raw Bahamut data."""
+    if not RAW_PATH.exists():
+        return {"floors": []}
+    with RAW_PATH.open("r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def load_data() -> dict:
+    """Load main data file."""
+    if not JSON_PATH.exists():
+        return {}
     with JSON_PATH.open("r", encoding="utf-8") as f:
         return json.load(f)
 
 
-def save_json(data: dict) -> None:
+def save_data(data: dict) -> None:
     with JSON_PATH.open("w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     print(f"Saved {JSON_PATH}")
+
+
+def get_floor_text(floor: dict) -> str:
+    """Get all text from a floor including comments."""
+    texts = [floor.get("content", "") or floor.get("text", "")]
+    for comment in floor.get("comments", []):
+        texts.append(comment.get("content", ""))
+    return "\n".join(texts)
 
 
 def extract_hero_augment_mentions(floors: list[dict]) -> dict:
     """Extract hero + augment co-mentions from floor text."""
     hero_augments = defaultdict(set)
     for f in floors:
-        text = f.get("text", "")
+        text = get_floor_text(f)
         heroes = set(HERO_PATTERN.findall(text))
         augments = set(AUGMENT_PATTERN.findall(text))
         for h in heroes:
@@ -84,7 +104,7 @@ def extract_bugs_and_traps(floors: list[dict]) -> list[dict]:
     results = []
     seen = set()
     for f in floors:
-        text = f.get("text", "")
+        text = get_floor_text(f)
         is_bug = any(kw in text for kw in BUG_KEYWORDS)
         is_trap = any(kw in text for kw in TRAP_KEYWORDS)
         if is_bug or is_trap:
@@ -108,7 +128,7 @@ def extract_macro_tips(floors: list[dict]) -> list[str]:
     seen = set()
     strategy_kw = ["優先", "建議", "核心", "出裝", "順序", "前期", "後期", "線權", "清線"]
     for f in floors:
-        text = f.get("text", "")
+        text = get_floor_text(f)
         if len(text) > 80 and any(kw in text for kw in strategy_kw):
             tip = text[:120].replace("\n", " ")
             if tip not in seen:
@@ -156,13 +176,14 @@ def merge_macro_tips(data: dict, new_tips: list[str]) -> None:
 
 
 def main() -> None:
-    data = load_json()
-    floors = data.get("raw_floors", [])
+    # Load raw Bahamut data
+    raw = load_raw()
+    floors = raw.get("floors", [])
     if not floors:
-        print("No raw_floors found. Run scrape_bahamut_aram.py first.")
+        print(f"No floors found in {RAW_PATH}. Run scrape_bahamut_aram.py first.")
         return
 
-    print(f"Processing {len(floors)} floors...")
+    print(f"Processing {len(floors)} floors from {RAW_PATH}...")
 
     hero_augments = extract_hero_augment_mentions(floors)
     print(f"Found {len(hero_augments)} heroes with augment mentions")
@@ -173,11 +194,13 @@ def main() -> None:
     tips = extract_macro_tips(floors)
     print(f"Found {len(tips)} macro tips")
 
+    # Load and update main data file
+    data = load_data()
     merge_hero_synergy(data, hero_augments)
     merge_bugs_and_traps(data, bugs)
     merge_macro_tips(data, tips)
 
-    save_json(data)
+    save_data(data)
     print("Done!")
 
 
