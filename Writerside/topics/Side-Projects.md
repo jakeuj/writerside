@@ -68,6 +68,19 @@
 
 
 
+### LibGGPK3（Fork｜有貢獻）
+- 語言：C#
+- 連結：[GitHub](https://github.com/jakeuj/LibGGPK3)
+- 說明：Fork 專案；我有多筆提交與維護（包含相容性修正、效能調整與工具化）。
+
+![Stars](https://img.shields.io/github/stars/jakeuj/LibGGPK3?style=social) ![Top language](https://img.shields.io/github/languages/top/jakeuj/LibGGPK3) ![Last commit](https://img.shields.io/github/last-commit/jakeuj/LibGGPK3)
+- 標註：`Fork` `有貢獻`
+- 技術標籤：`C#` `.NET` `Parser` `Library`
+
+![LibGGPK3](https://opengraph.githubassets.com/1/jakeuj/LibGGPK3)
+
+
+
 ### writerside（本站）
 - 類型：技術筆記網站（JetBrains Writerside）
 - 連結：[GitHub](https://github.com/jakeuj/writerside)
@@ -262,4 +275,3 @@
 ## 想法與方向
 - 將持續在 .NET（ABP/EF/Logging）、雲端（Azure/GCP）、容器（Docker）、以及 AI/LLM 相關領域進行研究與實作
 - 若你對任何專案有興趣或建議，歡迎開 Issue 或 PR，一起交流！
-
