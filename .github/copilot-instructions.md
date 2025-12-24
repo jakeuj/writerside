@@ -2,6 +2,20 @@
 
 這是一個使用 JetBrains Writerside 構建的中文技術筆記專案，內容涵蓋開發技術、雲端服務、AI 工具等多個技術領域。
 
+## Configuration
+- **Language**: Traditional Chinese (zh-tw)
+
+## Shell Tools Usage Guidelines
+⚠️ **IMPORTANT**: Use the following specialized tools instead of traditional Unix commands: (Install if missing)
+| Task Type | Must Use | Do Not Use |
+|-----------|----------|------------|
+| Find Files | `fd` | `find`, `ls -R` |
+| Search Text | `rg` (ripgrep) | `grep`, `ag` |
+| Analyze Code Structure | `ast-grep` | `grep`, `sed` |
+| Interactive Selection | `fzf` | Manual filtering |
+| Process JSON | `jq` | `python -m json.tool` |
+| Process YAML/XML | `yq` | Manual parsing |
+
 ## 專案架構
 
 ### 核心文件結構
