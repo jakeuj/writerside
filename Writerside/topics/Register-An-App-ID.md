@@ -28,7 +28,7 @@ App 會用到哪些 iOS 系統權限/服務（Entitlements
 - Sign In with Apple
   - 使用 Apple ID 登入功能
 
-#### Universal Links
+#### Universal Links（說明）
 要跑起來：你需要 3 個東西
 1) App 端（Xcode Capability）
 
@@ -127,3 +127,74 @@ NSFaceIDUsageDescription（Face ID 使用說明）
 App 內開啟「使用 Face ID」後，用 Keychain 存放 refresh token / session，並用 LAContext 做解鎖
 
 做到「再次開啟 App / 進入簽核詳細頁 / 送出簽核」時要求 Face ID
+
+## 送審
+[App Store Connect](https://appstoreconnect.apple.com/apps)
+
+Apple 的核心審核原則（很重要）：審核人員必須能實際進入 App，看到主要功能。
+
+你現在的情境：企業內部 App + AAD（Azure AD / Entra ID）。這類情況 Apple 常見且可接受，但你必須配合審核流程。
+
+Apple 接受的作法有 3 種（依推薦順序）：
+
+### ✅ 作法一（最推薦）：提供「審核用 AAD 測試帳號」
+這是通過率最高且最乾淨的方式。
+
+你需要做的事：
+1. 在 Entra ID Tenant 建一組測試帳號（例如 `apple.review@yourcompany.com`）。
+2. 指派最小權限（例如：只能查看報表、只有一筆測試簽核）。
+3. 在 App Store Connect 的 **App Review Information** 中填入：
+   - Username
+   - Password
+   - 登入流程說明（例如是否有 MFA、是否需同意條款等）
+
+關於 MFA：
+- MFA 很重要，但審核人員可能拿不到 SMS 或 Authenticator 的驗證碼。
+- 請**不要**為審核帳號開啟 SMS / Authenticator 類型的 MFA。
+- 可行做法：
+  - 暫時關閉該帳號的 MFA；或
+  - 在條件式存取（Conditional Access）中排除該審核帳號。
+
+> 小提醒：這是企業 App 最常見、Apple 官方也建議的做法。
+
+---
+
+### ⚠️ 作法二：提供「Review Mode / Demo Mode」
+可行但要小心實作方式：
+
+方式範例：
+- 在 App 內提供一個「Review Mode」按鈕，或提供特殊帳號（例如 `review@demo`）以載入 Demo 資料。
+- Review Mode 可繞過 AAD 登入，直接展示功能範例畫面。
+
+Apple 接受條件：
+- Demo 內容必須能完整展示主要功能，不能只是空畫面或靜態截圖。
+- 不能刻意隱藏真實功能或規避審核流程。
+
+若 Apple 判定你在「規避登入審查」，仍有機會被拒。
+
+---
+
+### ❌ 作法三（不建議）：完全不提供登入方式
+- 僅在備註寫 `This app is for internal employees only`。
+- 高機率直接被 Reject，Apple 不會因為「企業內部」就免除審核。
+
+---
+
+## 建議的實作流程（報表、簽核、推播）
+
+建議步驟：
+1. 建立一組 Apple Review 專用的 AAD 帳號，關閉該帳號的 MFA。 
+2. 在測試帳號中放入假資料 / 測試簽核單，確保能展示完整流程（含推播/點擊後的跳轉）。
+3. 在 App Store Connect 填寫清楚的 Sign-in Information：
+   - `Username`
+   - `Password`
+   - 任何登入注意事項（例如「第一次登入會要求同意條款」、是否需要 VPN 或公司網路等）
+4. 確認審核帳號不受公司 VPN / IP 限制或其他訪問限制（審核人員應能直接登入）。
+
+這樣做可大幅提高一次通過審核的機率。
+
+---
+
+## 額外注意事項
+- 如果你選擇走「Unlisted App / Custom App（ABM）」，審核規則仍然相同，Apple 仍會完整檢查登入流程。
+- 一句話總結：**只用 AAD 登入時，Apple 幾乎一定要求可登入的審核帳號。企業內部 App ≠ 可以不讓 Apple 登入。**
