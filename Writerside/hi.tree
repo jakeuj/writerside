@@ -68,6 +68,7 @@
         </toc-element>
         <!-- ========== Mobile ========== -->
         <toc-element topic="Flutter.md">
+            <toc-element topic="Fultter-Build-Version.md"/>
             <toc-element topic="Flutter-Azure-AD-Login.md" />
             <toc-element toc-title="iOS">
                 <toc-element topic="專案換憑證.md" />
