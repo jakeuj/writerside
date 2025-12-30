@@ -29,6 +29,17 @@
 ![edge-extension](https://opengraph.githubassets.com/1/jakeuj/edge-extension)
 
 
+### ChromeExtensionPobZh
+- 語言：JavaScript
+- 連結：[GitHub](https://github.com/jakeuj/ChromeExtensionPobZh) ｜ [產品頁面](https://poe.jakeuj.com/)
+- 說明：忍者網轉編年史 - Chrome 瀏覽器擴充功能。
+
+![Stars](https://img.shields.io/github/stars/jakeuj/ChromeExtensionPobZh?style=social) ![Top language](https://img.shields.io/github/languages/top/jakeuj/ChromeExtensionPobZh) ![Last commit](https://img.shields.io/github/last-commit/jakeuj/ChromeExtensionPobZh)
+- 技術標籤：`JavaScript` `Chrome-Extension` `Browser-Extension` `Web`
+
+![ChromeExtensionPobZh](https://opengraph.githubassets.com/1/jakeuj/ChromeExtensionPobZh)
+
+
 ### pixerDotnet
 - 語言：C#
 - 連結：[GitHub](https://github.com/jakeuj/pixerDotnet)
