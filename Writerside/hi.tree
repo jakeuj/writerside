@@ -2,6 +2,9 @@
 <instance-profile id="hi" name="Jakeuj's Notes" start-page="Default.md">
     <toc-element topic="Default.md">
         <!-- ========== 連結與資源 ========== -->
+        <toc-element toc-title="Mac">
+            <toc-element topic="macOS-WiFi-DNS-設定筆記.md"/>
+        </toc-element>
         <toc-element topic="links.md">
             <toc-element topic="Side-Projects.md" />
             <toc-element topic="贊助.md" />
