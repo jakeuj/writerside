@@ -388,6 +388,7 @@
             <toc-element topic="SFTP-to-WSL-on-Windows-11.md" />
         </toc-element>
         <toc-element topic="Ubuntu.md">
+            <toc-element topic="OpenClaw-Ubuntu-Install.md" />
             <toc-element topic="SSH-防暴力破解.md" />
             <toc-element topic="Mac-SSH.md" />
             <toc-element topic="Power-Shell-SSH.md" />
