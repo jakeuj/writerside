@@ -81,7 +81,7 @@ Auggie 會按照以下優先順序載入規則檔案：
 
 > **注意**：CLI 中尚不支援手動規則（manual）。目前工作區規則會被視為 `always_apply`。`manual` 類型僅在 IDE 擴充功能中有效，可使用 `@` 提及選擇性附加規則。
 
-### Frontmatter 範例
+### Frontmatter 範例 {id="frontmatter-examples"}
 
 永遠套用的規則：
 
