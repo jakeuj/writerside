@@ -14,6 +14,7 @@
         <toc-element toc-title="AI">
             <toc-element topic="auggie-mcp-guide.md"/>
             <toc-element topic="auggie-cli-rules.md"/>
+            <toc-element topic="auggie-user-rules-example.md"/>
             <toc-element topic="PyTorchMac.md"/>
             <toc-element topic="VM-GPU-Driver.md"/>
             <toc-element topic="FramePack-圖生影.md" />
