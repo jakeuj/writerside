@@ -1,0 +1,31 @@
+name: Markdown Lint
+
+on:
+  push:
+    branches: [ main, master ]
+    paths:
+      - 'Writerside/topics/**/*.md'
+  pull_request:
+    branches: [ main, master ]
+    paths:
+      - 'Writerside/topics/**/*.md'
+
+jobs:
+  markdown-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run markdownlint
+        uses: DavidAnson/markdownlint-cli2-action@v16
+        with:
+          globs: 'Writerside/topics/**/*.md'
+          fix: false
+
+      - name: Show lint results
+        if: failure()
+        run: |
+          echo "Markdown lint 發現格式問題，請執行以下指令修復："
+          echo "markdownlint --fix Writerside/topics/**/*.md"
+
