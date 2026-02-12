@@ -1,0 +1,24 @@
+{
+  "name": "writerside",
+  "version": "1.0.0",
+  "description": "這個 repo 是用 **JetBrains Writerside** 維護的中文（zh-tw）技術筆記，內容涵蓋 .NET/ABP、Flutter、Docker、雲端服務、AI 工具等。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakeuj/writerside.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jakeuj/writerside/issues"
+  },
+  "homepage": "https://github.com/jakeuj/writerside#readme",
+  "devDependencies": {
+    "markdownlint-cli": "^0.47.0"
+  }
+}
