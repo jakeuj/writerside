@@ -34,28 +34,28 @@
 
 ![](https://dotblogsfile.blob.core.windows.net/user/小小朱/249e9ecd-47b1-4702-b063-15c7132196e1/1693900421.png.png)![](https://dotblogsfile.blob.core.windows.net/user/小小朱/249e9ecd-47b1-4702-b063-15c7132196e1/1693900472.png.png)![](https://dotblogsfile.blob.core.windows.net/user/小小朱/249e9ecd-47b1-4702-b063-15c7132196e1/1693900501.png.png)
 
-2. Clone the repo:
+1. Clone the repo:
 `git clone https://github.com/GoogleCloudPlatform/training-data-analyst`
 
 ![](https://dotblogsfile.blob.core.windows.net/user/小小朱/249e9ecd-47b1-4702-b063-15c7132196e1/1693900672.png.png)
 
-3. Install the required packages for the lab:
+1. Install the required packages for the lab:
 `cd training-data-analyst/quests/vertex-ai/vertex-challenge-lab`
 `pip install -U -r requirements.txt --user`
 
 ![](https://dotblogsfile.blob.core.windows.net/user/小小朱/249e9ecd-47b1-4702-b063-15c7132196e1/1693900740.png.png)
 
-4. Go to the enclosing folder: `training-data-analyst/quests/vertex-ai/vertex-challenge-lab`.
+1. Go to the enclosing folder: `training-data-analyst/quests/vertex-ai/vertex-challenge-lab`.
 
-5. Open the notebook file `vertex-challenge-lab.ipynb`.
+2. Open the notebook file `vertex-challenge-lab.ipynb`.
 
 ![](https://dotblogsfile.blob.core.windows.net/user/小小朱/249e9ecd-47b1-4702-b063-15c7132196e1/1693900854.png.png)
 
-6. In the **Setup** section, define your `PROJECT_ID`, `GCS_BUCKET`, and `USER` variables.
+1. In the **Setup** section, define your `PROJECT_ID`, `GCS_BUCKET`, and `USER` variables.
 
 ![](https://dotblogsfile.blob.core.windows.net/user/小小朱/249e9ecd-47b1-4702-b063-15c7132196e1/1693901201.png.png)
 
-* 將專案Id與Storage名稱填進去Setup區段
+- 將專案Id與Storage名稱填進去Setup區段
 
 ![](https://dotblogsfile.blob.core.windows.net/user/小小朱/249e9ecd-47b1-4702-b063-15c7132196e1/1693901278.png.png)![](https://dotblogsfile.blob.core.windows.net/user/小小朱/249e9ecd-47b1-4702-b063-15c7132196e1/1693903357.png.png)
 > 我們已經為您提供了導入和預處理數據集的所有其餘代碼。
@@ -68,9 +68,9 @@
 
 PS5
 
-* GCP
+- GCP
 
-* 回首頁
+- 回首頁
 
 ---
 

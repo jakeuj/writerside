@@ -101,11 +101,11 @@ Zero 樣板的 Angular 內建通知系統
 
 PS5
 
-* ABP
-* SignalR
-* WebSocket
+- ABP
+- SignalR
+- WebSocket
 
-* 回首頁
+- 回首頁
 
 ---
 

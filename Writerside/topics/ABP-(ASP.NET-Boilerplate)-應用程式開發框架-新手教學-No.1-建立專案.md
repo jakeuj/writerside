@@ -14,7 +14,7 @@ ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.1 建立專�
 
 1.到ABP官網下載基本框架：[http://aspnetboilerplate.com/​](http://aspnetboilerplate.com/)![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9886c5a0-bdd9-440d-aa02-d74325bbb6c0/1469524990_1426.png)
 
-* 這邊使用預設來建立專案，第三步勾選[Include module-zero]，第四步輸入專案名稱[MyCompany.MyProject]，最後CREATE MY PROJECT！
+- 這邊使用預設來建立專案，第三步勾選[Include module-zero]，第四步輸入專案名稱[MyCompany.MyProject]，最後CREATE MY PROJECT！
 
 ![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9886c5a0-bdd9-440d-aa02-d74325bbb6c0/1469525005_6279.png)
 
@@ -62,10 +62,10 @@ ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.1 建立專�
 
 PS5
 
-* C#
+- C#
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

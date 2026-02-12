@@ -19,19 +19,19 @@
    [writerside/.github/workflows/deploy.yml at master · jakeuj/writerside](https://github.com/jakeuj/writerside/blob/master/.github/workflows/deploy.yml)
 6. 更新 yml 中的 env
    1. INSTANCE：更新為 module/instanceID，預設為：Writerside/hiWritWritersideerside
-      * instanceID：Writerside > hi.tree > instance-profile > id > 預設是 hi
-      * module：writerside.cfg 的所在目錄名稱即為 module 名稱
+      - instanceID：Writerside > hi.tree > instance-profile > id > 預設是 hi
+      - module：writerside.cfg 的所在目錄名稱即為 module 名稱
    2. ARTIFACT：須將 instanceID 轉大寫之後填入 $"webhelp{ID}2-all.zip"
-      * 預設 instanceID 為 hi, 因此預設值為： webhelpHI2-all.zip
-      * 例如 instanceID 為 fh, 因此須跟新為： webhelpFH2-all.zip
+      - 預設 instanceID 為 hi, 因此預設值為： webhelpHI2-all.zip
+      - 例如 instanceID 為 fh, 因此須跟新為： webhelpFH2-all.zip
    3. DOCKER\_VERSION：需更新到程式版本對應的 Docker image 版號
-      * [2024.01.233.14389 - Writerside | JetBrains Marketplace](https://plugins.jetbrains.com/plugin/20158-writerside/docs/2024.01.233.14389.html)
+      - [2024.01.233.14389 - Writerside | JetBrains Marketplace](https://plugins.jetbrains.com/plugin/20158-writerside/docs/2024.01.233.14389.html)
    4. ALGOLIA\_ARTIFACT：須將 instanceID 轉大寫之後填入 $"algolia-indexes-{ID}.zip"
-      * 預設 instanceID 為 hi, 因此預設值為： algolia-indexes-ID.zip
-      * 例如 instanceID 為 fh, 因此須跟新為： algolia-indexes-FH.zip
+      - 預設 instanceID 為 hi, 因此預設值為： algolia-indexes-ID.zip
+      - 例如 instanceID 為 fh, 因此須跟新為： algolia-indexes-FH.zip
 7. 到 Github > repo > 設定 > Pages > Build and deployment > Source > GitHub Actions > Save
 8. 之後應該只要 push 就會觸發 Action 更新 Github Pages
-   * [This is the first topic | Help Instance (jakeuj.github.io)](https://jakeuj.github.io/writerside/default-topic.html)
+   - [This is the first topic | Help Instance (jakeuj.github.io)](https://jakeuj.github.io/writerside/default-topic.html)
 
 ## 參考
 
@@ -153,13 +153,13 @@ jobs:
 
 PS5
 
-* CI/CD
+- CI/CD
 {ignore-vars="true"}
-* GitHubPages
-* JetBrains
-* Writerside
+- GitHubPages
+- JetBrains
+- Writerside
 
-* 回首頁
+- 回首頁
 
 ---
 

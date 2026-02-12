@@ -1,4 +1,5 @@
-# ABP.IO Update 關於更新版本時遇到的 Git CRLF 
+# ABP.IO Update 關於更新版本時遇到的 Git CRLF
+
  問題
 
 > **原文發布日期:** 2023-01-03
@@ -31,9 +32,9 @@ Cli
 
 PS5
 
-* ABP
+- ABP
 
-* 回首頁
+- 回首頁
 
 ---
 

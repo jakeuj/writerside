@@ -128,6 +128,7 @@ Blitz Tier ───────→ Aram-blitz-tierlist.json ┘                
 | `Aram-data.json` | 整合 | 整合上述資料 + 人工標註 | 任一來源更新時 |
 
 **優點**：
+
 - 原始資料與整合資料分離，除錯時可追溯來源
 - 不需重複爬取，節省 token
 - 各來源可獨立更新
@@ -204,6 +205,7 @@ Blitz Tier ───────→ Aram-blitz-tierlist.json ┘                
    - 開啟 `https://blitz.gg/lol/aram-mayhem-augments`
    - 點擊右上角設定圖示 → 選擇「繁體中文」→ 等待頁面重新載入
    - 使用 JavaScript 評估抓取 DOM 內容：
+
      ```javascript
      // 抓取所有增幅資料
      Array.from(document.querySelectorAll('[class*="AugmentRow"]')).map(row => ({
@@ -220,6 +222,7 @@ Blitz Tier ───────→ Aram-blitz-tierlist.json ┘                
    - 可透過 DOM 結構或 CSS class 判斷當前增幅屬於哪個稀有度區塊
 
 3. **資料欄位對應**：
+
    | Blitz 欄位 | JSON 欄位 | 說明 |
    |-----------|----------|------|
    | 增幅名稱 | `augment_name_zh` | 繁體中文名稱（如「巨人殺手」） |
@@ -234,6 +237,7 @@ Blitz Tier ───────→ Aram-blitz-tierlist.json ┘                
    - 開啟 `https://blitz.gg/lol/tierlist/aram-mayhem`
    - 確認語言為「繁體中文」
    - 使用 JavaScript 評估抓取 DOM 內容：
+
      ```javascript
      (() => {
        const result = {
@@ -300,11 +304,13 @@ Blitz Tier ───────→ Aram-blitz-tierlist.json ┘                
 腳本 `scrape_bahamut_aram.py` 已整合留言抓取功能，透過巴哈姆特的 AJAX API 自動取得所有留言：
 
 **留言 API**：
+
 ```
 GET https://forum.gamer.com.tw/ajax/moreCommend.php?bsn=17532&snB={樓層ID}&returnHtml=1
 ```
 
 **執行指令**：
+
 ```bash
 # 完整抓取（包含留言）
 python3 scripts/scrape_bahamut_aram.py --force
@@ -317,6 +323,7 @@ python3 scripts/scrape_bahamut_aram.py --no-comments
 ```
 
 **腳本會自動**：
+
 1. 抓取每頁的樓層主文
 2. 從樓層連結取得 `snB`（樓層 ID）
 3. 呼叫 AJAX API 取得該樓的所有留言

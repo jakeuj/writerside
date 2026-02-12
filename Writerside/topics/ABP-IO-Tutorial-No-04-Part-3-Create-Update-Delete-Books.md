@@ -22,28 +22,28 @@
 
 在本系列教程中，您將構建一個名稱`Acme.BookStore`的用於管理書籍及其作者列表的基於 ABP 的程序。是使用以下技術開發的：
 
-* **Entity Framework Core 為**ORM 提供程序。
-* **Angular**做為 UI 框架。
+- **Entity Framework Core 為**ORM 提供程序。
+- **Angular**做為 UI 框架。
 
 本教程分為以下部分：
 
-* [第 1 部分：創建服務器端](https://docs.abp.io/en/abp/latest/Tutorials/Part-1)
-* [第 2 部分：圖書列表頁面](https://docs.abp.io/en/abp/latest/Tutorials/Part-2)
-* [第 3 部分：創建、更新和刪除書籍](https://docs.abp.io/en/abp/latest/Tutorials/Part-3)
-* [第 4 部分：集成測試](https://docs.abp.io/en/abp/latest/Tutorials/Part-4)
-* [第 5 部分：授權](https://docs.abp.io/en/abp/latest/Tutorials/Part-5)
-* [第 6 部分：作者：領域層](https://docs.abp.io/en/abp/latest/Tutorials/Part-6)
-* [第 7 部分：作者：數據庫集成](https://docs.abp.io/en/abp/latest/Tutorials/Part-7)
-* [第 8 部分：作者：應用程序層](https://docs.abp.io/en/abp/latest/Tutorials/Part-8)
-* [第 9 部分：作者：用戶界面](https://docs.abp.io/en/abp/latest/Tutorials/Part-9)
-* [第 10 部分：圖書到作者的關係](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Part-10)
+- [第 1 部分：創建服務器端](https://docs.abp.io/en/abp/latest/Tutorials/Part-1)
+- [第 2 部分：圖書列表頁面](https://docs.abp.io/en/abp/latest/Tutorials/Part-2)
+- [第 3 部分：創建、更新和刪除書籍](https://docs.abp.io/en/abp/latest/Tutorials/Part-3)
+- [第 4 部分：集成測試](https://docs.abp.io/en/abp/latest/Tutorials/Part-4)
+- [第 5 部分：授權](https://docs.abp.io/en/abp/latest/Tutorials/Part-5)
+- [第 6 部分：作者：領域層](https://docs.abp.io/en/abp/latest/Tutorials/Part-6)
+- [第 7 部分：作者：數據庫集成](https://docs.abp.io/en/abp/latest/Tutorials/Part-7)
+- [第 8 部分：作者：應用程序層](https://docs.abp.io/en/abp/latest/Tutorials/Part-8)
+- [第 9 部分：作者：用戶界面](https://docs.abp.io/en/abp/latest/Tutorials/Part-9)
+- [第 10 部分：圖書到作者的關係](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Part-10)
 
 ## 下載源碼
 
 本教程根據你的**UI**和**數據庫**首選項有多個版本，我們準備了一個模型下載的源碼組件：
 
-* [MVC (Razor Pages) UI 與 EF Core](https://github.com/abpframework/abp-samples/tree/master/BookStore-Mvc-EfCore)
-* [Angular UI 與 MongoDB](https://github.com/abpframework/abp-samples/tree/master/BookStore-Angular-MongoDb)
+- [MVC (Razor Pages) UI 與 EF Core](https://github.com/abpframework/abp-samples/tree/master/BookStore-Mvc-EfCore)
+- [Angular UI 與 MongoDB](https://github.com/abpframework/abp-samples/tree/master/BookStore-Angular-MongoDb)
 
 ## 創建新書
 
@@ -87,7 +87,7 @@ export class BookComponent implements OnInit {
 }
 ```
 
-* 我們定義了一個未知`isModalOpen`的變量和`createBook`方法。
+- 我們定義了一個未知`isModalOpen`的變量和`createBook`方法。
 
 打開`/src/app/book/book.component.html`做以下更改：
 
@@ -132,8 +132,8 @@ export class BookComponent implements OnInit {
 </abp-modal>
 ```
 
-* 添加了`New book`按鈕到虛偽。
-* 添加了`abp-modal`渲染模態框，允許用戶創建新書。`abp-modal`是顯示模態框的預構建組件。你也可以使用其他方法顯示模態框，但`abp-modal`提供了一些附加的好處。
+- 添加了`New book`按鈕到虛偽。
+- 添加了`abp-modal`渲染模態框，允許用戶創建新書。`abp-modal`是顯示模態框的預構建組件。你也可以使用其他方法顯示模態框，但`abp-modal`提供了一些附加的好處。
 
 你可以打開瀏覽器，點擊**新書**按鈕看到模態框。
 
@@ -216,13 +216,13 @@ export class BookComponent implements OnInit {
 }
 ```
 
-* 導入了`FormGroup, FormBuilder and Validators`。
-* 添加了`form: FormGroup`變量。
-* 添加`bookType`屬性，你可以從模板中獲取`BookType`枚舉成員。
-* 添加`bookTypes`屬性作為`BookType`枚舉成員列表。將在表單選項中使用。
-* 我們注入了`fb: FormBuilder`服務到構造函數。[FormBuilder](https://angular.io/api/forms/FormBuilder)服務為生成控件提供了方便的方法。它減少了複雜表單所需的樣板文件的數量。
-* 我們添加了`buildForm`方法到文件，在`createBook`方法調用`buildForm()`方法。該方法創建一個響應式表單去創建新書。
-* 添加了`save`方法。
+- 導入了`FormGroup, FormBuilder and Validators`。
+- 添加了`form: FormGroup`變量。
+- 添加`bookType`屬性，你可以從模板中獲取`BookType`枚舉成員。
+- 添加`bookTypes`屬性作為`BookType`枚舉成員列表。將在表單選項中使用。
+- 我們注入了`fb: FormBuilder`服務到構造函數。[FormBuilder](https://angular.io/api/forms/FormBuilder)服務為生成控件提供了方便的方法。它減少了複雜表單所需的樣板文件的數量。
+- 我們添加了`buildForm`方法到文件，在`createBook`方法調用`buildForm()`方法。該方法創建一個響應式表單去創建新書。
+- 添加了`save`方法。
 
 打開`/src/app/book/book.component.html`，使用以下內容替換`<ng-template #abpBody> </ng-template>`：
 
@@ -302,7 +302,7 @@ import { NgbDatepickerModule } from '@ng-bootstrap/ng-bootstrap'; // add this li
 export class BookModule { }
 ```
 
-* 我們導入了`NgbDatepickerModule` 來使用日期選擇器。
+- 我們導入了`NgbDatepickerModule` 來使用日期選擇器。
 
 打開 `/src/app/book/book.component.ts`使用範圍內的替換：
 
@@ -380,8 +380,8 @@ export class BookComponent implements OnInit {
 }
 ```
 
-* 導入了`NgbDateNativeAdapter`和`NgbDateAdapter`。
-* 我們添加了一個新的`NgbDateAdapter`提供程序，為`Date`類型數據選擇器值轉換。有關更多詳細信息，請參閱[日期選擇器適配器](https://ng-bootstrap.github.io/#/components/datepicker/overview)。
+- 導入了`NgbDateNativeAdapter`和`NgbDateAdapter`。
+- 我們添加了一個新的`NgbDateAdapter`提供程序，為`Date`類型數據選擇器值轉換。有關更多詳細信息，請參閱[日期選擇器適配器](https://ng-bootstrap.github.io/#/components/datepicker/overview)。
 
 現在你可以打開瀏覽器看到以下變化：
 
@@ -480,11 +480,11 @@ export class BookComponent implements OnInit {
 }
 ```
 
-* 我們聲明了類型為`BookDto`的`selectedBook`變量。
-* 我們添加了`editBook` 方法，根據給定圖書`Id`設置`selectedBook`對象。
-* 我們替換了`buildForm`方法使用`selectedBook`數據創建表單。
-* 我們替換了`createBook`方法，設置`selectedBook`為空對象。
-* 我們替換了`save`方法。
+- 我們聲明了類型為`BookDto`的`selectedBook`變量。
+- 我們添加了`editBook` 方法，根據給定圖書`Id`設置`selectedBook`對象。
+- 我們替換了`buildForm`方法使用`selectedBook`數據創建表單。
+- 我們替換了`createBook`方法，設置`selectedBook`為空對象。
+- 我們替換了`save`方法。
 
 ### 添加“操作” 下拉框到表格
 
@@ -560,13 +560,13 @@ delete(id: string) {
 }
 ```
 
-* 我們注入了`ConfirmationService`。
-* 我們注入了`ConfirmationService`到構造函數。
-* 添加了`delete`方法。
+- 我們注入了`ConfirmationService`。
+- 我們注入了`ConfirmationService`到構造函數。
+- 添加了`delete`方法。
 
 > 請參閱[確認彈層文檔](https://docs.abp.io/zh-Hans/abp/latest/UI/Angular/Confirmation-Service)了解該服務的更多信息。
 
-### 添加刪除按鈕：
+### 添加刪除按鈕
 
 打開`/src/app/book/book.component.html`修改`ngbDropdownMenu`添加刪除按鈕：
 
@@ -595,9 +595,9 @@ delete(id: string) {
 
 PS5
 
-* ABP
+- ABP
 
-* 回首頁
+- 回首頁
 
 ---
 

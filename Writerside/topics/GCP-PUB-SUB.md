@@ -32,11 +32,11 @@ P.S. GCP > IAM > 服務帳戶 > Create > Key
 
 PS5
 
-* Cloud
-* GCP
-* Google
+- Cloud
+- GCP
+- Google
 
-* 回首頁
+- 回首頁
 
 ---
 

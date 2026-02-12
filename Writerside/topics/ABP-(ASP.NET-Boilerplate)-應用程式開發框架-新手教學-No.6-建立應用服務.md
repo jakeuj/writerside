@@ -230,10 +230,10 @@ ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.7 建立WebA
 
 PS5
 
-* C#
+- C#
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

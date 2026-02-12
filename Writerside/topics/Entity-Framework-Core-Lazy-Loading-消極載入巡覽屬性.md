@@ -10,10 +10,10 @@
 
 先下結論
 
-* EF Core (.Net Core)
+- EF Core (.Net Core)
   預設是積極載入，不需要再加 virtaul
   如果特別設定成消極載入，則一樣要補上 virtaul
-* EF (.Net Framework)
+- EF (.Net Framework)
   預設是消極載入，要啟用需要加 virtaul
   但也可以不加，就不走消極載入
 
@@ -99,10 +99,10 @@ https://docs.microsoft.com/zh-tw/ef/core/performance/efficient-querying#load-rel
 
 PS5
 
-* Entity Framework
+- Entity Framework
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

@@ -30,28 +30,28 @@
 
 在本系列教程中，您將構建一個名稱`Acme.BookStore`的用於管理書籍及其作者列表的基於 ABP 的程序。是使用以下技術開發的：
 
-* **Entity Framework Core 為**ORM 提供程序。
-* **MVC / Razor Pages**做為 UI 框架。
+- **Entity Framework Core 為**ORM 提供程序。
+- **MVC / Razor Pages**做為 UI 框架。
 
 本教程分為以下部分：
 
-* [第 1 部分：創建服務器端](https://docs.abp.io/en/abp/latest/Tutorials/Part-1)
-* [第 2 部分：圖書列表頁面](https://docs.abp.io/en/abp/latest/Tutorials/Part-2)
-* [第 3 部分：創建、更新和刪除書籍](https://docs.abp.io/en/abp/latest/Tutorials/Part-3)
-* [第 4 部分：集成測試](https://docs.abp.io/en/abp/latest/Tutorials/Part-4)
-* [第 5 部分：授權](https://docs.abp.io/en/abp/latest/Tutorials/Part-5)
-* [第 6 部分：作者：領域層](https://docs.abp.io/en/abp/latest/Tutorials/Part-6)
-* [第 7 部分：作者：數據庫集成](https://docs.abp.io/en/abp/latest/Tutorials/Part-7)
-* [第 8 部分：作者：應用程序層](https://docs.abp.io/en/abp/latest/Tutorials/Part-8)
-* [第 9 部分：作者：用戶界面](https://docs.abp.io/en/abp/latest/Tutorials/Part-9)
-* [第 10 部分：圖書到作者的關係](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Part-10)
+- [第 1 部分：創建服務器端](https://docs.abp.io/en/abp/latest/Tutorials/Part-1)
+- [第 2 部分：圖書列表頁面](https://docs.abp.io/en/abp/latest/Tutorials/Part-2)
+- [第 3 部分：創建、更新和刪除書籍](https://docs.abp.io/en/abp/latest/Tutorials/Part-3)
+- [第 4 部分：集成測試](https://docs.abp.io/en/abp/latest/Tutorials/Part-4)
+- [第 5 部分：授權](https://docs.abp.io/en/abp/latest/Tutorials/Part-5)
+- [第 6 部分：作者：領域層](https://docs.abp.io/en/abp/latest/Tutorials/Part-6)
+- [第 7 部分：作者：數據庫集成](https://docs.abp.io/en/abp/latest/Tutorials/Part-7)
+- [第 8 部分：作者：應用程序層](https://docs.abp.io/en/abp/latest/Tutorials/Part-8)
+- [第 9 部分：作者：用戶界面](https://docs.abp.io/en/abp/latest/Tutorials/Part-9)
+- [第 10 部分：圖書到作者的關係](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Part-10)
 
 ## 下載源碼
 
 本教程根據你的**UI**和**數據庫**首選項有多個版本，我們準備了一個模型下載的源碼組件：
 
-* [MVC (Razor Pages) UI 與 EF Core](https://github.com/abpframework/abp-samples/tree/master/BookStore-Mvc-EfCore)
-* [Angular UI 與 MongoDB](https://github.com/abpframework/abp-samples/tree/master/BookStore-Angular-MongoDb)
+- [MVC (Razor Pages) UI 與 EF Core](https://github.com/abpframework/abp-samples/tree/master/BookStore-Mvc-EfCore)
+- [Angular UI 與 MongoDB](https://github.com/abpframework/abp-samples/tree/master/BookStore-Angular-MongoDb)
 
 ## 創建解決方案
 
@@ -71,8 +71,8 @@
 
 啟動模板中的**領域層**分為兩個項目：
 
-* `Acme.BookStore.Domain`包括你的[實體](https://docs.abp.io/zh-Hans/abp/latest/Entities)、[領域服務](https://docs.abp.io/zh-Hans/abp/latest/Domain-Services)和其他核心對象(例如：倉儲介面)。
-* `Acme.BookStore.Domain.Shared`包括可與客戶端共享的所有對象，枚舉或其他域相關。
+- `Acme.BookStore.Domain`包括你的[實體](https://docs.abp.io/zh-Hans/abp/latest/Entities)、[領域服務](https://docs.abp.io/zh-Hans/abp/latest/Domain-Services)和其他核心對象(例如：倉儲介面)。
+- `Acme.BookStore.Domain.Shared`包括可與客戶端共享的所有對象，枚舉或其他域相關。
 
 ### BookType 枚舉 (Enum)
 
@@ -125,12 +125,12 @@ namespace Acme.BookStore.Books
 }
 ```
 
-* ABP為實體提供了兩個基本的基類：`AggregateRoot`和`Entity`。**Aggregate Root**是[**領域驅動設計**](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Domain-Driven-Design)概念一個。可以直接查詢和處理的根實體（請參閱[實體文檔](https://docs.abp.io/zh-Hans/abp/latest/Entities)）。
+- ABP為實體提供了兩個基本的基類：`AggregateRoot`和`Entity`。**Aggregate Root**是[**領域驅動設計**](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Domain-Driven-Design)概念一個。可以直接查詢和處理的根實體（請參閱[實體文檔](https://docs.abp.io/zh-Hans/abp/latest/Entities)）。
   // 同聚合內非根的一般實體可以用 BookCover : `Entity<Guid>`，因為同聚合內應該只有一個根，DDD不熟暫時不想用也可以直接照你原本開發方式全部用一般實體基類`Entity<T>`
-* `Book`實體繼承了`AuditedAggregateRoot`，`AuditedAggregateRoot`類在`AggregateRoot`類的基礎上添加了一些審計屬性( `CreationTime`, `CreatorId`, `LastModificationTime`)。ABP框架自動為你管理這些屬性。
+- `Book`實體繼承了`AuditedAggregateRoot`，`AuditedAggregateRoot`類在`AggregateRoot`類的基礎上添加了一些審計屬性( `CreationTime`, `CreatorId`, `LastModificationTime`)。ABP框架自動為你管理這些屬性。
   // 不用聚合根也不想那麼多審計屬性，[ABP 也提供其他基類](https://docs.abp.io/zh-Hans/abp/latest/Entities#%E5%AE%A1%E8%AE%A1%E5%9F%BA%E7%B1%BB)，比如：CreationAudited`Entity<TKey>` ，再少也可以只使用 [ABP 提供的介面](https://docs.abp.io/zh-Hans/abp/latest/Entities#%E5%AE%A1%E8%AE%A1%E6%8E%A5%E5%8F%A3)，例如：IHasCreationTime，優點是可以統一屬性名稱為 `CreationTime`
 {ignore-vars="true"}
-* `Guid`是`Book`實體的主鍵類型。
+- `Guid`是`Book`實體的主鍵類型。
   // 主鍵類型也可以自己改，例如：BookPage : `Entity<long>` ，只是 [ABP 推薦使用 Guid](https://docs.abp.io/zh-Hans/abp/latest/Entities#guid%E4%B8%BB%E9%94%AE%E7%9A%84%E5%AE%9E%E4%BD%93) 就是了
 {ignore-vars="true"}
 
@@ -199,8 +199,8 @@ namespace Acme.BookStore.EntityFrameworkCore
 
 ![](https://dotblogsfile.blob.core.windows.net/user/御星幻/09547ec3-aaf1-4f7e-a6f0-91e27d5a7a1f/1626839141.png)
 
-* `ConfigureByConvention()` 方法優雅的配置/歸屬的屬性，應始終對你所有的屬性使用它。
-* `BookStoreConsts`包含用於表的架構和表前綴的常量值。你不一定需要使用它，但建議在單點控製表的前綴。
+- `ConfigureByConvention()` 方法優雅的配置/歸屬的屬性，應始終對你所有的屬性使用它。
+- `BookStoreConsts`包含用於表的架構和表前綴的常量值。你不一定需要使用它，但建議在單點控製表的前綴。
   // 這是定義資料表名稱前綴，用來跟 Abp 開頭的表來做區分，方便辨識哪些是框架用的資料表，哪些是我們自己應用程式用的資料表，或自己定義不同前綴來分類自己的表，
   // 這邊建議統一定義在領域層的一個統一地方，預設是 `BookStoreConsts.cs` ，有其他需要共用的常量 (Const) 也可以繼續統一加在這裡，方便使用與管理。
 
@@ -286,7 +286,7 @@ namespace Acme.BookStore
 }
 ```
 
-* 如果中數據庫沒有當前圖書，則使用`IRepository<Book, Guid>`(默認為[知識庫](https://docs.abp.io/zh-Hans/abp/latest/Repositories))將兩本書插入數據庫。
+- 如果中數據庫沒有當前圖書，則使用`IRepository<Book, Guid>`(默認為[知識庫](https://docs.abp.io/zh-Hans/abp/latest/Repositories))將兩本書插入數據庫。
 
 ![](https://dotblogsfile.blob.core.windows.net/user/%E5%BE%A1%E6%98%9F%E5%B9%BB/f8aa590e-d43b-4f53-afa6-cea509e45adf/1626683321.png)
 {ignore-vars="true"}
@@ -307,8 +307,8 @@ namespace Acme.BookStore
 
 應用程序層由兩個單獨的項目組成：
 
-* `Acme.BookStore.Application.Contracts`包含你的[DTO](https://docs.abp.io/zh-Hans/abp/latest/Data-Transfer-Objects)和[應用服務](https://docs.abp.io/zh-Hans/abp/latest/Application-Services)接口。
-* `Acme.BookStore.Application` 包含你的應用服務實現。
+- `Acme.BookStore.Application.Contracts`包含你的[DTO](https://docs.abp.io/zh-Hans/abp/latest/Data-Transfer-Objects)和[應用服務](https://docs.abp.io/zh-Hans/abp/latest/Application-Services)接口。
+- `Acme.BookStore.Application` 包含你的應用服務實現。
 
 在本部分中，您將創建一個應用程序服務，使用 ABP 框架的`CrudAppService`基類來獲取、創建、更新和刪除書籍。
 
@@ -339,9 +339,9 @@ namespace Acme.BookStore
 }
 ```
 
-* **DTO**類被用來**表示層**和**應用層** **傳遞數據**。查看[DTO 文檔](https://docs.abp.io/zh-Hans/abp/latest/Data-Transfer-Objects)查看更多信息。
-* 為了在頁面上展示書籍信息，`BookDto`被將書籍數據傳遞到顯示層。
-* `BookDto`繼承自`AuditedEntityDto<Guid>`。跟上面定義的`Book`實體一樣具有一些審計屬性。
+- **DTO**類被用來**表示層**和**應用層** **傳遞數據**。查看[DTO 文檔](https://docs.abp.io/zh-Hans/abp/latest/Data-Transfer-Objects)查看更多信息。
+- 為了在頁面上展示書籍信息，`BookDto`被將書籍數據傳遞到顯示層。
+- `BookDto`繼承自`AuditedEntityDto<Guid>`。跟上面定義的`Book`實體一樣具有一些審計屬性。
   // 這邊為了用來做 CRUD，某些DTO可能需要繼承內鍵含有Id定義的基類，才能正常做Update與Delete，一般DTO則可以不用，可以參考 [快速開始](https://dotblogs.com.tw/jakeuj/2021/07/20/abpio01)
 
 ![](https://dotblogsfile.blob.core.windows.net/user/%E5%BE%A1%E6%98%9F%E5%B9%BB/bff36275-1beb-423a-9664-b96e21b3c91c/1626684853.png)
@@ -398,8 +398,8 @@ namespace Acme.BookStore.Books
 }
 ```
 
-* 這個DTO類被用於在創建或更新書籍的時候從用戶界面獲取圖書信息。
-* 它定義了數據註釋屬性（如`[Required]`）來定義屬性的驗證。DTO由ABP框架[自動驗證](https://docs.abp.io/zh-Hans/abp/latest/Validation)。
+- 這個DTO類被用於在創建或更新書籍的時候從用戶界面獲取圖書信息。
+- 它定義了數據註釋屬性（如`[Required]`）來定義屬性的驗證。DTO由ABP框架[自動驗證](https://docs.abp.io/zh-Hans/abp/latest/Validation)。
 
 就像上面`BookDto`一樣，創建一個從對像`CreateUpdateBookDto`到`Book`實體的映射，最後一個映射類如下：
 
@@ -443,10 +443,10 @@ namespace Acme.BookStore.Books
 }
 ```
 
-* 框架定義應用程序服務的接口**不是必需的**。但是，它被建議為最佳實踐。
-* `ICrudAppService`定義了常見的**CRUD**方法：`GetAsync`，`GetListAsync`，`CreateAsync`，`UpdateAsync`和`DeleteAsync`。
+- 框架定義應用程序服務的接口**不是必需的**。但是，它被建議為最佳實踐。
+- `ICrudAppService`定義了常見的**CRUD**方法：`GetAsync`，`GetListAsync`，`CreateAsync`，`UpdateAsync`和`DeleteAsync`。
   你可以從空的`IApplicationService`接口繼承並手動定義自己的方法（將在下一個領域中完成）。
-* `ICrudAppService`有一些變體，你可以在每個方法中單獨使用 DTO，也可以分別單獨指定（例如使用不同的 DTO 進行創建和更新）。
+- `ICrudAppService`有一些變體，你可以在每個方法中單獨使用 DTO，也可以分別單獨指定（例如使用不同的 DTO 進行創建和更新）。
 
 ![](https://dotblogsfile.blob.core.windows.net/user/御星幻/09547ec3-aaf1-4f7e-a6f0-91e27d5a7a1f/1627018683.png)
 
@@ -480,9 +480,9 @@ namespace Acme.BookStore.Books
 }
 ```
 
-* `BookAppService`繼承了`CrudAppService<...>`。它實現了`ICrudAppService`定義的 CRUD 方法。
-* `BookAppService`注入`IRepository <Book,Guid>`，這是`Book`實體的默認。ABP自動為每個化根(或實體)創建默認。請參閱[文檔](https://docs.abp.io/zh-Hans/abp/latest/Repositories)
-* `BookAppService`使用[`IObjectMapper`](https://docs.abp.io/zh-Hans/abp/latest/Object-To-Object-Mapping)將`Book`對象轉換為`BookDto`對象, 將`CreateUpdateBookDto`對象轉換為`Book`對象。
+- `BookAppService`繼承了`CrudAppService<...>`。它實現了`ICrudAppService`定義的 CRUD 方法。
+- `BookAppService`注入`IRepository <Book,Guid>`，這是`Book`實體的默認。ABP自動為每個化根(或實體)創建默認。請參閱[文檔](https://docs.abp.io/zh-Hans/abp/latest/Repositories)
+- `BookAppService`使用[`IObjectMapper`](https://docs.abp.io/zh-Hans/abp/latest/Object-To-Object-Mapping)將`Book`對象轉換為`BookDto`對象, 將`CreateUpdateBookDto`對象轉換為`Book`對象。
   啟動模板使用[AutoMapper](http://automapper.org/)庫作為對象映射提供程序。我們之前定義了映射，從而導致方向預期工作。
 
 ![](https://dotblogsfile.blob.core.windows.net/user/御星幻/09547ec3-aaf1-4f7e-a6f0-91e27d5a7a1f/1627018955.png)
@@ -549,9 +549,9 @@ Swagger 有一個很好的 UI 來測試 API。
 
 PS5
 
-* ABP
+- ABP
 
-* 回首頁
+- 回首頁
 
 ---
 

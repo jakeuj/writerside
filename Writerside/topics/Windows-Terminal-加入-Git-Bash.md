@@ -32,9 +32,9 @@
 
 PS5
 
-* Terminal
+- Terminal
 
-* 回首頁
+- 回首頁
 
 ---
 

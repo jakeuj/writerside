@@ -26,9 +26,9 @@
 
 ### .gitconfig
 
-* 本地
-  + 清空
-* 全域
+- 本地
+  - 清空
+- 全域
 
 ```
 [user]
@@ -36,7 +36,7 @@ name = jake.chu
 email = jakeuj@hotmail.com
 ```
 
-* 系統
+- 系統
 
 ```
 [diff "astextplain"]
@@ -71,7 +71,7 @@ defaultBranch = master
 
 PS5
 
-* 回首頁
+- 回首頁
 
 ---
 

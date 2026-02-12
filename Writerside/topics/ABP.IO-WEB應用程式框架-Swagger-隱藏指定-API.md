@@ -53,10 +53,10 @@ services.AddAbpSwaggerGen(
 
 PS5
 
-* ABP
-* Swagger
+- ABP
+- Swagger
 
-* 回首頁
+- 回首頁
 
 ---
 

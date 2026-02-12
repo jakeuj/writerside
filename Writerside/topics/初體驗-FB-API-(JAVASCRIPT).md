@@ -69,9 +69,9 @@ P.S.
 
 PS5
 
-* Facebook
+- Facebook
 
-* 回首頁
+- 回首頁
 
 ---
 

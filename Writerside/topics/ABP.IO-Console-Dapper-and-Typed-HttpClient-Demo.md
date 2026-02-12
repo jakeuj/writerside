@@ -14,11 +14,11 @@
 
 ## 指令
 
-* `dotnet tool install -g Volo.Abp.Cli`
-* `abp new Acme.MyConsoleApp -t console -csf`
-* `dotnet add Volo.Abp.Dapper`
-* `dotnet add Microsoft.Data.SqlClient`
-* `dotnet add Microsoft.Extensions.Http`
+- `dotnet tool install -g Volo.Abp.Cli`
+- `abp new Acme.MyConsoleApp -t console -csf`
+- `dotnet add Volo.Abp.Dapper`
+- `dotnet add Microsoft.Data.SqlClient`
+- `dotnet add Microsoft.Extensions.Http`
 
 ## Dapper
 
@@ -151,11 +151,11 @@ public class HelloWorldService : ITransientDependency
 
 PS5
 
-* Console
-* Dapper
-* HttpClinet
+- Console
+- Dapper
+- HttpClinet
 
-* 回首頁
+- 回首頁
 
 ---
 

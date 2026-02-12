@@ -3,6 +3,7 @@
 記錄下 Node.js® 安裝
 
 ## 官網
+
 [Node.js®](https://nodejs.org/zh-cn/download/package-manager)
 
 ## 安裝
@@ -27,6 +28,7 @@ Add-Content $PROFILE 'fnm env | Out-String | Invoke-Expression'
 ```
 
 ## 找不到 node
+
 先考慮全局固定在某版本還是隨FNM變動對開發環境比較方便，然後到系統 > 環境變數 > Path > 新增下方其中一個路徑
 
 - FNM 目前指向的版本

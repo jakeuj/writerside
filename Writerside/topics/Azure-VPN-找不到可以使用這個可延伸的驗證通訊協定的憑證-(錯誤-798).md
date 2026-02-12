@@ -56,10 +56,10 @@ TODO: 後面這幾步如果可以用 PowerShell 指定操作，日後可能比�
 
 PS5
 
-* Azure VPN
+- Azure VPN
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

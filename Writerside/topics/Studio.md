@@ -4,15 +4,16 @@ ABP 最近整了一個圖形化介面工具箱，叫做 [ABP Studio](https://abp
 
 ## 需求
 
-* [Rider](https://www.jetbrains.com/rider/download/#section=windows) / Visual Studio 2022 (v17.3+) for Windows / Visual Studio for Mac. 1
-* [.NET 8.0+](https://dotnet.microsoft.com/zh-tw/download/dotnet/8.0)
-* [Node](Node-js.md) v18 or v16
-* [Yarn v1.20+](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable) (not v2) 2 or npm v6+ (already installed with Node)
-* [Docker](https://docs.docker.com/get-started/get-docker/)
+- [Rider](https://www.jetbrains.com/rider/download/#section=windows) / Visual Studio 2022 (v17.3+) for Windows / Visual Studio for Mac. 1
+- [.NET 8.0+](https://dotnet.microsoft.com/zh-tw/download/dotnet/8.0)
+- [Node](Node-js.md) v18 or v16
+- [Yarn v1.20+](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable) (not v2) 2 or npm v6+ (already installed with Node)
+- [Docker](https://docs.docker.com/get-started/get-docker/)
 
 以上需求沒有達成則會導致建立專案缺東西，比如無法用 Yarn 安裝 js lib，無法建立 Redis 服務...等等
 
 ## Redis
+
 用 Studio 建立專案會自動使用 Docker 執行 Redis 並建立 network，所以不用自己跑 docker run redis 相關指令來起 Redis 服務
 
 ```Shell
@@ -34,14 +35,15 @@ exit $LASTEXITCODE
 ![docker-rm-net.png](docker-rm-net.png){style="block"}
 
 ## network
-在您的 docker-compose.infrastructure.yml 文件中，abpsolution6 網路被設置為 external: true， 
+
+在您的 docker-compose.infrastructure.yml 文件中，abpsolution6 網路被設置為 external: true，
 這表示這個網路是外部創建的，而不是由該 Docker Compose 文件自動管理。
 
 因此，當您執行 docker-compose -f docker-compose.infrastructure.yml down 時，Docker Compose 不會移除這個網路，
 因為它認為這個網路是由外部系統或手動創建並管理的，而不是屬於這個 Docker Compose 場景的一部分。
 
 手動移除網路: 您可以在執行 docker-compose down 後手動移除該網路，命令如下：
-    
+
 ```Shell
 docker network list
 docker network rm abpsolution6
@@ -54,6 +56,7 @@ Rider 可以加入 PowerShell 腳本，用來執行 docker-compose.infrastructur
 ![rider-ps1.png](rider-ps1.png){style="block"}
 
 ## Node.js
+
 ABP Studio 需要 Node.js 版本為 v18 或 v16
 
 ```Shell
@@ -78,6 +81,7 @@ npm -v # 应该打印 `10.8.2`
 ![nvm18.png](nvm18.png){style="block"}
 
 ## WireGuard (選擇性)
+
 WireGuard 是一個快速、現代、安全的 VPN 協議，可以用來連接到公司內部網路，或是在公共網路上保護隱私。
 
 ABP Studio 需要 WireGuard 來執行 Kubernetes 作業
@@ -85,16 +89,19 @@ ABP Studio 需要 WireGuard 來執行 Kubernetes 作業
 [WireGuard 官方下載](https://www.wireguard.com/install/#windows-7-81-10-11-2008r2-2012r2-2016-2019-2022)
 
 ## Docker (選擇性)
+
 ABP Studio 需要 Docker 來執行 Kubernetes 作業。
 
 [Docker 安裝](https://docs.docker.com/get-docker/)
 
 ## 安裝
+
 從 ABP 官方網站下載 [ABP Studio](https://abp.io/studio)
 
 ![abp-studio-download-page](https://raw.githubusercontent.com/abpframework/abp/rel-8.2/docs/en/studio/images/abp-studio-download-page.png)
 
 ## 登入
+
 安裝 ABP Studio 後，您可登錄以訪問所有功能。要登錄，請遵循以下步驟：
 
 1. **Launch ABP Studio:** Open ABP Studio on your desktop.
@@ -102,11 +109,13 @@ ABP Studio 需要 Docker 來執行 Kubernetes 作業。
 2. **Login Credentials:** 當提示時輸入您的 [abp.io](https://abp.io/) 登錄憑證。
 
 ## 更改 UI 主題
+
 ABP Studio 允許您根據您的偏好自訂使用者介面主題。您可更改 UI 主題，如下圖所示：
 
 ![preference-theme-change](https://raw.githubusercontent.com/abpframework/abp/rel-8.2/docs/en/studio/images/preference-theme-change.png)
 
 ## 升級
+
 ABP Studio 在背景中定期檢查更新，當ABP Studio的新版本可用時，將通過模態通知您。
 該模態將提示您更新至最新版本，如下所示：
 
@@ -120,6 +129,7 @@ ABP Studio 在背景中定期檢查更新，當ABP Studio的新版本可用時�
 4. 按一下「安裝並重新啟動」按鈕以完成安裝程序。
 
 ## Docker Dependencies
+
 啟動時會建立 Redis，停止時會移除 Redis
 
 ```

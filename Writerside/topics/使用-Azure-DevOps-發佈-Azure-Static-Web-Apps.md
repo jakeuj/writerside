@@ -155,14 +155,14 @@ steps:
 
 說明一下參數
 
-* `app_location` => 程式原始碼所在目錄 ex: /app
-* `output_location` => 編譯完後的靜態網頁相對於app的路徑 ex: dist
+- `app_location` => 程式原始碼所在目錄 ex: /app
+- `output_location` => 編譯完後的靜態網頁相對於app的路徑 ex: dist
   例如：`app_location` + `output_location` = /app/dist
   也就是最後部屬時會把這路徑裡面的東西拿去打包 (ZIP) 並上傳
-* `azure_static_web_apps_api_token` 就 Azure 那邊應用的發布權杖
+- `azure_static_web_apps_api_token` 就 Azure 那邊應用的發布權杖
   因為這邊實際上會在 git repo 建立 yml 檔案，所以為了安全性建議使用環境變數 `$(deployment_token)`
-* App Build Command => 預設是 npm run build, 有需要可以使用自己的指令
-* Routes Location => routes.json 的位置，如果不是用 hash route 需要設定轉址，
+- App Build Command => 預設是 npm run build, 有需要可以使用自己的指令
+- Routes Location => routes.json 的位置，如果不是用 hash route 需要設定轉址，
   則需要建立並指定該設定檔(routes.json)位置，
   參照 [Configure Azure Static Web Apps | Microsoft Learn](https://learn.microsoft.com/en-us/azure/static-web-apps/configuration#example-configuration-file)
   routes.json
@@ -179,7 +179,7 @@ steps:
 }
 ```
 
-* skip\_app\_build => 上面自訂 build 不夠可以直接略過這裡 build，但這就要在這個 task 之前先打包好放到 dist 資料夾
+- skip\_app\_build => 上面自訂 build 不夠可以直接略過這裡 build，但這就要在這個 task 之前先打包好放到 dist 資料夾
   這時候可以設定 `app_location`=/app/dist ,`output_location` 不要設定或留空白, skip\_app\_build = true
   大概會長以下這樣，其中 `script` 的部分就可以自己多打幾行？
 
@@ -216,23 +216,23 @@ steps:
 
 ## **主要功能**
 
-* **Web 裝載**，適用於像是 HTML、CSS、JavaScript 與影像等靜態內容。
-* Azure Functions 提供的 **整合式 API** 支援，以及使用標準帳戶連結現有 Azure Functions 應用程式的選項。
-* **卓越的 GitHub 與 Azure DevOps 整合**，其中存放庫變更會觸發建置和部署。
-* **全域散發** 靜態內容，將內容放在更接近使用者的範圍。
-* **免費的 SSL 憑證**，會自動更新。
-* **自訂網域**，為您的應用程式提供品牌的自訂。
-* **無縫安全性模型**，會在呼叫 API 時使用反向 Proxy，這不需要 CORS 設定。
-* Azure Active Directory、GitHub 和 Twitter 的 **驗證提供者** 整合。
-* **可自訂的授權角色定義** 和指派。
-* **後端路由規則** 能夠完全控制您所提供的內容和路由。
-* **產生的暫存版本**，由提取要求提供支援，讓您的網站在發佈前先啟用預覽版本。
+- **Web 裝載**，適用於像是 HTML、CSS、JavaScript 與影像等靜態內容。
+- Azure Functions 提供的 **整合式 API** 支援，以及使用標準帳戶連結現有 Azure Functions 應用程式的選項。
+- **卓越的 GitHub 與 Azure DevOps 整合**，其中存放庫變更會觸發建置和部署。
+- **全域散發** 靜態內容，將內容放在更接近使用者的範圍。
+- **免費的 SSL 憑證**，會自動更新。
+- **自訂網域**，為您的應用程式提供品牌的自訂。
+- **無縫安全性模型**，會在呼叫 API 時使用反向 Proxy，這不需要 CORS 設定。
+- Azure Active Directory、GitHub 和 Twitter 的 **驗證提供者** 整合。
+- **可自訂的授權角色定義** 和指派。
+- **後端路由規則** 能夠完全控制您所提供的內容和路由。
+- **產生的暫存版本**，由提取要求提供支援，讓您的網站在發佈前先啟用預覽版本。
 
 ## **如何使用 Static Web Apps**
 
-* **建置新式 Web 應用程式**，使用像是 [Angular](https://docs.microsoft.com/zh-tw/azure/static-web-apps/getting-started?tabs=angular)、[React](https://docs.microsoft.com/zh-tw/azure/static-web-apps/getting-started?tabs=react)、[Svelte](https://docs.microsoft.com/zh-tw/learn/modules/publish-app-service-static-web-app-api/)、[Vue](https://docs.microsoft.com/zh-tw/azure/static-web-apps/getting-started?tabs=vue) 的 JavaScript 架構和程式庫，或使用 [Blazor](https://docs.microsoft.com/zh-tw/azure/static-web-apps/deploy-blazor) 建立具有 [Azure Functions](https://docs.microsoft.com/zh-tw/azure/static-web-apps/apis) 後端的 WebAssembly 應用程式。
-* **發佈靜態網站**，使用像是 [Gatsby](https://docs.microsoft.com/zh-tw/azure/static-web-apps/publish-gatsby)、[Hugo](https://docs.microsoft.com/zh-tw/azure/static-web-apps/publish-hugo)、[VuePress](https://docs.microsoft.com/zh-tw/azure/static-web-apps/publish-vuepress) 的架構。
-* **部署 Web 應用程式**，使用像是 [Next.js](https://docs.microsoft.com/zh-tw/azure/static-web-apps/deploy-nextjs) 和 [Nuxt.js](https://docs.microsoft.com/zh-tw/azure/static-web-apps/deploy-nuxtjs) 的架構。
+- **建置新式 Web 應用程式**，使用像是 [Angular](https://docs.microsoft.com/zh-tw/azure/static-web-apps/getting-started?tabs=angular)、[React](https://docs.microsoft.com/zh-tw/azure/static-web-apps/getting-started?tabs=react)、[Svelte](https://docs.microsoft.com/zh-tw/learn/modules/publish-app-service-static-web-app-api/)、[Vue](https://docs.microsoft.com/zh-tw/azure/static-web-apps/getting-started?tabs=vue) 的 JavaScript 架構和程式庫，或使用 [Blazor](https://docs.microsoft.com/zh-tw/azure/static-web-apps/deploy-blazor) 建立具有 [Azure Functions](https://docs.microsoft.com/zh-tw/azure/static-web-apps/apis) 後端的 WebAssembly 應用程式。
+- **發佈靜態網站**，使用像是 [Gatsby](https://docs.microsoft.com/zh-tw/azure/static-web-apps/publish-gatsby)、[Hugo](https://docs.microsoft.com/zh-tw/azure/static-web-apps/publish-hugo)、[VuePress](https://docs.microsoft.com/zh-tw/azure/static-web-apps/publish-vuepress) 的架構。
+- **部署 Web 應用程式**，使用像是 [Next.js](https://docs.microsoft.com/zh-tw/azure/static-web-apps/deploy-nextjs) 和 [Nuxt.js](https://docs.microsoft.com/zh-tw/azure/static-web-apps/deploy-nuxtjs) 的架構。
 
 ## 定價
 
@@ -241,14 +241,14 @@ steps:
 
 PS5
 
-* Angular
-* Azure
-* Blazor
-* CI/CD
+- Angular
+- Azure
+- Blazor
+- CI/CD
 {ignore-vars="true"}
-* DevOps
+- DevOps
 
-* 回首頁
+- 回首頁
 
 ---
 

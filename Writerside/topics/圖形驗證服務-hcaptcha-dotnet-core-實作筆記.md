@@ -105,8 +105,8 @@ private readonly ILogger<IndexModel> _logger;
 
 public IndexModel(ILogger<IndexModel> logger, IHttpClientFactory clientFactory)
 {
-	_logger = logger;
-	_clientFactory = clientFactory;
+ _logger = logger;
+ _clientFactory = clientFactory;
 }
 ```
 
@@ -116,9 +116,9 @@ public IndexModel(ILogger<IndexModel> logger, IHttpClientFactory clientFactory)
 
 class Hcaptcha
 {
-	public bool success { get; set; }
-	public DateTime challenge_ts { get; set; }
-	public string hostname { get; set; }
+ public bool success { get; set; }
+ public DateTime challenge_ts { get; set; }
+ public string hostname { get; set; }
 }
 ```
 
@@ -128,25 +128,25 @@ class Hcaptcha
 
 public async Task<IActionResult> OnPostAsync()
 {
-	var token = Request.Form["h-captcha-response"];
-	var secret = "0xc55C202E9c857A09758fB6e3C13437b70Ee33333";
-	var url = $"https://hcaptcha.com/siteverify?response={token}&secret={secret}";
+ var token = Request.Form["h-captcha-response"];
+ var secret = "0xc55C202E9c857A09758fB6e3C13437b70Ee33333";
+ var url = $"https://hcaptcha.com/siteverify?response={token}&secret={secret}";
 
-	var client = _clientFactory.CreateClient();
-	using var response = await client.PostAsync(url, null);
-	using var contentStream = await response.Content.ReadAsStreamAsync();
-	var result = await JsonSerializer.DeserializeAsync<Hcaptcha>(contentStream);
+ var client = _clientFactory.CreateClient();
+ using var response = await client.PostAsync(url, null);
+ using var contentStream = await response.Content.ReadAsStreamAsync();
+ var result = await JsonSerializer.DeserializeAsync<Hcaptcha>(contentStream);
 
-	if (result.success)
-	{
-		// do somthing...
-		return RedirectToPage("./Privacy");
-	}
-	else
-	{
-		// reject
-		return RedirectToPage("./Error");
-	}
+ if (result.success)
+ {
+  // do somthing...
+  return RedirectToPage("./Privacy");
+ }
+ else
+ {
+  // reject
+  return RedirectToPage("./Error");
+ }
 }
 ```
 
@@ -168,7 +168,7 @@ Properties\launchSettings.json
   "launchBrowser": true,
   "applicationUrl": "https://google.com:5001;http://google.com:5000",
   "environmentVariables": {
-	"ASPNETCORE_ENVIRONMENT": "Development"
+ "ASPNETCORE_ENVIRONMENT": "Development"
   }
 }
 ```
@@ -183,14 +183,14 @@ Properties\launchSettings.json
 
 PS5
 
-* C#
+- C#
 {ignore-vars="true"}
-* .Net Core
+- .Net Core
 {ignore-vars="true"}
-* HttpClinet
-* hcaptcha
+- HttpClinet
+- hcaptcha
 
-* 回首頁
+- 回首頁
 
 ---
 

@@ -60,11 +60,11 @@ private void ConfigureAuthentication(ServiceConfigurationContext context,
 
 目前的有效值只有 'login'、'none'、'select\_account' 和 'consent'。
 
-* prompt=login 會強制使用者在該要求上輸入認證，否定單一登入。
-* prompt=none 相反-它會確保不會對使用者顯示任何互動式提示。
+- prompt=login 會強制使用者在該要求上輸入認證，否定單一登入。
+- prompt=none 相反-它會確保不會對使用者顯示任何互動式提示。
   如果要求無法透過單一登入以無訊息方式完成，Microsoft 身分識別平臺將會傳回錯誤。
-* prompt=select\_account 會將使用者傳送至帳戶選擇器，工作階段中記下的所有帳戶都會出現在當中。
-* prompt=consent 會在使用者登入之後觸發 OAuth 同意對話方塊，詢問使用者是否要授與權限給應用程式。
+- prompt=select\_account 會將使用者傳送至帳戶選擇器，工作階段中記下的所有帳戶都會出現在當中。
+- prompt=consent 會在使用者登入之後觸發 OAuth 同意對話方塊，詢問使用者是否要授與權限給應用程式。
 
 ### 參照
 
@@ -74,10 +74,10 @@ private void ConfigureAuthentication(ServiceConfigurationContext context,
 
 PS5
 
-* Azure AD
+- Azure AD
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

@@ -42,10 +42,10 @@ P.S. CTRL+ALT+S 可以直接開啟 File | Settings
 
 PS5
 
-* Fonts
-* Rider
+- Fonts
+- Rider
 
-* 回首頁
+- 回首頁
 
 ---
 

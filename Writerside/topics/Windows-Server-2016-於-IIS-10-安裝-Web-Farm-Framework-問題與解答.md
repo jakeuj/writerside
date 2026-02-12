@@ -50,12 +50,12 @@ It is a kind of work around also I suggest you to make a back up of full registr
 
 Before installing Web Farm Framework 2.2, you need to install the following prerequisites:
 
-* [Web Platform Installer 3.0](http://www.microsoft.com/en-us/download/details.aspx?id=6164)
-* [WebDeploy 2.0](http://www.microsoft.com/en-us/download/details.aspx?id=25230)
+- [Web Platform Installer 3.0](http://www.microsoft.com/en-us/download/details.aspx?id=6164)
+- [WebDeploy 2.0](http://www.microsoft.com/en-us/download/details.aspx?id=25230)
 
 To download and install Web Farm Framework 2.2, click on the link for your server type:
 
-* English: [x86](http://download.microsoft.com/download/F/E/2/FE2E2E07-22B5-4875-9A36-8B778D157F91/WebFarm2_x86.msi) / [x64](http://download.microsoft.com/download/F/E/2/FE2E2E07-22B5-4875-9A36-8B778D157F91/WebFarm2_x64.msi)
+- English: [x86](http://download.microsoft.com/download/F/E/2/FE2E2E07-22B5-4875-9A36-8B778D157F91/WebFarm2_x86.msi) / [x64](http://download.microsoft.com/download/F/E/2/FE2E2E07-22B5-4875-9A36-8B778D157F91/WebFarm2_x64.msi)
 
 But I got an error message "iis version 7.0 or greater is required to install Web Farm Framework 2.2".
 
@@ -73,10 +73,10 @@ My question is that does Web Farm Framework 2.2 still support IIS 10?
 
 PS5
 
-* IIS
-* Server
+- IIS
+- Server
 
-* 回首頁
+- 回首頁
 
 ---
 

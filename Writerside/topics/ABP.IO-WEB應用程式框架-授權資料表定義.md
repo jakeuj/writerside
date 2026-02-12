@@ -20,13 +20,13 @@ ABP 授權基於微軟官方 .Net Core Identity，這邊先看一下實體相關
 
 此 Identity 模型包含下列實體類型：
 
-* User 代表使用者。
-* Role 代表角色。
-* UserClaim 表示使用者擁有的宣告。
-* UserToken 表示使用者的驗證權杖。
-* UserLogin 將使用者與登入產生關聯。
-* RoleClaim 代表授與角色內所有使用者的宣告。
-* UserRole 關聯使用者和角色的聯結實體。
+- User 代表使用者。
+- Role 代表角色。
+- UserClaim 表示使用者擁有的宣告。
+- UserToken 表示使用者的驗證權杖。
+- UserLogin 將使用者與登入產生關聯。
+- RoleClaim 代表授與角色內所有使用者的宣告。
+- UserRole 關聯使用者和角色的聯結實體。
 
 ### 實體類型關聯性
 
@@ -34,11 +34,11 @@ ABP 授權基於微軟官方 .Net Core Identity，這邊先看一下實體相關
 
 實體類型會以下列方式彼此相關：
 
-* 每個都 User 可以有許多 UserClaims 。
-* 每個都 User 可以有許多 UserLogins 。
-* 每個都 User 可以有許多 UserTokens 。
-* 每個都 Role 可以有許多相關聯的 RoleClaims 。
-* 每個都 User 可以有許多相關聯 Roles ，而且每個都 Role 可以與許多相關聯 Users 。 這是多對多關聯性，需要資料庫中的聯結資料表。 聯結資料表是由 UserRole 實體表示。
+- 每個都 User 可以有許多 UserClaims 。
+- 每個都 User 可以有許多 UserLogins 。
+- 每個都 User 可以有許多 UserTokens 。
+- 每個都 Role 可以有許多相關聯的 RoleClaims 。
+- 每個都 User 可以有許多相關聯 Roles ，而且每個都 Role 可以與許多相關聯 Users 。 這是多對多關聯性，需要資料庫中的聯結資料表。 聯結資料表是由 UserRole 實體表示。
 
 ## ABP 授權
 
@@ -53,20 +53,20 @@ ABP 在 .Net Core Identity 的使用者與角色之外又加了一個授權表�
 
 ### AbpPermissionGrants (權限授予表)
 
-* [Name]：賦予權限名稱
-  + BookStore.Books：讀取
-  + BookStore.Books.Create：建立
-  + BookStore.Books.Edit：更新
-  + BookStore.Books.Delete：刪除
-* [ProviderName]：決定 [ProviderKey] 的種類
-  + R：Role(角色)
-  + U：User(使用者)
-  + (應該還有個C代表Client)
-* [ProviderKey]：紀錄實際賦予權限的目標
-  + [AbpRoles].[Name]：角色名稱
+- [Name]：賦予權限名稱
+  - BookStore.Books：讀取
+  - BookStore.Books.Create：建立
+  - BookStore.Books.Edit：更新
+  - BookStore.Books.Delete：刪除
+- [ProviderName]：決定 [ProviderKey] 的種類
+  - R：Role(角色)
+  - U：User(使用者)
+  - (應該還有個C代表Client)
+- [ProviderKey]：紀錄實際賦予權限的目標
+  - [AbpRoles].[Name]：角色名稱
     - Admin
     - Tester
-  + [AbpUsers].[Id]：使用者唯一識別碼
+  - [AbpUsers].[Id]：使用者唯一識別碼
     - 0bac35fb-50b2-b79c-ca02-39fdf320f3f7
 
 ![](https://dotblogsfile.blob.core.windows.net/user/御星幻/6fd09af3-b898-487f-9d4c-07560af3b657/1627279013.png)
@@ -83,14 +83,14 @@ ABP 在 .Net Core Identity 的使用者與角色之外又加了一個授權表�
 
 Auth
 
-* GrantedPolicies
-  + BookStore.Authors
-  + BookStore.Authors.Create
-* Policies
-  + BookStore.Authors
-  + BookStore.Authors.Create
-  + BookStore.Authors.Edit
-  + BookStore.Authors.Delete
+- GrantedPolicies
+  - BookStore.Authors
+  - BookStore.Authors.Create
+- Policies
+  - BookStore.Authors
+  - BookStore.Authors.Create
+  - BookStore.Authors.Edit
+  - BookStore.Authors.Delete
 
 ![](https://dotblogsfile.blob.core.windows.net/user/御星幻/6fd09af3-b898-487f-9d4c-07560af3b657/1627278841.png)
 
@@ -145,9 +145,9 @@ Auth
 
 PS5
 
-* ABP
+- ABP
 
-* 回首頁
+- 回首頁
 
 ---
 

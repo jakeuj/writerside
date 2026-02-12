@@ -55,12 +55,12 @@ private async Task Save(
 
 PS5
 
-* C#
+- C#
 {ignore-vars="true"}
-* .Net Core
+- .Net Core
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

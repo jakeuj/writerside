@@ -26,14 +26,14 @@ Azure SQL Server > SQL 彈性集區 > 設定 > 資料庫 > 加入資料庫 > 勾
 
 PS5
 
-* Azure SQL
+- Azure SQL
 {ignore-vars="true"}
-* Elastic Pool
+- Elastic Pool
 {ignore-vars="true"}
-* 彈性集區
+- 彈性集區
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

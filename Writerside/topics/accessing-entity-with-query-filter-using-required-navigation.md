@@ -23,17 +23,21 @@ See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
 這個警告是提醒我們，當使用必要的導覽時，如果有使用查詢篩選條件，可能會導致查詢結果不符合預期
 
 Case 1: 使用必要的導覽並使用查詢篩選條件
+
 ```C#
 modelBuilder.Entity<Blog>().HasMany(b => b.Posts).WithOne(p => p.Blog).IsRequired();
 modelBuilder.Entity<Blog>().HasQueryFilter(b => b.Url.Contains("fish"));
 ```
 
 Case 2: 使用選擇性的導覽並使用查詢篩選條件
+
 ```C#
 modelBuilder.Entity<Blog>().HasMany(b => b.Posts).WithOne(p => p.Blog).IsRequired(false);
 modelBuilder.Entity<Blog>().HasQueryFilter(b => b.Url.Contains("fish"));
 ```
+
 Case 3: 使用必要的導覽並使用一致的查詢篩選條件
+
 ```C#
 modelBuilder.Entity<Blog>().HasMany(b => b.Posts).WithOne(p => p.Blog).IsRequired();
 modelBuilder.Entity<Blog>().HasQueryFilter(b => b.Url.Contains("fish"));
@@ -60,12 +64,14 @@ Case 3: `Posts.ToList()` 與 `Posts.Include(p => p.Blog).ToList()` 皆僅會撈�
 [使用必要的導覽來存取具有查詢篩選的實體](https://go.microsoft.com/fwlink/?linkid=2131316)
 
 實體定義
+
 ```C#
 modelBuilder.Entity<Blog>().HasMany(b => b.Posts).WithOne(p => p.Blog).IsRequired();
 modelBuilder.Entity<Blog>().HasQueryFilter(b => b.Url.Contains("fish"));
 ```
 
 Seed Data
+
 ```C#
 db.Blogs.Add(
     new Blog
@@ -93,6 +99,7 @@ db.Blogs.Add(
 ```
 
 查詢
+
 ```C#
 var allPosts = db.Posts.ToList();
 var allPostsWithBlogsIncluded = db.Posts.Include(p => p.Blog).ToList();
@@ -121,7 +128,7 @@ modelBuilder.Entity<Blog>().HasMany(b => b.Posts).WithOne(p => p.Blog).IsRequire
 modelBuilder.Entity<Blog>().HasQueryFilter(b => b.Url.Contains("fish"));
 ```
 
-替代方法是在 Post 和 Blog 實體上指定一致的篩選。 
+替代方法是在 Post 和 Blog 實體上指定一致的篩選。
 如此一來，比對篩選會同時套用至 Blog 和 Post 。
 預期外的貼文會被刪除，兩次查詢都會回傳3個結果。
 

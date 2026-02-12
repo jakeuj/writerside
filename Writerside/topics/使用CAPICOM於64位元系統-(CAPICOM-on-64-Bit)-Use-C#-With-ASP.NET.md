@@ -46,8 +46,8 @@ By [jakeuj@hotmail.com](mailto:jakeuj@hotmail.com) 分享於 [點部落(DotBolog
 
 PS5
 
-* C#
-* 回首頁
+- C#
+- 回首頁
 
 ---
 

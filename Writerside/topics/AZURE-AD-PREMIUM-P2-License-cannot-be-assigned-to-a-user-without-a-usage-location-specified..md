@@ -28,12 +28,12 @@ AZURE AD > User > 個人資料 > 編輯 > 使用位置 > Taiwan
 
 PS5
 
-* Azure AD
+- Azure AD
 {ignore-vars="true"}
-* AZURE AD PREMIUM P2
+- AZURE AD PREMIUM P2
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

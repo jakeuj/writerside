@@ -1,4 +1,4 @@
-# GCE 安裝 Nvidia Driver 
+# GCE 安裝 Nvidia Driver
 
 > **原文發布日期:** 2023-09-19
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/09/19/GCE-Nvidia-Driver
@@ -33,9 +33,9 @@ gpu installer: asia.gcr.io/cos-cloud/cos-gpu-installer:v2.1.7
 
 備註
 
-* Driver Version: 470.199.02 CUDA Version: 11.4
-* Driver Version: 525.125.06   CUDA Version: 12.0
-* Driver Version: 535.104.05   CUDA Version: 12.2
+- Driver Version: 470.199.02 CUDA Version: 11.4
+- Driver Version: 525.125.06   CUDA Version: 12.0
+- Driver Version: 535.104.05   CUDA Version: 12.2
 
 安裝
 
@@ -93,9 +93,9 @@ jakeuj@instance-2 ~ $
 
 PS5
 
-* LLM
+- LLM
 
-* 回首頁
+- 回首頁
 
 ---
 

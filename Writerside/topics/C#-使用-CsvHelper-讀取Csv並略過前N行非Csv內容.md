@@ -86,10 +86,10 @@ var config = new CsvConfiguration(CultureInfo.InvariantCulture)
 
 PS5
 
-* CsvHelper
-* Excel
+- CsvHelper
+- Excel
 
-* 回首頁
+- 回首頁
 
 ---
 

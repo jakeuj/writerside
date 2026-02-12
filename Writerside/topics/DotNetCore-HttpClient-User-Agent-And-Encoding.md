@@ -109,13 +109,13 @@ static async Task Main()
 
 PS5
 
-* C#
+- C#
 {ignore-vars="true"}
-* .Net Core
+- .Net Core
 {ignore-vars="true"}
-* HttpClinet
+- HttpClinet
 
-* 回首頁
+- 回首頁
 
 ---
 

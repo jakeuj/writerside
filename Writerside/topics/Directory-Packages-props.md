@@ -13,6 +13,7 @@
 ※ 如果在 `Directory.Packages.props` 寫了 PackageReference 會造成全專案都會引用此包進而造成錯誤
 
 ### 基本功能
+
 1. **集中管理 NuGet 套件版本：**  
    在 `Directory.Packages.props` 中定義套件的版本，所有子專案都可以直接引用而不需要再指定版本。
 
@@ -57,6 +58,7 @@
 2. 在子專案中，刪除原有的版本號，改為使用集中管理。
 
 ### 注意事項
+
 1. **支援範圍：**  
    Central Package Management 支援的是以 .NET SDK 為基礎的專案格式（即 `*.csproj` 使用 `<Project Sdk="Microsoft.NET.Sdk">` 的專案）。
 

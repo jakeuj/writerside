@@ -22,12 +22,12 @@ https://stackoverflow.com/questions/52108659/need-to-update-ef-core-tools
 
 PS5
 
-* .Net Core
+- .Net Core
 {ignore-vars="true"}
-* .NET Framework
+- .NET Framework
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

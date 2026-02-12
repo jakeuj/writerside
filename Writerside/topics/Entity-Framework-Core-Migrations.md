@@ -66,23 +66,23 @@ Rider 與 VS 皆可用的 PowerShell 的 migrations 指令筆記
 
 ## 備註
 
-* 多DB時
+- 多DB時
   所有在 Startup 內有用到的 DBContext ConnectionStrings
   都要正確定義在對應環境變數的 appsetting 內
   (即使 migrations 只指定某一個 DBContext)
   因為 migrations 實際上會執行一次 Startup
   導致裡面有用到某連線字串卻又找不到時會報錯
-* 承上
+- 承上
   因為 migrations 實際上會執行一次 Startup
   debug 時可以在 startup 內印出 連接字串、環境變數…等等
   執行 migrations 時觀察 log 方便 Debug
-* 執行以上命令時須先把執行中的程式停止
+- 執行以上命令時須先把執行中的程式停止
 
 ## .Net 5 vs .Net Core 3 指令多了一個連字號
 
-* Dotnet Core 5
+- Dotnet Core 5
   `dotnet-ef database update`
-* Dotnet Core 3
+- Dotnet Core 3
   `dotnet ef database update`
 
 But, 人生中最重要的就是這個 But！
@@ -103,11 +103,11 @@ But, 人生中最重要的就是這個 But！
 
 PS5
 
-* Entity Framework
+- Entity Framework
 {ignore-vars="true"}
-* Migrations
+- Migrations
 
-* 回首頁
+- 回首頁
 
 ---
 

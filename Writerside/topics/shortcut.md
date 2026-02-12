@@ -43,7 +43,7 @@ Press <shortcut>Ctrl+/</shortcut> to comment.
 </keymap>
 ```
 
-於 ` cfg/buildprofiles.xml` 中加入 `<shortcuts>` 來指定使用的快捷鍵。
+於 `cfg/buildprofiles.xml` 中加入 `<shortcuts>` 來指定使用的快捷鍵。
 
 ```xml
 <shortcuts>

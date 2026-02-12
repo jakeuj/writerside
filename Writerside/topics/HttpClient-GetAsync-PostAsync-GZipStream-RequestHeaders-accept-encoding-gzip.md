@@ -46,10 +46,10 @@ public static async Task<T> ReadAsJsonAsync<InputT,T>(this InputT content) where
 
 PS5
 
-* C#
+- C#
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

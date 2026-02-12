@@ -24,10 +24,10 @@ az sql server create --name testServer --resource-group testRg --location southe
 az sql db create -g testRg -s testServer -n testDb --service-objective Free --backup-storage-redundancy Local
 ```
 
-* g：資源群組名稱
-* s：SQL Server 名稱
-* n：DB 名稱
-* service-objective：定價層
+- g：資源群組名稱
+- s：SQL Server 名稱
+- n：DB 名稱
+- service-objective：定價層
 
 ```
 # 定義變數
@@ -88,17 +88,17 @@ App Service Plan **基本**、**標準**、**進階版 =>** **無論有多少個
 
 除了 **免費** 層之外，App Service 方案會對其使用的計算資源收費。
 
-* 在 **共用** 層中，每個應用程式都會收到 cpu 分鐘的配額，因此 *每個應用程式* 都需支付 cpu 配額的費用。
-* 在專用計算層 (**基本**、**標準**、**進階版**、 **>premiumv2**、 **PremiumV3**) ，App Service 計畫會定義應用程式所調整的 vm 實例數目，因此會收取 App Service 方案中的 *每個 vm 實例* 的費用。 無論有多少個應用程式在 VM 執行個體上執行，這些 VM 執行個體皆採相同收費。 為了避免產生非預期的費用，請參閱[清除 App Service 方案](https://docs.microsoft.com/zh-tw/azure/app-service/app-service-plan-manage#delete)。
+- 在 **共用** 層中，每個應用程式都會收到 cpu 分鐘的配額，因此 *每個應用程式* 都需支付 cpu 配額的費用。
+- 在專用計算層 (**基本**、**標準**、**進階版**、 **>premiumv2**、 **PremiumV3**) ，App Service 計畫會定義應用程式所調整的 vm 實例數目，因此會收取 App Service 方案中的 *每個 vm 實例* 的費用。 無論有多少個應用程式在 VM 執行個體上執行，這些 VM 執行個體皆採相同收費。 為了避免產生非預期的費用，請參閱[清除 App Service 方案](https://docs.microsoft.com/zh-tw/azure/app-service/app-service-plan-manage#delete)。
 
 ![](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 
-* Azure SQL
+- Azure SQL
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

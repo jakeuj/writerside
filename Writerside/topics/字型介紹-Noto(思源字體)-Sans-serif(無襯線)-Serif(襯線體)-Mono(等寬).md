@@ -151,9 +151,9 @@ Special Note: This deployment format requires macOS (OS X) Version 10.8 (aka Mou
 
 PS5
 
-* Fonts
+- Fonts
 
-* 回首頁
+- 回首頁
 
 ---
 

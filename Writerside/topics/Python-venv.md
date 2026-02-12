@@ -38,6 +38,7 @@ rm -rf myenv
 ```
 
 ## Ubuntu 22.04 安裝 Python 3
+
 正常安裝 Ubuntu 會內建 Python 3.10.12，但沒有 pip3 和 venv：
 
 ```bash
@@ -45,6 +46,7 @@ sudo apt install python3-pip python3-venv
 ```
 
 ## python3 與 python 的問題
+
 沒有啟動虛擬環境時，需要輸入 python3 才能正常呼叫。
 
 ```Bash
@@ -104,4 +106,5 @@ pip 22.0.2 from /home/jakeuj/myenv/lib/python3.10/site-packages/pip (python 3.10
 ```
 
 ## REF
+
 [Python venv](https://docs.python.org/3/library/venv.html)

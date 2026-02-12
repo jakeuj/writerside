@@ -46,12 +46,12 @@ CN=Jake,OU=Sales,DC=Microsoft,DC=COM
 
 LDAP目錄結構組成：
 
-* DN(Distinguished Name)：識別名稱，絕對位置
-* RDN(Relative Distinguished Name)：相對識別名稱，相對位置
-* CN(Common Name) ：名稱
-* OU(Organizational Unit Name)：組織名稱
-* O (Organizational Unit )：組織
-* DC(Domain Componet)：網域元件
+- DN(Distinguished Name)：識別名稱，絕對位置
+- RDN(Relative Distinguished Name)：相對識別名稱，相對位置
+- CN(Common Name) ：名稱
+- OU(Organizational Unit Name)：組織名稱
+- O (Organizational Unit )：組織
+- DC(Domain Componet)：網域元件
 
 參照：https://blog.xuite.net/tolarku/blog/151029105-LDAP+%E5%9F%BA%E7%A4%8E%E8%AA%AA%E6%98%8E
 {ignore-vars="true"}
@@ -86,10 +86,10 @@ Ldap Admin 下載：http://www.ldapadmin.org/
 
 PS5
 
-* AD
-* LDAP
+- AD
+- LDAP
 
-* 回首頁
+- 回首頁
 
 ---
 

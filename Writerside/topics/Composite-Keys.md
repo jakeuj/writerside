@@ -4,7 +4,7 @@
 
 ## Entity
 
-(entities-with-composite-keys)[https://docs.abp.io/en/abp/1.0/Entities#entities-with-composite-keys]
+[entities-with-composite-keys](https://docs.abp.io/en/abp/1.0/Entities#entities-with-composite-keys)
 
 ## Define the primary key
 
@@ -13,6 +13,7 @@ b.HasKey(c => new {c.FormId, c.OptionId});
 ```
 
 ### 注意
+
 沒設定主鍵的話，會出現以下錯誤：
 
 ```

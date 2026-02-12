@@ -1,6 +1,7 @@
 # Fultter Build Version
 
 Start typing here...
+
 # Flutter Build Version（CI/CD 最佳實踐）
 
 本文整理 Flutter 專案在 CI/CD 中管理 **build number（建置版本）** 的最佳實踐，目標是：

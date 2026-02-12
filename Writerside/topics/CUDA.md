@@ -10,13 +10,15 @@
 ![image_8.png](image_8.png){style="block"}
 
 ## WSL 2
+
 用 WSL 安裝 Ubuntu, 這邊不贅述
 
 [Ubuntu](https://www.microsoft.com/store/productId/9NZ3KLHXDJP5?ocid=pdpshare)
 
 ## CUDA
 
-### 首先刪除舊的 GPG key:
+### 首先刪除舊的 GPG key
+
 ```bash
 sudo apt-key del 7FA2AF80
 ```
@@ -47,6 +49,7 @@ sudo apt-get -y install cuda-toolkit-12-5
 ```bash
 nano ~/.bashrc
 ```
+
 添加以下內容:
 
 ```
@@ -68,4 +71,5 @@ nvcc --version
 ![image_10.png](image_10.png){style="block"}
 
 ## REF
+
 [wsl-user-guide](https://docs.nvidia.com/cuda/wsl-user-guide/index.html)

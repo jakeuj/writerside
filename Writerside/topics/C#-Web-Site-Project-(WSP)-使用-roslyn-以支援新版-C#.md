@@ -50,7 +50,7 @@
 
 完全遷移到基於 msbuild/targets 的模型將破壞無專案的 ASP.Net “網站” [Web Site Project (WSP)]。
 
-###### 隨著 NuGet 的不斷發展，舊的 install.ps1 做事方式變得越來越站不住腳。 切換到 msbuild/targets 是一個簡單的選擇。 但是“網站”專案在 msbuild 中的支援非常有限。 我們創建了一個新包，該包恢復了僅適用於網站的 3.X 版本的“install.ps1”功能。 它被稱為 `Microsoft.CodeDom.Providers.DotNetCompilerPlatform.WebSites`。
+###### 隨著 NuGet 的不斷發展，舊的 install.ps1 做事方式變得越來越站不住腳。 切換到 msbuild/targets 是一個簡單的選擇。 但是“網站”專案在 msbuild 中的支援非常有限。 我們創建了一個新包，該包恢復了僅適用於網站的 3.X 版本的“install.ps1”功能。 它被稱為 `Microsoft.CodeDom.Providers.DotNetCompilerPlatform.WebSites`
 
 ## 來源
 
@@ -64,10 +64,10 @@
 
 PS5
 
-* Roslyn
-* WSP
+- Roslyn
+- WSP
 
-* 回首頁
+- 回首頁
 
 ---
 

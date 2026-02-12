@@ -12,13 +12,13 @@
 
 到 PowerShell 下 Git 指令移除已 Push 的東西
 
-* 移除某資料夾
+- 移除某資料夾
 
 ```
 git rm -r --cached .\ServiceDependencies\
 ```
 
-* 移除某檔案
+- 移除某檔案
 
 ```
 git rm --cached profile.arm.json
@@ -26,14 +26,14 @@ git rm --cached profile.arm.json
 
 然後把要排除的東西加到忽略檔 .gitgnore
 
-* 忽略資料夾
+- 忽略資料夾
 
 ```
 src/MyProject.HttpApi.Host/Properties/ServiceDependencies/*
 src/MyProject.IdentityServer/Properties/ServiceDependencies/*
 ```
 
-* 忽略檔案
+- 忽略檔案
 
 ```
 profile.arm.json
@@ -54,9 +54,9 @@ profile.arm.json
 
 PS5
 
-* Git
+- Git
 
-* 回首頁
+- 回首頁
 
 ---
 

@@ -5,6 +5,7 @@
 ![plugin.gif](plugin.gif){style="block"}
 
 ## 安裝
+
 [AI Commits](https://plugins.jetbrains.com/plugin/21335-ai-commits)
 
 ![ai-commit.png](ai-commit.png){style="block"}
@@ -26,9 +27,11 @@ Token 可以在 [OpenAI](https://platform.openai.com/account/api-keys) 獲取。
 ![commit-msg.png](commit-msg.png){style="block"}
 
 ## 結果
+
 ![Sc.png](Sc.png){style="block"}
 
 ## 備註
+
 有需要可以自行調整 prompt，可以將 Commit 改成中文，目前測試用 gpt4o 比較正常。
 
 ```

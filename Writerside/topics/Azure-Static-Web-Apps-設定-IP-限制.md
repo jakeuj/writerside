@@ -62,10 +62,10 @@ staticwebapp.config.json
 
 PS5
 
-* Azure Static Web Apps
+- Azure Static Web Apps
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

@@ -351,11 +351,11 @@ services.AddAuthentication()
 
 PS5
 
-* Azure
-* Azure AD
+- Azure
+- Azure AD
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

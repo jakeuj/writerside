@@ -12,8 +12,8 @@
 
 應用程序層由兩個分離的項目組成:
 
-* `Acme.BookStore.Application.Contracts`包含你的[DTO](https://docs.abp.io/zh-Hans/abp/latest/Data-Transfer-Objects)和[應用服務](https://docs.abp.io/zh-Hans/abp/latest/Application-Services)接口.
-* `Acme.BookStore.Application` 包含你的應用服務實現.
+- `Acme.BookStore.Application.Contracts`包含你的[DTO](https://docs.abp.io/zh-Hans/abp/latest/Data-Transfer-Objects)和[應用服務](https://docs.abp.io/zh-Hans/abp/latest/Application-Services)接口.
+- `Acme.BookStore.Application` 包含你的應用服務實現.
 
 總之呢，上面那個合約是實際 client 所關心的，包含服務介面與DTO，
 
@@ -25,9 +25,9 @@
 
 所以在`Acme.BookStore.Application.Contracts`項目中創建 Books 資料夾並新增一個名為`BookDto`的DTO類
 
-* **DTO**類被用來在**表示層**和**應用層** **傳遞數據**.查看[DTO文檔](https://docs.abp.io/zh-Hans/abp/latest/Data-Transfer-Objects)查看更多信息.
-* 為了在頁面上展示書籍信息,`BookDto`被用來將書籍數據傳遞到表示層.
-* `BookDto`繼承自`AuditedEntityDto<Guid>`.跟上面定義的`Book`實體一樣具有一些審計屬性.
+- **DTO**類被用來在**表示層**和**應用層** **傳遞數據**.查看[DTO文檔](https://docs.abp.io/zh-Hans/abp/latest/Data-Transfer-Objects)查看更多信息.
+- 為了在頁面上展示書籍信息,`BookDto`被用來將書籍數據傳遞到表示層.
+- `BookDto`繼承自`AuditedEntityDto<Guid>`.跟上面定義的`Book`實體一樣具有一些審計屬性.
 
 ```
 namespace Acme.BookStore.Books
@@ -183,9 +183,9 @@ ABP可以[**自動**](https://docs.abp.io/zh-Hans/abp/latest/API/Auto-API-Contro
 
 PS5
 
-* ABP
+- ABP
 
-* 回首頁
+- 回首頁
 
 ---
 

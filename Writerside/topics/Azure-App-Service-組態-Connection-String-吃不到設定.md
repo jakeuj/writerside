@@ -27,16 +27,16 @@ this magic is not available if you choose .NET 3.5 since it relies on functional
 
 PS5
 
-* .Net 3.5
+- .Net 3.5
 {ignore-vars="true"}
-* .Net 4.8
+- .Net 4.8
 {ignore-vars="true"}
-* App Service
+- App Service
 {ignore-vars="true"}
-* Azure
-* Cloud
+- Azure
+- Cloud
 
-* 回首頁
+- 回首頁
 
 ---
 

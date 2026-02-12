@@ -20,11 +20,11 @@
 
 PS5
 
-* .Net Core
+- .Net Core
 {ignore-vars="true"}
-* Rider
+- Rider
 
-* 回首頁
+- 回首頁
 
 ---
 

@@ -182,9 +182,9 @@ MiniExcel.SaveAsByTemplate(path, templatePath, value);
 
 PS5
 
-* Excel
+- Excel
 
-* 回首頁
+- 回首頁
 
 ---
 

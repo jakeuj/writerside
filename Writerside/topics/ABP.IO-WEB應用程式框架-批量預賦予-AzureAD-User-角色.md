@@ -147,9 +147,9 @@ BTW, Swagger 會同時顯示新舊 API
 
 PS5
 
-* ABP
+- ABP
 
-* 回首頁
+- 回首頁
 
 ---
 

@@ -19,11 +19,11 @@
 這個系統主要由兩部分組成
 
 1. Layout
-   * 定義整體布局，內含一個準備放內容的區塊
-   * `{{content}}` 內容預備區塊，來放下面的 Message
+   - 定義整體布局，內含一個準備放內容的區塊
+   - `{{content}}` 內容預備區塊，來放下面的 Message
 2. Message
-   * 定義訊息內容，內含一個準備放訊息的區塊
-   * `{{model.message}}` 訊息預備區塊，呼叫時可以輸入 `message`
+   - 定義訊息內容，內含一個準備放訊息的區塊
+   - `{{model.message}}` 訊息預備區塊，呼叫時可以輸入 `message`
 
 ```
 _templateRenderer.RenderAsync(StandardEmailTemplates.Message, new { message })
@@ -213,10 +213,10 @@ namespace TemplateReplace.Emailing
 
 PS5
 
-* ABP
-* MAIL
+- ABP
+- MAIL
 
-* 回首頁
+- 回首頁
 
 ---
 

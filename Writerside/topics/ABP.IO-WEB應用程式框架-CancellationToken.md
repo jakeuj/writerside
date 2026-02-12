@@ -137,11 +137,11 @@ EF ToListAsync, HttpClinet RequestAsync, Stream ReadAsync, Blob SaveAsync…ETC.
 
 PS5
 
-* ASYNC
-* 非同步
+- ASYNC
+- 非同步
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

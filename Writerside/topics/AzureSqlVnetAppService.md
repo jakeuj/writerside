@@ -34,7 +34,9 @@ C:\home>tcpping.exe test-sqlserver.database.windows.net:1433
 Connected to test-sqlserver.database.windows.net:1433, time taken: 1ms
 Complete: 1/1 successful attempts (100%). Average success time: 7.75ms
 ```
+
 {ignore-vars="true"}
 
 ## 參照
+
 [troubleshoot-outbound-connectivity-on-windows-apps](https://learn.microsoft.com/zh-tw/troubleshoot/azure/app-service/troubleshoot-vnet-integration-apps#troubleshoot-outbound-connectivity-on-windows-apps)

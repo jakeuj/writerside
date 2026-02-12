@@ -47,9 +47,9 @@ namespace Acme.BookStore.EntityFrameworkCore
 }
 ```
 
-* BookStoreConsts 含有用於表的架構和表前綴的常量值. 你不必使用它,但建議在單點控製表前綴.
+- BookStoreConsts 含有用於表的架構和表前綴的常量值. 你不必使用它,但建議在單點控製表前綴.
   定義在 Domain.Share 裡面，就是表前綴這類大家會需要用到的東西，建議統一定義在一個地方，大家要找要改比較方便
-* ConfigureByConvention() 方法優雅的配置/映射繼承的屬性,應始終對你所有的實體使用它.
+- ConfigureByConvention() 方法優雅的配置/映射繼承的屬性,應始終對你所有的實體使用它.
 
 裡面東西應該跟原本 EF 是一樣的定義方式，如果沒用過 EF 或不太熟可以去 MSDN 先看一下說明
 
@@ -65,9 +65,9 @@ namespace Acme.BookStore.EntityFrameworkCore
 
 PS5
 
-* ABP
+- ABP
 
-* 回首頁
+- 回首頁
 
 ---
 

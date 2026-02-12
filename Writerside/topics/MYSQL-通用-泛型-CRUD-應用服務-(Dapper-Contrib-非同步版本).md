@@ -248,15 +248,15 @@ public class GetAllActivitiesInput : ObManPagedAndSortedResultRequestDto
 
 PS5
 
-* ABP
-* C#
+- ABP
+- C#
 {ignore-vars="true"}
-* Dapper
-* MySql
-* SQL
-* CRUD
+- Dapper
+- MySql
+- SQL
+- CRUD
 
-* 回首頁
+- 回首頁
 
 ---
 

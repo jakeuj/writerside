@@ -33,8 +33,8 @@
 
 > 如果採用 IS4 分離專案，則需要將以上加到 API.IdentityServer 專案
 >
-> * API.IdentityServer 不需要連結字串 `AbpBackgroundJobs`
-> * API.Host 不需要連結字串 `AbpIdentityServer`
+> - API.IdentityServer 不需要連結字串 `AbpBackgroundJobs`
+> - API.Host 不需要連結字串 `AbpIdentityServer`
 
 主要是這邊需要指定各模組的連線字串，不然他會使用 Default 去找 table，然後找不到就會報錯
 
@@ -63,8 +63,8 @@ dotnet-ef migrations add 'Initial'
     -c MyProjectSecondDbContext
     -o Migrations\secondDb
 
-* 要馬先不指定 -o 跑一次預設的 migrations add (會建立 migrations folder)
-* 不然就要將第二個 db 建立在 migrations 路徑下 (指定 -o Migrations\xxxx)
+- 要馬先不指定 -o 跑一次預設的 migrations add (會建立 migrations folder)
+- 不然就要將第二個 db 建立在 migrations 路徑下 (指定 -o Migrations\xxxx)
 
 ### 原因
 
@@ -105,11 +105,11 @@ private bool MigrationsFolderExists()
 
 PS5
 
-* ABP
-* Entity Framework
+- ABP
+- Entity Framework
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

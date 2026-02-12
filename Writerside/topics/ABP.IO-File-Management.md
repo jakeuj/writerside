@@ -8,7 +8,7 @@
 
 Must have pro license to use this module.
 
-## Configure﻿
+## Configure
 
 ```
 private void ConfigureBlobStoring(IConfiguration configuration)
@@ -26,7 +26,7 @@ private void ConfigureBlobStoring(IConfiguration configuration)
 }
 ```
 
-## Usage﻿
+## Usage
 
 ```
 private readonly IRepository<DirectoryDescriptor> _directoryDescriptorRepository;
@@ -55,11 +55,11 @@ public async Task<Guid?> CreateBackupAsync(IRemoteStreamContent Content)
 }
 ```
 
-### 代码解释﻿
+### 代码解释
 
 该代码定义了一个名为 `TestFileManagementAppService` 的类，它继承自 `NbEdiAppService` ，并提供了一个方法用于创建备份文件夹并将文件存储到其中。以下是代码的详细解释：
 
-### 构造函数﻿
+### 构造函数
 
 ```
 public TestFileManagementAppService(IRepository<DirectoryDescriptor> directoryDescriptorRepository,
@@ -74,7 +74,7 @@ public TestFileManagementAppService(IRepository<DirectoryDescriptor> directoryDe
 
 这些依赖项通过依赖注入传递给类，并存储在私有字段 `_directoryDescriptorRepository` 和 `_fileManager` 中。
 
-### `CreateBackupAsync` 方法﻿
+### `CreateBackupAsync` 方法
 
 ```
 public async Task<Guid?> CreateBackupAsync(IRemoteStreamContent Content)
@@ -115,11 +115,11 @@ return f.DirectoryId;
 
 方法返回文件所属目录的 ID（即备份目录的 ID）。
 
-### 总结﻿
+### 总结
 
 该类的主要功能是确保存在一个名为 "Backup" 的目录，并将传入的文件存储到该目录中。通过依赖注入的方式，代码实现了对目录和文件的解耦管理，便于扩展和测试。
 
-## Ref﻿
+## Ref
 
 [file-management](https://abp.io/docs/latest/modules/file-management)
 
@@ -127,9 +127,9 @@ return f.DirectoryId;
 
 PS5
 
-* ABP
+- ABP
 
-* 回首頁
+- 回首頁
 
 ---
 

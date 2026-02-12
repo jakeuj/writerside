@@ -21,6 +21,7 @@ sudo usermod -a -G render,video $LOGNAME
 ![7900Driver.png](7900Driver.png){style="block"}
 
 ### Use Case
+
 [Installing the Workstation Use Case](https://amdgpu-install.readthedocs.io/en/latest/install-installing.html#installing-the-workstation-use-case)
 
 ### ROCm

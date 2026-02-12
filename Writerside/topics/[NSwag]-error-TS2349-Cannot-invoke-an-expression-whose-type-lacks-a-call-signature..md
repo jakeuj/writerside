@@ -1,4 +1,4 @@
-# [NSwag] error TS2349: Cannot invoke an expression whose type lacks a call signature.
+# [NSwag] error TS2349: Cannot invoke an expression whose type lacks a call signature
 
 > **原文發布日期:** 2019-07-31
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/07/31/NSwagTemplate
@@ -52,12 +52,12 @@ Type 'typeof import("node\_modules/moment/moment.d.ts")' has no compatible call 
 
 PS5
 
-* Angular
-* TypeScript
-* NSwag
-* ES6
+- Angular
+- TypeScript
+- NSwag
+- ES6
 
-* 回首頁
+- 回首頁
 
 ---
 

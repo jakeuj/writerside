@@ -59,10 +59,10 @@ Location:<http://download.eclipse.org/tools/ve/updates/1.4/>
 
 PS5
 
-* Eclipse
-* JAVA
+- Eclipse
+- JAVA
 
-* 回首頁
+- 回首頁
 
 ---
 

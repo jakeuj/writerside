@@ -14,10 +14,10 @@
 
 這邊簡單釐清一下 Job 與 Worker 這兩個東西
 
-* Job: API 觸發一個需要背景執行的作業時，呼叫 Job 來完成
+- Job: API 觸發一個需要背景執行的作業時，呼叫 Job 來完成
   例如：產生報表 API 觸發一個 Job 後立即返回，該 Job 會花費十分鐘產生報表後，以信件寄出報表
   (連續觸發 Job 會進入 Queue 依序處理報表需求)
-* Woker: 程式啟動時就開始按照既定排程來執行特定作業
+- Woker: 程式啟動時就開始按照既定排程來執行特定作業
   例如：定期刪除過期 Log、定期寄信
 
 另外 ABP 有整合 Quartz 與 Hangfire 這兩個套件
@@ -31,15 +31,15 @@
 [如果您決定使用 Hangfire 作為後台 Worker/Job #2940，DbMigrator 將不再起作用|支援中心|總部基地商業 (abp.io)](https://support.abp.io/QA/Questions/2940/DbMigrator-will-not-be-functional-anymore-if-you-decide-to-use-Hangfire-as-Background-WorkerJob)
 
 1. Domain
-   * PS> dotnet add package Volo.Abp.BackgroundWorkers.Hangfire
+   - PS> dotnet add package Volo.Abp.BackgroundWorkers.Hangfire
 2. Host (Web)
-   * PS> dotnet add package Volo.Abp.BackgroundJobs.HangFire
-   * PS> dotnet add package [Hangfire.SqlServer](https://www.nuget.org/packages/Hangfire.SqlServer)
-   * HostModule > DependsOn
-     + typeof(AbpBackgroundWorkersHangfireModule)
-     + typeof(AbpBackgroundJobsHangfireModule)
-   * HostModule > context.Services.AddHangfire
-     + config.UseSqlServerStorage(configuration.GetConnectionString("Default"));
+   - PS> dotnet add package Volo.Abp.BackgroundJobs.HangFire
+   - PS> dotnet add package [Hangfire.SqlServer](https://www.nuget.org/packages/Hangfire.SqlServer)
+   - HostModule > DependsOn
+     - typeof(AbpBackgroundWorkersHangfireModule)
+     - typeof(AbpBackgroundJobsHangfireModule)
+   - HostModule > context.Services.AddHangfire
+     - config.UseSqlServerStorage(configuration.GetConnectionString("Default"));
 
 P.S. **Hangfire.SqlServer 版本需與 Volo.Abp.BackgroundJobs.HangFire 中使用的 Hangfire 一致**
 
@@ -73,6 +73,7 @@ P.S. Job 與 Worker 不需要與表現層互動，放在 Domain
 ## Volo.Abp.OpenIddict.Domain 目錄結構
 
 GitHub 路徑：
+
 - [Volo.Abp.OpenIddict.Domain](https://github.com/abpframework/abp/tree/dev/modules/openiddict/src/Volo.Abp.OpenIddict.Domain)
 - [Volo](https://github.com/abpframework/abp/tree/dev/modules/openiddict/src/Volo.Abp.OpenIddict.Domain/Volo)
 - [Abp](https://github.com/abpframework/abp/tree/dev/modules/openiddict/src/Volo.Abp.OpenIddict.Domain/Volo/Abp)
@@ -292,9 +293,9 @@ app.UseHangfireDashboard();
 
 PS5
 
-* Hangfire
+- Hangfire
 
-* 回首頁
+- 回首頁
 
 ---
 

@@ -111,17 +111,17 @@ public class TemplateReplaceDomainModule : AbpModule
 
 ### 重點
 
-* `"Abp.Mailing.Smtp.UserName"`
-  + 保持 apikey 這六個英文字即可
-* `"Abp.Mailing.Smtp.Password"`
-  + 從 SendGrid 生成 API KEY
-  + 使用 ABP 的 ISettingEncryptionService 加密
-  + 將加密後的字串填入此設定值
-  + appsettings.json:StringEncryption:DefaultPassPhrase 需一致
-* `"Abp.Mailing.Smtp.EnableSsl": "true"`
-* `"Abp.Mailing.Smtp.UseDefaultCredentials": "false"`
-* `"Abp.Mailing.Smtp.Port": "587"`
-  + Azure App Service 中只開放 587 port
+- `"Abp.Mailing.Smtp.UserName"`
+  - 保持 apikey 這六個英文字即可
+- `"Abp.Mailing.Smtp.Password"`
+  - 從 SendGrid 生成 API KEY
+  - 使用 ABP 的 ISettingEncryptionService 加密
+  - 將加密後的字串填入此設定值
+  - appsettings.json:StringEncryption:DefaultPassPhrase 需一致
+- `"Abp.Mailing.Smtp.EnableSsl": "true"`
+- `"Abp.Mailing.Smtp.UseDefaultCredentials": "false"`
+- `"Abp.Mailing.Smtp.Port": "587"`
+  - Azure App Service 中只開放 587 port
 
 ### 參照
 
@@ -133,10 +133,10 @@ public class TemplateReplaceDomainModule : AbpModule
 
 PS5
 
-* Azure
-* SendGrid
+- Azure
+- SendGrid
 
-* 回首頁
+- 回首頁
 
 ---
 

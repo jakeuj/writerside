@@ -12,9 +12,9 @@ Github workflow Submodules from private repositories
 
 1. [Fine-grained Personal Access Tokens (github.com)](https://github.com/settings/tokens?type=beta)
 2. 從個人設定>開發人員設定>Personal access tokens (PAT) > Fine-grained tokens > 建立新 Token
-   * Resource owner > 組織/個人 (視子模組是放在組織或個人選擇對應資源擁有者)
-   * Repository access>主倉儲與子模組 (找不到 repo 可能是上模的組織擁有者選錯了)
-   * Permissions>Repository permissions> Contents, Metadata > 唯讀權限
+   - Resource owner > 組織/個人 (視子模組是放在組織或個人選擇對應資源擁有者)
+   - Repository access>主倉儲與子模組 (找不到 repo 可能是上模的組織擁有者選錯了)
+   - Permissions>Repository permissions> Contents, Metadata > 唯讀權限
 3. 從主倉儲>設定>環境(Environments)>Environment secrets>Add secret>將 PAT token 設定進去
 4. 將 workflow 的 .yml 中指定環境>簽出子模組>設定 Token ( `token: ${{ secrets.PAT_TOKEN }}` )
 
@@ -90,12 +90,12 @@ jobs:
 
 ```
 - name: 'Deploy to Azure Web App'
-	uses: azure/webapps-deploy@v2
-	id: deploy-to-webapp
-	with:
-		app-name: 'ai-nb-thermal'
-		slot-name: 'develop'
-		publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_xxxxx }}
+ uses: azure/webapps-deploy@v2
+ id: deploy-to-webapp
+ with:
+  app-name: 'ai-nb-thermal'
+  slot-name: 'develop'
+  publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_xxxxx }}
 ```
 
 參照
@@ -106,10 +106,10 @@ jobs:
 
 PS5
 
-* Git
-* Github
+- Git
+- Github
 
-* 回首頁
+- 回首頁
 
 ---
 

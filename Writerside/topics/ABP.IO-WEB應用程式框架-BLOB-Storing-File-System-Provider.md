@@ -19,12 +19,12 @@ ABP 存檔使用兩個部份來達成
    實作實際要存放的位置
    (目前是安裝到Host專案與TestBase專案)
    ABP框架已經有以下存儲提供程序的實現：
-   * File System：將BLOB作為標準檔案儲存在本地文件系統的資料夾中
-   * Database：將BLOB存儲在資料庫中
-   * Azure：將BLOB存儲在 Azure BLOB storage中
-   * Aliyun：將BLOB存儲在Aliyun Storage Service中
-   * Minio：將BLOB存儲在MinIO Object storage中
-   * Aws：將BLOB存儲在Amazon Simple Storage Service中
+   - File System：將BLOB作為標準檔案儲存在本地文件系統的資料夾中
+   - Database：將BLOB存儲在資料庫中
+   - Azure：將BLOB存儲在 Azure BLOB storage中
+   - Aliyun：將BLOB存儲在Aliyun Storage Service中
+   - Minio：將BLOB存儲在MinIO Object storage中
+   - Aws：將BLOB存儲在Amazon Simple Storage Service中
 
 ### BLOB Storing
 
@@ -125,11 +125,11 @@ TestBaseModule
 
 PS5
 
-* ABP
-* C#
+- ABP
+- C#
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

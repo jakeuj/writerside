@@ -37,11 +37,11 @@ brew cask install font-sauce-code-pro-nerd-font
 
 PS5
 
-* Fonts
-* MAC
-* Terminal
+- Fonts
+- MAC
+- Terminal
 
-* 回首頁
+- 回首頁
 
 ---
 

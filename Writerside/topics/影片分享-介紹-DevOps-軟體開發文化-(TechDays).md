@@ -38,9 +38,9 @@ http://video.ch9.ms/ch9/8551/335491af-f416-4789-ac1e-76370a968551/DEV301_mid.mp4
 
 PS5
 
-* DevOps
+- DevOps
 
-* 回首頁
+- 回首頁
 
 ---
 

@@ -28,7 +28,7 @@ Angular woff json 404 & the web.config asset path must start with the project so
     <staticContent>
       <remove fileExtension=".json" />
       <mimeMap fileExtension=".json" mimeType="application/json" />
-	  <mimeMap fileExtension="woff" mimeType="application/font-woff" />
+   <mimeMap fileExtension="woff" mimeType="application/font-woff" />
       <mimeMap fileExtension="woff2" mimeType="application/font-woff" />
     </staticContent>
   </system.webServer>
@@ -92,9 +92,9 @@ The web.config asset path must start with the project source root
 
 PS5
 
-* Angular
+- Angular
 
-* 回首頁
+- 回首頁
 
 ---
 

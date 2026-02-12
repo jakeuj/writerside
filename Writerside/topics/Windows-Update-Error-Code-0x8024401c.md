@@ -50,9 +50,9 @@ Windows Update 服務已經啟動成功。
 
 PS5
 
-* Windows
+- Windows
 
-* 回首頁
+- 回首頁
 
 ---
 

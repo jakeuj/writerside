@@ -6,9 +6,9 @@
 
 ---
 
-* DotnetCore Web API
-* Background Queue 背景佇列工作
-* PowerShell Script
+- DotnetCore Web API
+- Background Queue 背景佇列工作
+- PowerShell Script
 
 輸出[結果](https://github.com/jakeuj/PowerShellNetCoreQueue)
 
@@ -208,7 +208,7 @@ public async void Get(int sec=15)
 {
     await _taskQueue.QueueBackgroundWorkItemAsync(async ct =>
     {
-    	(await PowerShell.Create()
+     (await PowerShell.Create()
                 .AddScript($"Start-Sleep -s {sec}")
                 .InvokeAsync())
                 .ToList()
@@ -243,7 +243,7 @@ public async void Get(int sec=15)
 {
     await _taskQueue.QueueBackgroundWorkItemAsync(async ct =>
     {
-    	(await PowerShell.Create()
+     (await PowerShell.Create()
                 .AddCommand(@"C:\MyScript.ps1")
                 .AddParameter("Sec", 10)
                 .InvokeAsync())
@@ -253,15 +253,15 @@ public async void Get(int sec=15)
 }
 ```
 
-* `AddScript` 吃不到 `AddParameter` 所設定的參數
-* `AddCommand` 裡面直接寫 Script 會無法執行
-* `AddParameter` 可以設定多組 `.AddParameter("p1","1").AddParameter("p2","2")`
+- `AddScript` 吃不到 `AddParameter` 所設定的參數
+- `AddCommand` 裡面直接寫 Script 會無法執行
+- `AddParameter` 可以設定多組 `.AddParameter("p1","1").AddParameter("p2","2")`
 
 ---
 
 ### 補充：PowerShell 語法範例
 
-* 沒有就建立該資料夾
+- 沒有就建立該資料夾
 
 ```
 param([string] $Path)
@@ -296,13 +296,13 @@ http://dog0416.blogspot.com/2020/06/aspnet-core-microsoftpowershellsdk-iis.html
 
 PS5
 
-* C#
+- C#
 {ignore-vars="true"}
-* .Net Core
+- .Net Core
 {ignore-vars="true"}
-* PowerShell
+- PowerShell
 
-* 回首頁
+- 回首頁
 
 ---
 

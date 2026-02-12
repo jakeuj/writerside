@@ -9,11 +9,13 @@
 > ```
 >
 > 若未設定此環境變數，會導致以下錯誤：
+>
 > ```
 > ManagedIdentityCredential authentication failed: Unable to load the proper Managed Identity.
 > ```
 >
 > **如何取得用戶端識別碼：**
+>
 > 1. 在 Azure Portal 中開啟您的**受控識別**資源
 > 2. 在**概觀**頁面中複製**用戶端識別碼**（Client ID）
 > 3. 在 App Service 的**設定** > **環境變數**中新增 `AZURE_CLIENT_ID`
@@ -32,6 +34,7 @@
 Managed Identity（受控識別）是 Microsoft Entra ID（前身為 Azure Active Directory）提供的一項功能，讓 Azure 服務（如 Azure App Service、Azure Functions、Azure VM 等）能夠自動獲得一個由 Azure 平台管理的身分識別。
 
 **主要優勢：**
+
 - **無需管理憑證或密碼**：Azure 平台自動管理身分識別的生命週期
 - **提升安全性**：不需要在程式碼或設定檔中儲存敏感的連線字串或金鑰
 - **簡化存取控制**：透過 Azure RBAC（角色型存取控制）輕鬆管理權限
@@ -102,12 +105,12 @@ Set-AzWebApp -AssignIdentity $true `
 
 ![userAssignedIdentities.png](userAssignedIdentities.png)
 
-5. 建立完成後，導航到您的 App Service
-6. 選擇 **設定** > **身分識別**
-7. 切換到 **使用者指派** 分頁
-8. 點擊 **+ 新增**
-9. 搜尋並選擇剛才建立的受控識別
-10. 點擊 **新增**
+1. 建立完成後，導航到您的 App Service
+2. 選擇 **設定** > **身分識別**
+3. 切換到 **使用者指派** 分頁
+4. 點擊 **+ 新增**
+5. 搜尋並選擇剛才建立的受控識別
+6. 點擊 **新增**
 
 **透過 Azure CLI：**
 

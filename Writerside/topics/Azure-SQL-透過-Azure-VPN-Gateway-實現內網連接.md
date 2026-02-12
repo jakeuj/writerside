@@ -165,21 +165,21 @@ Step 5：使用 SSMS 登入
 
 Note：
 
-* Win 10 如果要用 IKEv2 連線可能要改 登錄檔 (預設 SSTP 不用)
-* WIn 7 之類的要連 VPN 要啟用 TLS 1.2 (也要改登錄檔)
-* 有人登入遇到錯誤 說甚麼 主體 xxx SSL xxx 還不確定甚麼問題
-* VPN 協議有很多種，目前手機分享網路貌似只有 SSTP 可以通
-* 承上，MIS封鎖各種 VPN，但以我目前 SSTP 是可以用的
-* 如果連線失敗，可以確認一下 MIS 是否把 1433 封死了
+- Win 10 如果要用 IKEv2 連線可能要改 登錄檔 (預設 SSTP 不用)
+- WIn 7 之類的要連 VPN 要啟用 TLS 1.2 (也要改登錄檔)
+- 有人登入遇到錯誤 說甚麼 主體 xxx SSL xxx 還不確定甚麼問題
+- VPN 協議有很多種，目前手機分享網路貌似只有 SSTP 可以通
+- 承上，MIS封鎖各種 VPN，但以我目前 SSTP 是可以用的
+- 如果連線失敗，可以確認一下 MIS 是否把 1433 封死了
 
 ![](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 
-* Azure SQL
+- Azure SQL
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

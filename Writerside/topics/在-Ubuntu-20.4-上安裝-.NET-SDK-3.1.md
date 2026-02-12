@@ -25,7 +25,7 @@ sudo dpkg -i packages-microsoft-prod.deb
 
 將 Microsoft 套件簽署金鑰新增至您的受信賴起點清單，並新增套件存放庫。
 
-2. 安裝 .NET SDK
+1. 安裝 .NET SDK
 
 ```
 sudo apt-get update; \
@@ -36,7 +36,7 @@ sudo apt-get update; \
 
 版本目前支援 2.1、3.1、5.0
 
-3. 確認版本
+1. 確認版本
 
 ```
 dotnet --info
@@ -67,11 +67,11 @@ dotnet --info
 > To install additional .NET Core runtimes or SDKs:
 >  https://aka.ms/dotnet-download
 
-4. 建置
+1. 建置
 
 `dotnet publish -c:Release -o ./publish`
 
-5. Zip
+1. Zip
 
 `apt-get install zip unzip`
 
@@ -81,12 +81,12 @@ dotnet --info
 
 PS5
 
-* .Net Core
+- .Net Core
 {ignore-vars="true"}
-* Linux
-* Ubuntu
+- Linux
+- Ubuntu
 
-* 回首頁
+- 回首頁
 
 ---
 

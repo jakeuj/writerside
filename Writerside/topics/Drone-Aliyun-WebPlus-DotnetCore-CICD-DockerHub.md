@@ -217,15 +217,15 @@ Invoke-RestMethod 'https://notify-api.line.me/api/notify'
 
 PS5
 
-* CI/CD
+- CI/CD
 {ignore-vars="true"}
-* .Net Core
+- .Net Core
 {ignore-vars="true"}
-* Drone
-* 阿里雲
+- Drone
+- 阿里雲
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

@@ -190,9 +190,9 @@ public class MailManager : DomainService
 
 PS5
 
-* Razor
+- Razor
 
-* 回首頁
+- 回首頁
 
 ---
 

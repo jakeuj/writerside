@@ -85,9 +85,9 @@ rpm -qa |grep php
 
 PS5
 
-* Server
+- Server
 
-* 回首頁
+- 回首頁
 
 ---
 

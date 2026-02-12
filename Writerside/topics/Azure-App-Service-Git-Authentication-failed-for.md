@@ -28,21 +28,21 @@ Git 格式 `git clone https://{UserName}@{SiteName}.scm.azurewebsites.net/{Site
 
 P.S. FTPS
 
-* 自動生成帳號 `xxxx\$xxxx` 與 `$xxxx` 都可以
-* 自訂帳號說明一定要 `xxxx\$xxxx`
-* 如果不行可能是防火牆鎖了 Port
+- 自動生成帳號 `xxxx\$xxxx` 與 `$xxxx` 都可以
+- 自訂帳號說明一定要 `xxxx\$xxxx`
+- 如果不行可能是防火牆鎖了 Port
   我因此撞牆一下午，請改用手機分享網路試試
 
 ![](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 
-* App Service
+- App Service
 {ignore-vars="true"}
-* Azure
-* Git
+- Azure
+- Git
 
-* 回首頁
+- 回首頁
 
 ---
 

@@ -18,29 +18,29 @@
 
 在本系列教程中，您將構建一個名為`Acme.BookStore`. 此應用程序用於管理書籍及其作者的列表。它是使用以下技術開發的：
 
-* **Entity Framework Core**作為 ORM 提供者。
-* **Angular**作為 UI 框架。
+- **Entity Framework Core**作為 ORM 提供者。
+- **Angular**作為 UI 框架。
 
 本教程分為以下幾個部分；
 
-* [第 1 部分：創建服務器端](https://docs.abp.io/en/abp/latest/Tutorials/Part-1)
-* [第 2 部分：圖書列表頁面](https://docs.abp.io/en/abp/latest/Tutorials/Part-2)
-* [第 3 部分：創建、更新和刪除書籍](https://docs.abp.io/en/abp/latest/Tutorials/Part-3)
-* [第 4 部分：集成測試](https://docs.abp.io/en/abp/latest/Tutorials/Part-4)
-* [第 5 部分：授權](https://docs.abp.io/en/abp/latest/Tutorials/Part-5)
-* [第 6 部分：作者：領域層](https://docs.abp.io/en/abp/latest/Tutorials/Part-6)
-* [第 7 部分：作者：數據庫集成](https://docs.abp.io/en/abp/latest/Tutorials/Part-7)
-* **第八部分：作者：應用層（本部分）**
-* [第 9 部分：作者：用戶界面](https://docs.abp.io/en/abp/latest/Tutorials/Part-9)
-* [第 10 部分：書與作者的關係](https://docs.abp.io/en/abp/latest/Tutorials/Part-10)
+- [第 1 部分：創建服務器端](https://docs.abp.io/en/abp/latest/Tutorials/Part-1)
+- [第 2 部分：圖書列表頁面](https://docs.abp.io/en/abp/latest/Tutorials/Part-2)
+- [第 3 部分：創建、更新和刪除書籍](https://docs.abp.io/en/abp/latest/Tutorials/Part-3)
+- [第 4 部分：集成測試](https://docs.abp.io/en/abp/latest/Tutorials/Part-4)
+- [第 5 部分：授權](https://docs.abp.io/en/abp/latest/Tutorials/Part-5)
+- [第 6 部分：作者：領域層](https://docs.abp.io/en/abp/latest/Tutorials/Part-6)
+- [第 7 部分：作者：數據庫集成](https://docs.abp.io/en/abp/latest/Tutorials/Part-7)
+- **第八部分：作者：應用層（本部分）**
+- [第 9 部分：作者：用戶界面](https://docs.abp.io/en/abp/latest/Tutorials/Part-9)
+- [第 10 部分：書與作者的關係](https://docs.abp.io/en/abp/latest/Tutorials/Part-10)
 
 ### 下載源代碼
 
 本教程根據您的**UI**和**數據庫**首選項有多個版本。我們準備了幾個要下載的源代碼組合：
 
-* [帶有 EF Core 的 MVC（Razor Pages）UI](https://github.com/abpframework/abp-samples/tree/master/BookStore-Mvc-EfCore)
-* [帶有 EF Core 的 Blazor UI](https://github.com/abpframework/abp-samples/tree/master/BookStore-Blazor-EfCore)
-* [帶有 MongoDB 的 Angular UI](https://github.com/abpframework/abp-samples/tree/master/BookStore-Angular-MongoDb)
+- [帶有 EF Core 的 MVC（Razor Pages）UI](https://github.com/abpframework/abp-samples/tree/master/BookStore-Mvc-EfCore)
+- [帶有 EF Core 的 Blazor UI](https://github.com/abpframework/abp-samples/tree/master/BookStore-Blazor-EfCore)
+- [帶有 MongoDB 的 Angular UI](https://github.com/abpframework/abp-samples/tree/master/BookStore-Angular-MongoDb)
 
 ## 介紹
 
@@ -73,10 +73,10 @@ namespace Acme.BookStore.Authors
 }
 ```
 
-* `IApplicationService` 是所有應用服務都繼承的約定俗成的接口，所以ABP框架可以識別服務。
-* 定義了對`Author`實體執行 CRUD 操作的標準方法。
-* `PagedResultDto`是 ABP 框架中預定義的 DTO 類。它有一個`Items`集合和一個`TotalCount`返回分頁結果的屬性。
-* 首選`AuthorDto`從`CreateAsync`方法返回（對於新創建的作者），而此應用程序不使用它 - 只是為了顯示不同的用法。
+- `IApplicationService` 是所有應用服務都繼承的約定俗成的接口，所以ABP框架可以識別服務。
+- 定義了對`Author`實體執行 CRUD 操作的標準方法。
+- `PagedResultDto`是 ABP 框架中預定義的 DTO 類。它有一個`Items`集合和一個`TotalCount`返回分頁結果的屬性。
+- 首選`AuthorDto`從`CreateAsync`方法返回（對於新創建的作者），而此應用程序不使用它 - 只是為了顯示不同的用法。
 
 ![](https://dotblogsfile.blob.core.windows.net/user/御星幻/f2f20135-b3fd-4c0d-843e-dd74ccc5877a/1627030796.png)
 
@@ -101,7 +101,7 @@ namespace Acme.BookStore.Authors
 }
 ```
 
-* `EntityDto<T>`僅具有`Id`具有給定泛型參數的屬性。您可以`Id`自己創建一個屬性，而不是繼承`EntityDto<T>`.
+- `EntityDto<T>`僅具有`Id`具有給定泛型參數的屬性。您可以`Id`自己創建一個屬性，而不是繼承`EntityDto<T>`.
 
 ![](https://dotblogsfile.blob.core.windows.net/user/御星幻/f2f20135-b3fd-4c0d-843e-dd74ccc5877a/1627030856.png)
 
@@ -119,8 +119,8 @@ namespace Acme.BookStore.Authors
 }
 ```
 
-* `Filter`用於搜索作者。可以`null`（或空字符串）獲取所有作者。
-* `PagedAndSortedResultRequestDto`具有標準的分頁和排序屬性：`int MaxResultCount`,`int SkipCount`和`string Sorting`。
+- `Filter`用於搜索作者。可以`null`（或空字符串）獲取所有作者。
+- `PagedAndSortedResultRequestDto`具有標準的分頁和排序屬性：`int MaxResultCount`,`int SkipCount`和`string Sorting`。
 
 ![](https://dotblogsfile.blob.core.windows.net/user/御星幻/f2f20135-b3fd-4c0d-843e-dd74ccc5877a/1627030919.png)
 > ABP 框架有這樣的基本 DTO 類來簡化和標準化你的 DTO。請參閱[DTO 文檔](https://docs.abp.io/en/abp/latest/Data-Transfer-Objects)了解所有信息。
@@ -212,10 +212,10 @@ namespace Acme.BookStore.Authors
 }
 ```
 
-* `[Authorize(BookStorePermissions.Authors.Default)]`是一種檢查權限（策略）以授權當前用戶的聲明性方式。詳見[授權文件](https://docs.abp.io/en/abp/latest/Authorization)。`BookStorePermissions`類將在下面更新，現在不要擔心編譯錯誤。
-* 派生自`BookStoreAppService`，它是啟動模板附帶的一個簡單基類。它派生自標準`ApplicationService`類。
-* 實現了`IAuthorAppService`上面定義的。
-* 注入`IAuthorRepository`和`AuthorManager`以在服務方法中使用。
+- `[Authorize(BookStorePermissions.Authors.Default)]`是一種檢查權限（策略）以授權當前用戶的聲明性方式。詳見[授權文件](https://docs.abp.io/en/abp/latest/Authorization)。`BookStorePermissions`類將在下面更新，現在不要擔心編譯錯誤。
+- 派生自`BookStoreAppService`，它是啟動模板附帶的一個簡單基類。它派生自標準`ApplicationService`類。
+- 實現了`IAuthorAppService`上面定義的。
+- 注入`IAuthorRepository`和`AuthorManager`以在服務方法中使用。
 
 ![](https://dotblogsfile.blob.core.windows.net/user/御星幻/f2f20135-b3fd-4c0d-843e-dd74ccc5877a/1627031311.png)
 
@@ -268,10 +268,10 @@ public async Task<PagedResultDto<AuthorDto>> GetListAsync(GetAuthorListDto input
 }
 ```
 
-* 默認排序是“按作者姓名”，它在方法的開頭完成，以防它不是由客戶端發送的。
-* 用於`IAuthorRepository.GetListAsync`從數據庫中獲取分頁、排序​​和過濾的作者列表。我們已經在本教程的前一部分中實現了它。同樣，實際上不需要創建這樣的方法，因為我們可以直接查詢存儲庫，但想演示如何創建自定義存儲庫方法。
-* 直接從`AuthorRepository`獲取作者計數的同時查詢。如果發送了過濾器，那麼我們將在獲取計數時使用它來過濾實體。
-* 最後，通過將`Author`列表映射到 `AuthorDto` 列表來返回分頁結果。
+- 默認排序是“按作者姓名”，它在方法的開頭完成，以防它不是由客戶端發送的。
+- 用於`IAuthorRepository.GetListAsync`從數據庫中獲取分頁、排序​​和過濾的作者列表。我們已經在本教程的前一部分中實現了它。同樣，實際上不需要創建這樣的方法，因為我們可以直接查詢存儲庫，但想演示如何創建自定義存儲庫方法。
+- 直接從`AuthorRepository`獲取作者計數的同時查詢。如果發送了過濾器，那麼我們將在獲取計數時使用它來過濾實體。
+- 最後，通過將`Author`列表映射到 `AuthorDto` 列表來返回分頁結果。
 
 ### CreateAsync
 
@@ -293,10 +293,10 @@ public async Task<AuthorDto> CreateAsync(CreateAuthorDto input)
 }
 ```
 
-* `CreateAsync`需要`BookStorePermissions.Authors.Create`權限（除了`BookStorePermissions.Authors.Default`為`AuthorAppService`類聲明的）。
-* 使用`AuthorManager`（域服務）創建新作者。
-* 用於`IAuthorRepository.InsertAsync`將新作者插入到數據庫中。
-* 使用`ObjectMapper`返回一個`AuthorDto`代表新創建的作者。
+- `CreateAsync`需要`BookStorePermissions.Authors.Create`權限（除了`BookStorePermissions.Authors.Default`為`AuthorAppService`類聲明的）。
+- 使用`AuthorManager`（域服務）創建新作者。
+- 用於`IAuthorRepository.InsertAsync`將新作者插入到數據庫中。
+- 使用`ObjectMapper`返回一個`AuthorDto`代表新創建的作者。
 
 > **DDD 提示**：一些開發人員可能會發現將新實體插入到`_authorManager.CreateAsync`. 我們認為將它留給應用層是一個更好的設計，因為它更好地知道什麼時候將它插入到數據庫中（也許它需要在插入之前對實體進行額外的工作，如果我們在域服務）。但是，這完全取決於您。
 
@@ -324,11 +324,11 @@ public async Task UpdateAsync(Guid id, UpdateAuthorDto input)
 }
 ```
 
-* `UpdateAsync`需要額外的`BookStorePermissions.Authors.Edit`權限。
-* 用於`IAuthorRepository.GetAsync`從數據庫中獲取作者實體。如果沒有給定 id 的作者，則`GetAsync`拋出異常`EntityNotFoundException`，這會導致`404`Web 應用程序中的HTTP 狀態代碼。始終使實體進行更新操作是一種很好的做法。
-* `AuthorManager.ChangeNameAsync`如果客戶端要求更改作者姓名，則使用（域服務方法）更改作者姓名。
-* 直接更新`BirthDate`並且`ShortBio`由於沒有任何業務規則來更改這些屬性，因此它們接受任何值。
-* 最後，調用`IAuthorRepository.UpdateAsync`方法更新數據庫上的實體。
+- `UpdateAsync`需要額外的`BookStorePermissions.Authors.Edit`權限。
+- 用於`IAuthorRepository.GetAsync`從數據庫中獲取作者實體。如果沒有給定 id 的作者，則`GetAsync`拋出異常`EntityNotFoundException`，這會導致`404`Web 應用程序中的HTTP 狀態代碼。始終使實體進行更新操作是一種很好的做法。
+- `AuthorManager.ChangeNameAsync`如果客戶端要求更改作者姓名，則使用（域服務方法）更改作者姓名。
+- 直接更新`BirthDate`並且`ShortBio`由於沒有任何業務規則來更改這些屬性，因此它們接受任何值。
+- 最後，調用`IAuthorRepository.UpdateAsync`方法更新數據庫上的實體。
 
 > **EF Core 提示**：Entity Framework Core 具有**更改跟踪**系統，並在工作單元結束時**自動保存**對實體的任何更改（您可以簡單地認為 ABP 框架會`SaveChanges`在方法結束時自動調用）。因此，即使您沒有`_authorRepository.UpdateAsync(...)`在方法的末尾調用 ，它也會按預期工作。如果您以後不考慮更改 EF Core，則可以刪除此行。
 
@@ -344,8 +344,8 @@ public async Task DeleteAsync(Guid id)
 }
 ```
 
-* `DeleteAsync`需要額外的`BookStorePermissions.Authors.Delete`權限。
-* 它只是使用`DeleteAsync`存儲庫的方法。
+- `DeleteAsync`需要額外的`BookStorePermissions.Authors.Delete`權限。
+- 它只是使用`DeleteAsync`存儲庫的方法。
 
 ## 權限定義
 
@@ -604,9 +604,9 @@ namespace Acme.BookStore.Authors
 
 PS5
 
-* ABP
+- ABP
 
-* 回首頁
+- 回首頁
 
 ---
 

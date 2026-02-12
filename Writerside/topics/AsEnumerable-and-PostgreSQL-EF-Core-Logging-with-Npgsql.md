@@ -120,14 +120,14 @@ CREATE TABLE distributors (
 
 PS5
 
-* AsEnumerable
-* Entity Framework
+- AsEnumerable
+- Entity Framework
 {ignore-vars="true"}
-* Log
-* Npgsql
-* PostgreSQL
+- Log
+- Npgsql
+- PostgreSQL
 
-* 回首頁
+- 回首頁
 
 ---
 

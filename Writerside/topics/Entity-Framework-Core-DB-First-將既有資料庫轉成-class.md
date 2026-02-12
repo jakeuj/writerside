@@ -17,7 +17,7 @@ dotnet ef dbcontext scaffold "Server=(LocalDb)\MSSQLLocalDB;Database=MyDb;Truste
 Microsoft.EntityFrameworkCore.SqlServer --data-annotations -o D:\Entities
 ```
 
-### 參數：--data-annotations 您可以使用屬性來設定模型。 如果省略此選項，則只會使用 Fluent API。
+### 參數：--data-annotations 您可以使用屬性來設定模型。 如果省略此選項，則只會使用 Fluent API
 
 ### 注意
 
@@ -70,10 +70,10 @@ MySQL
 
 PS5
 
-* Entity Framework
+- Entity Framework
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

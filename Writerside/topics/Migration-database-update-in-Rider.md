@@ -39,9 +39,9 @@ dotnet ef database update 就可以了
 
 參照：[Running Entity Framework (Core) commands in Rider](https://blog.jetbrains.com/dotnet/2017/08/09/running-entity-framework-core-commands-rider/)
 
-* 如果冒出要你安裝  [Microsoft.EntityFrameworkCore.Design]
+- 如果冒出要你安裝  [Microsoft.EntityFrameworkCore.Design]
   就去nuget搜尋然後在DbContext專案補上該套件
-* 如果抓不到appsetting.json就加上參數 --startup-project  (-s)
+- 如果抓不到appsetting.json就加上參數 --startup-project  (-s)
   啟始專案的專案資料夾的相對路徑。 預設值為目前的資料夾。
 
 參照：<https://docs.microsoft.com/zh-tw/ef/core/miscellaneous/cli/dotnet#common-options>
@@ -50,9 +50,9 @@ dotnet ef database update 就可以了
 
 PS5
 
-* Rider
+- Rider
 
-* 回首頁
+- 回首頁
 
 ---
 

@@ -48,10 +48,10 @@ C:\Program Files\TortoiseHg\i18n\cmenu\thg-cmenu-zh\_TW.reg
 
 PS5
 
-* Mercuria
-* TortoiseHg
+- Mercuria
+- TortoiseHg
 
-* 回首頁
+- 回首頁
 
 ---
 

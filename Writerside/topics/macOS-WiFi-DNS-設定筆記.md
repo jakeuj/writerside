@@ -10,6 +10,7 @@
 ### 遇到的問題
 
 當在 Home-Network 網路上手動設定 DNS 為 8.8.8.8 後，切換到 Office-Network 網路時，DNS 設定被共用，導致：
+
 - 無法解析內網網域
 - 內網服務無法存取
 - 需要手動切換 DNS 設定，非常麻煩
@@ -29,6 +30,7 @@ sudo networksetup -setdnsservers Wi-Fi 192.168.1.1 8.8.8.8 1.1.1.1
 ```
 
 **優點：**
+
 - 一次設定，適用所有網路
 - 內網 DNS (192.168.1.1) 優先處理內網網域
 - 公網 DNS (8.8.8.8, 1.1.1.1) 作為備援，處理外網網域
@@ -39,6 +41,7 @@ sudo networksetup -setdnsservers Wi-Fi 192.168.1.1 8.8.8.8 1.1.1.1
 macOS 採用**循序查詢**機制，DNS 伺服器的順序至關重要：
 
 **正確順序（推薦）：**
+
 ```bash
 192.168.1.1 → 8.8.8.8 → 1.1.1.1
 ```
@@ -57,6 +60,7 @@ macOS 採用**循序查詢**機制，DNS 伺服器的順序至關重要：
 #### ⚠️ 錯誤順序的影響 {#wrong-dns-order}
 
 **錯誤順序：**
+
 ```bash
 # ❌ 不推薦
 sudo networksetup -setdnsservers Wi-Fi 8.8.8.8 1.1.1.1 192.168.1.1
@@ -89,16 +93,19 @@ sudo networksetup -setdnsservers Wi-Fi 8.8.8.8 1.1.1.1 192.168.1.1
 ### 方案二：手動切換 DNS {#manual-dns-switch}
 
 #### 設定為公網 DNS {#set-public-dns}
+
 ```bash
 sudo networksetup -setdnsservers Wi-Fi 8.8.8.8 1.1.1.1
 ```
 
 #### 設定為自動取得 {#set-auto-dns}
+
 ```bash
 sudo networksetup -setdnsservers Wi-Fi Empty
 ```
 
 #### 設定為內網 DNS {#set-internal-dns}
+
 ```bash
 sudo networksetup -setdnsservers Wi-Fi 192.168.1.1
 ```
@@ -106,6 +113,7 @@ sudo networksetup -setdnsservers Wi-Fi 192.168.1.1
 ### 方案三：使用網路位置
 
 在「系統偏好設定」>「網路」中建立不同的網路位置：
+
 1. 建立「辦公室」位置：使用內網 DNS
 2. 建立「家用」位置：使用公網 DNS
 3. 透過選單列快速切換
@@ -113,27 +121,32 @@ sudo networksetup -setdnsservers Wi-Fi 192.168.1.1
 ## 常用指令 {#common-commands}
 
 ### 查看當前 DNS 設定 {#view-current-dns}
+
 ```bash
 networksetup -getdnsservers Wi-Fi
 ```
 
 ### 查看當前連接的 WiFi {#view-current-wifi}
+
 ```bash
 networksetup -getairportnetwork en0
 ```
 
 ### 查看詳細 DNS 資訊 {#view-detailed-dns}
+
 ```bash
 scutil --dns
 ```
 
 ### 清除 DNS 快取 {#flush-dns-cache}
+
 ```bash
 sudo dscacheutil -flushcache
 sudo killall -HUP mDNSResponder
 ```
 
 ### 列出所有網路服務 {#list-network-services}
+
 ```bash
 networksetup -listallnetworkservices
 ```
@@ -141,16 +154,19 @@ networksetup -listallnetworkservices
 ## 測試 DNS 解析 {#test-dns-resolution}
 
 ### 測試特定 DNS 伺服器 {#test-specific-dns}
+
 ```bash
 nslookup example.com 8.8.8.8
 ```
 
 ### 測試當前 DNS 設定 {#test-current-dns}
+
 ```bash
 nslookup example.com
 ```
 
 ### 使用 dig 指令 {#use-dig-command}
+
 ```bash
 dig example.com
 ```
@@ -178,6 +194,7 @@ sudo networksetup -setdnsservers Wi-Fi 192.168.1.1 8.8.8.8 1.1.1.1
 ```
 
 **重點提醒：**
+
 - ✅ 內網 DNS 必須放第一位（192.168.1.1）
 - ✅ 公網 DNS 作為備援（8.8.8.8, 1.1.1.1）
 - ✅ 解析內網域名快速（< 50ms）
@@ -186,6 +203,7 @@ sudo networksetup -setdnsservers Wi-Fi 192.168.1.1 8.8.8.8 1.1.1.1
 - ✅ 適用所有 WiFi 網路
 
 **❌ 避免錯誤順序：**
+
 ```bash
 # 不要這樣設定，會導致內網服務延遲 2-5 秒
 sudo networksetup -setdnsservers Wi-Fi 8.8.8.8 1.1.1.1 192.168.1.1
@@ -194,4 +212,3 @@ sudo networksetup -setdnsservers Wi-Fi 8.8.8.8 1.1.1.1 192.168.1.1
 ---
 
 *最後更新：2026-01-13*
-

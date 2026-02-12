@@ -52,8 +52,8 @@ async Task Main()
 /// <summary>
 /// 處理一些事情
 /// </summary>
-///	<param name="input">參數1</param>
-///	<param name="outputFileFactory">輸出檔案的方法</param>
+/// <param name="input">參數1</param>
+/// <param name="outputFileFactory">輸出檔案的方法</param>
 /// <returns></returns>
 public async Task DoSomethingAsync(
   string input,
@@ -86,8 +86,8 @@ public async Task DoSomethingAsync(
 
 剩下的泛型則一樣是該方法的傳入參數的型別
 
-* void test() {} => `Action<T>` => `Action`
-* int test() {return 1;} => `Func<TResult>` => `Func<int>`
+- void test() {} => `Action<T>` => `Action`
+- int test() {return 1;} => `Func<TResult>` => `Func<int>`
 
 先考慮要傳入的方法是否需要回傳東西 (Task, int, string … ETC.)
 
@@ -109,9 +109,9 @@ Action
 
 PS5
 
-* delegate
+- delegate
 
-* 回首頁
+- 回首頁
 
 ---
 

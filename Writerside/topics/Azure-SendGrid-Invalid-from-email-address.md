@@ -60,7 +60,7 @@ Invalid from email address
 
 大概長這樣，三條都要設定，設定後按完成，之後就可以發信了。
 
-### Add all of these records to I'm+Not+Sure's DNS section.
+### Add all of these records to I'm+Not+Sure's DNS section
 
 | TYPE | HOST |  | VALUE |  |
 | --- | --- | --- | --- | --- |
@@ -113,9 +113,9 @@ PM> Install-Package SendGrid
 
 PS5
 
-* SendGrid
+- SendGrid
 
-* 回首頁
+- 回首頁
 
 ---
 

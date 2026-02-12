@@ -14,20 +14,20 @@ DisplayName 設定 "Test Mail (測試信件)" 但收信時卻顯示 "Test Mail"
 
 有小括號 => 會被吃字
 
-* Test Mail (測試信件) => Test Mail
-* Test Mail (x測x試x信x件x) => Test Mail
+- Test Mail (測試信件) => Test Mail
+- Test Mail (x測x試x信x件x) => Test Mail
 
 沒小括號 => 沒問題
 
-* Test Mail 測試信件 => Test Mail 測試信件
+- Test Mail 測試信件 => Test Mail 測試信件
 
 改用全形括號 => 沒問題
 
-* Test Mail（測試信件） => Test Mail（測試信件）
+- Test Mail（測試信件） => Test Mail（測試信件）
 
 有小括號沒中文 => 沒問題
 
-* Test Mail (xxx) => Test Mail (xxx)
+- Test Mail (xxx) => Test Mail (xxx)
 
 ### 測試
 
@@ -83,9 +83,9 @@ public async Task Should_Get_Chinese_From_Mail()
 
 PS5
 
-* SMTP
+- SMTP
 
-* 回首頁
+- 回首頁
 
 ---
 

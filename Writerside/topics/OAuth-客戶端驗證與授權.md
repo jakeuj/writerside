@@ -1,12 +1,16 @@
 # OAuth 客戶端驗證與授權
+
 OAuth 是一種開放標準，用於授權第三方應用程式訪問用戶的資源，而不需要直接分享用戶的憑證。
 
 ## 概述
+
 OAuth 客戶端驗證與授權通常涉及以下幾個步驟：
+
 1. **註冊應用程式**：建立新的客戶端，設定 ClientId 和 ClientSecret，允許客戶端驗證流程與相應授權範圍。
 ![oauth-client.png](oauth-client.png){style="auto"}
 2. **新增Policy**：
    在 `ConfigureServices` 方法中新增授權策略，指定使用 JWT Bearer 認證。
+
    ```C#
    services.AddAuthorization(options =>
    {
@@ -15,22 +19,27 @@ OAuth 客戶端驗證與授權通常涉及以下幾個步驟：
                  .RequireClaim("scope", "api1"));
    });
    ```
+
    P.S. 這通常位於 Host 專案的 `Module` 類別中。
 3. **設定 API 授權規則**：
    在需要授權的 API 控制器或方法上使用 `[Authorize]` 屬性，並指定使用的認證方案和授權策略。
+
    ```C#
    [Authorize( AuthenticationSchemes = 
        JwtBearerDefaults.AuthenticationScheme, Policy = "ClientPolicy")]
    ```
+
 4. CSRF Token 驗證：
    使用 Rider HTTP Client 或 PostMan 等工具呼叫時，不能攜帶 Cookie CSRF Token，否則會驗證失敗。
 
 參照：[Want-to-disable-CSRFXSRF-for-API-access-because-it-is-not-working-as-expected-and-cannot-disable-it](https://abp.io/support/questions/1895/Want-to-disable-CSRFXSRF-for-API-access-because-it-is-not-working-as-expected-and-cannot-disable-it)
 
 ## 使用範例
+
 以下是一個簡單的範例，展示如何在 ASP.NET Core 中實現 OAuth 客戶端驗證與授權：
 
 `TestProjHttpApiHostModule.cs`
+
 ```C#
 private void ConfigureAuthorization(
     ServiceConfigurationContext context, 
@@ -55,7 +64,9 @@ private void ConfigureAuthorization(
      });
  }
 ```
+
 `TestAppService.cs`
+
 ```C#
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
@@ -78,7 +89,9 @@ public class TestAppService(ICurrentUser currentUser)
     }
 }
 ```
+
 test.http
+
 ```http
 ### Authentication Request
 POST https://{{authBaseUrl}}/connect/token
@@ -113,9 +126,12 @@ POST https://{{apiBaseUrl}}/api/app/test
     });
 %}
 ```
+
 ### basicAuth
+
 其中 `basicAuth` 是 Base64 編碼的 `ClientId:ClientSecret`，
 例如：`Y2xpZW50SWQ6Y2xpZW50U2VjcmV0`
 
 ### Rider Http Client
+
 Rider Http Client 中要禁用 cookies 需要呼叫前加入 `// @no-cookie-jar`

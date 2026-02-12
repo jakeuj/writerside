@@ -210,15 +210,15 @@ Drone
 
 PS5
 
-* CI/CD
+- CI/CD
 {ignore-vars="true"}
-* Cloud
-* .Net Core
+- Cloud
+- .Net Core
 {ignore-vars="true"}
-* Drone
-* Github
+- Drone
+- Github
 
-* 回首頁
+- 回首頁
 
 ---
 

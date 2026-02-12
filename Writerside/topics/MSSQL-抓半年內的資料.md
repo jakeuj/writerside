@@ -28,9 +28,9 @@ SELECT * FROM USERS WHERE [CreationTime] > DATEADD(MONTH,-6,GETDATE())
 
 PS5
 
-* MSSQL
+- MSSQL
 
-* 回首頁
+- 回首頁
 
 ---
 

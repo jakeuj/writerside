@@ -19,6 +19,7 @@ reg add HKLM\SYSTEM\CurrentControlSet\Services\RasMan\PPP\EAP\13 /v TlsVersion /
 reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\WinHttp" /v DefaultSecureProtocols /t REG_DWORD /d 0xaa0
 if %PROCESSOR_ARCHITECTURE% EQU AMD64 reg add "HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Internet Settings\WinHttp" /v DefaultSecureProtocols /t REG_DWORD /d 0xaa0
 ```
+
 {ignore-vars="true"}
 
 原由
@@ -43,13 +44,13 @@ if %PROCESSOR_ARCHITECTURE% EQU AMD64 reg add "HKLM\SOFTWARE\Wow6432Node\Microso
 
 PS5
 
-* Azure
-* Windows Server
+- Azure
+- Windows Server
 {ignore-vars="true"}
-* Azure VPN
+- Azure VPN
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

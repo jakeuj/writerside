@@ -109,15 +109,15 @@ P.S. 實際上這邊應該將 restricts 改由 function Parameter 帶入 (例如
 
 PS5
 
-* GCP
-* Matching Engine
+- GCP
+- Matching Engine
 {ignore-vars="true"}
-* Vector Search
+- Vector Search
 {ignore-vars="true"}
-* Vertex AI
+- Vertex AI
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

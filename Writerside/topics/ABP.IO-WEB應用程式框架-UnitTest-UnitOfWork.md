@@ -111,10 +111,10 @@ public class IssueRepository_Tests : MyProjectDomainTestBase
 
 PS5
 
-* ABP
-* UnitTest
+- ABP
+- UnitTest
 
-* 回首頁
+- 回首頁
 
 ---
 

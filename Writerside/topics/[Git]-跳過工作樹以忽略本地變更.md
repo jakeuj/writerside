@@ -12,9 +12,9 @@ git update-index --skip-worktree /path/to/file
 
 ## 結論
 
-* commit 時選擇 跳過工作樹
-* `git update-index --skip-worktree .\path\to\file`
-* 遇到衝突 `git update-index --no-skip-worktree .\path\to\file`
+- commit 時選擇 跳過工作樹
+- `git update-index --skip-worktree .\path\to\file`
+- 遇到衝突 `git update-index --no-skip-worktree .\path\to\file`
 
 ## 說明
 
@@ -40,9 +40,9 @@ git update-index --skip-worktree /path/to/file
 
 PS5
 
-* Git
+- Git
 
-* 回首頁
+- 回首頁
 
 ---
 

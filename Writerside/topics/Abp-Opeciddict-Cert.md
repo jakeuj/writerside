@@ -3,6 +3,7 @@
 Azure App Service 的 Abp 網站忽然無法正常啟動，Log 顯示錯誤關於 `X.509 encryption credentials`
 
 ## 結論
+
 [OpenIddict 憑證最佳實踐：Azure Key Vault 自動輪替方案](Azure-Key-Vault-OpenIddict.md)
 
 目前最新調研方案如上，以下既有方案留存備查...
@@ -17,7 +18,7 @@ Azure App Service 的 Abp 網站忽然無法正常啟動，Log 顯示錯誤關�
     ```
 
 2. 並將憑證上傳到 Azure App Service 的憑證設定中
-3. 將 openiddict 讀取憑證邏輯改成讀取指定指紋 
+3. 將 openiddict 讀取憑證邏輯改成讀取指定指紋
 [Azure-App-Service-CICD-deployment](ABP.IO-WEB應用程式框架-Azure-App-Service-CICD-deployment.md)
 4. 將環境變數中的指紋改成第二步驟所上傳的憑證指紋
 
@@ -26,16 +27,19 @@ Azure App Service 的 Abp 網站忽然無法正常啟動，Log 顯示錯誤關�
 ## 憑證自動化管理與最佳實踐
 
 ### 問題說明
+
 OpenIddict 若使用 dotnet dev-certs 產生的開發憑證，僅有一年效期，過期會導致服務中斷。手動更新容易遺漏，建議採用自動化與雲端憑證管理。
 
 ### 更佳解法
 
 #### 1. 使用 Azure Key Vault 管理憑證
+
 - **自動續期**：將 JWT 加密/簽章憑證託管於 Azure Key Vault，並設定自動續期。
 - **App Service 整合**：App Service 可直接存取 Key Vault 憑證，無需手動上傳。
 - **程式自動載入**：OpenIddict 支援從 Key Vault 讀取憑證，程式碼可自動根據指紋或名稱載入最新憑證。
 
 **程式碼範例（Startup/Program.cs）**：
+
 ```csharp
 // ...existing code...
 var keyVaultUrl = Environment.GetEnvironmentVariable("KEYVAULT_URL");
@@ -49,22 +53,28 @@ if (!string.IsNullOrEmpty(keyVaultUrl) && !string.IsNullOrEmpty(certificateName)
 }
 // ...existing code...
 ```
+
 - 需安裝 `Azure.Security.KeyVault.Secrets` 與 `Azure.Identity` 套件。
 
 #### 2. 自動化腳本定期更新憑證
+
 - 可用 GitHub Actions、Azure CLI 或 PowerShell 定期產生新憑證並自動上傳至 Key Vault 或 App Service。
 - 參考 [Microsoft 官方自動化腳本](https://learn.microsoft.com/en-us/azure/app-service/configure-ssl-certificate#automate-certificate-renewal)。
 
 #### 3. 生產環境建議
+
 - 生產環境請勿使用 dev-certs，建議使用 CA 簽發的正式憑證，並託管於 Key Vault 或 App Service 憑證儲存區。
 
 ---
 
-## 憑證申請與配置 
+## 憑證申請與配置
+
 生產環境 CA
+
 ### OpenIddict 憑證需求說明
 
 OpenIddict 需要兩種憑證:
+
 1. **Signing Certificate (簽章憑證)**: 用於簽署 JWT token,確保 token 的真實性
 2. **Encryption Certificate (加密憑證)**: 用於加密敏感資料,保護 token 內容
 
@@ -109,6 +119,7 @@ Azure App Service 可以自動管理 Let's Encrypt 憑證:
 **注意**: 託管憑證主要用於 HTTPS,若要用於 OpenIddict,需要額外匯出為 PFX 格式。
 
 ### 方案二: 使用商業
+
 CA 憑證
 
 適合企業級應用,提供更長效期和更高信任度。
@@ -151,17 +162,17 @@ openssl req -new -key private.key -out request.csr \
   -subj "/C=TW/ST=Taiwan/L=Taipei/O=YourCompany/CN=yourdomain.com"
 ```
 
-2. **提交 CSR 到 CA 供應商**
+1. **提交 CSR 到 CA 供應商**
    - 登入 CA 供應商網站
    - 選擇憑證類型 (建議選擇 Code Signing 或 Standard SSL)
    - 上傳 CSR 檔案
    - 完成網域驗證 (DNS、Email 或 HTTP 驗證)
 
-3. **下載簽發的憑證**
+2. **下載簽發的憑證**
    - CA 會提供 `.crt` 或 `.cer` 檔案
    - 可能還會提供中繼憑證 (intermediate certificate)
 
-4. **轉換為 PFX 格式**
+3. **轉換為 PFX 格式**
 
 ```bash
 # 合併憑證和私鑰為 PFX
@@ -178,6 +189,7 @@ openssl pkcs12 -export \
 Azure Key Vault 可以自動管理憑證生命週期,包括自動續期。
 
 #### 建立憑證
+
 在 Key Vault 中
 
 ```bash
@@ -189,6 +201,7 @@ az keyvault certificate create \
 ```
 
 **policy.json 範例**:
+
 ```json
 {
   "issuerParameters": {
@@ -274,6 +287,7 @@ public override void PreConfigureServices(ServiceConfigurationContext context)
 ```
 
 **appsettings.json 設定**:
+
 ```json
 {
   "KeyVault": {
@@ -322,6 +336,7 @@ PreConfigure<OpenIddictServerBuilder>(serverBuilder =>
 ---
 
 ## 徵狀
+
 abp 網站重啟時無法正常啟動，會出現以下錯誤訊息
 
     ```
@@ -333,6 +348,7 @@ abp 網站重啟時無法正常啟動，會出現以下錯誤訊息
     register both the new certificate 
     and the old one in the credentials collection.
     ```
+
 ## 問題
 
 Azure App Service 上部署 Abp 專案，
@@ -340,6 +356,7 @@ Azure App Service 上部署 Abp 專案，
 而憑證每一年會過期，屆時沒有提前更新就會遇到憑證問題。
 
 ## 解法
+
 目前採用修改讀取憑證邏輯：
 [Azure-App-Service-CICD-deployment](ABP.IO-WEB應用程式框架-Azure-App-Service-CICD-deployment.md)
 並定期重新產生新憑證上傳並且更新指紋的方式來使 openiddict 可以正常運作。
@@ -364,14 +381,17 @@ Get-PfxCertificate -FilePath .\openiddict.pfx | Select-Object Subject, NotBefore
 ```
 
 ## 上傳憑證
+
 Azure App Service > 憑證 > 攜帶您自己的憑證(.pfx) > 新增憑證 > 指紋 > 複製
 
 ## 更新指紋
+
 Azure App Service > 環境變數 > OpenIddict:EncryptionCertificateThumbprint > 貼上指紋
 
     P.S. WEBSITE_LOAD_CERTIFICATES 不知道能不能
 
 ## 參考
+
 Abp 官方針對此問題的疑難排解文章
 [dotnet dev-certs](https://abp.io/community/articles/fixing-openiddict-certificate-issues-in-iis-or-azure-0znavo8r#gsc.tab=0:~:text=and%20Azure%20environments.-,Troubleshooting,-Guide)
 

@@ -52,11 +52,11 @@ public TestManager(ITestProxy service)
 
 PS5
 
-* HttpClinet
-* NSwag
-* Swagger
+- HttpClinet
+- NSwag
+- Swagger
 
-* 回首頁
+- 回首頁
 
 ---
 

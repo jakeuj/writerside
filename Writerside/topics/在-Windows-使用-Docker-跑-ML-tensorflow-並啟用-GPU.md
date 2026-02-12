@@ -21,9 +21,9 @@
 
 ## 前提
 
-* 安裝最新 Nvidia 顯卡驅動
+- 安裝最新 Nvidia 顯卡驅動
   Docker 只需要 Host 裝好顯卡驅動即可
-* Windows 更新到最新版本
+- Windows 更新到最新版本
   某一版更新後 WSL 才支援 CUDA
 
 ## 結論
@@ -98,9 +98,9 @@ Output:
 
 備註
 
-* NoteBook 有內顯要切獨顯來跑
-* 獨顯有省電模式要切慣用最大效能 P0 來跑
-* 可以指定掛載檔案路徑讓 Model 輸出時可以在外頭直接拿到新的檔案
+- NoteBook 有內顯要切獨顯來跑
+- 獨顯有省電模式要切慣用最大效能 P0 來跑
+- 可以指定掛載檔案路徑讓 Model 輸出時可以在外頭直接拿到新的檔案
   例如輸出到 /output 並直接由 D:\models 看到輸出的模型 \*.h5
   docker run -v D:\models:/output
 
@@ -116,10 +116,10 @@ Output:
 
 PS5
 
-* Docker
-* ML
+- Docker
+- ML
 
-* 回首頁
+- 回首頁
 
 ---
 

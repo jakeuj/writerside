@@ -8,10 +8,10 @@
 
 筆記下匯出 Excel 給下載
 
-* 參照：[How to export Excel files from the ABP framework | ABP Community](https://community.abp.io/posts/how-to-export-excel-files-from-the-abp-framework-wm7nnw3n)
-* Nuget：只要安裝 documentformat.openxml
+- 參照：[How to export Excel files from the ABP framework | ABP Community](https://community.abp.io/posts/how-to-export-excel-files-from-the-abp-framework-wm7nnw3n)
+- Nuget：只要安裝 documentformat.openxml
   `dotnet add package documentformat.openxml`
-* Return：原本是輸出 Byte[]，這邊改用 RemoteStreamContent，好處是可以直接下載
+- Return：原本是輸出 Byte[]，這邊改用 RemoteStreamContent，好處是可以直接下載
 
 ```
 public Task<RemoteStreamContent> ExportToExcel()
@@ -23,8 +23,8 @@ public Task<RemoteStreamContent> ExportToExcel()
 }
 ```
 
-* 注意：`fs.Position = 0;`
-* `RemoteStreamContent` 是吃 Stream，所以 ExcelFileGenerator 要從 `Byte[]` 改回傳 `MemoryStream`
+- 注意：`fs.Position = 0;`
+- `RemoteStreamContent` 是吃 Stream，所以 ExcelFileGenerator 要從 `Byte[]` 改回傳 `MemoryStream`
 
 ```
 public MemoryStream Generate()
@@ -101,10 +101,10 @@ public MemoryStream Generate()
 
 PS5
 
-* ABP
-* Excel
+- ABP
+- Excel
 
-* 回首頁
+- 回首頁
 
 ---
 

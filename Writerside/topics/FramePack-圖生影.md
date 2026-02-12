@@ -9,22 +9,27 @@ FramePack 是一款革命性的本地端 AI 影片生成工具，能夠僅憑一
 ## 主要特色與技術亮點
 
 **1. 超長影片生成**
+
 - 支援生成長達 60 秒甚至 120 秒的影片（30fps 可達 1800~3600 幀），遠超過多數線上平台僅能生成十幾秒短片的限制[8][12][13][17]。
 
 **2. 低硬體門檻**
+
 - 僅需 6GB VRAM（如 RTX 3060），主流筆電顯卡即可流暢運行 13B 參數等級模型[8][12][13][14]。
 - 支援 NVIDIA RTX 30/40/50 系列顯卡，需支援 FP16/BF16 計算[12]。
 
 **3. 穩定連貫的動態效果**
+
 - 利用創新的「下一幀預測」神經網路架構，將過去所有畫面的重點濃縮為固定大小的「記憶池」，有效解決長影片常見的「遺忘」與「漂移」問題，畫面一致性極高，細節穩定不變形[7][8][9][11]。
 
 **4. 支援多元應用場景**
+
 - 可將靜態人物照片動畫化，讓角色自然舞動或互動
 - 生活場景模擬（如靜止吃飯照變成進食動作）
 - 藝術風格轉換（如水墨畫動態化）
 - 產品宣傳、創意短片等[8][10][11]。
 
 **5. 開源、免費、易於安裝**
+
 - 完全免費、無審查，適合創作者與企業內容創作
 - 提供 GitHub 安裝包，安裝流程簡單[8][17]。
 
@@ -33,6 +38,7 @@ FramePack 是一款革命性的本地端 AI 影片生成工具，能夠僅憑一
 ## 工作原理
 
 FramePack 採用「下一幀預測」模型，核心在於：
+
 - **上下文壓縮**：將前面所有生成的畫面資訊壓縮成固定長度的上下文，不論影片多長，生成每一幀時所需參考的資訊量始終不變[7][9][11][12]。
 - **Patchify 技術**：將每一幀畫面分割成小 patch，進行壓縮與編碼，極大減少運算量並提升 Transformer 模型處理效率[9]。
 - **抗漂移/抗遺忘設計**：透過壓縮策略與「倒置抗漂移」取樣法，讓生成過程中細節不易失真，動作流暢且語意一致[7][9]。
@@ -57,9 +63,11 @@ FramePack 採用「下一幀預測」模型，核心在於：
 ---
 
 ## 官方 Github
+
 [FramePack](https://github.com/lllyasviel/FramePack)
 
 ## 安裝
+
 [安裝](https://github.com/lllyasviel/FramePack?tab=readme-ov-file#installation)
 
 ### Windows
@@ -71,6 +79,7 @@ FramePack 採用「下一幀預測」模型，核心在於：
 好處是可以裝 sageattention 來加速
 
 ### linux (Ubuntu 24.04)
+
 可以裝 sageattention 來加速
 [Besides hardware, what other methods can be used to speed up the process?](https://github.com/lllyasviel/FramePack/issues/380)
 
@@ -148,6 +157,7 @@ tail -n 50 output_7860.log
 ````
 
 ### Mac
+
 [Mac](https://github.com/brandon929/FramePack)
 
 FramePack recommends using Python 3.10. If you have homebrew installed, you can install Python 3.10 using brew.
@@ -174,6 +184,7 @@ CUDA_VISIBLE_DEVICES=1 python demo_gradio.py --port 7861  # second card
 ```
 
 ## F1
+
 [FramePack-F1](https://github.com/lllyasviel/FramePack/discussions/459) 是一種新型的視頻生成模型，專門設計用於從歷史幀中預測未來幀。這個模型的「F1」代表「前向」版本1，意指其預測方向是向前，而非雙向。這種單向模型相較於傳統的雙向模型，具有更大的靈活性和動態變化，能夠生成更具變化性的視頻內容。
 主要特點包括：
 
@@ -188,7 +199,6 @@ CUDA_VISIBLE_DEVICES=1 python demo_gradio.py --port 7861  # second card
 python demo_gradio_f1.py
 ```
 
-
 ## 備註
 
 - 目前測試 MacBook Pro M4 128GB RAM 跑起來約 8~10s/it
@@ -199,7 +209,9 @@ python demo_gradio_f1.py
 FramePack 打破了 AI 影片生成對硬體的高門檻限制，讓一般創作者也能輕鬆在本地生成高質量、超長連貫的動態影片。無論是動畫、生活場景模擬還是藝術風格轉換，都能實現流暢自然的視覺效果，是目前 AI 影片生成領域的重大突破[8][9][13]。
 
 ## 參考資料
+
 Citations:
+
 1. [1] https://github.com/lllyasviel/FramePack
 2. [2] https://the-walking-fish.com/p/framepack/
 3. [3] https://www.youtube.com/watch?v=d9FCC_iNlok

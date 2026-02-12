@@ -56,10 +56,10 @@ abp new Test501B -u blazor --separate-identity-server --version 5.0.1 -csf
 
 PS5
 
-* ABP
-* Angular
+- ABP
+- Angular
 
-* 回首頁
+- 回首頁
 
 ---
 

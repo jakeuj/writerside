@@ -57,12 +57,12 @@ In this section, I will introduce some major features released in this version. 
 
 Here is a brief list of the titles explained in the next sections:
 
-* Blazor WASM option added to Application Single Layer Startup Template
-* Introducing the `IHasEntityVersion` interface and `EntitySynchronizer` base class
-* Introducing the `DeleteDirectAsync` method for the `IRepository` interface
-* Introducing the `IAbpHostEnvironment` interface
-* Improvements on the eShopOnAbp project
-* Others
+- Blazor WASM option added to Application Single Layer Startup Template
+- Introducing the `IHasEntityVersion` interface and `EntitySynchronizer` base class
+- Introducing the `DeleteDirectAsync` method for the `IRepository` interface
+- Introducing the `IAbpHostEnvironment` interface
+- Improvements on the eShopOnAbp project
+- Others
 
 ## 同場加映
 
@@ -93,7 +93,7 @@ public class TestManager : DomainService
 
 PS5
 
-* 回首頁
+- 回首頁
 
 ---
 

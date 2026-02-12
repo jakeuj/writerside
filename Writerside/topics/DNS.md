@@ -15,7 +15,7 @@
 1. 在 GitHub 上任何頁面的右上角，按兩下您的個人資料照片，然後按兩下設置.
 2. 在邊欄的“Code， planning， and automation（代碼、規劃和自動化）”部分中，按兩下頁面.
 3. 在右側，按兩下 Add a domain（新增域）。
-4. 在“What domain would you want to add？”下，輸入您要驗證的域，然後選擇 Add domain（添加域）。 
+4. 在“What domain would you want to add？”下，輸入您要驗證的域，然後選擇 Add domain（添加域）。
 用於為 GitHub Pages 網站添加已驗證域的欄位的螢幕截圖。該欄位下方會顯示一個綠色的 「Add domain」 按鈕。
 5. 按照「添加 DNS TXT 記錄」 下的說明，使用您的域託管服務創建 TXT 記錄。
 GitHub Pages 將 TXT 記錄添加到 example.com 的 DNS 配置的說明的螢幕截圖。
@@ -23,9 +23,9 @@ GitHub Pages 將 TXT 記錄添加到 example.com 的 DNS 配置的說明的螢�
 
 `dig _github-pages-challenge-USERNAME.example.com +nostats +nocomments +nocmd TXT`
 
-7. 確認 DNS 設定已更新後，您可以驗證域。如果更改未立即生效，並且您已離開上一頁，請按照前幾個步驟返回到 Pages 設置，然後在域右側按下 Continue verifying（繼續驗證）。
-8. 要驗證您的域，請按兩下 Verify （驗證）。 
-9. 要確保您的自定義域保持驗證狀態，請將 TXT 記錄保留在域的 DNS 配置中。
+1. 確認 DNS 設定已更新後，您可以驗證域。如果更改未立即生效，並且您已離開上一頁，請按照前幾個步驟返回到 Pages 設置，然後在域右側按下 Continue verifying（繼續驗證）。
+2. 要驗證您的域，請按兩下 Verify （驗證）。
+3. 要確保您的自定義域保持驗證狀態，請將 TXT 記錄保留在域的 DNS 配置中。
 
 ## Custom Domain
 

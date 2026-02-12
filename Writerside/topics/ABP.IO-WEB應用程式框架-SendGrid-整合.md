@@ -247,9 +247,9 @@ public override void ConfigureServices(ServiceConfigurationContext context)
 
 PS5
 
-* SendGrid
+- SendGrid
 
-* 回首頁
+- 回首頁
 
 ---
 

@@ -26,10 +26,10 @@ DISM.exe /online /Cleanup-Image /StartComponentCleanup
 
 PS5
 
-* DISM
-* Server
+- DISM
+- Server
 
-* 回首頁
+- 回首頁
 
 ---
 

@@ -22,11 +22,11 @@ ng build --prod
 
 PS5
 
-* Angular
-* Rider
-* JetBrains
+- Angular
+- Rider
+- JetBrains
 
-* 回首頁
+- 回首頁
 
 ---
 

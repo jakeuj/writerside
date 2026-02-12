@@ -94,14 +94,14 @@ LIMIT 2;
 
 PS5
 
-* CloudSQL
-* GCP
-* LLM
-* PostgreSQL
-* Vector Search
+- CloudSQL
+- GCP
+- LLM
+- PostgreSQL
+- Vector Search
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

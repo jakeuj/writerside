@@ -84,9 +84,9 @@ linux 下先切到 db/locks
 
 PS5
 
-* SVN
+- SVN
 
-* 回首頁
+- 回首頁
 
 ---
 

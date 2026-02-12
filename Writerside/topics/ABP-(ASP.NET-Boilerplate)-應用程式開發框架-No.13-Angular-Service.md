@@ -173,10 +173,10 @@ ngOnInit(): void {
 
 PS5
 
-* ABP
-* Angular
+- ABP
+- Angular
 
-* 回首頁
+- 回首頁
 
 ---
 

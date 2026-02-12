@@ -253,15 +253,15 @@ dotnet publish "$DEPLOYMENT_SOURCE\src/TestCiCd.HttpApi.Host/TestCiCd.HttpApi.Ho
 
 PS5
 
-* ABP
-* App Service
+- ABP
+- App Service
 {ignore-vars="true"}
-* Azure
-* CI/CD
+- Azure
+- CI/CD
 {ignore-vars="true"}
-* DevOps
+- DevOps
 
-* 回首頁
+- 回首頁
 
 ---
 

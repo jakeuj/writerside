@@ -160,6 +160,7 @@ namespace %%solution-namespace%%.%%entity-namespace%%
 
 - 儘量不要在 Extended 類別中直接 override 大顆的 CRUD 方法，而是改成在 Extended 裡多包一層自己的方法，再呼叫基底 CRUD。
 - 或者把「調整欄位後檢查 `Manager.Extended` override 簽章」當成固定流程的一部分，避免在 CI/CD 才發現 build 失敗。
+
 ## 重點總結
 
 | 項目 | 說明 |
@@ -168,4 +169,3 @@ namespace %%solution-namespace%%.%%entity-namespace%%
 | ✔ 不依賴具體專案名稱 | 可用真實名稱，也可用 Token，完全由開發者決定 |
 | ✔ 避免 ABP Suite 選錯 DbContext | 強制將 Repository 生到你指定的位置 |
 | ✔ 適用於所有多 DbContext 場景 | 例如 Domain 模組拆分、Microservice 模組、各模組獨立 DbContext |
-

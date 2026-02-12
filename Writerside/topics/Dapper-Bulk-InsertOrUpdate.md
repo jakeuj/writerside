@@ -26,12 +26,12 @@ connection.BulkMerge(order1, order2, order3);
 
 PS5
 
-* C#
+- C#
 {ignore-vars="true"}
-* Dapper
-* SQL
+- Dapper
+- SQL
 
-* 回首頁
+- 回首頁
 
 ---
 

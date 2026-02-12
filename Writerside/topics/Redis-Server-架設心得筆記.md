@@ -207,10 +207,10 @@ Redis的設計是一個執行時間非常長的過程，在您的伺服器。例
 
 PS5
 
-* Redis
-* Server
+- Redis
+- Server
 
-* 回首頁
+- 回首頁
 
 ---
 

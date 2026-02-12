@@ -3,6 +3,7 @@
 記錄下 WriterSide 如何加入 Google Analytics 進行網站流量分析。
 
 ## 參照
+
 [analytics-head-script-file](https://www.jetbrains.com/help/writerside/buildprofiles-xml.html#analytics-head-script-file)
 
 ## 步驟
@@ -21,6 +22,7 @@
     </variables>
 </buildprofiles>
 ```
+
 {ignore-vars="true"}
 
 ## 結果

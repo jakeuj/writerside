@@ -28,12 +28,12 @@ Done.
 
 PS5
 
-* .Net Core
+- .Net Core
 {ignore-vars="true"}
-* HTTPS
-* SSL
+- HTTPS
+- SSL
 
-* 回首頁
+- 回首頁
 
 ---
 

@@ -1,4 +1,5 @@
 # Using Multiple Databases
+
 可以建好專案後，直接新增第二個 DB，來分離 ABP 的資料庫。
 
 或是加入第二個既有 DB，來加入額外資料來源。
@@ -12,5 +13,7 @@
 ![abp-sec.png](abp-sec.png){style="block"}
 
 有需要可以改成 `Chinese_Taiwan_Stroke_CI_AS`
+
 ## 參照
+
 [Using Multiple Databases](https://abp.io/docs/latest/framework/data/entity-framework-core/migrations#using-multiple-databases)

@@ -28,12 +28,12 @@ Ref: <https://www.andrecarlucci.com/en/setting-environment-variables-for-asp-ne
 
 PS5
 
-* IIS
-* .Net Core
+- IIS
+- .Net Core
 {ignore-vars="true"}
-* EnvironmentVariables
+- EnvironmentVariables
 
-* 回首頁
+- 回首頁
 
 ---
 

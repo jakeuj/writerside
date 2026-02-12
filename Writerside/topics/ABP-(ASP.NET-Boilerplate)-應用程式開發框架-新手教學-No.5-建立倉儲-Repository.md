@@ -90,10 +90,10 @@ namespace MyCompany.MyProject.EntityFramework.Repositories
 }
 ```
 
-* GetAll()
+- GetAll()
   返回 `IQueryable<T>`
   因為有延遲載入(Lazy Loading)的特性，所以實際與資料庫連接是在使用ToList()方法時
-* GetAllList()
+- GetAllList()
   返回 `List<T>`
   這個則是在呼叫時就會立即從資料來源取出資料
 
@@ -113,10 +113,10 @@ namespace MyCompany.MyProject.EntityFramework.Repositories
 
 PS5
 
-* C#
+- C#
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

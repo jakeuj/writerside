@@ -32,9 +32,9 @@ ABP 專案預設使用同一個資料庫，Appsettings 連接字串名稱為 Def
 
 PS5
 
-* IdentityServer
+- IdentityServer
 
-* 回首頁
+- 回首頁
 
 ---
 

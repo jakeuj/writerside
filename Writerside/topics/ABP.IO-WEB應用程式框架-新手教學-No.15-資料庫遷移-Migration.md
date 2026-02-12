@@ -107,9 +107,9 @@ namespace Acme.BookStore
 
 PS5
 
-* ABP
+- ABP
 
-* 回首頁
+- 回首頁
 
 ---
 

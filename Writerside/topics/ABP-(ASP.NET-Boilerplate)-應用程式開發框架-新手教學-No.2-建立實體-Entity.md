@@ -16,17 +16,17 @@ ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.2 建立實�
 
 分層簡介
 
-* MyCompany.MyProject.Application
+- MyCompany.MyProject.Application
   應用服務層：給表現層調用的服務與資料傳輸物件(DTO)
-* MyCompany.MyProject.Core
+- MyCompany.MyProject.Core
   領域核心層：領域驅動設計(DDD)核心，內含實體(Entity)、倉儲介面(Repository)、領域事件、工作單元與領域服務
-* MyCompany.MyProject.EntityFramework
+- MyCompany.MyProject.EntityFramework
   基礎設施層：EF框架、DbContext、實作倉儲介面、Migration資料庫遷移內含Seed預設資料列產生作業
-* MyCompany.MyProject.Web
+- MyCompany.MyProject.Web
   表現層：視覺前端網站
-* MyCompany.MyProject.WebApi
+- MyCompany.MyProject.WebApi
   表現層：將應用層服務生成Web API
-* Test
+- Test
   單元測試資料夾：建立基於記憶體的測試資料庫，利用基礎設施的Seed產生基本資料，在自定義測試資料來驗證應用服務結果是否符合預期
 
 2.簡單了解基本分層後，開始著手實體的建立，依照架構應該將實體放在Core專案
@@ -159,10 +159,10 @@ public virtual Map Map { get; set; }
 
 PS5
 
-* C#
+- C#
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

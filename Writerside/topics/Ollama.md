@@ -5,6 +5,7 @@
 ## 安裝
 
 MacOS
+
 ```bash
 brew install ollama
 ```

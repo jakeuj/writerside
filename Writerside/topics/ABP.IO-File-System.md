@@ -8,13 +8,13 @@
 
 Get Files from Directory
 
-## Install﻿
+## Install
 
 ```
 abp add-package Volo.Abp.BlobStoring.FileSystem
 ```
 
-## Configure﻿
+## Configure
 
 ```
 private void ConfigureBlobStoring(IConfiguration configuration)
@@ -40,7 +40,7 @@ private void ConfigureBlobStoring(IConfiguration configuration)
 }
 ```
 
-## Usage﻿
+## Usage
 
 ```
 private readonly IBlobContainer _blobContainer;
@@ -104,11 +104,11 @@ public async Task<IEnumerable<string>> GetDirectoryAsync()
 }
 ```
 
-## GetDirectoryFiles﻿
+## GetDirectoryFiles
 
 Retrieve all file names in a folder using the `GetFileNameList` extension method, and then iterate through the list to access the file contents.
 
-### extension﻿
+### extension
 
 Create a extension method to get file name list from directory.
 
@@ -140,7 +140,7 @@ P.S. You can also add checks for TenantId and UserId to retrieve file lists for 
 
 该方法 `GetFileNameList` 是一个扩展方法，用于从指定的本地文件系统路径中获取文件名列表。它接受三个参数： `IBlobContainer` 接口实例（尽管未在方法中直接使用）、 `blobPath` （文件夹路径）以及可选的子路径 `subPath`。
 
-### 参数处理﻿
+### 参数处理
 
 首先，方法检查 `subPath` 是否为空或仅包含空白字符：
 
@@ -153,7 +153,7 @@ if (!string.IsNullOrWhiteSpace(subPath))
 
 如果 `subPath` 有效，则将其与 `blobPath` 合并，生成完整的路径。
 
-### 路径验证﻿
+### 路径验证
 
 接下来，方法验证合并后的路径是否存在：
 
@@ -166,7 +166,7 @@ if (!Directory.Exists(blobPath))
 
 如果路径不存在，则返回一个空的字符串列表，表示没有可用的文件。
 
-### 获取文件名列表﻿
+### 获取文件名列表
 
 如果路径存在，方法会创建一个 `DirectoryInfo` 实例来表示该目录：
 
@@ -180,11 +180,11 @@ var di = new DirectoryInfo(blobPath);
 return di.GetFiles().Select(x => x.Name).ToList();
 ```
 
-### 总结﻿
+### 总结
 
 该方法的主要功能是从指定的本地目录中获取文件名列表。它通过路径合并和验证确保了输入路径的有效性，并使用 `DirectoryInfo` 和 LINQ 提供了简洁的文件名提取逻辑。如果路径无效或不存在，则返回空列表。
 
-## Ref﻿
+## Ref
 
 [file-system](https://abp.io/docs/latest/framework/infrastructure/blob-storing/file-system)
 
@@ -192,9 +192,9 @@ return di.GetFiles().Select(x => x.Name).ToList();
 
 PS5
 
-* ABP
+- ABP
 
-* 回首頁
+- 回首頁
 
 ---
 

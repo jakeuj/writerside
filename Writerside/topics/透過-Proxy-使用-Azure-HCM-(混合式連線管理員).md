@@ -45,13 +45,13 @@ C:\Program Files\Microsoft\HybridConnectionManager 0.7\Microsoft.HybridConnectio
 
 ### 概要
 
-* HCM 需要 outbound Port 443
-* HCM 需要 outbound 包含但不限於動態IP區段
-  + 52.187.0.0/17
-* HCM 需要 outbound 包含但不限於 Domain
-  + https://sea-bus.servicebus.windows.net
-  + g\*-prod-sg3-001-sb.servicebus.windows.net
-* HCM 可以設定 Proxy 連線
+- HCM 需要 outbound Port 443
+- HCM 需要 outbound 包含但不限於動態IP區段
+  - 52.187.0.0/17
+- HCM 需要 outbound 包含但不限於 Domain
+  - https://sea-bus.servicebus.windows.net
+  - g\*-prod-sg3-001-sb.servicebus.windows.net
+- HCM 可以設定 Proxy 連線
 
 ### 情境
 
@@ -88,13 +88,13 @@ C:\Program Files\Microsoft\HybridConnectionManager 0.7\Microsoft.HybridConnectio
 
 PS5
 
-* App Service
+- App Service
 {ignore-vars="true"}
-* Azure
-* Cloud
-* HCM
+- Azure
+- Cloud
+- HCM
 
-* 回首頁
+- 回首頁
 
 ---
 

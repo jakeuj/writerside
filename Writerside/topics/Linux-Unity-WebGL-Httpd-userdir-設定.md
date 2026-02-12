@@ -18,12 +18,15 @@ init 6
 yum install httpd
 
 ### 編輯設定檔
+
 vi /etc/httpd/conf.d/userdir.conf
 
 ### 註解 UserDir disabled
-#UserDir disabled
+
+# UserDir disabled
 
 ### 反註解 #UserDir public\_html
+
 UserDir public\_html
 
 ### 設定權限 (使用者名稱=jake)
@@ -66,13 +69,16 @@ memUrl: "Release/Reborn.memgz",
 ```
 
 ### 開防火牆80
+
 firewall-cmd --zone=public --add-port=80/tcp --permanent
 systemctl restart firewalld.service
 
 ### 步驟 1: 安裝 SELINUX 政策管理
+
 yum install policycoreutils-python
 
 ### 步驟 2: 設定 SELINUX 權限
+
 semanage fcontext -a -t httpd\_sys\_content\_t "/home/jake/public\_html(/.\*)?"
 
 ### 或是直接關閉防火牆 (不建議)
@@ -100,13 +106,13 @@ http://localhost/~jake/WebGL
 
 PS5
 
-* Apache
-* Httpd
-* Linux
-* Unity
-* WebGL
+- Apache
+- Httpd
+- Linux
+- Unity
+- WebGL
 
-* 回首頁
+- 回首頁
 
 ---
 

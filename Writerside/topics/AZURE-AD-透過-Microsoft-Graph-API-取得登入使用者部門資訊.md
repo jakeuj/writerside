@@ -114,12 +114,12 @@ public async Task<string> Profile()
 
 PS5
 
-* Azure AD
+- Azure AD
 {ignore-vars="true"}
-* Microsoft Graph
+- Microsoft Graph
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

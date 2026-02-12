@@ -72,10 +72,10 @@ await db.Database.ExecuteSqlRawAsync("SET IDENTITY_INSERT dbo.NandPackageUsages 
 
 PS5
 
-* Entity Framework
+- Entity Framework
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

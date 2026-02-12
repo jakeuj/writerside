@@ -2,7 +2,7 @@
 
 Start typing here...
 
-##  遠端無法安裝套件
+## 遠端無法安裝套件
 
 ```
 /usr/bin/python3.10 

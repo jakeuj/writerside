@@ -3,12 +3,14 @@
 紀錄 AWS CloudWatch 的使用方式，是說 AWS 的文件也太碎片化了，沒有一條龍的服務嗎？
 
 目前方向上可分為：
+
 - 使用 CloudWatch Agent (從 VM 內部安裝代理程式)
   - 需建立具備寫入 Log Group 相關權限的 IAM Role 並設定到 EC2 上
 - 使用 AWS.Logger.SeriLog (從程式內部安裝 CloudWatch for SeriLog 庫)
   - 需建立具備寫入 Log Group 相關權限的 IAM Role 並設定到 User 賬號上，並且需要可以建立 Access Key 的 IAM User
 
 ## IAM role (Create)
+
 建立具有日誌所需權限的角色
 
 "logs:CreateLogGroup",
@@ -18,6 +20,7 @@
 [create-iam-role](https://docs.aws.amazon.com/zh_cn/IAM/latest/UserGuide/id_roles_create_for-user.html)
 
 ## EC2 (Modify IAM Role)
+
 到 AWS 找到 EC2 右上角 Action -> Security -> Modify IAM Role 添加具有權限的角色
 
 ## SSM Agent
@@ -59,6 +62,7 @@ msiexec.exe /i amazon-cloudwatch-agent.msi /quiet
 ```
 
 ### config
+
 設定自定義 Logs 時，需要指定到檔案，例如：`"file_path": "D:\\logs\\*.log",`
 
 ```shell
@@ -70,6 +74,7 @@ cd "C:\Program Files\Amazon\AmazonCloudWatchAgent"
 預設只會記錄事件 system，如果要記錄登入事件，則需要在 `config.json` 中加入 `"event_name": "Security"` 區段：
 
 `C:\ProgramData\Amazon\AmazonCloudWatchAgent\Configs\file_config.json`
+
 ```json
 {
   "logs": {
@@ -192,10 +197,12 @@ AmazonCloudWatchAgent has been started
 ```
 
 ## Query
+
 - 登入成功 4624
 - 登入失敗 4625
 
 Windows Events Log 會有兩個 log group，分別是 `System` 和 `Security`，登入事件會在 `Security` 裡面。
+
 ```
 filter @logStream = 'i-0416c1dd94d16227f'
 | fields @timestamp, @message

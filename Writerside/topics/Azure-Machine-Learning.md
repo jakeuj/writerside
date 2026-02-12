@@ -30,9 +30,9 @@ DAY04 建立 Datastore 和 Dataset （下）
 
 The Azure Machine Learning CLI v2 and Python SDK v2 now include the following data types:
 
-* uri\_file (display name: File)
-* uri\_folder (display name: Folder)
-* mltable (display name: Table)
+- uri\_file (display name: File)
+- uri\_folder (display name: Folder)
+- mltable (display name: Table)
 
 [Learn more about data asset types **](https://go.microsoft.com/fwlink/?linkid=2194922)
 
@@ -40,8 +40,8 @@ The Azure Machine Learning CLI v2 and Python SDK v2 now include the following da
 
 Dataset types from Azure Machine Learning CLI v1 and Python SDK v1 can still be used, but will be mapped to the appropriate data type in the v2 systems:
 
-* file dataset type: maps to Folder type
-* tabular dataset type: maps to Table type
+- file dataset type: maps to Folder type
+- tabular dataset type: maps to Table type
 
 [Learn more about dataset types **](https://go.microsoft.com/fwlink/?linkid=2208157)
 
@@ -49,7 +49,7 @@ Dataset types from Azure Machine Learning CLI v1 and Python SDK v1 can still be 
 
 Compute
 
-* NV6 (M60) 將於 2023/7/31 棄用
+- NV6 (M60) 將於 2023/7/31 棄用
 
 ![](https://dotblogsfile.blob.core.windows.net/user/小小朱/ad68d565-2d25-4e05-82d3-8cefa1d5b947/1689583668.png.png)
 
@@ -80,9 +80,9 @@ df.head()
 
 Designer
 
-6. select columns: Survived, Pclass, Sex, Age, SibSp, Parch, Ticket, Fare, Cabin, Embarked
+1. select columns: Survived, Pclass, Sex, Age, SibSp, Parch, Ticket, Fare, Cabin, Embarked
 
-13. 在右邊 asset library 輸入 train model，拖曳到 Canvas 中，用 filter based feature selection 左邊的點點連接到它。 Train model 的右邊方框，在 Label Column 選擇 Survived。(原文為  Survivde)
+2. 在右邊 asset library 輸入 train model，拖曳到 Canvas 中，用 filter based feature selection 左邊的點點連接到它。 Train model 的右邊方框，在 Label Column 選擇 Survived。(原文為  Survivde)
 
 ![](https://dotblogsfile.blob.core.windows.net/user/小小朱/ad68d565-2d25-4e05-82d3-8cefa1d5b947/1689738324.png.png)
 
@@ -112,10 +112,10 @@ azureml-sdk: This package has been tested with Python 3.7, 3.8, 3.9 and 3.10.
 
 PS5
 
-* Azure
-* ML
+- Azure
+- ML
 
-* 回首頁
+- 回首頁
 
 ---
 

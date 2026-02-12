@@ -394,6 +394,7 @@ auggie --mcp-config=temp-mcp.json "測試問題"
 **症狀**: `auggie mcp list` 顯示為空
 
 **解決方案**:
+
 ```bash
 # 檢查配置文件是否存在
 cat ~/.augment/settings.json
@@ -411,6 +412,7 @@ auggie mcp add chrome-devtools -- npx chrome-devtools-mcp@latest
 **症狀**: 使用 MCP 時出現連接錯誤
 
 **解決方案**:
+
 ```bash
 # 檢查 MCP 狀態
 auggie --mcp-status
@@ -427,6 +429,7 @@ npx chrome-devtools-mcp@latest --version
 **症狀**: MCP 服務器無法讀取 API 密鑰
 
 **解決方案**:
+
 ```bash
 # 方法 1: 在配置中直接設置
 auggie mcp add context7 \
@@ -454,6 +457,7 @@ auggie mcp add context7 \
 **症狀**: 無法執行 MCP 命令
 
 **解決方案**:
+
 ```bash
 # 檢查文件權限
 ls -la ~/.augment/settings.json
@@ -600,4 +604,3 @@ fi
 
 **最後更新**: 2026-01-28
 **版本**: 1.0.0
-

@@ -18,13 +18,13 @@
 
 PS5
 
-* Github
-* GitHubPages
-* JetBrains
-* Markdown
-* Writerside
+- Github
+- GitHubPages
+- JetBrains
+- Markdown
+- Writerside
 
-* 回首頁
+- 回首頁
 
 ---
 

@@ -20,7 +20,7 @@ BEG*00*SA*{0}
 
 void Main()
 {
-	string.Format(TestFormat,Id).Dump();
+ string.Format(TestFormat,Id).Dump();
 }
 ```
 
@@ -36,7 +36,7 @@ BEG*00*SA*{0}
 
 void Main()
 {
-	string.Format(TestFormat,Id).Dump();
+ string.Format(TestFormat,Id).Dump();
 }
 ```
 
@@ -54,10 +54,10 @@ void Main()
 
 PS5
 
-* C#
+- C#
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

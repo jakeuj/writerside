@@ -52,7 +52,7 @@ stderr:
        [WARNING SystemVerification]: this Docker version is not on the list of validated versions: 20.10.3. Latest validated version: 19.03
        [WARNING Service-Kubelet]: kubelet service is not enabled, please run 'systemctl enable kubelet.service'
 
-* Minikube
+- Minikube
   記得用管理者開終端機不然會沒有權限開 HyperV
   Minikube 開不了 HyperV 有時候可能需要重開機
 
@@ -62,16 +62,16 @@ stderr:
 
 PS5
 
-* choco
-* DAPR
-* Docker
-* hyperV
-* K8S
-* Kubernetes
-* MicroService
-* minikube
+- choco
+- DAPR
+- Docker
+- hyperV
+- K8S
+- Kubernetes
+- MicroService
+- minikube
 
-* 回首頁
+- 回首頁
 
 ---
 

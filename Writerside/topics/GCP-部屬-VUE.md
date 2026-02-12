@@ -47,9 +47,9 @@ handlers:
 
 PS5
 
-* Vue
+- Vue
 
-* 回首頁
+- 回首頁
 
 ---
 

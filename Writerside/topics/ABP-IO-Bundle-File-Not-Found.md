@@ -45,9 +45,9 @@ npm-windows-upgrade
 
 PS5
 
-* NPM
+- NPM
 
-* 回首頁
+- 回首頁
 
 ---
 

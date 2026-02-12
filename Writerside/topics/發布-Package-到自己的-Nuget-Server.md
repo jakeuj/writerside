@@ -22,9 +22,9 @@ Ref
 
 PS5
 
-* NuGet
+- NuGet
 
-* 回首頁
+- 回首頁
 
 ---
 

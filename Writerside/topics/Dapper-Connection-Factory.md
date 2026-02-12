@@ -41,7 +41,7 @@ public class ConnectionFactory : IConnectionFactory, ITransientDependency
         var connectionString = _configuration.GetConnectionString(connectStringName);
 
         if (!string.IsNullOrWhiteSpace(connectionString))
-	    {
+     {
         return connectionString;
         }
 
@@ -79,10 +79,10 @@ BJ4
 
 PS5
 
-* ABP
-* Dapper
+- ABP
+- Dapper
 
-* 回首頁
+- 回首頁
 
 ---
 

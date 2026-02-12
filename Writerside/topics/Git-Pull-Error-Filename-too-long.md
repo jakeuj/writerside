@@ -22,10 +22,10 @@
 
 PS5
 
-* Git
-* Github
+- Git
+- Github
 
-* 回首頁
+- 回首頁
 
 ---
 

@@ -38,9 +38,9 @@ Failed to deploy '<unknown> Dockerfile: Platform/Dockerfile': java.io.IOExceptio
 
 PS5
 
-* Rider
+- Rider
 
-* 回首頁
+- 回首頁
 
 ---
 

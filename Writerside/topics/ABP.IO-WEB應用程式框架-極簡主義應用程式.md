@@ -16,9 +16,9 @@ https://community.abp.io/posts/developing-a-minimalist-application-with-the-abp-
 
 PS5
 
-* ABP
+- ABP
 
-* 回首頁
+- 回首頁
 
 ---
 

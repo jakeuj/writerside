@@ -141,6 +141,7 @@ my-project/
 ```
 
 當處理 `src/frontend/App.tsx` 時：
+
 - 載入 `src/frontend/AGENTS.md`（當前目錄）
 - 載入 `src/AGENTS.md`（父目錄）
 - 透過標準規則載入工作區根目錄的 `AGENTS.md`
@@ -189,6 +190,7 @@ fd -e md -e txt  # 搜尋多種副檔名
 ```
 
 **搜尋內容**：
+
 ```bash
 # 使用 ripgrep 而非 grep
 rg "TODO" --type typescript
@@ -196,6 +198,7 @@ rg "function.*export" -g "*.ts"
 ```
 
 **處理 JSON**：
+
 ```bash
 # 使用 jq 處理 JSON
 cat package.json | jq '.dependencies'
@@ -204,18 +207,21 @@ cat package.json | jq '.dependencies'
 ## 程式碼風格通用原則
 
 ### 命名慣例
+
 - 使用有意義的變數名稱，避免單字母變數（除了迴圈索引）
 - 函式名稱應該是動詞或動詞片語
 - 類別名稱使用名詞
 - 常數使用全大寫加底線（如 `MAX_RETRY_COUNT`）
 
 ### 註解原則
+
 - 優先寫自解釋的程式碼，而非依賴註解
 - 註解應該解釋「為什麼」而非「是什麼」
 - 複雜的業務邏輯必須加上註解說明
 - 公開的 API 必須有完整的文件註解
 
 ### 錯誤處理
+
 - 永遠處理可能的錯誤情況
 - 使用具體的錯誤類型，避免捕捉通用的 Exception
 - 錯誤訊息應該提供足夠的上下文資訊
@@ -224,6 +230,7 @@ cat package.json | jq '.dependencies'
 ## 版本控制
 
 ### Git Commit 訊息格式
+
 遵循 Conventional Commits 規範：
 
 ```
@@ -235,6 +242,7 @@ cat package.json | jq '.dependencies'
 ```
 
 **Type 類型**：
+
 - `feat`: 新功能
 - `fix`: 錯誤修正
 - `docs`: 文件更新
@@ -244,6 +252,7 @@ cat package.json | jq '.dependencies'
 - `chore`: 建置流程或輔助工具變更
 
 **範例**：
+
 ```
 feat(auth): 新增 OAuth 2.0 登入支援
 
@@ -255,6 +264,7 @@ Closes #123
 ```
 
 ### 分支命名
+
 - `feature/功能描述` - 新功能開發
 - `bugfix/問題描述` - 錯誤修正
 - `hotfix/緊急修正` - 緊急修正
@@ -290,6 +300,7 @@ Closes #123
 - API 文件應該完整且保持更新
 - 複雜的架構決策應該記錄在 ADR（Architecture Decision Records）
 - 使用 Markdown 格式撰寫文件
+
 ```
 
 ## 最佳實踐
@@ -322,4 +333,3 @@ auggie --rules /path/to/custom-rules.md
 ## 參考文件
 
 - 官方文檔：https://docs.augmentcode.com/cli/rules
-

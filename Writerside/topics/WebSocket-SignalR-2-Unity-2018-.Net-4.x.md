@@ -72,11 +72,11 @@ SignalR Client API 相關說明文件請到下面連結查詢
 
 PS5
 
-* SignalR
-* Unity
-* WebSocket
+- SignalR
+- Unity
+- WebSocket
 
-* 回首頁
+- 回首頁
 
 ---
 

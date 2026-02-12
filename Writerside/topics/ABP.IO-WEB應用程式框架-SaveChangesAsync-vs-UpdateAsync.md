@@ -10,11 +10,11 @@
 
 ## 結論
 
-* SaveChangesAsync()
-  + 只會更新實體部分有變更的欄位
-* UpdateAsync(TEntity)
-  + 會更新整個實體全部欄位
-  + 當取得實體與更新實體之間，有其他東西改了其他欄位，會造成資料被複寫回舊的資料
+- SaveChangesAsync()
+  - 只會更新實體部分有變更的欄位
+- UpdateAsync(TEntity)
+  - 會更新整個實體全部欄位
+  - 當取得實體與更新實體之間，有其他東西改了其他欄位，會造成資料被複寫回舊的資料
     - A程序取得B欄位=C,D欄位=E
     - F程序更新D欄位=G
     - A程序改變B欄位=H, 並使用 UpdateAsync 更新實體, D會一併被更新成E
@@ -63,10 +63,10 @@ entity.Property(e => e.AutoId).ValueGeneratedOnAdd();
 
 PS5
 
-* Entity Framework
+- Entity Framework
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

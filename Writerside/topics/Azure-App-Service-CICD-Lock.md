@@ -78,6 +78,7 @@ Error: Failed to change file that is currently being used "C:\home\site\wwwroot\
 ```
 
 **優點**：
+
 - 零停機時間
 - 可以在 staging slot 驗證部署結果
 - 出問題時可以快速 swap 回去

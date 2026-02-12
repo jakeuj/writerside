@@ -14,12 +14,12 @@
 
 稍微列舉一些可能的做法
 
-* 寫死在程式碼中
-* appsetting.json
-  + IConfiguration
-  + ``IOptions<T>``
-* Database
-  + 自訂 Table 在需要時當作資料讀出來
+- 寫死在程式碼中
+- appsetting.json
+  - IConfiguration
+  - ``IOptions<T>``
+- Database
+  - 自訂 Table 在需要時當作資料讀出來
 
 ## ABP
 
@@ -35,10 +35,10 @@ P.S. 另外會自動對設定值進行快取
 
 ## 概念
 
-* Settings: 目前正在介紹的東西 (功能與模組)
-* SettingProvider: 建立這個東西來定義設定名稱 (key)
-* ISettingProvider: 注入這東西來讀取設定值 (寫死唯讀)
-* ISettingManager: 注入這東西來寫入設定值
+- Settings: 目前正在介紹的東西 (功能與模組)
+- SettingProvider: 建立這個東西來定義設定名稱 (key)
+- ISettingProvider: 注入這東西來讀取設定值 (寫死唯讀)
+- ISettingManager: 注入這東西來寫入設定值
 
 ### Settings
 
@@ -139,11 +139,11 @@ public class MyService
 
 簡單介紹一下 [ProviderName] 對應如下
 
-* `DefaultValueSettingValueProvider`: "**D**".
-* `ConfigurationSettingValueProvider`: "**C**".
-* `GlobalSettingValueProvider`: "**G**".
-* `TenantSettingValueProvider`: "**T**".
-* `UserSettingValueProvider`: "**U**".
+- `DefaultValueSettingValueProvider`: "**D**".
+- `ConfigurationSettingValueProvider`: "**C**".
+- `GlobalSettingValueProvider`: "**G**".
+- `TenantSettingValueProvider`: "**T**".
+- `UserSettingValueProvider`: "**U**".
 
 講中文就是全局設定或是 By 使用者個人的設定
 
@@ -206,9 +206,9 @@ namespace Demo
 
 PS5
 
-* Setting
+- Setting
 
-* 回首頁
+- 回首頁
 
 ---
 

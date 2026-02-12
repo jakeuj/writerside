@@ -73,6 +73,7 @@ ResultActive=yes
 (輸入帳號密碼後請耐心等待空無一物的綠色背景畫面)
 
 ## 參考
+
 [如何在Ubuntu上安裝 Xrdp 伺服器 22.04](https://www.turbogeek.co.uk/how-to-install-xrdp-server-on-ubuntu-22-04/)
 
 [需要認證才能建立色彩描述檔](https://zhuanlan.zhihu.com/p/515649815)

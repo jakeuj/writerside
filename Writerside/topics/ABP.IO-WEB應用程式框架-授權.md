@@ -70,9 +70,9 @@ namespace Acme.BookStore
 }
 ```
 
-* `Authorize`attribute 使用戶必須登陸到應用程序才可以訪問 `AuthorAppService`中的方法. 所以`GetListAsync` 方法仅可用于通过身份验证的用户.
-* `AllowAnonymous`禁用身份驗證. 所以 `GetAsync` 方法任何人都可以访问,包括未授权的用户.
-* `[Authorize("BookStore_Author_Create")]`定義了一個策略(参阅 [基于策略的授权](https://docs.microsoft.com/zh-cn/aspnet/core/security/authorization/policies)),它用于检查当前用户的权限.
+- `Authorize`attribute 使用戶必須登陸到應用程序才可以訪問 `AuthorAppService`中的方法. 所以`GetListAsync` 方法仅可用于通过身份验证的用户.
+- `AllowAnonymous`禁用身份驗證. 所以 `GetAsync` 方法任何人都可以访问,包括未授权的用户.
+- `[Authorize("BookStore_Author_Create")]`定義了一個策略(参阅 [基于策略的授权](https://docs.microsoft.com/zh-cn/aspnet/core/security/authorization/policies)),它用于检查当前用户的权限.
 
 "BookStore\_Author\_Create" 是一個策略名稱. 如果你想要使用策略的授權方式,需要在ASP.NET Core授權系統中預先定義它.
 
@@ -113,8 +113,8 @@ namespace Acme.BookStore.Permissions
 
 ![authorization-new-permission-ui](https://raw.githubusercontent.com/abpframework/abp/rel-4.3/docs/zh-Hans/images/authorization-new-permission-ui.png)
 
-* 左邊的選項卡顯示了"BookStore" 權限組.
-* 右側的"BookStore\_Author\_Create" 是權限名稱,在這裡可以為角色授權或禁止.
+- 左邊的選項卡顯示了"BookStore" 權限組.
+- 右側的"BookStore\_Author\_Create" 是權限名稱,在這裡可以為角色授權或禁止.
 
 保存後更改會持久化到數據庫並在授權系統使用.
 
@@ -153,9 +153,9 @@ myGroup.AddPermission(
 
 權限系統同樣支持在ABP中做為一等公民的 [多租户](https://docs.abp.io/zh-Hans/abp/latest/Multi-Tenancy). 在定义新权限时可以设置多租户选项. 有下面三个值:
 
-* **Host**: 权限仅适用于宿主.
-* **Tenant**: 权限仅适用于租户.
-* **Both**(默认): 权限适用与宿主和租户.
+- **Host**: 权限仅适用于宿主.
+- **Tenant**: 权限仅适用于租户.
+- **Both**(默认): 权限适用与宿主和租户.
 
 > 如果你的應用程序不是多租戶的,可以忽略這個選項.
 
@@ -236,8 +236,8 @@ public class AuthorAppService : ApplicationService, IAuthorAppService
 }
 ```
 
-* 擁有`Author_Management`权限的用户可以访问`GetListAsync`& `GetAsync`方法
-* 示例中的其他方法需要額外的權限.
+- 擁有`Author_Management`权限的用户可以访问`GetListAsync`& `GetAsync`方法
+- 示例中的其他方法需要額外的權限.
 
 ### 自定義策略覆蓋已有權限
 
@@ -351,9 +351,9 @@ public class MyService : ITransientDependency
 
 權限檢查是可擴展的. 繼承自`PermissionValueProvider` (或实现 `IPermissionValueProvider`) 的任何类都可以参与权限检查. 有三个预定义的Provider:
 
-* `UserPermissionValueProvider`從當前的聲明中拿到當前用戶ID並檢查用戶授權. 用戶聲明由 `AbpClaimTypes.UserId`静态属性定义.
-* `RolePermissionValueProvider`從當前的聲明中拿到授予當前用戶的角色集合併且判斷角色是否具有指定的權限. 角色聲明由 `AbpClaimTypes.Role`静态属性定义.
-* `ClientPermissionValueProvider`從當前聲明中拿到當前客戶端並檢查客戶端是否具有指定的權限. 這在沒有當前登錄用戶的客戶端交互特別有用. 客戶端聲明由 `AbpClaimTypes.ClientId`静态属性定义.
+- `UserPermissionValueProvider`從當前的聲明中拿到當前用戶ID並檢查用戶授權. 用戶聲明由 `AbpClaimTypes.UserId`静态属性定义.
+- `RolePermissionValueProvider`從當前的聲明中拿到授予當前用戶的角色集合併且判斷角色是否具有指定的權限. 角色聲明由 `AbpClaimTypes.Role`静态属性定义.
+- `ClientPermissionValueProvider`從當前聲明中拿到當前客戶端並檢查客戶端是否具有指定的權限. 這在沒有當前登錄用戶的客戶端交互特別有用. 客戶端聲明由 `AbpClaimTypes.ClientId`静态属性定义.
 
 你可以定義自己的`PermissionValueProvider`扩展权限检查系统.
 
@@ -386,9 +386,9 @@ public class SystemAdminPermissionValueProvider : PermissionValueProvider
 
 `PermissionValueProvider`的 `CheckAsync`应该返回下面三个值之一:
 
-* `PermissionGrantResult.Granted`授予用戶權限,如果沒有其他的授權值提供程序返回`Prohibited`, 那么最后会返回 `Granted`.
-* `PermissionGrantResult.Prohibited`禁止授權用戶,任何一個授權值提供程序返回了`Prohibited`, 那么其他的提供程序返回的值都不再重要.
-* `PermissionGrantResult.Undefined`代表當前無法確定是否授予或禁止權限, 返回`UnDefined`由其他权限值提供程序检查权限.
+- `PermissionGrantResult.Granted`授予用戶權限,如果沒有其他的授權值提供程序返回`Prohibited`, 那么最后会返回 `Granted`.
+- `PermissionGrantResult.Prohibited`禁止授權用戶,任何一個授權值提供程序返回了`Prohibited`, 那么其他的提供程序返回的值都不再重要.
+- `PermissionGrantResult.Undefined`代表當前無法確定是否授予或禁止權限, 返回`UnDefined`由其他权限值提供程序检查权限.
 
 定義`Provider`后将其添加到 `AbpPermissionOptions`,如下所示:
 
@@ -420,17 +420,17 @@ public override void ConfigureServices(ServiceConfigurationContext context)
 
 ## 接下來
 
-* [權限管理模塊](https://docs.abp.io/zh-Hans/abp/latest/Modules/Permission-Management)
-* [ASP.NET Core MVC / Razor 頁面JavaScript Auth API](https://docs.abp.io/zh-Hans/abp/latest/API/JavaScript-API/Auth)
-* [Angular界面中的權限管理](https://docs.abp.io/zh-Hans/abp/latest/UI/Angular/Permission-Management)
+- [權限管理模塊](https://docs.abp.io/zh-Hans/abp/latest/Modules/Permission-Management)
+- [ASP.NET Core MVC / Razor 頁面JavaScript Auth API](https://docs.abp.io/zh-Hans/abp/latest/API/JavaScript-API/Auth)
+- [Angular界面中的權限管理](https://docs.abp.io/zh-Hans/abp/latest/UI/Angular/Permission-Management)
 
 ![](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 
-* ABP
+- ABP
 
-* 回首頁
+- 回首頁
 
 ---
 

@@ -17,7 +17,7 @@ using HtmlAgilityPack;
 using System.Text;
 using System.Net;
 
-3. 於Page\_Load插入以下程式碼片段
+1. 於Page\_Load插入以下程式碼片段
 
 ```
 
@@ -97,10 +97,10 @@ foreach (HtmlNode currNode in htnode)
 
 PS5
 
-* C#
+- C#
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

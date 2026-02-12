@@ -22,9 +22,9 @@ Error 1069: The service did not start due to a logon failure.
 
 PS5
 
-* MSSQL
+- MSSQL
 
-* 回首頁
+- 回首頁
 
 ---
 

@@ -149,14 +149,14 @@ kuduscript -y --aspWAP .\NewSRM\NewSRM.csproj -s .\NewSRM.sln -t posh
 ```
 
 1. 將原本 MSBuild 14 改成新 MSBuild 17
-   * MSBuild\14.0\Bin\MSBuild.exe
-   * MSBuilds\17.8.6\MSBuild\Current\Bin\MSBuild.exe
+   - MSBuild\14.0\Bin\MSBuild.exe
+   - MSBuilds\17.8.6\MSBuild\Current\Bin\MSBuild.exe
 2. `MSBUILD_PATH`
-   * `$MSBUILD_PATH = "${env:ProgramFiles(x86)}\MSBuilds\17.8.6\MSBuild\Current\Bin\MSBuild.exe"`
-   * 這樣才有 roslyn 的 csc.exe 可以編譯 C# 7以上語法
+   - `$MSBUILD_PATH = "${env:ProgramFiles(x86)}\MSBuilds\17.8.6\MSBuild\Current\Bin\MSBuild.exe"`
+   - 這樣才有 roslyn 的 csc.exe 可以編譯 C# 7以上語法
 3. 註解 `if ($MSBUILD_PATH -eq $null) { }`
-   * 強制更新路徑變數
-   * 查看路徑是否正確 `echo $MSBUILD_PATH`
+   - 強制更新路徑變數
+   - 查看路徑是否正確 `echo $MSBUILD_PATH`
 
 ## 備註
 
@@ -189,10 +189,10 @@ web.config
 
 PS5
 
-* App Service
+- App Service
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

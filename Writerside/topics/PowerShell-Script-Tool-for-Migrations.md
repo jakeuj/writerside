@@ -91,12 +91,12 @@ Write-Host "End."
 
 PS5
 
-* Entity Framework
+- Entity Framework
 {ignore-vars="true"}
-* PowerShell
-* Migration
+- PowerShell
+- Migration
 
-* 回首頁
+- 回首頁
 
 ---
 

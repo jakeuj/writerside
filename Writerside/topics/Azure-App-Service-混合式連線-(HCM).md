@@ -12,9 +12,9 @@
 
 ### 情境
 
-* 內部不對外的服務
+- 內部不對外的服務
   Example: DB
-* Azure 需要連到地端的服務
+- Azure 需要連到地端的服務
   Example: Azure app service
 
 ### 前提
@@ -99,12 +99,12 @@ Port 則是 6379
 
 PS5
 
-* App Service
+- App Service
 {ignore-vars="true"}
-* Azure
-* Cloud
+- Azure
+- Cloud
 
-* 回首頁
+- 回首頁
 
 ---
 

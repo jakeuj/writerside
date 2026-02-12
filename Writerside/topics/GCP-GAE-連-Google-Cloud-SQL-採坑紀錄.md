@@ -48,12 +48,12 @@ GAE 沒有 SQL Driver 會連不到 MSSQL (PostgerSQL 不確定)
 
 PS5
 
-* CloudSQL
-* GAE
-* GCP
-* SQL
+- CloudSQL
+- GAE
+- GCP
+- SQL
 
-* 回首頁
+- 回首頁
 
 ---
 

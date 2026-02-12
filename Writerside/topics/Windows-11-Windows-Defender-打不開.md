@@ -24,8 +24,8 @@ Get-AppxPackage Microsoft.SecHealthUI -AllUsers | Reset-AppxPackage
 
 ## 注意
 
-* 須以管理員身分執行
-* 須以 "Windows PowerShell" 執行
+- 須以管理員身分執行
+- 須以 "Windows PowerShell" 執行
   不是 "PowerShell" 當然也不是其他甚麼亂七八糟的東西
 
 不確定是只有 Win 11 會發生還是 Win 10 也會
@@ -34,12 +34,12 @@ Get-AppxPackage Microsoft.SecHealthUI -AllUsers | Reset-AppxPackage
 
 PS5
 
-* Win 11
+- Win 11
 {ignore-vars="true"}
-* Windows Defender
+- Windows Defender
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

@@ -79,9 +79,9 @@ REF
 
 PS5
 
-* Rider
+- Rider
 
-* 回首頁
+- 回首頁
 
 ---
 

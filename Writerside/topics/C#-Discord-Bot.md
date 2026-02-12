@@ -55,9 +55,9 @@ await Task.Delay(-1);
 
 PS5
 
-* Discord
+- Discord
 
-* 回首頁
+- 回首頁
 
 ---
 

@@ -87,10 +87,10 @@ http://localhost/api/services/app/player/getPlayers
 
 PS5
 
-* C#
+- C#
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

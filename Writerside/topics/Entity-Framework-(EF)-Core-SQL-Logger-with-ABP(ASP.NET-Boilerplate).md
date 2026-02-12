@@ -58,15 +58,15 @@ public override void PreInitialize()
 
 PS5
 
-* ABP
-* Entity Framework
+- ABP
+- Entity Framework
 {ignore-vars="true"}
-* Entity Framework
+- Entity Framework
 {ignore-vars="true"}
-* Log
-* SQL
+- Log
+- SQL
 
-* 回首頁
+- 回首頁
 
 ---
 

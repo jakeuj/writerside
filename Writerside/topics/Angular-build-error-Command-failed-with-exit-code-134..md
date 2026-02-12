@@ -1,4 +1,4 @@
-# Angular build error Command failed with exit code 134.
+# Angular build error Command failed with exit code 134
 
 > **原文發布日期:** 2019-12-20
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/12/20/node134error
@@ -21,10 +21,10 @@
 
 PS5
 
-* Angular
-* NodeJs
+- Angular
+- NodeJs
 
-* 回首頁
+- 回首頁
 
 ---
 

@@ -131,9 +131,9 @@ Encoding parameter.
 
 PS5
 
-* PowerShell
+- PowerShell
 
-* 回首頁
+- 回首頁
 
 ---
 

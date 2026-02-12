@@ -1,7 +1,9 @@
 # SettingUi
+
 用於管理 ABP 設定的模組
 
 ## 結論
+
 想透過 UI 更改全域設定時，須於設定時加上`.WithProviders(GlobalSettingValueProvider.ProviderName)`，否則預設為租戶。
 
 ### 範例
@@ -21,6 +23,7 @@ context.Add(
 ```
 
 ## 說明
+
 UI 設定時的判斷順序為：使用者層級設定 -> 全域設定 -> 租戶設定
 
 ```mermaid
@@ -35,7 +38,9 @@ graph LR
 ```
 
 ### 參照
+
 [SettingUiAppService.cs#L180-L183](https://github.com/EasyAbp/Abp.SettingUi/blob/42a639bc918184bad67194a27565012d97db8a3c/src/EasyAbp.Abp.SettingUi.Application/SettingUiAppService.cs#L180-L183)
+
 ```C#
 protected virtual Task SetSettingAsync(
     SettingDefinition setting, [CanBeNull] string value)
@@ -61,4 +66,5 @@ protected virtual Task SetSettingAsync(
 ```
 
 ## REF
+
 [Abp.SettingUi](https://easyabp.io/modules/Abp.SettingUi/)

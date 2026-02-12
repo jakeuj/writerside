@@ -11,5 +11,7 @@
 3. Project name 不能有大寫，自己在調整一下大小寫，截圖我就不更新了，例如：test_app。
 
 ## Android language
+
 🔧 Android language 要選 Java 還是 Kotlin？
+
 - 預設選 Kotlin 是沒問題的，Flutter 團隊近年也比較偏向 Kotlin。

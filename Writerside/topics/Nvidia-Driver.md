@@ -3,23 +3,28 @@
 筆記下研究 Ubuntu 24.04 LTS 安裝 Nvidia Driver 的過程。
 
 ## 更新到最新版本驅動
+
 目前心得是一般使用，不需要特別更新驅動版本，直接從 Ubuntu Desktop 自帶的 `額外驅動程式` 裡面安裝即可。
 
 再來是需要 CUDA，則需要更新到驅動最新版本，則需要從官方 CUDA Toolkit 下載並安裝密鑰包，更新 Ubuntu 軟體包清單以取得最新版本驅動程式。
+
 1. 先到 [CUDA 官網](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=24.04&target_type=deb_network)
 2. 選擇自己的系統版本 (我這邊是 Ubuntu 24.04)
 3. 安裝方式選 deb (network)
 4. 執行前三行指令來更新 Ubuntu Repository
+
   ```Bash
   wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2404/x86_64/cuda-keyring_1.1-1_all.deb
   sudo dpkg -i cuda-keyring_1.1-1_all.deb
   sudo apt-get update 
   ```
-5. 如果是內含 cuda-toolkit 的 container 則建議略過 (例如: NIM 容器內會自帶)，反之執行第四行來安裝 cuda-toolkit 到本機
+1. 如果是內含 cuda-toolkit 的 container 則建議略過 (例如: NIM 容器內會自帶)，反之執行第四行來安裝 cuda-toolkit 到本機
+
   ```Bash
   sudo apt-get -y install cuda-toolkit-12-6
   ```
-6. 如果是 WSL 則必須略過，反之執行以下語法更新到最新版本的 NVIDIA Driver (目前版本 560) 以支援最新 CUDA 版本
+1. 如果是 WSL 則必須略過，反之執行以下語法更新到最新版本的 NVIDIA Driver (目前版本 560) 以支援最新 CUDA 版本
+
   ```Bash
   sudo apt-get install -y nvidia-open
   ```
@@ -68,6 +73,7 @@ sudo ubuntu-drivers autoinstall
 換句話說 **Container 的 CUDA 版本要小於等於 Host 顯示卡所支援的驅動版本對應的 CUDA 版本**
 
 ## 參照
+
 [Ubuntu LTS如何安裝Nvidia顯示卡驅動、CUDA、cuDNN、NVIDIA Container Toolkit套件](https://ivonblog.com/posts/ubuntu-install-nvidia-drivers/)
 
 [CUDA Toolkit Driver Installer](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=24.04&target_type=deb_network)

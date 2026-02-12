@@ -47,11 +47,11 @@ WAP 步驟
 
 PS5
 
-* VisualStudio
-* WebApplication
-* WebSite
+- VisualStudio
+- WebApplication
+- WebSite
 
-* 回首頁
+- 回首頁
 
 ---
 

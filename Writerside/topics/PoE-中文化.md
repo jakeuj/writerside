@@ -145,4 +145,3 @@ xattr -d com.apple.quarantine ~/Desktop/run-poe-chinese.command
 - 新賽季內容通常需要一段時間才會完成中文化
 - 每次遊戲更新後可能需要重新執行中文化工具
 - 使用中文化工具前建議先備份原始的 `Content.ggpk` 檔案
-

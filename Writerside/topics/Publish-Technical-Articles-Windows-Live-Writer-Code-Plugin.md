@@ -126,9 +126,9 @@ Code Snippet plugin for Windows Live Writer 則比 SyntaxHighlighter for Windows
 
 PS5
 
-* SOFTWARE
+- SOFTWARE
 
-* 回首頁
+- 回首頁
 
 ---
 

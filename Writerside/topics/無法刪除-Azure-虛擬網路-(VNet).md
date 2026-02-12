@@ -42,11 +42,11 @@
 
 PS5
 
-* App Service
+- App Service
 {ignore-vars="true"}
-* Azure
+- Azure
 
-* 回首頁
+- 回首頁
 
 ---
 

@@ -79,9 +79,9 @@ private static void ConfigureSwaggerServices(
 
 PS5
 
-* Swagger
+- Swagger
 
-* 回首頁
+- 回首頁
 
 ---
 

@@ -5,4 +5,5 @@
 ![MatchCase.png](MatchCase.png){style="block"}
 
 ## REF
+
 [Case-insensitive-code-completion](https://intellij-support.jetbrains.com/hc/en-us/community/posts/205806989-Case-insensitive-code-completion)

@@ -98,6 +98,7 @@ steps:
 並透過以下方式設定：
 
 `/src/MyProject.Blazor/staticwebapp.config.json`
+
 ```JSON
 {
   "networking": {

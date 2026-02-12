@@ -171,12 +171,12 @@ F5執行DEBUG模式，並將頁面往指定位於/home/chat
 
 PS5
 
-* C#
+- C#
 {ignore-vars="true"}
-* SignalR
-* WebSocket
+- SignalR
+- WebSocket
 
-* 回首頁
+- 回首頁
 
 ---
 

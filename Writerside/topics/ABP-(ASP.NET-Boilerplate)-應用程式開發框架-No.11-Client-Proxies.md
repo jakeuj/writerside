@@ -18,16 +18,16 @@ ABP (ASP.NET Boilerplate) 應用程式開發框架 No.11 Client Proxies (Angular
 <!-- View specific scripts -->
 
 <script type="text/javascript">
-	abp.services.app.user.getUser({
-		"id": 0,
-		"retryNumber": 0
-	},{ //override jQuery's ajax parameters
-		async: false,
-		timeout: 30000
-	}).done(function (result) {
-		abp.notify.success('successfully created a task!');
-		console.log(result);
-	});
+ abp.services.app.user.getUser({
+  "id": 0,
+  "retryNumber": 0
+ },{ //override jQuery's ajax parameters
+  async: false,
+  timeout: 30000
+ }).done(function (result) {
+  abp.notify.success('successfully created a task!');
+  console.log(result);
+ });
 </script>
 ```
 
@@ -85,10 +85,10 @@ https://docs.microsoft.com/zh-tw/aspnet/core/tutorials/getting-started-with-nswa
 
 PS5
 
-* ABP
-* Angular
+- ABP
+- Angular
 
-* 回首頁
+- 回首頁
 
 ---
 

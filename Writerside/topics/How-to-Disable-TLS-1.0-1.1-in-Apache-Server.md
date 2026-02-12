@@ -39,9 +39,9 @@ Windows
 
 PS5
 
-* Apache
+- Apache
 
-* 回首頁
+- 回首頁
 
 ---
 

@@ -18,6 +18,7 @@ Auggie CLI 支援 **Skills**（技能）功能，讓 AI 助手能夠整合專業
 ## 可用的 Skills {id="available-skills"}
 
 ### 前端開發
+
 - **React** - React 框架最佳實踐與常見模式
 - **Vue.js** - Vue.js 生態系統指引
 - **Angular** - Angular 框架開發規範
@@ -26,6 +27,7 @@ Auggie CLI 支援 **Skills**（技能）功能，讓 AI 助手能夠整合專業
 - **Tailwind CSS** - Utility-first CSS 框架
 
 ### 後端開發
+
 - **Node.js** - Node.js 伺服器端開發
 - **Express** - Express.js 框架
 - **NestJS** - NestJS 企業級框架
@@ -34,6 +36,7 @@ Auggie CLI 支援 **Skills**（技能）功能，讓 AI 助手能夠整合專業
 - **Spring Boot** - Java 企業應用框架
 
 ### 雲端與 DevOps
+
 - **AWS** - Amazon Web Services 服務與最佳實踐
 - **Azure** - Microsoft Azure 雲端平台
 - **GCP** - Google Cloud Platform
@@ -42,12 +45,14 @@ Auggie CLI 支援 **Skills**（技能）功能，讓 AI 助手能夠整合專業
 - **Terraform** - 基礎設施即代碼
 
 ### 行動開發
+
 - **React Native** - 跨平台行動開發
 - **Flutter** - Google 跨平台 UI 框架
 - **Swift** - iOS 原生開發
 - **Kotlin** - Android 現代開發語言
 
 ### 資料庫與資料處理
+
 - **PostgreSQL** - 關聯式資料庫
 - **MongoDB** - NoSQL 文件資料庫
 - **Redis** - 記憶體快取
@@ -254,7 +259,7 @@ examples:
       使用公司框架的標準模式...
 ```
 
-2. **在配置中引用**
+1. **在配置中引用**
 
 ```yaml
 # .augment/config.yml
@@ -280,6 +285,7 @@ git commit -m "feat: 新增內部框架 Skill 定義"
 **症狀**：AI 回應不符合預期的技術框架
 
 **解決方案**：
+
 ```bash
 # 檢查 Skill 是否正確載入
 auggie --skill react --verbose
@@ -293,6 +299,7 @@ cat .augment/config.yml
 **症狀**：多個 Skills 提供矛盾的建議
 
 **解決方案**：
+
 - 移除不相關的 Skills
 - 在提示詞中明確指定使用哪個框架
 
@@ -307,6 +314,7 @@ auggie --skill react --skill vue \
 **症狀**：自訂 Skill 無法載入
 
 **解決方案**：
+
 ```bash
 # 驗證 YAML 格式
 yq eval .augment/skills/custom.yml
@@ -435,15 +443,3 @@ jobs:
 ---
 
 **提示**：Skills 功能讓 Auggie 能夠理解特定技術領域的最佳實踐，與 Rules 結合使用可以獲得最佳效果。建議在專案初期就在 `.augment/config.yml` 中定義預設 Skills，確保團隊協作一致性。
-
-
-
-
-
-
-
-
-
-
-
-

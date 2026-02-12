@@ -40,12 +40,12 @@ WindowsCryptographicException: Access is denied.
 
 PS5
 
-* ABP
-* App Service
+- ABP
+- App Service
 {ignore-vars="true"}
-* Azure
+- Azure
 
-* 回首頁
+- 回首頁
 
 ---
 

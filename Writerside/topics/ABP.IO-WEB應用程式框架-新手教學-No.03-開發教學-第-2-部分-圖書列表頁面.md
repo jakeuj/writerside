@@ -22,28 +22,28 @@
 
 在本系列教程中，您將構建一個名稱`Acme.BookStore`的用於管理書籍及其作者列表的基於 ABP 的程序。是使用以下技術開發的：
 
-* **Entity Framework Core 為**ORM 提供程序。
-* **MVC / Razor Pages**做為 UI 框架。
+- **Entity Framework Core 為**ORM 提供程序。
+- **MVC / Razor Pages**做為 UI 框架。
 
 本教程分為以下部分：
 
-* [第 1 部分：創建服務器端](https://docs.abp.io/en/abp/latest/Tutorials/Part-1)
-* [第 2 部分：圖書列表頁面](https://docs.abp.io/en/abp/latest/Tutorials/Part-2)
-* [第 3 部分：創建、更新和刪除書籍](https://docs.abp.io/en/abp/latest/Tutorials/Part-3)
-* [第 4 部分：集成測試](https://docs.abp.io/en/abp/latest/Tutorials/Part-4)
-* [第 5 部分：授權](https://docs.abp.io/en/abp/latest/Tutorials/Part-5)
-* [第 6 部分：作者：領域層](https://docs.abp.io/en/abp/latest/Tutorials/Part-6)
-* [第 7 部分：作者：數據庫集成](https://docs.abp.io/en/abp/latest/Tutorials/Part-7)
-* [第 8 部分：作者：應用程序層](https://docs.abp.io/en/abp/latest/Tutorials/Part-8)
-* [第 9 部分：作者：用戶界面](https://docs.abp.io/en/abp/latest/Tutorials/Part-9)
-* [第 10 部分：圖書到作者的關係](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Part-10)
+- [第 1 部分：創建服務器端](https://docs.abp.io/en/abp/latest/Tutorials/Part-1)
+- [第 2 部分：圖書列表頁面](https://docs.abp.io/en/abp/latest/Tutorials/Part-2)
+- [第 3 部分：創建、更新和刪除書籍](https://docs.abp.io/en/abp/latest/Tutorials/Part-3)
+- [第 4 部分：集成測試](https://docs.abp.io/en/abp/latest/Tutorials/Part-4)
+- [第 5 部分：授權](https://docs.abp.io/en/abp/latest/Tutorials/Part-5)
+- [第 6 部分：作者：領域層](https://docs.abp.io/en/abp/latest/Tutorials/Part-6)
+- [第 7 部分：作者：數據庫集成](https://docs.abp.io/en/abp/latest/Tutorials/Part-7)
+- [第 8 部分：作者：應用程序層](https://docs.abp.io/en/abp/latest/Tutorials/Part-8)
+- [第 9 部分：作者：用戶界面](https://docs.abp.io/en/abp/latest/Tutorials/Part-9)
+- [第 10 部分：圖書到作者的關係](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Part-10)
 
 ## 下載源碼
 
 本教程根據你的**UI**和**數據庫**首選項有多個版本，我們準備了一個模型下載的源碼組件：
 
-* [MVC (Razor Pages) UI 與 EF Core](https://github.com/abpframework/abp-samples/tree/master/BookStore-Mvc-EfCore)
-* [Angular UI 與 MongoDB](https://github.com/abpframework/abp-samples/tree/master/BookStore-Angular-MongoDb)
+- [MVC (Razor Pages) UI 與 EF Core](https://github.com/abpframework/abp-samples/tree/master/BookStore-Mvc-EfCore)
+- [Angular UI 與 MongoDB](https://github.com/abpframework/abp-samples/tree/master/BookStore-Angular-MongoDb)
 
 ## 動態JavaScript代理
 
@@ -75,11 +75,11 @@ ABP**動態**為所有API創建[**JavaScript代理**](https://docs.abp.io/zh-Han
 acme.bookStore.books.book.getList({}).done(function (result) { console.log(result); });
 ```
 
-* `acme.bookStore.books`是`BookAppService`的命令空間轉換成[小駝峰](https://en.wikipedia.org/wiki/Camel_case)形式。
-* `book`是`BookAppService`的約定名稱（刪除`AppService`後綴並且轉換為小駝峰）。
-* `getList`是`CrudAppService`基類定義的`GetListAsync`方法的約定名稱（刪除`Async`後綴並且轉換為小駝峰）。
-* `{}`參數將空對象發送到`GetListAsync`該方法，該方法通常需要一個類型為`PagedAndSortedResultRequestDto`對象，用於將分頁和排序選項發送到服務器（所有屬性都是可選的，具有默認值。因此你可以發送一個空對象）。
-* `getList`函數返回一個`promise`。你可以傳遞一個結果到`then`（或`done`）函數來獲取從服務器返回的結果。
+- `acme.bookStore.books`是`BookAppService`的命令空間轉換成[小駝峰](https://en.wikipedia.org/wiki/Camel_case)形式。
+- `book`是`BookAppService`的約定名稱（刪除`AppService`後綴並且轉換為小駝峰）。
+- `getList`是`CrudAppService`基類定義的`GetListAsync`方法的約定名稱（刪除`Async`後綴並且轉換為小駝峰）。
+- `{}`參數將空對象發送到`GetListAsync`該方法，該方法通常需要一個類型為`PagedAndSortedResultRequestDto`對象，用於將分頁和排序選項發送到服務器（所有屬性都是可選的，具有默認值。因此你可以發送一個空對象）。
+- `getList`函數返回一個`promise`。你可以傳遞一個結果到`then`（或`done`）函數來獲取從服務器返回的結果。
 
 運行該代碼會產生以下輸出：
 
@@ -158,9 +158,9 @@ successfully created the book with id: 439b0ea8-923e-8e1e-5d97-39f2c7ac4246
 }
 ```
 
-* 本地化關鍵字名稱是任意的。你可以設置任何名稱。對於特定的文本類型，我們更喜歡遵循一些約定：
-  + 為按鈕添加添加`Menu:`。
-  + 使用`Enum:<enum-type>:<enum-value>`同一來本地化的枚舉成員。當您銷毀ABP可以在某些適當的情況下自動將枚舉本地化。
+- 本地化關鍵字名稱是任意的。你可以設置任何名稱。對於特定的文本類型，我們更喜歡遵循一些約定：
+  - 為按鈕添加添加`Menu:`。
+  - 使用`Enum:<enum-type>:<enum-value>`同一來本地化的枚舉成員。當您銷毀ABP可以在某些適當的情況下自動將枚舉本地化。
 
 如果未在本地化文件中定義文本，字幕：則將**回退**到本地化鍵（作為ASP.NET核心的標準行為）。
 
@@ -182,8 +182,8 @@ yarn
 
 是時候創造一些可見和可用的東西了！在開發 Angular 前端應用程序時，我們將使用一些工具：
 
-* [Ng Bootstrap](https://ng-bootstrap.github.io/#/home)將用作 UI 組件庫。
-* [Ngx-Datatable](https://swimlane.gitbook.io/ngx-datatable/)將用作[數據表](https://swimlane.gitbook.io/ngx-datatable/)庫。
+- [Ng Bootstrap](https://ng-bootstrap.github.io/#/home)將用作 UI 組件庫。
+- [Ngx-Datatable](https://swimlane.gitbook.io/ngx-datatable/)將用作[數據表](https://swimlane.gitbook.io/ngx-datatable/)庫。
 
 運行以下命令行以創建一個新模塊，`BookModule`在 angular 應用程序的根文件夾中命名：
 
@@ -228,8 +228,8 @@ import { BookComponent } from './book.component';
 export class BookModule { }
 ```
 
-* 添加了`SharedModule`. `SharedModule`導出一些創建用戶界面所需的常用模塊。
-* `SharedModule`已經導出了`CommonModule`，所以我們已經刪除了`CommonModule`.
+- 添加了`SharedModule`. `SharedModule`導出一些創建用戶界面所需的常用模塊。
+- `SharedModule`已經導出了`CommonModule`，所以我們已經刪除了`CommonModule`.
 
 ### 路由
 
@@ -275,11 +275,11 @@ function configureRoutes(routes: RoutesService) {
 
 `RoutesService` 是 ABP 框架提供的一項服務，用於配置主菜單和路由。
 
-* `path` 是路由的 URL。
-* `name`是本地化的菜單項名稱（有關詳細信息，請參閱[本地化文檔](https://docs.abp.io/en/abp/latest/UI/Angular/Localization)）。
-* `iconClass`是菜單項的圖標（默認情況下可以使用[Font Awesome](https://fontawesome.com/)圖標）。
-* `order` 是菜單項的順序。
-* `layout`是 BooksModule 路由的佈局（有三種類型的預定義佈局：`eLayoutType.application`、`eLayoutType.account`或`eLayoutType.empty`）。
+- `path` 是路由的 URL。
+- `name`是本地化的菜單項名稱（有關詳細信息，請參閱[本地化文檔](https://docs.abp.io/en/abp/latest/UI/Angular/Localization)）。
+- `iconClass`是菜單項的圖標（默認情況下可以使用[Font Awesome](https://fontawesome.com/)圖標）。
+- `order` 是菜單項的順序。
+- `layout`是 BooksModule 路由的佈局（有三種類型的預定義佈局：`eLayoutType.application`、`eLayoutType.account`或`eLayoutType.empty`）。
 
 有關更多信息，請參閱[RoutesService 文檔](https://docs.abp.io/en/abp/latest/UI/Angular/Modifying-the-Menu#via-routesservice)。
 
@@ -331,8 +331,8 @@ export class BookComponent implements OnInit {
 }
 ```
 
-* 我們導入並註入了生成的`BookService`.
-* 我們正在使用[ListService](https://docs.abp.io/en/abp/latest/UI/Angular/List-Service)，這是 ABP 框架的實用服務，它提供了簡單的分頁、排序​​和搜索。
+- 我們導入並註入了生成的`BookService`.
+- 我們正在使用[ListService](https://docs.abp.io/en/abp/latest/UI/Angular/List-Service)，這是 ABP 框架的實用服務，它提供了簡單的分頁、排序​​和搜索。
 
 打開`/src/app/book/book.component.html`並替換如下內容：
 
@@ -383,9 +383,9 @@ export class BookComponent implements OnInit {
 
 PS5
 
-* ABP
+- ABP
 
-* 回首頁
+- 回首頁
 
 ---
 

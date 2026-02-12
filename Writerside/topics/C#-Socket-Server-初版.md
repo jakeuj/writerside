@@ -269,11 +269,11 @@ namespace MyClient
 
 PS5
 
-* C#
+- C#
 {ignore-vars="true"}
-* Socket
+- Socket
 
-* 回首頁
+- 回首頁
 
 ---
 

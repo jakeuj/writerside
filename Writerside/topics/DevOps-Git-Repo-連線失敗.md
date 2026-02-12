@@ -17,9 +17,9 @@ fatal: unable to access 'https://dev.azure.com/TsetSolution/Temp/\_git/Temp/': O
 
 PS5
 
-* Git
+- Git
 
-* 回首頁
+- 回首頁
 
 ---
 

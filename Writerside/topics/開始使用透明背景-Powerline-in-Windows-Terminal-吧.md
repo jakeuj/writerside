@@ -37,19 +37,19 @@ https://devblogs.microsoft.com/commandline/getting-started-with-windows-terminal
 
 其中這張預覽圖正中我心
 
-* 總之先照著下載一下 Windows Terminal
+- 總之先照著下載一下 Windows Terminal
 
 [取得 Windows Terminal - Microsoft Store zh-TW](https://www.microsoft.com/zh-tw/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab)
 
-* 安裝新版 PowerShell
+- 安裝新版 PowerShell
 
 [取得 PowerShell - Microsoft Store zh-TW](https://www.microsoft.com/zh-tw/p/powershell/9mz1snwt0n5d?rtc=1#activetab=pivot:overviewtab)
 
-* 安裝 Powerline 字型
+- 安裝 Powerline 字型
 
 [Releases · microsoft/cascadia-code · GitHub](https://github.com/microsoft/cascadia-code/releases)
 
-* 設定 PowerShell
+- 設定 PowerShell
 
 [Windows Terminal Powerline Setup | Microsoft Docs](https://docs.microsoft.com/en-us/windows/terminal/tutorials/powerline-setup)
 
@@ -80,7 +80,7 @@ https://github.com/JanDeDobbeleer/oh-my-posh#themes
 Set-ExecutionPolicy RemoteSigned
 ```
 
-* 設定 Windows Terminal
+- 設定 Windows Terminal
 
 畫面上方 Tab 向下箭頭按進去 > 設定 > 開啟Json設定檔 (左下方)
 
@@ -128,10 +128,10 @@ acrylicOpacity 0.5 會比較亮
 
 PS5
 
-* PowerShell
-* Terminal
+- PowerShell
+- Terminal
 
-* 回首頁
+- 回首頁
 
 ---
 

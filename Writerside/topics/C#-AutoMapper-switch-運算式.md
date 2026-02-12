@@ -49,9 +49,9 @@ P.S. 其中 `var detail` 等於 `src.Detail`
 
 PS5
 
-* AutoMapper
+- AutoMapper
 
-* 回首頁
+- 回首頁
 
 ---
 

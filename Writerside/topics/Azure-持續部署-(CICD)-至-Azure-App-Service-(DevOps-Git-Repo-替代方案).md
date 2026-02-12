@@ -46,13 +46,13 @@ Example: <https://dev.azure.com/jakeuj/TestCiCd/_git/TestCiCd>
 
 PS5
 
-* App Service
+- App Service
 {ignore-vars="true"}
-* Azure
-* CI/CD
+- Azure
+- CI/CD
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

@@ -48,9 +48,9 @@ http://localhost:4200
 
 PS5
 
-* Angular
+- Angular
 
-* 回首頁
+- 回首頁
 
 ---
 

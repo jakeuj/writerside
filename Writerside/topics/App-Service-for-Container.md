@@ -18,7 +18,7 @@
 
 ![acr-mgr.png](acr-mgr.png){style="block"}
 
-需要時可以用這組帳號密碼來連到 ACR 
+需要時可以用這組帳號密碼來連到 ACR
 [Docker-Registry-settings](Docker-Registry-settings.md)
 
 另外可以到識別裡面啟用系統指派的受控識別
@@ -90,6 +90,7 @@ TypeError: FastAPI.__call__() missing 1 required positional argument: 'send'
 ![push-act.png](push-act.png){style="block"}
 
 ## 結果
+
 最後打開 Azure App Service for Container 的 URL 就可以看到部署的網站
 
 ![wel-az.png](wel-az.png){style="block"}

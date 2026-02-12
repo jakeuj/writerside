@@ -14,4 +14,5 @@ NTP=ntp.myserver.intra
 ```
 
 ## Ref
+
 [NTP](https://www.cnblogs.com/pipci/p/12833228.html)

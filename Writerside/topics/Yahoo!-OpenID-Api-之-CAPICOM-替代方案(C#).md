@@ -72,10 +72,10 @@ protected string SHA1_Encrypt(string Source_String)
 
 PS5
 
-* C#
+- C#
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

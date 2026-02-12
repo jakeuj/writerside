@@ -14,29 +14,29 @@
 
 在本系列教程中，您將構建一個名為`Acme.BookStore`. 此應用程序用於管理書籍及其作者的列表。它是使用以下技術開發的：
 
-* **Entity Framework Core**作為 ORM 提供者。
-* **Angular**作為 UI 框架。
+- **Entity Framework Core**作為 ORM 提供者。
+- **Angular**作為 UI 框架。
 
 本教程分為以下幾個部分；
 
-* [第 1 部分：創建服務器端](https://docs.abp.io/en/abp/latest/Tutorials/Part-1)
-* [第 2 部分：圖書列表頁面](https://docs.abp.io/en/abp/latest/Tutorials/Part-2)
-* [第 3 部分：創建、更新和刪除書籍](https://docs.abp.io/en/abp/latest/Tutorials/Part-3)
-* [第 4 部分：集成測試](https://docs.abp.io/en/abp/latest/Tutorials/Part-4)
-* [第 5 部分：授權](https://docs.abp.io/en/abp/latest/Tutorials/Part-5)
-* [第 6 部分：作者：領域層](https://docs.abp.io/en/abp/latest/Tutorials/Part-6)
-* [第 7 部分：作者：數據庫集成](https://docs.abp.io/en/abp/latest/Tutorials/Part-7)
-* [第 8 部分：作者：應用程序層](https://docs.abp.io/en/abp/latest/Tutorials/Part-8)
-* [第 9 部分：作者：用戶界面](https://docs.abp.io/en/abp/latest/Tutorials/Part-9)
-* **第 10 部分：書籍與作者的關係（本部分）**
+- [第 1 部分：創建服務器端](https://docs.abp.io/en/abp/latest/Tutorials/Part-1)
+- [第 2 部分：圖書列表頁面](https://docs.abp.io/en/abp/latest/Tutorials/Part-2)
+- [第 3 部分：創建、更新和刪除書籍](https://docs.abp.io/en/abp/latest/Tutorials/Part-3)
+- [第 4 部分：集成測試](https://docs.abp.io/en/abp/latest/Tutorials/Part-4)
+- [第 5 部分：授權](https://docs.abp.io/en/abp/latest/Tutorials/Part-5)
+- [第 6 部分：作者：領域層](https://docs.abp.io/en/abp/latest/Tutorials/Part-6)
+- [第 7 部分：作者：數據庫集成](https://docs.abp.io/en/abp/latest/Tutorials/Part-7)
+- [第 8 部分：作者：應用程序層](https://docs.abp.io/en/abp/latest/Tutorials/Part-8)
+- [第 9 部分：作者：用戶界面](https://docs.abp.io/en/abp/latest/Tutorials/Part-9)
+- **第 10 部分：書籍與作者的關係（本部分）**
 
 ### 下載源代碼
 
 本教程根據您的**UI**和**數據庫**首選項有多個版本。我們準備了幾個要下載的源代碼組合：
 
-* [帶有 EF Core 的 MVC（Razor Pages）UI](https://github.com/abpframework/abp-samples/tree/master/BookStore-Mvc-EfCore)
-* [帶有 EF Core 的 Blazor UI](https://github.com/abpframework/abp-samples/tree/master/BookStore-Blazor-EfCore)
-* [帶有 MongoDB 的 Angular UI](https://github.com/abpframework/abp-samples/tree/master/BookStore-Angular-MongoDb)
+- [帶有 EF Core 的 MVC（Razor Pages）UI](https://github.com/abpframework/abp-samples/tree/master/BookStore-Mvc-EfCore)
+- [帶有 EF Core 的 Blazor UI](https://github.com/abpframework/abp-samples/tree/master/BookStore-Blazor-EfCore)
+- [帶有 MongoDB 的 Angular UI](https://github.com/abpframework/abp-samples/tree/master/BookStore-Angular-MongoDb)
 
 ## 介紹
 
@@ -66,9 +66,9 @@ public Guid AuthorId { get; set; }
 
 這是一個**典型的遷移問題**，決定取決於您的情況；
 
-* 如果您尚未將應用程序發佈到生產環境中，您可以刪除數據庫中現有的書籍，甚至可以刪除開發環境中的整個數據庫。
-* 您可以在數據遷移或種子階段以編程方式更新現有數據。
-* 您可以在數據庫上手動處理它。
+- 如果您尚未將應用程序發佈到生產環境中，您可以刪除數據庫中現有的書籍，甚至可以刪除開發環境中的整個數據庫。
+- 您可以在數據遷移或種子階段以編程方式更新現有數據。
+- 您可以在數據庫上手動處理它。
 
 我們更喜歡**刪除數據庫**（您可以`Drop-Database`在*包管理器控制台中運行*），因為這只是一個示例項目，數據丟失並不重要。
 
@@ -129,9 +129,9 @@ migrationBuilder.AddForeignKey(
     onDelete: ReferentialAction.Cascade);
 ```
 
-* `AuthorId`向`AppBooks`表中添加一個字段。
-* 在`AuthorId`字段上創建索引。
-* 聲明`AppAuthors`表的外鍵。
+- `AuthorId`向`AppBooks`表中添加一個字段。
+- 在`AuthorId`字段上創建索引。
+- 聲明`AppAuthors`表的外鍵。
 
 ![](https://dotblogsfile.blob.core.windows.net/user/御星幻/78eea910-a6d5-4f3e-94ae-85cae8430a5d/1627034898.png)
 > 如果您使用的是 Visual Studio，您可能需要在*包管理器控制台 (PMC) 中*使用`Add-Migration Added_AuthorId_To_Book -c BookStoreMigrationsDbContext`和`Update-Database -c BookStoreMigrationsDbContext`命令。在這種情況下，請確保是啟動項目並且是PMC 中的*默認項目*。`Acme.BookStore.HttpApi.HostAcme.BookStore.EntityFrameworkCore.DbMigrations`
@@ -465,15 +465,15 @@ namespace Acme.BookStore.Books
 
 讓我們看看我們所做的更改：
 
-* 添加`[Authorize(BookStorePermissions.Books.Default)]`以授權我們新添加/覆蓋的方法（請記住，當為類聲明時，authorize 屬性對類的所有方法都有效）。
-* 注入`IAuthorRepository`作者查詢。
-* 重寫 base 的`GetAsync`方法，該方法`CrudAppService`返回`BookDto`具有給定的單個對象`id`。
-  + 使用簡單的 LINQ 表達式連接書籍和作者，並一起查詢給定書籍 ID。
-  + 用於`AsyncExecuter.FirstOrDefaultAsync(...)`執行查詢並得到結果。這是一種使用異步 LINQ 擴展而不依賴於數據庫提供程序 API 的方法。查看[存儲庫文檔](https://docs.abp.io/en/abp/latest/Repositories)以了解我們使用它的原因。
-  + 如果數據庫中不存在請求的書，則拋出`EntityNotFoundException`結果`HTTP 404`（未找到）結果。
-  + 最後，`BookDto`使用 來創建一個對象`ObjectMapper`，然後`AuthorName`手動分配。
-* 覆蓋 base 的`GetListAsync`方法，該方法`CrudAppService`返回書籍列表。邏輯與前面的方法類似，因此您可以輕鬆理解代碼。
-* 創建了一個新方法：`GetAuthorLookupAsync`. 這個簡單得到所有作者。UI 使用此方法填充下拉列表並在創建/編輯書籍時進行選擇和創作。
+- 添加`[Authorize(BookStorePermissions.Books.Default)]`以授權我們新添加/覆蓋的方法（請記住，當為類聲明時，authorize 屬性對類的所有方法都有效）。
+- 注入`IAuthorRepository`作者查詢。
+- 重寫 base 的`GetAsync`方法，該方法`CrudAppService`返回`BookDto`具有給定的單個對象`id`。
+  - 使用簡單的 LINQ 表達式連接書籍和作者，並一起查詢給定書籍 ID。
+  - 用於`AsyncExecuter.FirstOrDefaultAsync(...)`執行查詢並得到結果。這是一種使用異步 LINQ 擴展而不依賴於數據庫提供程序 API 的方法。查看[存儲庫文檔](https://docs.abp.io/en/abp/latest/Repositories)以了解我們使用它的原因。
+  - 如果數據庫中不存在請求的書，則拋出`EntityNotFoundException`結果`HTTP 404`（未找到）結果。
+  - 最後，`BookDto`使用 來創建一個對象`ObjectMapper`，然後`AuthorName`手動分配。
+- 覆蓋 base 的`GetListAsync`方法，該方法`CrudAppService`返回書籍列表。邏輯與前面的方法類似，因此您可以輕鬆理解代碼。
+- 創建了一個新方法：`GetAuthorLookupAsync`. 這個簡單得到所有作者。UI 使用此方法填充下拉列表並在創建/編輯書籍時進行選擇和創作。
 
 ![](https://dotblogsfile.blob.core.windows.net/user/御星幻/78eea910-a6d5-4f3e-94ae-85cae8430a5d/1627036184.png)
 
@@ -578,8 +578,8 @@ namespace Acme.BookStore.Books
 }
 ```
 
-* 改變斷言條件在`Should_Get_List_Of_Books`從`b => b.Name == "1984"`以`b => b.Name == "1984" && b.AuthorName == "George Orwell"`檢查，如果作者的名字充滿。
-* 更改了在創建新書時`Should_Create_A_Valid_Book`設置的方法`AuthorId`，因為它不再需要了。
+- 改變斷言條件在`Should_Get_List_Of_Books`從`b => b.Name == "1984"`以`b => b.Name == "1984" && b.AuthorName == "George Orwell"`檢查，如果作者的名字充滿。
+- 更改了在創建新書時`Should_Create_A_Valid_Book`設置的方法`AuthorId`，因為它不再需要了。
 
 ![](https://dotblogsfile.blob.core.windows.net/user/御星幻/78eea910-a6d5-4f3e-94ae-85cae8430a5d/1627037702.png)
 
@@ -736,10 +736,10 @@ export class BookComponent implements OnInit {
 }
 ```
 
-* 添加了`AuthorLookupDto`,`Observable`和 的導入`map`。
-* 後添加`authors$: Observable<AuthorLookupDto[]>;`字段`selectedBook`。
-* 添加`this.authors$ = bookService.getAuthorLookup().pipe(map((r) => r.items));`到構造函數中。
-* 添加 `authorId: [this.selectedBook.authorId || null, Validators.required],`到`buildForm()`函數中。
+- 添加了`AuthorLookupDto`,`Observable`和 的導入`map`。
+- 後添加`authors$: Observable<AuthorLookupDto[]>;`字段`selectedBook`。
+- 添加`this.authors$ = bookService.getAuthorLookup().pipe(map((r) => r.items));`到構造函數中。
+- 添加 `authorId: [this.selectedBook.authorId || null, Validators.required],`到`buildForm()`函數中。
 
 打開`/src/app/book/book.component.html`並在書名表單組之前添加以下表單組：
 
@@ -763,9 +763,9 @@ export class BookComponent implements OnInit {
 
 PS5
 
-* ABP
+- ABP
 
-* 回首頁
+- 回首頁
 
 ---
 

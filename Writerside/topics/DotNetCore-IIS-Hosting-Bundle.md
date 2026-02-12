@@ -73,11 +73,11 @@ https://blog.johnwu.cc/article/iis-run-asp-net-core.html
 
 PS5
 
-* .Net Core
+- .Net Core
 {ignore-vars="true"}
-* IIS
+- IIS
 
-* 回首頁
+- 回首頁
 
 ---
 

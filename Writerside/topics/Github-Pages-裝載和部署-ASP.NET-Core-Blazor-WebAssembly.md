@@ -21,7 +21,7 @@ Failed to find a valid digest in the 'integrity' in Blazor WASM
 
 然後就會遇到一連串問題…
 
-* 404
+- 404
 
 \_framework/blazor.webassembly.js
 
@@ -31,7 +31,7 @@ Failed to find a valid digest in the 'integrity' in Blazor WASM
 
 解法：於 root 加入 .nojekyll 這個檔案，內容保持空白即可
 
-* Hash
+- Hash
 
 然後會遇到卡在 Loading…的問題，查看 console 會發現是 Hash 校驗失敗
 
@@ -45,7 +45,7 @@ Failed to find a valid digest in the 'integrity' in Blazor WASM
 
 `git add --renormalize .`
 
-* UrlRewrite
+- UrlRewrite
 
 再來參照以下文檔將 UrlRewrite 用 JS 替代
 
@@ -53,7 +53,7 @@ Failed to find a valid digest in the 'integrity' in Blazor WASM
 
 這邊會新增 wwwroot/404.html 並修改 wwwroot/index.html
 
-* BR Decode
+- BR Decode
 
 再來參照以下文檔引用 decode.js 來對 br 進行解碼
 
@@ -61,7 +61,7 @@ Failed to find a valid digest in the 'integrity' in Blazor WASM
 
 這邊會新增 wwwroot/decode.js 並修改 wwwroot/index.html 來引用 decode.js
 
-* Hash
+- Hash
 
 如果遇到 index.html 的 Hash 驗證失敗
 
@@ -80,7 +80,7 @@ Failed to find a valid digest in the 'integrity' in Blazor WASM
 
 再 commit & push to Github
 
-* Error: Blazor has already started.
+- Error: Blazor has already started.
 
 最後看 console 應該剩一個例外
 
@@ -88,14 +88,14 @@ Failed to find a valid digest in the 'integrity' in Blazor WASM
 
 https://jakeuj.github.io/BlazorOnGitHubPages/
 
-* 如果 Github Pages 是使用專案模式 (每個專案一個網站)
+- 如果 Github Pages 是使用專案模式 (每個專案一個網站)
   需要把 index.html 裡面的 baseUrl 加上專案名稱
   `<base href="/BlazorOnGitHubPages/" />`
-* 如果要用 GitHub Actions 做 CI/CD
+- 如果要用 GitHub Actions 做 CI/CD
   需要設定 [.github/workflows/main.yml](https://github.com/jakeuj/BlazorOnGitHubPages/blob/master/.github/workflows/main.yml)
   我這份是用 .Net 5.0 如果是 3.x 需要行修改 PUBLISH\_DIR
   push 到 master 會自動 publish 到 gh-pages 分支給 github pages 吃
-* 結論：所有需要變更的東西請參考這個 [commit](https://github.com/jakeuj/BlazorOnGitHubPages/commit/937f1bd52ba9e5964475174d6c801ce91761ae34#diff-7829468e86c1cc5d5133195b5cb48e1ff6c75e3e9203777f6b2e379d9e4882b3)
+- 結論：所有需要變更的東西請參考這個 [commit](https://github.com/jakeuj/BlazorOnGitHubPages/commit/937f1bd52ba9e5964475174d6c801ce91761ae34#diff-7829468e86c1cc5d5133195b5cb48e1ff6c75e3e9203777f6b2e379d9e4882b3)
 
 參照：https://github.com/jakeuj/BlazorOnGitHubPages
 
@@ -103,10 +103,10 @@ https://jakeuj.github.io/BlazorOnGitHubPages/
 
 PS5
 
-* Blazor
-* GitHubPages
+- Blazor
+- GitHubPages
 
-* 回首頁
+- 回首頁
 
 ---
 

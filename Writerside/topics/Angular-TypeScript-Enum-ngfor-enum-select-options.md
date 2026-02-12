@@ -49,10 +49,10 @@ Ref: <https://stackblitz.com/edit/ngfor-enum-select-options?file=app%2Fapp.comp
 
 PS5
 
-* Angular
-* TypeScript
+- Angular
+- TypeScript
 
-* 回首頁
+- 回首頁
 
 ---
 

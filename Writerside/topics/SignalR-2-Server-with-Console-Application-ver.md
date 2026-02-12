@@ -46,10 +46,10 @@ https://docs.microsoft.com/zh-tw/aspnet/core/signalr/messagepackhubprotocol?view
 
 PS5
 
-* SignalR
-* WebSocket
+- SignalR
+- WebSocket
 
-* 回首頁
+- 回首頁
 
 ---
 

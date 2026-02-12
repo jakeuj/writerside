@@ -72,11 +72,11 @@ P.S. Windows 10 檔案總管 不支援 SSL 所以要另外裝 FTP Client
 
 PS5
 
-* IIS
-* FTP
-* SSL
+- IIS
+- FTP
+- SSL
 
-* 回首頁
+- 回首頁
 
 ---
 

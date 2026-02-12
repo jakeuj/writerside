@@ -32,12 +32,12 @@ Invoke-RestMethod -uri "https://test.azurewebsites.net/?a=1&b=2"
 
 PS5
 
-* App Service
+- App Service
 {ignore-vars="true"}
-* Azure
-* PowerShell
+- Azure
+- PowerShell
 
-* 回首頁
+- 回首頁
 
 ---
 

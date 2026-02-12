@@ -10,11 +10,11 @@
 
 先下結論
 
-* 移除 VS2017
-* 移除 DotNetCore 全版本
-* 刪除資料夾 C:\Program Files\dotnet
-* 安裝 DotNetCore 1.x (1.1 or 1.0)
-* 安裝 VS2017
+- 移除 VS2017
+- 移除 DotNetCore 全版本
+- 刪除資料夾 C:\Program Files\dotnet
+- 安裝 DotNetCore 1.x (1.1 or 1.0)
+- 安裝 VS2017
 
 搞定
 
@@ -38,13 +38,13 @@
 
 PS5
 
-* C#
+- C#
 {ignore-vars="true"}
-* VisualStudio
-* .Net Core
+- VisualStudio
+- .Net Core
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

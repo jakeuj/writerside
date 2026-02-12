@@ -3,9 +3,11 @@
 在部屬中心可以選擇 Github Actions，這樣就可以自動化部屬。
 
 ## OpenIddict 憑證問題
+
 OpenIddict 需要使用憑證來簽署 JWT，但 Azure App Service 預設不會讀取專案內的憑證。
 
 目前已知三種方式解決這個問題：
+
 1. 將憑證放在 Azure Key Vault：未研究
 2. 將憑證放在 Azure App Service 的憑證中
    - 這要求 App Service Plan 處於基本層或更高層
@@ -15,15 +17,18 @@ OpenIddict 需要使用憑證來簽署 JWT，但 Azure App Service 預設不會�
    - 須設定環境變數：WEBSITE_LOAD_USER_PROFILE=1
 
 ## 範例
+
 這邊透過修改原本範本處理憑證的程式碼，來支援 Azure App Service 透過指紋來讀取憑證。
 
 原本 AuthServerModule.cs 中的 PreConfigureServices 方法
+
 ```C#
 serverBuilder.AddProductionEncryptionAndSigningCertificate(
    "openiddict.pfx", "password");
 ```
 
 建立新擴充方法
+
 ```C#
 public static class OpenIddictServerBuilderExtensions
 {
@@ -84,6 +89,7 @@ public static class OpenIddictServerBuilderExtensions
 ```
 
 修改 AuthServerModule.cs 中的 PreConfigureServices 方法
+
 ```C#
 serverBuilder.AddProductionEncryptionAndSigningCertificate(
    "openiddict.pfx", "password",
@@ -103,7 +109,9 @@ serverBuilder.AddProductionEncryptionAndSigningCertificate(
 [setting-up-abp-with-openiddict-on-azure-app-services](https://brianmeeker.me/2022/08/29/setting-up-abp-with-openiddict-on-azure-app-services/)
 
 ## Github Actions
+
 其中要注意修改 Github Actions 的設定檔，確保部屬時有正確的設定。
+
 1. 安裝 Volo.Abp.Studio.Cli
 2. 安裝 ABP libs
 3. 指定 PROJECT_PATH (因為一個方案內包含多個專案)
@@ -115,6 +123,7 @@ serverBuilder.AddProductionEncryptionAndSigningCertificate(
    MSBuild 無法理解帶有空格的路徑，除非將它們用引號括起來。
 
 branch_project(dev).yml
+
 ```YAML
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
@@ -275,6 +284,7 @@ jobs:
 ```
 
 ## Host API
+
 API 不需要 wwwroot libs，所以可以不用安裝 ABP libs。
 
 ```YAML

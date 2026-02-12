@@ -68,9 +68,9 @@ module.exports = setupForCorporateProxy(proxyConfig);
 
 PS5
 
-* Angular
+- Angular
 
-* 回首頁
+- 回首頁
 
 ---
 

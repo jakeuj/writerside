@@ -86,8 +86,8 @@ PowerShell
 
 在開始開發之前運行應用程序是很好的。該解決方案有兩個主要應用；
 
-* `TodoApp.HttpApi.Host` （在 .NET 解決方案中）託管服務器端 HTTP API。
-* `angular` 文件夾包含 Angular 應用程序。
+- `TodoApp.HttpApi.Host` （在 .NET 解決方案中）託管服務器端 HTTP API。
+- `angular` 文件夾包含 Angular 應用程序。
 
 // 因為專案預設會啟用 Redis，如果沒有可以先關閉，在 appsettings.json 中的 Redis 裡面加上 "IsEnabled": "true", 請參考 [Redis 快取設定 說明文件](https://docs.abp.io/en/abp/latest/Redis-Cache#configuration),很重要所以我會說三次以上
 
@@ -240,9 +240,9 @@ database update
 
 一個 [應用服務](https://docs.abp.io/zh-Hans/abp/latest/Application-Services) 被用來執行應用程序的使用情況。我們需要執行以下用例；
 
-* 獲取待辦事項列表
-* 創建一個新的待辦事項
-* 刪除現有的待辦事項
+- 獲取待辦事項列表
+- 創建一個新的待辦事項
+- 刪除現有的待辦事項
 
 // 下面我將會調換原文說明順序，將應用服務合約中的資料傳輸物件與應用服務介面互換，因為 Application Service Interface 會用到 DTO
 
@@ -613,15 +613,15 @@ export class HomeComponent implements OnInit {
 
 參考文件：[也可以看看](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#see-also)
 
-* [Web 應用程序開發教程](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Part-1)
+- [Web 應用程序開發教程](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Part-1)
 
 ![](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 
-* ABP
+- ABP
 
-* 回首頁
+- 回首頁
 
 ---
 

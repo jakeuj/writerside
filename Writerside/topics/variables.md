@@ -41,6 +41,7 @@ v.list
 ```Markup
 %latest_version%
 ```
+
 {ignore-vars="true"}
 
 ## 忽略
@@ -60,4 +61,5 @@ v.list
 {style="note"}
 
 ## 參考
+
 [variables](https://www.jetbrains.com/help/writerside/variables.html)

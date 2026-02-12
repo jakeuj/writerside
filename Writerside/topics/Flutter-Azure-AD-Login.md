@@ -1,6 +1,6 @@
 # Flutter Azure AD Login
 
-This Flutter application demonstrates how to implement Azure Active Directory (Azure AD) login using the `aad_oauth` package. 
+This Flutter application demonstrates how to implement Azure Active Directory (Azure AD) login using the `aad_oauth` package.
 It allows users to log in with their Azure AD credentials and displays their profile information.
 
 ## Dependencies
@@ -206,6 +206,7 @@ class ProfilePage extends StatelessWidget {
 ```
 
 ## AAD redirect URL
+
 登入時會根據 Azure AD 設定的 redirect url 判斷是 web 或是 mobile，登入流程分別會是需要 secret 或是 public client。
 因為手機不應該使用 client secret，所以這邊使用的是 public client。
 Azure AD 上的應用程式登入設定下方有內建三個桌面與手機應用的 redirect url，可以直接勾選啟用。
@@ -215,58 +216,58 @@ Azure AD 上的應用程式登入設定下方有內建三個桌面與手機應�
 
 🔵 `https://login.microsoftonline.com/common/oauth2/nativeclient`
 
-* •	用途：這是 Microsoft 官方推薦給「原生 App（Native App）」使用的 通用 redirect URI。
-* •	適用於：
-* •	MSAL (Microsoft Authentication Library)
-* •	原生行動應用程式（Android / iOS）
-* •	特性：
-* •	不需要自訂 URI scheme。
-* •	適合於「公共用戶端（public client）」情境，例如行動裝置不適合儲存 secret。
-* •	搭配 MSAL，可以啟動系統內建瀏覽器或自動導向到 Microsoft 登入頁。
-* •	注意：
-* •	若你是用 Flutter + MSAL plugin（如 msal_flutter），通常不會使用這個，因為插件會使用自訂 scheme。
+- • 用途：這是 Microsoft 官方推薦給「原生 App（Native App）」使用的 通用 redirect URI。
+- • 適用於：
+- • MSAL (Microsoft Authentication Library)
+- • 原生行動應用程式（Android / iOS）
+- • 特性：
+- • 不需要自訂 URI scheme。
+- • 適合於「公共用戶端（public client）」情境，例如行動裝置不適合儲存 secret。
+- • 搭配 MSAL，可以啟動系統內建瀏覽器或自動導向到 Microsoft 登入頁。
+- • 注意：
+- • 若你是用 Flutter + MSAL plugin（如 msal_flutter），通常不會使用這個，因為插件會使用自訂 scheme。
 
 ⸻
 
 🟡 `https://login.live.com/oauth20_desktop.srf`（LiveSDK）
 
-* •	用途：這是過去 Live SDK（已淘汰） 使用的 redirect URI。
-* •	適用於：
-* •	舊的 Live SDK 登入流程（現在已被 MSAL/Graph API 所取代）
-* •	特性：
-* •	現代 App 不建議再使用這個 URI。
-* •	注意：
-* •	幾乎已經過時，現在開發新的 App 應完全改用 MSAL 或 Microsoft Entra ID（Azure AD）。
+- • 用途：這是過去 Live SDK（已淘汰） 使用的 redirect URI。
+- • 適用於：
+- • 舊的 Live SDK 登入流程（現在已被 MSAL/Graph API 所取代）
+- • 特性：
+- • 現代 App 不建議再使用這個 URI。
+- • 注意：
+- • 幾乎已經過時，現在開發新的 App 應完全改用 MSAL 或 Microsoft Entra ID（Azure AD）。
 
 ⸻
 
 🟢 `msal<client-id>://auth`（自訂 URI Scheme）
 
-* •	用途：這是 原生應用最常見的 redirect URI 寫法，是 Deep Link / App Linking 的一種。
-* •	適用於：
-* •	使用 MSAL 登入流程，尤其是原生 App 或 Flutter App。
-* •	特性：
-* •	需要在 App 註冊對應的 URI scheme（Android 的 intent filter，iOS 的 URL types）。
-* •	這個 redirect URI 必須在 Azure AD App 註冊中設定，否則會登入失敗。
-* •	例如你註冊的 app ID 是 xxxx-xxxx-xxxx-xxxx-xxxx，那麼你可以設成：
+- • 用途：這是 原生應用最常見的 redirect URI 寫法，是 Deep Link / App Linking 的一種。
+- • 適用於：
+- • 使用 MSAL 登入流程，尤其是原生 App 或 Flutter App。
+- • 特性：
+- • 需要在 App 註冊對應的 URI scheme（Android 的 intent filter，iOS 的 URL types）。
+- • 這個 redirect URI 必須在 Azure AD App 註冊中設定，否則會登入失敗。
+- • 例如你註冊的 app ID 是 xxxx-xxxx-xxxx-xxxx-xxxx，那麼你可以設成：
 
 ```
 msalxxxx-xxxx-xxxx-xxxx-xxxx://auth
 ```
 
-* •	Flutter 注意事項：
-* •	搭配 msal_flutter 或 flutter_appauth 等套件使用這個最方便。
-* •	記得要在 AndroidManifest.xml 和 Info.plist 配置 URI scheme。
+- • Flutter 注意事項：
+- • 搭配 msal_flutter 或 flutter_appauth 等套件使用這個最方便。
+- • 記得要在 AndroidManifest.xml 和 Info.plist 配置 URI scheme。
 
 ⸻
 
 ✅ Flutter 建議使用哪個？
 
 ✅ 最佳實務：使用 `msal<client-id>://auth`
-* ✔️ 易於整合 App 自身的登入處理
-* ✔️ 可讓登入後跳回你的 App
-* ✔️ 支援 Flutter 插件（如 msal_flutter, flutter_appauth）
-* ✔️ 可用於 Deep Linking、進一步整合 App Navigation
+- ✔️ 易於整合 App 自身的登入處理
+- ✔️ 可讓登入後跳回你的 App
+- ✔️ 支援 Flutter 插件（如 msal_flutter, flutter_appauth）
+- ✔️ 可用於 Deep Linking、進一步整合 App Navigation
 
 ⸻
 

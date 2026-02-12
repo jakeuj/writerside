@@ -14,29 +14,29 @@
 
 在本系列教程中，您將構建一個名為`Acme.BookStore`. 此應用程序用於管理書籍及其作者的列表。它是使用以下技術開發的：
 
-* **Entity Framework Core**作為 ORM 提供者。
-* **Angular**作為 UI 框架。
+- **Entity Framework Core**作為 ORM 提供者。
+- **Angular**作為 UI 框架。
 
 本教程分為以下幾個部分；
 
-* [第 1 部分：創建服務器端](https://docs.abp.io/en/abp/latest/Tutorials/Part-1)
-* [第 2 部分：圖書列表頁面](https://docs.abp.io/en/abp/latest/Tutorials/Part-2)
-* [第 3 部分：創建、更新和刪除書籍](https://docs.abp.io/en/abp/latest/Tutorials/Part-3)
-* [第 4 部分：集成測試](https://docs.abp.io/en/abp/latest/Tutorials/Part-4)
-* [第 5 部分：授權](https://docs.abp.io/en/abp/latest/Tutorials/Part-5)
-* [第 6 部分：作者：領域層](https://docs.abp.io/en/abp/latest/Tutorials/Part-6)
-* **第 7 部分：作者：數據庫集成（本部分）**
-* [第 8 部分：作者：應用程序層](https://docs.abp.io/en/abp/latest/Tutorials/Part-8)
-* [第 9 部分：作者：用戶界面](https://docs.abp.io/en/abp/latest/Tutorials/Part-9)
-* [第 10 部分：書與作者的關係](https://docs.abp.io/en/abp/latest/Tutorials/Part-10)
+- [第 1 部分：創建服務器端](https://docs.abp.io/en/abp/latest/Tutorials/Part-1)
+- [第 2 部分：圖書列表頁面](https://docs.abp.io/en/abp/latest/Tutorials/Part-2)
+- [第 3 部分：創建、更新和刪除書籍](https://docs.abp.io/en/abp/latest/Tutorials/Part-3)
+- [第 4 部分：集成測試](https://docs.abp.io/en/abp/latest/Tutorials/Part-4)
+- [第 5 部分：授權](https://docs.abp.io/en/abp/latest/Tutorials/Part-5)
+- [第 6 部分：作者：領域層](https://docs.abp.io/en/abp/latest/Tutorials/Part-6)
+- **第 7 部分：作者：數據庫集成（本部分）**
+- [第 8 部分：作者：應用程序層](https://docs.abp.io/en/abp/latest/Tutorials/Part-8)
+- [第 9 部分：作者：用戶界面](https://docs.abp.io/en/abp/latest/Tutorials/Part-9)
+- [第 10 部分：書與作者的關係](https://docs.abp.io/en/abp/latest/Tutorials/Part-10)
 
 ### 下載源代碼
 
 本教程根據您的**UI**和**數據庫**首選項有多個版本。我們準備了幾個要下載的源代碼組合：
 
-* [帶有 EF Core 的 MVC（Razor Pages）UI](https://github.com/abpframework/abp-samples/tree/master/BookStore-Mvc-EfCore)
-* [帶有 EF Core 的 Blazor UI](https://github.com/abpframework/abp-samples/tree/master/BookStore-Blazor-EfCore)
-* [帶有 MongoDB 的 Angular UI](https://github.com/abpframework/abp-samples/tree/master/BookStore-Angular-MongoDb)
+- [帶有 EF Core 的 MVC（Razor Pages）UI](https://github.com/abpframework/abp-samples/tree/master/BookStore-Mvc-EfCore)
+- [帶有 EF Core 的 Blazor UI](https://github.com/abpframework/abp-samples/tree/master/BookStore-Blazor-EfCore)
+- [帶有 MongoDB 的 Angular UI](https://github.com/abpframework/abp-samples/tree/master/BookStore-Angular-MongoDb)
 
 ## 介紹
 
@@ -152,9 +152,9 @@ namespace Acme.BookStore.Authors
 }
 ```
 
-* 繼承自`EfCoreRepository`，因此它繼承了標準存儲庫方法實現。
-* `WhereIf`是 ABP 框架的快捷擴展方法。`Where`僅當第一個條件滿足時才添加條件（它按名稱過濾，僅當提供了過濾器時）。你可以自己做同樣的事情，但這些類型的快捷方法讓我們的生活更輕鬆。
-* `sorting`可以是像`Name`,`Name ASC`或 之類的字符串`Name DESC`。可以使用[System.Linq.Dynamic.Core](https://www.nuget.org/packages/System.Linq.Dynamic.Core) NuGet 包。
+- 繼承自`EfCoreRepository`，因此它繼承了標準存儲庫方法實現。
+- `WhereIf`是 ABP 框架的快捷擴展方法。`Where`僅當第一個條件滿足時才添加條件（它按名稱過濾，僅當提供了過濾器時）。你可以自己做同樣的事情，但這些類型的快捷方法讓我們的生活更輕鬆。
+- `sorting`可以是像`Name`,`Name ASC`或 之類的字符串`Name DESC`。可以使用[System.Linq.Dynamic.Core](https://www.nuget.org/packages/System.Linq.Dynamic.Core) NuGet 包。
 
 > 有關基於 EF Core 的存儲庫的更多信息，請參閱[EF Core 集成文檔](https://docs.abp.io/en/abp/latest/Entity-Framework-Core)。
 
@@ -168,9 +168,9 @@ namespace Acme.BookStore.Authors
 
 PS5
 
-* ABP
+- ABP
 
-* 回首頁
+- 回首頁
 
 ---
 

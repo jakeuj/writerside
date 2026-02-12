@@ -6,11 +6,11 @@ Dotfiles 是指在 macOS / Linux 系統中，以「.」開頭的設定檔。這�
 
 常見範例：
 
--   ~/.zshrc
--   ~/.gitconfig
--   ~/.vimrc
--   ~/.ssh/config
--   ~/.config/alacritty/alacritty.yml
+- ~/.zshrc
+- ~/.gitconfig
+- ~/.vimrc
+- ~/.ssh/config
+- ~/.config/alacritty/alacritty.yml
 
 因為這些檔名都以「dot」開頭，所以統稱為 dotfiles。
 
@@ -20,17 +20,17 @@ Dotfiles 是指在 macOS / Linux 系統中，以「.」開頭的設定檔。這�
 
 當你遇到以下情境時：
 
--   重灌電腦
--   換新 Mac
--   同時使用多台機器
--   建立新的開發環境
+- 重灌電腦
+- 換新 Mac
+- 同時使用多台機器
+- 建立新的開發環境
 
 如果沒有版本控制：
 
--   所有 shell 設定要重建
--   alias 要重打
--   plugin 要重裝
--   terminal 設定要重新調整
+- 所有 shell 設定要重建
+- alias 要重打
+- plugin 要重裝
+- terminal 設定要重新調整
 
 管理 dotfiles 的目的是：
 
@@ -70,9 +70,9 @@ ln -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
 
 原理：
 
--   真正編輯的是 .dotfiles 裡的檔案
--   系統實際使用的是 ~ 底下的設定檔
--   Git 只需管理 .dotfiles 目錄
+- 真正編輯的是 .dotfiles 裡的檔案
+- 系統實際使用的是 ~ 底下的設定檔
+- Git 只需管理 .dotfiles 目錄
 
 ---
 
@@ -80,11 +80,11 @@ ln -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
 
 建議不要把整個 oh-my-zsh 專案納入版本控制，而是管理以下內容：
 
--   .zshrc
--   plugin 列表
--   Powerlevel10k 設定檔
--   alias
--   環境變數
+- .zshrc
+- plugin 列表
+- Powerlevel10k 設定檔
+- alias
+- 環境變數
 
 範例 plugins 設定：
 
@@ -149,10 +149,10 @@ chmod +x install.sh
 
 ## 進階建議
 
--   使用 GitHub Private Repo 保存個人設定
--   不要把敏感資訊（如 SSH 私鑰）直接放入 repo
--   可使用 .env 或分離 private config
--   可搭配 chezmoi / stow 進行更進階管理
+- 使用 GitHub Private Repo 保存個人設定
+- 不要把敏感資訊（如 SSH 私鑰）直接放入 repo
+- 可使用 .env 或分離 private config
+- 可搭配 chezmoi / stow 進行更進階管理
 
 ---
 

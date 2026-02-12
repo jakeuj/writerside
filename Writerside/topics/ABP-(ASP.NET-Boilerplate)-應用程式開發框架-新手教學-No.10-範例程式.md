@@ -12,11 +12,11 @@ ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.10 範例程�
 
 在本文中，我們將看到使用以下框架開發的SaaS（多租戶）應用程序：
 
-* ASP.NET Boilerplate作為應用程序框架。
-* ASP.NET Core和ASP.NET Web API作為Web框架。
-* 實體框架核心為ORM。
-* Angular5作為SPA框架。
-* Bootstrap作為HTML / CSS框架。
+- ASP.NET Boilerplate作為應用程序框架。
+- ASP.NET Core和ASP.NET Web API作為Web框架。
+- 實體框架核心為ORM。
+- Angular5作為SPA框架。
+- Bootstrap作為HTML / CSS框架。
 
 ## 從模板創建應用程序
 
@@ -36,9 +36,9 @@ ASP.NET Boilerplate提供了模板，使項目啟動更容易。我們從https:/
 
 我們將使用**Angular-CLI**啟動**Angular UI**。以下是啟動Angular UI的步驟：(有問題參考 [這篇](https://dotblogs.com.tw/jakeuj/2018/12/26/angularapplication))
 
-* 在**EventCloud / angular**位置打開cmd
-* 運行`yarn`命令以安裝包
-* 運行`npm start`以運行應用程序
+- 在**EventCloud / angular**位置打開cmd
+- 運行`yarn`命令以安裝包
+- 運行`npm start`以運行應用程序
 
 然後，當您瀏覽http：// localhost：4200時，我們將看到以下登錄頁面：
 
@@ -319,8 +319,8 @@ public class EventRegistrationPolicy : IEventRegistrationPolicy
 
 這是我們域名的重要組成部分。創建事件註冊時我們有兩個規則：
 
-* 用戶無法註冊過去的活動。
-* 用戶可以在30天內註冊最大事件數。所以，我們有註冊頻率限制。
+- 用戶無法註冊過去的活動。
+- 用戶可以在30天內註冊最大事件數。所以，我們有註冊頻率限制。
 
 ### 事件管理器
 
@@ -409,8 +409,8 @@ public class EventManager : IEventManager
 
 我們可能希望在應用程序中的某些狀態更改上定義和触發某些特定於域的事件。我定義了2個特定於域的事件：
 
-* **EventCancelledEvent：**取消事件時觸發。它是在`EventManager.Cancel`方法中觸發的。
-* **EventDateChangedEvent：**在事件發生更改時觸發。它是在`Event.ChangeDate`方法中觸發的。
+- **EventCancelledEvent：**取消事件時觸發。它是在`EventManager.Cancel`方法中觸發的。
+- **EventDateChangedEvent：**在事件發生更改時觸發。它是在`Event.ChangeDate`方法中觸發的。
 
 我們處理這些事件並通知相關用戶這些更改。此外，我處理`EntityCreatedEventDate<Event>`（這是一個預定義的**ABP**事件並自動觸發）。
 
@@ -994,14 +994,14 @@ UI上幾乎所有可用的操作也可用作Web API（因為UI使用相同的Web
 
 PS5
 
-* Angular
-* C#
+- Angular
+- C#
 {ignore-vars="true"}
-* .Net Core
+- .Net Core
 {ignore-vars="true"}
-* ABP
+- ABP
 
-* 回首頁
+- 回首頁
 
 ---
 

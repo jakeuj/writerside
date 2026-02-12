@@ -54,12 +54,12 @@ applicationHost.xdt & web.config
 
 PS5
 
-* .NET Framework
+- .NET Framework
 {ignore-vars="true"}
-* Azure
-* IIS
+- Azure
+- IIS
 
-* 回首頁
+- 回首頁
 
 ---
 

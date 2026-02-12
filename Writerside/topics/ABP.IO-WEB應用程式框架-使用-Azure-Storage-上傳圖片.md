@@ -37,9 +37,9 @@ public async Task SaveImageAsync([FromForm]SaveImageDto input)
 }
 ```
 
-* 如果不是直接輸入 IFormFile 則要記得加 `[FromForm]`
-* `SaveAsync` 可以輸入 stream
-* `OpenReadStream` 記得 using 不然可能要自己 close ?
+- 如果不是直接輸入 IFormFile 則要記得加 `[FromForm]`
+- `SaveAsync` 可以輸入 stream
+- `OpenReadStream` 記得 using 不然可能要自己 close ?
 
 SaveImageDto (Application.Contracts)
 
@@ -62,10 +62,10 @@ public class SaveImageDto : IValidatableObject
 }
 ```
 
-* `IValidatableObject` 會自動驗證輸入資料，需實作 Validate
+- `IValidatableObject` 會自動驗證輸入資料，需實作 Validate
   [Validation | Documentation Center | ABP.IO](https://docs.abp.io/en/abp/latest/Validation#ivalidatableobject)
-* `ValidationResult` 第一個參數是 message，可以自己調整
-* `StorageHelper` 這個類要自己建出來，如下所示
+- `ValidationResult` 第一個參數是 message，可以自己調整
+- `StorageHelper` 這個類要自己建出來，如下所示
 
 Application.Contracts.Helpers.StorageHelper.cs
 
@@ -83,8 +83,8 @@ public static bool IsImage(IFormFile file)
 }
 ```
 
-* 檢查 `ContentType` 或是副檔名是否合乎規定
-* 如果不要 .gif 可以自己從 `formats` 拿掉
+- 檢查 `ContentType` 或是副檔名是否合乎規定
+- 如果不要 .gif 可以自己從 `formats` 拿掉
 
 [storage-blob-upload-from-webapp/StorageHelper.cs at master · Azure-Samples/storage-blob-upload-from-webapp (github.com)](https://github.com/Azure-Samples/storage-blob-upload-from-webapp/blob/master/ImageResizeWebApp/ImageResizeWebApp/Helpers/StorageHelper.cs#L17)
 
@@ -103,9 +103,9 @@ public async Task<IRemoteStreamContent> GetImageAsync(string name)
 }
 ```
 
-* `fs.Position = 0;` => 不加這行會不能下載，是不是 Bug 我不知道，但絕對是個坑！
+- `fs.Position = 0;` => 不加這行會不能下載，是不是 Bug 我不知道，但絕對是個坑！
   [How to user IRemoteStreamContent with BLOB Storing Azure Provider · Issue #7418 · abpframework/abp (github.com)](https://github.com/abpframework/abp/issues/7418)
-* `IContentTypeProvider` => 這邊DI `FileExtensionContentTypeProvider` 來判斷 ContentType
+- `IContentTypeProvider` => 這邊DI `FileExtensionContentTypeProvider` 來判斷 ContentType
 
 ```
 public class YourProjectApplicationModule : AbpModule
@@ -165,9 +165,9 @@ public override void ConfigureServices(ServiceConfigurationContext context)
 
 PS5
 
-* ABP
+- ABP
 
-* 回首頁
+- 回首頁
 
 ---
 

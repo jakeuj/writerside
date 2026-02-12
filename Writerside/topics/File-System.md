@@ -1,7 +1,5 @@
 # File System
 
-
-
 ## Install
 
 ```powershell
@@ -99,9 +97,11 @@ public async Task<IEnumerable<string>> GetDirectoryAsync()
 ```
 
 ## GetDirectoryFiles
+
 Retrieve all file names in a folder using the `GetFileNameList` extension method, and then iterate through the list to access the file contents.
 
 ### extension
+
 Create a extension method to get file name list from directory.
 
 `public static class NbEdiExtensions`
@@ -133,37 +133,49 @@ P.S. You can also add checks for TenantId and UserId to retrieve file lists for 
 该方法 `GetFileNameList` 是一个扩展方法，用于从指定的本地文件系统路径中获取文件名列表。它接受三个参数：`IBlobContainer` 接口实例（尽管未在方法中直接使用）、`blobPath`（文件夹路径）以及可选的子路径 `subPath`。
 
 ### 参数处理
+
 首先，方法检查 `subPath` 是否为空或仅包含空白字符：
+
 ```c#
 if (!string.IsNullOrWhiteSpace(subPath))
 {
     blobPath = Path.Combine(blobPath, subPath);
 }
 ```
+
 如果 `subPath` 有效，则将其与 `blobPath` 合并，生成完整的路径。
 
 ### 路径验证
+
 接下来，方法验证合并后的路径是否存在：
+
 ```c#
 if (!Directory.Exists(blobPath))
 {
     return new List<string>();
 }
 ```
+
 如果路径不存在，则返回一个空的字符串列表，表示没有可用的文件。
 
 ### 获取文件名列表
+
 如果路径存在，方法会创建一个 `DirectoryInfo` 实例来表示该目录：
+
 ```c#
 var di = new DirectoryInfo(blobPath);
 ```
+
 然后通过调用 `GetFiles` 方法获取目录中的所有文件，并使用 LINQ 将每个文件的名称提取为字符串列表：
+
 ```c#
 return di.GetFiles().Select(x => x.Name).ToList();
 ```
 
 ### 总结
+
 该方法的主要功能是从指定的本地目录中获取文件名列表。它通过路径合并和验证确保了输入路径的有效性，并使用 `DirectoryInfo` 和 LINQ 提供了简洁的文件名提取逻辑。如果路径无效或不存在，则返回空列表。
 
 ## Ref
+
 [file-system](https://abp.io/docs/latest/framework/infrastructure/blob-storing/file-system)

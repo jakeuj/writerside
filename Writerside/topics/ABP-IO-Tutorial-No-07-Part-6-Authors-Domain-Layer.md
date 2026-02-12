@@ -14,41 +14,41 @@
 
 在本系列教程中，您將構建一個名為`Acme.BookStore`. 此應用程序用於管理書籍及其作者的列表。它是使用以下技術開發的：
 
-* **Entity Framework Core**作為 ORM 提供者。
-* **Angular**作為 UI 框架。
+- **Entity Framework Core**作為 ORM 提供者。
+- **Angular**作為 UI 框架。
 
 本教程分為以下幾個部分；
 
-* [第 1 部分：創建服務器端](https://docs.abp.io/en/abp/latest/Tutorials/Part-1)
-* [第 2 部分：圖書列表頁面](https://docs.abp.io/en/abp/latest/Tutorials/Part-2)
-* [第 3 部分：創建、更新和刪除書籍](https://docs.abp.io/en/abp/latest/Tutorials/Part-3)
-* [第 4 部分：集成測試](https://docs.abp.io/en/abp/latest/Tutorials/Part-4)
-* [第 5 部分：授權](https://docs.abp.io/en/abp/latest/Tutorials/Part-5)
-* **第 6 部分：作者：領域層（本部分）**
-* [第 7 部分：作者：數據庫集成](https://docs.abp.io/en/abp/latest/Tutorials/Part-7)
-* [第 8 部分：作者：應用程序層](https://docs.abp.io/en/abp/latest/Tutorials/Part-8)
-* [第 9 部分：作者：用戶界面](https://docs.abp.io/en/abp/latest/Tutorials/Part-9)
-* [第 10 部分：書與作者的關係](https://docs.abp.io/en/abp/latest/Tutorials/Part-10)
+- [第 1 部分：創建服務器端](https://docs.abp.io/en/abp/latest/Tutorials/Part-1)
+- [第 2 部分：圖書列表頁面](https://docs.abp.io/en/abp/latest/Tutorials/Part-2)
+- [第 3 部分：創建、更新和刪除書籍](https://docs.abp.io/en/abp/latest/Tutorials/Part-3)
+- [第 4 部分：集成測試](https://docs.abp.io/en/abp/latest/Tutorials/Part-4)
+- [第 5 部分：授權](https://docs.abp.io/en/abp/latest/Tutorials/Part-5)
+- **第 6 部分：作者：領域層（本部分）**
+- [第 7 部分：作者：數據庫集成](https://docs.abp.io/en/abp/latest/Tutorials/Part-7)
+- [第 8 部分：作者：應用程序層](https://docs.abp.io/en/abp/latest/Tutorials/Part-8)
+- [第 9 部分：作者：用戶界面](https://docs.abp.io/en/abp/latest/Tutorials/Part-9)
+- [第 10 部分：書與作者的關係](https://docs.abp.io/en/abp/latest/Tutorials/Part-10)
 
 ### 下載源代碼
 
 本教程根據您的**UI**和**數據庫**首選項有多個版本。我們準備了幾個要下載的源代碼組合：
 
-* [帶有 EF Core 的 MVC（Razor Pages）UI](https://github.com/abpframework/abp-samples/tree/master/BookStore-Mvc-EfCore)
-* [帶有 EF Core 的 Blazor UI](https://github.com/abpframework/abp-samples/tree/master/BookStore-Blazor-EfCore)
-* [帶有 MongoDB 的 Angular UI](https://github.com/abpframework/abp-samples/tree/master/BookStore-Angular-MongoDb)
+- [帶有 EF Core 的 MVC（Razor Pages）UI](https://github.com/abpframework/abp-samples/tree/master/BookStore-Mvc-EfCore)
+- [帶有 EF Core 的 Blazor UI](https://github.com/abpframework/abp-samples/tree/master/BookStore-Blazor-EfCore)
+- [帶有 MongoDB 的 Angular UI](https://github.com/abpframework/abp-samples/tree/master/BookStore-Angular-MongoDb)
 
 ## 介紹
 
 在前面的部分中，我們已經使用 ABP 基礎架構輕鬆構建了一些服務；
 
-* 使用[CrudAppService](https://docs.abp.io/en/abp/latest/Application-Services)基類，而不是為標準的創建、讀取、更新和刪除操作手動開發應用程序服務。
-* 使用[通用存儲庫](https://docs.abp.io/en/abp/latest/Repositories)來完全自動化數據庫層。
+- 使用[CrudAppService](https://docs.abp.io/en/abp/latest/Application-Services)基類，而不是為標準的創建、讀取、更新和刪除操作手動開發應用程序服務。
+- 使用[通用存儲庫](https://docs.abp.io/en/abp/latest/Repositories)來完全自動化數據庫層。
 
 對於“作者”部分；
 
-* 我們將**手動完成一些操作，**以展示您在需要時如何進行操作。
-* 我們將實施一些**領域驅動設計 (DDD) 最佳實踐**。
+- 我們將**手動完成一些操作，**以展示您在需要時如何進行操作。
+- 我們將實施一些**領域驅動設計 (DDD) 最佳實踐**。
 
 > **開發將逐層進行，以一次集中在單個層上。在實際項目中，您將按功能（垂直）開發應用程序功能，如前幾部分所述。通過這種方式，您將體驗兩種方法。**
 
@@ -105,12 +105,12 @@ namespace Acme.BookStore.Authors
 }
 ```
 
-* 繼承自`FullAuditedAggregateRoot<Guid>`which 使實體[軟刪除](https://docs.abp.io/en/abp/latest/Data-Filtering)（這意味著當您刪除它時，它不會在數據庫中刪除，而只是標記為已刪除）具有所有[審計](https://docs.abp.io/en/abp/latest/Entities)屬性。
-* `private set`因為`Name`屬性限制從這個類中設置這個屬性。有兩種設置名稱的方法（在這兩種情況下，我們都驗證名稱）：
-  + 在構造函數中，同時創建一個新作者。
-  + `ChangeName`稍後使用該方法更新名稱。
-* 的`constructor`和`ChangeName`方法是`internal`迫使僅在域層使用這些方法，使用`AuthorManager`將在後面說明。
-* `Check`class 是一個 ABP 框架實用程序類，可幫助您檢查方法參數（它會引發`ArgumentException`無效情況）。
+- 繼承自`FullAuditedAggregateRoot<Guid>`which 使實體[軟刪除](https://docs.abp.io/en/abp/latest/Data-Filtering)（這意味著當您刪除它時，它不會在數據庫中刪除，而只是標記為已刪除）具有所有[審計](https://docs.abp.io/en/abp/latest/Entities)屬性。
+- `private set`因為`Name`屬性限制從這個類中設置這個屬性。有兩種設置名稱的方法（在這兩種情況下，我們都驗證名稱）：
+  - 在構造函數中，同時創建一個新作者。
+  - `ChangeName`稍後使用該方法更新名稱。
+- 的`constructor`和`ChangeName`方法是`internal`迫使僅在域層使用這些方法，使用`AuthorManager`將在後面說明。
+- `Check`class 是一個 ABP 框架實用程序類，可幫助您檢查方法參數（它會引發`ArgumentException`無效情況）。
 
 ![](https://dotblogsfile.blob.core.windows.net/user/御星幻/acc54cd3-0216-4d21-9550-4ccb95e1c2c1/1627027394.png)
 
@@ -194,7 +194,7 @@ namespace Acme.BookStore.Authors
 }
 ```
 
-* `AuthorManager`強制以受控方式創建作者和更改作者姓名。應用層（後面會介紹）會用到這些方法。
+- `AuthorManager`強制以受控方式創建作者和更改作者姓名。應用層（後面會介紹）會用到這些方法。
 
 > **DDD 提示**：除非確實需要並執行一些核心業務規則，否則不要引入域服務方法。
 >
@@ -280,9 +280,9 @@ namespace Acme.BookStore.Authors
 }
 ```
 
-* `IAuthorRepository`擴展了標準`IRepository<Author, Guid>`接口，因此所有標準[存儲庫](https://docs.abp.io/en/abp/latest/Repositories)方法也可用於`IAuthorRepository`.
-* `FindByNameAsync`用於`AuthorManager`按姓名查詢作者。
-* `GetListAsync` 將在應用程序層中用於獲取列出、排序和過濾的作者列表以顯示在 UI 上。
+- `IAuthorRepository`擴展了標準`IRepository<Author, Guid>`接口，因此所有標準[存儲庫](https://docs.abp.io/en/abp/latest/Repositories)方法也可用於`IAuthorRepository`.
+- `FindByNameAsync`用於`AuthorManager`按姓名查詢作者。
+- `GetListAsync` 將在應用程序層中用於獲取列出、排序和過濾的作者列表以顯示在 UI 上。
 
 ![](https://dotblogsfile.blob.core.windows.net/user/御星幻/acc54cd3-0216-4d21-9550-4ccb95e1c2c1/1627028426.png)
 
@@ -308,9 +308,9 @@ namespace Acme.BookStore.Authors
 
 PS5
 
-* ABP
+- ABP
 
-* 回首頁
+- 回首頁
 
 ---
 

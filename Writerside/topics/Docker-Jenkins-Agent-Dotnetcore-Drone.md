@@ -1,4 +1,4 @@
-#  Docker Jenkins Agent Dotnetcore Drone
+# Docker Jenkins Agent Dotnetcore Drone
 
 > **原文發布日期:** 2021-04-19
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/04/19/Jenkins
@@ -20,14 +20,14 @@ Azure Devops Pipeline CI/CD 被拿去挖礦
 
 其中筆記下踩到的坑
 
-* 第一次安裝時記得把內網 IP 給打上去
+- 第一次安裝時記得把內網 IP 給打上去
   因為接著會新增子節點來做 build 的工作
   這是在不同 container 作業
   所以彼此的網路不是共通的
   打 localhost:8080 在子結點是不會找到 Master 的
   雖然建個 switch 打通他們可能也不是不行啦
   但就簡單測試嘛，打上 Lan IP 省事！
-* 看到要自己弄一個包含 sdk 的 slave 環境
+- 看到要自己弄一個包含 sdk 的 slave 環境
   我就懷念 yaml 設定好 docker 就會自動 pull 然後 build
   於是乎想起其實我原本是打算研究用 Drone 來做 CI/CD
   https://blog.wu-boy.com/drone-devops/
@@ -36,16 +36,16 @@ Azure Devops Pipeline CI/CD 被拿去挖礦
 
 PS5
 
-* CI/CD
+- CI/CD
 {ignore-vars="true"}
-* Container
-* Docker
-* .Net Core
+- Container
+- Docker
+- .Net Core
 {ignore-vars="true"}
-* Drone
-* Jenkins
+- Drone
+- Jenkins
 
-* 回首頁
+- 回首頁
 
 ---
 

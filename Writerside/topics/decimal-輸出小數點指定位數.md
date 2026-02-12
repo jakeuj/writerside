@@ -30,7 +30,7 @@ decimalVar.GetValueOrDefault().ToString("0.00").Dump();
 
 PS5
 
-* 回首頁
+- 回首頁
 
 ---
 

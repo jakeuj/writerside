@@ -158,7 +158,7 @@ var validItems = query.Where(po =>
 ## 注意事項
 
 > **重要提醒**
-> 
+>
 > - ❌ 不要修改 Suite 自動產生的檔案（會被覆蓋）
 > - ✅ 自訂內容請全部放在 `*.Extensions.cs`（或你喜歡的命名）
 > - ✅ 若你以後換 ABP 版本、更新 Suite，不會影響擴充檔案
@@ -174,4 +174,3 @@ var validItems = query.Where(po =>
 2. **自訂常數放到外部 partial 檔案**
 
 是目前 ABP Suite 最穩定、不會被覆寫、可維護性最高的做法。
-

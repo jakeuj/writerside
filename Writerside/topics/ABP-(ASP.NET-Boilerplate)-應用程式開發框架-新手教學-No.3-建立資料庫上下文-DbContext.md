@@ -137,10 +137,10 @@ protected override void OnModelCreating(DbModelBuilder modelBuilder)
 
 PS5
 
-* C#
+- C#
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

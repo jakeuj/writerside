@@ -22,7 +22,7 @@ Build Vue 後將 dist 放到 .NetCore 專案的 wwwroot 再 Publish
 $(System.DefaultWorkingDirectory)/Vue
 ```
 
-2. NPM Install
+1. NPM Install
 建置 Vue 之前需要先 install 來安裝 vue 專案所需的 lib
 
 ```
@@ -34,7 +34,7 @@ $(System.DefaultWorkingDirectory)/Vue
 
 這邊 `workingDir` 是相對路徑，實際上也可以打完整路徑 `$(System.DefaultWorkingDirectory)/Vue` 以下不贅述
 
-3. NPM run build
+1. NPM run build
 建置 Vue 預設輸出到 dist 資料夾
 
 ```
@@ -49,7 +49,7 @@ $(System.DefaultWorkingDirectory)/Vue
 
 `$(System.DefaultWorkingDirectory)/Vue/dist/*`
 
-4. Checkout .Net Project
+1. Checkout .Net Project
 
 Devops 簽出同一個 Project 的另一個 Repo 語法如下
 
@@ -65,7 +65,7 @@ $(System.DefaultWorkingDirectory)
 - JakeujCICD
 ```
 
-5. Copy
+1. Copy
 
 將先前建置出來的 dist 內東西放到剛剛簽出的 .Net 專案內的 wwwroot
 
@@ -83,7 +83,7 @@ $(System.DefaultWorkingDirectory)
 
 至此已完成 Vue 與 .Net 專案合併
 
-6. Restore
+1. Restore
 
 .Net 還原 Nuget 套件
 
@@ -106,7 +106,7 @@ value 的格式為 專案名/feed名，首先要先到 Artifacts 裡面去新建
 
 ![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/838d7938-ba74-4218-9f78-7657335be0dd/1642667453.png)
 
-7. Build
+1. Build
 
 建置 .Net 專案
 
@@ -118,7 +118,7 @@ value 的格式為 專案名/feed名，首先要先到 Artifacts 裡面去新建
     arguments: '-c $(BuildConfiguration)'
 ```
 
-8. Publish
+1. Publish
 
 發布 .Net 專案發布
 
@@ -138,7 +138,7 @@ value 的格式為 專案名/feed名，首先要先到 Artifacts 裡面去新建
 
 `$(System.DefaultWorkingDirectory)/Output/aspnet-core-dotnet-core.zip`
 
-9. Upload1
+1. Upload1
 
 這一步主要是將要發布的東西  `aspnet-core-dotnet-core.zip`
 
@@ -157,7 +157,7 @@ value 的格式為 專案名/feed名，首先要先到 Artifacts 裡面去新建
 
 ![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/838d7938-ba74-4218-9f78-7657335be0dd/1642672398.png)
 
-10. Yaml
+1. Yaml
 
 ```
 trigger:
@@ -213,7 +213,7 @@ steps:
   artifact: WebApp
 ```
 
-11. Release
+1. Release
 
 Release 的時候會需要指定要發布的 zip 在 Artifacts 的相對路徑
 
@@ -236,12 +236,12 @@ Release 的時候會需要指定要發布的 zip 在 Artifacts 的相對路徑
 
 PS5
 
-* .Net Core
+- .Net Core
 {ignore-vars="true"}
-* DevOps
-* Vue
+- DevOps
+- Vue
 
-* 回首頁
+- 回首頁
 
 ---
 

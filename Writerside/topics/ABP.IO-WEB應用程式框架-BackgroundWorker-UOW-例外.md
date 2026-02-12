@@ -10,13 +10,13 @@
 
 ## 徵狀
 
-* Cannot access a disposed context instance
-  + 使用 HangfireBackgroundWorkerBase 發生例外
-* The Logger object is null
-  + 使用介面設定 Hangfire Worker UOW 發生例外
-* 資料沒有更新到資料庫
-  + 記得 `SaveChanges`
-  + 更新資料須將查到的或新增的 Entity 回傳給之後更新用
+- Cannot access a disposed context instance
+  - 使用 HangfireBackgroundWorkerBase 發生例外
+- The Logger object is null
+  - 使用介面設定 Hangfire Worker UOW 發生例外
+- 資料沒有更新到資料庫
+  - 記得 `SaveChanges`
+  - 更新資料須將查到的或新增的 Entity 回傳給之後更新用
 
 ### 示意圖
 
@@ -26,7 +26,7 @@
 
 Worker.cs
 
-* 使用類別
+- 使用類別
 
 ```
 using Hangfire;
@@ -39,7 +39,7 @@ namespace T89NoUi.Workers;
 public class UowModifiedWorker : HangfireBackgroundWorkerBase
     , IUowModifiedWorker
 {
-	private readonly OrderManager _orderManager;
+ private readonly OrderManager _orderManager;
     public UowModifiedWorker(OrderManager orderManager)
     {
         RecurringJobId = nameof(UowModifiedWorker);
@@ -50,7 +50,7 @@ public class UowModifiedWorker : HangfireBackgroundWorkerBase
     public override async Task DoWorkAsync(
         CancellationToken cancellationToken = new CancellationToken())
     {
-    	Logger.LogDebug("Executed {@Name} ..!",MethodBase.GetCurrentMethod());
+     Logger.LogDebug("Executed {@Name} ..!",MethodBase.GetCurrentMethod());
         using var uow = LazyServiceProvider
             .LazyGetRequiredService<IUnitOfWorkManager>().Begin();
         await orderManager.SaveAsync();
@@ -59,7 +59,7 @@ public class UowModifiedWorker : HangfireBackgroundWorkerBase
 }
 ```
 
-* 使用介面
+- 使用介面
 
 ```
 using Hangfire;
@@ -121,9 +121,9 @@ public override async Task OnApplicationInitializationAsync(
 
 PS5
 
-* ABP
+- ABP
 
-* 回首頁
+- 回首頁
 
 ---
 

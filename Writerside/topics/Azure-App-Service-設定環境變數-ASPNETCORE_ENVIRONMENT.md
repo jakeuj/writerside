@@ -42,10 +42,10 @@ ASPNETCORE\_ENVIRONMENT=staging
 
 PS5
 
-* .Net Core
+- .Net Core
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

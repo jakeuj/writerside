@@ -9,6 +9,7 @@
 ![Command-line.png](Command-line.png){style="block"}
 
 ## 需求
+
 - [ ] [PowerShell](https://apps.microsoft.com/detail/9mz1snwt0n5d)
 - [ ] [Git](https://git-scm.com/)
 - [ ] [Android Studio](https://developer.android.com/studio)
@@ -28,6 +29,7 @@
   - [ ] Run `flutter doctor --android-licenses` to accept the SDK licenses.
 
 ## 建立專案
+
 1. 打開 `Android Studio` > Create Project > Flutter > 設定 Flutter SDK Path > Next
 ![Flutter.png](Flutter.png){ style="inline" }
 
@@ -39,5 +41,6 @@
 ![flutter-demo.png](flutter-demo.png){ style="inline" }
 
 ## 參照
+
 - [Get started with Flutter](https://docs.flutter.dev/get-started/install/windows/mobile#install-the-flutter-sdk)
 - [iOS](iOS.md)

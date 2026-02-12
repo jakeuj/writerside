@@ -48,7 +48,7 @@ Web+ 服務預設會幫你開通 22 Port 給全世界連
 
 <https://help.aliyun.com/document_detail/119566.htm>
 
-* Cli
+- Cli
 
 `eval "$(curl -s -L https://webplus-cn-shenzhen.oss-cn-shenzhen.aliyuncs.com/cli/install.sh)"`
 
@@ -62,23 +62,23 @@ eval 是 linux 用來執行後面 script 的語法
 
 作用大概就是安裝阿里雲的 cli
 
-* 變數
+- 變數
   Linux 設定變數的方式就是直接 變數名稱=值
   例如要設定 ALICLOUD\_ACCESS\_KEY 是 123
   `$ ALICLOUD_ACCESS_KEY=123`
   這樣就設定好了，可以用 echo 看看結果
   `$ echo $ALICLOUD_ACCESS_KEY`
   123
-* wpctl
+- wpctl
   安裝完之後就可以使用 wptcl 來對阿里雲進行操作
   首先要先設定 Secret 相關的東西來取得操作權限
   沒有 Secret 要先去 [RMA](https://ram.console.aliyun.com/) 新增才會拿到
   Region 參照 [阿里雲 地域與可用區 Region ID](https://www.alibabacloud.com/help/zh/doc-detail/40654.htm)
   比如：華東2 上海 ID = cn-shanghai
 
-* ALICLOUD\_ACCESS\_KEY={Your AccessKey ID}
-* ALICLOUD\_SECRET\_KEY={Your AccessKey Secret}
-* ALICLOUD\_REGION={Your Region ID}
+- ALICLOUD\_ACCESS\_KEY={Your AccessKey ID}
+- ALICLOUD\_SECRET\_KEY={Your AccessKey Secret}
+- ALICLOUD\_REGION={Your Region ID}
 
 設定好以上三個變數之後可以執行設定命令
 
@@ -105,24 +105,24 @@ Configure Done!!!
 #
 ```
 
-* 建置
+- 建置
 
 `dotnet publish -c:Release -o ./publish`
 
-* Zip
+- Zip
 
 `apt-get install zip unzip`
 
 `zip -r webplusdemo.zip ./publish/`
 
-* 部署：上傳並更新
+- 部署：上傳並更新
   `wpctl env:apply --package webplusdemo.zip --label webplusVersion0.1 --env Test --app Test -q`
   -q 是安靜模式，沒加會提示是否真的要更新[Y/n]，CI/CD 無人職守時會需要加
-* 完成
+- 完成
 
 ![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/6c006c4c-493e-47b9-b091-8e6876ada30b/1619074893.png)
 
-* 取得最新狀態
+- 取得最新狀態
 
 1. `wpctl env:use Test --app Test`
 2. `wpctl env:events`
@@ -154,13 +154,13 @@ Resources:
 
 PS5
 
-* .Net Core
+- .Net Core
 {ignore-vars="true"}
-* Ubuntu
-* 阿里雲
+- Ubuntu
+- 阿里雲
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

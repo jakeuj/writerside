@@ -3,17 +3,19 @@
 筆記下流程跟修正官方文件中的錯誤
 
 ## 版號
+
 [The current latest version is 2025.04.8412](https://www.jetbrains.com/help/writerside/deploy-docs-to-github-pages.html#env.DOCKER_VERSION)
 
 ## 結論
+
 {collapsible="true"}
 
-1. 下載安裝 
+1. 下載安裝
 [Writerside](https://www.jetbrains.com/writerside/download/#section=windows)
 2. 打開 Writerside 並建立一個新專案
 3. 到 Github 建立一個 repo 來放該專案
 4. 編輯 Writerside > writerside.cfg > ihp > images > web-path > 改成上面建立的 repo 名稱
-5. 在專案中建立 
+5. 在專案中建立
 [.github/workflows/deploy.yml](https://github.com/jakeuj/writerside/blob/master/.github/workflows/deploy.yml)
 6. 更新 yml 中的 env
    - INSTANCE：更新為 module/instanceID，預設為：Writerside/hi
@@ -27,6 +29,7 @@
    - ALGOLIA_ARTIFACT：須將 instanceID 轉大寫之後填入 $"algolia-indexes-{ID}.zip"
      - 預設 instanceID 為 hi, 因此預設值為： algolia-indexes-ID.zip
      - 例如 instanceID 為 fh, 因此須跟新為： algolia-indexes-FH.zip
+
 - 到 Github > repo > 設定 > Pages > Build and deployment > Source > GitHub Actions > Save
 - 之後應該只要 push 就會觸發 Action 更新 Github Pages
   - This is the first topic | Help Instance (jakeuj.github.io)
@@ -156,4 +159,5 @@ jobs:
 ![1707207729.png](1707207729.png){style="block"}
 
 ## 來源
+
 - [Writerside](https://www.jetbrains.com/help/writerside/deploy-docs-to-github-pages.html#publish-github-pages)

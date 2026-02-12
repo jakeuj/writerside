@@ -58,6 +58,7 @@ openclaw onboard --install-daemon
 ```
 
 安裝精靈會協助您：
+
 - 設定 Gateway (控制平面)
 - 配置工作區 (workspace)
 - 連接通訊頻道 (WhatsApp、Telegram、Slack 等)
@@ -182,4 +183,3 @@ openclaw update --channel beta
 - [入門指南](https://github.com/openclaw/openclaw#getting-started)
 - [設定參考](https://github.com/openclaw/openclaw/blob/main/docs/configuration.md)
 - [Discord 社群](https://discord.gg/openclaw)
-

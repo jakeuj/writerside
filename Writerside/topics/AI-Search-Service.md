@@ -3,6 +3,7 @@
 Azure 提供向量搜尋服務
 
 ## 服務介紹
+
 [Azure AI 搜尋服務](https://learn.microsoft.com/zh-tw/azure/search/search-what-is-azure-search)
 （ 先前稱為「Azure 認知搜尋」）可在傳統和產生的 AI 搜尋應用程式中，透過使用者擁有的內容，大規模提供安全的資訊擷取。
 
@@ -14,6 +15,7 @@ Azure 提供向量搜尋服務
   - 適用於 JavaScript 的 Azure SDK
 
 ## 使用方式
+
 本篇採用官方建議的 [REST](https://learn.microsoft.com/zh-tw/azure/search/search-get-started-vector) 說明文件來作筆記補充
 
 理解後可以再依照自己的開發環境選擇 Azure SDK
@@ -41,6 +43,7 @@ Azure 提供向量搜尋服務
 [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
 
 ### 6. 修改範例程式碼
+
 將 `az-search-vector-quickstart.rest` 檔案中的 `@baseUrl` 與 `@apiKey` 替換為自己的服務端點與金鑰
 
 ```
@@ -49,7 +52,9 @@ Azure 提供向量搜尋服務
 ```
 
 ### 7. 執行範例程式碼建立索引
+
 類似建立資料表的結構
+
 - HotelId: 主索引鍵
 - HotelName: 旅館名稱
 - HotelNameVector: 旅館名稱的向量(用以模糊搜尋)
@@ -69,7 +74,9 @@ POST  {{baseUrl}}/indexes?api-version=2023-11-01  HTTP/1.1
     Content-Type: application/json
     api-key: {{apiKey}}
 ```
+
 Request
+
 ```json
 {
   "name": "hotels-vector-quickstart",
@@ -303,9 +310,10 @@ Request
 ```
 
 ### 8. 執行範例程式碼上傳資料
+
 類似新增資料到資料表
 
-其中 HotelNameVector 與 DescriptionVector 
+其中 HotelNameVector 與 DescriptionVector
 
 是將 HotelName 與 Description 向量化後的結果
 
@@ -323,7 +331,9 @@ POST  {{baseUrl}}/indexes/hotels-vector-quickstart/docs/index?api-version=2023-1
     Content-Type: application/json
     api-key: {{apiKey}}
 ```
+
 Request
+
 ```json
 {
     "value": [
@@ -361,10 +371,13 @@ Request
     ]
 }
 ```
+
 這邊資料很長，所以只貼一筆資料，並且縮減向量，方便瀏覽，實際請到 Github 範例程式碼中查看
 
 ### 9. 執行單一向量查詢
+
 類似查詢資料表
+
 - count: 是否回傳筆數
 - select: 回傳的欄位
 - vectorQueries: 向量查詢
@@ -380,7 +393,9 @@ POST {{baseUrl}}/indexes/hotels-vector-quickstart/docs/search?api-version=2023-1
     Content-Type: application/json
     api-key: {{apiKey}}
 ```
+
 Request
+
 ```json
 {
   "count": true,
@@ -396,7 +411,9 @@ Request
   ]
 }
 ```
+
 Response
+
 ```json
 {
   "@odata.context": "https://ai-jakeuj.search.windows.net/indexes('hotels-vector-quickstart')/$metadata#docs(*)",
@@ -456,7 +473,9 @@ Response
 ```
 
 ### 10. 執行向量查詢並加上過濾器
+
 類似帶過濾條件查詢資料表
+
 - filter: 篩選條件
 - vectorFilterMode: 向量篩選模式
 
@@ -466,7 +485,9 @@ POST {{baseUrl}}/indexes/hotels-vector-quickstart/docs/search?api-version=2023-1
     Content-Type: application/json
     api-key: {{apiKey}}
 ```
+
 Request
+
 ```json
 {
   "count": true,
@@ -484,7 +505,9 @@ Request
   ]
 }
 ```
+
 Response
+
 ```json
 {
   "@odata.context": "https://ai-jakeuj.search.windows.net/indexes('hotels-vector-quickstart')/$metadata#docs(*)",
@@ -532,6 +555,7 @@ Response
 ```
 
 ### 11. 執行混合查詢
+
 同時運行全文和向量查詢
 
 ```http request
@@ -540,7 +564,9 @@ POST {{baseUrl}}/indexes/hotels-vector-quickstart/docs/search?api-version=2023-1
     Content-Type: application/json
     api-key: {{apiKey}}
 ```
+
 Request
+
 ```json
 {
   "count": true,
@@ -558,7 +584,9 @@ Request
   ]
 }
 ```
+
 Response
+
 ```json
 {
   "@odata.context": "https://ai-jakeuj.search.windows.net/indexes('hotels-vector-quickstart')/$metadata#docs(*)",
@@ -654,7 +682,9 @@ Response
 ```
 
 ### 12. 執行混合查詢並進行語意重新排序
+
 混合查詢(全文和向量查詢)與語義重新排序功能，以提升搜索結果的相關性和質量
+
 - queryType: 查詢類型
 - semanticConfiguration: 語義配置
 - facets: 分類
@@ -665,7 +695,9 @@ POST {{baseUrl}}/indexes/hotels-vector-quickstart/docs/search?api-version=2023-1
     Content-Type: application/json
     api-key: {{apiKey}}
 ```
+
 Request
+
 ```json
 {
   "count": true,
@@ -688,7 +720,9 @@ Request
   ]
 }
 ```
+
 Response
+
 ```json
 {
   "error": {
@@ -703,11 +737,13 @@ Response
   }
 }
 ```
+
 這邊我用免費層，所以無法使用該功能
 
 - requires Basic tier or above
 
 ### 13. 執行範例程式碼刪除索引
+
 類似刪除資料表
 
 ```http request

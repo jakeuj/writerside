@@ -33,10 +33,10 @@ app.UseHttpsRedirection();
 
 PS5
 
-* HSTS
-* HTTPS
+- HSTS
+- HTTPS
 
-* 回首頁
+- 回首頁
 
 ---
 

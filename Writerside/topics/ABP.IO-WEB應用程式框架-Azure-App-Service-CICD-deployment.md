@@ -12,7 +12,7 @@
 
 在 Azure App Service 部屬中心可以選擇部屬方式
 
-* Azure DevOps Repo
+- Azure DevOps Repo
   需要在根目錄建立以下檔案來指定起始專案
   .deployment
 
@@ -21,11 +21,11 @@
 project = src/TestProject.HttpApi.Host/TestProject.HttpApi.Host.csproj
 ```
 
-* Github
+- Github
   需要將自動產生的設定檔案進行以下修改來指定建置專案
   不然會 publish 測試專案導致 appsettings.json 被覆蓋
-  + `dotnet build src\MyProject.HttpApi.Host`
-  + `dotnet publish src\MyProject.HttpApi.Host`
+  - `dotnet build src\MyProject.HttpApi.Host`
+  - `dotnet publish src\MyProject.HttpApi.Host`
 
 ### yml
 
@@ -89,7 +89,7 @@ jobs:
           package: .
 ```
 
-* DevOps Pipeline
+- DevOps Pipeline
   如果再從 DevOps 設定 CI/CD，則 Azure App Service 部屬中心的設定要拿掉
   統一由 DevOps 這邊的 yaml 檔案來進行 CI/CD 設定
 
@@ -119,7 +119,7 @@ CryptographicException: Access is denied
 ```
 public override void PreConfigureServices(ServiceConfigurationContext context)
 {
-	// 新增程式碼起始
+ // 新增程式碼起始
     var hostingEnvironment = context.Services.GetHostingEnvironment();
     if (hostingEnvironment.IsStaging())
     {
@@ -221,8 +221,8 @@ public override void PreConfigureServices(ServiceConfigurationContext context)
 
 Ref:
 
-* [在代碼中使用 TLS/SSL 證書 - Azure App Service |Microsoft 學習](https://learn.microsoft.com/en-us/azure/app-service/configure-ssl-certificate-in-code#load-certificate-in-windows-apps)
-* [OpenIddict WindowsCryptographicException：訪問被拒絕 #3537 |支援中心 |ABP商業 |支援中心](https://support.abp.io/QA/Questions/3537/OpenIddict-WindowsCryptographicException-Access-is-denied)
+- [在代碼中使用 TLS/SSL 證書 - Azure App Service |Microsoft 學習](https://learn.microsoft.com/en-us/azure/app-service/configure-ssl-certificate-in-code#load-certificate-in-windows-apps)
+- [OpenIddict WindowsCryptographicException：訪問被拒絕 #3537 |支援中心 |ABP商業 |支援中心](https://support.abp.io/QA/Questions/3537/OpenIddict-WindowsCryptographicException-Access-is-denied)
 
 .NET 環境
 
@@ -244,17 +244,17 @@ ASPNETCORE_ENVIRONMENT=Staging
 
 PS5
 
-* ABP
-* App Service
+- ABP
+- App Service
 {ignore-vars="true"}
-* Azure
-* CI/CD
+- Azure
+- CI/CD
 {ignore-vars="true"}
-* deployment
-* DevOps
-* Github
+- deployment
+- DevOps
+- Github
 
-* 回首頁
+- 回首頁
 
 ---
 

@@ -14,9 +14,9 @@
 
 跟登入有關的程式碼如下
 
-* [Volo.Abp.Account.Web.Areas.Account.Controllers.AccountController](https://github.com/abpframework/abp/blob/dev/modules/account/src/Volo.Abp.Account.Web/Areas/Account/Controllers/AccountController.cs#L51)
-* [Volo.Abp.Account.Web.Pages.Account.LoginModel](https://github.com/abpframework/abp/blob/dev/modules/account/src/Volo.Abp.Account.Web/Pages/Account/Login.cshtml.cs#L85)
-* [Volo.Abp.Account.Web.Pages.Account.IdentityServerSupportedLoginModel](https://github.com/abpframework/abp/blob/dev/modules/account/src/Volo.Abp.Account.Web.IdentityServer/Pages/Account/IdentityServerSupportedLoginModel.cs#L104)
+- [Volo.Abp.Account.Web.Areas.Account.Controllers.AccountController](https://github.com/abpframework/abp/blob/dev/modules/account/src/Volo.Abp.Account.Web/Areas/Account/Controllers/AccountController.cs#L51)
+- [Volo.Abp.Account.Web.Pages.Account.LoginModel](https://github.com/abpframework/abp/blob/dev/modules/account/src/Volo.Abp.Account.Web/Pages/Account/Login.cshtml.cs#L85)
+- [Volo.Abp.Account.Web.Pages.Account.IdentityServerSupportedLoginModel](https://github.com/abpframework/abp/blob/dev/modules/account/src/Volo.Abp.Account.Web.IdentityServer/Pages/Account/IdentityServerSupportedLoginModel.cs#L104)
 
 其中的關係是
 
@@ -413,9 +413,9 @@ ObjectExtensionManager.Instance
 
 PS5
 
-* ABP
+- ABP
 
-* 回首頁
+- 回首頁
 
 ---
 

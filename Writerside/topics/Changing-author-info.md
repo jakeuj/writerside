@@ -8,15 +8,17 @@
 
 ![git-bash.png](git-bash.png){style="block"}
 
-2. Clone Repository.
+1. Clone Repository.
+
 ```bash
 git clone --bare https://hostname/user/repo.git
 cd repo.git
 ```
-3. 複製腳本並取代以下的變數
+1. 複製腳本並取代以下的變數
     - OLD_EMAIL: 舊的 Email
     - CORRECT_NAME: 正確的名字
     - CORRECT_EMAIL: 正確的 Email
+
 ```bash
 #!/bin/sh
 
@@ -38,20 +40,24 @@ export GIT_AUTHOR_EMAIL="$CORRECT_EMAIL"
 fi
 ' --tag-name-filter cat -- --branches --tags
 ```
-4. 複製修改後的腳本並貼到 git bash 中執行腳本
-5. 確認新的紀錄是否正確
+1. 複製修改後的腳本並貼到 git bash 中執行腳本
+2. 確認新的紀錄是否正確
+
 ```Bash
 git log --pretty=format:"%h - %an <%ae>"
 ```
-6. Push 到遠端 Repository
+1. Push 到遠端 Repository
+
 ```bash
 git push --force --tags origin 'refs/heads/*'
 ```
-7. 刪除本地的 Clone Repository
+1. 刪除本地的 Clone Repository
+
 ```bash
 cd ..
 rm -rf repo.git
 ```
 
 ## 參考資料
+
 - [Changing author info](https://docs.github.com/en/enterprise/2.17/user/github/using-git/changing-author-info)

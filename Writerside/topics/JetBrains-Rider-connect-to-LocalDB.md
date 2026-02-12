@@ -41,11 +41,11 @@ connectionString="Server=(LocalDb)\\MSSQLLocalDB;Database=TestDB;Trusted\_Connec
 
 PS5
 
-* MSSQL
-* Rider
-* SQL
+- MSSQL
+- Rider
+- SQL
 
-* 回首頁
+- 回首頁
 
 ---
 

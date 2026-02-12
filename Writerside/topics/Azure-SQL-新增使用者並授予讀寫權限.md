@@ -23,9 +23,9 @@ EXEC sp_addrolemember 'db_datawriter', TestApp;
 GO
 ```
 
-* `LOGIN` 是登入帳號，包含密碼、原則、過期、禁用…ETC.
+- `LOGIN` 是登入帳號，包含密碼、原則、過期、禁用…ETC.
   單純登入資料庫伺服器並無法存取資料庫
-* `USER` 是使用者，包含角色、權限…ETC.
+- `USER` 是使用者，包含角色、權限…ETC.
   關聯登入帳號到資料庫的使用者後，才能夠以對應資料庫的權限來存取，
   每個資料庫權限不同，須個別設定使用者權限
 
@@ -118,12 +118,12 @@ GO
 
 PS5
 
-* Azure SQL
+- Azure SQL
 {ignore-vars="true"}
-* MSSQL
-* SQL
+- MSSQL
+- SQL
 
-* 回首頁
+- 回首頁
 
 ---
 

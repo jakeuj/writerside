@@ -51,12 +51,12 @@ Windows 11 遇到開檔案很慢的問題
 
 PS5
 
-* Win 10
+- Win 10
 {ignore-vars="true"}
-* Win 11
+- Win 11
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

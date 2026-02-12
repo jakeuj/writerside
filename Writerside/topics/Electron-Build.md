@@ -34,7 +34,9 @@ yarn build
 ```
 
 ## 打包額外檔案
+
 package.json
+
 ```json
 {
   "build": {
@@ -54,7 +56,9 @@ package.json
 ```
 
 ## 打包 deb
+
 package.json
+
 ```json
 {
   "linux": {
@@ -66,4 +70,5 @@ package.json
 ```
 
 ## REF
+
 [Sample Code](https://github.com/jakeuj/electron/blob/main/package.json)

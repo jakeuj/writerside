@@ -57,10 +57,10 @@ https://abp.io/get-started
 
 DDD 將業務邏輯分為兩層,分別為 領域(Domain) 層和 應用(Application) 層,它們包含不同類型的業務邏輯.
 
-* 領域層:只實現領域業務邏輯,與用例無關.
-* 應用層:基於領域層來實現滿足用例的業務邏輯.用例可以看作是用戶界面(UI)或外部應用程序的交互.
-* 展現層(Presentation):包含應用程序的UI元素.
-* 基礎設施層(Infra):通過對第三方庫的集成或抽象,來滿足其它層的非核心業務邏輯的實現.
+- 領域層:只實現領域業務邏輯,與用例無關.
+- 應用層:基於領域層來實現滿足用例的業務邏輯.用例可以看作是用戶界面(UI)或外部應用程序的交互.
+- 展現層(Presentation):包含應用程序的UI元素.
+- 基礎設施層(Infra):通過對第三方庫的集成或抽象,來滿足其它層的非核心業務邏輯的實現.
 
 要說明專案檔之前需要先大概了解一下他們各自的相依性
 
@@ -76,8 +76,8 @@ ABP.IO 實際將.Net Solution 依照 DDD 拆成以下 Projects
 
 領域層:
 
-* Domain：領域核心，主要包含實體,領域服務,倉儲介面,值對象,規約…等
-* Domain.Shared：這是新版增加的，將領域層與其它層需要共用的東西抽出來(例如:列舉,常量等)
+- Domain：領域核心，主要包含實體,領域服務,倉儲介面,值對象,規約…等
+- Domain.Shared：這是新版增加的，將領域層與其它層需要共用的東西抽出來(例如:列舉,常量等)
   這主要是因為表現層、Controllers、WebAPI所會用到的DTO不能直接依賴Domain(比如實體)，
   但是DTO又很常會用到實體定義的enum(列舉)或是欄位最大長度定義const(常量)
 
@@ -85,8 +85,8 @@ ABP.IO 實際將.Net Solution 依照 DDD 拆成以下 Projects
 
 應用層
 
-* Application：是應用層中必需的,它實現了 Application.Contracts 項目中定義的接口.
-* Application.Contracts：應用合約，包含接口的定義(Interface)及接口依賴的DTO,此項目可以被展現層或其它客戶端應用程序引用.
+- Application：是應用層中必需的,它實現了 Application.Contracts 項目中定義的接口.
+- Application.Contracts：應用合約，包含接口的定義(Interface)及接口依賴的DTO,此項目可以被展現層或其它客戶端應用程序引用.
   這也是新版新增的，主要也是讓表現層、Controllers、WebAPI…等不直接依賴應用層
   例如：Unity (相當於表現層) 使用 c# 就可以直接拿這層 dll 去呼叫，不然要自己再寫一遍 DTO 或從專案原始碼複製過去
   這樣容易產生不同步的問題，以前DTO是放在應用層，相依一堆東西，又不可能拿去給 Unity直接用
@@ -95,9 +95,9 @@ ABP.IO 實際將.Net Solution 依照 DDD 拆成以下 Projects
 
 基礎設施層
 
-* EntityFrameworkCore：資料持久保存是放在基礎設施，這邊使用EF Core會有這專案。
+- EntityFrameworkCore：資料持久保存是放在基礎設施，這邊使用EF Core會有這專案。
   應用程序的數據庫上下文(DbContext),數據庫對象映射,倉儲介面的實現,以及其它與EF Core相關的內容都位於此項目中.
-* EntityFrameworkCore.DbMigrations：新版新增的專案，Migrations add 生成的檔案會放在這裡，不太需要動到這專案
+- EntityFrameworkCore.DbMigrations：新版新增的專案，Migrations add 生成的檔案會放在這裡，不太需要動到這專案
   是管理Code First方式數據庫遷移記錄的特殊項目.此項目定義了一個獨立的DbContext來追踪遷移記錄.
   只有當添加一個新的數據庫遷移記錄或添加一個新的應用模塊時,才會使用此項目,否則,其它情況無需修改此項目內容.
 
@@ -105,23 +105,23 @@ ABP.IO 實際將.Net Solution 依照 DDD 拆成以下 Projects
 
 其他專案
 
-* DbMigrator：建立領域實體然後 Migrations add 之後來執行這個專案就會生出資料庫/表，也可以產生SeedData
+- DbMigrator：建立領域實體然後 Migrations add 之後來執行這個專案就會生出資料庫/表，也可以產生SeedData
   目前用感覺不錯，要用記得裡面 appsettings 的連線字串要是正確的。(理論上直接 ef update database 應該也是可以)
   它是一個簡單的控制台程序,用來執行數據庫遷移,包括初始化數據庫及創建種子數據.這是一個非常實用的應用程序,
   你可以在開發環境或生產環境中使用它.
 
 展現層
 
-* Web (與HttpApi.Host擇一)：是一個ASP.NET Core MVC / Razor Pages應用程序.它是提供UI元素及API服務的可執行程序.
+- Web (與HttpApi.Host擇一)：是一個ASP.NET Core MVC / Razor Pages應用程序.它是提供UI元素及API服務的可執行程序.
   展現層如果是前後端分離的就不會在方案內看到這一個專案：Blazor,Angular,Vue,React,Unity…ETC.
   反之提供另一個專案 HttpApi.Host 使用 Swagger API UI 介面給外部呼叫
 
 遠程服務層
 
-* HttpApi：新版新增的東西，目前實作上不需要動到這個專案 (用不到可能可以刪除？) 包含了HTTP API的定義.它通常包含MVC Controller 和 Model(如果有).因此,你可以在此項目中提供HTTP API.
-* HttpApi.Host (與Web擇一)：ABP框架还支持其它类型的UI框架,包括Angular和Blazor.当选择Angular或Blazor时,解决方案不会有Web项目.但是会添加HttpApi.Host在解决方案中,
+- HttpApi：新版新增的東西，目前實作上不需要動到這個專案 (用不到可能可以刪除？) 包含了HTTP API的定義.它通常包含MVC Controller 和 Model(如果有).因此,你可以在此項目中提供HTTP API.
+- HttpApi.Host (與Web擇一)：ABP框架还支持其它类型的UI框架,包括Angular和Blazor.当选择Angular或Blazor时,解决方案不会有Web项目.但是会添加HttpApi.Host在解决方案中,
   此项目会提供HTTP API供UI调用.它是提供API服務的可執行程序. 執行這個就會跑出 Swagger API UI 介面給外部呼叫
-* HttpApi.Client：新版新增的東西，目前實作上不需要動到這個專案 (感覺類似以前 WCF Client)
+- HttpApi.Client：新版新增的東西，目前實作上不需要動到這個專案 (感覺類似以前 WCF Client)
   就目前看起來比較像是提供這個dll給Unity這種C#的專案直接參照方便呼叫API用的。
   當C#客戶端應用程序需要調用HttpApi的API時,這個項目非常有用.
   客戶端程序僅需引用此項目就可以通過依賴注入方式,遠程調用應用服務.
@@ -135,9 +135,9 @@ ABP.IO 實際將.Net Solution 依照 DDD 拆成以下 Projects
 
 PS5
 
-* ABP
+- ABP
 
-* 回首頁
+- 回首頁
 
 ---
 

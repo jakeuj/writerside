@@ -36,10 +36,10 @@ alias ll='ls -l'
 
 PS5
 
-* PowerShell
-* Bash
+- PowerShell
+- Bash
 
-* 回首頁
+- 回首頁
 
 ---
 

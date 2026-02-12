@@ -16,29 +16,29 @@
 
 在本系列教程中，您將構建一個名為`Acme.BookStore`. 此應用程序用於管理書籍及其作者的列表。它是使用以下技術開發的：
 
-* **Entity Framework Core**作為 ORM 提供者。
-* **Angular**作為 UI 框架。
+- **Entity Framework Core**作為 ORM 提供者。
+- **Angular**作為 UI 框架。
 
 本教程分為以下幾個部分；
 
-* [第 1 部分：創建服務器端](https://docs.abp.io/en/abp/latest/Tutorials/Part-1)
-* [第 2 部分：圖書列表頁面](https://docs.abp.io/en/abp/latest/Tutorials/Part-2)
-* [第 3 部分：創建、更新和刪除書籍](https://docs.abp.io/en/abp/latest/Tutorials/Part-3)
-* [第 4 部分：集成測試](https://docs.abp.io/en/abp/latest/Tutorials/Part-4)
-* [第 5 部分：授權](https://docs.abp.io/en/abp/latest/Tutorials/Part-5)
-* [第 6 部分：作者：領域層](https://docs.abp.io/en/abp/latest/Tutorials/Part-6)
-* [第 7 部分：作者：數據庫集成](https://docs.abp.io/en/abp/latest/Tutorials/Part-7)
-* [第 8 部分：作者：應用程序層](https://docs.abp.io/en/abp/latest/Tutorials/Part-8)
-* **第 9 部分：作者：用戶界面（本部分）**
-* [第 10 部分：書與作者的關係](https://docs.abp.io/en/abp/latest/Tutorials/Part-10)
+- [第 1 部分：創建服務器端](https://docs.abp.io/en/abp/latest/Tutorials/Part-1)
+- [第 2 部分：圖書列表頁面](https://docs.abp.io/en/abp/latest/Tutorials/Part-2)
+- [第 3 部分：創建、更新和刪除書籍](https://docs.abp.io/en/abp/latest/Tutorials/Part-3)
+- [第 4 部分：集成測試](https://docs.abp.io/en/abp/latest/Tutorials/Part-4)
+- [第 5 部分：授權](https://docs.abp.io/en/abp/latest/Tutorials/Part-5)
+- [第 6 部分：作者：領域層](https://docs.abp.io/en/abp/latest/Tutorials/Part-6)
+- [第 7 部分：作者：數據庫集成](https://docs.abp.io/en/abp/latest/Tutorials/Part-7)
+- [第 8 部分：作者：應用程序層](https://docs.abp.io/en/abp/latest/Tutorials/Part-8)
+- **第 9 部分：作者：用戶界面（本部分）**
+- [第 10 部分：書與作者的關係](https://docs.abp.io/en/abp/latest/Tutorials/Part-10)
 
 ### 下載源代碼
 
 本教程根據您的**UI**和**數據庫**首選項有多個版本。我們準備了幾個要下載的源代碼組合：
 
-* [帶有 EF Core 的 MVC（Razor Pages）UI](https://github.com/abpframework/abp-samples/tree/master/BookStore-Mvc-EfCore)
-* [帶有 EF Core 的 Blazor UI](https://github.com/abpframework/abp-samples/tree/master/BookStore-Blazor-EfCore)
-* [帶有 MongoDB 的 Angular UI](https://github.com/abpframework/abp-samples/tree/master/BookStore-Angular-MongoDb)
+- [帶有 EF Core 的 MVC（Razor Pages）UI](https://github.com/abpframework/abp-samples/tree/master/BookStore-Mvc-EfCore)
+- [帶有 EF Core 的 Blazor UI](https://github.com/abpframework/abp-samples/tree/master/BookStore-Blazor-EfCore)
+- [帶有 MongoDB 的 Angular UI](https://github.com/abpframework/abp-samples/tree/master/BookStore-Angular-MongoDb)
 
 ## 介紹
 
@@ -87,9 +87,9 @@ import { NgbDatepickerModule } from '@ng-bootstrap/ng-bootstrap';
 export class AuthorModule {}
 ```
 
-* 添加了`SharedModule`. `SharedModule`導出一些創建用戶界面所需的常用模塊。
-* `SharedModule`已經導出了`CommonModule`，所以我們已經刪除了`CommonModule`.
-* 添加`NgbDatepickerModule`了稍後將在作者創建和編輯表單中使用的內容。
+- 添加了`SharedModule`. `SharedModule`導出一些創建用戶界面所需的常用模塊。
+- `SharedModule`已經導出了`CommonModule`，所以我們已經刪除了`CommonModule`.
+- 添加`NgbDatepickerModule`了稍後將在作者創建和編輯表單中使用的內容。
 
 ### 菜單定義
 
@@ -252,7 +252,7 @@ export class AuthorComponent implements OnInit {
           if (status === Confirmation.Status.confirm) {
             this.authorService.delete(id).subscribe(() => this.list.get());
           }
-	    });
+     });
   }
 }
 ```
@@ -389,9 +389,9 @@ export class AuthorComponent implements OnInit {
 
 PS5
 
-* ABP
+- ABP
 
-* 回首頁
+- 回首頁
 
 ---
 

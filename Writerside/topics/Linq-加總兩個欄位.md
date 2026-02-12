@@ -16,20 +16,20 @@ SQL SUM(A), SUM(B) FROM C
 
 ```
 Products
-	.GroupBy(p => 1)
-	.Select(p => new {
-		TotalSid = p.Sum(x => x.SupplierID),
-		TotalCid = p.Sum(x => x.CategoryID)
-	})
+ .GroupBy(p => 1)
+ .Select(p => new {
+  TotalSid = p.Sum(x => x.SupplierID),
+  TotalCid = p.Sum(x => x.CategoryID)
+ })
 ```
 
 ![](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 
-* Linq
+- Linq
 
-* 回首頁
+- 回首頁
 
 ---
 

@@ -6,14 +6,15 @@ Answer the question: "Why should I follow this?"
 
 Provide a short outline for the tutorial.
 In this tutorial, you will learn how to:
-* Do this
-* Deal with that
+- Do this
+- Deal with that
 
 ## Before you start
 
 List the prerequisites that are required or recommended.
 
 Make sure that:
+
 - First prerequisite
 - Second prerequisite
 

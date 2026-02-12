@@ -17,7 +17,7 @@ sudo apt install python3-pip
 sudo apt update
 ```
 
-2. 安裝 pip 套件:
+1. 安裝 pip 套件:
 
 ```
 sudo apt install python3-pip
@@ -25,7 +25,7 @@ sudo apt install python3-pip
 
 這將安裝最新版本的 pip3 (適用於 Python 3)。
 
-3. 驗證 pip3 是否正確安裝:
+1. 驗證 pip3 是否正確安裝:
 
 ```
 pip3 --version
@@ -37,7 +37,7 @@ pip3 --version
 pip 21.2.4 from /usr/lib/python3/dist-packages/pip (python 3.8)
 ```
 
-4. 如果您想讓所有使用者都能使用 pip3 命令,而不只是當前使用者,您可以將 pip3 的可執行檔案路徑加入到系統路徑中。首先,找到 pip3 路徑:
+1. 如果您想讓所有使用者都能使用 pip3 命令,而不只是當前使用者,您可以將 pip3 的可執行檔案路徑加入到系統路徑中。首先,找到 pip3 路徑:
 
 ```
 which pip3
@@ -45,7 +45,7 @@ which pip3
 
 這將顯示 pip3 可執行檔案的路徑,通常是 `/usr/bin/pip3`
 
-5. 接著使用 nano 或其他文字編輯器編輯 /etc/bash.bashrc 檔案:
+1. 接著使用 nano 或其他文字編輯器編輯 /etc/bash.bashrc 檔案:
 
 ```
 sudo nano /etc/bash.bashrc
@@ -59,7 +59,7 @@ export PATH=$PATH:/usr/bin/pip3
 
 這將把 /usr/bin/pip3 加入系統路徑中。
 
-6. 儲存並退出編輯器。重新載入 bash 設定:
+1. 儲存並退出編輯器。重新載入 bash 設定:
 
 ```
 source /etc/bash.bashrc

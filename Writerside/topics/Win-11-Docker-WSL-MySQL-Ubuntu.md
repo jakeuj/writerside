@@ -24,7 +24,7 @@ Enable Virtual Machine Platform Feature and reboot
 
 初始化 Ubuntu
 
-* 設定帳號密碼
+- 設定帳號密碼
 
 安裝 Docker
 
@@ -36,16 +36,16 @@ Enable Virtual Machine Platform Feature and reboot
 
 ```
 docker run --name some-mysql
-	-p 3306:3306
-	-d mysql:8.0.33
-	-e MYSQL_ROOT_PASSWORD=my-secret-pw
-	-e MYSQL_ROOT_HOST='%'
-	-e MYSQL_USER=jakeuj
-	-e MYSQL_PASSWORD=my-secret-pw
-	-v /d/docker/mysql/data:/var/lib/mysql/
-	-v /d/docker/mysql/conf/my.cnf:/etc/mysql/my.cnf
-	--character-set-server=utf8mb4
-	--collation-server=utf8mb4_general_ci
+ -p 3306:3306
+ -d mysql:8.0.33
+ -e MYSQL_ROOT_PASSWORD=my-secret-pw
+ -e MYSQL_ROOT_HOST='%'
+ -e MYSQL_USER=jakeuj
+ -e MYSQL_PASSWORD=my-secret-pw
+ -v /d/docker/mysql/data:/var/lib/mysql/
+ -v /d/docker/mysql/conf/my.cnf:/etc/mysql/my.cnf
+ --character-set-server=utf8mb4
+ --collation-server=utf8mb4_general_ci
 ```
 
 登入 MySQL
@@ -76,14 +76,14 @@ DataGrip
 
 PS5
 
-* Docker
-* MySql
-* Ubuntu
-* Win 11
+- Docker
+- MySql
+- Ubuntu
+- Win 11
 {ignore-vars="true"}
-* WSL
+- WSL
 
-* 回首頁
+- 回首頁
 
 ---
 

@@ -3,7 +3,9 @@
 最近裝了 .NET 9.0，但專案是 .NET 8，所以想要指定 .NET SDK 版本
 
 ## global.json
+
 Rider 設定方式
+
 ```mermaid
 graph LR
 A[Rider] -->B(Solution)
@@ -15,5 +17,7 @@ A[Rider] -->B(Solution)
 ![sdk.png](sdk.png){style="block"}
 
 ![latest.png](latest.png){style="block"}
+
 ## REF
+
 [使用 global.json 精準的選擇 .NET SDK 版本](https://blog.miniasp.com/post/2021/06/04/Choose-the-right-DotNet-SDK-version-using-global-json)

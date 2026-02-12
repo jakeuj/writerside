@@ -47,10 +47,10 @@ https://peterhpchen.github.io/DigDeeperLINQ/03_LINQPad.html#%E7%94%A8%E6%B3%95
 
 PS5
 
-* Linq
-* LINQPad
+- Linq
+- LINQPad
 
-* 回首頁
+- 回首頁
 
 ---
 

@@ -367,9 +367,9 @@ You should implement and replace IConnectionStringResolver. In this custom servi
 
 PS5
 
-* ABP
+- ABP
 
-* 回首頁
+- 回首頁
 
 ---
 

@@ -120,13 +120,13 @@ public override void OnApplicationInitialization(ApplicationInitializationContex
 
 PS5
 
-* .Net 7
+- .Net 7
 {ignore-vars="true"}
-* C#
+- C#
 {ignore-vars="true"}
-* CORS
+- CORS
 
-* 回首頁
+- 回首頁
 
 ---
 

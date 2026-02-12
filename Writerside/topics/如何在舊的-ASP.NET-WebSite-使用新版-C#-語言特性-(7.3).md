@@ -1,4 +1,4 @@
-# ASP.NET WebSite 使用新版 C#
+# ASP.NET WebSite 使用新版 C #
 
 > **原文發布日期:** 2021-12-16
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/12/16/WebSite-CSharp-7
@@ -70,10 +70,10 @@ bin/roslyn/
 
 PS5
 
-* .NET Framework
+- .NET Framework
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

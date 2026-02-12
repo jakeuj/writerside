@@ -48,9 +48,9 @@ Navigate to **Vertex AI** > **Workbench** > **User-Managed Notebooks**.
 
 Click on the **Create Notebook** button on the middle of the screen. Select the following options:
 
-* **Name:** `vertex-ai-challenge`
-* **Region:** `filled in at lab start`
-* **Zone:** `filled in at lab start`
+- **Name:** `vertex-ai-challenge`
+- **Region:** `filled in at lab start`
+- **Zone:** `filled in at lab start`
 
 Click **Continue**.
 
@@ -66,10 +66,10 @@ Select **e2-standard-4** as the Machine Type. Click **Create**.
 
 ### 類型
 
-* **執行個體(預覽版)：預設值，**環境可以指定特定版本(舊版)，但我當下是跑不出來(愛的魔力轉圈圈)
+- **執行個體(預覽版)：預設值，**環境可以指定特定版本(舊版)，但我當下是跑不出來(愛的魔力轉圈圈)
   將代管式筆記本實例的面向工作流的集成與使用者管理的筆記本實例的自定義功能相結合的選項。
-* **代管型(舊版)：可以通過提供您自己的自訂 Docker 映像來創建和存取更多的自定義 Jupyter 內核。 系統將導入該容器上的所有可用 Jupyter 內核。**
-* **使用者管理筆記本(舊版)：按照**教學文件，這邊應該選擇此種類
+- **代管型(舊版)：可以通過提供您自己的自訂 Docker 映像來創建和存取更多的自定義 Jupyter 內核。 系統將導入該容器上的所有可用 Jupyter 內核。**
+- **使用者管理筆記本(舊版)：按照**教學文件，這邊應該選擇此種類
 
 ![](https://dotblogsfile.blob.core.windows.net/user/小小朱/3a778f3c-4c62-43cc-8a9b-12b589313749/1692869032.png.png)
 
@@ -109,11 +109,11 @@ E2標準4=$0.15/H (本教程)
 
 PS5
 
-* AI
-* GCP
-* Google
+- AI
+- GCP
+- Google
 
-* 回首頁
+- 回首頁
 
 ---
 

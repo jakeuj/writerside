@@ -60,10 +60,10 @@ private void ConfigureHttpClient(ServiceConfigurationContext context)
 
 PS5
 
-* DI
-* HttpClinet
+- DI
+- HttpClinet
 
-* 回首頁
+- 回首頁
 
 ---
 

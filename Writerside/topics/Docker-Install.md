@@ -3,6 +3,7 @@
 參考 [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/) 安裝 Docker Engine。
 
 1. Set up Docker's apt repository.
+
 ```bash
 # Add Docker's official GPG key:
 sudo apt-get update
@@ -19,13 +20,13 @@ echo \
 sudo apt-get update
 ```
 
-2. Install Docker Engine
+1. Install Docker Engine
 
 ```bash
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
-3. Verify that the Docker Engine installation is successful by running the hello-world image.
+1. Verify that the Docker Engine installation is successful by running the hello-world image.
 
 ```bash
 sudo docker run hello-world

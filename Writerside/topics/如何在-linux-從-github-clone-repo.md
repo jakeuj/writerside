@@ -37,12 +37,12 @@ ssh-keygen
 
 PS5
 
-* GCP
-* Git
-* Github
-* Linux
+- GCP
+- Git
+- Github
+- Linux
 
-* 回首頁
+- 回首頁
 
 ---
 

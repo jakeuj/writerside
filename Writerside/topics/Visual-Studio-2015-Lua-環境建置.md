@@ -98,11 +98,11 @@ using namespace std;
 
 int main()
 {
-	lua_State *l = luaL_newstate();
-	luaL_openlibs(l);
-	luaL_dofile(l, "main.lua");
-	lua_close(l);
-	system("pause");
+ lua_State *l = luaL_newstate();
+ luaL_openlibs(l);
+ luaL_dofile(l, "main.lua");
+ lua_close(l);
+ system("pause");
     return 0;
 }
 ```
@@ -121,10 +121,10 @@ int main()
 
 PS5
 
-* VisualStudio
-* Lua
+- VisualStudio
+- Lua
 
-* 回首頁
+- 回首頁
 
 ---
 

@@ -60,6 +60,6 @@ docker run --name some-postgres
 將掛載路徑設定回一般 NTFS 格式的磁碟，就可以正常運作了。
 
 ### 參照
+
 [DockerHub](https://hub.docker.com/_/postgres)
 [initdb: could not change permissions of directory on Postgresql container](https://stackoverflow.com/questions/44878062/initdb-could-not-change-permissions-of-directory-on-postgresql-container)
-

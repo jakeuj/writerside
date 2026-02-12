@@ -24,7 +24,7 @@
 
 `abp new MyProject  -t console`
 
-3. 然後在 Web 方案中新增專案 `MyProject.ConsoleApp`
+1. 然後在 Web 方案中新增專案 `MyProject.ConsoleApp`
 
 再把 Console 方案中的檔案複製貼上到新建的 `MyProject.ConsoleApp` 空專案中
 
@@ -69,7 +69,7 @@
 </Project>
 ```
 
-4. 於應用層建立一個應用服務
+1. 於應用層建立一個應用服務
 
 ```
 namespace MyProject.Application;
@@ -110,7 +110,7 @@ public IAbpLazyServiceProvider LazyServiceProvider { get; set; }
 
 ```
 public IRepository<Book, Guid> Repository =>
-	LazyServiceProvider.LazyGetRequiredService<IRepository<Book, Guid>>();
+ LazyServiceProvider.LazyGetRequiredService<IRepository<Book, Guid>>();
 ```
 
 5.使用應用層中的服務
@@ -188,10 +188,10 @@ public async Task StartAsync(CancellationToken cancellationToken)
 
 PS5
 
-* ABP
-* Console
+- ABP
+- Console
 
-* 回首頁
+- 回首頁
 
 ---
 

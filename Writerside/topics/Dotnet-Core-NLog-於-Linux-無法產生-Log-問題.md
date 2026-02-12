@@ -14,13 +14,13 @@ Linux
 
 NLog的設定檔的檔名只會吃以下兩種
 
-* NLog.config
-* nlog.config
+- NLog.config
+- nlog.config
 
 所以要注意檔名**不能**是以下兩種
 
-* nLog.config
-* Nlog.config
+- nLog.config
+- Nlog.config
 
 ---
 
@@ -53,15 +53,15 @@ Git
 
 PS5
 
-* C#
+- C#
 {ignore-vars="true"}
-* Git
-* Log
-* Log
-* .Net Core
+- Git
+- Log
+- Log
+- .Net Core
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

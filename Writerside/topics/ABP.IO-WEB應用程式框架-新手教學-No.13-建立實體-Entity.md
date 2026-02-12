@@ -20,12 +20,12 @@
 
 ![](https://dotblogsfile.blob.core.windows.net/user/御星幻/87bcc78e-ff0f-4121-8da5-3e2426d8cc84/1626666566.png)
 
-* Data：處理 SeedData 的東西
-* Identity Server：身分驗證服務器的 SeedData
-* Settings：定義設定值的地方，印象中應該是會存在DB的那種設定值
-* Users：使用者實體
-* BookStoreConsts：預設裡面有表名稱前綴(App)，領域其他常值可以集中新增在這裡
-* BookStoreDomainModule：Abp 每個專案都會有這個 xxxxModule，用來引入相依模組並進行一些設定
+- Data：處理 SeedData 的東西
+- Identity Server：身分驗證服務器的 SeedData
+- Settings：定義設定值的地方，印象中應該是會存在DB的那種設定值
+- Users：使用者實體
+- BookStoreConsts：預設裡面有表名稱前綴(App)，領域其他常值可以集中新增在這裡
+- BookStoreDomainModule：Abp 每個專案都會有這個 xxxxModule，用來引入相依模組並進行一些設定
   例如：下面第一段會使用 Domain.Share 層的 MultiTenancyConsts 裡面的 IsEnabled 來決定是否啟用多租戶
   最下面則會在DEBUG的時候把Mail的DI注入一個空的實作Null，不會真的發信但也不會報錯，有利於做單元測試
 
@@ -249,9 +249,9 @@ No 2.5 [領域服務 Domain Service](https://docs.abp.io/en/abp/latest/Domain-Se
 
 PS5
 
-* ABP
+- ABP
 
-* 回首頁
+- 回首頁
 
 ---
 

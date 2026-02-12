@@ -45,9 +45,9 @@ https://github.com/RonnieSan/uploadify/blob/master/index.php
 ```
 
 <form>
-	<div id="queue"></div>
-	<input id="file_upload" name="file_upload" type="file" multiple="true">
-	<a style="position: relative; top: 8px;" href="javascript:$('#file_upload').uploadifive('upload')">Upload Files</a>
+ <div id="queue"></div>
+ <input id="file_upload" name="file_upload" type="file" multiple="true">
+ <a style="position: relative; top: 8px;" href="javascript:$('#file_upload').uploadifive('upload')">Upload Files</a>
 </form>
 ```
 
@@ -62,23 +62,23 @@ https://github.com/RonnieSan/uploadify/blob/master/index.php
 ```
 
 $(function() {
-	$('#file_upload').uploadifive({
-		'auto'             : false,
-		'checkScript'      : 'check-exists.php',
-		'formData'         : {'folder': 'uploadFile'},
-		'queueID'          : 'queue',
-		'uploadScript'     : 'uploadifive.php',
-		'onUploadComplete' : function(file, data) { console.log(data); }
-	});
+ $('#file_upload').uploadifive({
+  'auto'             : false,
+  'checkScript'      : 'check-exists.php',
+  'formData'         : {'folder': 'uploadFile'},
+  'queueID'          : 'queue',
+  'uploadScript'     : 'uploadifive.php',
+  'onUploadComplete' : function(file, data) { console.log(data); }
+ });
 });
 ```
 
 JS 部分
 
-* checkScript 如果沒有要檢查是否重複可以整個拿掉 (因為我是升級舊版本，原本就沒有實作這個功能)
-* formData 因為舊版有 folder 這個設定，所以新版可以加在這邊無痛轉移，不然會少post參數到server端
-* uploadScript 這邊設改成你server端處理上傳檔案個那隻程式，C# 可能類似 uploadifive.ashx 這種檔案
-* onUploadComplete 是上傳完成後的處理，回傳參數比舊版少了不少，只剩下 file 跟 data 兩個參數
+- checkScript 如果沒有要檢查是否重複可以整個拿掉 (因為我是升級舊版本，原本就沒有實作這個功能)
+- formData 因為舊版有 folder 這個設定，所以新版可以加在這邊無痛轉移，不然會少post參數到server端
+- uploadScript 這邊設改成你server端處理上傳檔案個那隻程式，C# 可能類似 uploadifive.ashx 這種檔案
+- onUploadComplete 是上傳完成後的處理，回傳參數比舊版少了不少，只剩下 file 跟 data 兩個參數
   file跟原本依樣可以拿size,name...等等，data就是server端回傳的資料，有需要可以自己 console.log 瞧瞧
 
 其他設定部分可以到 js 原始檔內看註解
@@ -190,13 +190,13 @@ https://stackoverflow.com/questions/23399306/uploadifive-1-2-2-filetype-filter-c
 
 PS5
 
-* HTML
-* Javascript
-* jQuery
-* UploadiFive
-* Uploadify
+- HTML
+- Javascript
+- jQuery
+- UploadiFive
+- Uploadify
 
-* 回首頁
+- 回首頁
 
 ---
 

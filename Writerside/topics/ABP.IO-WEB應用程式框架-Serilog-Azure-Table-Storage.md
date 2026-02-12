@@ -126,12 +126,12 @@ try
 
 PS5
 
-* ABP
-* Azure
-* Serilog
-* Storage
+- ABP
+- Azure
+- Serilog
+- Storage
 
-* 回首頁
+- 回首頁
 
 ---
 

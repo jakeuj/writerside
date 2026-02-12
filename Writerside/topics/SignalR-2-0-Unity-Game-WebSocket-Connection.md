@@ -75,13 +75,13 @@ Client端：[SignalR und Unity in euren Multiplayer-Indie-Games](https://blogs.m
 
 PS5
 
-* C#
+- C#
 {ignore-vars="true"}
-* SignalR
-* Unity
-* WebSocket
+- SignalR
+- Unity
+- WebSocket
 
-* 回首頁
+- 回首頁
 
 ---
 

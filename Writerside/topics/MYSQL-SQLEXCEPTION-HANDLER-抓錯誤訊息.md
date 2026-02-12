@@ -41,9 +41,9 @@ B在執行途中輸出 @sqlString 實際上會輸出上A SP裡頭用的查詢語
 
 PS5
 
-* MySql
+- MySql
 
-* 回首頁
+- 回首頁
 
 ---
 

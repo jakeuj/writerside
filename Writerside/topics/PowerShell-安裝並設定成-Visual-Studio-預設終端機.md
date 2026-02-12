@@ -25,10 +25,10 @@
 
 PS5
 
-* PowerShell
-* VisualStudio
+- PowerShell
+- VisualStudio
 
-* 回首頁
+- 回首頁
 
 ---
 

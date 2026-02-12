@@ -21,26 +21,26 @@
 ```
 void Main()
 {
-	List<User> users = new List<User> {
-		new User(1),
-		new User(2),
-		new User(3),
-		new User(4),
-		new User(5),
-	};
+ List<User> users = new List<User> {
+  new User(1),
+  new User(2),
+  new User(3),
+  new User(4),
+  new User(5),
+ };
 
-	List<int> idList = new List<int> {2,4};
+ List<int> idList = new List<int> {2,4};
 
-	var newList = users.OrderByDescending(x=>idList.Contains(x.Id)).ToList();
+ var newList = users.OrderByDescending(x=>idList.Contains(x.Id)).ToList();
 
-	newList.Dump();
+ newList.Dump();
 }
 
 // You can define other methods, fields, classes and namespaces here
 public class User
 {
-	public int Id { get; set; }
-	public User(int id) {Id = id;}
+ public int Id { get; set; }
+ public User(int id) {Id = id;}
 }
 ```
 
@@ -49,9 +49,9 @@ public class User
 
 PS5
 
-* Linq
+- Linq
 
-* 回首頁
+- 回首頁
 
 ---
 

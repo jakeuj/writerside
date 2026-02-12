@@ -45,9 +45,9 @@ var entity = await _blogRepository.GetAsync();
 
 首先要在 Entity 定義導覽屬性
 
-* Order
+- Order
   `public ICollection<OrderLine> Lines { get; set; } //Sub collection`
-* OrderLine
+- OrderLine
   `[JsonIgnore] public Order Order { get; set; } //Navigation property`
 
 #### 注意
@@ -143,10 +143,10 @@ var result = await AsyncExecuter.ToListAsync(query, cancellationToken);
 
 PS5
 
-* Entity Framework
+- Entity Framework
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

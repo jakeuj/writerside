@@ -57,6 +57,7 @@ web.config
   <appSettings/>
 </configuration>
 ```
+
 {ignore-vars="true"}
 
 要用Log的class
@@ -96,13 +97,13 @@ public class MyApp
 
 PS5
 
-* Apache
-* C#
+- Apache
+- C#
 {ignore-vars="true"}
-* Log
-* Log
+- Log
+- Log
 
-* 回首頁
+- 回首頁
 
 ---
 

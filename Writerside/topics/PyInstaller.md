@@ -33,7 +33,7 @@ pyinstaller ./src/main.py
 - `--specpath .` : 將此次部署參數儲存至指定位置，以此為例會產生 main.spec 檔案
 - `--paths` : 指定 python 檔案的位置，如果起始檔不在專案根目錄，就需要指定位置，否則 import 會找不到檔案
 - `--add-data` : 指定要加入的非程式碼檔案
-  - 例如：*.json, *.ini 等等。
+  - 例如：*.json,*.ini 等等。
   - 格式：`"來源檔案:輸出檔案"`
 
 這會建立 main.spec 檔案，類似 publish 組態設定檔，之後可以直接用此設定檔進行打包，省得每次重新打參數。
@@ -48,11 +48,11 @@ pyinstaller main.spec
 
 例如：如果原本是這樣的結構：
 
-
 src/a/b/config.json
 src/a/b/service/test/config.py
 
 config.py
+
 ```Python
 base_path = os.path.dirname(os.path.abspath(__file__))
 config = os.path.join(base_path, '../../config.json')
@@ -63,6 +63,7 @@ config = os.path.join(base_path, '../../config.json')
 所以要改成這樣：
 
 config.py
+
 ```Python
 # 检查是否在打包后的环境中运行
 if hasattr(sys, '_MEIPASS'):

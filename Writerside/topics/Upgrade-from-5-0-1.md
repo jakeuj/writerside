@@ -82,6 +82,7 @@ abp install-libs
 ![libs.png](libs.png){style="block"}
 
 ## abp update -v 8.0.0
+
 專案更新成 .Net 8 (7)
 Test501.EntityFrameworkCore 改成 Microsoft.EntityFrameworkCore.Tools 8.0.0 (7.0.0)
 Test501.Domain.Shared 改成 Microsoft.Extensions.FileProviders.Embedded 8.0.0 (7.0.0)
@@ -126,4 +127,5 @@ public override void PreConfigureServices(ServiceConfigurationContext context)
 ```
 
 #### 參照
+
 [v800-Permission-issue](https://support.abp.io/QA/Questions/6432/v800-Permission-issue)

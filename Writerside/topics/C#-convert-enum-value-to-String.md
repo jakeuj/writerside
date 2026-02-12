@@ -45,7 +45,7 @@ Console.WriteLine(Urgency.High.ToString("D"));
 
 PS5
 
-* 回首頁
+- 回首頁
 
 ---
 

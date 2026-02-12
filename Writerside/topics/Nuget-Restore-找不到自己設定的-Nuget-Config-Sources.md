@@ -44,12 +44,12 @@
 
 可以按以下情況進行對應處理
 
-* 無 Custom Nuget Server Url
-  + 手動下載 .nuget 並於 nuget source 加入 local path
-* 有 Custom Nuget Server Url
-  + 有 NuGet.Config
+- 無 Custom Nuget Server Url
+  - 手動下載 .nuget 並於 nuget source 加入 local path
+- 有 Custom Nuget Server Url
+  - 有 NuGet.Config
     - 確認該檔路徑位於 .sln 目錄
-  + 無 NuGet.Config
+  - 無 NuGet.Config
     - 於 .sln 目錄新建 NuGet.Config
     - 手動於 nuget source 加入 Url
 
@@ -63,11 +63,11 @@
 
 PS5
 
-* C#
+- C#
 {ignore-vars="true"}
-* NuGet
+- NuGet
 
-* 回首頁
+- 回首頁
 
 ---
 

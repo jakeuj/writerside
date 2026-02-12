@@ -18,29 +18,29 @@ Repository Linq LeftJoin (GroupJoin + SelectMany) and Join
 
 成為 cDto 作為資料傳輸物件輸出
 
-* Left Join (GroupJoin + Select) 子集合選擇特定欄位
+- Left Join (GroupJoin + Select) 子集合選擇特定欄位
 
 ```
 var joinQuery = order
-	.GroupJoin(orderStatus,
-		o => o.Id,
-		s => s.Id,
-		(o, s) => new {
-			o.Id,
-			data = s.Select(x => new {
-				x.Item,
-				x.Qty
-				}
-			)
-		}
-	)
-	.Where(x => x.data.Any())
-	.ToList();
+ .GroupJoin(orderStatus,
+  o => o.Id,
+  s => s.Id,
+  (o, s) => new {
+   o.Id,
+   data = s.Select(x => new {
+    x.Item,
+    x.Qty
+    }
+   )
+  }
+ )
+ .Where(x => x.data.Any())
+ .ToList();
 ```
 
 ![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/573d0ae9-3423-4102-b172-e3e56367dd3b/1665481478.png.png)
 
-* Left Join (GroupJoin + SelectMany) 攤平子集合
+- Left Join (GroupJoin + SelectMany) 攤平子集合
 
 ```
 var joinQuery = _aRepository.GetAll()
@@ -55,7 +55,7 @@ var joinQuery = _aRepository.GetAll()
     });
 ```
 
-* Join  (innerJoin)
+- Join  (innerJoin)
 
 ```
 var joinQuery = _aRepository.GetAll()
@@ -77,11 +77,11 @@ B倉儲只要沒有A的bID，該筆資料就不會出現在結果
 
 PS5
 
-* Join
-* Linq
-* Repository
+- Join
+- Linq
+- Repository
 
-* 回首頁
+- 回首頁
 
 ---
 

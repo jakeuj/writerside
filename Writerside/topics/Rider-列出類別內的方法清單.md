@@ -26,7 +26,7 @@ VS轉到Rider好一陣子了
 
 這在VS我也看過，拿來當找方法的方式也可以
 
-3. 乖乖寫 Interface
+1. 乖乖寫 Interface
 
 ---
 
@@ -44,10 +44,10 @@ RIDER的快捷鍵是Ctrl+G
 
 PS5
 
-* Rider
-* IDE
+- Rider
+- IDE
 
-* 回首頁
+- 回首頁
 
 ---
 

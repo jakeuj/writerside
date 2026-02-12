@@ -19,8 +19,8 @@ appsettings.json 設定以下內容
 }
 ```
 
-* `IsSelfRegistrationEnabled` 本地註冊
-* `EnableLocalLogin` 本地登入
+- `IsSelfRegistrationEnabled` 本地註冊
+- `EnableLocalLogin` 本地登入
 
 外部登入比如 AzureAd, FB, Google, MS…ETC. 就會自動導到OAuth登入頁
 
@@ -38,11 +38,11 @@ appsettings.json 設定以下內容
 
 PS5
 
-* ABP
-* Azure AD
+- ABP
+- Azure AD
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

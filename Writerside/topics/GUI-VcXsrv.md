@@ -3,6 +3,7 @@
 這是一個 Windows 上的 X Server，可以讓 Windows 上運行的程式顯示 Linux 的 GUI 界面。
 
 ## 安裝 VcXsrv
+
 首先，於 Windows 下載 VcXsrv 安裝程式：
 
 [VcXsrv](https://sourceforge.net/projects/vcxsrv/)
@@ -19,6 +20,7 @@
 `Authorization required, but no authorization protocol specified`
 
 ## 設定 WSL
+
 在 WSL 中，設定 `DISPLAY` 環境變數，
 
 ```bash
@@ -33,10 +35,11 @@ echo "export DISPLAY=$(ip route show | grep -i default | awk '{ print $3 }'):0" 
 source ~/.bashrc
 ```
 
-REF: 
+REF:
 [從 Linux (主機 IP) 存取 Windows 網路應用程式](https://learn.microsoft.com/zh-tw/windows/wsl/networking#accessing-windows-networking-apps-from-linux-host-ip)
 
 ## 運行 GUI 程式
+
 在 WSL 中運行 GUI 程式，例如 `xclock`：
 
 ```bash

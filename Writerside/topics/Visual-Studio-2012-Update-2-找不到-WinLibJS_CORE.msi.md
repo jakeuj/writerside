@@ -28,9 +28,9 @@ C:\ProgramData\Package Cache\
 
 PS5
 
-* VisualStudio
+- VisualStudio
 
-* 回首頁
+- 回首頁
 
 ---
 

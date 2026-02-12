@@ -10,6 +10,7 @@ NVIDIA NIM 也提供了預建的容器，方便使用者快速部署大型語言
 這是一種優化的語言理解、推理和文本生成用途的模型，超越了許多開源聊天機器人的業界基準。
 
 ## 需求
+
 參照：[prerequisites](https://docs.nvidia.com/nim/large-language-models/latest/getting-started.html#prerequisites)
 
 - NVIDIA GPU
@@ -22,6 +23,7 @@ NVIDIA NIM 也提供了預建的容器，方便使用者快速部署大型語言
 ![nim-cuda.png](nim-cuda.png){style="block"}
 
 ## 登入
+
 使用 Docker 拉取並執行 meta/llama-3_1-8b-instruct（這將下載完整模型並在本機環境中執行）。
 
 ```Shell
@@ -29,6 +31,7 @@ $ docker login nvcr.io
 Username: $oauthtoken
 Password: <Your Key>
 ```
+
 ![nvcr.png](nvcr.png){style="block"}
 
 - `<Your Key>`
@@ -36,9 +39,11 @@ Password: <Your Key>
 ![nim-key.png](nim-key.png){style="block"}
 
 ## 拉取並執行
+
 使用下面的命令調出並運行英偉達 NIM。這將為您的基礎架構下載最佳化模型。
 
 - 前台執行 llama3-8b-instruct
+
     ```Bash
     export NGC_API_KEY=<PASTE_API_KEY_HERE>
     export LOCAL_NIM_CACHE=~/.cache/nim
@@ -52,7 +57,9 @@ Password: <Your Key>
         -p 8000:8000 \
         nvcr.io/nim/meta/llama3-8b-instruct:1.0.0
     ```
+
 - 背景執行 llama-3.1-8b-instruct
+
     ```Bash
     docker run -d --rm \
         --gpus all \
@@ -66,14 +73,15 @@ Password: <Your Key>
         --max-model-len 42448
     ```
 
-- `--max-model-len 42448` 
-是為了避免 
+- `--max-model-len 42448`
+是為了避免
 `The model's max seq len (131072) is larger than the maximum number of tokens that can be stored in KV cache`
 錯誤。
 
 ![llama3.png](llama3.png){style="block"}
 
 - Windows PowerShell
+
     ```Shell
     # 設定環境變數
     $env:NGC_API_KEY = "<PASTE_API_KEY_HERE>"
@@ -96,8 +104,11 @@ Password: <Your Key>
 ![nim-ps1.png](nim-ps1.png){style="block"}
 
 ## 呼叫
+
 現在，您可以使用以下 curl 命令進行本機 API 呼叫
+
 - Linux Bash
+
 ```Bash
 curl -X 'POST' \
 'http://0.0.0.0:8000/v1/chat/completions' \
@@ -109,7 +120,9 @@ curl -X 'POST' \
     "max_tokens": 64
 }'
 ```
+
 - Windows PowerShell
+
 ```Shell
 # 準備請求的數據
 $jsonData = @{
@@ -135,9 +148,11 @@ $response = Invoke-RestMethod -Uri 'http://localhost:8000/v1/chat/completions' `
 # 輸出結果
 $response | ConvertTo-Json -Depth 10
 ```
+
 ![qa.png](qa.png){style="block"}
 
 ## GPU 記憶體不足
+
 如果出現以下錯誤，表示 GPU 記憶體不足，無法執行模型。
 
 `發現但目前不可運行的兼容配置文件數量：1 個（由於 GPU 記憶體不足）`
@@ -179,11 +194,13 @@ SYSTEM INFO
   -  [2191:10de] (0) NVIDIA GeForce GTX 1660 Ti 
       [current utilization: 7%]
 ```
+
 {ignore-vars="true"}
 
 ![rope.png](rope.png){style="block"}
 
 ## 沒有權限訪問 Docker daemon
+
 我在 Ubuntu 全新安裝 Docker 時，會遇到以下錯誤，表示沒有權限訪問 Docker daemon。
 
 ```
@@ -201,6 +218,7 @@ sudo usermod -aG docker $(whoami)
 ```
 
 ## could not select device driver
+
 如果出現以下錯誤，表示 Docker 找不到 GPU 驅動程式。需要安裝 NVIDIA Container Toolkit。
 
 ```
@@ -214,6 +232,7 @@ docker: Error response from daemon:
 [installing-with-apt](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#installing-with-apt)
 
 1. Configure the production repository
+
 ```Bash
 curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg \
   && curl -s -L https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-container-toolkit.list | \
@@ -221,23 +240,27 @@ curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dear
     sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
 ```
 
-2. Update the packages list from the repository
+1. Update the packages list from the repository
+
 ```Bash
 sudo apt-get update
 ```
 
-3. Install the NVIDIA Container Toolkit packages
+1. Install the NVIDIA Container Toolkit packages
+
 ```Bash
 sudo apt-get install -y nvidia-container-toolkit
 ```
 
-4. Restart the Docker daemon
+1. Restart the Docker daemon
+
 ```Bash
 sudo nvidia-ctk runtime configure --runtime=docker
 sudo systemctl restart docker
 ```
 
-5. Verify the installation
+1. Verify the installation
+
 ```Bash
 sudo docker run --rm --gpus all nvidia/cuda:12.5.1-base-ubuntu24.04 nvidia-smi
 ```
@@ -273,6 +296,7 @@ sudo init 6
 舊顯卡 (3090 Ti) 也可以安裝最新版驅動 (555)，進而支援最新版本 CUDA (12.5) 和 Docker 容器。
 
 ## 未知的 RoPE (Rotary Position Embedding) scaling 類型 "extended"
+
 目前 [Meta Llama 3.1 Know Issues & FAQ #6689](https://github.com/vllm-project/vllm/issues/6689)，會出現以下錯誤，說是會盡快修復。
 
 ```
@@ -280,4 +304,5 @@ ValueError: Unknown RoPE scaling type extended
 ```
 
 ## 參考
+
 [getting-started](https://docs.nvidia.com/nim/large-language-models/latest/getting-started.html)

@@ -23,8 +23,8 @@ expression = age > 18
 var entities = await testRepository.GetListAsync(expression);
 ```
 
-* 如果 18 歲, where 條件為 `x.Id == id && x.IsAdult`
-* 否則 (未滿18) where 條件為 `x.Id == id && x.IsBaby`
+- 如果 18 歲, where 條件為 `x.Id == id && x.IsAdult`
+- 否則 (未滿18) where 條件為 `x.Id == id && x.IsBaby`
 
 P.S. 情境是直接寫條件 Linq to SQL (case then) 撈出來的資料會是錯的
 
@@ -65,9 +65,9 @@ Console.WriteLine(Expression.Lambda<Func<bool>>(andExpr).Compile()());
 
 PS5
 
-* Linq
+- Linq
 
-* 回首頁
+- 回首頁
 
 ---
 

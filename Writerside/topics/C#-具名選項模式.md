@@ -76,10 +76,10 @@ public class TestNOModel : PageModel
 
 PS5
 
-* .Net 7
+- .Net 7
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

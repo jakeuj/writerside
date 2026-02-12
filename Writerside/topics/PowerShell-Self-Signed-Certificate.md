@@ -106,15 +106,15 @@ AzureRoot.cer > 本機電腦\受信任的根憑證授權單位
 
 PS5
 
-* Azure SQL
+- Azure SQL
 {ignore-vars="true"}
-* Azure VPN
+- Azure VPN
 {ignore-vars="true"}
-* Certificate
-* PowerShell
-* SSL
+- Certificate
+- PowerShell
+- SSL
 
-* 回首頁
+- 回首頁
 
 ---
 

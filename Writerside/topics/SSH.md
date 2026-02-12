@@ -23,13 +23,13 @@ sudo systemctl start ssh
 sudo adduser 新使用者名稱
 ```
 
-3. 將新使用者加入 sudo 群組,以賦予其 root 權限。
+1. 將新使用者加入 sudo 群組,以賦予其 root 權限。
 
 ```bash
 sudo usermod -aG sudo 新使用者名稱
 ```
 
-4. 檢查新使用者是否已成功加入 sudo 群組。
+1. 檢查新使用者是否已成功加入 sudo 群組。
 
 ```bash
 groups 新使用者名稱
@@ -37,7 +37,7 @@ groups 新使用者名稱
 
 輸出結果應該會包含 `sudo` 這個群組。
 
-5. 現在,新使用者可以使用 `sudo` 命令來執行需要 root 權限的任務了。
+1. 現在,新使用者可以使用 `sudo` 命令來執行需要 root 權限的任務了。
 
 例如,如果新增了一個名為 `newuser` 的使用者,步驟如下:
 
@@ -86,4 +86,5 @@ sudo -i -u newuser
 這些命令允許您臨時切換到其他用戶身份,對於檢查新用戶權限或模擬其工作環境非常有用。
 
 ## REF
+
 [How to Enable SSH Server on Ubuntu](https://www.cyberciti.biz/faq/how-to-install-ssh-on-ubuntu-linux-using-apt-get/)

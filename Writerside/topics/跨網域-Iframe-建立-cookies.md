@@ -52,9 +52,9 @@ Response.Cookies.Add(sameSiteCookie);
 
 PS5
 
-* Cookies
+- Cookies
 
-* 回首頁
+- 回首頁
 
 ---
 

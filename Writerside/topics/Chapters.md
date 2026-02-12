@@ -20,6 +20,7 @@ Start typing here...
 ```
 
 ## Output
+
 {collapsible="true"}
 
 <procedure title="Add something" id="procedure-id">
@@ -29,6 +30,6 @@ Start typing here...
    <p>Congratulation! You've added something.</p>
 </procedure>
 
-
 ## Ref
+
 [collapsible-chapter](https://www.jetbrains.com/help/writerside/structural-elements.html#collapsible-chapter)

@@ -127,23 +127,29 @@ yarn electron .
     P.S. 記得 `Disable access control`
 
 2. 從 Windows PoserShell ssh 到遠端 Ubuntu
+
     ```Shell
     ssh trx50@192.168.1.2
     ```
+
    P.S. 192.168.1.2 需改成實際遠端 IP
 
 3. 設定 Ubuntu 環境變數 `DISPLAY` 到自己 Windows 的 IP
+
     ```bash
     export DISPLAY=192.168.1.3:0
     ```
+
     P.S. 192.168.1.3 需改成實際 Windows IP
 
 4. 執行 electron 應用程式
+
     ```bash
     my-electron-app
     ```
+
    P.S. `my-electron-app` 為自己打包安裝後的應用程式名稱，不然 `yarn electron .` 也可以
-   
+
 這樣就會在 Windows 直接顯示遠端 Ubuntu 的 electron 畫面。
 
 ![xWindows.png](xWindows.png){style="block"}

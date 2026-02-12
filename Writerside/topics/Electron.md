@@ -23,6 +23,7 @@ yarn add --dev electron
 需要新增 `"start": "electron ."` 到 package.json 的 scripts 中。
 
 package.json
+
 ```json
 {
   "name": "my-electron-app",
@@ -51,6 +52,7 @@ yarn start
 ## 執行 Python
 
 script.py
+
 ```Python
 # script.py
 import sys
@@ -68,6 +70,7 @@ echo "Hello from Shell Script!"
 ## HTML
 
 index.html
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -94,6 +97,7 @@ index.html
 ## 主程式
 
 mina.js
+
 ```JavaScript
 const { app, BrowserWindow, ipcMain } = require('electron');
 const { exec } = require('child_process');

@@ -83,22 +83,22 @@ ABP是一個**開源的且文檔友好的應用框架**，起始的想法是，�
 
 ---
 
-> ## ABP框架已實現了以下特性：
+> ## ABP框架已實現了以下特性
 >
-> * 多語言/本地化支持
-> * 多租戶支持（每個租戶的數據自動隔離，業務模塊開發者不需要在保存和查詢數據時寫相應代碼）
-> * 軟刪除支持（繼承相應的基類或實現相應接口，會自動實現軟刪除）
-> * 統一的異常處理（應用層幾乎不需要處理自己寫異常處理代碼）
-> * 數據有效性驗證（Asp.NET MVC只能做到Action方法的參數驗證，ABP實現了Application層方法的參數有效性驗證）
-> * 日誌記錄（自動記錄程序異常）
-> * 模塊化開發（每個模塊有獨立的EF DbContext，可單獨指定數據庫）
-> * Repository倉儲模式（已實現了Entity Framework、NHibernate、MangoDB、內存數據庫）
-> * Unit Of Work工作單元模式（為應用層和倉儲層的方法自動實現數據庫事務）
-> * EventBus實現領域事件(Domain Events)
-> * DLL嵌入資源管理
-> * 通過Application Services自動創建Web Api層（不需要寫ApiController層了）
-> * 自動創建Javascript 的代理層來更方便使用Web Api
-> * 封裝一些Javascript 函數，更方便地使用ajax、消息框、通知組件、忙狀態的遮罩層等等
+> - 多語言/本地化支持
+> - 多租戶支持（每個租戶的數據自動隔離，業務模塊開發者不需要在保存和查詢數據時寫相應代碼）
+> - 軟刪除支持（繼承相應的基類或實現相應接口，會自動實現軟刪除）
+> - 統一的異常處理（應用層幾乎不需要處理自己寫異常處理代碼）
+> - 數據有效性驗證（Asp.NET MVC只能做到Action方法的參數驗證，ABP實現了Application層方法的參數有效性驗證）
+> - 日誌記錄（自動記錄程序異常）
+> - 模塊化開發（每個模塊有獨立的EF DbContext，可單獨指定數據庫）
+> - Repository倉儲模式（已實現了Entity Framework、NHibernate、MangoDB、內存數據庫）
+> - Unit Of Work工作單元模式（為應用層和倉儲層的方法自動實現數據庫事務）
+> - EventBus實現領域事件(Domain Events)
+> - DLL嵌入資源管理
+> - 通過Application Services自動創建Web Api層（不需要寫ApiController層了）
+> - 自動創建Javascript 的代理層來更方便使用Web Api
+> - 封裝一些Javascript 函數，更方便地使用ajax、消息框、通知組件、忙狀態的遮罩層等等
 
 參照
 
@@ -114,11 +114,11 @@ ABP是一個**開源的且文檔友好的應用框架**，起始的想法是，�
 
 PS5
 
-* C#
+- C#
 {ignore-vars="true"}
-* ABP
+- ABP
 
-* 回首頁
+- 回首頁
 
 ---
 

@@ -17,4 +17,5 @@ mintplexlabs/anythingllm
 ```
 
 ## REF
+
 [AnythingLLM + Ollama輕鬆架設多人用的客製化 RAG](https://medium.com/@pang2258/anythingllm-ollama%E8%BC%95%E9%AC%86%E6%9E%B6%E8%A8%AD%E5%A4%9A%E4%BA%BA%E7%94%A8%E7%9A%84%E5%AE%A2%E8%A3%BD%E5%8C%96-rag-2d05954bf771){ignore-vars="true"}

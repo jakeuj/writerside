@@ -61,13 +61,13 @@ steps:
 
 PS5
 
-* CI/CD
+- CI/CD
 {ignore-vars="true"}
-* DevOps
-* Azure Static Web Apps
+- DevOps
+- Azure Static Web Apps
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 

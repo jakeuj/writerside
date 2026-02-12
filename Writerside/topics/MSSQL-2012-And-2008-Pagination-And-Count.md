@@ -38,13 +38,13 @@ MSSQL 2008
 ```
 SELECT *
 FROM(
-	SELECT *,
-		--先用ROW_NUMBER()替每筆資料設定編號
-		ROW_NUMBER() OVER(ORDER BY EmployeeId DESC) AS rowNumber,
-		--再用COUNT()依照欄位分別計數
-		COUNT(*) OVER(PARTITION BY DepartmentId) AS Total
-	FROM EmployeeAndDepartmentData
-	WHERE DepartmentId = 1) TempTable
+ SELECT *,
+  --先用ROW_NUMBER()替每筆資料設定編號
+  ROW_NUMBER() OVER(ORDER BY EmployeeId DESC) AS rowNumber,
+  --再用COUNT()依照欄位分別計數
+  COUNT(*) OVER(PARTITION BY DepartmentId) AS Total
+ FROM EmployeeAndDepartmentData
+ WHERE DepartmentId = 1) TempTable
 --最後找出編號介於5-10的資料
 WHERE rowNumber BETWEEN 5 AND 10
 ```
@@ -61,10 +61,10 @@ https://ithelp.ithome.com.tw/articles/10190424
 
 PS5
 
-* MSSQL
-* SQL
+- MSSQL
+- SQL
 
-* 回首頁
+- 回首頁
 
 ---
 

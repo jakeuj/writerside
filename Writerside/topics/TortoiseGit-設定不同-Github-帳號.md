@@ -14,20 +14,20 @@
 
 ```
 [core]
-	repositoryformatversion = 0
-	filemode = false
-	bare = false
-	logallrefupdates = true
-	symlinks = false
-	ignorecase = true
+ repositoryformatversion = 0
+ filemode = false
+ bare = false
+ logallrefupdates = true
+ symlinks = false
+ ignorecase = true
 [submodule]
-	active = .
+ active = .
 [remote "origin"]
-	url = https://jakeuj@github.com/Org/ChatDemoByVertexAI.git
-	fetch = +refs/heads/*:refs/remotes/origin/*
+ url = https://jakeuj@github.com/Org/ChatDemoByVertexAI.git
+ fetch = +refs/heads/*:refs/remotes/origin/*
 [branch "main"]
-	remote = origin
-	merge = refs/heads/main
+ remote = origin
+ merge = refs/heads/main
 ```
 
 將 `origin` 裡面的 `url` 加上 帳號@ 來切換不同 github 帳號
@@ -40,9 +40,9 @@
 
 PS5
 
-* Github
+- Github
 
-* 回首頁
+- 回首頁
 
 ---
 

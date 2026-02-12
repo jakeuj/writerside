@@ -93,9 +93,9 @@ WantedBy=multi-user.target
 
 PS5
 
-* Python
+- Python
 
-* 回首頁
+- 回首頁
 
 ---
 

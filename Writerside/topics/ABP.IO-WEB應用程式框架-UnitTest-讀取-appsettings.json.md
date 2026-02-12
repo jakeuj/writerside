@@ -83,10 +83,10 @@ private void ConfigureMyOptions(IConfiguration configuration)
 
 PS5
 
-* HttpClinet
-* UnitTest
+- HttpClinet
+- UnitTest
 
-* 回首頁
+- 回首頁
 
 ---
 

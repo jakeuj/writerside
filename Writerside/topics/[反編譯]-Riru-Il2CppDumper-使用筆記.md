@@ -107,12 +107,12 @@ bin\apktool\signapk.bat
 
 PS5
 
-* Riru-Il2CppDumper
-* Unity
-* 反編譯
+- Riru-Il2CppDumper
+- Unity
+- 反編譯
 {ignore-vars="true"}
 
-* 回首頁
+- 回首頁
 
 ---
 
