@@ -149,6 +149,8 @@ docker-compose restart
 
 ## 📱 配對 Telegram Bot（重要）{id="telegram-bot-pairing"}
 
+> **官方文檔參考**: [OpenClaw Pairing 配對指南](https://docs.openclaw.ai/channels/pairing)
+
 ### 1. 在 Telegram 應用中獲取配對碼
 
 1. 開啟 iPhone 上的 Telegram 應用（小飛機 App）
@@ -369,6 +371,7 @@ services:
 
 - [OpenClaw 官方網站](https://openclaw.ai/)
 - [OpenClaw GitHub Repository](https://github.com/openclaw/openclaw)
+- [OpenClaw Pairing 配對指南](https://docs.openclaw.ai/channels/pairing) - 官方配對文檔
 - [Ollama OpenClaw 整合文檔](https://docs.ollama.com/integrations/openclaw) - 官方整合指南
 - [Ollama qwen3-coder 模型庫](https://ollama.com/library/qwen3-coder) - 模型詳細規格
 - [Ollama 官方文檔](https://ollama.com/docs)
