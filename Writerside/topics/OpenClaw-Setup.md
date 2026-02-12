@@ -119,7 +119,7 @@ docker-compose up -d
 docker-compose logs -f
 ```
 
-## 🤖 設定 Telegram Bot
+## 🤖 設定 Telegram Bot 與配對 {id="telegram-bot-setup"}
 
 ### 1. 創建 Telegram Bot
 
@@ -128,32 +128,7 @@ docker-compose logs -f
 3. 按照提示設定 Bot 名稱和使用者名稱
 4. 保存 BotFather 提供的 **API Token**（格式：`123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11`）
 
-### 2. 生成配對碼 {id="generate-pairing-code"}
-
-在 OpenClaw 伺服器中執行以下指令來生成配對碼：
-
-```bash
-# 進入 OpenClaw 容器
-docker exec -it openclaw bash
-
-# 生成配對碼
-openclaw pair generate
-```
-
-或者直接執行：
-
-```bash
-docker exec -it openclaw openclaw pair generate
-```
-
-系統會輸出類似以下的配對碼：
-
-```
-Pairing Code: ABCD-1234-EFGH-5678
-This code will expire in 10 minutes.
-```
-
-### 3. 配置 Telegram Bot Token
+### 2. 配置 Telegram Bot Token
 
 將你的 Telegram Bot Token 添加到 OpenClaw 配置：
 
@@ -163,7 +138,7 @@ environment:
   - TELEGRAM_BOT_TOKEN=你的Bot Token
 
 # 方法 2: 透過指令設定
-docker exec -it openclaw openclaw config set telegram.token "你的Bot Token"
+docker exec -it openclaw openclaw config set telegram.bot_token "你的Bot Token"
 ```
 
 重啟服務使配置生效：
@@ -172,34 +147,59 @@ docker exec -it openclaw openclaw config set telegram.token "你的Bot Token"
 docker-compose restart
 ```
 
-## 📱 驗證配對碼
+## 📱 配對 Telegram Bot（重要）{id="telegram-bot-pairing"}
 
-### 1. 在 iPhone Telegram 應用中配對
+### 1. 在 Telegram 應用中獲取配對碼
 
 1. 開啟 iPhone 上的 Telegram 應用（小飛機 App）
-2. 搜尋並開啟你剛創建的 Bot
-3. 發送 `/start` 開始對話
-4. 發送 `/pair` 命令
-5. 輸入之前生成的配對碼：`ABCD-1234-EFGH-5678`
+2. 搜尋並開啟你剛創建的 Bot（使用 Bot 的使用者名稱，例如 `@YourBotName_bot`）
+3. 發送 `/start` 命令
 
-成功配對後，Bot 會回覆確認訊息：
+Bot 會自動回覆並顯示配對碼，類似：
+
+```
+Welcome to OpenClaw! 🤖
+
+Your pairing code is: ABCD-1234-EFGH-5678
+
+Please run this command on your server to complete pairing:
+openclaw pair verify ABCD-1234-EFGH-5678
+
+This code will expire in 10 minutes.
+```
+
+### 2. 在伺服器端驗證配對碼 {id="verify-pairing-server"}
+
+複製 Bot 顯示的配對碼，然後在 OpenClaw 伺服器上執行驗證指令：
+
+```bash
+# 使用 Bot 提供的配對碼進行配對
+docker exec -it openclaw openclaw pair verify ABCD-1234-EFGH-5678
+```
+
+成功配對後，終端會顯示：
+
+```
+✅ Pairing successful!
+User @your_telegram_username is now authorized.
+```
+
+同時，Telegram Bot 也會發送確認訊息：
 
 ```
 ✅ Pairing successful!
 You can now send commands to control your server.
 ```
 
-### 2. 在伺服器端驗證配對 {id="verify-pairing-server"}
+### 3. 檢查配對狀態
 
-檢查配對狀態：
+查看已配對的用戶清單：
 
 ```bash
+# 查看所有已授權的用戶
 docker exec -it openclaw openclaw pair list
-```
 
-查看已授權的用戶：
-
-```bash
+# 或查看配對詳細資訊
 docker exec -it openclaw openclaw user list
 ```
 
@@ -313,11 +313,24 @@ docker network inspect bridge
 
 ### 配對碼過期
 
-配對碼通常在 10 分鐘後過期，重新生成即可：
+配對碼通常在 10 分鐘後過期。如果過期，請重新執行配對流程：
 
-```bash
-docker exec -it openclaw openclaw pair generate
-```
+1. 在 Telegram Bot 中重新發送 `/start` 獲取新的配對碼
+2. 在伺服器上使用新的配對碼執行驗證：
+   ```bash
+   docker exec -it openclaw openclaw pair verify 新的配對碼
+   ```
+
+### 無法獲取配對碼
+
+如果 Bot 沒有回應或無法顯示配對碼：
+
+1. 確認 Bot Token 已正確設定在 OpenClaw 配置中
+2. 檢查 OpenClaw 服務是否正常運行
+3. 重啟 OpenClaw 服務：
+   ```bash
+   docker-compose restart
+   ```
 
 ## 📚 進階配置
 
