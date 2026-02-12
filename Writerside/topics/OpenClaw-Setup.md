@@ -29,17 +29,21 @@ brew install ollama
 ollama serve
 ```
 
-### 2. 下載並配置 Qwen 模型
+### 2. 下載並配置 AI 模型
 
-使用 Ollama 下載 Qwen 模型（建議使用 qwen2.5 系列）：
+使用 Ollama 下載 OpenClaw 官方推薦的模型：
 
 ```bash
-# 下載 Qwen2.5 模型（根據你的硬體選擇合適大小）
-ollama pull qwen2.5:7b
+# 官方推薦模型（選擇其中一個）
 
-# 或使用其他版本
-# ollama pull qwen2.5:14b
-# ollama pull qwen2.5:32b
+# Qwen3 Coder（推薦 - 專為程式碼和指令優化）
+ollama pull qwen3-coder
+
+# GLM 4.7（輕量級高效能模型）
+ollama pull glm-4.7
+
+# GPT OSS 20B（大型開源模型）
+ollama pull gpt-oss:20b
 ```
 
 驗證模型是否成功安裝：
@@ -51,7 +55,8 @@ ollama list
 測試模型運行：
 
 ```bash
-ollama run qwen2.5:7b "你好"
+# 使用 qwen3-coder 測試
+ollama run qwen3-coder "你好，請介紹自己"
 ```
 
 ### 3. 安裝 OpenClaw
@@ -83,7 +88,7 @@ services:
     restart: unless-stopped
     environment:
       - OLLAMA_HOST=http://host.docker.internal:11434
-      - MODEL_NAME=qwen2.5:7b
+      - MODEL_NAME=qwen3-coder  # 使用官方推薦模型
     volumes:
       - ./data:/app/data
       - /var/run/docker.sock:/var/run/docker.sock
@@ -309,11 +314,11 @@ docker exec -it openclaw openclaw pair generate
 
 ### 自訂模型參數
 
-調整 Qwen 模型的運行參數以優化性能：
+調整模型的運行參數以優化性能：
 
 ```yaml
 environment:
-  - MODEL_NAME=qwen2.5:7b
+  - MODEL_NAME=qwen3-coder  # 或 glm-4.7, gpt-oss:20b
   - MODEL_TEMPERATURE=0.7
   - MODEL_MAX_TOKENS=2048
   - MODEL_CONTEXT_LENGTH=4096
@@ -342,6 +347,7 @@ services:
 
 - [OpenClaw 官方網站](https://openclaw.ai/)
 - [OpenClaw GitHub Repository](https://github.com/openclaw/openclaw)
+- [Ollama OpenClaw 整合文檔](https://docs.ollama.com/integrations/openclaw) - 官方整合指南
 - [Ollama 官方文檔](https://ollama.com/docs)
 - [Telegram Bot API 文檔](https://core.telegram.org/bots/api)
 
@@ -349,7 +355,7 @@ services:
 
 透過以上步驟，你已經成功：
 
-1. ✅ 安裝並配置 Ollama 與 Qwen 模型
+1. ✅ 安裝並配置 Ollama 與官方推薦模型（qwen3-coder / glm-4.7 / gpt-oss:20b）
 2. ✅ 部署 OpenClaw 伺服器
 3. ✅ 創建並配對 Telegram Bot
 4. ✅ 在 iPhone Telegram 應用中遠端控制伺服器
