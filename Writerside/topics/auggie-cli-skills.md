@@ -2,6 +2,8 @@
 
 Auggie CLI 支援 **Skills**（技能）功能，讓 AI 助手能夠整合專業領域知識，提供更精準且符合特定技術領域的協助。
 
+> **官方文檔**: [Skills - Augment Code Documentation](https://docs.augmentcode.com/cli/skills)
+
 ## 核心概念
 
 **Skills** 是預先定義的知識包，涵蓋特定技術領域、框架或最佳實踐。與 [Rules](auggie-cli-rules.md) 不同，Skills 提供的是**結構化的領域知識**，而非專案特定的編碼規範。
