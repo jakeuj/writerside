@@ -313,7 +313,8 @@ auggie --rules /path/to/custom-rules.md
 
 ## 相關資源
 
-- [Skills](https://docs.augmentcode.com/cli/skills) - 使用專業領域知識擴展能力
+- [Auggie CLI Skills](auggie-cli-skills.md) - 技能系統使用指南（內部文檔）
+- [Skills](https://docs.augmentcode.com/cli/skills) - 使用專業領域知識擴展能力（官方文檔）
 - [Rules & Guidelines for Agent and Chat](https://docs.augmentcode.com/configuration/rules) - 在 VSCode 和 JetBrains IDE 中配置規則
 - [CLI Reference](https://docs.augmentcode.com/cli/cli-reference) - 完整的命令列參考
 - [Custom Commands](https://docs.augmentcode.com/cli/custom-commands) - 建立可重複使用的命令範本
