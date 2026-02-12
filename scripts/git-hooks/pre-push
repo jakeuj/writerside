@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Git pre-push hook
+# 在推送前自動執行 Markdown 檢查
+
+echo "🔍 執行部署前檢查..."
+
+# 執行部署前檢查腳本
+if ! ./scripts/pre-deploy-check.sh; then
+    echo ""
+    echo "❌ 檢查失敗，推送已取消"
+    echo "💡 請修復上述問題後再推送，或使用 git push --no-verify 跳過檢查"
+    exit 1
+fi
+
+echo "✅ 檢查通過，繼續推送..."
+exit 0
+

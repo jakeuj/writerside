@@ -40,7 +40,7 @@ OpenIddict 若使用 dotnet dev-certs 產生的開發憑證，僅有一年效期
 
 **程式碼範例（Startup/Program.cs）**：
 
-```csharp
+```c#
 // ...existing code...
 var keyVaultUrl = Environment.GetEnvironmentVariable("KEYVAULT_URL");
 var certificateName = Environment.GetEnvironmentVariable("OPENIDDICT_CERT_NAME");
@@ -240,7 +240,7 @@ az keyvault certificate create \
 
 #### 在程式中使用 Key Vault 憑證
 
-```csharp
+```c#
 // 安裝套件
 // dotnet add package Azure.Security.KeyVault.Certificates
 // dotnet add package Azure.Identity
@@ -318,7 +318,7 @@ OpenIddict 對憑證的要求:
 
 ### Key Rollover 實作範例
 
-```csharp
+```c#
 PreConfigure<OpenIddictServerBuilder>(serverBuilder =>
 {
     // 載入新憑證 (主要)

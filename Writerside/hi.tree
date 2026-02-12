@@ -314,7 +314,7 @@
             <toc-element topic="GCP-Cloud-SQL-Proxy-本地連線不開白名單.md" />
             <toc-element topic="GCP-GAE-連-Google-Cloud-SQL-採坑紀錄.md" />
             <toc-element topic="GCP-部屬-VUE.md" />
-            <toc-element topic="GCE-安裝-Nvidia-Driver.md" toc-title="GCE 安裝 Nvidia Driver" />
+            <toc-element topic="GCE-安裝-Nvidia-Driver.md" />
             <toc-element topic="GCP-PUB-SUB.md" />
             <toc-element topic="GCP-Vertex-AI.md" />
             <toc-element topic="GCP-Task-1.-Create-an-Vertex-Notebooks-instance.md" />
@@ -483,7 +483,7 @@
         </toc-element>
         <toc-element toc-title="Docker">
             <toc-element topic="Dapr-使用-choco-安裝-minikube-啟動-hyperV-透過-Docker-部屬-Kubernetes.md" />
-            <toc-element topic="Docker-Jenkins-Agent-Dotnetcore-Drone.md" toc-title="Docker Jenkins Agent Dotnetcore Drone" />
+            <toc-element topic="Docker-Jenkins-Agent-Dotnetcore-Drone.md" />
         </toc-element>
         <toc-element toc-title="SignalR">
             <toc-element topic="SignalR-2-Server-with-Console-Application-ver.md" />

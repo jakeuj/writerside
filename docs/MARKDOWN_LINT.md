@@ -21,7 +21,14 @@ npm run lint:md
 npm run lint:md:fix
 ```
 
-### 2. 使用檢查腳本
+### 2. 部署前完整檢查（最推薦）
+
+```bash
+# 執行完整的部署前檢查（包含 Markdown、配置文件等）
+npm run pre-deploy
+```
+
+### 3. 使用檢查腳本
 
 ```bash
 # 只檢查不修復
@@ -31,7 +38,7 @@ npm run lint:md:fix
 ./scripts/check-markdown.sh --fix
 ```
 
-### 3. 直接使用 npx
+### 4. 直接使用 npx
 
 ```bash
 # 檢查
@@ -55,14 +62,6 @@ npx markdownlint-cli2 --fix "Writerside/topics/**/*.md"
 - **MD041**: 第一行必須為標題 - ❌ 關閉
 - **MD047**: 文件必須以換行符結尾 - ✅ 啟用
 
-## GitHub Actions
-
-專案配置了自動化的 Markdown lint 檢查（`.github/workflows/markdown-lint.yml`）：
-
-- 在 push 或 pull request 時自動觸發
-- 檢查 `Writerside/topics/**/*.md` 下的所有文件
-- 使用 `DavidAnson/markdownlint-cli2-action@v16`
-
 ## 常見問題修復
 
 ### 文件末尾缺少換行符
@@ -82,8 +81,16 @@ python3 scripts/fix-markdown-endings.py
 - 確保標題使用 `#` 符號（ATX 風格）
 - 確保 `#` 和標題文字之間有空格：`# 標題` 而不是 `#標題`
 
+## 建議工作流程
+
+1. 編輯 Markdown 文件
+2. 執行 `npm run pre-deploy` 進行完整檢查
+3. 如有問題，執行 `npm run lint:md:fix` 自動修復
+4. 確認修復後提交推送
+
 ## 相關連結
 
+- [部署前檢查指南](PRE_DEPLOY_CHECK.md)
 - [markdownlint](https://github.com/DavidAnson/markdownlint)
 - [markdownlint-cli2](https://github.com/DavidAnson/markdownlint-cli2)
 - [Markdown 規則說明](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md)

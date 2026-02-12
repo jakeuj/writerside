@@ -17,21 +17,31 @@ init 6
 
 yum install httpd
 
-### 編輯設定檔
+### 編輯設定檔 {id="edit-config"}
 
+```bash
 vi /etc/httpd/conf.d/userdir.conf
+```
 
-### 註解 UserDir disabled
+### 修改配置內容 {id="modify-config"}
 
+註解掉 `UserDir disabled` 這一行：
+
+```text
 # UserDir disabled
+```
 
-### 反註解 #UserDir public\_html
+反註解 `UserDir public_html` 這一行：
 
-UserDir public\_html
+```text
+UserDir public_html
+```
 
-### 設定權限 (使用者名稱=jake)
+### 設定權限 (使用者名稱=jake) {id="set-permissions"}
 
+```bash
 chmod 711 /home/jake
+```
 
 mkdir /home/jake/public\_html
 

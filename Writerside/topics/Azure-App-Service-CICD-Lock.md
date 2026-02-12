@@ -110,7 +110,7 @@ Error: Failed to change file that is currently being used "C:\home\site\wwwroot\
 
 #### Serilog 設定範例
 
-```csharp
+```c#
 Log.Logger = new LoggerConfiguration()
     .WriteTo.File(
         path: "logs/app-.txt",
