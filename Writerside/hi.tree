@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <instance-profile id="hi" name="Jakeuj's Notes" start-page="Default.md">
     <toc-element topic="Default.md">
-        <!-- ========== 連結與資源 ========== -->
         <toc-element toc-title="Mac">
             <toc-element topic="macOS-WiFi-DNS-設定筆記.md"/>
             <toc-element topic="macOS_dotfiles_guide.md"/>
@@ -11,7 +10,6 @@
             <toc-element topic="贊助.md" />
             <toc-element href="https://www.dotblogs.com.tw/jakeuj/" toc-title="原筆記(點部落)" />
         </toc-element>
-        <!-- ========== AI / ML ========== -->
         <toc-element toc-title="AI">
             <toc-element topic="auggie-mcp-guide.md"/>
             <toc-element topic="auggie-cli-rules.md"/>
@@ -37,7 +35,6 @@
             <toc-element topic="requirements.md" />
             <toc-element topic="Python-PyCharm-Django-Windows-11.md" />
         </toc-element>
-        <!-- ========== C# / .NET ========== -->
         <toc-element topic="C-Sharp.md">
             <toc-element topic="appsettings-json-環境變數.md"/>
             <toc-element topic="Swagger.md" />
@@ -75,7 +72,6 @@
             <toc-element topic="HashPasswordForStoringInConfigFile-已過時.md" />
             <toc-element topic="帳號密碼安全機制.md" />
         </toc-element>
-        <!-- ========== Mobile ========== -->
         <toc-element topic="Flutter.md">
             <toc-element topic="Fultter-Build-Version.md"/>
             <toc-element topic="Flutter-Azure-AD-Login.md" />
@@ -89,7 +85,6 @@
             <toc-element topic="手寫.md" />
             <toc-element topic="推播.md" />
         </toc-element>
-        <!-- ========== Database ========== -->
         <toc-element topic="SQL.md">
             <toc-element topic="CTE.md" />
             <toc-element topic="MSSQL-抓半年內的資料.md" />
@@ -106,7 +101,6 @@
             <toc-element topic="Dapper-Connection-Factory.md" />
             <toc-element topic="Dapper-Bulk-InsertOrUpdate.md" />
         </toc-element>
-        <!-- ========== ABP Framework ========== -->
         <toc-element topic="ABP.md">
             <toc-element topic="ABP-AAD-選擇帳號.md" />
             <toc-element topic="OAuth-客戶端驗證與授權.md" />
@@ -233,7 +227,6 @@
                 <toc-element topic="Entity-Framework-(EF)-Core-SQL-Logger-with-ABP(ASP.NET-Boilerplate).md" />
             </toc-element>
         </toc-element>
-        <!-- ========== Azure ========== -->
         <toc-element topic="Azure.md">
             <toc-element topic="Azure-API-Management.md"/>
             <toc-element toc-title="Azure VPN">
@@ -307,7 +300,6 @@
             <toc-element topic="DevOps-Git-Repo-連線失敗.md" />
             <toc-element topic="Azure-Immersion-Cloud-Native-實作坊.md" />
         </toc-element>
-        <!-- ========== Cloud (GCP / AWS / 阿里雲) ========== -->
         <toc-element topic="gcp.md">
             <toc-element topic="CloudRun.md" />
             <toc-element topic="Gcp-MD-Topic.md" />
@@ -332,7 +324,6 @@
             <toc-element topic="Drone-Aliyun-WebPlus-DotnetCore-CICD-DockerHub.md" toc-title="Drone 阿里雲 Web+ DotnetCore CI/CD" />
             <toc-element topic="Aliyun-Web-Plus-CLI-Deploy-DotnetCore-3-1.md" toc-title="阿里雲 Web+ Cli 部署 DotnetCore 3.1" />
         </toc-element>
-        <!-- ========== Entity Framework ========== -->
         <toc-element toc-title="Entity Framework">
             <toc-element topic="關聯性.md" />
             <toc-element topic="Rider-Plugin.md" />
@@ -351,7 +342,6 @@
             <toc-element topic="使用-LINQPad-7-with-EF-Core-(.Net-6-專案).md" />
             <toc-element topic="LINQPad-加入-EntityFramework-支援-Include.md" />
         </toc-element>
-        <!-- ========== DevOps (Git / Docker / IIS / SignalR) ========== -->
         <toc-element topic="Git.md">
             <toc-element topic="Switch-Account.md" />
             <toc-element topic="detected-dubious-ownership.md" />
@@ -365,7 +355,6 @@
             <toc-element topic="Mercuria-與-TortoiseHg-安裝與中文化教學.md" />
             <toc-element topic="SVN-E140000-Cannot-Read-Length-Line-And-E2000002.md" toc-title="SVN E140000 &amp; E2000002 錯誤" />
         </toc-element>
-        <!-- ========== OS (Windows / WSL / Ubuntu) ========== -->
         <toc-element topic="Windows.md">
             <toc-element topic="開發人員磁碟機.md" />
             <toc-element topic="Chocolatey.md" />
@@ -412,7 +401,6 @@
             <toc-element topic="在-CentOSRHEL-7.1,-6.7-and-5.11-版本上用yum安裝-PHP-5.4.md" />
             <toc-element topic="Linux-Unity-WebGL-Httpd-userdir-設定.md" />
         </toc-element>
-        <!-- ========== Frontend (Node.js / Angular / Vue) ========== -->
         <toc-element topic="Node-js.md">
             <toc-element topic="NVM.md" />
             <toc-element topic="Vue.md" />
@@ -432,7 +420,6 @@
             <toc-element topic="如何在-Angular-CLI-建立的-Angular-2-開發環境呼叫遠端-RESTful-APIs.md" />
             <toc-element topic="Angular-Application.md" />
         </toc-element>
-        <!-- ========== Tools (JetBrains / Visual Studio) ========== -->
         <toc-element topic="JetBrains.md">
             <toc-element topic="AI-Commits-Plugin.md" />
             <toc-element topic="Docker-Registry-settings.md" />
@@ -472,7 +459,6 @@
                 </toc-element>
             </toc-element>
         </toc-element>
-        <!-- ========== DevOps (IIS / Docker / SignalR) ========== -->
         <toc-element toc-title="IIS">
             <toc-element topic="IIS-提高併發連線數.md" />
             <toc-element topic="IIS-10-架設-FTP-Over-SSL.md" />
@@ -492,7 +478,6 @@
             <toc-element topic="SignalR-2-0-Unity-Game-WebSocket-Connection.md" toc-title="SignalR 2.0 與 Unity Game 的 WebSocket 連線" />
             <toc-element topic="SignalR-2.0-Web-聊天室-Demo.md" />
         </toc-element>
-        <!-- ========== .NET Core / ASP.NET ========== -->
         <toc-element toc-title=".NET Core">
             <toc-element topic=".Net-7-HttpClient-送出-JSON要求並接收-json-回應.md" />
             <toc-element topic="發布-Package-到自己的-Nuget-Server.md" />
@@ -535,16 +520,13 @@
             <toc-element topic="Visual-Studio-2012-Update-2-找不到-WinLibJS_CORE.msi.md" />
             <toc-element topic="Visual-Studio-2012-.Net-4.5-Validator-Error-解決方案.md" />
         </toc-element>
-        <!-- ========== 破解 ========== -->
         <toc-element toc-title="破解">
             <toc-element topic="透過443代理內網特定port.md" />
             <toc-element topic="[反編譯]-Riru-Il2CppDumper-使用筆記.md" />
         </toc-element>
-        <!-- ========== Unity ========== -->
         <toc-element toc-title="Unity">
             <toc-element topic="Unity-5-使用-Android-SDK-API-24-問題.md" />
         </toc-element>
-        <!-- ========== 其他 ========== -->
         <toc-element toc-title="其他">
             <toc-element topic="CSS3-背景圖片加半透明黑色遮色片.md" />
             <toc-element topic="ERR_CONNECTION_RESET.md" />
@@ -557,7 +539,6 @@
             <toc-element topic="[JAVA]-Eclipse-開發環境建立與選擇性中文化介面及API說明文件.md" />
             <toc-element topic="How-to-Disable-TLS-1.0-1.1-in-Apache-Server.md" />
         </toc-element>
-        <!-- ========== Games ========== -->
         <toc-element toc-title="Games">
             <toc-element toc-title="LoL">
                 <toc-element topic="Aram.md" />
