@@ -179,8 +179,8 @@ python3.10 demo_gradio_f1.py
 目前沒有支援雙顯卡來加速處理，但是可以開兩個網站分別使用不同顯卡，以同時處理兩張圖各自產生影片
 
 ```bash
-CUDA_VISIBLE_DEVICES=0 python demo_gradio.py --port 7860  # first card  
-CUDA_VISIBLE_DEVICES=1 python demo_gradio.py --port 7861  # second card 
+CUDA_VISIBLE_DEVICES=0 python demo_gradio.py --port 7860  # first card
+CUDA_VISIBLE_DEVICES=1 python demo_gradio.py --port 7861  # second card
 ```
 
 ## F1

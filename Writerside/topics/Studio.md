@@ -134,7 +134,7 @@ ABP Studio 在背景中定期檢查更新，當ABP Studio的新版本可用時�
 
 ```
 2024/8/16 下午 02:22:10  [Information] ./up.ps1 exited with code: 0
-2024/8/16 下午 02:22:10  [Information] time="2024-08-16T14:22:08+08:00" 
+2024/8/16 下午 02:22:10  [Information] time="2024-08-16T14:22:08+08:00"
     level=warning msg="D:\\repos\\AbpSolution8\\etc\\docker\\
     docker-compose.infrastructure.yml: 
         the attribute `version` is obsolete, it will be ignored, 
@@ -147,7 +147,7 @@ ABP Studio 在背景中定期檢查更新，當ABP Studio的新版本可用時�
 2024/8/16 下午 02:22:10  [Information] 4f5a3273127e7ff341a965fa72435c446
 
 2024/8/16 下午 04:32:17  [Information] ./down.ps1 exited with code: 0
-2024/8/16 下午 04:32:17  [Information] time="2024-08-16T16:32:15+08:00" 
+2024/8/16 下午 04:32:17  [Information] time="2024-08-16T16:32:15+08:00"
     level=warning msg="D:\\repos\\AbpSolution8\\etc\\docker\\
     docker-compose.infrastructure.yml: 
         the attribute `version` is obsolete, it will be ignored, 

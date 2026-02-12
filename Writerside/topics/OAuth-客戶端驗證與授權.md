@@ -25,7 +25,7 @@ OAuth 客戶端驗證與授權通常涉及以下幾個步驟：
    在需要授權的 API 控制器或方法上使用 `[Authorize]` 屬性，並指定使用的認證方案和授權策略。
 
    ```C#
-   [Authorize( AuthenticationSchemes = 
+   [Authorize( AuthenticationSchemes =
        JwtBearerDefaults.AuthenticationScheme, Policy = "ClientPolicy")]
    ```
 
@@ -74,9 +74,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace TestProj.Tests;
 
-[Authorize(AuthenticationSchemes = 
+[Authorize(AuthenticationSchemes =
     JwtBearerDefaults.AuthenticationScheme, Policy = "ClientPolicy")]
-public class TestAppService(ICurrentUser currentUser) 
+public class TestAppService(ICurrentUser currentUser)
     : TestProjAppService
 {
     public List<string> Post()

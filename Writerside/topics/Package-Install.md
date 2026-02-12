@@ -5,8 +5,8 @@ Start typing here...
 ## 遠端無法安裝套件
 
 ```
-/usr/bin/python3.10 
-/home/x/.cache/JetBrains/RemoteDev/dist/pycharm/plugins/python/helpers/packaging_tool.py install 
+/usr/bin/python3.10
+/home/x/.cache/JetBrains/RemoteDev/dist/pycharm/plugins/python/helpers/packaging_tool.py install
 py-cpuinfo
 ```
 

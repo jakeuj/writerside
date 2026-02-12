@@ -4,7 +4,9 @@
   "description": "這個 repo 是用 **JetBrains Writerside** 維護的中文（zh-tw）技術筆記，內容涵蓋 .NET/ABP、Flutter、Docker、雲端服務、AI 工具等。",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:md": "markdownlint-cli2 'Writerside/topics/**/*.md'",
+    "lint:md:fix": "markdownlint-cli2 --fix 'Writerside/topics/**/*.md'"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,7 @@
   },
   "homepage": "https://github.com/jakeuj/writerside#readme",
   "devDependencies": {
-    "markdownlint-cli": "^0.47.0"
+    "markdownlint-cli": "^0.47.0",
+    "markdownlint-cli2": "^0.20.0"
   }
 }

@@ -72,7 +72,7 @@ az network vnet-gateway create \
 
 ### (1) 下載設定
 
-在 Azure Portal → Virtual Network Gateway → Point-to-site configuration → Download VPN client  
+在 Azure Portal → Virtual Network Gateway → Point-to-site configuration → Download VPN client
 取得 `Generic/VpnSettings.xml`。
 
 ### (2) 系統內建設定

@@ -9,7 +9,7 @@
 Rider 自動產生的 Dockerfile，稍微修改一下
 
 ```Docker
-#See https://aka.ms/customizecontainer to learn how to customize your debug container 
+#See https://aka.ms/customizecontainer to learn how to customize your debug container
 # and how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
@@ -186,11 +186,11 @@ volumes:
 
 ### Docker Fast Mode
 
-JetBrains Rider 的 Docker Fast Mode 是一種特殊的模式，用於加速 Docker 容器的啟動和停止。這種模式主要通過以下方式實現：  
+JetBrains Rider 的 Docker Fast Mode 是一種特殊的模式，用於加速 Docker 容器的啟動和停止。這種模式主要通過以下方式實現：
 
-- 快速啟動：在 Fast Mode 中，Rider 不會每次都重新構建 Docker 映像。相反，它會檢查映像是否已經存在，如果存在，則直接啟動該映像的容器。這大大減少了啟動時間。  
-- 快速停止：在 Fast Mode 中，當你停止 Docker 容器時，Rider 不會真正地停止容器，而是將其暫停。這意味著下次啟動時，容器可以立即恢復運行，而不需要重新啟動。  
-- 快速更新：在 Fast Mode 中，當你修改了 Dockerfile 或相關的配置文件時，Rider 只會重新構建那些被修改的部分，而不是整個映像。這也大大加快了更新速度。  
+- 快速啟動：在 Fast Mode 中，Rider 不會每次都重新構建 Docker 映像。相反，它會檢查映像是否已經存在，如果存在，則直接啟動該映像的容器。這大大減少了啟動時間。
+- 快速停止：在 Fast Mode 中，當你停止 Docker 容器時，Rider 不會真正地停止容器，而是將其暫停。這意味著下次啟動時，容器可以立即恢復運行，而不需要重新啟動。
+- 快速更新：在 Fast Mode 中，當你修改了 Dockerfile 或相關的配置文件時，Rider 只會重新構建那些被修改的部分，而不是整個映像。這也大大加快了更新速度。
 請注意，Fast Mode 可能不適合所有情況。例如，如果你的應用依賴於容器的啟動狀態，或者你需要每次都從一個乾淨的環境開始，那麼你可能需要關閉 Fast Mode。
 
 ## TODO

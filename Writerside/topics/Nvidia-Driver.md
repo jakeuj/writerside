@@ -16,13 +16,15 @@
   ```Bash
   wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2404/x86_64/cuda-keyring_1.1-1_all.deb
   sudo dpkg -i cuda-keyring_1.1-1_all.deb
-  sudo apt-get update 
+  sudo apt-get update
   ```
+
 1. 如果是內含 cuda-toolkit 的 container 則建議略過 (例如: NIM 容器內會自帶)，反之執行第四行來安裝 cuda-toolkit 到本機
 
   ```Bash
   sudo apt-get -y install cuda-toolkit-12-6
   ```
+
 1. 如果是 WSL 則必須略過，反之執行以下語法更新到最新版本的 NVIDIA Driver (目前版本 560) 以支援最新 CUDA 版本
 
   ```Bash

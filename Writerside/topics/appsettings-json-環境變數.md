@@ -5,7 +5,7 @@
 ASP.NET Core 會依據環境變數 `ASPNETCORE_ENVIRONMENT` 的值載入對應的設定檔：
 
 ```
-appsettings.json  
+appsettings.json
 appsettings.{EnvironmentName}.json
 ```
 

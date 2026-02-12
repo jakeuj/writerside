@@ -18,7 +18,33 @@
 1. 在 `Writerside/topics/` 新增或編輯 `*.md`
 2. 打開 `Writerside/hi.tree`，把新文章加到對應的 `<toc-element>`（不加會很難在導覽中找到）
 3. 圖片放到 `Writerside/images/`，在 Markdown 內以相對路徑引用（依 Writerside 規則）
-4. 本機預覽確認沒問題後再推送
+4. **檢查 Markdown 格式**：`npm run lint:md:fix`（自動修復格式問題）
+5. 本機預覽確認沒問題後再推送
+
+## Markdown 格式檢查
+
+專案使用 `markdownlint-cli2` 確保文檔格式一致性。
+
+### 快速使用
+
+```bash
+# 安裝依賴
+npm install
+
+# 檢查格式
+npm run lint:md
+
+# 自動修復格式問題
+npm run lint:md:fix
+```
+
+### 詳細說明
+
+- 📖 [完整使用指南](docs/MARKDOWN_LINT.md)
+- 🚀 [快速修復指南](docs/QUICK_FIX_GUIDE.md)
+- 📋 [修復總結](docs/MARKDOWN_LINT_FIX_SUMMARY.md)
+
+GitHub Actions 會在每次 push 時自動檢查 Markdown 格式。
 
 ## 本機預覽與建置
 > 這個專案是標準 Writerside 結構；最穩定的方式是用 JetBrains Writerside IDE 直接開啟並 Build。

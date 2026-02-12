@@ -1,0 +1,74 @@
+{
+  // markdownlint-cli2 配置 - 針對 Writerside 技術筆記專案
+  "config": {
+    "default": true,
+    // MD001: 標題層級遞增 - 關閉（Writerside 有自己的層級管理）
+    "MD001": false,
+    // MD003: 標題樣式 - 使用 ATX 風格 (#)
+    "MD003": { "style": "atx" },
+    // MD004: 列表樣式 - 使用破折號 (-)
+    "MD004": { "style": "dash" },
+    // MD005: 列表縮排一致性
+    "MD005": true,
+    // MD007: 列表縮排
+    "MD007": { "indent": 2 },
+    // MD009: 行尾空白 - 允許（某些格式需要）
+    "MD009": { "br_spaces": 2 },
+    // MD010: 不使用 Tab - 關閉（部分代碼區塊可能需要）
+    "MD010": false,
+    // MD012: 連續空行 - 允許
+    "MD012": false,
+    // MD013: 行長度 - 關閉（中文文檔）
+    "MD013": false,
+    // MD014: Dollar signs used before commands without showing output
+    "MD014": false,
+    // MD022: 標題周圍的空行
+    "MD022": false,
+    // MD024: 重複標題 - 允許在不同層級
+    "MD024": { "siblings_only": true },
+    // MD025: 單一 H1 標題
+    "MD025": true,
+    // MD026: 標題末尾的標點符號 - 允許
+    "MD026": false,
+    // MD029: 有序列表編號
+    "MD029": { "style": "ordered" },
+    // MD031: 代碼塊周圍的空行 - 關閉
+    "MD031": false,
+    // MD032: 列表周圍的空行 - 關閉
+    "MD032": false,
+    // MD033: 內聯 HTML - 允許（Writerside 需要）
+    "MD033": false,
+    // MD034: 裸露 URL - 關閉
+    "MD034": false,
+    // MD036: 強調用作標題 - 關閉
+    "MD036": false,
+    // MD040: 代碼塊語言 - 關閉（某些示例可能沒有語言）
+    "MD040": false,
+    // MD041: 文件第一行必須為頂級標題 - 關閉
+    "MD041": false,
+    // MD046: 代碼區塊樣式 - 圍欄式
+    "MD046": false,
+    // MD047: 文件必須以換行符結尾
+    "MD047": true,
+    // MD049: 強調樣式 - 一致即可
+    "MD049": false,
+    // MD050: 粗體樣式 - 一致即可
+    "MD050": false,
+    // MD051: 連結片段
+    "MD051": false,
+    // MD052: 參考連結和圖片的引用定義應該是唯一的
+    "MD052": false,
+    // MD053: 連結和圖片引用定義應該被使用
+    "MD053": false
+  },
+  "globs": [
+    "Writerside/topics/**/*.md"
+  ],
+  "ignores": [
+    "node_modules/**",
+    ".venv/**",
+    ".augment/**"
+  ]
+}
+
+

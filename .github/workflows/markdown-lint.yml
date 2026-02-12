@@ -21,11 +21,12 @@ jobs:
         uses: DavidAnson/markdownlint-cli2-action@v16
         with:
           globs: 'Writerside/topics/**/*.md'
+          config: '.markdownlint-cli2.jsonc'
           fix: false
 
       - name: Show lint results
         if: failure()
         run: |
           echo "Markdown lint 發現格式問題，請執行以下指令修復："
-          echo "markdownlint --fix Writerside/topics/**/*.md"
+          echo "npx markdownlint-cli2 --fix 'Writerside/topics/**/*.md'"
 

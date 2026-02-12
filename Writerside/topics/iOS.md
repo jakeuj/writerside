@@ -158,6 +158,7 @@ jobs:
         cd ios
         agvtool next-version -all
 ```
+
 1. 构建 Flutter iOS 应用
    此步骤调用 Flutter 命令构建 .ipa 文件，使用 ios/GithubActionsExportOptions.plist 配置签名选项。
 
@@ -171,6 +172,7 @@ jobs:
         provisioning-profile-base64: ${{ secrets.PROVISIONING_PROFILE }}
         keychain-password: ${{ secrets.CERTIFICATE_PASSWORD }}
 ```
+
 1. 上传至 TestFlight
    在生成 .ipa 文件后，使用 henrik1/upload-testflight@v2 上传到 TestFlight。
 
@@ -185,10 +187,12 @@ jobs:
 ```
 
 ### 注意事项
+
 - 确保所有的密钥和证书已正确配置在 GitHub Secrets 中。
 - 每次构建的应用版本号（CFBundleVersion）都需要递增，否则上传到 TestFlight 会失败。
 
 ### 参考资料
+
 - [agvtool 文档](https://developer.apple.com/library/archive/qa/qa1827/_index.html)
 - [Flutter 构建 iOS 应用](https://flutter-docs.dev.org.tw/deployment/ios)
 - [App Store Connect API 密钥](https://developer.apple.com/documentation/appstoreconnectapi/creating-api-keys-for-app-store-connect-api)

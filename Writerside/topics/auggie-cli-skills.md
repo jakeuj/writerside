@@ -108,7 +108,7 @@ skills:
   default:
     - git
     - docker
-  
+
 # 適用於所有專案的通用 Skills
 ```
 
@@ -135,11 +135,11 @@ interface UserProfileProps {
   avatar?: string;
 }
 
-export const UserProfile: React.FC<UserProfileProps> = ({ 
-  userId, 
-  name, 
-  email, 
-  avatar 
+export const UserProfile: React.FC<UserProfileProps> = ({
+  userId,
+  name,
+  email,
+  avatar
 }) =&gt; {
   return (
     &lt;div className="user-profile"&gt;

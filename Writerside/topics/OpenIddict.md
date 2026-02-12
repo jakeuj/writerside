@@ -14,7 +14,7 @@
 
 - Allow logout endpoint：勾選
 - Post logout redirect uris：裡面加入登出後要導向的網址
-  
+
 這樣登出後才會導向正確的網址
 
   ![logout.png](logout.png){style="block"}

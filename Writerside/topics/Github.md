@@ -53,7 +53,7 @@ on:
 permissions:
   id-token: write
   pages: write
-  
+
 env:
   # Name of module and id separated by a slash
   INSTANCE: Writerside/hi
@@ -68,7 +68,7 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
-  
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4

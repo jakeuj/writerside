@@ -68,5 +68,5 @@ https://www.tampermonkey.net/
     }
 
     waitForTradeList();
-})(); 
+})();
 ```

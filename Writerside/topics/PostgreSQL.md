@@ -9,7 +9,7 @@ Start typing here...
 - 建立一個名為 `some-postgres` 的容器，並且將容器的 5432 port 對應到本機的 5432 port。
 
 ```Shell
-docker run --name some-postgres 
+docker run --name some-postgres
     -e POSTGRES_PASSWORD=myPassword 
     -p 5432:5432 
     -d postgres
@@ -18,7 +18,7 @@ docker run --name some-postgres
 - 設定 root 使用者和密碼。
 
 ```Shell
-docker run --name some-postgres 
+docker run --name some-postgres
     -e POSTGRES_USER=root 
     -e POSTGRES_PASSWORD=myPassword 
     -p 5432:5432 
@@ -28,7 +28,7 @@ docker run --name some-postgres
 - 將資料庫儲存到本機的 C:\Postgres 資料夾。
 
 ```Shell
-docker run --name some-postgres 
+docker run --name some-postgres
     -e POSTGRES_USER=root
     -e POSTGRES_PASSWORD=myPassword 
     -e PGDATA=/var/lib/postgresql/data/pgdata 

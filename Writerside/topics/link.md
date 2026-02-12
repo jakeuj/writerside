@@ -9,12 +9,12 @@ Web App Container 連到 Database Container，這是一個常見的情境。
 Usage:  `docker run [OPTIONS] IMAGE [COMMAND] [ARG...]`
 
 ```Shell
-docker run -d -P 
- --name testproj 
- --link some-postgres:db 
+docker run -d -P
+ --name testproj
+ --link some-postgres:db
  -e "ConnectionStrings:Default=Host=db;Port=5432;Database=TestProj;User ID=root;Password=myPassword;"
- testproj:dev 
- dotnet 
+ testproj:dev
+ dotnet
  TestProj.dll
 ```
 

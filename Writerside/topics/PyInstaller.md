@@ -21,11 +21,11 @@ pip install -U pyinstaller
 ## 使用
 
 ```bash
-pyinstaller ./src/main.py 
---onefile 
---specpath . 
---paths "/mnt/d/repos/MyProject/src" 
---add-data "src/a/b/config/db.ini:a/b/config" 
+pyinstaller ./src/main.py
+--onefile
+--specpath .
+--paths "/mnt/d/repos/MyProject/src"
+--add-data "src/a/b/config/db.ini:a/b/config"
 --add-data "src/a/b/config/*.json:a/b/config"
 ```
 

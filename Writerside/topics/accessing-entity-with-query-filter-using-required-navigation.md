@@ -5,10 +5,10 @@ Migration 時跳出警告
 ## Warning
 
 ```
-Entity 'xxx' has a global query filter defined and is the required end of a relationship with the entity 'xxx'. 
-This may lead to unexpected results when the required entity is filtered out. 
-Either configure the navigation as optional, 
-or define matching query filters for both entities in the navigation. 
+Entity 'xxx' has a global query filter defined and is the required end of a relationship with the entity 'xxx'.
+This may lead to unexpected results when the required entity is filtered out.
+Either configure the navigation as optional,
+or define matching query filters for both entities in the navigation.
 See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
 ```
 

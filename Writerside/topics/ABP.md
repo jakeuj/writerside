@@ -35,6 +35,7 @@ winget install Microsoft.DotNet.SDK.8
   sqllocaldb stop mssqllocaldb
   sqllocaldb delete mssqllocaldb
   ```
+
 1. 再重新建立 LocalDB 執行個體
 
   ```shell

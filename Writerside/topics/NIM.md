@@ -167,31 +167,31 @@ $response | ConvertTo-Json -Depth 10
 NVIDIA Inference Microservice LLM NIM Version 1.0.0
 Model: nim/meta/llama-3_1-8b-instruct
 
-Container image Copyright (c) 2016-2024, 
+Container image Copyright (c) 2016-2024,
   NVIDIA CORPORATION & AFFILIATES. All rights reserved.
 
-The use of this model is governed by the 
+The use of this model is governed by the
   NVIDIA AI Foundation Models Community License Agreement.
 
-ADDITIONAL INFORMATION: Llama 3.1 Community License Agreement, 
+ADDITIONAL INFORMATION: Llama 3.1 Community License Agreement,
   Built with Llama.
 
-INFO 07-26 09:44:00.18 ngc_profile.py:222] Running NIM without LoRA. 
+INFO 07-26 09:44:00.18 ngc_profile.py:222] Running NIM without LoRA.
   Only looking for compatible profiles that do not support LoRA.
-INFO 07-26 09:44:00.18 ngc_profile.py:224] 
+INFO 07-26 09:44:00.18 ngc_profile.py:224]
   Detected 0 compatible profile(s).
-INFO 07-26 09:44:00.18 ngc_profile.py:226] 
-  Detected additional 1 compatible profile(s) that are currently not 
+INFO 07-26 09:44:00.18 ngc_profile.py:226]
+  Detected additional 1 compatible profile(s) that are currently not
     runnable due to low free GPU memory.
 ERROR 07-26 09:44:00.18 utils.py:21]
-  Could not find a profile that is currently runnable 
+  Could not find a profile that is currently runnable
     with the detected hardware. 
-  Please check the system information below and make sure you have 
+  Please check the system information below and make sure you have
     enough free GPUs.
 SYSTEM INFO
 - Free GPUs: <None>
 - Non-free GPUs:
-  -  [2191:10de] (0) NVIDIA GeForce GTX 1660 Ti 
+  -  [2191:10de] (0) NVIDIA GeForce GTX 1660 Ti
       [current utilization: 7%]
 ```
 
@@ -205,8 +205,8 @@ SYSTEM INFO
 
 ```
 docker: permission denied while trying to connect to the Docker daemon
- socket at unix:///var/run/docker.sock: Head 
- "http://%2Fvar%2Frun%2Fdocker.sock/_ping": 
+ socket at unix:///var/run/docker.sock: Head
+ "http://%2Fvar%2Frun%2Fdocker.sock/_ping":
  dial unix /var/run/docker.sock: connect: permission denied.
 See 'docker run --help'.
 ```
@@ -222,7 +222,7 @@ sudo usermod -aG docker $(whoami)
 如果出現以下錯誤，表示 Docker 找不到 GPU 驅動程式。需要安裝 NVIDIA Container Toolkit。
 
 ```
-docker: Error response from daemon: 
+docker: Error response from daemon:
   could not select device driver "" with capabilities: [[gpu]].
 ```
 
@@ -268,8 +268,8 @@ sudo docker run --rm --gpus all nvidia/cuda:12.5.1-base-ubuntu24.04 nvidia-smi
 - 錯誤訊息
 
 ```
-nvidia-container-cli: requirement error: 
-unsatisfied condition: cuda>=12.5, please update your driver to a newer version, 
+nvidia-container-cli: requirement error:
+unsatisfied condition: cuda>=12.5, please update your driver to a newer version,
 or use an earlier cuda container: unknown.
 ```
 

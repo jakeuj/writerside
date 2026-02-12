@@ -14,6 +14,7 @@
 git clone --bare https://hostname/user/repo.git
 cd repo.git
 ```
+
 1. 複製腳本並取代以下的變數
     - OLD_EMAIL: 舊的 Email
     - CORRECT_NAME: 正確的名字
@@ -40,17 +41,20 @@ export GIT_AUTHOR_EMAIL="$CORRECT_EMAIL"
 fi
 ' --tag-name-filter cat -- --branches --tags
 ```
+
 1. 複製修改後的腳本並貼到 git bash 中執行腳本
 2. 確認新的紀錄是否正確
 
 ```Bash
 git log --pretty=format:"%h - %an <%ae>"
 ```
+
 1. Push 到遠端 Repository
 
 ```bash
 git push --force --tags origin 'refs/heads/*'
 ```
+
 1. 刪除本地的 Clone Repository
 
 ```bash

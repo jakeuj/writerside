@@ -47,7 +47,7 @@ sudo systemctl edit ollama.service
 ### Anything between here and the comment below will become the new contents of the file
 
 # 加入下面這兩行
-[Service] 
+[Service]
 Environment="OLLAMA_HOST=0.0.0.0:11434"
 #下面的不要碰
 

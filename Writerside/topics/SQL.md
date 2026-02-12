@@ -8,8 +8,8 @@
 DECLARE @DBName NVARCHAR(100)
 
 DECLARE db_cursor CURSOR FOR
-SELECT name 
-FROM sys.databases 
+SELECT name
+FROM sys.databases
 WHERE name IN ('AbpSolution1', 'AbpSolution2', 'AbpSolution3')
 
 OPEN db_cursor

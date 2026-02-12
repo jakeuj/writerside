@@ -60,7 +60,7 @@ namespace Demo;
 /* This is just an example test class.
  * _testOutputHelper.WriteLine() is used to log the result of the test
  */
-public abstract class DemoAppServiceTests<TStartupModule> 
+public abstract class DemoAppServiceTests<TStartupModule>
     : DemoApplicationTestBase<TStartupModule>
         where TStartupModule : IAbpModule
 {

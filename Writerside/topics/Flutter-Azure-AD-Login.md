@@ -264,6 +264,7 @@ msalxxxx-xxxx-xxxx-xxxx-xxxx://auth
 ✅ Flutter 建議使用哪個？
 
 ✅ 最佳實務：使用 `msal<client-id>://auth`
+
 - ✔️ 易於整合 App 自身的登入處理
 - ✔️ 可讓登入後跳回你的 App
 - ✔️ 支援 Flutter 插件（如 msal_flutter, flutter_appauth）
