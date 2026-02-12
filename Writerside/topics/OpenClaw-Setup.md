@@ -37,7 +37,12 @@ ollama serve
 # 官方推薦模型（選擇其中一個）
 
 # Qwen3 Coder（推薦 - 專為程式碼和指令優化）
+# 預設版本 (30B 模型，19GB，256K 上下文)
 ollama pull qwen3-coder
+
+# 或指定版本
+ollama pull qwen3-coder:latest  # 30B 版本
+ollama pull qwen3-coder:30b     # 30B 版本（與 latest 相同）
 
 # GLM 4.7（輕量級高效能模型）
 ollama pull glm-4.7
@@ -45,6 +50,10 @@ ollama pull glm-4.7
 # GPT OSS 20B（大型開源模型）
 ollama pull gpt-oss:20b
 ```
+
+> **模型規格參考**:
+> - `qwen3-coder:30b` - 19GB, 256K 上下文長度, 文字輸入
+> - 詳細資訊: [Ollama qwen3-coder 模型庫](https://ollama.com/library/qwen3-coder)
 
 驗證模型是否成功安裝：
 
@@ -348,6 +357,7 @@ services:
 - [OpenClaw 官方網站](https://openclaw.ai/)
 - [OpenClaw GitHub Repository](https://github.com/openclaw/openclaw)
 - [Ollama OpenClaw 整合文檔](https://docs.ollama.com/integrations/openclaw) - 官方整合指南
+- [Ollama qwen3-coder 模型庫](https://ollama.com/library/qwen3-coder) - 模型詳細規格
 - [Ollama 官方文檔](https://ollama.com/docs)
 - [Telegram Bot API 文檔](https://core.telegram.org/bots/api)
 
