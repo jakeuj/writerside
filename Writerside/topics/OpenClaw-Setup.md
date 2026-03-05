@@ -9,7 +9,74 @@ OpenClaw 是一個強大的 AI 助手框架，可以透過 Telegram 遠端控制
 - Ollama（用於運行本地 LLM 模型）
 - 具備 NVIDIA GPU 的伺服器（如需查詢顯卡資訊）
 
-## 🚀 安裝步驟
+## ⚡ 快速啟動（Ollama Launch）
+
+> **官方文檔**: [Ollama OpenClaw 整合文檔](https://docs.ollama.com/integrations/openclaw)
+
+如果你已安裝 Ollama，最簡單的方式是使用 `ollama launch` 指令一鍵啟動 OpenClaw：
+
+```bash
+ollama launch openclaw
+```
+
+Ollama 會自動完成以下流程：
+
+1. **安裝** — 若尚未安裝 OpenClaw，Ollama 會提示透過 npm 安裝
+2. **安全確認** — 首次啟動時顯示工具存取權限的安全說明
+3. **選擇模型** — 從選單中選擇本地或雲端模型
+4. **初始化** — Ollama 配置 Provider、安裝 Gateway Daemon 並設定主要模型
+5. **啟動 Gateway** — 在背景啟動 Gateway 並開啟 OpenClaw TUI
+
+> **注意**：OpenClaw 需要較大的 Context Window，本地模型建議至少 64k tokens。請參考 [Context length 設定](https://docs.ollama.com/context-length)。
+> **提示**：OpenClaw 前身為 Clawdbot，`ollama launch clawdbot` 仍可作為別名使用。
+
+### 不啟動直接設定
+
+若只需更換模型而不啟動 Gateway 和 TUI：
+
+```bash
+ollama launch openclaw --config
+```
+
+指定特定模型直接啟動：
+
+```bash
+ollama launch openclaw --model kimi-k2.5:cloud
+```
+
+若 Gateway 已在執行，會自動重啟以套用新模型。
+
+### 推薦模型
+
+**雲端模型**（需網路連線）：
+
+- `kimi-k2.5:cloud` — 多模態推理與子代理支援
+- `minimax-m2.5:cloud` — 快速、高效的程式碼與生產力任務
+- `glm-5:cloud` — 推理與程式碼生成
+
+**本地模型**：
+
+- `glm-4.7-flash` — 本地推理與程式碼生成（需約 25 GB VRAM）
+
+更多模型請至 [ollama.com/search](https://ollama.com/search?c=cloud) 查詢。
+
+### 連接通訊應用程式
+
+啟動後，執行以下指令連結 WhatsApp、Telegram、Slack、Discord 或 iMessage：
+
+```bash
+openclaw configure --section channels
+```
+
+### 停止 Gateway
+
+```bash
+openclaw gateway stop
+```
+
+---
+
+## 🚀 Docker 安裝步驟（進階）
 
 ### 1. 安裝 Ollama
 
@@ -52,6 +119,7 @@ ollama pull gpt-oss:20b
 ```
 
 > **模型規格參考**:
+>
 > - `qwen3-coder:30b` - 19GB, 256K 上下文長度, 文字輸入
 > - 詳細資訊: [Ollama qwen3-coder 模型庫](https://ollama.com/library/qwen3-coder)
 
@@ -159,7 +227,7 @@ docker-compose restart
 
 Bot 會自動回覆並顯示配對碼，類似：
 
-```
+```text
 Welcome to OpenClaw! 🤖
 
 Your pairing code is: ABCD-1234-EFGH-5678
@@ -181,14 +249,14 @@ docker exec -it openclaw openclaw pair verify ABCD-1234-EFGH-5678
 
 成功配對後，終端會顯示：
 
-```
+```text
 ✅ Pairing successful!
 User @your_telegram_username is now authorized.
 ```
 
 同時，Telegram Bot 也會發送確認訊息：
 
-```
+```text
 ✅ Pairing successful!
 You can now send commands to control your server.
 ```
@@ -211,19 +279,19 @@ docker exec -it openclaw openclaw user list
 
 配對成功後，在 Telegram 中直接向 Bot 發送自然語言指令：
 
-```
+```text
 查詢顯卡資訊
 ```
 
 或
 
-```
+```text
 顯示 nvidia-smi
 ```
 
 Bot 會執行 `nvidia-smi` 指令並返回結果：
 
-```
+```text
 +-----------------------------------------------------------------------------------------+
 | NVIDIA-SMI 535.129.03             Driver Version: 535.129.03   CUDA Version: 12.2     |
 |-----------------------------------------+----------------------+----------------------+
@@ -239,7 +307,7 @@ Bot 會執行 `nvidia-smi` 指令並返回結果：
 
 ### 其他實用指令範例
 
-```
+```text
 # 系統資源監控
 顯示 CPU 和記憶體使用情況
 
@@ -305,10 +373,13 @@ docker network inspect bridge
 
 1. 檢查 Bot Token 是否正確設定
 2. 確認 OpenClaw 容器正在運行：
+
    ```bash
    docker ps | grep openclaw
    ```
+
 3. 查看錯誤日誌：
+
    ```bash
    docker logs openclaw --tail 100
    ```
@@ -319,6 +390,7 @@ docker network inspect bridge
 
 1. 在 Telegram Bot 中重新發送 `/start` 獲取新的配對碼
 2. 在伺服器上使用新的配對碼執行驗證：
+
    ```bash
    docker exec -it openclaw openclaw pair verify 新的配對碼
    ```
@@ -330,6 +402,7 @@ docker network inspect bridge
 1. 確認 Bot Token 已正確設定在 OpenClaw 配置中
 2. 檢查 OpenClaw 服務是否正常運行
 3. 重啟 OpenClaw 服務：
+
    ```bash
    docker-compose restart
    ```
@@ -387,8 +460,3 @@ services:
 4. ✅ 在 iPhone Telegram 應用中遠端控制伺服器
 
 現在你可以隨時隨地透過 Telegram 查詢伺服器狀態、管理服務，享受 AI 驅動的智能運維體驗！
-
-
-
-
-
