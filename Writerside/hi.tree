@@ -273,6 +273,7 @@
             <toc-element toc-title="Azure SQL">
                 <toc-element topic="Azure-SQL-新增使用者並授予讀寫權限.md" />
                 <toc-element topic="AZURE-SQL-DB-將定價層轉移到彈性集區.md" />
+                <toc-element topic="Azure-SQL-MI-Database-Copy-Network.md"/>
                 <toc-element topic="免費-Azure-SQL-DB-定價層-Free.md" />
             </toc-element>
             <toc-element toc-title="Azure Storage">
