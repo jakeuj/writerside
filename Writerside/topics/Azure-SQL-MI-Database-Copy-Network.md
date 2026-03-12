@@ -52,7 +52,16 @@
 
 5. **重新嘗試資料庫複製**
    - 透過 Portal、`az sql midb copy` 或 `Start-AzSqlInstanceDatabaseCopy` 執行。
-   - 監看 `az sql midb copy list` 與 `az sql midb list ... --query "[?name=='<db>'].status"`，當狀態變成 `ReadyToComplete`/`DbCopying` 結束時，再執行 `az sql midb copy complete`。
+   - 監看 `az sql midb copy list` 與 `az sql midb list ... --query "[?name=='<db>'].status"`，當狀態變成 `ReadyToComplete` 或 `DbCopying` 停在 target 端時，記得執行：
+     ```bash
+     az sql midb copy complete \
+       --name <db> \
+       --resource-group <rg-source> \
+       --managed-instance <source-mi> \
+       --dest-mi <target-mi> \
+       --dest-resource-group <rg-target>
+     ```
+   - 若收到 `45424`（movement 仍在進行）就等幾分鐘再重跑 `copy complete`；完成後再查 target DB 應變成 `Online`/`earliestRestorePoint != null`。
    - 成功後檢查監控計量，確保沒有封包遺失或 RTD 飆高。
 
 ## 後續建議
