@@ -1,6 +1,6 @@
 # Azure SQL Managed Instance 之 Database Copy 連線排錯筆記
 
-> 更新日期：2026-03-12
+> 更新日期：2026-03-13
 
 ## 背景
 - 來源 Managed Instance：`source-mi`
@@ -8,6 +8,13 @@
 - Database Copy 失敗訊息指出「source 與 target 之間沒有網路連線」。
 - 先前曾因 subnet CIDR 重疊導致 copy 失敗，因此已將 target VNet 調整到 `10.210.0.0/23`，來源仍在 `10.0.0.0/16`。
 - **規劃提醒**：Azure SQL MI 的 subnet 無法直接縮放或修改 CIDR，若一開始規劃錯誤，後續必須建立新的 subnet（甚至 VNet）再把 MI 重新掛上，過程會觸發重啟並牽涉大量資源調整，因此在建置時就要確認 VNet/子網範圍充足且不重疊。
+
+## VNet / Subnet 設計原則
+- **測試 / 正式分流**：測試用 MI 已固定在 `10.210.0.0/23`，正式環境請預留 `10.220.0.0/20`（其中 `10.220.0.0/24` 專供 Managed Instance Subnet）以避免和既有 `10.0.0.0/16` 重疊。
+- **一次決定 CIDR**：MI Subnet 不能縮放，因此要一次規劃足夠的位址（至少 /24）。若要升級硬體或新增對等網路，寧可重建新的 VNet，再以 ARM/Bicep 重新部署。
+- **專用路由 / NSG**：在建立 VNet 的樣板內即注入 MI 所需的 Route Table 與 NSG 規則（AzureActiveDirectory、OneDsCollector、Storage、AzureCloud、Health Probe、MI 管理 9000-9024 等），減少之後手動套用導致 Network Intent Policy 堵塞的風險。
+- **Hub / VPN 相依**：若經 hub-vnet 或 VPN 連線，需立即同步 Private Endpoint 與 Private DNS A record，並針對 hub→spoke peering 開啟 `AllowForwardedTraffic`，避免複製作業卡在 `DbCopying`。
+- **保留擴充空間**：正式環境的 `10.220.0.0/20` 可再切割多個 /24 子網給監控或備援 MI；若將來要新增 DR 節點，直接複製此段位址規劃即可。
 
 ## 問題根因
 - 兩個 VNet 調整後尚未建立 peering，所以 SQL MI 之間仍無法透過 Azure backbone 溝通。
