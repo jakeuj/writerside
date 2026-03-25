@@ -19,10 +19,25 @@
 ## 新增/修改文章流程
 
 1. 在 `Writerside/topics/` 新增或編輯 `*.md`
-2. 打開 `Writerside/hi.tree`，把新文章加到對應的 `<toc-element>`（不加會很難在導覽中找到）
-3. 圖片放到 `Writerside/images/`，在 Markdown 內以相對路徑引用（依 Writerside 規則）
-4. **部署前檢查**：`npm run pre-deploy`（檢查 Markdown 格式和配置文件）
-5. 本機預覽確認沒問題後再推送
+2. 先決定 topic 檔名、H1 標題與側欄顯示名稱
+3. 打開 `Writerside/hi.tree`，把新文章加到對應的 `<toc-element>`（不加會很難在導覽中找到）
+4. 如果 H1 太長，優先在 `hi.tree` 補較短的 `toc-title`，避免側欄 menu 太擠
+5. 圖片放到 `Writerside/images/`，在 Markdown 內以相對路徑引用（依 Writerside 規則）
+6. **部署前檢查**：`npm run pre-deploy`（檢查 Markdown 格式和配置文件）
+7. 本機預覽確認沒問題後再推送
+
+### Topic 檔名、標題與側欄名稱
+
+- `Writerside/topics/*.md` 的檔名會影響預設的 web page name / URL，建議保持簡短、穩定、可讀。
+- Markdown 文章的第一個 `# H1` 是 topic title，會顯示成頁面主標題，也會被 Writerside 當成對應 TOC/menu 項目的標題。
+- 如果文章標題需要保留完整關鍵字，但側欄顯示太長，請在 `Writerside/hi.tree` 的 `<toc-element>` 上加 `toc-title`。
+- 已發布文章如果改 topic 檔名，等於改變 URL；調整前要一併考慮 redirect 或舊連結更新。
+
+範例：
+
+```xml
+<toc-element topic="Windows-11-Native-NVMe-啟用.md" toc-title="啟用 Native NVMe" />
+```
 
 ## 部署前檢查（避免 CI/CD 失敗）
 
@@ -104,5 +119,9 @@ npm run lint:md:fix
 
 - **新增文章後側邊欄沒出現？**
   通常是忘了更新 `Writerside/hi.tree`。
+- **側邊欄 menu 太長、不好閱讀？**
+  不一定要縮短 H1；通常在 `Writerside/hi.tree` 補 `toc-title` 就可以只縮短側欄顯示名稱。
+- **文章檔名要不要跟標題一樣長？**
+  不建議。檔名會影響預設 URL，通常比 H1 更需要短、穩定、好維護。
 - **圖片顯示不出來？**
   確認圖片放在 `Writerside/images/`，並檢查 Markdown 的引用路徑與檔名大小寫。

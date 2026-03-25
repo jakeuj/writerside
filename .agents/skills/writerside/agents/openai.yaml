@@ -1,0 +1,4 @@
+interface:
+  display_name: "Writerside 筆記助手"
+  short_description: "在 Writerside 專案中新增、修改筆記並處理 TOC/anchor 問題"
+  default_prompt: "使用 $writerside 幫我新增或修正 Writerside 筆記，包含 topic、hi.tree 與必要的 Markdown/Writerside 檢查。"

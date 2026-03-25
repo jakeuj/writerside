@@ -358,6 +358,7 @@
         </toc-element>
         <toc-element topic="Windows.md">
             <toc-element topic="開發人員磁碟機.md" />
+            <toc-element topic="Windows-11-Native-NVMe-啟用.md" toc-title="啟用 Native NVMe" />
             <toc-element topic="Chocolatey.md" />
             <toc-element topic="初始安裝.md" />
             <toc-element topic="Share-Wifi.md" />

@@ -23,7 +23,6 @@
   },
   "homepage": "https://github.com/jakeuj/writerside#readme",
   "devDependencies": {
-    "markdownlint-cli": "^0.47.0",
     "markdownlint-cli2": "^0.20.0"
   }
 }
