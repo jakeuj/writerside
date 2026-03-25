@@ -92,6 +92,27 @@ driverquery /v | findstr /i "stornvme nvmedisk"
 
 所以如果你現在是要寫「Windows 11 怎麼開」，就不該把 Server 的正式 registry key 直接當成 Windows 11 標準做法。
 
+順手補一個容易搞混的背景：
+
+- Microsoft 官方文章裡，Windows Server 2025 的啟用值是 `1176759950`。
+- 後來社群在 Windows 11 24H2、25H2 上流傳的，則是 `1853569164`、`156965516`、`735209102` 這幾個 client 端 override。
+- 到了 2026 年 3 月下旬，Neowin、Tom's Hardware 和 HKEPC 都指出這組 Windows 11 registry override 已經不再可靠。
+
+## 關於 Windows 11 25H2 / 26H2 的現況
+
+如果你有看到一些文章提到「Microsoft 之後會在 Windows 11 25H2 甚至 26H2 納入 Native NVMe」，這裡要分開看：
+
+- HKEPC 在 2026 年 3 月 24 日的整理，確實提到 Microsoft 日前公布的 Windows 11 修復計劃中，承諾會在 25H2 與 26H2 實現原生 NVMe 支援。
+- 但我目前能找到的一手 Microsoft 資料裡，較明確的說法是：Native NVMe 目前 only supported on Windows Server 2025，而 Microsoft 正在探索更廣泛地帶到整個 Windows codebase。
+- 同一篇 Microsoft Server 文章也很有意思，它提供的 Group Policy MSI 文字路徑裡，已經出現 `Windows 11, version 24H2, 25H2`，代表 client 端相關 feature plumbing 的確存在。
+
+所以比較穩妥的寫法會是：
+
+- `25H2` 可以視為目前最有可能先看到更多變化的版本線。
+- `26H2` 目前比較像媒體與社群對後續 rollout 的延伸解讀，而不是我已經找到正式 release note 可以直接蓋章的承諾。
+
+也因此，這篇筆記會把 `26H2` 當成值得觀察的方向，不把它寫成已經板上釘釘的官方時程。
+
 ## 我會怎麼建議
 
 如果你是一般桌機、筆電或遊戲機使用者，我會把這件事當成「可以觀察、可以測，但還不適合當成日常預設設定」。
@@ -108,5 +129,6 @@ driverquery /v | findstr /i "stornvme nvmedisk"
 - [Microsoft Community Hub: Announcing Native NVMe in Windows Server 2025](https://techcommunity.microsoft.com/blog/windowsservernewsandbestpractices/announcing-native-nvme-in-windows-server-2025-ushering-in-a-new-era-of-storage-p/4477353)
 - [Tom's Hardware: Microsoft blocks registry trick that unlocked performance-boosting native NVMe driver on Windows 11](https://www.tomshardware.com/software/windows/microsoft-blocks-the-registry-hack-trick-that-unlocked-native-nvme-performance-on-windows-11)
 - [Tom's Hardware: Registry hack enables new performance-boosting native NVMe support on Windows 11](https://www.tomshardware.com/software/windows/registry-hack-enables-new-performance-boosting-native-nvme-support-on-windows-11-windows-server-2025-feature-can-be-unlocked-for-consumer-pcs-but-at-your-own-risk)
+- [HKEPC: Win11 原生 NVMe Registry 失效 IOPS 提升 80% 仍能用 ViVeTool 解封](https://www.hkepc.com/25321/Win11_%E5%8E%9F%E7%94%9F_NVMe_Registry_%E5%A4%B1%E6%95%88_IOPS_%E6%8F%90%E5%8D%87_80%25___%E4%BB%8D%E8%83%BD%E7%94%A8_ViVeTool_%E8%A7%A3%E5%B0%81)
 - [StorageReview: Windows Server 2025 Native NVMe: Storage Stack Overhaul and Benchmark Results](https://www.storagereview.com/review/windows-server-native-nvme)
 - [ViVeTool Releases](https://github.com/thebookisclosed/ViVe/releases)

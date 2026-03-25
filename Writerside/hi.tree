@@ -360,6 +360,7 @@
             <toc-element topic="開發人員磁碟機.md" />
             <toc-element topic="Windows-11-Native-NVMe-啟用.md" toc-title="啟用 Native NVMe" />
             <toc-element topic="Chocolatey.md" />
+            <toc-element topic="Windows-重灌-UUP-dump-Ventoy-安裝USB.md" toc-title="重灌與安裝 USB" />
             <toc-element topic="初始安裝.md" />
             <toc-element topic="Share-Wifi.md" />
             <toc-element topic="Windows-檔案總管緩慢甚至沒有回應.md" />
