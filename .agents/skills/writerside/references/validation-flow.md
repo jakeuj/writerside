@@ -49,7 +49,9 @@
 - anchor / element id 衝突
 - `hi.tree` 掛載錯誤
 - 圖片或 topic 路徑錯誤
+- `%...%` 被 Writerside 當成變數，例如 Windows PATH 或 URL percent-encoding
 - Writerside XML 標記格式問題
+- `<tabs>` / `<tab>` 混用複雜 HTML 結構造成的語法或上下文錯誤
 - GitHub Pages 權限、artifact 或 `web-path` 路徑問題
 
 這類問題通常不是 `markdownlint-cli2` 的責任範圍。

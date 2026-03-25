@@ -114,6 +114,7 @@ example command
   - 重複或條件內容：`<snippet>`、`<include>`、`<if>`
   - 需要尺寸或樣式控制的媒體：`<img>`、`<video>`
 - 不要再用 `<caution>`；目前官方 semantic markup reference 找不到這個標記。
+- 如果 `<tabs>` / `<tab>` 內會混多層 HTML list、`<note>`、`<warning>`、`<code-block>` 等較複雜內容，先評估是否真的值得保留 tabs；若 checker 已經出現 `MRK002`、`MRK009` 這類結構錯誤，優先簡化成較單純的 XML，必要時直接改回一般 Markdown 小節。
 - 若不確定該用哪個標記，優先讀 `references/markup-reference.md`，再回頭決定是否真的需要 XML。
 - 若問題偏向長文切章節、右側 topic navigation、可折疊章節、definition list 或 related links，直接讀 `references/structural-elements.md`。
 - 若問題偏向一般清單、巢狀 list、multiple columns、definition list 寫法、FAQ/troubleshooting 排版，直接讀 `references/lists-reference.md`。
@@ -129,6 +130,7 @@ example command
 - 若問題偏向 Writerside build、GitHub Actions、GitHub Pages、deployment workflow、`writerside-github-action`、checker action、Pages artifact 或 Algolia 發布，直接讀 `references/build-deploy.md`。
 - 若問題偏向 `buildprofiles.xml`、header/footer、Algolia、shortcut switcher、OG metadata、sitemap、`ignore-problems` 或 `cfg/` 建置設定，直接讀 `references/buildprofiles-reference.md`。
 - 若問題偏向 `llms.txt`、`<llms-txt>`、single-file vs per-topic LLM export、`_llms/` 產物目錄或把文件輸出給 LLM agent 使用，直接讀 `references/llms-reference.md`。
+- 若問題偏向 `v.list`、`<var>`、`%product%` 這類變數插值、built-in variables、`ignore-vars`、`smart-ignore-vars`、snippet 變數傳值或 instance-conditioned variables，直接讀 `references/variables-reference.md`。
 - 若問題偏向 `writerside.cfg`、`project.ihp`、`<topics>`、`<images>`、`<instance>`、`<settings>`、`<build-config>`、`smart-ignore-vars` 或 help module 目錄配置，直接讀 `references/writerside-cfg-reference.md`。
 - 若問題偏向 help instance、multiple outputs、tree file、`<instance-profile>`、instance ID、`status="deprecated|eap"`、跨 instance 重用、`<include>`、`<snippet>`、`ref`/`in` 或 reusable TOC chunk，直接讀 `references/instances-reference.md`。
 - 若問題偏向 `hi.tree`、tree file、`<toc-element>`、`start-page`、`toc-title`、hidden topic、外部 TOC 連結、home page 或 TOC 階層調整，直接讀 `references/toc-reference.md`。
@@ -144,13 +146,14 @@ example command
 - XML 區塊在 Markdown 中要維持連續，不要被不必要的空行切斷。
 - 允許在 XML 元素內保留空行來插入 Markdown 段落，但不要用 tab 縮排，避免被 Markdown 當成 block quote 或 code block。
 - 在 `<step>`、`<tab>`、`<li>` 這類容器內，如果有多段文字或文字混圖片/程式碼，優先用 `<p>` 包起來，不要留下難解析的 dangling text。
+- 如果 `<tab>` 內已經混到多層 HTML list、提醒框和多段 code block，代表這段內容可能過於脆弱；先嘗試簡化結構，不要為了保留 tabs 而硬撐。
 - 如果只是單純的有序清單，不必硬轉成 XML；但只要內容是在描述「如何完成任務」，優先改用 `<procedure>`。
 
 ## 程式碼、anchor 與重用
 
 - CLI 指令或可執行命令，優先標清楚語言；需要提示字元時可用 `<code-block prompt="$">`，提示字元不會被複製。
 - 如果 `<code-block>` 內容是不完整範例，或 IDE 語法注入會一直報錯，可加 `noinject="true"`。
-- 如果程式碼或文字內出現 `%foo%` 這類可能被當成 Writerside 變數的內容，可加 `ignore-vars="true"`。
+- 如果程式碼、文字或連結 URL 內出現 `%foo%`、`%E5...`、`%20`、`%25` 這類可能被當成 Writerside 變數或 percent-encoding 的內容，可加 `ignore-vars="true"`。
 - 需要穩定 anchor 時，Markdown 標題優先補 `{#custom-id}`；XML 元素則用 `id="custom-id"`。
 - 只有在真的有重複內容或條件輸出需求時，才引入 `<snippet>`、`<include>`、`<if>`；一般單篇筆記不要過度工程化。
 
@@ -205,6 +208,8 @@ npm run pre-deploy
 - `references/build-deploy.md`: 判斷 Writerside build、GitHub Actions、GitHub Pages、deploy workflow、checker action、Pages artifact、Algolia 發布與 CI deploy 問題時讀。
 - `references/buildprofiles-reference.md`: 判斷 `buildprofiles.xml`、`cfg/` 預設位置、global vs instance-specific build settings、header/footer、Algolia、social/footer、shortcut layouts、OG/sitemap 與 `ignore-problems` 時讀。
 - `references/llms-reference.md`: 判斷 `llms.txt`、`<llms-txt>`、single-file / per-topic LLM 輸出、`_llms/` 產物目錄與 llms export 採用方式時讀。
+- `references/variables-reference.md`: 判斷 `v.list`、`<var>`、`%var%` 插值、built-in variables、`ignore-vars`、`smart-ignore-vars`、snippet 變數傳值與 instance-conditioned variables 時讀。
+- `Writerside/topics/variables.md`: 查 repo 內最小可用的變數、跳脫 `%` 與 `ignore-vars` 範例時讀。
 - `references/writerside-cfg-reference.md`: 判斷 `writerside.cfg` / `project.ihp`、help module 主設定、topics/images/vars/categories/snippets/build-config、instances 與 module-level settings 時讀。
 - `references/instances-reference.md`: 判斷 help instances、multiple outputs、instance ID、tree file、`<instance-profile>`、`status`、跨 instance reuse、`<include>`、`<snippet>`、`ref`/`in`、`wip`、redirect 與 reusable TOC chunk 時讀。
 - `references/toc-reference.md`: 判斷 `hi.tree`、tree file、`<instance-profile>`、`<toc-element>`、`start-page`、`toc-title`、`hidden="true"`、外部連結 TOC 與 TOC 階層時讀。

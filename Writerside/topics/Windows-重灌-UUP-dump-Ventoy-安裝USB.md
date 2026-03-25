@@ -71,49 +71,54 @@ Ventoy 的優點是先把 USB 做成可開機載具，之後只要把 ISO 複製
 <p>第一次把 Ventoy 安裝到 USB 時，目標隨身碟上的資料會被清掉。開始前先確認你選到的是正確的 USB，不是外接硬碟或其他資料碟。</p>
 </warning>
 
-<tabs>
-    <tab title="Windows">
-        <p>在 Windows 上是最直接的做法：</p>
-        <ol>
-            <li>到 <a href="https://github.com/ventoy/Ventoy/releases/latest">Ventoy Releases</a> 下載 Windows 版壓縮檔。</li>
-            <li>解壓縮後，以系統管理員身分執行 <code>Ventoy2Disk.exe</code>。</li>
-            <li>選擇要安裝 Ventoy 的 USB 隨身碟。</li>
-            <li>首次安裝按下 <code>Install</code>，如果已經做過 Ventoy，只是要升級版本，則使用更新流程即可。</li>
-            <li>安裝完成後，把剛剛做好的 Windows ISO 複製到 USB 第一分割區。</li>
-        </ol>
-        <p>補充幾個我自己會注意的點：</p>
-        <ul>
-            <li>大多數情況維持預設設定就夠了，不用一開始就改很多選項。</li>
-            <li>如果目標機器開著 Secure Boot，再考慮把 Secure Boot support 一起打開。</li>
-            <li>MBR 和 GPT Ventoy 都支援，沒有特別需求時，我通常先用預設值。</li>
-        </ul>
-    </tab>
-    <tab title="macOS">
-        <p>我目前沒有把 macOS 原生安裝 Ventoy 寫成主流程，原因是官方文件主要寫 Windows 與 Linux，官方 release 頁面也以 Windows zip、Linux tar.gz、LiveCD ISO 為主。若你手邊是 Mac，最穩的做法是透過 Linux VM，或借一台 Windows/Linux 電腦先把 USB 做成 Ventoy。</p>
-        <p>如果你要在 Mac 上完成這件事，我會建議這樣做：</p>
-        <ol>
-            <li>在 Mac 上開一台 Linux VM，並把 USB 裝置直通給 VM。</li>
-            <li>下載 <a href="https://github.com/ventoy/Ventoy/releases/latest">Ventoy 最新 Linux 安裝包</a> 並解壓縮。</li>
-            <li>在 Linux VM 中用 <code>lsblk</code> 確認 USB 裝置名稱，例如 <code>/dev/sdb</code>。</li>
-            <li>切到解壓縮後的目錄，執行以下指令安裝 Ventoy：</li>
-        </ol>
+### Windows
 
-        <code-block lang="bash">sudo bash Ventoy2Disk.sh -i /dev/sdX</code-block>
+在 Windows 上是最直接的做法：
 
-        <p>如果你的目標機器需要 Secure Boot，可改用：</p>
+1. 到 [Ventoy Releases](https://github.com/ventoy/Ventoy/releases/latest) 下載 Windows 版壓縮檔。
+2. 解壓縮後，以系統管理員身分執行 `Ventoy2Disk.exe`。
+3. 選擇要安裝 Ventoy 的 USB 隨身碟。
+4. 首次安裝按下 `Install`，如果已經做過 Ventoy，只是要升級版本，則使用更新流程即可。
+5. 安裝完成後，把剛剛做好的 Windows ISO 複製到 USB 第一分割區。
 
-        <code-block lang="bash">sudo bash Ventoy2Disk.sh -i -s /dev/sdX</code-block>
+補充幾個我自己會注意的點：
 
-        <p>如果你很明確知道自己要 GPT，也可以加上 <code>-g</code>：</p>
+- 大多數情況維持預設設定就夠了，不用一開始就改很多選項。
+- 如果目標機器開著 Secure Boot，再考慮把 Secure Boot support 一起打開。
+- MBR 和 GPT Ventoy 都支援，沒有特別需求時，我通常先用預設值。
 
-        <code-block lang="bash">sudo bash Ventoy2Disk.sh -i -g /dev/sdX</code-block>
+### macOS
 
-        <p>完成後，把 USB 從 VM 卸載，再接回 macOS，將 Windows ISO 複製到 Ventoy 的主要分割區即可。</p>
-        <note>
-            <p>上面這段是在 Linux VM 裡執行，不是直接在 macOS Terminal 用 <code>/dev/diskX</code> 跑。這樣做比較符合 Ventoy 官方目前提供的安裝方式，也比較不容易踩到平台相容性問題。</p>
-        </note>
-    </tab>
-</tabs>
+我目前沒有把 macOS 原生安裝 Ventoy 寫成主流程，原因是官方文件主要寫 Windows 與 Linux，官方 release 頁面也以 Windows zip、Linux tar.gz、LiveCD ISO 為主。若你手邊是 Mac，最穩的做法是透過 Linux VM，或借一台 Windows/Linux 電腦先把 USB 做成 Ventoy。
+
+如果你要在 Mac 上完成這件事，我會建議這樣做：
+
+1. 在 Mac 上開一台 Linux VM，並把 USB 裝置直通給 VM。
+2. 下載 [Ventoy 最新 Linux 安裝包](https://github.com/ventoy/Ventoy/releases/latest) 並解壓縮。
+3. 在 Linux VM 中用 `lsblk` 確認 USB 裝置名稱，例如 `/dev/sdb`。
+4. 切到解壓縮後的目錄，執行以下指令安裝 Ventoy：
+
+```bash
+sudo bash Ventoy2Disk.sh -i /dev/sdX
+```
+
+如果你的目標機器需要 Secure Boot，可改用：
+
+```bash
+sudo bash Ventoy2Disk.sh -i -s /dev/sdX
+```
+
+如果你很明確知道自己要 GPT，也可以加上 `-g`：
+
+```bash
+sudo bash Ventoy2Disk.sh -i -g /dev/sdX
+```
+
+完成後，把 USB 從 VM 卸載，再接回 macOS，將 Windows ISO 複製到 Ventoy 的主要分割區即可。
+
+<note>
+<p>上面這段是在 Linux VM 裡執行，不是直接在 macOS Terminal 用 <code>/dev/diskX</code> 跑。這樣做比較符合 Ventoy 官方目前提供的安裝方式，也比較不容易踩到平台相容性問題。</p>
+</note>
 
 ## 第三步：把 ISO 複製到 Ventoy 隨身碟
 
