@@ -13,6 +13,7 @@
 
 若你需要深入理解 help instance 本身、tree file 結構、`<instance-profile>`、`status`、多 instance 輸出或跨 instance 重用，改讀 `instances-reference.md`。
 若你需要深入理解 help module structure、module root、可選目錄或多 module 專案，改讀 `help-modules-reference.md`。
+若你需要專門處理 `v.list`、`<var>`、built-in variables、`%var%` 插值或 snippet 變數傳值，改讀 `variables-reference.md`。
 
 ## `writerside.cfg` 是做什麼的
 
@@ -103,6 +104,16 @@
 這個 repo 目前是：
 
 - `src="v.list"`
+
+如果你要深入看：
+
+- `v.list` 內怎麼宣告全域變數
+- local `<var>` 覆寫
+- built-in variables
+- `%\var%` 跳脫或 `&percnt;`
+- `instance="..."` 條件化變數
+
+改讀 `variables-reference.md`。
 
 ### `<instance>`
 
@@ -213,6 +224,7 @@
 - `writerside.cfg` 主設定、help module 目錄、instances、settings：這份檔案
 - help module structure、optional files、多 module / `origin`：`help-modules-reference.md`
 - help instance 概念、tree file、multiple outputs、instance reuse：`instances-reference.md`
+- `v.list`、`<var>`、`smart-ignore-vars`、變數插值：`variables-reference.md`
 - 專案 / help module root / templates：`projects-reference.md`
 - `buildprofiles.xml` 與 `cfg/` 內建置輸出設定：`buildprofiles-reference.md`
 - 實際 build / deploy / CI 流程：`build-deploy.md`

@@ -17,6 +17,7 @@
 若問題偏向 PlantUML 語法、Graphviz、`@startuml`、`ignore-vars="false"` 或 `.puml` 檔引用，改讀 `plantuml-reference.md`。
 若問題偏向 D2 語法、`.d2` 檔引用或建置前安裝 D2，改讀 `d2-reference.md`。
 若問題偏向 `lang="tex"` 的 block math、`<math>` 或 Markdown `$...$` inline math，改讀 `math-reference.md`。
+若問題偏向 `v.list`、`<var>`、`%var%` 插值、built-in variables、`smart-ignore-vars` 或 snippet 變數傳值，改讀 `variables-reference.md`。
 若問題偏向 `code-snippets/` 在 help module 的位置、多 module 專案或 module-level snippets 目錄分工，改讀 `help-modules-reference.md`。
 
 ## 先判斷用哪種 code 表達
@@ -95,6 +96,7 @@ npm run pre-deploy
 ### `ignore-vars="true"`
 
 - 如果程式碼裡出現 `%foo%` 這類字串，避免被 Writerside 當成變數。
+- 如果你要判斷的不是程式碼，而是整個 Writerside 變數系統、built-in variables 或 `<smart-ignore-vars>` 全域行為，改讀 `variables-reference.md`。
 
 ### `src`
 

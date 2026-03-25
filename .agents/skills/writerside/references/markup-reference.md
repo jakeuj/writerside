@@ -16,6 +16,7 @@
 若問題偏向提醒區塊、Markdown blockquote admonition 或 `tip/note/warning` 的選擇，改讀 `admonitions-reference.md`。
 若問題偏向 `<tldr>` 的 quick facts 設計、條目數量或和正文/提醒區塊的區別，改讀 `tldr-reference.md`。
 若問題偏向 inline code、code block、CDATA、code sample 引用或 code compare，改讀 `code-reference.md`。
+若問題偏向 `v.list`、`<var>`、`%var%` 插值、built-in variables 或 literal `%` 跳脫，改讀 `variables-reference.md`。
 若問題偏向數學公式、`<math>`、Markdown `$...$` 或 `lang="tex"` block math，改讀 `math-reference.md`。
 若問題偏向 `labels.list`、`<primary-label>`、`<secondary-label>` 或 topic/chapter header labels，改讀 `labels-reference.md`。
 若問題偏向可下載附件、`<resource>`、resources directory 或 `writerside.cfg` 的 resources 設定，改讀 `downloadable-resources-reference.md`。
@@ -167,6 +168,7 @@
 - 只在內容要重複被多篇文章共用時使用。
 - `element-id` 可指定重用某個元素，`use-filter` 可只取特定 filter 的內容。
 - 如果只是單篇筆記裡偶爾重複一句話，不值得為它抽 snippet。
+- 如果重點變成 snippet 內怎麼帶入 `<var>` 或覆寫變數值，改讀 `variables-reference.md`。
 
 ### `<if>`
 
@@ -188,6 +190,7 @@
 - `ignore-vars="true"`：內容含 `%foo%` 這類字串，避免被 Writerside 誤認成變數。
 - `src="..."`：直接從檔案帶入程式碼時使用；只有在真的需要同步外部檔案內容時才用。
 - 更完整的 inline code、CDATA、`src`、`include-lines`、`include-symbol`、soft wrap 與 code compare 規則，改讀 `code-reference.md`。
+- 如果重點是 `%foo%` 變數本身、built-in variables、跳脫 `%\var%` 或 `smart-ignore-vars`，改讀 `variables-reference.md`。
 
 ## 在這個 repo 的實際採用建議
 
