@@ -10,6 +10,9 @@
             <toc-element topic="贊助.md" />
             <toc-element href="https://www.dotblogs.com.tw/jakeuj/" toc-title="原筆記(點部落)" />
         </toc-element>
+        <toc-element toc-title="Game">
+            <toc-element topic="Merc-FJU-3.0-MUD-AREA-重建工作流筆記.md" toc-title="Merc-FJU 3.0 MUD Area Rebuild" />
+        </toc-element>
         <toc-element toc-title="AI">
             <toc-element topic="auggie-mcp-guide.md"/>
             <toc-element topic="auggie-cli-rules.md"/>
