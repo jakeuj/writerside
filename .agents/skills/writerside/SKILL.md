@@ -1,15 +1,36 @@
 ---
 name: writerside
-description: 在這個 JetBrains Writerside 專案中撰寫或修改技術筆記、建立或更新 `Writerside/topics/*.md`、把 topic 掛進 `Writerside/hi.tree`、選擇 Markdown 或 semantic markup、處理 tabs、procedure、chapter、show-structure、deflist、table、seealso、note、warning、img、video、snippet、include、if 等 Writerside 標記，以及修正 anchor/TOC/checker 問題時使用。遇到「幫我新增一篇筆記」、「修改既有文章」、「補 topic 到 hi.tree」、「修 Writerside/Markdown 錯誤」、「處理 element id/anchor/TOC 問題」、「把內容改成合適的 Writerside 語義標記」這類需求時優先使用。
+description: 在目前這個 JetBrains Writerside repo `/Users/jakeuj/WritersideProjects/writerside` 中撰寫或修改會公開發佈到網際網路的技術筆記、建立或更新 `Writerside/topics/*.md`、把 topic 掛進 `Writerside/hi.tree`、選擇 Markdown 或 semantic markup、處理去識別化與敏感資料清理、tabs、procedure、chapter、show-structure、deflist、table、seealso、note、warning、img、video、snippet、include、if 等 Writerside 標記，以及修正 anchor/TOC/checker 問題時使用。遇到「幫我新增一篇筆記」、「修改既有文章」、「補 topic 到 hi.tree」、「修 Writerside/Markdown 錯誤」、「處理 element id/anchor/TOC 問題」、「把文章改成可公開發佈版本」、「去識別化 Azure 或其他雲端資源資訊」這類需求時優先使用；如果需求來自其他專案並要回寫到固定 Writerside 發布 repo，優先改用全域版 writerside skill。
 ---
 
 # 在這個 repo 中處理 Writerside 內容
 
 先把重點放在「產出一篇可發布、可通過檢查的文章」，不要先把注意力擴散到部署、站台設定或整站重構。
 
+- 這個 repo 的筆記會公開發佈到網際網路，預設把每篇 topic 都當成對外文件來處理。
+
+## Repo-local 與全域 skill 的分工
+
+- 這份 `./.agents/skills/writerside/SKILL.md` 是目前 repo 內的專用版本，也是日後複製成全域 skill 時的 source of truth。
+- 如果當前工作目錄就是 `/Users/jakeuj/WritersideProjects/writerside`，優先使用這份 repo-local skill。
+- 如果需求來自其他專案、但要把內容整理後寫回固定發布 repo，優先使用放在 `~/.agents/skills/` 或 `~/.codex/skills/` 的全域版 `writerside` skill。
+- 維護這份 repo-local skill 時，優先保留相對路徑與本 repo 內的工作流，不要把其他專案的硬編碼路徑或跨 repo 假設直接寫回來。
+- 如果未來要同步規則到全域版，先更新這份 repo-local skill，再視需要複製或合併到全域版，避免兩份規則長期漂移。
+- 需要重建全域版時，執行 `./scripts/sync-writerside-skill.sh`；它會把 repo-local skill 的共用檔案同步到 `~/.agents/skills/writerside`，再用 `./.agents/skills/writerside/assets/global-skill/` 裡的全域模板覆蓋全域版 entry files。
+
+## 公開發佈前的去識別化與敏感資料處理
+
+- 先把文章視為會公開上網；除非使用者明確說這是私人草稿或內部文件，否則不要保留可追溯到真實環境的識別資料。
+- 修改既有文章時，先盤點是否含 subscription / tenant ID、GUID、resource ID、resource group、App Service / Function App / VM / database 名稱、VNet / subnet 名稱、IP、FQDN、email、帳號、客戶名、專案代號、secret、token、connection string。
+- 可以保留技術概念，但把真實值改成一致的占位符或中性範例，例如 `<subscription-id>`、`<resource-group>`、`<app-name>`、`<private-ip>`。
+- Azure 相關內容特別注意完整 resource ID 與 GUID；像 `68f25dd9-e6c5-4e1c-943a-ff15193a4030` 這類真實 subscription ID 不應直接出現在公開文章。
+- 若範例輸出需要保留表格、JSON 或指令結果，整段一起去識別化，不要只改指令卻保留真實輸出。
+- 若內容去識別化後仍可能暴露內部環境或客戶資訊，優先改寫成抽象步驟、參數化指令與示意名稱，不要硬保留原值。
+
 ## 先確認任務型態
 
 - 先判斷這次是新增 topic、修改既有文章、補 `hi.tree`、修 checker 錯誤，還是把既有 Markdown 改寫成較合適的 semantic markup。
+- 先盤點文章內是否含公開發布不適合保留的識別資料；如果有，先列出要替換的值，再動手改文。
 - 先到 `Writerside/topics/` 和 `Writerside/hi.tree` 搜尋是否已經有同主題文章，避免重複寫一篇只差措辭的新筆記。
 - 先讀 1 到 2 篇同類型文章，模仿這個專案慣用的語氣與結構。
 - 優先沿用繁體中文敘述，技術術語、CLI 指令、程式碼與設定鍵值保留英文。
@@ -50,6 +71,7 @@ description: 在這個 JetBrains Writerside 專案中撰寫或修改技術筆記
 - 開頭先交代情境、問題或結論，不要一開始就丟一大段沒有上下文的指令。
 - 優先使用問題導向、實作導向的寫法；讓讀者能快速知道「遇到什麼情境、怎麼做、做完怎麼驗證」。
 - 沒有必要時，不要硬塞過多背景理論。
+- 如果文章引用真實案例，優先在前言或範例前清楚標註「本文中的名稱、ID、路徑已去識別化」，避免讀者誤以為那是可直接套用的真實值。
 
 優先使用這種骨架，再依內容增減章節：
 
@@ -153,6 +175,8 @@ example command
 
 - CLI 指令或可執行命令，優先標清楚語言；需要提示字元時可用 `<code-block prompt="$">`，提示字元不會被複製。
 - 如果 `<code-block>` 內容是不完整範例，或 IDE 語法注入會一直報錯，可加 `noinject="true"`。
+- 涉及 Azure CLI、ARM resource ID、JSON 範例輸出或查詢結果時，優先用變數與 placeholder 組合範例，不要把真實 subscription ID、tenant ID、主機名稱或完整 resource ID 直接貼進文章。
+- 如果表格、JSON、終端輸出是從真實環境整理出來的，記得連同名稱、ID、路徑與位置資訊一起去識別化，不要只改指令不改結果。
 - 如果程式碼、文字或連結 URL 內出現 `%foo%`、`%E5...`、`%20`、`%25` 這類可能被當成 Writerside 變數或 percent-encoding 的內容，可加 `ignore-vars="true"`。
 - 需要穩定 anchor 時，Markdown 標題優先補 `{#custom-id}`；XML 元素則用 `id="custom-id"`。
 - 只有在真的有重複內容或條件輸出需求時，才引入 `<snippet>`、`<include>`、`<if>`；一般單篇筆記不要過度工程化。
@@ -174,6 +198,7 @@ example command
 ## 收尾驗證
 
 - 先確認 `Writerside/hi.tree` 中的 `topic` 檔名和實際檔名完全一致。
+- 送出前再做一次去識別化檢查，確認全文沒有殘留真實 GUID、resource ID、內部網域、私人 IP、email 或客戶 / 專案名稱。
 - 先修新增那篇文章的 Markdown 格式，再做整體檢查。
 - 如果只有單篇變更，優先跑單檔檢查；如果同時改了多篇，再跑專案腳本。
 
@@ -182,6 +207,8 @@ example command
 ```bash
 npx markdownlint-cli2 --fix --no-globs Writerside/topics/<topic-file>.md
 npx markdownlint-cli2 --no-globs Writerside/topics/<topic-file>.md
+rg -n '[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}' Writerside/topics/<topic-file>.md
+rg -n '/subscriptions/|resourceGroups/|privatelink|\\.corp|\\.local|@' Writerside/topics/<topic-file>.md
 ```
 
 整體檢查：
