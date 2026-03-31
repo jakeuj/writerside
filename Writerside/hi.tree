@@ -15,6 +15,7 @@
         </toc-element>
         <toc-element toc-title="AI">
             <toc-element topic="auggie-mcp-guide.md"/>
+            <toc-element topic="Codex-IDE-使用-Azure-MCP-Server.md" toc-title="Codex IDE Azure MCP"/>
             <toc-element topic="auggie-cli-rules.md"/>
             <toc-element topic="auggie-cli-skills.md"/>
             <toc-element topic="auggie-user-rules-example.md"/>
