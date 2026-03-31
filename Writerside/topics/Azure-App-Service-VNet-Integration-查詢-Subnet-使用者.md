@@ -1,8 +1,27 @@
 # Azure App Service VNet Integration 查詢哪個 Subnet 正在被使用
 
-這篇筆記記錄如何用 Azure CLI 查出「哪個 Azure App Service / Function App 正在使用某個 VNet subnet 做 VNet Integration」，以及這次實際查詢時踩到的坑。
+先講結論：要查哪個 Azure App Service / Function App 正在使用某個 VNet subnet 做 VNet Integration，先把目標 subnet 組成完整 resource ID，然後優先用 `az webapp list` 或 `az functionapp list` 比對 `virtualNetworkSubnetId`；如果還要跨多個 subscription 盤點，再補 `az graph query` 驗證。不要先假設 `az resource list --resource-type Microsoft.Web/sites` 一定查得到。
+
+<tldr>
+<p>單一 subscription：優先用 <code>az webapp list</code> / <code>az functionapp list</code> 查 <code>virtualNetworkSubnetId</code>。</p>
+<p><code>az resource list</code> 可能回空結果，不適合當唯一依據。</p>
+<p>跨多個 subscription 盤點時，再補 <code>az graph query</code> 驗證。</p>
+</tldr>
 
 > 本文中的 subscription ID、resource group、VNet、subnet、App Service 與 App Service Plan 名稱皆已去識別化，請替換成你自己的 Azure 資源。
+
+## 這次案例直接查到的結果
+
+這次實際查到的 App Service 有 2 個，以下列出去識別化後的名稱：
+
+- `app-frontend-prod`
+- `app-api-prod`
+
+兩個都使用同一個 App Service Plan：
+
+```text
+/subscriptions/<subscription-id>/resourceGroups/<app-rg>/providers/Microsoft.Web/serverfarms/<shared-app-service-plan>
+```
 
 ## 問題描述
 
@@ -16,21 +35,6 @@
 
 ```text
 /subscriptions/<subscription-id>/resourceGroups/<network-rg>/providers/Microsoft.Network/virtualNetworks/<shared-vnet>/subnets/<appservice-integration-subnet>
-```
-
-## 先講結論
-
-這次實測最穩的查法是直接用 `az webapp list` 或 `az functionapp list` 去看 `virtualNetworkSubnetId`，不要先假設 `az resource list --resource-type Microsoft.Web/sites` 一定查得到。
-
-這次實際查到的 App Service 有 2 個，以下列出去識別化後的名稱：
-
-- `app-frontend-prod`
-- `app-api-prod`
-
-兩個都使用同一個 App Service Plan：
-
-```text
-/subscriptions/<subscription-id>/resourceGroups/<app-rg>/providers/Microsoft.Web/serverfarms/<shared-app-service-plan>
 ```
 
 ## 為什麼不要只用 az resource list
