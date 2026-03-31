@@ -39,17 +39,25 @@ description: 在目前這個 JetBrains Writerside repo `/Users/jakeuj/Writerside
 
 - 在 `Writerside/topics/` 建立或修改檔案。
 - 使用能直接看出主題的檔名，保留 `.md` 副檔名。
-- 優先採用這個專案常見的命名方式：技術名稱 + 問題/動作 + 補充描述，用連字號串接，允許中英混用。
+- 優先採用這個專案常見的命名方式：技術名稱 + 問題/動作 + 補充描述，用連字號串接。
+- repo 內既有 topic 可以看到中英混用；但如果這篇是新文章、而且你想讓公開 URL 避開中文，預設直接用 ASCII / English kebab-case。
 - 檔名也會影響預設的 web page name / URL，優先短、穩定、可讀，不要把所有關鍵詞都塞進檔名。
+- 在這個 repo，單篇文章 URL 最直接受 topic 檔名影響；H1 和 `toc-title` 只控制顯示，不控制網址。
+- 如果目標是避免中文 URL，不要先改 `writerside.cfg` 或期待 Writerside 自動幫你翻成英文；先把 topic 檔名命成 `azure-app-service-vnet-tcpping-timeout.md`、`nswag-settings-httpclient-startup.md` 這類 ASCII slug。
+- 優先把「主要技術 + 核心問題」留在檔名；環境、傳輸路徑、診斷工具、錯誤現象等次要細節，優先留給 H1、前言或 `toc-title`。
+- 如果檔名已經長到像一句搜尋 query，代表通常塞了太多關鍵字；這時先刪掉次要修飾，不要讓檔名變成 `Azure-App-Service-VNet-Integration-S2S-VPN-tcpping-timeout.md` 這種層層堆疊的形式。
+- 類似上面的情境，優先改成 `Azure-App-Service-VNet-tcpping-timeout.md`、`Azure-App-Service-S2S-VPN-timeout.md` 這類較短版本，再用標題補成「Azure App Service VNet Integration 經 S2S VPN 使用 tcpping timeout 排錯」。
 - 如果 H1 需要寫得比較完整，檔名仍可相對精簡，再用標題與 `toc-title` 補語意。
-- 如果是已發布的既有文章，改檔名代表改 URL；除非只是未發布草稿，否則要先確認是否需要 redirect 或同步更新外部連結。
+- 如果是已發布的既有文章，改檔名代表改 URL；除非只是未發布草稿，否則要先確認是否需要 redirect 或同步更新外部連結，像是 `Writerside/redirection-rules.xml` 或 `accepts-web-file-names`。
 - 避免使用 `note.md`、`temp.md`、`test.md` 這類沒有辨識度的名稱。
 
-可參考這類現有命名：
+如果想避開中文 URL，新 topic 優先參考這類命名：
 
-- `macOS-WiFi-DNS-設定筆記.md`
-- `Jetbrains-Writerside-CICD-自動化部署-Markdown-到-GIthub-Pages.md`
-- `Azure-App-Service-Deploy.md`
+- `azure-app-service-vnet-tcpping-timeout.md`
+- `nswag-settings-httpclient-startup.md`
+- `windows-11-native-nvme-enable.md`
+
+repo 內既有文章若保留中文檔名，視為歷史內容，不代表新文預設要延續中文 slug。
 
 ## 決定文章放在哪個分類
 
@@ -58,6 +66,10 @@ description: 在目前這個 JetBrains Writerside repo `/Users/jakeuj/Writerside
 - 把新 topic 放在相近主題旁邊，不要只是機械式地加在檔案最後面。
 - Writerside 預設會把 topic title 當成 TOC 項目；如果 H1 偏長，優先在 `hi.tree` 補較短的 `toc-title`。
 - 只有在側欄標題需要更短、或想跟 H1 顯示名稱不同時，才加 `toc-title`。
+- `toc-title` 只影響側欄顯示名稱，不改 topic 產出的 URL。
+- `toc-title` 如果語意不變，優先避開需要 XML escape 的符號，尤其是 `&`、`<`、`>`；這樣 `hi.tree` 會比較好讀，也比較不容易留下 `&amp;` 這類維護噪音。
+- 例如 `NSwag Settings &amp; HttpClient Startup`，優先改成 `NSwag Settings and HttpClient Startup`、`NSwag Settings 與 HttpClient Startup`，或其他不需要 escape 的等價寫法。
+- 不要把這條規則放大成「禁用所有符號」；像 `C#`、`.NET`、`CI/CD` 這類名稱本來就依賴符號時可以保留，真的需要 `&`、`<`、`>` 時再正確 escape。
 
 範例：
 

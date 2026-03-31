@@ -203,8 +203,16 @@
 - 控制 web file names 是否做預設正規化。
 - 預設會把特殊字元轉成 `-`，並把英文字母轉小寫。
 - 如果要盡量保留和 topic 檔名接近的 web file name，才考慮改這個。
+- 它不是用來把中文網址自動翻成英文，也不是新文章命名策略的首選工具。
+- 如果目標只是避免公開 URL 含中文，優先把 topic 檔名命成 ASCII / English kebab-case。
 
 這層會影響 URL，屬於高影響設定，不能輕易調。
+
+對這個 repo 的理解方式：
+
+- `buildprofiles.xml` 的 `web-root` 決定網站根網址。
+- `writerside.cfg` 的 instance `web-path` 和 `version` 決定 `/writerside/master/` 這段前綴。
+- 單篇文章最後的 page slug 主要看 topic 檔名產生出的 web file name；H1 和 `toc-title` 不控制 URL。
 
 ### `<smart-ignore-vars>`
 

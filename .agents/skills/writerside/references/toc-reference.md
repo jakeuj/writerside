@@ -80,6 +80,7 @@
 - `topic="file.md"` 代表這個 TOC 項目對應到一篇 topic。
 - Writerside 左側預設顯示的是 topic title，不是檔名。
 - 如果 H1 太長，才考慮在 tree file 補 `toc-title`。
+- `toc-title` 只改左側顯示名稱，不改 topic 產出的 web file name / URL。
 
 範例：
 
@@ -91,6 +92,10 @@
 
 - 沒必要時不要濫用 `toc-title`。
 - 只有在側欄需要更短、更穩定，或要和 H1 明確區分時才加。
+- 如果你想避開中文 URL，優先把 topic 檔名命成 ASCII slug，不要靠改 H1 或 `toc-title` 來控制網址。
+- 如果語意不變，優先避開需要 XML escape 的符號，尤其 `&`、`<`、`>`，讓 tree file 比較好讀。
+- 例如 `NSwag Settings &amp; HttpClient Startup`，通常更建議寫成 `NSwag Settings and HttpClient Startup` 或 `NSwag Settings 與 HttpClient Startup`。
+- 不用因此禁止所有符號；像 `C#`、`.NET`、`CI/CD` 這類名稱的一部分可以保留，只有在必要時才對 XML 特殊符號做 escape。
 
 ## 空的 TOC 群組
 

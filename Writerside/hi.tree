@@ -15,7 +15,7 @@
         </toc-element>
         <toc-element toc-title="AI">
             <toc-element topic="auggie-mcp-guide.md"/>
-            <toc-element topic="Codex-IDE-使用-Azure-MCP-Server.md" toc-title="Codex IDE Azure MCP"/>
+            <toc-element topic="codex-ide-azure-mcp-server.md" toc-title="Codex IDE Azure MCP"/>
             <toc-element topic="auggie-cli-rules.md"/>
             <toc-element topic="auggie-cli-skills.md"/>
             <toc-element topic="auggie-user-rules-example.md"/>
@@ -250,6 +250,7 @@
                 <toc-element topic="Abp-Opeciddict-Cert.md"/>
                 <toc-element topic="AzureSqlVnetAppService.md"/>
                 <toc-element topic="Azure-App-Service-VNet-Integration-查詢-Subnet-使用者.md" toc-title="VNet Integration 查 Subnet 使用者" />
+                <toc-element topic="Azure-App-Service-VNet-tcpping-timeout.md" toc-title="VNet/S2S VPN timeout 排錯" />
                 <toc-element topic="App-Service-for-Container.md"/>
                 <toc-element topic="Azure-App-Service-CICD-Lock.md"/>
                 <toc-element topic="Azure-App-Service-高-CPU-使用率-(WebJobs-Daas).md" />

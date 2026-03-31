@@ -29,14 +29,25 @@
 ### Topic 檔名、標題與側欄名稱
 
 - `Writerside/topics/*.md` 的檔名會影響預設的 web page name / URL，建議保持簡短、穩定、可讀。
+- 目前這個 repo 的公開文章 URL，可概念化成 `https://jakeuj.com/` + `writerside/master/` + `<topic-web-file-name>.html`。
 - Markdown 文章的第一個 `# H1` 是 topic title，會顯示成頁面主標題，也會被 Writerside 當成對應 TOC/menu 項目的標題。
+- `Writerside/hi.tree` 的 `toc-title` 只影響側欄顯示名稱，不改 URL。
+- 如果想避開中文 URL，新文章的 topic 檔名優先用 ASCII / English kebab-case，不要把中文或拼音當成預設 slug。
 - 如果文章標題需要保留完整關鍵字，但側欄顯示太長，請在 `Writerside/hi.tree` 的 `<toc-element>` 上加 `toc-title`。
-- 已發布文章如果改 topic 檔名，等於改變 URL；調整前要一併考慮 redirect 或舊連結更新。
+- 已發布文章如果改 topic 檔名，等於改變 URL；調整前要一併考慮 redirect 或舊連結更新，例如 `Writerside/redirection-rules.xml` 或 `accepts-web-file-names`。
+
+對照範例：
+
+| topic 檔名 | H1 | `toc-title` | 預期 URL |
+| ------ | ------ | ------ | -------- |
+| `azure-app-service-vnet-tcpping-timeout.md` | `# Azure App Service VNet Integration 經 S2S VPN 使用 tcpping timeout 排錯` | `VNet/S2S VPN timeout 排錯` | `/writerside/master/azure-app-service-vnet-tcpping-timeout.html` |
+| `nswag-settings-httpclient-startup.md` | `# NSwag Settings 與 HttpClient Startup` | `NSwag + HttpClient Startup` | `/writerside/master/nswag-settings-httpclient-startup.html` |
+| `windows-11-native-nvme-enable.md` | `# Windows 11 啟用 Native NVMe` | `啟用 Native NVMe` | `/writerside/master/windows-11-native-nvme-enable.html` |
 
 範例：
 
 ```xml
-<toc-element topic="Windows-11-Native-NVMe-啟用.md" toc-title="啟用 Native NVMe" />
+<toc-element topic="windows-11-native-nvme-enable.md" toc-title="啟用 Native NVMe" />
 ```
 
 ## 部署前檢查（避免 CI/CD 失敗）

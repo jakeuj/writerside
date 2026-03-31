@@ -106,7 +106,7 @@
 
 - redirect 規則設定檔。
 - 適合集中管理舊網址到新網址的對應。
-- 這個 repo 目前沒有既定 `redirection-rules.xml` 配置。
+- 這個 repo 目前已有 [redirection-rules.xml](/Users/jakeuj/WritersideProjects/writerside/Writerside/redirection-rules.xml)，topic 改名或調整公開 URL 時可優先在這裡補舊網址對應。
 
 ### `resources/`
 
