@@ -277,6 +277,7 @@
                 <toc-element topic="LDAP-Admin-And-CSharp-Net-Core-Identity-Server-4.md" toc-title="LDAP Admin &amp; C# .Net Core Identity Server 4" />
             </toc-element>
             <toc-element toc-title="Azure SQL">
+                <toc-element topic="appservice-managed-identity-azure-sql.md"/>
                 <toc-element topic="Azure-SQL-新增使用者並授予讀寫權限.md" />
                 <toc-element topic="AZURE-SQL-DB-將定價層轉移到彈性集區.md" />
                 <toc-element topic="Azure-SQL-MI-Database-Copy-Network.md"/>
