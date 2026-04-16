@@ -32,7 +32,7 @@
 | 是否可單獨存在 | 可以 | 可以，但通常會搭配其他能力一起用 |
 | 常見使用時機 | 想讓 Codex 更懂某個任務 | 想做成完整擴充套件給自己或團隊安裝 |
 
-## `skill` 是什麼
+## `skill` 是什麼 {#skill-definition}
 
 `skill` 可以把它想成「專門教 Codex 做某件事的說明書」。它的核心通常是 `SKILL.md`，裡面會說明：
 
@@ -55,7 +55,7 @@ my-skill/
 
 如果你只是想讓 Codex 更會做 Azure 排障、Writerside 筆記整理、特定專案工作流，通常建立 `skill` 就夠了。
 
-## `plugin` 是什麼
+## `plugin` 是什麼 {#plugin-definition}
 
 `plugin` 可以把它想成「可安裝的能力容器」。它最少會有一份 `.codex-plugin/plugin.json`，用來描述這個擴充套件是什麼、有哪些能力、怎麼在 Codex 介面裡呈現。
 
@@ -96,7 +96,7 @@ my-plugin/
 - 如果你的需求只有知識與流程，直接做 `skill` 會比較輕
 - 如果你的需求已經擴大到整合多個能力元件，做 `plugin` 會比較合理
 
-## 什麼情況該先做 `skill`
+## 什麼情況該先做 `skill` {#when-to-start-with-skill}
 
 這幾種情況，通常先做 `skill` 最省力：
 
@@ -107,7 +107,7 @@ my-plugin/
 
 這類任務的核心是「把 know-how 教給 Codex」，不是做成套件。
 
-## 什麼情況該做 `plugin`
+## 什麼情況該做 `plugin` {#when-to-build-plugin}
 
 這幾種情況，比較適合直接做 `plugin`：
 

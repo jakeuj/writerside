@@ -35,6 +35,7 @@
         </toc-element>
         <toc-element topic="Python.md">
             <toc-element topic="Python-venv.md" />
+            <toc-element topic="python-uv.md" toc-title="uv" />
             <toc-element topic="PyInstaller.md" />
             <toc-element topic="LSPCI.md" />
             <toc-element topic="requirements.md" />
@@ -100,6 +101,7 @@
             <toc-element topic="SQL-UPDATE-大量更新.md" />
             <toc-element topic="MSSQL-2012-And-2008-Pagination-And-Count.md" toc-title="MSSQL 2012 &amp; 2008 分頁與計數" />
             <toc-element topic="MSSQL-資料庫備份到網路磁碟機.md" />
+            <toc-element topic="mssql-2008-r2-to-aws-rds-sql-server-2019.md" />
             <toc-element topic="MSSQL取得UnixTime時間戳記.md" />
             <toc-element topic="MYSQL-SQLEXCEPTION-HANDLER-抓錯誤訊息.md" />
             <toc-element topic="MYSQL-通用-泛型-CRUD-應用服務-(Dapper-Contrib-非同步版本).md" />

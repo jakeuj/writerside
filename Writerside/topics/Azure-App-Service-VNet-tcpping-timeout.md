@@ -14,7 +14,7 @@
 
 在 Windows App Service 的 Kudu console 中，常見測試方式如下：
 
-```cmd
+```batch
 tcpping.exe <private-ip> <target-port>
 ```
 
@@ -57,7 +57,7 @@ Complete: 0/4 successful attempts (0%).
 
 Windows App Service：
 
-```cmd
+```batch
 SET WEBSITE_PRIVATE_IP
 ```
 
@@ -88,7 +88,7 @@ Windows App Service 的 Kudu console，實務上應該優先用：
 
 例如：
 
-```cmd
+```batch
 nameresolver.exe <target-hostname>
 tcpping.exe <private-ip> <target-port>
 ```

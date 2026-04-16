@@ -60,6 +60,16 @@ npm run pre-deploy
 - 有明確語言就盡量標上，因為 Writerside 會做 syntax highlighting。
 - 官方輸出高亮使用 Prism；IDE 內的高亮與輔助功能則仰賴對應語言 plugin。
 
+這個 repo 優先使用的語言標籤：
+
+- Shell script 或 macOS/Linux CLI：`bash` 或 `shell`
+- PowerShell：`powershell`
+- Windows Command Prompt / batch file：`batch`，不要用 `cmd`
+- C#：`C#`，不要用 `csharp`
+- SQL Server / T-SQL：`sql`
+- JSON、XML、YAML：分別用 `json`、`xml`、`yaml`
+- 純輸出、log、錯誤訊息或不確定語言：`text`
+
 ## 什麼時候用 Markdown fenced code，什麼時候改 `<code-block>`
 
 - 一般單篇筆記，先用 Markdown fenced code 就好。
@@ -96,7 +106,18 @@ npm run pre-deploy
 ### `ignore-vars="true"`
 
 - 如果程式碼裡出現 `%foo%` 這類字串，避免被 Writerside 當成變數。
+- 如果多行 code block 內有多個 `%...%`，例如 SQL `LIKE '%READTEXT%'`，優先用 XML `<code-block ignore-vars="true">` 搭配 `CDATA`，不要只在 fenced code 後加 `{ignore-vars="true"}`。
 - 如果你要判斷的不是程式碼，而是整個 Writerside 變數系統、built-in variables 或 `<smart-ignore-vars>` 全域行為，改讀 `variables-reference.md`。
+
+範例：
+
+```xml
+<code-block lang="sql" ignore-vars="true"><![CDATA[
+SELECT *
+FROM sys.sql_modules
+WHERE definition LIKE '%READTEXT%';
+]]></code-block>
+```
 
 ### `src`
 

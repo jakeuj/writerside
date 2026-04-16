@@ -8,12 +8,15 @@
 ## 🧩 Step 1：開啟 App Service Managed Identity
 
 ### 操作路徑
+
 Azure Portal → App Service → Identity
 
 ### 設定
+
 - System assigned → **On**
 
 ### 取得資訊
+
 - Object ID（後面建立 DB user 會用到）
 
 ---
@@ -21,9 +24,11 @@ Azure Portal → App Service → Identity
 ## 🧩 Step 2：讓 Azure SQL 支援 Microsoft Entra
 
 ### 操作路徑
+
 Azure Portal → SQL Server → Microsoft Entra ID
 
 ### 設定
+
 - 設定 **Microsoft Entra Admin（使用者或群組）**
 
 ---
@@ -62,7 +67,7 @@ TrustServerCertificate=False;
 
 ## 🧩 Step 5：.NET 程式（EF / SqlClient）
 
-```csharp
+```C#
 using var connection = new SqlConnection(connectionString);
 await connection.OpenAsync();
 ```

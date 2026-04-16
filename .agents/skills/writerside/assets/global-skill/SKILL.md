@@ -70,6 +70,7 @@ repo 內既有文章若保留中文檔名，視為歷史內容，不代表新文
 - 把新 topic 放在相近主題旁邊，不要只是機械式地加在檔案最後面。
 - Writerside 預設會把 topic title 當成 TOC 項目；如果 H1 偏長，優先在 `hi.tree` 補較短的 `toc-title`。
 - 只有在側欄標題需要更短、或想跟 H1 顯示名稱不同時，才加 `toc-title`。
+- 如果 `toc-title` 和 topic 的 H1 完全相同，直接省略 `toc-title`；Writerside checker 會把這種情況報成 `TOC007`。
 - `toc-title` 只影響側欄顯示名稱，不改 topic 產出的 URL。
 - `toc-title` 如果語意不變，優先避開需要 XML escape 的符號，尤其是 `&`、`<`、`>`；這樣 `hi.tree` 會比較好讀，也比較不容易留下 `&amp;` 這類維護噪音。
 - 例如 `NSwag Settings &amp; HttpClient Startup`，優先改成 `NSwag Settings and HttpClient Startup`、`NSwag Settings 與 HttpClient Startup`，或其他不需要 escape 的等價寫法。
@@ -197,11 +198,15 @@ example command
 ## 程式碼、anchor 與重用
 
 - CLI 指令或可執行命令，優先標清楚語言；需要提示字元時可用 `<code-block prompt="$">`，提示字元不會被複製。
+- Code fence 語言要用 Writerside checker 已知值：Windows Command Prompt 用 `batch`，不要用 `cmd`；C# 用 `C#`，不要用 `csharp`；純輸出或不確定語言時用 `text`。
 - 如果 `<code-block>` 內容是不完整範例，或 IDE 語法注入會一直報錯，可加 `noinject="true"`。
 - 涉及 Azure CLI、ARM resource ID、JSON 範例輸出或查詢結果時，優先用變數與 placeholder 組合範例，不要把真實 subscription ID、tenant ID、主機名稱或完整 resource ID 直接貼進文章。
 - 如果表格、JSON、終端輸出是從真實環境整理出來的，記得連同名稱、ID、路徑與位置資訊一起去識別化，不要只改指令不改結果。
-- 如果程式碼、文字或連結 URL 內出現 `%foo%`、`%E5...`、`%20`、`%25` 這類可能被當成 Writerside 變數或 percent-encoding 的內容，可加 `ignore-vars="true"`。
+- 如果文字、連結 URL 或短 inline 內容出現 `%foo%`、`%E5...`、`%20`、`%25` 這類可能被當成 Writerside 變數或 percent-encoding 的內容，可加 `ignore-vars="true"`。
+- 如果整段 code block 內有多個 `%...%`，例如 SQL `LIKE '%FASTFIRSTROW%'`，優先改成 `<code-block lang="sql" ignore-vars="true"><![CDATA[...]]></code-block>`；不要只在 fenced code 後補 `{ignore-vars="true"}`，避免單檔 markdownlint 再報 `MD031`。
 - 需要穩定 anchor 時，Markdown 標題優先補 `{#custom-id}`；XML 元素則用 `id="custom-id"`。
+- 標題含 inline code 或重複英文關鍵詞時主動補唯一 anchor，例如 `RDS`、`API`、`skill`、`plugin` 連續出現在多個標題時，避免 Writerside 自動 slug 產生 `MRK003`。
+- 標題、清單、code block 前後保留空行；新增或修改舊文後先跑單檔 markdownlint，順手修掉 touched file 的 `MD022` / `MD032` 類格式問題。
 - 只有在真的有重複內容或條件輸出需求時，才引入 `<snippet>`、`<include>`、`<if>`；一般單篇筆記不要過度工程化。
 
 ## 處理圖片與影片
@@ -232,6 +237,7 @@ WRITERSIDE_REPO=/Users/jakeuj/WritersideProjects/writerside
 cd "$WRITERSIDE_REPO"
 npx markdownlint-cli2 --fix --no-globs Writerside/topics/<topic-file>.md
 npx markdownlint-cli2 --no-globs Writerside/topics/<topic-file>.md
+rg -n '^```(cmd|csharp)$' Writerside/topics/<topic-file>.md
 rg -n '[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}' Writerside/topics/<topic-file>.md
 rg -n '/subscriptions/|resourceGroups/|privatelink|\\.corp|\\.local|@' Writerside/topics/<topic-file>.md
 ```
