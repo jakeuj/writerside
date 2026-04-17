@@ -22,7 +22,7 @@
 - `uv pip install` 比較像是「在指定環境裡裝套件」
 - `uv add` 則是「把依賴寫進 `pyproject.toml`，並同步更新環境與 lock file」
 
-## 路徑一：只想快速建一個乾淨的 `.venv`
+## 路徑一：只想快速建一個乾淨的 `.venv` {#quick-clean-venv}
 
 如果你只是想在目前資料夾快速建立一個專案環境，不急著先建 `pyproject.toml`，可以走這條路。
 
@@ -197,7 +197,7 @@ uv run python --version
 
 如果你還在快速試驗階段，`uv pip install` 比較直接。確定專案會長期維護後，再切到 `uv init` + `uv add` 通常比較自然。
 
-### 重建 `.venv` 前先注意什麼
+### 重建 `.venv` 前先注意什麼 {#rebuild-venv-notes}
 
 如果你打算刪掉舊環境重建，先確認目前專案裡沒有重要的手動安裝內容只存在於 `.venv`。比較保險的做法是把依賴寫回 `pyproject.toml` 或其他可版本控制的檔案，讓環境可以真正重建。
 
