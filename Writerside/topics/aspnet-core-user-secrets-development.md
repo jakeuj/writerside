@@ -1,12 +1,8 @@
 # ASP.NET Core User Secrets 只在 Development 載入
 
-ASP.NET Core Web App 使用 `WebApplication.CreateBuilder(args)` 時，
+ASP.NET Core Web App 使用 `WebApplication.CreateBuilder(args)` 時，預設組態會在 `EnvironmentName` 為 `Development` 時呼叫 `AddUserSecrets`。
 
-預設組態會在 `EnvironmentName` 為 `Development` 時呼叫 `AddUserSecrets`。
-
-所以一般 Web 專案的重點不是把秘密寫進 `appsettings.json`，
-
-而是先建立 `UserSecretsId`，再用 `dotnet user-secrets` 管理本機開發秘密。
+所以一般 Web 專案的重點不是把秘密寫進 `appsettings.json`，而是先建立 `UserSecretsId`，再用 `dotnet user-secrets` 管理本機開發秘密。
 
 <warning>
 永遠不要將密碼或其他敏感資料儲存在原始程式碼或組態檔中。<br/>生產秘密不應該用於開發或測試<br/>不應將秘密與應用程式一起部署<br/>生產秘密應該透過 Azure Key Vault 這類受控制的秘密保存庫來存取。
