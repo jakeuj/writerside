@@ -43,6 +43,7 @@
         </toc-element>
         <toc-element topic="C-Sharp.md">
             <toc-element topic="appsettings-json-環境變數.md"/>
+            <toc-element topic="aspnet-core-user-secrets-development.md" toc-title="ASP.NET Core User Secrets"/>
             <toc-element topic="Swagger.md" />
             <toc-element topic="Directory-Packages-props.md" />
             <toc-element topic="C#-Swagger-UI-display-Enum-with-String.md" />
