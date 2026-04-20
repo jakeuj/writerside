@@ -58,7 +58,7 @@ cd game
 
 第一次 `evennia start` 會建立 superuser。官方安裝文件通常用 `mygame` 當 game dir 名稱；實務上目錄名稱不一定要等於正式遊戲名稱，遊戲名稱可以之後在 `server/conf/settings.py` 調整。
 
-## Python 版本怎麼選
+## Python 版本怎麼選 {#evennia-python-version}
 
 Evennia 的版本需求要以你實際安裝的版本為準。以官方 GitHub `main` branch 在 `2026-04-20` 檢視時為例，`pyproject.toml` 寫的是 `requires-python = ">=3.12"`，classifiers 也列出 Python `3.12`、`3.13`、`3.14`。
 
@@ -123,7 +123,7 @@ my-evennia/
 7. 用 `evennia -l` 看 log，遇到 traceback 先從底部往上讀。
 8. 再開始做房間、物件、NPC、原型資料或戰鬥規則。
 
-## 第一個繁體中文 command 範例
+## 第一個繁體中文 command 範例 {#first-chinese-command}
 
 先在 `game/commands/mycommands.py` 新增一個簡單 command：
 
@@ -298,7 +298,7 @@ evennia shell
 
 ## 常見坑
 
-### 改了 Python 檔但遊戲沒反應
+### 改了 Python 檔但遊戲沒反應 {#python-file-reload}
 
 先確認有沒有 reload：
 
@@ -353,7 +353,7 @@ typeclasses.mobs.Goblin
 
 也就是把 `/` 換成 `.`，省略 `.py`，最後加上 class 名稱。
 
-### 一開始就想重做所有預設 command
+### 一開始就想重做所有預設 command {#avoid-replacing-default-commands-too-early}
 
 先不要。預設 command 是很好的起點；初期優先新增自己的 command，或只覆寫你真的需要改的那一個。等你理解 CmdSet merge 與 lock 行為後，再考慮大規模替換。
 
