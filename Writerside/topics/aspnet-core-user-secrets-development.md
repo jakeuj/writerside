@@ -48,6 +48,31 @@ dotnet user-secrets set "ConnectionStrings:Default" "<local-development-connecti
 dotnet user-secrets list
 ```
 
+## secrets.json 不一定要扁平化
+
+實測直接修改 `secrets.json` 時，不一定要把 JSON 結構扁平化成 `Movies:ServiceApiKey` 這種 key，也可以使用一般巢狀 JSON。
+
+例如這樣可以正常透過 `Movies:ConnectionString` 與 `Movies:ServiceApiKey` 讀取：
+
+```json
+{
+  "Movies": {
+    "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=Movie-1;Trusted_Connection=True;MultipleActiveResultSets=true",
+    "ServiceApiKey": "12345"
+  }
+}
+```
+
+也可以自行扁平化，看自己維護起來哪種比較順手：
+
+```json
+{
+  "Movies:ServiceApiKey": "12345"
+}
+```
+
+不過透過 `dotnet user-secrets set` 或 `dotnet user-secrets remove` 修改後，工具可能會把結構轉成扁平化形式。這部分可參考官方文件的 [在 Visual Studio 中 JSON 結構扁平化](https://learn.microsoft.com/zh-tw/aspnet/core/security/app-secrets?view=aspnetcore-10.0&tabs=windows#json-structure-flattening-in-visual-studio)。
+
 ## 一般 Web 專案不必手動加
 
 Minimal API 或 ASP.NET Core Web 專案常見的啟動程式如下：
@@ -122,7 +147,9 @@ builder.Services.Configure<MovieOptions>(
 ## Rider
 
 ![rider_user_secrets.png](rider_user_secrets.png)
+
 ## 參考資料
 
 - [在 ASP.NET Core 的開發中安全儲存應用程式秘密](https://learn.microsoft.com/zh-tw/aspnet/core/security/app-secrets?view=aspnetcore-10.0&tabs=windows)
+- [在 Visual Studio 中 JSON 結構扁平化](https://learn.microsoft.com/zh-tw/aspnet/core/security/app-secrets?view=aspnetcore-10.0&tabs=windows#json-structure-flattening-in-visual-studio)
 - [Rider .NET User Secrets](https://blog.jetbrains.com/dotnet/2023/01/17/securing-sensitive-information-with-net-user-secrets/)
