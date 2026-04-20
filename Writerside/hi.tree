@@ -10,9 +10,6 @@
             <toc-element topic="贊助.md" />
             <toc-element href="https://www.dotblogs.com.tw/jakeuj/" toc-title="原筆記(點部落)" />
         </toc-element>
-        <toc-element toc-title="Game">
-            <toc-element topic="Merc-FJU-3.0-MUD-AREA-重建工作流筆記.md" toc-title="Merc-FJU 3.0 MUD Area Rebuild" />
-        </toc-element>
         <toc-element toc-title="AI">
             <toc-element topic="auggie-mcp-guide.md"/>
             <toc-element topic="codex-ide-azure-mcp-server.md" toc-title="Codex IDE Azure MCP"/>
@@ -567,6 +564,8 @@
                 <toc-element topic="PoE-中文化.md" />
                 <toc-element topic="PoeChinese3-mac.md" toc-title="PoeChinese3 mac 中文化 (Fork)" />
             </toc-element>
+            <toc-element topic="evennia-mud-development.md" toc-title="Evennia MUD 開發" />
+            <toc-element topic="Merc-FJU-3.0-MUD-AREA-重建工作流筆記.md" toc-title="Merc-FJU 3.0 MUD Area Rebuild" />
         </toc-element>
     </toc-element>
 </instance-profile>
