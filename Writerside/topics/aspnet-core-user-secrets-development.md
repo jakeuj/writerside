@@ -119,6 +119,10 @@ builder.Services.Configure<MovieOptions>(
 - Production 建議改用環境變數、部署平台的 secret 管理功能，或 Azure Key Vault 這類受控秘密保存庫。
 - `dotnet user-secrets` 的值跟專案的 `UserSecretsId` 綁定；不同專案如果需要共用同一組開發秘密，可以使用相同的 `UserSecretsId`，但要刻意管理，避免混淆。
 
+## Rider
+
+![rider_user_secrets.png](rider_user_secrets.png)
 ## 參考資料
 
 - [在 ASP.NET Core 的開發中安全儲存應用程式秘密](https://learn.microsoft.com/zh-tw/aspnet/core/security/app-secrets?view=aspnetcore-10.0&tabs=windows)
+- [Rider .NET User Secrets](https://blog.jetbrains.com/dotnet/2023/01/17/securing-sensitive-information-with-net-user-secrets/)
