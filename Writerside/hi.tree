@@ -4,6 +4,8 @@
         <toc-element toc-title="Mac">
             <toc-element topic="macOS-WiFi-DNS-設定筆記.md"/>
             <toc-element topic="macOS_dotfiles_guide.md"/>
+            <toc-element topic="crossover-visual-cpp-redistributable-loop.md" toc-title="CrossOver VC++ Runtime 重複提示"/>
+            <toc-element topic="crossover-dlss-metalfx-d3dmetal.md" toc-title="CrossOver 升頻技術比較"/>
         </toc-element>
         <toc-element topic="links.md">
             <toc-element topic="Side-Projects.md" />
