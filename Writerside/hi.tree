@@ -254,6 +254,7 @@
                 <toc-element topic="AzureSqlVnetAppService.md"/>
                 <toc-element topic="azure-app-service-sql-mi-private-dns.md" toc-title="App Service 連 SQL MI Private DNS" />
                 <toc-element topic="Azure-App-Service-VNet-Integration-查詢-Subnet-使用者.md" toc-title="VNet Integration 查 Subnet 使用者" />
+                <toc-element topic="azure-app-service-vnet-private-ip.md" toc-title="VNet Integration 查內網 IP" />
                 <toc-element topic="Azure-App-Service-VNet-tcpping-timeout.md" toc-title="VNet/S2S VPN timeout 排錯" />
                 <toc-element topic="App-Service-for-Container.md"/>
                 <toc-element topic="Azure-App-Service-CICD-Lock.md"/>
