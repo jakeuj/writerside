@@ -117,7 +117,7 @@ Crafting 系統讓灰色 / socketed base 的價值被重新定義。SteamDB patc
 | 職業鎖定素材 | 帶特定職業 talents / skill enhancements 的 socketed base | Craft 追加 mod 可能鎖定該職業，適合追特定 build |
 
 <note>
-<p>來源摘要提到 Wizard 雷型可能會依 internal cooldown 追特定 weapon speed，例如 1.5 到 1.7 區間的 piercing weapon。這類建議很吃版本與 build，寫成「速度匹配原則」比寫死某一把武器更安全。</p>
+<p>來源摘要提到巫師 (Wizard) 雷型可能會依 internal cooldown 追特定 weapon speed，例如 1.5 到 1.7 區間的 piercing weapon。這類建議很吃版本與流派，寫成「速度匹配原則」比寫死某一把武器更安全。</p>
 </note>
 
 ## 屬性繼承規則 {#crafting-inheritance}

@@ -4,7 +4,7 @@ Nevergrind Online 的黃色 `Rare` 裝備代表稀有物品，核心特色是 2 
 
 - 檢視日期：`2026-05-03`
 - 分類：[Nevergrind Online 物品與戰利品總覽](nevergrind-online-items-loot.md)
-- 資料來源：NotebookLM 摘要、Swiftyhorn / 高階玩家指南相關來源摘要
+- 資料來源：來源摘要、Swiftyhorn / 高階玩家指南相關來源摘要
 - 版本提醒：rare 詞綴池、roll range、gambling 規則與販售價格可能因版本調整；實際價值請以目前遊戲內 tooltip 和角色需求判斷
 
 <tldr>

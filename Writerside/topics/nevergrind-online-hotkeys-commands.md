@@ -4,7 +4,7 @@
 
 - 檢視日期：`2026-05-03`
 - 分類：[Nevergrind Online（絕不刷怪）遊戲指南](nevergrind-online-guide.md)
-- 資料來源：NotebookLM 摘要、來源資料整理、遊戲內 tips / hotkeys / help 相關摘要
+- 資料來源：來源摘要、來源資料整理、遊戲內 tips / hotkeys / help 相關摘要
 - 版本提醒：熱鍵、銀行操作、商店快捷鍵與聊天指令可能因版本、平台或自訂 keybind 改變；找不到時先看 `Esc` > `Hotkeys` 與遊戲內 `/help`
 
 <tldr>
@@ -33,7 +33,7 @@
 | 操作 | 預設按鍵 / 動作 | 用途 |
 | ------ | ------ | ------ |
 | 主要技能列 | `1` 到 `9`、`0`、`-`、`=` | 對應 12 個職業技能 |
-| 第二組快捷技能 | `Shift + 1` 到 `Shift + 6` | 部分職業可用，例如 Ranger、Rogue、Shadow Knight、Shaman、Templar、Warlock、Warrior |
+| 第二組快捷技能 | `Shift + 1` 到 `Shift + 6` | 部分職業可用，例如遊俠 (Ranger)、盜賊 (Rogue)、暗影騎士 (Shadow Knight)、薩滿 (Shaman)、天騎士 (Templar)、術士 (Warlock)、戰士 (Warrior) |
 | 停止施法 | `Spacebar` | 立刻停止目前施法，用於危險轉向、換目標或避免放錯技能 |
 | 交換技能位置 | 右鍵點一個技能圖示，等它閃爍後再右鍵點另一個圖示 | 交換快捷欄位置，讓常用循環更順手 |
 | 選取隊友 | `F1` 到 `F5` | `F1` 選自己，`F2` 到 `F5` 對應隊伍中的其他玩家 |

@@ -584,11 +584,11 @@
                     </toc-element>
                     <toc-element topic="nevergrind-online-merchant.md" toc-title="Merchant 商店" />
                 </toc-element>
-                <toc-element topic="nevergrind-online-classes.md" toc-title="職業系統總覽">
+                <toc-element topic="nevergrind-online-classes.md" toc-title="職業與裝備可用性">
                     <toc-element topic="nevergrind-online-healers.md" toc-title="治療者總覽">
-                        <toc-element topic="nevergrind-online-cleric.md" toc-title="Cleric 牧師">
+                        <toc-element topic="nevergrind-online-cleric.md" toc-title="牧師 (Cleric)">
                             <toc-element topic="nevergrind-online-cleric-skills-twloli.md" toc-title="牧師技能參考 Twloli" />
-                            <toc-element topic="nevergrind-online-cleric-scion-dps.md" toc-title="Scion 牧師輸出" />
+                            <toc-element topic="nevergrind-online-cleric-scion-dps.md" toc-title="牧師 (Scion) 輸出" />
                             <toc-element topic="nevergrind-online-cleric-farming-zones.md" toc-title="牧師刷區域">
                                 <toc-element topic="nevergrind-online-fahlnir-citadel.md" toc-title="Fahlnir Citadel 法爾尼爾城堡" />
                             </toc-element>

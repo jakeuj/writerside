@@ -5,7 +5,7 @@
 - 檢視日期：`2026-05-03`
 - 分類：[Nevergrind Online（絕不刷怪）遊戲指南](nevergrind-online-guide.md)
 - 相關速查：[熱鍵與聊天指令速查](nevergrind-online-hotkeys-commands.md)
-- 資料來源：NotebookLM 摘要、來源資料整理與既有 Nevergrind Online 城鎮設施筆記
+- 資料來源：來源摘要、來源資料整理與既有 Nevergrind Online 城鎮設施筆記
 - 版本提醒：Edenburg 的 UI 位置、建築名稱、賽季規則、背包上限、guild 功能與快捷操作可能因版本或語系調整；實際操作請以目前遊戲內 UI、`/help` 與 tooltip 為準
 
 <tldr>

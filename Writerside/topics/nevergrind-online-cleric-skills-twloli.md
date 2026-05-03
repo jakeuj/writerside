@@ -1,11 +1,11 @@
 # Nevergrind Online 牧師技能參考（Twloli）
 
-這份筆記把 Twloli 牧師技能表整理成可公開查閱的 Nevergrind Online Cleric 快速參考：先用熱鍵找技能，再看冷卻、施法時間、資源、中文名稱與戰術用途。要打 Scion 輸出循環時，最重要的是記住 `Sacred Revelation` / `Force of Glory` 製造 stun window，接 `Deliverance`，再用 `Condemnation` 與 `Smite` 補循環。
+這份筆記把 Twloli 牧師技能表整理成可公開查閱的 Nevergrind Online 牧師 (Cleric) 快速參考：先用熱鍵找技能，再看冷卻、施法時間、資源、中文名稱與戰術用途。要打 Scion 輸出循環時，最重要的是記住 `Sacred Revelation` / `Force of Glory` 製造 stun window，接 `Deliverance`，再用 `Condemnation` 與 `Smite` 補循環。
 
 - 檢視日期：`2026-05-03`
-- 前置閱讀：[Nevergrind Online 牧師 Cleric 指南](nevergrind-online-cleric.md)
-- Build 參考：[Nevergrind Online Scion 牧師極限輸出指南](nevergrind-online-cleric-scion-dps.md)
-- 資料來源：Twloli 技能表、Fandom Cleric 頁、Nevergrind Wiki Cleric 頁
+- 前置閱讀：[Nevergrind Online 牧師 (Cleric) 指南](nevergrind-online-cleric.md)
+- 流派參考：[Nevergrind Online 牧師 (Scion) 輸出指南](nevergrind-online-cleric-scion-dps.md)
+- 資料來源：Twloli 技能表、Fandom 牧師 (Cleric) 頁、Nevergrind Wiki 牧師 (Cleric) 頁
 - 版本提醒：技能名稱、資源類型、冷卻、施法時間與 threat 可能隨版本變動；正式配點與巨集邏輯仍以目前遊戲內 tooltip 為準
 
 <tldr>
@@ -24,7 +24,7 @@ Twloli 技能表與公開 wiki 的名稱有幾個差異：
 | `Holy Shield` | `Guardian Angel` | 吸收傷害並提升恐懼抗性 |
 | `Sacred Revelation` | Fandom 寫作 `Sacred Revelations` | AoE / cone arcane damage，並 stun 目標 |
 
-另外，Twloli 表把輸出技能標成 `Mana`，治療與 buff 標成 `Spirit`。公開 Nevergrind Wiki 只明確說 Cleric 是 wisdom-based caster、mana pool 受 Wisdom 影響；若你目前版本的資源名稱或消耗分類不同，請以遊戲內 tooltip 為準。
+另外，Twloli 表把輸出技能標成 `Mana`，治療與 buff 標成 `Spirit`。公開 Nevergrind Wiki 只明確說牧師 (Cleric) 是 wisdom-based caster、mana pool 受 Wisdom 影響；若你目前版本的資源名稱或消耗分類不同，請以遊戲內 tooltip 為準。
 
 ## 快捷鍵總表
 
@@ -45,7 +45,7 @@ Twloli 技能表與公開 wiki 的名稱有幾個差異：
 
 ## Threat 速查
 
-公開 Fandom Cleric 頁列出部分技能的 threat 倍率。這些數字很適合拿來理解「為什麼牧師一開場爆發會被怪轉頭」，但仍要以當前遊戲版本為準。
+公開 Fandom 牧師 (Cleric) 頁列出部分技能的 threat 倍率。這些數字很適合拿來理解「為什麼牧師一開場爆發會被怪轉頭」，但仍要以當前遊戲版本為準。
 
 | 技能 | Fandom threat | 讀法 |
 | ------ | ------ | ------ |
@@ -91,11 +91,11 @@ Scion / Arbiter 混合輸出可以先記這個優先順序：
 
 這篇是技能表與熱鍵速查，不取代 build 文：
 
-- 要理解 Cleric 為什麼能補、能暈、能打，先看 [牧師 Cleric 指南](nevergrind-online-cleric.md)。
-- 要把 `Deliverance`、`Condemnation`、`Smite` 串成輸出循環，看 [Scion 牧師極限輸出指南](nevergrind-online-cleric-scion-dps.md)。
+- 要理解牧師 (Cleric) 為什麼能補、能暈、能打，先看 [牧師 (Cleric) 指南](nevergrind-online-cleric.md)。
+- 要把 `Deliverance`、`Condemnation`、`Smite` 串成輸出循環，看 [牧師 (Scion) 輸出指南](nevergrind-online-cleric-scion-dps.md)。
 - 要找 undead / demon 密集區練輸出，看 [牧師刷區域指南](nevergrind-online-cleric-farming-zones.md)。
 
 ## 參考資料
 
-- [Nevergrind Online Wiki: Cleric](https://nevergrind-online.fandom.com/wiki/Cleric)
-- [Nevergrind Wiki: Cleric](https://nevergrind.com/wiki/index.php?title=Cleric)
+- [Nevergrind Online Wiki: 牧師 (Cleric)](https://nevergrind-online.fandom.com/wiki/Cleric)
+- [Nevergrind Wiki: 牧師 (Cleric)](https://nevergrind.com/wiki/index.php?title=Cleric)

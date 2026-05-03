@@ -5,7 +5,7 @@ Nevergrind Online 的地城冒險可以看成一條循環：從 Edenburg 的 [Ta
 - 檢視日期：`2026-05-03`
 - 分類：[Nevergrind Online（絕不刷怪）遊戲指南](nevergrind-online-guide.md)
 - 延伸閱讀：[怪物分類與 Traits](nevergrind-online-monsters.md)、[物品與戰利品總覽](nevergrind-online-items-loot.md)、[熱鍵與聊天指令速查](nevergrind-online-hotkeys-commands.md)
-- 資料來源：NotebookLM 摘要、來源資料整理、Nevergrind Wiki、Fandom game mechanics 與既有筆記交叉整理
+- 資料來源：來源摘要、來源資料整理、Nevergrind Wiki、Fandom game mechanics 與既有筆記交叉整理
 - 版本提醒：任務數量、難度名稱、掉落偏好、`/players` 類指令與 boss 圖示可能因版本不同而改變；實際操作請以目前遊戲內 Tavern、地圖 UI、tooltip 與 `/help` 為準
 
 <tldr>
@@ -78,7 +78,7 @@ Nevergrind Online 的地城冒險可以看成一條循環：從 Edenburg 的 [Ta
 | Con color | 顯示怪物與玩家的等級差距；紅 con 通常代表命中與承傷壓力都很高 | 高 con 先保守，避免開場搶怪或硬讀條 |
 | 名字背景 / 階級 | Champion、Unique、Boss 等通常有更高壓力與更好掉落期待 | 先看 traits，再決定控制與集火 |
 | Monster class | 怪物可能使用類似玩家職業的技能 | 看到 caster、rogue、healer 類敵人時，優先注意打斷或集火 |
-| Species / type | Undead、Demon、Dragonkin 等會影響特攻詞綴與技能加成 | Cleric、特攻裝與 farming route 會特別在意 |
+| Species / type | Undead、Demon、Dragonkin 等會影響特攻詞綴與技能加成 | 牧師 (Cleric)、特攻裝與 farming route 會特別在意 |
 | Mods / traits | Rampage、Bloodlusted、Armored、Drain、Enchanted 等會改變整場戰鬥 | 依 trait 改變擊殺順序與控制 |
 
 完整怪物階級、con、species 與 traits 可看 [怪物分類與 Traits](nevergrind-online-monsters.md)。
@@ -116,7 +116,7 @@ Nevergrind Online 的地城冒險可以看成一條循環：從 Edenburg 的 [Ta
 | `Stagger` | 重置或延後普通攻擊節奏，拉長特殊技能間隔 | 攻速高、技能循環壓力大的怪 |
 | Slow / haste control | 降低怪物攻擊與技能循環頻率 | 會靠攻擊次數推進技能循環的敵人 |
 
-如果隊伍裡有 `Enchanter`、`Bard`、`Shaman` 或其他控制 / debuff 角色，不要只看個人 DPS。這些職業常常是讓地城從「硬扛」變成「可控」的關鍵。
+如果隊伍裡有恩路者 / 幻術師 (Enchanter)、吟遊詩人 (Bard)、薩滿 (Shaman) 或其他控制 / debuff 角色，不要只看個人 DPS。這些職業常常是讓地城從「硬扛」變成「可控」的關鍵。
 
 ## 高風險 traits 優先順序
 
