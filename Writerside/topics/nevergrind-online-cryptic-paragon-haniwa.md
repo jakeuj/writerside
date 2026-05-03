@@ -122,7 +122,7 @@ Haniwa 這類高價值 weapon 通常值得認真規劃 [符文](nevergrind-onlin
 
 ## 參考資料
 
-- [Nevergrind Online 日本語 Wiki: ユニーク武器/片手鈍器](https://wikiwiki.jp/ngowiki/%E3%83%A6%E3%83%8B%E3%83%BC%E3%82%AF%E6%AD%A6%E5%99%A8/%E7%89%87%E6%89%8B%E9%88%8D%E5%99%A8)
+- [Nevergrind Online 日本語 Wiki: ユニーク武器/片手鈍器](https://wikiwiki.jp/ngowiki/%E3%83%A6%E3%83%8B%E3%83%BC%E3%82%AF%E6%AD%A6%E5%99%A8/%E7%89%87%E6%89%8B%E9%88%8D%E5%99%A8){ignore-vars="true"}
 - [SteamDB: Elite unique one-hand blunt weapons completed](https://steamdb.info/patchnotes/9800894/)
 - [Nevergrind Online Wiki: Loot](https://nevergrind-online.fandom.com/wiki/Loot)
 - [Nevergrind Wiki: Magic Find Mechanics](https://nevergrind.com/wiki/index.php?title=Magic_Find_Mechanics)

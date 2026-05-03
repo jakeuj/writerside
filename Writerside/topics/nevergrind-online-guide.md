@@ -183,7 +183,7 @@ Fandom 的 Chat Commands 頁面整理了不少常用指令。下面先列最常�
 - [Nevergrind Wiki: Magic Find Mechanics](https://nevergrind.com/wiki/index.php?title=Magic_Find_Mechanics)
 - [Nevergrind Online Wiki: Loot](https://nevergrind-online.fandom.com/wiki/Loot)
 - [Nevergrind Online Wiki: Items](https://nevergrind-online.fandom.com/wiki/Items)
-- [Nevergrind Online Wiki: What Is Nevergrind Online?](https://nevergrind-online.fandom.com/wiki/What_Is_Nevergrind_Online%3F)
+- [Nevergrind Online Wiki: What Is Nevergrind Online?](https://nevergrind-online.fandom.com/wiki/What_Is_Nevergrind_Online%3F){ignore-vars="true"}
 - [Nevergrind Online Wiki: General Game Mechanics](https://nevergrind-online.fandom.com/wiki/General_Game_Mechanics)
 - [Nevergrind Online Wiki: Chat Commands](https://nevergrind-online.fandom.com/wiki/Chat_Commands)
 - [Nevergrind Online Wiki: Classes](https://nevergrind-online.fandom.com/wiki/Classes)

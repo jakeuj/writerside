@@ -578,6 +578,7 @@
                     </toc-element>
                 </toc-element>
                 <toc-element topic="nevergrind-online-items-loot.md" toc-title="物品與戰利品">
+                    <toc-element topic="nevergrind-online-legendary-items.md" toc-title="Legendary Items" />
                     <toc-element topic="nevergrind-online-cryptic-paragon-haniwa.md" toc-title="Cryptic Paragon Haniwa" />
                     <toc-element topic="nevergrind-online-runes.md" toc-title="符文 Runes" />
                 </toc-element>
