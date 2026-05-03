@@ -574,7 +574,9 @@
                 <toc-element topic="nevergrind-online-edenburg.md" toc-title="Edenburg 城鎮設施">
                     <toc-element topic="nevergrind-online-tavern.md" toc-title="Tavern 酒館" />
                     <toc-element topic="nevergrind-online-apothecary.md" toc-title="Apothecary 藥劑店" />
-                    <toc-element topic="nevergrind-online-blacksmith.md" toc-title="Blacksmith 鍛造鋪" />
+                    <toc-element topic="nevergrind-online-blacksmith.md" toc-title="Blacksmith 鍛造鋪">
+                        <toc-element topic="nevergrind-online-blacksmith-crafting-recipe-research.md" toc-title="Crafting / Recipe 深度筆記" />
+                    </toc-element>
                     <toc-element topic="nevergrind-online-merchant.md" toc-title="Merchant 商店" />
                 </toc-element>
                 <toc-element topic="nevergrind-online-classes.md" toc-title="職業系統總覽">

@@ -4,7 +4,7 @@
 
 - 檢視日期：`2026-05-03`
 - 前置閱讀：[Nevergrind Online 物品與戰利品總覽](nevergrind-online-items-loot.md)
-- 資料來源：NotebookLM 摘要、SteamDB patch notes、Nevergrind Online 日文 wiki rune list
+- 資料來源：NotebookLM 摘要、SteamDB patch notes、Nevergrind Online 日文 wiki rune list、[Nevergrind Online 攻略DB：クラフト](https://atelier3.web.fc2.com/ngo/mythical.html)
 - 版本提醒：符文效果、可鑲嵌部位、是否可取下、是否可升級，可能會隨 crafting 系統更新；點確認前請以目前遊戲內 UI 和 tooltip 為準
 
 <tldr>
@@ -15,7 +15,7 @@
 
 ## 基本規則
 
-SteamDB 的 2024 Season 2 patch note 提到 [Blacksmith](nevergrind-online-blacksmith.md) 的 enchanting counter 已啟用，可以用 runes 強化 socketed items；2025 patch note 又提到 crafting counter 加入 rune upgrade。這代表 rune 系統已經從單純鑲嵌，逐漸變成 crafting 後期的一部分。
+SteamDB 的 2024 Season 2 patch note 提到 [Blacksmith](nevergrind-online-blacksmith.md) 的 enchanting counter 已啟用，可以用 runes 強化 socketed items；2025 patch note 又提到 crafting counter 加入 rune upgrade。另一方面，[Nevergrind Online 攻略DB 的 Craft 頁](https://atelier3.web.fc2.com/ngo/mythical.html) 把 Blacksmith 的 `Craft` tab 描述成製作 Mythical / Rune Words 類裝備的入口。這代表 rune 系統至少要分成兩種情境：一般 socketing 是把 rune bonus 放進裝備，Mythical crafting 則是用 base item 和 runes 觸發 recipe。
 
 操作前先確認：
 
@@ -24,6 +24,7 @@ SteamDB 的 2024 Season 2 patch note 提到 [Blacksmith](nevergrind-online-black
 - 鑲嵌是否不可逆，或目前版本是否有取下 / 覆蓋 / 升級機制。
 - 裝備是否值得長期穿到你投入高階 rune。
 - 這個 rune 是補 build 核心，還是只是看起來數字漂亮。
+- 你現在做的是一般 socketing，還是 [Blacksmith 的 Mythical / Rune Words crafting](nevergrind-online-blacksmith.md#crafting-mythical-rune-words)。
 
 <warning>
 <p>NotebookLM 摘要把 rune 鑲嵌視為永久且不可逆；但 2025 patch note 已提到 rune upgrade via crafting。實務上請先把高階 rune 當成不可輕易反悔的資源，並在遊戲內確認目前 crafting counter 的實際規則。</p>
