@@ -13,7 +13,7 @@ Nevergrind Online 的黃色 `Rare` 裝備代表稀有物品，核心特色是 2 
 <p>Rare amulet、rare gloves 這類關鍵部位有機會在特定 build 中撐很久，甚至和 unique 競爭。</p>
 </tldr>
 
-## Rare 在稀有度體系中的位置
+## Rare 在稀有度體系中的位置 {#rare-rarity-position}
 
 黃色 `Rare` 是隨機性最強的裝備類型之一。它不像藍色 `Magic` 只給少量詞綴，也不像紫色 `Unique` 有固定 mods；rare 的強度取決於「多個隨機詞綴是否剛好同時命中」。
 
@@ -86,7 +86,7 @@ Rare 的戰略價值在於靈活填補。當你為了保留 [Cryptic Paragon（H
 - 如果 rare amulet 同時有 `All Talents +2`、高主屬性與 critical，它可能比普通 roll 的 unique amulet 更適合物理職。
 - 如果 rare gloves 有 tree talents，但你已經有高 roll unique gloves，就要比較 talent、attack、防禦與其他詞綴總價值。
 
-## 判斷一件 Rare 值不值得留
+## 判斷一件 Rare 值不值得留 {#rare-keep-checklist}
 
 1. 是否有 `All Talents`、`Tree Talents`、主技能或核心被動相關詞綴。
 2. 主屬性、抗性、health / mana / spirit、critical、attack 是否補到 build 缺口。
