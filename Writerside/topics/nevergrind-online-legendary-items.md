@@ -4,7 +4,7 @@
 
 - 檢視日期：`2026-05-03`
 - 分類：[Nevergrind Online 物品與戰利品總覽](nevergrind-online-items-loot.md)
-- 資料來源：玩家整理的 Legendary Items 試算表
+- 資料來源：[Swiftyhorn's Nevergrind Online - Legendary Items](https://docs.google.com/spreadsheets/d/1Do2qcmxTgIuzzhTcagiydvEu-TI86JoT5BOPFVuN0vA/edit?gid=1080992867#gid=1080992867)
 - 版本提醒：試算表、公開 wiki 與遊戲內版本可能不同步；交易、鑲嵌高價 rune 或判斷 BiS 前，請先回遊戲內 tooltip 核對
 
 <tldr>
@@ -49,6 +49,25 @@
 
 部位覆蓋很平均，大多數 slot 都有 3 件跨階段 item；`2h Blunt`、`Chest`、`Magic Offhand` 各有 4 件，`2h Staff` 有 2 件。這代表查表時最好先用 slot 篩選，不要只從整份清單硬找名字。
 
+## 代表性裝備速查
+
+下面這張表是從來源試算表與摘要內容整理出的「先看這幾件」版本；它適合拿來快速建立印象，但不取代完整表格、tooltip 圖片或遊戲內數值核對。
+
+| 裝備名稱 | 等級 | 部位 | 關鍵屬性 / 備註 |
+| ------ | --: | ------ | ------ |
+| `Firmament Staff of the Crystal Sea` | 72 | 兩手杖 / `2h Staff` | `All Talents`、全屬性、magic find、施法速度，是 caster 向高階候選 |
+| `Gloom Harvester` | 70 | 兩手斬擊 / `2h Slash` | `All Talents`、health / mana leech、力量、體力與多種屬性傷害 |
+| `Starlight Atmos` | 75 | 盾牌 / `Shield` | 全抗、體力、智慧、施法速度與 block rate，偏防禦與 caster shield |
+| `Treewind's Earthcaller` | 70 | 兩手鈍器 / `2h Blunt` | `All Talents`、全屬性、全抗、mana leech、magic find 與 `Effect: Earthcaller` |
+| `Himmelsdolch` | 73 | 單手穿刺 / `1h Pierce` | `All Talents`、全屬性、exp find，並帶 undead / demon 特攻方向 |
+| `Mosby's Ancient Crown` | 72 | 頭部 / `Head` | `All Talents`、體力、智慧、魅力、spirit、magic find 與 fear resist |
+| `Saladin's Makhalib` | 68 | 單手斬擊 / `1h Slash` | 物理傷害、attack speed、health / mana leech，並偏 humanoid / giant 特攻 |
+| `Hydrafury Whorl` | 44 | 戒指 / `Ring` | `All Talents`、全屬性、attack、spell damage、magic find，中期戒指候選 |
+| `Ginjirou's Emerald Sash` | 71 | 腰帶 / `Belt` | `All Talents`、agility / dexterity、全抗、run speed、dragonkin 特攻 |
+| `Witherstorm` | 51 | 盾牌 / `Shield` | `All Passive Skills`、全抗、block rate、magic damage reduction |
+| `Olivia's Chain of Fealty` | 12 | 胴體 / `Chest` | 低等就有 `All Talents`、多屬性、全抗與 magic find，前期過渡價值高 |
+| [Cryptic Paragon（Haniwa）](nevergrind-online-cryptic-paragon-haniwa.md) | 75 | 單手鈍器 / `1h Blunt` | `All Talents`、隨機技能強化、全抗、全法術傷害、undead 特攻，caster / support 長期目標 |
+
 ## 快速索引
 
 ### Normal
@@ -87,6 +106,41 @@
 | 資源與續戰 | `Health Leech`、`Mana Leech`、`Mana Regen`、`Spirit Regen` | 長時間 farm 與 boss 戰會放大這些詞綴的價值 |
 | 刷寶 | `Magic Find %`、`Gold Find %`、`Exp Find %` | 有餘裕再堆，不能壓垮輸出與生存 |
 | 特殊效果 | `Effect: Earthcaller`、`Effect: Bloodbath`、`Effect: Mobius Crash` 等 | 通常是 legendary 最值得回 tooltip 確認的部分 |
+
+## 詞綴中文速查
+
+| 詞綴 | 中文理解 | 裝備判斷重點 |
+| ------ | ------ | ------ |
+| `All Talents` / `All Passive Skills` | 所有才能 / 所有被動技能 | 通常是高價值詞綴，但仍要看職業與技能循環是否吃得到 |
+| `Enhanced Damage %` / `Enhanced Armor %` | 強化武器傷害 / 防具防禦 | 武器和防具的基礎值越好，這類百分比越有價值 |
+| `Magic Find %` / `Exp Find %` | 魔法物品尋獲 / 經驗取得 | 適合 farm 裝，但不要為了刷寶壓垮生存與輸出 |
+| `Faster Cast Rate` / `Increased Attack Speed %` | 施法速度 / 攻擊速度 | 會影響 rotation 手感、breakpoint 與輸出窗口 |
+| `Health Leech` / `Mana Leech` / `Spirit Regen` | 吸血、吸魔、spirit 回復 | 長時間 farm、boss 戰與高難度續戰特別重要 |
+| `Res Fire %` / `Res Ice %` / `Res Blood %` 等 | 各元素或狀態抗性 | Hell 或高難度先看抗性缺口，再追求面板 |
+| `Absorb All %` / `Absorb Fire %` 等 | 吸收傷害 | 不是單純抗性，實戰價值要看敵人傷害型態 |
+| `Reduce Enemy Res Fire %` 等 | 降低敵方元素抗性 | caster、元素 melee、hybrid build 的傷害放大來源 |
+| `Strength` / `Stamina` / `Agility` / `Dexterity` / `Wisdom` / `Intelligence` / `Charisma` | 基礎屬性 | 先看職業主要屬性，再看是否補到生存或資源 |
+| `Specific Skill %` | 特定技能強化 | 高 roll 但錯技能也可能沒用，必須命中核心技能 |
+| `Run Speed` | 移動速度 | farm 與跑圖體感很好，但通常不能取代核心攻防詞綴 |
+
+## 特殊觸發效果
+
+傳奇武器常帶有獨特 `Effect:` 詞綴。這類效果通常比單純數字更需要回 tooltip 或實戰測試確認，因為它可能影響清怪方式、單體爆發、控場或元素路線。
+
+常見名稱包含：
+
+- `Effect: Earthcaller`
+- `Effect: Bloodbath`
+- `Effect: Midnight Glacier`
+- `Effect: Final Heaven`
+- `Effect: Reinigung`
+- `Effect: Mobius Crash`
+- `Effect: Poison Barrage`
+- `Effect: Voltage Flux`
+
+<tip>
+<p>Legendary 的數值通常有 roll range。追求 perfect roll 是後期樂趣之一，但如果裝備本身只是過渡用途，先不要為了追頂標投入太多 rune、升級或交易成本。若裝備帶有 <code>Ethereal</code> 或 <code>Indestructible</code> 類特殊屬性，也要一起看基礎性能與耐久風險。</p>
+</tip>
 
 ## 和既有裝備筆記怎麼接
 

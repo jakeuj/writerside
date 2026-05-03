@@ -1,0 +1,108 @@
+# Nevergrind Online 遊戲核心架構心智圖
+
+Nevergrind Online 可以先用四個核心系統來理解：職業決定隊伍責任，物品與戰利品決定長期成長，Edenburg 提供補給與角色養成節點，戰鬥機制則把 aggro、位置、狀態與隊伍 synergy 串成每一場地城的實際節奏。
+
+- 檢視日期：`2026-05-03`
+- 分類：[Nevergrind Online（絕不刷怪）遊戲指南](nevergrind-online-guide.md)
+- 資料來源：NotebookLM 摘要與來源資料整理
+- 版本提醒：職業名稱、城鎮功能、技能與物品規則可能因版本不同而調整；實際名稱與數值請以目前遊戲內 UI / tooltip 為準
+
+<tldr>
+<p>先把 NGO 看成「職業分工 + 地城任務 + 隨機戰利品 + 回城整理」的循環。</p>
+<p>職業不是死板標籤；後期強度會被 rotation、talents、gear affixes、runes 與隊伍 synergy 改寫。</p>
+<p>刷寶的重點不是只追顏色，而是讓裝備服務你的技能循環、生存缺口與 farm 目標。</p>
+</tldr>
+
+## 架構總覽
+
+- 職業系統 `Classes`
+  - 決定 tank、healer、DPS、utility 的基本責任。
+  - 後期會被 talents、裝備詞綴、haste、抗性與隊伍需求改寫。
+  - 詳細名詞對照與裝備可用性可看 [職業系統總覽](nevergrind-online-classes.md)。
+- 物品與戰利品 `Items & Loot`
+  - 透過 rarity、quality tier、mods、set bonus、unique effect 與 legendary effect 形成刷寶核心。
+  - 詳細稀有度、magic find、鑑定與商店策略可看 [物品與戰利品總覽](nevergrind-online-items-loot.md)。
+- 城鎮設施 `Town - Edenburg`
+  - 負責任務、補給、技能、鑑定、銀行、背包與裝備強化。
+  - 每次地城結束後，角色成長大多在這裡完成。
+- 戰鬥與機制 `Combat & Mechanics`
+  - aggro / threat、前後排位置、異常狀態、難度與隊伍人數會共同影響戰鬥結果。
+  - 新手先學會等 tank 建立威脅值，再進入輸出或治療循環。
+
+## 職業系統
+
+來源資料把 14 種職業先分成五大定位。這個分類適合入門，但不要把它當成最終強度排行。
+
+| 定位 | 職業 | 核心印象 |
+| ------ | ------ | ------ |
+| Tank | `Warrior`、`Crusader` / `Paladin`、`Shadow Knight` | 承傷、建立 aggro、控制隊伍推進節奏 |
+| Healer | `Cleric`、`Druid`、`Shaman` | 治療、HoT、debuff、資源與救場 |
+| Physical DPS | `Monk`、`Ranger`、`Rogue` | 攻速、武器傷害、弓術、背刺、毒素或近戰爆發 |
+| Magical DPS | `Wizard`、`Warlock` / `Necromancer`、`Templar` / `Magician` | 元素傷害、DoT、恐懼、生命吸取、施法節奏 |
+| Utility | `Bard`、`Enchanter` | 歌曲、haste、控場、緩速、魅惑與隊伍增益 |
+
+<note>
+<p>來源資料使用 <code>Crusader</code>、<code>Warlock</code>、<code>Templar</code> 等名稱；官方 wiki 或遊戲內可能顯示 <code>Paladin</code>、<code>Necromancer</code>、<code>Magician</code> 等對應名稱。遇到名稱不一致時，優先對照技能組。</p>
+</note>
+
+## 物品與戰利品
+
+NGO 的物品系統把老派 RPG 的刷寶感做成核心循環：一件裝備的價值不只取決於顏色，也取決於部位、底材階級、詞綴方向、set bonus、socket、rune plan 與角色 rotation。
+
+| 系統 | 重點 | 延伸閱讀 |
+| ------ | ------ | ------ |
+| Rarities | `Magic`、`Rare`、`Unique`、`Set`、`Legendary` 各自代表不同隨機性與固定效果 | [物品與戰利品總覽](nevergrind-online-items-loot.md) |
+| Quality Tiers | `Normal`、`Exceptional`、`Elite` 影響基礎性能與裝備階段 | [Legendary Items 清單](nevergrind-online-legendary-items.md) |
+| Set Items | 綠色裝備，多件同套會啟用 `Set Bonus` | [套裝 Set Items 指南](nevergrind-online-set-items.md) |
+| Runes | 帶孔裝備可以鑲嵌 rune，永久補強特定性能 | [符文 Runes 指南](nevergrind-online-runes.md) |
+| Gambling | 用 gold 嘗試定向取得特定部位或高階裝備 | 先看目前城鎮 UI 與 tooltip |
+
+特殊狀態也會改寫裝備價值：
+
+- `Ethereal`：來源摘要提到會提高基礎攻擊或防禦，但伴隨耐久風險。
+- `Indestructible`：如果和 ethereal 同時出現，通常會讓裝備價值大幅提高。
+- Sockets：有些低等裝備因 sockets 多，仍可能在後期有 rune space 價值。
+
+## 城鎮設施
+
+Edenburg 可以想成每次地城之間的整理台。打完一場回來，不只是賣垃圾，而是要把角色下一場的成功率往上推。
+
+| 設施 | 功能 | 使用時機 |
+| ------ | ------ | ------ |
+| Tavern | 接任務、前往地城、查看排行榜 | 每次出發前確認任務與隊伍目標 |
+| Academy | 學習或升級職業技能 | 金幣優先投入常用 rotation 技能 |
+| Apothecary | 購買藥水、鑑定卷軸、使用 `Identify All` 類服務 | 地城後大量鑑定與補給 |
+| Blacksmith | 購買重型武裝、裝備升級、rune / crafting 相關功能 | 裝備確定會穿一段時間後再投入 |
+| Merchant | 擴展背包、購買部分防具或一般商品 | 背包空間不足會直接降低刷寶效率 |
+| Bank | 帳號共享倉庫 | 存 set、分身裝、抗性裝與高價交易品 |
+| Guild Hall | 公會建立與管理 | 長期組隊、社群與固定團需求 |
+
+## 遊戲機制
+
+戰鬥不是只看面板。NGO 的地城節奏由 threat、站位、狀態、技能優先序與隊伍人數共同決定。
+
+### 戰鬥核心
+
+- Aggro / Threat：tank 需要先穩住威脅值，DPS 和 healer 過早爆發都可能把怪拉走。
+- 位置影響：前排與後排會影響物理攻擊效率，部分技能也會受目標位置限制。
+- 異常狀態：`Stun`、`Fear`、`Silence`、root、slow 等控制會大幅改變戰鬥壓力。
+- Rotation：高階玩法的重點是讓技能、talents、裝備詞綴與隊友 buff 在正確窗口疊起來。
+
+### 隊伍協作
+
+- 隊伍最多 5 人；人數增加通常也會提高風險與獎勵。
+- 物理職常很吃 haste、命中、攻速與目標位置。
+- 魔法職常看 casting speed、enemy resistance reduction、資源續航與控制窗口。
+- `Bard`、`Enchanter`、`Shaman`、`Templar` / `Magician` 類支援工具，常是整隊節奏變快的關鍵。
+
+### 地牢探險
+
+- 地城布局、怪物與 boss 條件帶有隨機性。
+- `Normal` 與 `Heroic` 難度會改變風險與掉落期待。
+- 首通、boss、monster con、任務偏好裝備類型，都可能影響 farm 路線。
+
+## Cleric 地獄難度路線提示
+
+如果使用 `Cleric`，來源摘要常把 undead / demon 目標視為發揮輸出優勢的方向。進入 Hell 難度後，可以優先評估 `Riven Grotto`、`Fahlnir Citadel` 等不死生物或惡魔較多的區域，但仍要以角色抗性、生存、裝備與目前版本怪物配置為準。
+
+更完整的路線整理可以看 [Nevergrind Online 牧師刷區域指南](nevergrind-online-cleric-farming-zones.md)。

@@ -4,6 +4,7 @@
 
 - 檢視日期：`2026-05-03`
 - 前置閱讀：[Nevergrind Online 牧師 Cleric 指南](nevergrind-online-cleric.md)
+- 技能速查：[Nevergrind Online 牧師技能參考（Twloli）](nevergrind-online-cleric-skills-twloli.md)
 - 資料來源：NotebookLM 摘要、Nevergrind Wiki Cleric 頁、Fandom Cleric 頁、Xackery class list
 - 版本提醒：本文的 rank 目標來自 NotebookLM 摘要，屬於 build 方向，不是永久固定數值；實際點法請以遊戲內 tooltip、目前 patch 與裝備加成後的 breakpoints 為準
 
@@ -53,6 +54,8 @@
 NotebookLM 摘要建議把 `Condemnation` 目標拉到 Rank 25，理由是它在該等級能達到更好的命中數與傷害效率。這類 breakpoints 很吃版本與裝備加成，實際點法建議先看目前 tooltip 是否真的在 Rank 25 出現關鍵提升。
 
 ## 輸出循環
+
+如果你要先查 Twloli 熱鍵、冷卻、施法時間與中文技能名，先開 [牧師技能參考（Twloli）](nevergrind-online-cleric-skills-twloli.md)。下面的循環則是把那些按鍵串成 Scion / Arbiter 輸出節奏。
 
 單體 boss 或高價值 undead / demon 目標，可以用這個思路：
 
