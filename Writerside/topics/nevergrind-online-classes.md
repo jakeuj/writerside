@@ -71,6 +71,54 @@ Steam 頁面把職業大方向描述為 tank、healer、DPS 或 utility，而且
 - Magical DPS：`Wizard` 偏元素爆發，`Warlock` / `Necromancer` 偏 DoT、恐懼或黑暗系玩法，`Templar` / `Magician` 類資料需按技能組確認。
 - Utility：`Bard` 用歌曲強化全隊，`Enchanter` 用控場、haste、緩速與魅惑改變整場戰鬥節奏。
 
+## 分類界線會模糊 {#class-role-blending}
+
+角色定位是組隊溝通用的起點，不是後期配裝的天花板。來源摘要特別提醒，高難度與高等級後，職業常會因技能、天賦和裝備變成混合定位。
+
+| 角色 / 類型 | 常見變化 | 判斷方式 |
+| ------ | ------ | ------ |
+| `Cleric` | 仍是直接治療核心，但遇到 undead / demon 類敵人時，也可能靠神聖傷害與控制打出高輸出 | 看隊伍是否需要你抬血、補 buff，還是能切到輸出節奏 |
+| `Templar` / 魔法支援類資料 | 雖常被放在 magical DPS，但實戰上更像支援、haste、輔助與局部治療的混合角色 | 先對照遊戲內技能組，不要只看職業名稱 |
+| `Warrior` | 純坦仍有價值，但高難度 farm 常需要同時追一定輸出 | 只撐防禦但清怪太慢時，裝備要補 weapon、attack 與 sustain |
+| `Bard` / `Enchanter` | 表面 DPS 可能不是最高，但能大幅放大隊伍 haste、資源、控制與安全性 | 看整隊總輸出與穩定度，不只看個人傷害 |
+
+所以新手可以先用 role 選職業；進入中後期後，真正要問的是「我的隊伍現在缺承傷、補血、haste、控制、資源，還是傷害」。
+
+## 技能機制與學院養成 {#class-skill-mechanics}
+
+每個職業都有自己的技能組，來源摘要整理為 12 個核心技能。入門時先把技能看成「按鍵表」，中後期則要把技能看成 rotation、資源、threat 與天賦 breakpoint 的組合。
+
+| 機制 | 重點 | 實戰判斷 |
+| ------ | ------ | ------ |
+| 技能數量 | 每個職業有一組固定技能列，常見操作對應 `1` 到 `=` | 把最常用 rotation 放到順手位置；操作可看 [熱鍵與聊天指令速查](nevergrind-online-hotkeys-commands.md) |
+| 資源 | 技能可能消耗 `Mana` 或 `Spirit` | Healer / support 特別怕 spirit 斷線，出發前要補藥水 |
+| Cooldown / cast time | 技能有冷卻與施法時間 | 不要只看單次傷害，還要看是否能穩定回轉 |
+| GCD | 來源摘要提到 instant 技能可能觸發約 2.5 秒全球冷卻 | 爆發技能要排順序，避免重要控制或保命被卡住 |
+| Threat | 大傷害、治療與部分技能會產生威脅值 | Tank 未建立 aggro 前，DPS 與 healer 不要急著開大 |
+| Academy | 城鎮 Academy 負責學習、升級技能或處理天賦方向 | Gold 先投入常用技能與核心 rotation，再追次要技能 |
+| Talent | 天賦會改變技能命中數、冷卻、傷害或附加效果 | 先看 tooltip 的 breakpoint，不要只照固定 rank 硬點 |
+| Proc | 裝備或天賦可能讓普通攻擊觸發技能效果 | 武器速度、命中、internal cooldown 與技能 roll 會影響價值 |
+
+技能配置的核心不是把所有技能都升滿，而是先讓「常用循環」穩定。Tank 先確保 threat 與保命工具，healer 先確保治療、buff 與資源，DPS 先確保核心輸出和爆發窗口，utility 則要把 haste、控制、debuff 與隊伍節奏放進同一套按鍵邏輯。
+
+## 代表性技能方向 {#class-signature-skills}
+
+來源摘要列了一些職業代表技能。這裡不把它們寫成完整技能表，而是拿來說明不同職業的戰鬥語言：
+
+| 職業 | 代表方向 | 讀法 |
+| ------ | ------ | ------ |
+| `Warrior` | `Rupture`、`Shield Bash` 類流血、嘲諷與高 threat 技能 | 用來穩住怪與建立前線，不只是打傷害 |
+| `Crusader` / `Paladin` | 無敵、暈眩、自我治療與 undead 特攻 | 混合坦與神聖工具，適合處理危險窗口 |
+| `Monk` | `Dragon Punch`、`Hurricane Kicks` 類高節奏物理技 | 很吃攻速、資源與命中，續航要搭裝備 |
+| `Ranger` | `Spread Shot`、`Spirit of the Hunter` 類 ranged / party tool | 弓術、後排處理與隊伍增益都要一起看 |
+| `Wizard` | `Meteor`、`Lightning Bolt` 類元素爆發 | 依火、冰、雷或抗性削減調整技能與裝備 |
+| `Enchanter` | `Paralyze`、`Stasis`、haste / cooldown 支援 | 個人傷害未必最高，但能讓整隊節奏變快 |
+| `Bard` | `Righteous Rhapsody`、`Battle Hymn` 類歌曲與 debuff | 透過增益、降抗與資源支援放大團隊表現 |
+
+<note>
+<p>技能名稱與效果很容易隨版本或資料來源變動。這張表的用途是幫助理解職業方向，不取代遊戲內 tooltip、官方 wiki 或專門技能表。</p>
+</note>
+
 ## 裝備適性與職業彈性
 
 職業能穿的防具會影響容錯率，也會影響你在隊伍裡敢不敢站前排。來源資料採「階級機制」：能穿較高階防具的職業，也能穿其下位防具；例如 plate 職可以穿 mail、leather、cloth。來源資料也提到所有職業都可以裝備盾牌，但實戰上仍要看職業技能、武器需求與裝備詞綴是否支援目前流派。

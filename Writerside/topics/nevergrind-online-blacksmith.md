@@ -108,7 +108,7 @@ SteamDB 的 patch notes 也能補上這套系統的脈絡：Blacksmith 先啟用
 | 2025-05-29 | Season 3 的 crafting counter 開放所有 recipes | 舊版「測試 / preview」資訊只能當歷史脈絡，實際 recipes 以當前版本為準 |
 | 2025-10-07 | 修正 craft rune 後成本顯示錯誤 | 涉及 rune upgrade / crafting cost 時，一律以當前 UI 成本為準 |
 
-### Craft 基本流程
+### Craft 基本流程 {#craft-basic-flow}
 
 1. 到 Edenburg 右側的 Blacksmith，切到 `Craft` tab。
 2. 背包中準備一件符合 recipe 的 socketed base item。
@@ -135,7 +135,7 @@ Craft 的關鍵不是只湊到 rune，而是找到正確 base。
 
 這些規則讓 base item 本身變得非常重要。高 sockets 只是門票；真正值得 craft 的 base，還要看 talents、skill enhancements、Superior、Ethereal、基礎傷害 / 速度 / 防禦與職業可用性。
 
-### Craft 後的規則
+### Craft 後的規則 {#craft-after-rules}
 
 來源頁整理的 craft 後規則可以先記成這幾點：
 
@@ -163,7 +163,7 @@ Socketed base item 可以在地城裡掉落，也可能出現在 Apothecary、Bl
 
 換句話說，Blacksmith 的 Craft tab 不是只看 rune 清單，而是把「正確 base + 正確 rune recipe」合成成 Mythical 裝備。好 base 的價值會因此大幅上升。
 
-### Craft 卡住時檢查
+### Craft 卡住時檢查 {#craft-troubleshooting}
 
 如果 Craft tab 的按鈕沒有亮、base 不符合 recipe，或做出來的結果和預期不同，先用這張表排查：
 
@@ -176,7 +176,7 @@ Socketed base item 可以在地城裡掉落，也可能出現在 Apothecary、Bl
 | Mythical tooltip 沒顯示 total sockets | 2025-05-20 patch notes 調整過 Mythical / crafting descriptions 的 socket 顯示方式 |
 | Rune upgrade 成本看起來怪 | 2025-10-07 patch notes 曾修正 craft rune 後的 cost 錯誤；以目前 UI 顯示為準 |
 
-更完整的來源分級、官方已確認 Mythical families、素材 farming 與版本風險，可看 [Blacksmith Crafting / Recipe 深度筆記](nevergrind-online-blacksmith-crafting-recipe-research.md)。
+更完整的來源分級、[快速製作指南](nevergrind-online-blacksmith-crafting-recipe-research.md#crafting-quick-guide)、[素材選擇優先級](nevergrind-online-blacksmith-crafting-recipe-research.md#crafting-base-selection)、[屬性繼承規則](nevergrind-online-blacksmith-crafting-recipe-research.md#crafting-inheritance)、官方已確認 Mythical families、素材 farming 與版本風險，可看 [Blacksmith Crafting / Recipe 深度筆記](nevergrind-online-blacksmith-crafting-recipe-research.md)。
 
 ## 金幣與回收價值
 

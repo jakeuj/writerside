@@ -571,6 +571,9 @@
             <toc-element topic="nevergrind-online-guide.md" toc-title="Nevergrind Online 指南">
                 <toc-element topic="nevergrind-online-core-structure.md" toc-title="核心架構心智圖" />
                 <toc-element topic="nevergrind-online-hotkeys-commands.md" toc-title="熱鍵與聊天指令" />
+                <toc-element topic="nevergrind-online-dungeons.md" toc-title="地城冒險與任務">
+                    <toc-element topic="nevergrind-online-monsters.md" toc-title="怪物分類與 Traits" />
+                </toc-element>
                 <toc-element topic="nevergrind-online-edenburg.md" toc-title="Edenburg 城鎮設施">
                     <toc-element topic="nevergrind-online-tavern.md" toc-title="Tavern 酒館" />
                     <toc-element topic="nevergrind-online-apothecary.md" toc-title="Apothecary 藥劑店" />
@@ -591,6 +594,8 @@
                     </toc-element>
                 </toc-element>
                 <toc-element topic="nevergrind-online-items-loot.md" toc-title="物品與戰利品">
+                    <toc-element topic="nevergrind-online-equipment-collection.md" toc-title="裝備收集路線" />
+                    <toc-element topic="nevergrind-online-money-efficiency.md" toc-title="金錢效率" />
                     <toc-element topic="nevergrind-online-magic-items.md" toc-title="Magic Items 魔法裝備" />
                     <toc-element topic="nevergrind-online-rare-items.md" toc-title="Rare Items 稀有裝備" />
                     <toc-element topic="nevergrind-online-unique-items.md" toc-title="Unique Items 獨特裝備" />

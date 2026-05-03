@@ -17,6 +17,12 @@
 
 SteamDB 的 2024 Season 2 patch note 提到 [Blacksmith](nevergrind-online-blacksmith.md) 的 enchanting counter 已啟用，可以用 runes 強化 socketed items；2025 patch note 又提到 crafting counter 加入 rune upgrade。另一方面，[Nevergrind Online 攻略DB 的 Craft 頁](https://atelier3.web.fc2.com/ngo/mythical.html) 把 Blacksmith 的 `Craft` tab 描述成製作 Mythical / Rune Words 類裝備的入口。這代表 rune 系統至少要分成兩種情境：一般 socketing 是把 rune bonus 放進裝備，Mythical crafting 則是用 base item 和 runes 觸發 recipe。
 
+| 情境 | 需要什麼 | 結果 | 注意 |
+| ------ | ------ | ------ | ------ |
+| 一般 socketing / enchanting | 已有 sockets 的裝備 + 對應 rune | 裝備獲得 rune tooltip 上的加成 | 來源摘要把鑲嵌視為不可逆；高階 rune 先當成長期投入 |
+| Mythical / Rune Words crafting | 正確 socketed base + recipe runes + gold | 透過 Blacksmith `Craft` tab 產生 Mythical 類裝備 | runes 只要在背包中，不需要先鑲進 base；Craft 後 sockets 會被消耗 |
+| Rune upgrade via crafting | 依目前 Craft tab 顯示的 rune recipe | 升級 rune 或進行相關 crafting | 成本和可用 recipe 曾被 patch 調整，以目前 UI 為準 |
+
 操作前先確認：
 
 - 這件裝備是否有 sockets。
@@ -27,7 +33,7 @@ SteamDB 的 2024 Season 2 patch note 提到 [Blacksmith](nevergrind-online-black
 - 你現在做的是一般 socketing，還是 [Blacksmith 的 Mythical / Rune Words crafting](nevergrind-online-blacksmith.md#crafting-mythical-rune-words)。
 
 <warning>
-<p>NotebookLM 摘要把 rune 鑲嵌視為永久且不可逆；但 2025 patch note 已提到 rune upgrade via crafting。實務上請先把高階 rune 當成不可輕易反悔的資源，並在遊戲內確認目前 crafting counter 的實際規則。</p>
+<p>NotebookLM 摘要把 rune 鑲嵌視為永久且不可逆；但 2025 patch note 已提到 rune upgrade via crafting。實務上請先把「已鑲嵌到裝備上的 rune」和「放在背包中當 recipe 素材的 rune」分開看，並在遊戲內確認目前 crafting counter 的實際規則。</p>
 </warning>
 
 ## 符文名稱與資料來源
@@ -42,9 +48,9 @@ SteamDB 的 2024 Season 2 patch note 提到 [Blacksmith](nevergrind-online-black
 
 | 情境 | 優先方向 | 判斷 |
 | ------ | ------ | ------ |
-| 單手武器 | `Cros` 武器傷害、`Targ` 全被動、`Gart` strength | 單手基礎傷害較低，直接補 weapon damage 往往很有感 |
-| 兩手武器 | `Rath` 攻擊能力 / 攻擊相關百分比 | 兩手基礎傷害高，放大命中與爆發通常更划算 |
-| 弓 | `Cros` 武器傷害或 `Rok` weapon speed | 依武器速度、socket 數與職業技能判斷 |
+| 單手武器 | `Cros` 武器傷害 > `Targ` 全被動 > `Gart` strength | 單手基礎傷害較低，直接補 weapon damage 往往很有感 |
+| 兩手武器 | `Rath` 攻擊能力 / 攻擊百分比 > `Targ` 全被動 > `Gart` strength | 兩手基礎傷害高，百分比與命中相關收益通常更能放大穩定度 |
+| 弓 | `Rath` 攻擊能力 / 攻擊百分比、`Targ` 全被動、或依速度改看 `Rok` | 依武器速度、socket 數與職業技能判斷；高 sockets ranged slot 也可能是工具裝 |
 | 命中不足 | `Rath` / `Shir` 類攻擊能力 | 打不中時，帳面傷害再高也沒有意義 |
 | 資源斷循環 | `Gra` hit 時 mana 回復 | 適合高攻速、頻繁命中的 build |
 
@@ -57,7 +63,7 @@ NotebookLM 摘要提到 `Demetrium's Ballista` 因為 sockets 多，即使是較
 | 需求 | 優先方向 | 適用情境 |
 | ------ | ------ | ------ |
 | 打高抗性怪 | `Mael` enemy resistance reduction | 高難度與 boss farm 很重要 |
-| 提高爆發 | `Tae` crit 或屬性傷害 rune | 已有足夠命中 / sustain 時再追 |
+| 提高爆發 | `Tae` crit 或屬性傷害 rune | 已有足夠命中 / sustain 時再追；通常排在 resistance reduction 後面 |
 | 缺 casting haste | `Skar` casting speed | 沒有 Templar / Enchanter / Bard 支援時更有感 |
 | 想刷寶 | `Marr` rare drop / magic find 類 | 防具或低風險 farm 裝可考慮 |
 | 魔力不足 | `Gra` 或資源回復詞綴 | 對高頻率施法或混合攻擊 build 有價值 |
@@ -76,6 +82,17 @@ NotebookLM 摘要提到 `Demetrium's Ballista` 因為 sockets 多，即使是較
    - all talents、all passive、技能加成、casting haste。
 
 NotebookLM 摘要提到，物理防具用 `Rath` 類全 stat / strength 方向可能很奢侈；如果角色抗性很破，先補抗性比追輸出更合理。魔法防具在沒有明確缺口時，`Marr` 類刷寶符文是常見選擇。
+
+## 特殊戰術應用 {#rune-tactical-uses}
+
+有些 rune 不一定是最高傷害，但能讓 build 變順：
+
+| 情境 | 可考慮方向 | 判斷 |
+| ------ | ------ | ------ |
+| `Monk`、`Crusader` / `Paladin` 這類資源消耗快的角色 | `Gra` hit 時 mana 回復 | 可放在副手或過渡武器上，穩住沒有隊友支援時的續航 |
+| 物理職想利用 ranged slot 當工具欄 | 高 sockets bow、`Demetrium's Ballista` 類工具裝 | 低等裝也可能因 sockets 數改寫後期價值 |
+| `Wizard` 或 caster 需要提高 proc 節奏 | `Rok` weapon speed、`Targ` 全被動或符合 rotation 的 weapon base | 速度與 internal cooldown 是否匹配，比單看 rune 等級更重要 |
+| 刷寶裝 | `Marr` magic find / rare drop 類 rune | 只在輸出與生存仍安全時才堆，避免 farm 速度反而下降 |
 
 ## 依隊伍配置調整
 
