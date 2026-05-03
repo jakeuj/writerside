@@ -571,6 +571,7 @@
             <toc-element topic="nevergrind-online-guide.md" toc-title="Nevergrind Online 指南">
                 <toc-element topic="nevergrind-online-core-structure.md" toc-title="核心架構心智圖" />
                 <toc-element topic="nevergrind-online-progression-roadmap.md" toc-title="進度路線與 FC2 攻略讀法" />
+                <toc-element topic="nevergrind-online-public-source-notes.md" toc-title="公開來源與疑難排解" />
                 <toc-element topic="nevergrind-online-hotkeys-commands.md" toc-title="熱鍵與聊天指令" />
                 <toc-element topic="nevergrind-online-dungeons.md" toc-title="地城冒險與任務">
                     <toc-element topic="nevergrind-online-monsters.md" toc-title="怪物分類與 Traits" />
