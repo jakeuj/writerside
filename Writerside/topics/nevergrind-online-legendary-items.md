@@ -148,6 +148,7 @@
 
 - 先用 [物品與戰利品總覽](nevergrind-online-items-loot.md) 判斷 magic find、商店、升級與掉落邏輯。
 - 如果這件裝備有 socket 或會穿很久，再看 [符文 Runes 指南](nevergrind-online-runes.md)。
+- 如果要用 gold 追特定部位或 elite 候選，先看 [Gambling 賭博指南](nevergrind-online-gambling.md)，確認品質階級、圖示與版本規則。
 - Caster / support 類高階武器可以參考 [Cryptic Paragon（Haniwa）](nevergrind-online-cryptic-paragon-haniwa.md) 的判斷方式：名字重要，但 roll、技能、天賦與 build 契合度更重要。
 
 ## 常見誤區

@@ -36,7 +36,7 @@ Cleric 刷 undead / demon 區域的價值來自兩個技能判斷：
 | ------ | ------ | ------ | ------ | ------ |
 | 1 | `Riven Grotto`（瑞文洞窟） | Act II | NotebookLM 摘要指出此區 undead 密度高，適合早期練 Cleric 輸出節奏 | 適合從 Normal 開始熟 route；高難度再追效率 |
 | 2 | `Thule Crypt`（圖勒地窖）/ crypt 系區域 | Act III | NotebookLM 摘要列出多個 undead boss，是更高壓的 undead farm 點 | 留意 `Spirit Drain` / 抽資源類壓力；名稱可能需以遊戲內顯示為準 |
-| 3 | `Fahlnir Citadel`（法爾尼爾城堡） | Act IV | 混合高階 undead 與 demon，適合成形 Cleric 發揮特攻 | 風險與掉落等級都更高，Hell trait 組合可能很兇 |
+| 3 | [Fahlnir Citadel（法爾尼爾城堡）](nevergrind-online-fahlnir-citadel.md) | Act IV | 混合高階 undead 與 demon，適合成形 Cleric 發揮特攻 | 風險與掉落等級都更高，Hell trait 組合可能很兇 |
 | 4 | `Ashenflow Peak`（灰燼流巔峰） | Act IV 後段 | 有 demon 類 boss 可讓 Cleric 打爆發 | 怪物組成較混雜，不像 Riven Grotto 那麼純 |
 
 Nevergrind Wiki 主頁有列出 `Riven Grotto`、`Fahlnir Citadel`、`Ashenflow Peak` 等 zones；`Thule Crypt` 這個名稱來自 NotebookLM 摘要，公開官方主頁目前沒有同名 zone 條目，所以寫筆記時先保留名稱並提醒進遊戲核對。
@@ -66,7 +66,7 @@ Nightmare 建議：
 
 - `Riven Grotto` 仍是最穩的 undead farm 起點。
 - `Thule Crypt` / crypt 系區域適合進階測試，但遇到抽資源或長戰鬥 boss 要保守。
-- `Fahlnir Citadel` 開始要求更好的 plate armor、抗性與資源回復。
+- [Fahlnir Citadel](nevergrind-online-fahlnir-citadel.md) 開始要求更好的 plate armor、抗性與資源回復，尤其要留意 fire / lightning 與抽 spirit 類風險。
 - `Ashenflow Peak` 適合針對 demon 目標，不適合作為完全無腦 farm 點。
 
 準備方向：
@@ -86,7 +86,7 @@ Hell 的區域判斷：
 | ------ | ------ | ------ |
 | `Riven Grotto` | 最穩定的主刷點 | undead 密度高，Cleric 特攻收益穩，但仍要看 trait |
 | `Thule Crypt` / crypt 系區域 | 高收益高壓 | undead 目標多，但抽資源或控制壓力會直接威脅 Cleric |
-| `Fahlnir Citadel` | 高階成形後再刷 | undead / demon 目標價值高，但 trait 組合與高等 boss 壓力都重 |
+| [Fahlnir Citadel](nevergrind-online-fahlnir-citadel.md) | 高階成形後再刷 | undead / demon 目標價值高，但 trait 組合與高等 boss 壓力都重 |
 | `Ashenflow Peak` | 針對 demon 目標使用 | demon 目標值得打，但非加成怪較多，效率不一定穩 |
 
 Hell 特別要警戒的 traits / 風險：

@@ -570,20 +570,34 @@
             </toc-element>
             <toc-element topic="nevergrind-online-guide.md" toc-title="Nevergrind Online 指南">
                 <toc-element topic="nevergrind-online-core-structure.md" toc-title="核心架構心智圖" />
+                <toc-element topic="nevergrind-online-hotkeys-commands.md" toc-title="熱鍵與聊天指令" />
+                <toc-element topic="nevergrind-online-edenburg.md" toc-title="Edenburg 城鎮設施">
+                    <toc-element topic="nevergrind-online-tavern.md" toc-title="Tavern 酒館" />
+                    <toc-element topic="nevergrind-online-apothecary.md" toc-title="Apothecary 藥劑店" />
+                    <toc-element topic="nevergrind-online-blacksmith.md" toc-title="Blacksmith 鍛造鋪" />
+                    <toc-element topic="nevergrind-online-merchant.md" toc-title="Merchant 商店" />
+                </toc-element>
                 <toc-element topic="nevergrind-online-classes.md" toc-title="職業系統總覽">
                     <toc-element topic="nevergrind-online-healers.md" toc-title="治療者總覽">
                         <toc-element topic="nevergrind-online-cleric.md" toc-title="Cleric 牧師">
                             <toc-element topic="nevergrind-online-cleric-skills-twloli.md" toc-title="牧師技能參考 Twloli" />
                             <toc-element topic="nevergrind-online-cleric-scion-dps.md" toc-title="Scion 牧師輸出" />
-                            <toc-element topic="nevergrind-online-cleric-farming-zones.md" toc-title="牧師刷區域" />
+                            <toc-element topic="nevergrind-online-cleric-farming-zones.md" toc-title="牧師刷區域">
+                                <toc-element topic="nevergrind-online-fahlnir-citadel.md" toc-title="Fahlnir Citadel 法爾尼爾城堡" />
+                            </toc-element>
                         </toc-element>
                     </toc-element>
                 </toc-element>
                 <toc-element topic="nevergrind-online-items-loot.md" toc-title="物品與戰利品">
+                    <toc-element topic="nevergrind-online-magic-items.md" toc-title="Magic Items 魔法裝備" />
+                    <toc-element topic="nevergrind-online-rare-items.md" toc-title="Rare Items 稀有裝備" />
+                    <toc-element topic="nevergrind-online-unique-items.md" toc-title="Unique Items 獨特裝備" />
                     <toc-element topic="nevergrind-online-set-items.md" toc-title="Set Items 套裝" />
                     <toc-element topic="nevergrind-online-legendary-items.md" toc-title="Legendary Items" />
                     <toc-element topic="nevergrind-online-cryptic-paragon-haniwa.md" toc-title="Cryptic Paragon Haniwa" />
                     <toc-element topic="nevergrind-online-runes.md" toc-title="符文 Runes" />
+                    <toc-element topic="nevergrind-online-identification.md" toc-title="Identification 鑑定" />
+                    <toc-element topic="nevergrind-online-gambling.md" toc-title="Gambling 賭博" />
                 </toc-element>
             </toc-element>
             <toc-element topic="evennia-mud-development.md" toc-title="Evennia MUD 開發" />

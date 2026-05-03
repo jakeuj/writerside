@@ -43,6 +43,24 @@
 <p>Fandom Cleric 頁目前把 <code>Holy Sanctuary</code> 描述為 AoE arcane damage 並降低自身 threat，不是 stun。若你的遊戲版本或 talent tooltip 顯示它會強化後續傷害，可以把它放在 opener；否則把它當 AoE 與 threat reset 會比較穩。</p>
 </note>
 
+## 點數不足時的優先順序
+
+天賦點數不夠一次補齊所有 breakpoint 時，先把 `Arbiter` 的 `Condemnation` 當成前置門檻：NotebookLM 摘要建議先確認 `Condemnation` Rank 25，因為它是 Cleric DPS 的主力 cone / 多目標工具，並在該門檻取得更好的 hit count / bonus hit 方向提升。若目前 tooltip 或裝備加成後的 breakpoint 不同，仍以遊戲內顯示為準。
+
+| 優先 | 目標 | 為什麼先點 |
+| ------ | ------ | ------ |
+| 0 | `Condemnation` Rank 25 | `Arbiter` 前置核心；先確認 bonus hit / 次數提升是否已達成 |
+| 1 | `Deliverance` Rank 15 | `Scion` 單體 burst 主砲；若 Rank 15 觸發 bonus hit / 次數增加，傷害體感會最明顯 |
+| 2 | `Holy Sanctuary` Rank 16 | 若目前 tooltip 顯示 Rank 16 會強化後續輸出或 opener window，接著補到這個門檻；否則仍把它當 AoE / threat 工具 |
+| 3 | `Sacred Revelation` Rank 16 | 提供 cone 傷害與 stun window，讓 `Deliverance` 更穩定吃到爆發條件 |
+| 4 | `Mastery: Augury` Rank 20 | 點數有餘裕再補，目標是縮短 `Deliverance` 冷卻；來源摘要提到可壓到約 9.5 秒，但實際值看 tooltip |
+
+簡單說，先把「能多打一次」的門檻拿到，再補讓 burst window 更穩、更常回轉的工具。`Deliverance` 影響單體擊殺效率，`Condemnation` 是 Cleric DPS 的基底，`Holy Sanctuary` 與 `Sacred Revelation` 則負責把爆發窗口打開或放大。
+
+<note>
+<p>這裡的 <code>Bonus Hit</code> / 次數增加是來源摘要中的 breakpoint 說法。裝備上的 all talents、skill bonus 或後續 patch 都可能改變實際 rank，點之前先看技能 tooltip 是否已經達標。</p>
+</note>
+
 ## 為什麼 `Condemnation` 很重要
 
 `Condemnation` 雖然在官方 wiki 的 talent list 裡屬於 `Arbiter`，但它很適合 Scion DPS 玩法，原因是它能補上三件事：
@@ -91,7 +109,7 @@ Force of Glory for stun burst or emergency control
 
 單刷重點：
 
-- 優先挑 undead / demon 密集區，例如 [牧師刷區域指南](nevergrind-online-cleric-farming-zones.md) 裡的 `Riven Grotto`、`Fahlnir Citadel` 等。
+- 優先挑 undead / demon 密集區，例如 [牧師刷區域指南](nevergrind-online-cleric-farming-zones.md) 裡的 `Riven Grotto`、[Fahlnir Citadel](nevergrind-online-fahlnir-citadel.md) 等。
 - 不要把 `Force of Glory` 全拿來補傷害，危險 boss 要留一手控場。
 - 遇到抽 spirit / mana 的 trait，先求穩，不要硬打完整 rotation。
 - `Smite` 是讓節奏變滑順的 filler，不是每次都要卡滿。

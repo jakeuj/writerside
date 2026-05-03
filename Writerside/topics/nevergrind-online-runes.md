@@ -1,6 +1,6 @@
 # Nevergrind Online 符文 Runes 指南
 
-`Runes` 是 Nevergrind Online 後期裝備客製化的核心：有 sockets 的裝備可以透過 Blacksmith 的 enchanting / crafting 相關功能加入 rune bonus，把「好裝」推成更明確服務於 build 的核心裝。鑲嵌前先想清楚這件裝備會穿多久，因為符文通常不是拿來補一件很快會被換掉的過渡裝。
+`Runes` 是 Nevergrind Online 後期裝備客製化的核心：有 sockets 的裝備可以透過 [Blacksmith 鍛造鋪](nevergrind-online-blacksmith.md) 的 enchanting / crafting 相關功能加入 rune bonus，把「好裝」推成更明確服務於 build 的核心裝。鑲嵌前先想清楚這件裝備會穿多久，因為符文通常不是拿來補一件很快會被換掉的過渡裝。
 
 - 檢視日期：`2026-05-03`
 - 前置閱讀：[Nevergrind Online 物品與戰利品總覽](nevergrind-online-items-loot.md)
@@ -15,7 +15,7 @@
 
 ## 基本規則
 
-SteamDB 的 2024 Season 2 patch note 提到 Blacksmith 的 enchanting counter 已啟用，可以用 runes 強化 socketed items；2025 patch note 又提到 crafting counter 加入 rune upgrade。這代表 rune 系統已經從單純鑲嵌，逐漸變成 crafting 後期的一部分。
+SteamDB 的 2024 Season 2 patch note 提到 [Blacksmith](nevergrind-online-blacksmith.md) 的 enchanting counter 已啟用，可以用 runes 強化 socketed items；2025 patch note 又提到 crafting counter 加入 rune upgrade。這代表 rune 系統已經從單純鑲嵌，逐漸變成 crafting 後期的一部分。
 
 操作前先確認：
 
