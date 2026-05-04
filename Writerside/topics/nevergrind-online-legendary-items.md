@@ -160,6 +160,10 @@
 - 為了穿 legendary 犧牲抗性、資源或核心技能 breakpoint。
 - 低等 legendary 明明只是過渡裝，卻投入太多升級與高階 rune。
 
+## FC2 Legendary 全量表 {#fc2-legendary-full-table}
+
+FC2 的 Legendary 頁已整理成 [FC2 Legendary 全量表](nevergrind-online-fc2-legendary-table.md)。既有本文保留查裝策略與判斷流程；逐列數值與 mods 以全量表為主。
+
 ## 參考資料
 
 - [Swiftyhorn's Nevergrind Online - Legendary Items](https://docs.google.com/spreadsheets/d/1Do2qcmxTgIuzzhTcagiydvEu-TI86JoT5BOPFVuN0vA/edit?gid=1080992867#gid=1080992867)

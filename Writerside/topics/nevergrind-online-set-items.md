@@ -160,6 +160,14 @@ FC2 的 `set.html` 除了 14 職的三階職業套裝外，還列了 7 個沒有
 - 若要比較同部位高階裝，可以搭配 [傳奇裝備（Legendary Items）清單筆記](nevergrind-online-legendary-items.md) 查候選裝備。
 - 牧師（Cleric）或施法職流派若提到 `Tunso`、`Zamtil`、`Falzain` 這類名字，先確認 bonus 是否真的服務於目前 rotation。
 
+## FC2 Set 全量表 {#fc2-set-full-tables}
+
+FC2 的 `set.html` 與 49 個 set 明細頁已依階級拆成三個中文查表頁：
+
+- [FC2 Set Normal 全量表](nevergrind-online-fc2-set-normal.md)
+- [FC2 Set Exceptional 全量表](nevergrind-online-fc2-set-exceptional.md)
+- [FC2 Set Elite 全量表](nevergrind-online-fc2-set-elite.md)
+
 ## 參考資料
 
 - [FC2 攻略 DB：Fanatic set](https://atelier3.web.fc2.com/ngo/fanatic.html)

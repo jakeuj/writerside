@@ -223,6 +223,10 @@ Crafting 相關 patch notes 顯示，系統上線後修過不少 UI、成本、t
 4. 高階 rune 不要投入測試用 base；先用便宜素材確認 UI 邏輯。
 5. 多人、Heroic Hell、rune shrine、armor / weapon shrine 都應納入 crafting 素材農法。
 
+## FC2 Recipe 全量表 {#fc2-recipe-full-table}
+
+FC2 的 recipe 頁已整理成 [FC2 Recipe 全量表](nevergrind-online-fc2-recipes.md)，保留 recipe 名稱、需求等級、rune 組合與 mods。本文保留 crafting 規則與風險判讀。
+
 ## 參考資料
 
 - [Nevergrind Online 攻略DB：クラフト](https://atelier3.web.fc2.com/ngo/mythical.html)

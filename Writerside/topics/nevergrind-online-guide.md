@@ -74,6 +74,19 @@ Nevergrind Online 的公開資料分散在官方 Steam 頁、官方 wiki、Fando
 <p>如果你看到舊攻略提到特定指令、特定神裝、橘色 / legendary / mythical 分類，或固定刷圖路線，先不要直接照抄。先看 <a href="nevergrind-online-public-source-notes.md">公開來源判讀與疑難排解</a>，再依目前角色等級、抗性、生存、裝備與隊伍狀態調整。</p>
 </note>
 
+## FC2 全量整理進度 {#fc2-full-import-progress}
+
+FC2 本地鏡像已拆成多個全量參考頁；首頁只保留入口，避免把 106 個 HTML 的表格全部塞在同一頁。
+
+| 類型 | 入口 |
+| ------ | ------ |
+| 完成矩陣與原站連結 | [FC2 攻略 DB 連結索引](nevergrind-online-fc2-link-index.md#fc2-completion-matrix) |
+| 職業 build | [FC2 職業 Build 摘要](nevergrind-online-fc2-class-build-index.md) |
+| Unique 裝備 | [Unique 武器](nevergrind-online-fc2-unique-weapons.md)、[Unique 防具](nevergrind-online-fc2-unique-armor.md)、[Unique 飾品](nevergrind-online-fc2-unique-accessories.md) |
+| Set 裝備 | [Set Normal](nevergrind-online-fc2-set-normal.md)、[Set Exceptional](nevergrind-online-fc2-set-exceptional.md)、[Set Elite](nevergrind-online-fc2-set-elite.md) |
+| Legendary / Recipe / Rune / Craft | [Legendary 全量表](nevergrind-online-fc2-legendary-table.md)、[Recipe 全量表](nevergrind-online-fc2-recipes.md)、[Rune / Craft 參考](nevergrind-online-fc2-rune-craft-reference.md) |
+| 流程、FAQ、Boss、怪物與工具 | [FC2 一般攻略全量參考](nevergrind-online-fc2-general-reference.md) |
+
 ## 參考資料
 
 - [Nevergrind Online on Steam](https://store.steampowered.com/app/853450/Nevergrind_Online/)
