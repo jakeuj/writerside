@@ -63,7 +63,7 @@
 
 物品操作最怕誤賣或誤移。高價 unique、set、legendary、socketed item 或帶 talents 的候選裝，建議先放到固定背包區或銀行，再開始批量賣垃圾。
 
-## 常用聊天指令
+## 常用聊天指令 {#ngo-chat-command-quick-reference}
 
 | 指令 | 用途 |
 | ------ | ------ |
