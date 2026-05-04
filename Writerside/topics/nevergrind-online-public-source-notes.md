@@ -4,7 +4,7 @@ Nevergrind Online 的攻略資料分散在官方 Steam 頁、Steam 公告、Fand
 
 - 檢視日期：`2026-05-03`
 - 分類：[Nevergrind Online（絕不刷怪）遊戲指南](nevergrind-online-guide.md)
-- 相關閱讀：[進度路線與 FC2 攻略讀法](nevergrind-online-progression-roadmap.md)、[職業系統總覽](nevergrind-online-classes.md)、[地城冒險與任務攻略](nevergrind-online-dungeons.md)
+- 相關閱讀：[進度路線與 FC2 攻略讀法](nevergrind-online-progression-roadmap.md)、[FC2 攻略 DB 連結索引](nevergrind-online-fc2-link-index.md)、[職業系統總覽](nevergrind-online-classes.md)、[地城冒險與任務攻略](nevergrind-online-dungeons.md)
 - 版本提醒：本文只記錄本次查核能公開對上的資訊；Steam update history、遊戲內 tooltip 與官方公告仍是版本敏感內容的最終依據
 
 <tldr>
@@ -22,6 +22,8 @@ Nevergrind Online 的攻略資料分散在官方 Steam 頁、Steam 公告、Fand
 | Fandom 社群 wiki | `Loot`、`General Game Mechanics`、con、shields、grouping、row damage 等基礎規則 | 部分頁面年代較舊，遇到難度或職業分類衝突要回官方與遊戲內確認 |
 | FC2 / atelier3 攻略DB | 終局 build、裝備方向、符文、crafting、技能斷點 | 很有操作價值，但不少建議默認已有裝備基礎 |
 | 中文與 Steam 玩家心得 | 開荒體感、單刷職業、前中期資源取捨 | 當成經驗值，不要當成官方公式 |
+
+FC2 站內每個 NGO 內部頁面已另整理在 [FC2 攻略 DB 連結索引](nevergrind-online-fc2-link-index.md)。需要查「哪一頁對應職業、物品、套裝或 rune」時先看索引；需要判斷資料能不能採信時再回到本文。
 
 ## 本次查核到的穩定事實 {#verified-public-facts}
 
@@ -105,3 +107,4 @@ PULSE_LATENCY_MSEC=90 %command% --in-process-gpu
 - [Steam Community: Technical Issues](https://steamcommunity.com/app/853450/discussions/0/3458218583871067644/)
 - [Fandom: General Game Mechanics](https://nevergrind-online.fandom.com/wiki/General_Game_Mechanics)
 - [Nevergrind Online 攻略DB](https://atelier3.web.fc2.com/ngo/)
+- [Nevergrind Online 攻略DB：menu](https://atelier3.web.fc2.com/ngo/menu.html)
