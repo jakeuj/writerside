@@ -569,20 +569,24 @@
                 <toc-element topic="PoeChinese3-mac.md" toc-title="PoeChinese3 mac 中文化 (Fork)" />
             </toc-element>
             <toc-element topic="nevergrind-online-guide.md" toc-title="Nevergrind Online 指南">
-                <toc-element topic="nevergrind-online-core-structure.md" toc-title="核心架構心智圖" />
-                <toc-element topic="nevergrind-online-progression-roadmap.md" toc-title="進度路線與 FC2 攻略讀法" />
-                <toc-element topic="nevergrind-online-public-source-notes.md" toc-title="公開來源與疑難排解" />
-                <toc-element topic="nevergrind-online-hotkeys-commands.md" toc-title="熱鍵與聊天指令" />
-                <toc-element topic="nevergrind-online-dungeons.md" toc-title="地城冒險與任務">
-                    <toc-element topic="nevergrind-online-monsters.md" toc-title="怪物分類與 Traits" />
+                <toc-element toc-title="入門與閱讀路線">
+                    <toc-element topic="nevergrind-online-core-structure.md" toc-title="系統總覽與核心架構" />
+                    <toc-element topic="nevergrind-online-progression-roadmap.md" toc-title="進度路線與 FC2 攻略讀法" />
+                    <toc-element topic="nevergrind-online-public-source-notes.md" toc-title="來源判讀與疑難排解" />
                 </toc-element>
-                <toc-element topic="nevergrind-online-edenburg.md" toc-title="Edenburg 城鎮設施">
-                    <toc-element topic="nevergrind-online-tavern.md" toc-title="Tavern 酒館" />
-                    <toc-element topic="nevergrind-online-apothecary.md" toc-title="Apothecary 藥劑店" />
-                    <toc-element topic="nevergrind-online-blacksmith.md" toc-title="Blacksmith 鍛造鋪">
-                        <toc-element topic="nevergrind-online-blacksmith-crafting-recipe-research.md" toc-title="Crafting / Recipe 深度筆記" />
+                <toc-element toc-title="冒險與操作">
+                    <toc-element topic="nevergrind-online-hotkeys-commands.md" toc-title="熱鍵與聊天指令" />
+                    <toc-element topic="nevergrind-online-dungeons.md" toc-title="地城冒險與任務">
+                        <toc-element topic="nevergrind-online-monsters.md" toc-title="怪物分類與 Traits" />
                     </toc-element>
-                    <toc-element topic="nevergrind-online-merchant.md" toc-title="Merchant 商店" />
+                    <toc-element topic="nevergrind-online-edenburg.md" toc-title="Edenburg 城鎮設施">
+                        <toc-element topic="nevergrind-online-tavern.md" toc-title="Tavern 酒館" />
+                        <toc-element topic="nevergrind-online-apothecary.md" toc-title="Apothecary 藥劑店" />
+                        <toc-element topic="nevergrind-online-blacksmith.md" toc-title="Blacksmith 鍛造鋪">
+                            <toc-element topic="nevergrind-online-blacksmith-crafting-recipe-research.md" toc-title="Crafting / Recipe 深度筆記" />
+                        </toc-element>
+                        <toc-element topic="nevergrind-online-merchant.md" toc-title="Merchant 商店" />
+                    </toc-element>
                 </toc-element>
                 <toc-element topic="nevergrind-online-classes.md" toc-title="職業與裝備可用性">
                     <toc-element topic="nevergrind-online-healers.md" toc-title="治療者總覽">

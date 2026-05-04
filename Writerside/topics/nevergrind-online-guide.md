@@ -1,193 +1,63 @@
 # Nevergrind Online（絕不刷怪）遊戲指南
 
-Nevergrind Online 可以先當成「短場次、重刷寶、重組隊協作」的第一人稱地城 RPG 來玩：先選一個你喜歡的職業定位，把技能等級和背包空間補上，反覆接任務、進隨機地城、打王、鑑定裝備，再用掉落、商店、交易與升級系統慢慢把角色推向流派成形。
+Nevergrind Online 可以先當成「短場次、重刷寶、重組隊協作」的第一人稱地城 RPG 來玩；這份首頁只負責幫你找到下一篇該讀的攻略，系統細節則交給職業、地城、城鎮、物品與操作專頁。
 
 - 檢視日期：`2026-05-03`
 - 適用對象：剛入坑 NGO、想理解職業分工與刷寶邏輯，或想把新手操作整理成一份可重讀筆記的玩家
 - 版本提醒：MMORPG 的技能、物品、掉落與指令可能會隨更新調整；具體數值請以遊戲內說明、官方 Steam 頁與 wiki 當下資料為準
 
 <tldr>
-<p>新手最短路徑是先理解核心循環：回城補給與升技能，進地城完成任務，打王拿掉落，回城鑑定、出售、升級或保留裝備。</p>
-<p>職業不要只看坦、補、輸出、支援的固定標籤；NGO 的後期價值常來自技能循環、裝備詞綴、攻速與隊伍協作。</p>
-<p>刷寶時不要只追稀有度顏色。正確詞綴、可用部位、技能加成、加速、抗性與資源恢復，常比單純高稀有度更重要。</p>
+<p>新手最短路徑是先看核心循環：Edenburg 接任務與整備，進地城完成任務，打王拿掉落，回城鑑定、出售、升級或保留裝備。</p>
+<p>首頁不重複列完整職業表、掉落表或指令表；這些內容已整理在對應專頁，從下方閱讀路線進入即可。</p>
+<p>如果資料來源互相打架，先以遊戲內 tooltip、<code>/help</code>、官方公告與目前 wiki 為準，再用社群攻略補 build 和 farm 體感。</p>
 </tldr>
 
-## 這款遊戲在玩什麼
+## 先讀哪一篇
 
-Nevergrind Online 是一款即時戰鬥的多人第一人稱地城爬行 RPG。官方 Steam 頁面把它定位成可以單人遊玩，也可以最多 5 人組隊的 treasure hunting / dungeon crawl RPG；角色建立時有 14 個種族與 14 個職業，每個職業有 12 個獨特技能。
+| 你現在想做什麼 | 建議入口 |
+| ------ | ------ |
+| 先抓住 NGO 的整體循環 | [系統總覽與核心架構](nevergrind-online-core-structure.md) |
+| 想知道從新手到 `Hell` / `Heroic` 的順序 | [進度路線與 FC2 攻略讀法](nevergrind-online-progression-roadmap.md) |
+| 想選職業或理解隊伍定位 | [職業系統與裝備可用性總覽](nevergrind-online-classes.md) |
+| 想知道進地城後怎麼選任務、看怪、控場 | [地城冒險與任務攻略](nevergrind-online-dungeons.md) |
+| 想看怪物 con、species、traits 與擊殺順序 | [怪物分類與 Traits 指南](nevergrind-online-monsters.md) |
+| 想整理城鎮補給、升技能、鑑定與背包 | [Edenburg 城鎮設施總覽](nevergrind-online-edenburg.md) |
+| 想看裝備稀有度、magic find、鑑定與刷寶判斷 | [物品與戰利品總覽](nevergrind-online-items-loot.md) |
+| 想查熱鍵、物品操作與聊天指令 | [熱鍵與聊天指令速查](nevergrind-online-hotkeys-commands.md) |
+| 遇到舊攻略、wiki 或版本資訊衝突 | [公開來源判讀與疑難排解](nevergrind-online-public-source-notes.md) |
 
-它的節奏比較像把老派 MMORPG 的職業分工、聊天社交、隊伍推進，濃縮進一場一場短地城。想先看整體系統地圖，可以從 [Nevergrind Online 遊戲核心架構心智圖](nevergrind-online-core-structure.md) 開始；想知道新手到 Hell / Heroic 的資源優先順序，接著看 [進度路線與 FC2 攻略讀法](nevergrind-online-progression-roadmap.md)；遇到版本、來源衝突或技術問題，先看 [公開來源判讀與疑難排解](nevergrind-online-public-source-notes.md)；想看進地城後怎麼選任務、讀怪、處理 traits，則接著看 [地城冒險與任務攻略](nevergrind-online-dungeons.md)。
+## 新手第一輪流程
 
-1. 回到 [Edenburg 城鎮設施](nevergrind-online-edenburg.md)，從 [Tavern 酒館](nevergrind-online-tavern.md) 接任務，再補藥水、買卷軸、升級技能、管理銀行與背包。
-2. 進入隨機生成的地城，由隊長帶路，隊伍沿路處理怪群；怪物 con、背景顏色、species 與 traits 可看 [怪物分類與 Traits](nevergrind-online-monsters.md)。
-3. 找到任務目標或 boss，控制威脅值、資源與技能冷卻，把戰鬥收掉。
-4. 撿掉落、回城鑑定、出售、保留、交易或升級裝備。
+第一次玩不用急著查終局神裝。比較穩的順序是先把「能順利完成一場地城」這件事做好。
 
-如果只想休閒玩，NGO 的單場戰鬥通常很短；如果想鑽研，它又會把職業循環、裝備詞綴、加速、抗性、資源恢復與隊伍配合全部疊在一起。好上手，但真的要玩深也很深。
+1. 先看 [系統總覽與核心架構](nevergrind-online-core-structure.md)，理解職業、地城、城鎮、裝備四個系統怎麼互相影響。
+2. 到 [Edenburg](nevergrind-online-edenburg.md) 熟悉 Tavern、Academy、Apothecary、Merchant、Blacksmith、Bank 與 Guild Hall 的分工。
+3. 從 [Tavern 酒館](nevergrind-online-tavern.md) 接任務，進地城前先確認補給、背包、技能與隊伍狀態。
+4. 進地城後用 [地城冒險與任務攻略](nevergrind-online-dungeons.md) 的節奏處理 aggro、前後排、traits、boss 與結算。
+5. 回城後照 [物品與戰利品總覽](nevergrind-online-items-loot.md) 判斷要鑑定、穿上、賣掉、放銀行，還是留給後期 crafting / runes。
+6. 當角色循環穩定後，再接 [進度路線與 FC2 攻略讀法](nevergrind-online-progression-roadmap.md)，規劃 `Superior`、`Mastery`、`Nightmare`、`Hell` 與 `Heroic`。
 
-## 職業定位怎麼看
+## 各系統分工
 
-NGO 的職業可以先用五大定位入門，但不要太早把角色鎖死在單一標籤。官方頁面也提到職業大致設計成坦克、治療、輸出或支援，不過定位不是硬性限制。更完整的分類、名詞差異與職業協作整理在 [Nevergrind Online 職業系統與裝備可用性總覽](nevergrind-online-classes.md)。
-
-| 定位 | 常見職業方向 | 新手判斷 |
+| 系統 | 這裡先記住 | 詳細頁面 |
 | ------ | ------ | ------ |
-| 坦克 | 戰士 (Warrior)、聖騎士 (Paladin)、暗影騎士 (Shadow Knight) | 先學會開場建立仇恨值，讓輸出與治療不要被怪轉頭 |
-| 治療 | 牧師 (Cleric)、德魯伊 (Druid)、薩滿 (Shaman) | 除了補血，也要看資源恢復、仇恨與隊友承傷節奏 |
-| 物理輸出 | 武僧 (Monk)、盜賊 (Rogue)、遊俠 (Ranger)、戰士 (Warrior) | 重點是武器、攻速、技能冷卻與目標選擇 |
-| 魔法輸出 | 巫師 (Wizard)、魔法師 (Magician)、死靈法師 (Necromancer)，也包含部分牧師 (Cleric) / 德魯伊 (Druid) 流派 | 重點是施法速度、魔法傷害、控制與資源續航 |
-| 支援 / 控制 | 吟遊詩人 (Bard)、恩路者 / 幻術師 (Enchanter)、薩滿 (Shaman) | 不一定是傷害最高，但常能讓整隊輸出或生存質變 |
+| 職業與隊伍 | 職業不是死板標籤；後期強度會被技能循環、天賦、裝備詞綴與隊伍需求改寫 | [職業系統與裝備可用性總覽](nevergrind-online-classes.md)、[治療者總覽](nevergrind-online-healers.md) |
+| 地城與怪物 | 進場前先看任務目標，開打前先讀 con、階級、species、traits 和前後排 | [地城冒險與任務攻略](nevergrind-online-dungeons.md)、[怪物分類與 Traits 指南](nevergrind-online-monsters.md) |
+| 城鎮與資源 | 每場地城後都回到 Edenburg，把掉落轉成技能、背包、補給、銀行與裝備投資 | [Edenburg 城鎮設施總覽](nevergrind-online-edenburg.md) |
+| 物品與刷寶 | 不要只追顏色；部位、詞綴、技能加成、抗性、sockets、runes 和 build 缺口更重要 | [物品與戰利品總覽](nevergrind-online-items-loot.md)、[裝備收集路線](nevergrind-online-equipment-collection.md) |
+| 操作與社交 | 先熟悉 `WASD`、技能列、`Spacebar`、比較裝備、快速買賣、`/who`、`/tell`、`/camp` | [熱鍵與聊天指令速查](nevergrind-online-hotkeys-commands.md) |
 
-入門時可以先問自己三件事：
+## 資料怎麼判讀
 
-- 你想負責節奏：選坦克或支援。
-- 你想救場與穩定隊伍：選治療或混合治療職。
-- 你想追傷害與刷寶效率：選輸出，但要學會等坦克抓穩仇恨。
-
-後期更像是在玩「流派」而不是「純職」。同一個牧師 (Cleric) 可能偏治療，也可能靠不死系目標、神聖傷害或特定控制條件打出高輸出；戰士 (Warrior) 也不只是坦，若裝備與武器配置到位，可能成為非常強的物理核心。判斷角色強不強，最終要回到技能循環與裝備詞綴，而不是只看職業名稱。
-
-## 戰鬥與隊伍配合
-
-NGO 的戰鬥不是站樁按亮的技能而已。新手最容易出事的點通常是 aggro、資源、目標位置與技能優先順序。
-
-### Aggro 是第一個要學的團隊語言
-
-在組隊地城裡，坦克還沒建立威脅值之前，輸出職搶開爆發，或治療太早大量補血，都可能讓怪物轉向脆皮角色。社群指南也特別提醒，治療與施法本身就可能快速累積威脅，所以進高難度地城時先讓坦克開場，是很實際的生存技巧。
-
-簡單抓法：
-
-1. 坦克先碰怪，建立初始 aggro。
-2. 控制或 debuff 接上，降低怪物壓力。
-3. 輸出再進入主要循環。
-4. 治療看血線與資源，不要把每次小傷都立刻補成大仇恨。
-
-### 技能循環先排優先順序
-
-不要只看單一技能傷害。比較穩的方式是把技能分成：
-
-- 開場技能：建立威脅、上 debuff、召喚、控制或鋪增傷條件。
-- 核心輸出：冷卻短、收益穩定、可以反覆使用的主技能。
-- 爆發技能：等 boss、精英怪、暈眩目標或隊伍 buff 開窗時使用。
-- 保命技能：不要用來補傷害，留給轉火、失控或補師資源低的時候。
-
-有些職業需要配合特定狀態，例如暈眩、流血、召喚物、combo / technique point、目標排位或不死系標籤。高階攻略之所以常討論 rotation，本質上就是在找「哪個條件先成立，後面的技能才值得按」。
-
-### 位置與攻擊範圍會影響輸出
-
-地城戰鬥裡有前排、後排與不同範圍類型。Fandom 的 mechanics 筆記提到，後排怪物受到物理攻擊時通常會減傷，因此物理職要注意技能是否能打到後排，法系與範圍技能也要看目標型態。
-
-常見判斷：
-
-- 物理職不要只盯著最高傷害技能，先確認它能不能有效打到當前目標。
-- AoE 技能要看範圍是前排、後排、cone，還是多目標隨機。
-- 控制技能優先交給會威脅隊伍節奏的怪，而不是無腦丟在第一個目標。
-
-## 裝備與刷寶哲學
-
-NGO 的長期樂趣很大一部分來自「每次掉落都有機會翻出好東西」。Steam 頁面提到 magical、rare、set、unique 物品，且 magical、rare、unique 具有動態屬性；Fandom mechanics 目前也把常見掉落整理成藍、黃、紫、綠四類。更完整的稀有度、magic find、商店、鑑定與符文強化整理在 [Nevergrind Online 物品與戰利品總覽](nevergrind-online-items-loot.md)。
-
-| 顏色 / 類型 | 大致意義 | 觀察重點 |
-| ------ | ------ | ------ |
-| 藍色 Magic | 少量隨機詞綴 | 前期很常換裝，但高單一詞綴仍可補抗性或資源短板；可看 [Magic Items 魔法裝備指南](nevergrind-online-magic-items.md) |
-| 黃色 Rare | 多個隨機詞綴 | 好詞綴組合時可能比固定裝更適合當前流派；可看 [Rare Items 稀有裝備指南](nevergrind-online-rare-items.md) |
-| 紫色 Unique | 固定詞綴類型，但數值可能浮動 | 適合追特定技能、部位或 build 核心 |
-| 綠色 Set | 套裝，穿多件會啟用套裝效果 | 要看套裝 bonus 是否真的支援你的循環；可接著看 [套裝 Set Items 指南](nevergrind-online-set-items.md) |
+Nevergrind Online 的公開資料分散在官方 Steam 頁、官方 wiki、Fandom、Steam 討論、FC2 日文攻略 DB 與玩家心得。這些資料很適合交叉閱讀，但版本敏感的技能、物品、掉落、賽季、熱鍵與指令，仍要回到目前遊戲內 UI、tooltip、`/help` 與官方公告確認。
 
 <note>
-<p>有些玩家整理或舊攻略會提到橘色、傳奇、BiS 名單或特定神裝。若你的遊戲版本已加入新的稀有度或新裝備階層，請以遊戲內 tooltip 與目前 wiki 為準；公開頁面的分類可能落後於遊戲更新。</p>
+<p>如果你看到舊攻略提到特定指令、特定神裝、橘色 / legendary / mythical 分類，或固定刷圖路線，先不要直接照抄。先看 <a href="nevergrind-online-public-source-notes.md">公開來源判讀與疑難排解</a>，再依目前角色等級、抗性、生存、裝備與隊伍狀態調整。</p>
 </note>
-
-刷寶時可以照這個順序看：
-
-1. 這件裝備的部位是不是你目前最缺的洞。
-2. 詞綴是否支援你的主要技能、傷害型態、haste、命中、暴擊或資源。
-3. 抗性、生命、護甲與減傷是否補上你會暴斃的原因。
-4. 如果是 unique / set，固定效果是否能改變技能循環，而不只是帳面數字高。
-5. 如果是社群常提的 BiS，例如 `Cryptic Paragon`、`Charlatan's Crest` 這類名字，先查當前版本資料與掉落來源，再決定要不要專門 farm。
-
-## 金幣、升級與資源管理
-
-金幣不是只拿來買藥水。城鎮裡的裝備升級、技能升級、背包擴充、補給與交易都會吃資源；先看 [Edenburg 城鎮設施總覽](nevergrind-online-edenburg.md) 理解整體循環，再依需求查藥水、鑑定與 caster 裝備的 [Apothecary 藥劑店指南](nevergrind-online-apothecary.md)，背包、皮甲與一般商店刷新的 [Merchant 商店指南](nevergrind-online-merchant.md)，或重甲、重武器、runes / crafting 類投入的 [Blacksmith 鍛造鋪指南](nevergrind-online-blacksmith.md)。
-
-比較穩的使用順序：
-
-1. 先升常用技能，讓核心循環成形。
-2. 到 [Merchant 商店](nevergrind-online-merchant.md) 擴背包，降低每場地城因滿包而損失掉落的機率。
-3. 到 [Apothecary 藥劑店](nevergrind-online-apothecary.md) 補足鑑定、藥水與必要卷軸。
-4. 對真正會穿一段時間的武器、防具做 item upgrade。
-5. 有餘裕後再針對特定部位、商店刷新、交易或社群推薦路線投入金幣。
-
-Nevergrind Wiki 的 Item Upgrades 頁面提到，城鎮升級裝備可以把一件物品升級最多 10 次；防具偏護甲與抗性，武器偏物理或魔法傷害，且成功是保證的。這代表升級比較像穩定補強，而不是賭爆裝的強化系統。
-
-## 組隊是 NGO 的核心體驗
-
-NGO 可以 solo，但組隊才比較能看出它的設計味道。官方 Steam 頁面與 wiki 都提到最多 5 人隊伍；Fandom mechanics 也整理過，隊伍越大，風險越高，但 magic find、經驗與金幣收益也會提高。
-
-一個舒服的隊伍通常需要：
-
-- 有人能穩定建立 aggro。
-- 有人能處理治療、緩回、解壓或救場。
-- 有人能快速處理高威脅目標。
-- 有 utility 職補 haste、控制、buff、debuff 或資源壓力。
-- 隊長知道怎麼帶路，而其他人知道什麼時候該等、該爆發、該停手。
-
-如果你是新手，加入隊伍時可以先講清楚自己職業與等級，並觀察隊伍節奏。不要害怕問「等 tank 開嗎？」這種問題；在 NGO 裡，這比安靜地搶開怪更像老手。
-
-## 操作與指令速查 {#ngo-chat-command-quick-reference}
-
-完整按鍵表、物品操作與聊天指令整理在 [Nevergrind Online 熱鍵與聊天指令速查](nevergrind-online-hotkeys-commands.md)。下面先保留最常用、也最不容易踩坑的部分：
-
-```text
-/party message
-/invite playerName
-/promote playerName
-/who
-/who 5 10 dwarf cleric
-/friend add playerName
-/friends
-/join channelName
-/played
-/clear
-/camp
-```
-
-其他好用操作：
-
-- 技能列：右鍵點一個技能，再右鍵另一個技能，可以交換快捷鍵位置。
-- 商店：買賣快捷鍵可能依版本或設定不同；來源摘要提到 `Ctrl + Left Click`，社群 tips 也提過 `Shift + Left Click`，以目前 UI 提示為準。
-- 酒館：新手可以先看 `Tips` 分頁，通常會比直接去查零散攻略更快理解基礎操作。
-- 聊天：方向鍵上可以找回先前送出的訊息，找隊伍時很省事。
-- 背包：能擴就慢慢擴，地城裡滿包代表你開始跟 RNG 說不要。
-- 地圖：隨機地城每次布局都不同，養成看小地圖、確認路線與 boss 方向的習慣；若你的版本或設定支援縮放，也可以用來找隱藏房與減少迷路。
-
-<warning>
-<p>有些舊攻略可能會提到特定難度或玩家數調整指令，例如 <code>/players #</code>。這類指令若沒有出現在目前遊戲內 <code>/help</code> 或官方文件，先不要當成一定可用。</p>
-</warning>
-
-## 新手成長路線
-
-剛開始玩不要急著追終極裝備，先讓角色的基本循環穩定。
-
-1. 選一個職業，先看 12 個技能大概支援什麼打法。
-2. 前期裝備先看主屬性、生命、資源、抗性與主要傷害詞綴。
-3. 每次回城都檢查技能升級與背包空間。
-4. 第一次進組隊地城時，先保守打，觀察 aggro 和補師資源。
-5. 中期開始記錄自己最缺的是傷害、命中、生存、回魔、回 spirit 還是冷卻。
-6. 後期再查 class guide、unique / set 清單、BiS 討論與掉落目標。
-
-如果想把這些步驟接到 `Superior`、`Mastery`、`Nightmare`、`Hell` 與 `Heroic` 的中長期節點，可以看 [Nevergrind Online 進度路線與 FC2 攻略讀法](nevergrind-online-progression-roadmap.md)。
-
-這款遊戲的樂趣不是只在「刷到神裝」那一秒，而是在你逐漸看懂一件裝備為什麼好、某個職業為什麼突然強、某個隊友的 buff 為什麼讓整隊節奏變快。它很復古，但不是粗糙；它很刷寶，但不是只靠運氣。
 
 ## 參考資料
 
 - [Nevergrind Online on Steam](https://store.steampowered.com/app/853450/Nevergrind_Online/)
 - [Nevergrind Wiki Main Page](https://nevergrind.com/wiki/index.php?title=Main_Page)
-- [Nevergrind Wiki: Item Upgrades](https://nevergrind.com/wiki/index.php?title=Item_Upgrades)
-- [Nevergrind Wiki: Magic Find Mechanics](https://nevergrind.com/wiki/index.php?title=Magic_Find_Mechanics)
-- [Nevergrind Online Wiki: Loot](https://nevergrind-online.fandom.com/wiki/Loot)
-- [Nevergrind Online Wiki: Items](https://nevergrind-online.fandom.com/wiki/Items)
 - [Nevergrind Online Wiki: What Is Nevergrind Online?](https://nevergrind-online.fandom.com/wiki/What_Is_Nevergrind_Online%3F){ignore-vars="true"}
 - [Nevergrind Online Wiki: General Game Mechanics](https://nevergrind-online.fandom.com/wiki/General_Game_Mechanics)
-- [Nevergrind Online Wiki: Chat Commands](https://nevergrind-online.fandom.com/wiki/Chat_Commands)
-- [Nevergrind Online Wiki: Classes](https://nevergrind-online.fandom.com/wiki/Classes)
-- [Re-actor: Nevergrind Online - Tips & Tricks](https://re-actor.net/nevergrind-online-tips-tricks/)
