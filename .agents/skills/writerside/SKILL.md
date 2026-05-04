@@ -140,6 +140,15 @@ example command
 4. 驗證結果
 5. 常見問題
 
+## 大型表格與搜尋索引大小
+
+- Writerside 發布到搜尋索引時，單一標題或元素底下的內容可能被收成一筆 search record；大型表格、全量清單、匯入矩陣和 generated reference page 不要全部塞在同一個 H2 / anchor 底下。
+- 遇到超過約 40 列的表格、全站索引、完成矩陣、API / DB / item 全量表，先做短的總覽 section，再依類型、狀態、模組、等級、字母或來源頁拆成多個同層 H2 section。
+- 每個拆出的 section 都要有穩定且唯一的 `{#custom-id}`；總覽 section 只放摘要與連到分段的索引，不要重複放完整資料。
+- 以 `8000` bytes 作為單一 section 的保守上限；接近時就繼續拆，不要等到搜尋服務的 `10000` bytes hard limit 才處理。
+- Generated content 的產生器要直接輸出分段，而不是先產出一張巨表再手修；分段規則要 deterministic，避免重跑時 anchor 或列順序漂移。
+- 公開文章若需要解釋為什麼拆表，寫成「避免搜尋索引單段內容過大」即可；除非正在排除部署錯誤，否則不要把供應商錯誤訊息或 internal record ID 寫進正文。
+
 ## 選擇 Markdown 或 semantic markup
 
 - 預設先用 Markdown 寫標題、段落、清單、連結與一般程式碼區塊；只有在 semantic markup 能更清楚表達「意義」或改善重用性時再注入 XML。
@@ -233,6 +242,38 @@ npx markdownlint-cli2 --no-globs Writerside/topics/<topic-file>.md
 rg -n '^```(cmd|csharp)$' Writerside/topics/<topic-file>.md
 rg -n '[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}' Writerside/topics/<topic-file>.md
 rg -n '/subscriptions/|resourceGroups/|privatelink|\\.corp|\\.local|@' Writerside/topics/<topic-file>.md
+```
+
+大型表格、匯入矩陣或 generated reference page 額外檢查單一 section 大小：
+
+```powershell
+$path = 'Writerside/topics/<topic-file>.md'
+$text = Get-Content -Path $path -Raw -Encoding UTF8
+$lines = $text -split "`n"
+$sections = @()
+$curTitle = $null
+$curLines = @()
+foreach ($line in $lines) {
+  if ($line -match '^## ') {
+    if ($curTitle) {
+      $sections += [pscustomobject]@{Title = $curTitle; Bytes = [Text.Encoding]::UTF8.GetByteCount(($curLines -join "`n"))}
+    }
+    $curTitle = $line.Trim()
+    $curLines = @($line)
+  }
+  elseif ($curTitle) {
+    $curLines += $line
+  }
+}
+if ($curTitle) {
+  $sections += [pscustomobject]@{Title = $curTitle; Bytes = [Text.Encoding]::UTF8.GetByteCount(($curLines -join "`n"))}
+}
+$sections | Sort-Object Bytes -Descending | Select-Object -First 10
+$tooLarge = $sections | Where-Object { $_.Bytes -ge 8000 }
+if ($tooLarge) {
+  $tooLarge
+  throw 'Section is too large for the search indexing guardrail.'
+}
 ```
 
 整體檢查：
