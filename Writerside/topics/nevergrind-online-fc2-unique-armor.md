@@ -30,9 +30,9 @@ Exceptional：布製 / 革製 / Mail / Plate
 
 Elite：布製 / 革製 / Mail / Plate
 
-### Normal
+### Normal {#fc2-uhead-h1}
 
-#### 布製
+#### 布製 {#fc2-uhead-h2}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -45,7 +45,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Templar's Beacon； Miter|19； ～； 31|30|+60～70% 物理防禦強化； +20～25 Health； +20～25 Spirit； +2～3% 全屬性抗性； +1～2 回避； +3 Conjuration； +1～2 Evocation； +3～5 技能時生命回復； Socketed (2)|
 |Dragon Lord's Cowl； Shroud|28； ～； 44|34|+75～85% 物理防禦強化； +1 All Talents； +15～30 Health； +33～45 Mana； +8～11% 火焰抗性； +2 Defense； +3～4 Evocation； +12 暴擊； +3～5% 火焰傷害|
 
-#### 革製
+#### 革製 {#fc2-uhead-h3}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -53,14 +53,14 @@ Elite：布製 / 革製 / Mail / Plate
 |Windstalker's Malice； Helmet|29； ～； 66|20|+45～65% 物理防禦強化； +1～2 革製職 Talent Tree； +2 All Passive Skills； +2% 全屬性抗性； +2 Offense； +3 單手部斬擊； +2 招架； +5 反擊|
 |Pride of Fenwoven； Caubeen|58； ～； 90|23|+65～80% 物理防禦強化； +1 All Talents； +12～20 Intelligence； +27～36 Spirit； +8～10% 雷電抗性； +7～9% 火焰抗性； +7～9% 冰霜抗性； +4～6 Alteration； +4～6 Conjuration； +2～3 Spirit 再生|
 
-#### Mail
+#### Mail {#fc2-uhead-h4}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
 |Coif of Glory； Coif|74； ～； 111|14|+75～85% 物理防禦強化； +1 All Passive Skills； +20 Health； +20～30 Spirit； +6～9% 流血抗性； +13% 雷電抗性； +2 生命再生； +3 技能時生命回復； Socketed (2)|
 |Dusky Visor； Sallet|111； ～； 146|34|+85～95% 物理防禦強化； +18～24 Stamina； +15～20 Intelligence； +3～5 出血法術強度； +4～6 Arcane 法術強度； +2～3 Offense； 物理傷害減免 2～4； 魔法傷害減免 5～7|
 
-#### Plate
+#### Plate {#fc2-uhead-h5}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -69,9 +69,9 @@ Elite：布製 / 革製 / Mail / Plate
 |Wurmskull Barbute； Barbute|153； ～； 193|30|+96～110% 物理防禦強化； +21～25 Strength； +28～35 Health； +33 Spirit； +8～9% Arcane 抗性； +4～6 出血 法術強度； +7～9 毒 法術強度； +7 雙手部斬擊； +7 雙手部鈍器； Socketed (3)|
 |Vor's Adulation； Royal Helm|160； ～； 200|38|+91～100% 物理防禦強化； +1 All Talents； +6～8 全屬性； +3～4% 全屬性抗性； +3～5 Arcane 法術強度； +4～6 火焰法術強度； +4～5 Defense； +2 生命再生； +3～4 命中時 Mana 回復； Socketed (1)|
 
-### Exceptional
+### Exceptional {#fc2-uhead-h6}
 
-#### 布製（2）
+#### 布製（2） {#fc2-uhead-h7}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -83,7 +83,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Frogold's Regalia； Kolpik|146； ～； 196|51|+115～130% 物理防禦強化； +1 All Talents； +35 Health； +20 Spirit； +30% 雷電抗性； +30% 冰霜抗性； +3～5% 吸收 冰霜； +25 施法速度增加； +10～20% 移動速度； +5～8% 雷電傷害； +5～8% 冰霜傷害|
 |Zur's Countenance； Wyrmhood|176； ～； 239|53|+145～160% 物理防禦強化； +1 布製職 Talent Tree； +1～3 布製職 Talent； +20 Stamina； +20 Dexterity； +30～40 Charisma； +35% 雷電抗性； +20% 吸收 雷； +5～10 雷電近戰傷害； +35% Silence 抗性； Socketed (1)|
 
-#### 革製（2）
+#### 革製（2） {#fc2-uhead-h8}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -91,14 +91,14 @@ Elite：布製 / 革製 / Mail / Plate
 |Tortoise Shell Helmet； Shell Coif|187； ～； 284|48|+120～135% 物理防禦強化； +1～2 冰霜 才能； +2～4 革製職 Talent； +32～40 Strength； +32～40 Dexterity； +6% 全屬性抗性； +5% 物理抗性； +7～10% 吸收 冰霜； +15 Defense； +20% Stun 抗性； +4～7% 最大 Health|
 |Cragged Dome； Kabuto|233； ～； 330|50|+135～150% 物理防禦強化； +20 Stamina； +25～40% 雷電抗性； +25～50% 火焰抗性； +10% 物理抗性； +12～15 Defense； +15% Stun 抗性； Socketed (2)|
 
-#### Mail（2）
+#### Mail（2） {#fc2-uhead-h9}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
 |Skull of Grezzlon； Casque|278； ～； 444|45|+150～200% 物理防禦強化； +10 全屬性； +50% 流血抗性； +5～7 Offense； +5～7 Defense； +4～6 命中時生命回復； +4～6 命中時 Mana 回復； +15% Fear 抗性； +20% Paralyze 抗性； +10～20% 稀有掉落率； Socketed (1)|
 |Meenralm's Corrupted Helm； Basinet|211； ～； 312|53|+65～89% 物理防禦強化； +20～40% 火焰抗性； +45% 冰霜抗性； +8～12 招架； +5～7 反擊； +5～7 命中時 Mana 回復； +8～12% 降低敵人方 毒抗性； +8～12% Mail職 skill強化 (1)； +8～12% Mail職 skill強化 (2) (50%)； Socketed (1～3)|
 
-#### Plate（2）
+#### Plate（2） {#fc2-uhead-h10}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -107,9 +107,9 @@ Elite：布製 / 革製 / Mail / Plate
 |Swindler's Summit； Viking Helm|278； ～； 397|36 (51)|+85～110% 物理防禦強化； +25 Dexterity； +50 Health； +35% 火焰抗性； +5～7% 吸收 出血； +9～12 命中時生命回復； +40% Silence 抗性； +25～40% 金幣獲得率； +20 技能時生命回復； 要求 -30%|
 |Viston's Gaze； Viscount Helm|310； ～； 396|55|+100% 物理防禦強化； +1 All Talents； +15～20% 物理抗性； +6～8 命中時生命回復； +6～8 命中時 Mana 回復； +11～22 冰霜近戰傷害； 魔法傷害減免 10～15； Socketed (2～3)|
 
-### Elite
+### Elite {#fc2-uhead-h11}
 
-#### 布製（3）
+#### 布製（3） {#fc2-uhead-h12}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -121,7 +121,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Charlatan's Crest； Shako|188； ～； 264|72|+50～75% 物理防禦強化； +1～2 All Talents； +4～6 All Passive Skills； +2～4 全屬性； +75～100 Health； +75～100 Mana； +6～10% 物理抗性； +12～16% 隨機屬性 傷害； +20～25% Silence 抗性； +30～50% 稀有掉落率； +8～12% 布製職 skill強化； Socketed (1)|
 |Infernal Sungazer； Velveteen Shroud|245； ～； 348|73|+90～120% 物理防禦強化； +2～3 炎 才能； +3～4 All Passive Skills； +8～12% 吸收 炎； +15～25 施法速度增加； +5～8 Spirit 再生； +20～25 火焰近戰傷害； +11～15% 火焰傷害； +12～17 Spirit 擊殺時回復； +8～13% 布製職 skill強化； Socketed (2～3)|
 
-#### 革製（3）
+#### 革製（3） {#fc2-uhead-h13}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -129,14 +129,14 @@ Elite：布製 / 革製 / Mail / Plate
 |Hebron's Coif； Lanfeld Cowl|257； ～； 365|67|+81～95% 物理防禦強化； +1～2 革製職 Talent Tree； +1～2 革製職 Talent (50%)； +4～6 All Passive Skills； +41～50 Agility； +15～20% 全屬性抗性； +8～12% 物理抗性； +8～12 Defense； 物理傷害減免 7～11； +21～30% Stun 抗性； +16～20% Paralyze 抗性； +8～10% 革製職 skill強化 (1)； +5～7% 革製職 skill強化 (2) (50%)|
 |Alderman's Cowl； Salubrin Cowl|337； ～； 455|68|+116～130% 物理防禦強化； +1 All Talents； +25～30 Dexterity； +51～60 Health； +31～35 Mana； +31～35 Spirit； +31～35% 火焰抗性； +24～30 暴擊； +9～12 命中時生命回復； +3～5% 全法術傷害； +11～20% 金幣獲得率； +9～12% 革製職 skill強化； Socketed (1)|
 
-#### Mail（3）
+#### Mail（3） {#fc2-uhead-h14}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
 |Michal's Shade； Hydraskull|368； ～； 504|52 (60)|+108～124% 物理防禦強化； +1～2 Mail職 Talent Tree； +31～45 Charisma； +16～24% 毒抗性； +12～16% Arcane 抗性； +5～11% 吸收 炎； +11～18 生命再生； +7～11 Mana 再生； +7～11 Spirit 再生； 物理傷害減免 7～11； 魔法傷害減免 11～15； +10～20% 隨機屬性 傷害； 要求 -20%|
 |Methgammah's Veil； Armet|429； ～； 569|73|+121～135% 物理防禦強化； +48～60 Intelligence； +25～30 Charisma； +12～16% 流血抗性； +12～16% Arcane 抗性； +16～20% 雷電傷害； +11～15% 冰霜傷害； +6～10% 降低敵人方 冰霜抗性； +16～20% Fear 抗性； +7～10% Mail職 skill強化； Socketed (1)|
 
-#### Plate（3）
+#### Plate（3） {#fc2-uhead-h15}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -156,9 +156,9 @@ Exceptional：布製 / 革製 / Mail / Plate
 
 Elite：布製 / 革製 / Mail / Plate
 
-### Normal
+### Normal {#fc2-uchest-h1}
 
-#### 布製
+#### 布製 {#fc2-uchest-h2}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -167,7 +167,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Seducer's Whisper； Linen Robe|42； ～； 62|23|+51～60% 物理防禦強化； +10 Agility； +25 Wisdom； +35～40 Charisma； +30～35 Health； +40～50 Mana； +5% 毒抗性； +9% Arcane 抗性； +2 回避； +2～3 Conjuration|
 |Metallic-Plated Robe； Drape|62； ～； 92|28|+71～84% 物理防禦強化； +11 Agility； +11 Wisdom； +2% 火焰抗性； +3% 冰霜抗性； +3 Evocation； +3% 冰霜傷害； +3～5% 最大 Mana； +5 擊殺時 Mana 回復； +4～6% 對 humanoid 傷害強化|
 
-#### 革製
+#### 革製 {#fc2-uchest-h3}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -176,7 +176,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Twitchthrash； Leather Armor|87； ～； 130|28|+55～66% 物理防禦強化； +13～16 Strength； +13～16 Dexterity； +15 Health； +20 Mana； +30 Spirit； +5% 毒抗性； +5% 火焰抗性； +2 雙手部鈍器|
 |Brown Chitin Shell； Studded Armor|143； ～； 185|32|+77～85% 物理防禦強化； +21～25 Stamina； +21～25 Agility； +21～25 Dexterity； +4～6% 全屬性抗性； +5 Defense； +2～3 Alteration； +2～3 Evocation； 物理傷害減免 3|
 
-#### Mail
+#### Mail {#fc2-uchest-h4}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -185,7 +185,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Frost Flicker； Scale Mail|157； ～； 201|32|+65～72% 物理防禦強化； +14～20 Strength； +18～24 Intelligence； +4～5% Arcane 抗性； +4～5% 雷電抗性； +6～8% 冰霜抗性； +3～5 雙手部鈍器； +2～3 Conjuration； 魔法傷害減免 3|
 |Fencer's Vestments； Kusari Mail|231； ～； 285|32|+82～90% 物理防禦強化； +16～21 Strength； +12 Stamina； +16～21 Dexterity； +4% 全屬性抗性； +2～3 Offense； +2～3 單手部斬擊； +2～3 刺突； Socketed (1)|
 
-#### Plate
+#### Plate {#fc2-uchest-h5}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -194,9 +194,9 @@ Elite：布製 / 革製 / Mail / Plate
 |Dahlia's Chestplate； Gothic Plate|214； ～； 288|34|+75～88% 物理防禦強化； +1～2 All Passive Skills； +3～5% 全屬性抗性； +5～10 出血 法術強度； +5～10 Arcane 法術強度； +5 生命再生； +4 命中時生命回復； +7 技能時生命回復|
 |Silks of the Guardian； Archon Plate|328； ～； 420|38|+95～110% 物理防禦強化； +1 All Talents； +1 All Passive Skills； +30 Dexterity； +6～9% Arcane 抗性； +9～11% 雷電抗性； +9～13% 火焰抗性； +3～5 命中時 Mana 回復； +4～7 擊殺時 Mana 回復； +5～9% 對 beast 傷害強化； Indestructible； Socketed (1)|
 
-### Exceptional
+### Exceptional {#fc2-uchest-h6}
 
-#### 布製（2）
+#### 布製（2） {#fc2-uchest-h7}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -205,7 +205,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Robe of the Viper King； Noble Robe|334； ～； 431|50|+110～120% 物理防禦強化； +1 All Talents； +4～6 All Passive Skills； +20～35% 全屬性抗性； +3～5 全法術強度； 魔法傷害減免 9～13； +2～4% 布製職 skill強化 (1)； +2～4% 布製職 skill強化 (2) (50%)|
 |Squallsurge Robe； Mariner Drape|321； ～； 435|37 (52)|+92～108% 物理防禦強化； +11～15 全屬性； +6～10% 全屬性抗性； +5～10 全法術強度； +10% Stun 抗性； +35% Silence 抗性； +11～15% 最大 Mana； 要求 -30%； +2～4% 布製職 skill強化|
 
-#### 革製（2）
+#### 革製（2） {#fc2-uchest-h8}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -214,7 +214,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Ashenflow Kobold Tunic； Demonhide Armor|308； ～； 522|52|+50～100% 物理防禦強化； +1 炎 才能； +40～50 Strength； +30～40 Stamina； +25 Agility； +25% 火焰抗性； +8～12% 吸收 炎； +25 生命再生； +10% Fear 抗性； +15% Paralyze 抗性； +5～8% 金幣獲得率； +15 技能時生命回復； Socketed (1)|
 |Embossed Golemskin Crag； Trellised Armor|456； ～； 615|50|+100～115% 物理防禦強化； +3～5 Molten Boulder Talent； +10～15 Intelligence； +60 Health； +5～7 Conjuration； +5～7 Evocation； +4～6 Spirit 受擊時； 物理傷害減免 15～20； 魔法傷害減免 10～14； +20% Paralyze 抗性； +10～15% Molten Boulder 強化|
 
-#### Mail（2）
+#### Mail（2） {#fc2-uchest-h9}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -223,7 +223,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Maw of the Cerberus； Linked Mail|509； ～； 701|50|+95～115% 物理防禦強化； +1～2 炎 才能； +35 Strength； +40% 火焰抗性； +10 反擊； +35～55 火焰近戰傷害； +5～7% 火焰傷害； +5～8% 稀有掉落率； +5～7% 最大 Health； +4～6% Mail職 skill強化 (1)； +4～6% Mail職 skill強化 (2) (50%)|
 |Ravenscale Chains； Tigulated Mail|538； ～； 726|52|+85～100% 物理防禦強化； +1～2 出血 才能； +25～30 Dexterity； +7% 流血抗性； +7% 毒抗性； +7% Arcane 抗性； +7～10 刺突； +20% 移動速度； +3～5% 降低敵人方 流血抗性； +3～5% 降低敵人方 毒抗性； +30% Paralyze 抗性； +5～7% 金幣獲得率； +6～8% Mail職 skill強化； Socketed (2)|
 
-#### Plate（2）
+#### Plate（2） {#fc2-uchest-h10}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -232,9 +232,9 @@ Elite：布製 / 革製 / Mail / Plate
 |Rotting Sepulcher； Omate Plate|625； ～； 873|43 (53)|+105～125% 物理防禦強化； +40～50 Health； +40～50 Spirit； +20～25% 流血抗性； +25～30% 毒抗性； +4～6 Spirit 受擊時； +16% Silence 抗性； +5% 稀有掉落率； +50 技能時生命回復； +20～30 擊殺時 Mana 回復； +20～30 Spirit 擊殺時回復； 要求 -20%； +5～7% 對 undead 傷害強化； Socketed (3)|
 |Angelic Firmament； Chaos Armor|663； ～； 902|55|+90～105% 物理防禦強化； +1 All Talents； +3～7 All Passive Skills； +77 Health； +7% 全屬性抗性； +3～7% 吸收 出血； +3～7% 吸收 毒； +3～7% 吸收 Arcane； +3～7% 吸收 雷； +3～7% 吸收 炎； +3～7% 吸收 冰霜； +5～7% 對 demon 傷害強化； +7% Plate職 skill強化； Indestructible； Socketed (1)|
 
-### Elite
+### Elite {#fc2-uchest-h11}
 
-#### 布製（3）
+#### 布製（3） {#fc2-uchest-h12}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -243,7 +243,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Marionette's Vestment； Cryptic Vestment|619； ～； 794|68|+96～110% 物理防禦強化； +1～3 布製職 Talent (1)； +1～3 布製職 Talent (2)； +1～3 布製職 Talent (3)； +25～30 Intelligence； +25～30 Wisdom； +41～50 Charisma； +25～30% 流血抗性； +25～30% 毒抗性； +25～30% Arcane 耐性； +11～15 Alteration； +5～9% 流血傷害； +3～7% Arcane 傷害； +3～7% 火焰傷害； +3～5% 布製職 skill強化 (1)； +4～6% 布製職 skill強化 (2)； +5～7% 布製職 skill強化 (3)|
 |Erghal's Panoply Shroud； Abstruse Shroud|678； ～； 878|70|+110～125% 物理防禦強化； +1 All Talents； +5～10 All Passive Skills； +15～25 全屬性； +25～30% 全屬性抗性； +5～7% 隨機屬性 傷害 (1)； +9～11% 隨機屬性 傷害 (2)； +13～17% 隨機屬性 傷害 (3)； +22～27% 全狀態抗性； Socketed (2)|
 
-#### 革製（3）
+#### 革製（3） {#fc2-uchest-h13}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -252,7 +252,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Deathsieze； Wire Fleece|816； ～； 1135|70|+120～150% 物理防禦強化； +120～150 Health； +80～100 Mana； +80～100 Spirit； +14～20% 物理抗性； +6～8% 吸收 出血； +6～8% 吸收 毒； +15～20 生命再生； 魔法傷害減免 12～16； +21～30% Fear 抗性； +21～30% Paralyze 抗性； +16～20% 革製職 skill強化； Socketed (1)|
 |Courtier's Trunk； Goliath Husk|691； ～； 908|71|+75～90% 物理防禦強化； +1～3 革製職 Talent Tree； +31～40 Stamina； +36～45 Intelligence； +60～80 Health； +15～24% 雷電抗性； +15～24% 火焰抗性； +15～24% 冰霜抗性； +5～8 Alteration； +8～13 生命再生； +11～15 Mana 再生； +11～15 Spirit 再生； +4～6% 對 beast 傷害強化； +4～6% 對 mystic 傷害強化； +9～15% 革製職 skill強化 (1)； +9～15% 革製職 skill強化 (2)|
 
-#### Mail（3）
+#### Mail（3） {#fc2-uchest-h14}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -261,7 +261,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Harbinger's Toll； Boneweave|891； ～； 1150|71|+102～115% 物理防禦強化； +1～2 毒 才能； +1～2 冰霜 才能； +13～21% 全屬性抗性； +11～15% 隨機屬性抗性 (1)； +11～15% 隨機屬性抗性 (2)； +12～20 全法術強度； +9～12 Defense； +6～10 單手部斬擊； +6～10 雙手部斬擊； +21～30 暴擊； +11～15 流血近戰傷害； +7～9% 毒傷害； +10～12% 冰霜傷害； +16～20% Fear 抗性； +16～20% Silence 抗性； +13～18% Mail職 skill強化； Socketed (1)|
 |Hellmourn Flesh； Balrog Skin|996； ～； 1287|73|+111～125% 物理防禦強化； +1 All Talents； +26～30 Strength； +26～30 Stamina； +31～35 Charisma； +31～40% 流血抗性； +41～50% 火焰抗性； +5～8% 吸收 Arcane； +7～13 Spirit 受擊時； +21～25% Stun 抗性； +21～25% Fear 抗性； +6～16% 金幣獲得率； +6 技能時生命回復； +6 擊殺時 Mana 回復； +6 Spirit 擊殺時回復； +8～10% 對 demon 傷害強化； +6～8% 對 dragonskin 傷害強化； +7～10% Mail職 skill強化 (1)； +16～21% Mail職 skill強化 (2)； Socketed (2)|
 
-#### Plate（3）
+#### Plate（3） {#fc2-uchest-h15}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -281,9 +281,9 @@ Exceptional：布製 / 革製 / Mail / Plate
 
 Elite：布製 / 革製 / Mail / Plate
 
-### Normal
+### Normal {#fc2-ushoulder-h1}
 
-#### 布製
+#### 布製 {#fc2-ushoulder-h2}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -292,7 +292,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Ringwraith's Amice； Shawl|6； ～； 19|26|+52～58% 物理防禦強化； +11～14 Dexterity； +4% 全屬性抗性； +2～3 Alteration； +2～4 Conjuration； 魔法傷害減免 3； +5 擊殺時 Mana 回復|
 |Riptude Shawl； Archon Shawl|15； ～； 29|32|+85～92% 物理防禦強化； +6～10 Stamina； +30～35 Mana； +5～8% 冰霜抗性； +7～11 冰霜 法術強度； +2～4 Evocation； +4～7 暴擊|
 
-#### 革製
+#### 革製 {#fc2-ushoulder-h3}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -301,7 +301,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Tanaden's Spiked Shoulderpads； Spiked Shoulders|20； ～； 41|26|+65～70% 物理防禦強化； +15 Agility； +15 Health； +2% 全屬性抗性； +4～7 毒 法術強度； +4～7 Arcane 法術強度； +15 攻擊能力； +2 Offense； +3 命中時生命回復|
 |Prayer Shawl； Brigand Shoulders|34； ～； 58|32|+88～94% 物理防禦強化； +5 Dexterity； +16～20 Intelligence； +31～35 Health； +6～9 Arcane 法術強度； +2～4 Alteration； +7 Spirit 擊殺時回復； +5～8% 對 demon 傷害強化|
 
-#### Mail
+#### Mail {#fc2-ushoulder-h4}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -310,7 +310,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Matsuwari's Solace； Kusari Mantle|51； ～； 84|32|+71～75% 物理防禦強化； +10 Agility； +11～15 Dexterity； +20 Health； +3 暴擊； +2～3 Spirit 再生； 物理傷害減免 3|
 |Frostwalker's Covenant； Laminar Mantle|63； ～； 100|36|+91～100% 物理防禦強化； +13～16 Intelligence； +24～30 Health； +4% 毒抗性； +6% 冰霜抗性； +3～5 冰霜 法術強度； +3～5 雙手部鈍器； +1～2 Conjuration； +2～4% 最大 Mana|
 
-#### Plate
+#### Plate {#fc2-ushoulder-h5}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -319,9 +319,9 @@ Elite：布製 / 革製 / Mail / Plate
 |Cragged Bulwark； Sode|62； ～； 101|32|+82～90% 物理防禦強化； +15～20 Strength； +11～15 Stamina； +12% 雷電抗性； +2～3 Defense； +3 Conjuration； 物理傷害減免 2～3|
 |Carnal Pauldrons； Monarch Pauldrons|86； ～； 123|38|+96～105% 物理防禦強化； +17～20 Dexterity； +15～21 Mana； +9～12 Spirit； +3% 全屬性抗性； +5～8 出血 法術強度； +9～12 Arcane 法術強度； +2～3 Mana 再生； 魔法傷害減免 5|
 
-### Exceptional
+### Exceptional {#fc2-ushoulder-h6}
 
-#### 布製（2）
+#### 布製（2） {#fc2-ushoulder-h7}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -330,7 +330,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Steward of the Sky； Brocade Shawl|26； ～； 46|51|+45～60% 物理防禦強化； +1～2 All Passive Skills； +7～10 全屬性； +5～7% 全屬性抗性； +10～20 隨機屬性 法術強度； +4～6% 對 mystic 傷害強化； +4～6% 布製職 skill強化|
 |Attuned Shawl of the Forsaken； Damask Shawl|35； ～； 59|50|+65～80% 物理防禦強化； +1～2 All Passive Skills； +15～20 Health； +20～25 Spirit； +9～13% 冰霜抗性； +7～12 Arcane 法術強度； +7～12 火焰法術強度； +15% Fear 抗性； +4～7% 對 undead 傷害強化； +2～5% 布製職 skill強化|
 
-#### 革製（2）
+#### 革製（2） {#fc2-ushoulder-h8}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -339,7 +339,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Call of Sorrow； Nomadic Shoulders|79； ～； 125|50|+75～90% 物理防禦強化； +15～20 Agility； +15～20 Dexterity； +16～20 Health； +16～20 Mana； +16～20 Spirit； +9～15% Arcane 抗性； +8～12% Stun 抗性； +8～12% Fear 抗性； +7～10 技能時生命回復； +2～4% 革製職 skill強化|
 |Smoldering Ancient Mantle； Chamois Shoulders|68； ～； 112|51|+75～90% 物理防禦強化； +8～12% Arcane 抗性； +4～6% 吸收 炎； +8～12 施法速度增加； +15～20 火焰法術強度； +3～5 Alteration； +15～20% Silence 抗性； +4～6% 對 dragonskin 傷害強化|
 
-#### Mail（2）
+#### Mail（2） {#fc2-ushoulder-h9}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -348,7 +348,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Primal Mithril Shoulderguards； Riveted Mantle|137； ～； 209|52|+80～95% 物理防禦強化； +27～35 Health； +9～12% 流血抗性； +12～15% 毒抗性； +9～12% 火焰抗性； +10～20 Arcane 法術強度； 物理傷害減免 3～5； +12～20% Stun 抗性|
 |Twisted Hatred Mantle； Riven Mantle|148； ～； 266|54|+90～120% 物理防禦強化； +18～24 Wisdom； +15～20% 流血抗性； +7～10% 雷電抗性； +7～10 出血 法術強度； +7～10 毒 法術強度； +7～10 Arcane 法術強度； +3～6 雙手部斬擊； +15% Silence 抗性； +3～5% Mail職 skill強化|
 
-#### Plate（2）
+#### Plate（2） {#fc2-ushoulder-h10}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -357,9 +357,9 @@ Elite：布製 / 革製 / Mail / Plate
 |Phantom's Cursed Spaulders； Cordana Spaulders|178； ～； 273|52|+100～120% 物理防禦強化； +2～4 All Passive Skills； -25 Health； -25 Mana； -25 Spirit； +16～24% 毒抗性； +12～16% 冰霜抗性； +4～8 Mana 再生； +4～7 受擊時 Mana； +3～5% 毒傷害； +3～5% Arcane 傷害； +3～6% Plate職 skill強化|
 |Incarnated Warlord Pauldrons； Arclite Pauldrons|191； ～； 277|55|+95～110% 物理防禦強化； +16～20 Strength； +18～24 Stamina； +25～32 Charisma； +7～10% 全屬性抗性； +4～8 雙手部鈍器； +4～8 招架； +12～16 暴擊； +2～4% Plate職 skill強化|
 
-### Elite
+### Elite {#fc2-ushoulder-h11}
 
-#### 布製（3）
+#### 布製（3） {#fc2-ushoulder-h12}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -368,7 +368,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Gyukula's Ire； Kordata Shawl|58； ～； 87|69|+81～90% 物理防禦強化； +18～24 Strength； +18～24 Dexterity； +24～30 Intelligence； +16～20% 毒抗性； +16～20 毒 法術強度； +10～15 冰霜 法術強度； +20～30 攻擊能力； +3～4 Evocation； +12～16% Fear 抗性； +12～16% Silence 抗性； +6～9% 布製職 skill強化|
 |Inveigler's Rancid Shawl； Cameline Shawl|71； ～； 103|71|+96～110% 物理防禦強化； +26～30 Strength； +21～25 Stamina； +21～25% 流血抗性； +16～20% 毒抗性； +21～30 毒 法術強度； +5～6 Defense； +3～4 招架； +3～4 Conjuration； +6～7% 布製職 skill強化|
 
-#### 革製（3）
+#### 革製（3） {#fc2-ushoulder-h13}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -377,7 +377,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Oasis Shroulderguards of Kardis； Greenthorn Shoulders|126； ～； 184|69|+85～100% 物理防禦強化； +3～4 All Passive Skills； +11～15 全屬性； +11～15% 全屬性抗性； +8～15% 金幣獲得率； +8～12% 稀有掉落率； +4～5% 革製職 skill強化 (1)； +4～5% 革製職 skill強化 (2)|
 |Teralyn's Last Stand； Erudite Mantle|134； ～； 198|71|+81～100% 物理防禦強化； +28～35 Intelligence； +16～20 Wisdom； +16～20 Charisma； +31～40 Mana； +31～40 Spirit； +8～12% 全屬性抗性； +16～20 Arcane 法術強度； +16～20% Fear 抗性； +8～12% 革製職 skill強化|
 
-#### Mail（3）
+#### Mail（3） {#fc2-ushoulder-h14}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -386,7 +386,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Mantle of Tarsius； Grave Mantle|221； ～； 316|73|+80～95% 物理防禦強化； +25～30 Agility； +31～40 Dexterity； +21～25 Intelligence； +31～40 Spirit； +20～25% Arcane 抗性； +11～15% 雷電抗性； +3～4 回避； +5～6 反擊； +8～10% Mail職 skill強化|
 |Hyoth's Barbaric Mantle； Fetid Mantle|241； ～； 361|74|+91～105% 物理防禦強化； +2～3 All Passive Skills； +16～20 Stamina； +28～35 Intelligence； +26～30 Charisma； +12～16% 流血抗性； +18～24% 冰霜抗性； +4～5% 吸收 冰霜； +12～16% Paralyze 抗性； +12～16% Silence 抗性； +4～6% Mail職 skill強化 (1)； +4～6% Mail職 skill強化 (2)|
 
-#### Plate（3）
+#### Plate（3） {#fc2-ushoulder-h15}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -406,9 +406,9 @@ Exceptional：布製 / 革製 / Mail / Plate
 
 Elite：布製 / 革製 / Mail / Plate
 
-### Normal
+### Normal {#fc2-ubracer-h1}
 
-#### 布製
+#### 布製 {#fc2-ubracer-h2}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -417,7 +417,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Bracelet of Woven Silk； Bindings|6； ～； 9|20|+40～45% 物理防禦強化； +5 Intelligence； +10 Wisdom； +12～16 Charisma； +15 Health； +3～4% Arcane 抗性； +3～4% 雷電抗性|
 |Stout Heart Bracer； Wristguards|9； ～； 13|28|+55～64% 物理防禦強化； +10 Stamina； +13～16 Dexterity； +3～4% 毒抗性； +3～4% 火焰抗性； +2～3 回避|
 
-#### 革製
+#### 革製 {#fc2-ubracer-h3}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -426,7 +426,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Granite Bracer； Bonded Bracers|13； ～； 18|23|+44～52% 物理防禦強化； +7 Strength； +12 Stamina； +10 Health； +3～4% Arcane 抗性； +2～3% 冰霜抗性； 物理傷害減免 3～5|
 |Serpentine Bracer； Studded Bracers|20； ～； 26|30|+55～63% 物理防禦強化； +13～16 Agility； +7～10 Dexterity； +3～4% 毒抗性； +1～2 回避； +2～3 Mana 再生； +2 命中時 Mana 回復|
 
-#### Mail
+#### Mail {#fc2-ubracer-h4}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -435,7 +435,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Bracer of Vanity； Splinted Bracers|21； ～； 30|30|+52～64% 物理防禦強化； +12～16 Intelligence； +20～25 Charisma； +10 Health； +12～16 Spirit； +5% 流血抗性； +2 Spirit 再生|
 |Dragon Bane Bracer； Kusari Bracers|32； ～； 40|30|+66～75% 物理防禦強化； +13～17 Strength； +9 Agility； +2% Arcane 抗性； +2% 火焰抗性； +2% 冰霜抗性； +2 刺突； +1～2 Evocation； +2～3 命中時生命回復|
 
-#### Plate
+#### Plate {#fc2-ubracer-h5}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -444,9 +444,9 @@ Elite：布製 / 革製 / Mail / Plate
 |Dragon Claw Bracer； Tetrarch Bracers|38； ～； 49|30|+64～80% 物理防禦強化； +8～12 Health； +10～15 Mana； +12～16 Spirit； +1～2% 全屬性抗性； +3 暴擊； +2～3 命中時生命回復|
 |Scaled Brass Bracer； Gilded Bracers|51； ～； 61|36|+88～103% 物理防禦強化； +10～15 Dexterity； +23～28 Charisma； +2～3% 全屬性抗性； +2～3 單手部斬擊； +4～6 暴擊|
 
-### Exceptional
+### Exceptional {#fc2-ubracer-h6}
 
-#### 布製（2）
+#### 布製（2） {#fc2-ubracer-h7}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -455,7 +455,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Pyrrhic Conquest Wraps； Sendal Bindings|34； ～； 49|48|+80～105% 物理防禦強化； +2～3 All Passive Skills； +3～7 全狀態抗性； +10% 流血抗性； +3～5 受擊時 Mana； +15% Fear 抗性； +10% Silence 抗性； +8～15% 稀有掉落率|
 |Ramaduh's Channeling Bracers； Damask Wristguards|34； ～； 48|52|+70～85% 物理防禦強化； +25～40 Health； +11～15% Arcane 抗性； +8～12% 雷電抗性； +11～20 雷電法術強度； +8～12 火焰法術強度； +10% Stun 抗性； +10% Silence 抗性； +3～5% 布製職 skill強化|
 
-#### 革製（2）
+#### 革製（2） {#fc2-ubracer-h8}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -464,7 +464,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Falconry Wrist Guard； Treant Bracers|57； ～； 79|50|+110～125% 物理防禦強化； +15～24 Stamina； +15～24 Dexterity； +21～30 Intelligence； +11～15% 流血抗性； +6～10% 毒抗性； +6～10% Arcane 抗性； +3～5 回避； +2～5% 對 beast 傷害強化|
 |Hallowed Strife Wraps； Centaur Bracers|53； ～； 76|53|+70～95% 物理防禦強化； +16～24 Charisma； +25～50 Spirit； +11～15 Arcane 法術強度； +10% Stun 抗性； +10% Fear 抗性； +3～6 技能時生命回復； +5～8 Spirit 擊殺時回復； +3～5% 革製職 skill強化|
 
-#### Mail（2）
+#### Mail（2） {#fc2-ubracer-h9}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -473,7 +473,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Onyx Centaur Bracers； Rampart Bracers|67； ～； 94|53|+80～100% 物理防禦強化； +24～32 Agility； +15 Intelligence； +20 Health； +15% 雷電抗性； +3～5 Offense； +5～8 弓術； +10～15% Stun 抗性|
 |Maleficent Militia Bracers； Abyss Bracers|74； ～； 107|51|+80～105% 物理防禦強化； +16～20 Strength； +11～15 Stamina； +16～20 Dexterity； +7～10 刺突； +4～7 流血近戰傷害； +10～13% 全狀態抗性|
 
-#### Plate（2）
+#### Plate（2） {#fc2-ubracer-h10}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -482,9 +482,9 @@ Elite：布製 / 革製 / Mail / Plate
 |Marionette Bracers； Bastion Bracers|89； ～； 131|53|+77～111% 物理防禦強化； +20 Agility； +28～35 Charisma； +21～30 Spirit； +10% 毒抗性； +10% Arcane 抗性； +10% 火焰抗性； +2～3 Alteration； +4～6 Conjuration； +2～3 Evocation|
 |Chaos Whorl Bracers； Ziggurat Bracers|100； ～； 135|54|+85～105% 物理防禦強化； +6～10% 全屬性抗性； +4～6 Defense； +7～10 暴擊； +6～8% 全狀態抗性； +3～5% 對 demon 傷害強化； +4～6% Plate職 skill強化|
 
-### Elite
+### Elite {#fc2-ubracer-h11}
 
-#### 布製（3）
+#### 布製（3） {#fc2-ubracer-h12}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -493,7 +493,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Armbands of the Crypt； Fenwoven Bindings|67； ～； 88|67|+64～75% 物理防禦強化； +16～20% 流血抗性； -10% 火焰抗性； +16～20% 冰霜抗性； +4～6 Defense； +3～6 Mana 再生； +5～10% 稀有掉落率； +4～6% 對 undead 傷害強化； +6～8% 布製職 skill強化|
 |Summoner's Primal Bindings； Serge Wristguards|84； ～； 109|70|+96～110% 物理防禦強化； +11～15 全屬性； +12～16 Intelligence； +12～16 Wisdom； +21～30 隨機屬性 法術強度； +11～15% Stun 抗性； +11～15% Fear 抗性； +8～15 擊殺時 Mana 回復； +8～15 Spirit 擊殺時回復|
 
-#### 革製（3）
+#### 革製（3） {#fc2-ubracer-h13}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -502,7 +502,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Grimpaw's Defender Cuffs； Gargoyle Bracers|101； ～； 132|68|+87～100% 物理防禦強化； +2～3 All Passive Skills； +24～30 Stamina； +18～24 Agility； +16～24 攻擊能力； +8～15% 稀有掉落率； +4～6% 對 beast 傷害強化； +4～6% 革製職 skill強化|
 |Grippywor's Bloodshed Armguards； Ermine Bracers|100； ～； 133|71|+75～90% 物理防禦強化； +45～60 Health； +20～25% 流血抗性； +11～15% 火焰抗性； +3～5 單手部斬擊； +3～5 雙手部斬擊； +6～10 流血近戰傷害； +3～5% 對 humanoid 傷害強化； +5～8% 革製職 skill強化|
 
-#### Mail（3）
+#### Mail（3） {#fc2-ubracer-h14}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -511,7 +511,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Timeworn Fleeting Wristguards； Redoubt Bracers|110； ～； 148|71|+72～87% 物理防禦強化； +18～24 Stamina； +18～24 Dexterity； +8～12% Arcane 抗性； +12～16% 雷電抗性； +8～12 暴擊； +4～6 受擊時 Mana； +11～15% Paralyze 抗性； +5～8% Mail職 skill強化|
 |Terrorstorm Bracers； Paladian Bracers|126； ～； 164|72|+82～95% 物理防禦強化； +11～15 全屬性； +5～8% 全屬性抗性； +16～24 攻擊能力； +4～7 流血近戰傷害； +9～13% Paralyze 抗性； +9～13% Silence 抗性； +4～6% Mail職 skill強化 (1)； +4～6% Mail職 skill強化 (2)|
 
-#### Plate（3）
+#### Plate（3） {#fc2-ubracer-h15}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -531,9 +531,9 @@ Exceptional：布製 / 革製 / Mail / Plate
 
 Elite：布製 / 革製 / Mail / Plate
 
-### Normal
+### Normal {#fc2-uglove-h1}
 
-#### 布製
+#### 布製 {#fc2-uglove-h2}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -542,7 +542,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Gauntlets of Omnipotence； Woven Gloves|12； ～； 16|20|+37～44% 物理防禦強化； +12 Wisdom； +2～3% Arcane 抗性； +3～4% 冰霜抗性； +2～4 Evocation； +2～4% 冰霜傷害； +3 擊殺時 Mana 回復|
 |Luminescent Touch； Mesh Gloves|19； ～； 25|30|+55～63% 物理防禦強化； +5 全屬性； +12 Health； +9 Spirit； +2～3% 全屬性抗性； +3～5 Arcane 法術強度； +5 暴擊|
 
-#### 革製
+#### 革製 {#fc2-uglove-h3}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -551,7 +551,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Griffon Talon Gloves； Twill Gloves|30； ～； 38|22|+42～58% 物理防禦強化； +15 Mana； +3～4% 雷電抗性； +2～3 Offense； +3 招架； +3～4 命中時生命回復； +3 技能時生命回復|
 |Impskin Gloves； Studded Gloves|45； ～； 56|32|+72～88% 物理防禦強化； +12 Intelligence； +12 Wisdom； +16～20 Mana； +2～4% 毒抗性； +2～4% 火焰抗性； +2 命中時生命回復|
 
-#### Mail
+#### Mail {#fc2-uglove-h4}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -560,7 +560,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Moss Etched Gauntlets； Kusari Gauntlets|57； ～； 67|28|+53～67% 物理防禦強化； +24 Health； +16 Mana； +10～15 Spirit； +2～3% 全屬性抗性； +8～15 攻擊能力|
 |Bloodshard Gloves； Brigandine Gauntlets|75； ～； 90|31|+82～99% 物理防禦強化； +20% 流血抗性； +7～12 出血 法術強度； +3～5 毒 法術強度； +3～5 命中時 Mana 回復； +5～7 流血近戰傷害|
 
-#### Plate
+#### Plate {#fc2-uglove-h5}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -569,9 +569,9 @@ Elite：布製 / 革製 / Mail / Plate
 |Charred Gauntlets； Tetrarch Gauntlets|78； ～； 95|31|+63～79% 物理防禦強化； +7 Stamina； +8 Intelligence； +15 Mana； +7～10 Spirit； +4～8 火焰法術強度； +1～2 Defense； +3～4 命中時生命回復； +3 擊殺時 Mana 回復|
 |Gauntlets of Brute Strength； Gilded Gauntlets|103； ～； 118|36|+83～96% 物理防禦強化； +20～25 Strength； +12～15 Stamina； +4～5% 流血抗性； +2～4 雙手部斬擊； +2～4 雙手部鈍器； +15～20 暴擊； +6～9% Fear 抗性|
 
-### Exceptional
+### Exceptional {#fc2-uglove-h6}
 
-#### 布製（2）
+#### 布製（2） {#fc2-uglove-h7}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -580,7 +580,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Harlquin's Gloves； Lotus Gloves|83； ～； 112|48|+80～100% 物理防禦強化； +7～10 全屬性； +5% 全屬性抗性； +25 施法速度增加； +3～5% 全法術傷害； +20% Silence 抗性； +10～20% 稀有掉落率|
 |Pygmy Acolyte Gloves； Cambric Gloves|86； ～； 117|53|+75～95% 物理防禦強化； +12～16 Dexterity； +10% 流血抗性； +15% 毒抗性； +10～20 施法速度增加； +10～15 Arcane 法術強度； +3～5 Alteration； +2～4% 毒傷害； +2～4% 火焰傷害|
 
-#### 革製（2）
+#### 革製（2） {#fc2-uglove-h8}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -589,7 +589,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Xavol's Gloves of Mastery； Sharkskin Gloves|140； ～； 182|49|+115～130% 物理防禦強化； +15～20 Intelligence； +10～15 Charisma； +10～15 施法速度增加； +8～12 出血 法術強度； +16～20 暴擊； +4～6 命中時 Mana 回復； +3～5 受擊時 Mana； +6～10% 稀有掉落率|
 |Faerie Maiden Gloves； Midland Gloves|119； ～； 162|50|+70～90% 物理防禦強化； +1～2 德魯伊（Druid） Talent Tree； +35% 雷電抗性； +15% 火焰抗性； +8～12 Arcane 法術強度； +8～12 冰霜 法術強度； +3～5% 火焰傷害； +3～5% 降低敵人方 雷電抗性； +10～15% 金幣獲得率； +5～8 擊殺時 Mana 回復； +4～6% 德魯伊（Druid） skill強化|
 
-#### Mail（2）
+#### Mail（2） {#fc2-uglove-h9}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -598,7 +598,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Adendu's Echelon Gauntlets； Poplar Gauntlets|155； ～； 201|52|+80～95% 物理防禦強化； +1 Mail職 Talent Tree； +2～4 All Passive Skills； +16～24 Strength； +20～25 Agility； +16～24 Dexterity； +50～75 攻擊能力； +25～35 暴擊； +3～5 命中時生命回復； +4～6 命中時 Mana 回復； +10% Stun 抗性； +10% Fear 抗性|
 |Stratuswalker Grips； Stratified Gauntlets|189； ～； 243|52|+110～125% 物理防禦強化； +1 遊俠（Ranger） Talent Tree； +3～5 All Passive Skills； +35～45 Strength； +20% 冰霜抗性； +4～7% 吸收 冰霜； +10 冰霜近戰傷害； +10～20% 稀有掉落率； +5～8% 遊俠（Ranger） skill強化 (1)； +5～8% 遊俠（Ranger） skill強化 (2)|
 
-#### Plate（2）
+#### Plate（2） {#fc2-uglove-h10}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -607,9 +607,9 @@ Elite：布製 / 革製 / Mail / Plate
 |Corrupted Blood Gauntlets； War Gauntlets|199； ～； 260|50|+95～110% 物理防禦強化； +1 Plate Talent Tree； +50 Health； +30% 流血抗性； +3～5 Conjuration； +5～8 命中時生命回復； +5～9% 流血傷害； +3～6% 毒傷害； +3～6% 火焰傷害； Indestructible|
 |Priory's Predilection； Monolith Gauntlets|220； ～； 290|54|+100～120% 物理防禦強化； +15～20% Arcane 抗性； +15～20% 雷電抗性； +30 施法速度增加； +7～10 Mana 再生； +3～5 Spirit 受擊時； +3～5% 隨機屬性 傷害； +35% Fear 抗性； +4～7% 對 demon 傷害強化； +4～7% Plate職 skill強化|
 
-### Elite
+### Elite {#fc2-uglove-h11}
 
-#### 布製（3）
+#### 布製（3） {#fc2-uglove-h12}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -618,7 +618,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Exemixar's Liquefaction Grips； Reliquary Gloves|184； ～； 234|67|+96～111% 物理防禦強化； +2～3 All Passive Skills； +6～9% 吸收 炎； +30～40 施法速度增加； +24～30 暴擊； +6～9 Mana 再生； +6～8% 火焰傷害； +17～24% Silence 抗性； +7～9% 布製職 skill強化|
 |Yon's Ephemeral Grasp； Phantom Gloves|202； ～； 259|71|+110～125% 物理防禦強化； +11～15% 全屬性抗性； +24～32 施法速度增加； +5～7% 全法術傷害； +15～20% Fear 抗性； +12～16% Silence 抗性； +10～40% 稀有掉落率； +3～5% 對 demon 傷害強化； +3～5% 對 mystic 傷害強化； +5～8% 布製職 skill強化 (1)； +5～7% 布製職 skill強化 (2)|
 
-#### 革製（3）
+#### 革製（3） {#fc2-uglove-h13}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -627,7 +627,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Equinox Gloves； Ether Gloves|229； ～； 292|68|+101～115% 物理防禦強化； +8～15 全屬性； +31～40 施法速度增加； +21～40 火焰法術強度； +8～15% 冰霜傷害； +10～13% 全狀態抗性； +8～24% 稀有掉落率； +7～13% 革製職 skill強化|
 |Feral Battle Grips； Mirage Gloves|229； ～； 297|71|+92～108% 物理防禦強化； +1～2 武僧（Monk） Talent Tree； +24～40 攻擊能力； +6～8 Offense； +7～10 素手部； +7～10 招架； +41～50 暴擊； +8～13 命中時 Mana 回復； +8～15 流血近戰傷害； +7～12 毒近戰傷害； +24～30% Paralyze 抗性； +4～6% 對 humanoid 傷害強化； +5～8% 武僧（Monk） skill強化 (1)； +5～8% 武僧（Monk） skill強化 (2)|
 
-#### Mail（3）
+#### Mail（3） {#fc2-uglove-h14}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -636,7 +636,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Shady Grove Gauntlets； Shire Gauntlets|256； ～； 330|70|+84～100% 物理防禦強化； +1～2 盜賊（Rogue） Talent Tree； +41～45 Intelligence； +51～60 Health； +8～12% 全屬性抗性； +4～6 單手部鈍器； +5～8 Alteration； +7～10 命中時 Mana 回復； +12～16% Paralyze 抗性； +12～16% Silence 抗性； +4～6% 盜賊（Rogue） skill強化 (1)； +7～9% 盜賊（Rogue） skill強化 (2)|
 |Jaspermouth Grips； Etherium Gauntlets|243； ～； 340|72|+70～100% 物理防禦強化； +1～3 Mail職 Talent； +2～3 All Passive Skills； +15～20 全屬性； +11～15% 全屬性抗性； +21～30 施法速度增加； +8～10% 隨機屬性 傷害； +6～8% 全狀態抗性； +7～9% Mail職 skill強化|
 
-#### Plate（3）
+#### Plate（3） {#fc2-uglove-h15}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -656,9 +656,9 @@ Exceptional：布製 / 革製 / Mail / Plate
 
 Elite：布製 / 革製 / Mail / Plate
 
-### Normal
+### Normal {#fc2-ubelt-h1}
 
-#### 布製
+#### 布製 {#fc2-ubelt-h2}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -667,7 +667,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Sphinx Hair Cord； Linen Sash|6； ～； 8|23|+24～38% 物理防禦強化； +9 Wisdom； +8～12 Charisma； +2～4% 雷電抗性； +2～4% 火焰抗性； +2～4% 冰霜抗性； +5～8 火焰法術強度； 物理傷害減免 2|
 |Wraith's Lust； Arcane Sash|10； ～； 15|28|+73～84% 物理防禦強化； +11～15 Stamina； +14～18 Wisdom； +4～5% Arcane 抗性； +4～5% 火焰抗性； +1～2 Alteration； +2～3 Evocation|
 
-#### 革製
+#### 革製 {#fc2-ubelt-h3}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -676,7 +676,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Frenzied Sash of Kordata； Heavy Belt|13； ～； 17|23|+28～42% 物理防禦強化； +25～32 Agility； +15 Dexterity； +3～4% 毒抗性； +3～4% 火焰抗性； +4～6 雷電法術強度； +9～12 攻擊能力； +1～2 Offense|
 |Fairy's Trap； Woven Sash|23； ～； 28|30|+75～87% 物理防禦強化； +14～20 Stamina； +14～20 Mana； +12 Spirit； +3～9 Arcane 法術強度； +3～5 Mana 再生； +3～5 命中時 Mana 回復； +6～8% 對 beast 傷害強化|
 
-#### Mail
+#### Mail {#fc2-ubelt-h4}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -685,7 +685,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Runed Frontier Belt； Girdle|25； ～； 31|30|+55～70% 物理防禦強化； +10 Strength； +10 Stamina； +10 Dexterity； +3～5% 流血抗性； +3～5% Arcane 抗性； +3～5% 雷電抗性； +2～4 全法術強度|
 |Pegasus Belt； Chain Belt|39； ～； 46|34|+77～90% 物理防禦強化； +11～15 Strength； +11～15 Agility； +11～15 Wisdom； +4～9 Arcane 法術強度； +4～9 雷電法術強度； +11～15 暴擊|
 
-#### Plate
+#### Plate {#fc2-ubelt-h5}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -694,9 +694,9 @@ Elite：布製 / 革製 / Mail / Plate
 |Bile-Etched Obsidian Girdle； Mithril Belt|50； ～； 59|34|+80～96% 物理防禦強化； +16～24 Strength； +10 Stamina； +15 Dexterity； +40 Health； +2～3% 全屬性抗性； +5～9 毒 法術強度|
 |Guardian's Girdle； Plated Belt|35； ～； 41|36|+33～48% 物理防禦強化； +6～10 Stamina； +7 Charisma； +25 Health； +6% Arcane 抗性； +2～3 Defense； +6 技能時生命回復|
 
-### Exceptional
+### Exceptional {#fc2-ubelt-h6}
 
-#### 布製（2）
+#### 布製（2） {#fc2-ubelt-h7}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -705,7 +705,7 @@ Elite：布製 / 革製 / Mail / Plate
 |White Dragon Sash； Samite Sash|39； ～； 55|50|+85～110% 物理防禦強化； +1 炎 才能； +30～40 Mana； +30～40 Spirit； +5～8% 全屬性抗性； +2～3 Alteration； +3～5 Conjuration； +3～5 Evocation； +2～4 Spirit 再生|
 |Irreverent Cincture； Wincey Sash|37； ～； 53|52|+70～90% 物理防禦強化； +30～35 Wisdom； +15% 流血抗性； +10% 毒抗性； +10% Arcane 抗性； +8～12 出血 法術強度； +8～12 毒 法術強度； +5 Arcane 法術強度； +4～6 命中時 Mana 回復； +15～20% Fear 抗性； +8 擊殺時 Mana 回復； +8 Spirit 擊殺時回復|
 
-#### 革製（2）
+#### 革製（2） {#fc2-ubelt-h8}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -714,7 +714,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Seductive Cord of Punishment； Ermine Belt|54； ～； 72|50|+70～85% 物理防禦強化； +1～2 革製職 Talent； +9～12 Agility； +20～25 Intelligence； +20～25 Charisma； +25 Health； +30～45 Spirit； +16～20% 流血抗性； +8～12% 火焰抗性； +3～6 Arcane 法術強度； +7～10 火焰法術強度； +21～25 暴擊|
 |Celeste's Lock of Hair； Tartan Sash|49； ～； 67|53|+40～60% 物理防禦強化； +12～20 Intelligence； +5～7% 全屬性抗性； +6～10% 隨機屬性 耐性； +6～10% 吸收 雷； +16～30 施法速度增加； +6～15 隨機屬性 法術強度； +3～6 受擊時 Mana； 魔法傷害減免 8～12； +20% Silence 抗性|
 
-#### Mail（2）
+#### Mail（2） {#fc2-ubelt-h9}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -723,7 +723,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Frizzle's Cord of Hysteria； Verdant Girdle|66； ～； 88|53|+65～80% 物理防禦強化； +36～50 Agility； +15% 火焰抗性； +15 施法速度增加； +3～5 Defense； +6～10 二刀流； +6～10 二連擊； +5～8 招架； 物理傷害減免 5～8； +15% Paralyze 抗性|
 |Sinfura's Gale Cord； Coldsteel Belt|81； ～； 106|53|+75～90% 物理防禦強化； +25 Agility； +33 Dexterity； +8～12% 毒抗性； +10～15% 雷電抗性； +9～15 弓術； +7～10 命中時生命回復； +5～8 命中時 Mana 回復； +3～5% 降低敵人方 雷電抗性； +7～15% 稀有掉落率|
 
-#### Plate（2）
+#### Plate（2） {#fc2-ubelt-h10}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -732,9 +732,9 @@ Elite：布製 / 革製 / Mail / Plate
 |Sanctum Guardian Girdle； Thyrium Belt|105； ～； 135|53|+90～105% 物理防禦強化； +2～5 All Passive Skills； +37～45 Strength； +26～30 Intelligence； +21～25 Charisma； +50～60 Health； +32～40 Mana； +32～40 Spirit； +15% Stun 抗性； +3～5% 經驗值獲得率|
 |Refulgent Girdle； Runite Belt|95； ～； 126|54|+80～100% 物理防禦強化； +5～8 全屬性； +20% 流血抗性； +35% Arcane 抗性； +15～20 施法速度增加； +8～12 Arcane 法術強度； +6～8 命中時 Mana 回復； +3～5 Spirit 受擊時； +8% Fear 抗性； +8% Silence 抗性； +6～12% 稀有掉落率|
 
-### Elite
+### Elite {#fc2-ubelt-h11}
 
-#### 布製（3）
+#### 布製（3） {#fc2-ubelt-h12}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -743,7 +743,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Shadow Silk Mesh； Taffeta Sash|78； ～； 101|68|+106～120% 物理防禦強化； +1 All Talents； +4～6 All Passive Skills； +15～20 施法速度增加； +11～15 毒近戰傷害； +8～15% 移動速度； +5% 最大 Mana； +3～5% 對 beast 傷害強化； +8～10% 布製職 skill強化|
 |Sundercord； Mariner Sash|73； ～； 96|70|+88～99% 物理防禦強化； +21～25 Wisdom； +25% 流血抗性； +12～16% 火焰抗性； +5～7 命中時生命回復； +3～4% 流血傷害； +6～9% 全狀態抗性； +3～5% 對 dragonskin 傷害強化； +9～11% 布製職 skill強化|
 
-#### 革製（3）
+#### 革製（3） {#fc2-ubelt-h13}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -752,7 +752,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Poplar's Girdle； Matriarch Belt|97； ～； 125|68|+76～90% 物理防禦強化； +2 革製職 Talent； +41～50 Health； +4～5% 全屬性抗性； +11～15 雷電法術強度； +11～15 火焰法術強度； +11～15 冰霜 法術強度； +3～4 Defense； +5～7 生命再生； +6～8 Mana 再生； +4～6% 革製職 skill強化 (1)； +4～6% 革製職 skill強化 (2)|
 |Grouper's Trap； Eventide Sash|107； ～； 140|71|+88～103% 物理防禦強化； +7～10% 全屬性抗性； +10～15 施法速度增加； +5～8 Evocation； 魔法傷害減免 5～7； +4～6% 雷電傷害； +3～5% 火焰傷害； +7～10% 最大 Mana； +5～8% 革製職 skill強化 (1)； +5～8% 革製職 skill強化 (2)|
 
-#### Mail（3）
+#### Mail（3） {#fc2-ubelt-h14}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -761,7 +761,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Spectral Nether Strap； Gilded Belt|142； ～； 180|72|+106～120% 物理防禦強化； +1 全屬性 薩滿（Shaman） 才能； +1～2 薩滿（Shaman） Talent； +18～24 Intelligence； +16～20 Wisdom； +25～30 Mana； +41～50 Spirit； +8～12% 毒抗性； +12～16% Arcane 抗性； +4～6 Spirit 再生； +15～20% Fear 抗性； +5～8% 對 undead 傷害強化； +8～12% 薩滿（Shaman） skill強化|
 |Plagueclash； Abyss Belt|134； ～； 170|73|+86～100% 物理防禦強化； +11～15% 流血抗性； +18～30% 毒抗性； +4～7% 吸收 毒； +15 施法速度增加； +4～6% 毒傷害； +4～6% 全狀態抗性； +3～5% 對 humanoid 傷害強化； +3～5% 對 beast 傷害強化； +8～12% Mail職 skill強化|
 
-#### Plate（3）
+#### Plate（3） {#fc2-ubelt-h15}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -781,9 +781,9 @@ Exceptional：布製 / 革製 / Mail / Plate
 
 Elite：布製 / 革製 / Mail / Plate
 
-### Normal
+### Normal {#fc2-uleg-h1}
 
-#### 布製
+#### 布製 {#fc2-uleg-h2}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -792,7 +792,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Mystical Breeches； Linen Pants|26； ～； 34|20|+45～63% 物理防禦強化； +28～35 Spirit； +4～6 全法術強度； +2～3 Conjuration； +4～6 Evocation； +18～24 暴擊|
 |Fantoam Pantaloons； Silk Leggings|38； ～； 45|28|+72～80% 物理防禦強化； +1～2 All Passive Skills； +15～20 Wisdom； +50 Health； +35 Mana； +3～4% 全屬性抗性|
 
-#### 革製
+#### 革製 {#fc2-uleg-h3}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -801,7 +801,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Ethereal Kraken Leggings； Tanned Legs|54； ～； 71|25|+55～68% 物理防禦強化； +6～9% 冰霜抗性； +4～6 Defense； +3～5 回避； +3～5 招架； +5～10% Stun 抗性； +5～8% 對 mystic 傷害強化|
 |Friar's Penance； Studded Legs|80； ～； 93|29|+78～85% 物理防禦強化； +15 Strength； +20 Intelligence； +35 Health； +15 Spirit； +3% 全屬性抗性； 物理傷害減免 5～8； 魔法傷害減免 4～7|
 
-#### Mail
+#### Mail {#fc2-uleg-h4}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -810,7 +810,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Honored Samurai Legplates； Kusazuri|92； ～； 114|30|+58～72% 物理防禦強化； +35 Dexterity； +6～10 出血 法術強度； +6～10 火焰法術強度； +2～3 招架； +2～3 反擊； +3～6 命中時生命回復|
 |Haunted Wail； Poleyn|126； ～； 146|33|+82～94% 物理防禦強化； +8～12 全屬性； +3～4% 毒抗性； +5～6% 冰霜抗性； +8～12 Arcane 法術強度； +3 雙手部斬擊； +4～6 Conjuration； +5～7% 對 undead 傷害強化|
 
-#### Plate
+#### Plate {#fc2-uleg-h5}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -819,9 +819,9 @@ Elite：布製 / 革製 / Mail / Plate
 |Forlorn Lover's Legplates； Mithril Legplates|128； ～； 153|30|+64～76% 物理防禦強化； +15～20 Dexterity； +21～30 Charisma； +5% 毒抗性； +10% Arcane 抗性； +6% 火焰抗性； +5～7% Silence 抗性； +15 擊殺時 Mana 回復|
 |Doomhaunch； Royal Legplates|165； ～； 204|37|+85～104% 物理防禦強化； +1 All Passive Skills； +15 Strength； +25 Agility； +50 Health； +7～10 毒 法術強度； +7～10 火焰法術強度； +18～25 暴擊|
 
-### Exceptional
+### Exceptional {#fc2-uleg-h6}
 
-#### 布製（2）
+#### 布製（2） {#fc2-uleg-h7}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -830,7 +830,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Burzwhorl's Spidersilk Pants； Calico Pants|154； ～； 200|48|+75～90% 物理防禦強化； +25～35 Agility； +41～50 Dexterity； +41～50 Charisma； +41～50 Health； +41～50 Mana； +41～50 Spirit； +5～8% 全屬性抗性|
 |Bloomers of Runefaust； Cryosilk Pantaloons|170； ～； 220|52|+85～100% 物理防禦強化； +2～4 All Passive Skills； +10% 流血抗性； +10% 冰霜抗性； +12～20 暴擊； 魔法傷害減免 3～5； +5～7% 布製職 skill強化 (1)； +5～7% 布製職 skill強化 (2) (50%)|
 
-#### 革製（2）
+#### 革製（2） {#fc2-uleg-h8}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -839,7 +839,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Halcyon Leggings of Azulite； Sharkskin Legs|181； ～； 248|51|+60～80% 物理防禦強化； +2～4 All Passive Skills； +11～15 全屬性； +30～50 Mana； +30～50 Spirit； +4～8% 全屬性抗性； +3～6% 隨機屬性 傷害； +4～8% 革製職 skill強化； Indestructible|
 |Waterfall Mammoth Leggings； Bearskin Legs|195； ～； 265|53|+60～80% 物理防禦強化； +25～30 Strength； +20～30 Stamina； +25～30 Intelligence； +33～44 Health； +8～12% 火焰抗性； +12～16% 冰霜抗性； +3～5% 最大 Health； +6～8% 革製職 skill強化|
 
-#### Mail（2）
+#### Mail（2） {#fc2-uleg-h9}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -848,7 +848,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Blessed Memory Legplates； Darksteel Leggings|245； ～； 342|53|+75～100% 物理防禦強化； +38～55 Intelligence； +28～35 Charisma； +30～40 Health； +41～50 Spirit； +25～30% Arcane 抗性； +11～25 Arcane 法術強度； +7～10% Stun 抗性； +11～15% Silence 抗性|
 |Commander's Cataclysmic Greaves； Coldain Chausses|249； ～； 326|53|+65～80% 物理防禦強化； +3～5 All Passive Skills； +30～50 Strength； +30～50 Intelligence； +5～8% 全屬性抗性； +21～30% 隨機屬性抗性； +12～20 隨機屬性 法術強度； +5～8% Mail職 skill強化|
 
-#### Plate（2）
+#### Plate（2） {#fc2-uleg-h10}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -857,9 +857,9 @@ Elite：布製 / 革製 / Mail / Plate
 |Spectral Defiler Legplates； Arclite Legplates|296； ～； 390|53|+75～90% 物理防禦強化； +26～32 Strength； +31～38 Dexterity； +9～12% 流血抗性； +13～16% 毒抗性； +21～30% 隨機屬性抗性； +10～25 出血 法術強度； +15～30 毒 法術強度； +4～6% Plate職 skill強化|
 |Adamantite Phoenix Legplates； Patriarch Legplates|331； ～； 440|55|+85～100% 物理防禦強化； +35% 火焰抗性； +5～10% 吸收 炎； +15～20 火焰法術強度； +5～10 生命再生； 魔法傷害減免 5～8； +7～15% 稀有掉落率； +7～13 技能時生命回復； +5～9% Plate職 skill強化|
 
-### Elite
+### Elite {#fc2-uleg-h11}
 
-#### 布製（3）
+#### 布製（3） {#fc2-uleg-h12}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -868,7 +868,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Cohort Silk Pantaloons； Worsted Pants|240； ～； 310|67|+60～75% 物理防禦強化； +3～5 All Passive Skills； +26～30 Stamina； +36～40 Wisdom； +31～35 Charisma； +8～12% 全屬性抗性； +15～20 Arcane 法術強度； +25～30 冰霜 法術強度； +11～14% 布製職 skill強化|
 |Shining Metallic Leggings； Arachnid Leggings|315； ～； 398|70|+106～120% 物理防禦強化； +33～40 Intelligence； +43～50 Wisdom； +6～10% 全屬性抗性； +3～5% 物理抗性； +3～5 Conjuration； +4～6 Evocation； +3～6% 流血傷害； +3～6% Arcane 傷害； +3～6% 火焰傷害； +11～15% Silence 抗性； +12～16% 布製職 skill強化|
 
-#### 革製（3）
+#### 革製（3） {#fc2-uleg-h13}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -877,7 +877,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Southern Vale Leggings； Stingray Leggings|376； ～； 488|69|+103～120% 物理防禦強化； +35～45 Stamina； +21～25 Dexterity； +24～30 Intelligence； +15～25% 雷電抗性； +15～25% 火焰抗性； +15～25% 冰霜抗性； +28～35 雷電法術強度； +28～35 冰霜 法術強度； +5～7 二刀流； +4～6 回避； +3～5 招架； +15～20% Paralyze 抗性|
 |Rheinhart's Leggings； Hipposkin Leggings|419； ～； 531|70|+116～130% 物理防禦強化； +36～48 Strength； +24～35% 流血抗性； +4～8% 物理抗性； +4～6% 吸收 出血； +6～9 Defense； 物理傷害減免 5～7； +18～24% Fear 抗性； +4～6% 最大 Health； +13～17% 革製職 skill強化|
 
-#### Mail（3）
+#### Mail（3） {#fc2-uleg-h14}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -886,7 +886,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Sylvanmesh Leggings； Titan Leggings|443； ～； 567|71|+96～110% 物理防禦強化； +2～4 All Passive Skills； +12～16 全屬性； +9～13% 全屬性抗性； +4～6% 吸收 炎； +4～6% 吸收 冰霜； +13～16% 全狀態抗性； +7～10 擊殺時 Mana 回復； +4～6% 對 humanoid 傷害強化|
 |Vaillanrathe Legplates； Latticed Poleyn|484； ～； 616|73|+105～120% 物理防禦強化； +31～40 Stamina； +31～40 Dexterity； +51～60 Charisma； +25～30% 流血抗性； +25～30% 火焰抗性； +6～9 受擊時 Mana； 魔法傷害減免 5～8； +12～16% Fear 抗性； +15～30% 金幣獲得率； +10～25% 稀有掉落率； +6～9% 對 demon 傷害強化； +12～15% Mail職 skill強化|
 
-#### Plate（3）
+#### Plate（3） {#fc2-uleg-h15}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -906,9 +906,9 @@ Exceptional：布製 / 革製 / Mail / Plate
 
 Elite：布製 / 革製 / Mail / Plate
 
-### Normal
+### Normal {#fc2-uboot-h1}
 
-#### 布製
+#### 布製 {#fc2-uboot-h2}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -917,7 +917,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Golden Baelor Boots； Light Boots|9； ～； 13|22|+46～58% 物理防禦強化； +1 All Passive Skills； +15 Intelligence； +15 Wisdom； +15～20 Health； +6% 火焰抗性； +8～12 火焰法術強度|
 |Amice-Lined Shoes； Khussa|15； ～； 22|28|+70～80% 物理防禦強化； +4～6 全屬性； +15 Health； +3～4% 毒抗性； +4～5% 冰霜抗性； +2 回避； +1～2 Alteration； +2～3 Evocation|
 
-#### 革製
+#### 革製 {#fc2-uboot-h3}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -926,7 +926,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Craftsman's Boots； Sharkskin Boots|28； ～； 35|28|+53～67% 物理防禦強化； +15 Agility； +10 Intelligence； +5～8% 毒抗性； +4～6% 火焰抗性； +4～6% 冰霜抗性； +4～6 出血 法術強度； +1～2 Offense|
 |Gorilla-Hide Boots； Hunting Boots|38； ～； 46|32|+73～84% 物理防禦強化； +25 Strength； +10～15 Stamina； +10～15 Agility； +4% 流血抗性； +3% 冰霜抗性； +7～10 攻擊能力； +2 招架|
 
-#### Mail
+#### Mail {#fc2-uboot-h4}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -935,7 +935,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Dwarven Militia Boots； Sovereign Boots|44； ～； 56|32|+64～74% 物理防禦強化； +10～15 Strength； +15～20 Dexterity； +25 Health； +5～8% 流血抗性； +5～8% 雷電抗性； +5～8% 冰霜抗性|
 |Charred Boots； Blackened Boots|60； ～； 71|32|+83～92% 物理防禦強化； +15～20 Agility； +5～10% 毒抗性； +3% 火焰抗性； +8～15 火焰法術強度； +3 Evocation； +7 Spirit 擊殺時回復|
 
-#### Plate
+#### Plate {#fc2-uboot-h5}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -944,9 +944,9 @@ Elite：布製 / 革製 / Mail / Plate
 |Arcanite Boots； Sabatons|66； ～； 78|32|+68～77% 物理防禦強化； +12 Stamina； +15～20 Spirit； +5～7% 流血抗性； +4% Arcane 抗性； +4% 火焰抗性； +3 Offense|
 |Boots of the Righteous； Cobalt Boots|91； ～； 104|37|+93～107% 物理防禦強化； +19～28 Strength； +14～20 Intelligence； +6～8% 毒抗性； +8～10% Arcane 抗性； +3～5 Alteration； +2～3 Conjuration； +2～3% Arcane 傷害|
 
-### Exceptional
+### Exceptional {#fc2-uboot-h6}
 
-#### 布製（2）
+#### 布製（2） {#fc2-uboot-h7}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -955,7 +955,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Dearth Trek； Worsted Boots|70； ～； 90|49|+105～120% 物理防禦強化； +25～30 Intelligence； +25～30 Wisdom； +20～40% 流血抗性； +20～40% 毒抗性； +7～10 全法術強度； +5～7 Mana 再生； 魔法傷害減免 3～5； +4～6% 對 demon 傷害強化； +3～6% 布製職 skill強化|
 |Cracklemist Slippers； Mohair Slippers|59； ～； 81|52|+60～75% 物理防禦強化； +30～40 Health； +20～30 Mana； +20～30 Spirit； +30～40% 雷電抗性； +10～15% 火焰抗性； +30～40% 冰霜抗性； +3～5 全法術強度； +15% 移動速度； +2～4% 雷電傷害； +2～4% 冰霜傷害|
 
-#### 革製（2）
+#### 革製（2） {#fc2-uboot-h8}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -964,7 +964,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Immaculate Dragonhorn Boots； Seer Boots|116； ～； 158|52|+110～135% 物理防禦強化； +15～20 Agility； +5～8% 全屬性抗性； +25% Arcane 抗性； +3～5% 吸收 炎； +3～5% 吸收 冰霜； +5～8 Defense； +15～20 暴擊； +15～25% 移動速度； 魔法傷害減免 3～5|
 |Trek of Glory； Viperskin Boots|102； ～； 135|50|+75～90% 物理防禦強化； +2～3 All Passive Skills； +20 Spirit； +15% 冰霜抗性； +25～40% 移動速度； +10% Paralyze 抗性； +5～10% 經驗值獲得率； +20～40% 金幣獲得率； +25～50% 稀有掉落率； +10～20 技能時生命回復； +10～20 擊殺時 Mana 回復|
 
-#### Mail（2）
+#### Mail（2） {#fc2-uboot-h9}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -973,7 +973,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Visionary Magicka； Trekking Boots|124； ～； 167|50|+70～85% 物理防禦強化； +2～4 All Passive Skills； +32～40 Intelligence； +24～32 Charisma； +4～6% 全屬性抗性； +10～15% Arcane 抗性； +5～10 全法術強度； +5～9 命中時 Mana 回復； +4～8% Mail職 skill強化 (1)； +4～8% Mail職 skill強化 (2)|
 |Hoarfrost Odyssey； Thulium Boots|160； ～； 209|52|+105～120% 物理防禦強化； +15～20 Intelligence； +20% Arcane 抗性； +45% 冰霜抗性； +7～10% 吸收 冰霜； +7～10 Mana 再生； +4～6% 冰霜傷害； +5～9% 最大 Mana； +3～6% Mail職 skill強化|
 
-#### Plate（2）
+#### Plate（2） {#fc2-uboot-h10}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -982,9 +982,9 @@ Elite：布製 / 革製 / Mail / Plate
 |Kalgrave's Sabatons of Dominion； Despot Sabatons|164； ～； 222|50|+95～115% 物理防禦強化； +25 Strength； +20～30 Stamina； +20～30 Intelligence； +25% Arcane 抗性； +40% 冰霜抗性； +8～15% 吸收 冰霜； +10～20% 移動速度； +3～5% Arcane 傷害； +15% Fear 抗性； +4～8% Plate職 skill強化|
 |Blood Omen； Emperor Boots|207； ～； 264|44 (55)|+125～140% 物理防禦強化； +45% 流血抗性； +15～20% Arcane 抗性； +10～15 出血 法術強度； +20～40 攻擊能力； +30% 移動速度； 物理傷害減免 5～7； +15% Stun 抗性； +25% Paralyze 抗性； 要求 -20%|
 
-### Elite
+### Elite {#fc2-uboot-h11}
 
-#### 布製（3）
+#### 布製（3） {#fc2-uboot-h12}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -993,7 +993,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Inscribed Siskin Boots； Archon Boots|126； ～； 160|68|+75～88% 物理防禦強化； +15～20 全屬性； +24～30 Health； +32～40 Mana； +36～40% 毒抗性； +25～35% Arcane 抗性； +31～35% 火焰抗性； 魔法傷害減免 4～6； +4～6% 對 mystic 傷害強化； +5～6% 布製職 skill強化 (1)； +7～8% 布製職 skill強化 (2)|
 |Golden Mistmoore Slippers； Courier Slippers|158； ～； 203|70|+111～125% 物理防禦強化； +31～50 Wisdom； +41～50% 流血抗性； +24～30% 冰霜抗性； +14～21 全法術強度； +4～5 Evocation； +7～10 Mana 再生； +3～5 Spirit 再生； +4～6% 降低敵人方 雷電抗性； +4～6% 降低敵人方 冰霜抗性； +8～12 擊殺時 Mana 回復； +6～8% 布製職 skill強化 (1)； +8～12% 布製職 skill強化 (2)|
 
-#### 革製（3）
+#### 革製（3） {#fc2-uboot-h13}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -1002,7 +1002,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Gukta Hunting Boots； Rhinoskin Boots|180； ～； 228|70|+93～105% 物理防禦強化； +31～35 Strength； +41～50 Dexterity； +26～30% 流血抗性； +21～25% 毒抗性； +21～25% Arcane 抗性； +21～30 暴擊； +5～7% 對 beast 傷害強化； +3～5% 革製職 skill強化 (1)； +6～8% 革製職 skill強化 (2)|
 |Frostreaver Footpads； Anuran Boots|177； ～； 230|71|+84～100% 物理防禦強化； +3～5 All Passive Skills； +20～25 Intelligence； +20～25 Wisdom； +50～70% 冰霜抗性； +7～10 Mana 再生； +4～10% 冰霜傷害； +4～6% 最大 Mana； +8～12% 革製職 skill強化|
 
-#### Mail（3）
+#### Mail（3） {#fc2-uboot-h14}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -1011,7 +1011,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Jaggedpine Footguards； Arbiter Boots|200； ～； 261|71|+80～95% 物理防禦強化； +3～5 All Passive Skills； +20～25 全屬性； +4～6% 物理抗性； +7～10% 吸收 雷； +40～55 攻擊能力； +9～13 雷電近戰傷害； +5～7% 雷電傷害； +4～7% Mail職 skill強化|
 |Shade Dancers； Rearden Boots|236； ～； 306|73|+103～120% 物理防禦強化； +26～30 Agility； +20～25 Dexterity； +31～40 Charisma； +38～45% 流血抗性； +24～30% Arcane 抗性； +4～6% 吸收 Arcane； +12～16 全法術強度； +28～35% 移動速度； +4～7% 隨機屬性 傷害； +8～12% Mail職 skill強化|
 
-#### Plate（3）
+#### Plate（3） {#fc2-uboot-h15}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -1025,7 +1025,7 @@ Elite：布製 / 革製 / Mail / Plate
 - FC2 file：[uback.html](https://atelier3.web.fc2.com/ngo/uback.html)
 - 來源分類：FC2 / player meta snapshot
 
-### Normal
+### Normal {#fc2-uback-h1}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -1046,7 +1046,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Cloak of Icing Death； Archon Cloak|22； ～； 28|36|+7～10 全屬性； +4～5% 冰霜抗性； +28～35 出血 法術強度； +33～40 冰霜 法術強度； +3 雙手部斬擊； 魔法傷害減免 7； +3～5% 對 mystic 傷害強化|
 |Soothsayer's Ethereal Cloak； Pall|24； ～； 30|38|+1 All Passive Skills； +8～10 全屬性； +3～4% 全屬性抗性； +21～28 Arcane 法術強度； +25～32 火焰法術強度； +15～30 冰霜 法術強度； +7～10% 對 dragonskin 傷害強化|
 
-### Exceptional
+### Exceptional {#fc2-uback-h2}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -1067,7 +1067,7 @@ Elite：布製 / 革製 / Mail / Plate
 |Ebon Thunder Drape； Cove Cloak|49； ～； 63|54|+45～65 Health； +21～30 Mana； +21～30 施法速度增加； +5～10 全法術強度； +26～35 暴擊； +3～5% Arcane 傷害； +3～5% 雷電傷害； +25% Paralyze 抗性|
 |Maid Tarmuni's Chlamys； Harmony Pall|51； ～； 66|55|+1～4 All Passive Skills； +10～15 全屬性； +41～60 Mana； +31～50 Spirit； +7～12% 全屬性抗性； +11～20% 隨機屬性抗性 (1)； +11～20% 隨機屬性抗性 (2)； +20～40 隨機屬性 法術強度； +3～6% 隨機技能強化|
 
-### Elite
+### Elite {#fc2-uback-h3}
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
