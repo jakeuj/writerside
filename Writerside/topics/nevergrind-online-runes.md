@@ -2,15 +2,15 @@
 
 `Runes` 是 Nevergrind Online 後期裝備客製化的核心：有 sockets 的裝備可以透過 [鐵匠鋪（Blacksmith）](nevergrind-online-blacksmith.md) 的 enchanting / crafting 相關功能加入 rune bonus，把「好裝」推成更明確服務於 build 的核心裝。鑲嵌前先想清楚這件裝備會穿多久，因為符文通常不是拿來補一件很快會被換掉的過渡裝。
 
-- 檢視日期：`2026-05-03`
+- 檢視日期：`2026-05-05`
 - 前置閱讀：[Nevergrind Online 物品與戰利品總覽](nevergrind-online-items-loot.md)
-- 資料來源：來源摘要、SteamDB patch notes、Nevergrind Online 日文 wiki rune list、[Nevergrind Online 攻略DB：クラフト](https://atelier3.web.fc2.com/ngo/mythical.html)
+- 資料來源：來源摘要、SteamDB patch notes、Nevergrind Online 日文 wiki rune list、FC2 / atelier3 攻略 DB rune、rune select、craft、set 與 unique 頁
 - 版本提醒：符文效果、可鑲嵌部位、是否可取下、是否可升級，可能會隨 crafting 系統更新；點確認前請以目前遊戲內 UI 和 tooltip 為準
 
 <tldr>
 <p>物理職通常先看武器基礎傷害、攻速、命中與 <code>Cros</code> / <code>Rath</code> 類傷害收益。</p>
 <p>魔法職通常先看 enemy resistance reduction、casting haste、crit、元素傷害與資源續航，不要只堆智慧或智力。</p>
-<p>防具符文多半是補短板：抗性、生存、magic find 或缺少的資源循環。</p>
+<p><code>Marr</code> 是打寶 / rare drop 方向的代表 rune；但只有在輸出與生存仍然穩定時，堆 magic find 才有實際效率。</p>
 </tldr>
 
 ## 基本規則
@@ -42,6 +42,52 @@ SteamDB 的 2024 Season 2 patch note 提到 [鐵匠鋪（Blacksmith）](nevergri
 
 本文把它們當成 build 策略筆記，不把每個 rune 的數值寫死。真正要鑲嵌前，仍要看當前 tooltip。
 
+## FC2 選擇速查 {#rune-fc2-selection}
+
+FC2 的 `Rune Select` 頁是玩家 meta snapshot，頁面也明說內容仍可能改寫。它的重點不是背一個永遠正確的順位，而是先問「這顆 rune 是要放在哪種 weapon / armor slot，角色缺的是傷害、命中、速度、資源，還是 farm 效率」。
+
+| 情境 | FC2 建議方向 | 筆記讀法 |
+| ------ | ------ | ------ |
+| 物理單手 | `Cros` > `Targ` > `Gart` | 單手通常速度快、基礎值低，加算 weapon damage 常更有效；但慢速單手例外，且 `Cros` 稀有 |
+| 物理雙手 | `Rath` > `Targ` > `Gart` | 雙手基礎值高、速度慢，`Rath` 類 attack ability / % 方向更容易放大穩定輸出 |
+| Ranger 弓 | `Cros` / `Rok` > `Targ` > `Gart` | Ranger 弓很吃 base speed 與 socket count；高階比較要搭配 DPS calculator 或遊戲內 tooltip |
+| 非 Ranger 物理職弓 / charm | `Rath` > `Targ` > `Gart` | 大致照雙手物理看；Monk 因不能裝弓而看 charm，部分 rune 在 charm 上會變成防具效果，`Targ` 反而更穩 |
+| 魔法武器 | `Mael` > elemental damage / `Tae`，另備 `Skar` | stat rune 如 `Ruck` / `Nag` 不一定有效；`Mael` 稀有時，`Tae` 或 casting speed 補洞更實際 |
+| 命中 / proc | `Rath` > `Targ` > `Shir` > `Gart`，或看 `Rok` | 尤其是缺 attack ability talent 的 caster，例如 Wizard，可能為了 proc 率補命中 |
+| Mana sustain | `Gra` | Monk、Crusader 這類 mana 消耗快的角色，可準備 hit mana recovery 副裝 |
+| 物理防具 | `Rath`、`Marr`，缺抗就補 resistance | `Rath` 放防具很奢侈；只有戰力穩定或特別缺某屬性時才投入 |
+| 魔法防具 | `Marr`，缺抗就補 resistance | FC2 用消去法看 `Marr`；適合放在能多角共享的長期 farm 裝 |
+
+<note>
+<p>這張表是 FC2 的選擇邏輯摘要，不是官方公式。若要投入稀有 <code>Cros</code>、<code>Rath</code>、<code>Mael</code> 或 <code>Marr</code>，先確認目前版本 tooltip、裝備速度、socket count、角色命中與隊伍 buff。</p>
+</note>
+
+Ranger 弓是最需要回到實物比較的例外。FC2 以 `Sinifay's Golden Harrier` 和 `Reito Doku` 說明：同樣是弓，base speed 與 sockets 會讓 `Cros`、`Rok`、`Targ` 的相對效率改變。公開筆記中不要把單一弓的 rune 順位直接套到所有 ranged weapon。
+
+`Rune Select` 頁點名的裝備可以這樣記：
+
+| 裝備 | 類型 | 為什麼出現在 rune 選擇裡 |
+| ------ | ------ | ------ |
+| `Sinifay's Golden Harrier` | Ranger elite set bow | FC2 用它當較慢、高階 Ranger set bow 例子；在該頁讀法裡，`Cros` 較有利，`Rok` 約接近 `Targ` |
+| `Reito Doku` | Legendary bow / `Osage Bow` | FC2 用它當高速 bow 例子；因 base speed 快且可有多 sockets，後段 socket 的 `Rok` 可能比 `Cros` 更有效 |
+| `Mosby's Ancient Crown` | Legendary head / `Shako` | FC2 把它當成多角色可共用的防具 farm 候選；若要塞 `Marr`，先確認 socket roll 與角色是否會長期輪用 |
+
+## 打寶裝與 `Marr` {#rune-marr-magic-find}
+
+FC2 rune 頁把 `Marr` 列為 rare drop 方向的 rune。它適合拿來做 farm set 或 magic find / rare drop 裝，但不是所有角色都應該一看到 sockets 就塞滿 `Marr`：如果 clear speed、抗性或資源循環被壓垮，實際掉寶效率可能反而下降。
+
+`Marr` 的使用可以分成三層：
+
+| 層級 | 適合怎麼用 | 注意 |
+| ------ | ------ | ------ |
+| 安全 farm | 放在長期穿的 farm 裝、低風險防具或工具欄 | 先確認目前地城不會因少了防禦 / 抗性而翻車 |
+| 共享打寶裝 | 放在 `Charlatan's Crest`、`Mosby's Ancient Crown`、`Trek of Glory` 這類多職業可輪用的 farm 候選 | 透過共享銀行輪流穿很有價值，但仍要看 armor type、required level 與 roll |
+| 戰力溢出後 | 物理職 ranged slot 或高 socket 工具裝也可轉成 rare drop 方向 | 不要犧牲命中、資源與高難度生存門檻 |
+
+<note>
+<p><code>Charlatan's Crest</code>、<code>Mosby's Ancient Crown</code> 與 <code>Trek of Glory</code> 本身就帶 rare drop / gold / exp 類 farm 詞綴方向，適合當打寶裝關鍵字。它們不是 rune 專用底材；真正要鑲嵌前，仍要確認當前物品是否有 sockets、是否會長期使用，以及這顆 <code>Marr</code> 的機會成本。</p>
+</note>
+
 ## 物理職武器
 
 物理職的 rune 選擇，先看武器基礎與角色問題在哪裡。
@@ -54,7 +100,20 @@ SteamDB 的 2024 Season 2 patch note 提到 [鐵匠鋪（Blacksmith）](nevergri
 | 命中不足 | `Rath` / `Shir` 類攻擊能力 | 打不中時，帳面傷害再高也沒有意義 |
 | 資源斷循環 | `Gra` hit 時 mana 回復 | 適合高攻速、頻繁命中的 build |
 
-來源摘要提到 `Demetrium's Ballista` 因為 sockets 多，即使是較低等級套裝弓，也可能因 rune space 而保有後期價值。這個觀念比單一裝名更重要：有時候 sockets 數量會改寫裝備上限。
+FC2 的 `Demetrium` set 頁把 `Demetrium's Ballista` 列為 `Socketed (1-6)`。若 roll 到高 sockets，即使是較低等級套裝弓，也可能因 rune space 而保有後期價值。這個觀念比單一裝名更重要：有時候 sockets 數量會改寫裝備上限。
+
+`Demetrium's Ballista` 這類 ranged slot 工具裝可以依目標分流：
+
+| 目標 | 可考慮 rune | 讀法 |
+| ------ | ------ | ------ |
+| 命中 / 穩定輸出 | `Rath` | 高難度打不中時，攻擊能力通常比更多帳面傷害更有感 |
+| 泛用被動與 breakpoint | `Targ` | 可補全被動方向，適合缺多種小斷點時比較 |
+| 純力量 / 傷害 | `Gart` | 只在命中與資源已穩時再追 |
+| 打寶 | `Marr` | 戰力溢出、刷圖安全時再把 rune space 轉成 rare drop |
+
+<warning>
+<p><code>Demetrium's Ballista</code> 不是每把都保證達到 socket 上限。公開筆記中請寫成「<code>Socketed (1-6)</code>，高 socket roll 很有價值」，不要寫成每把都達上限的神裝。</p>
+</warning>
 
 ## 魔法職與支援職武器
 
@@ -83,6 +142,27 @@ SteamDB 的 2024 Season 2 patch note 提到 [鐵匠鋪（Blacksmith）](nevergri
 
 來源摘要提到，物理防具用 `Rath` 類全 stat / strength 方向可能很奢侈；如果角色抗性很破，先補抗性比追輸出更合理。魔法防具在沒有明確缺口時，`Marr` 類刷寶符文是常見選擇。
 
+防具要不要塞 `Marr`，可以用這個順序判斷：
+
+1. 抗性、HP / resource、armor 是否已能穩刷目標地城。
+2. 這件防具是否會長期穿，或至少能被多個角色透過共享銀行輪用。
+3. 這個部位是否原本就偏 farm，例如 rare drop、gold find、exp find、run speed。
+4. 少掉一顆防禦 / 抗性 rune 後，clear speed 是否仍然穩定。
+
+如果答案不確定，先不要把高價 `Marr` 放進短期過渡裝。打寶裝的核心不是把每個孔都變成 magic find，而是讓角色能穩定、快速、低死亡率地重複刷圖。
+
+## Socketed base 與 craft 風險 {#rune-socketed-base}
+
+FC2 craft 頁把 socketed item 描述為名稱灰色，或白字但帶 sockets 的物品。它可以拿來做兩件不同的事：一般 rune socketing，以及在 鐵匠鋪（Blacksmith） `Craft` tab 作為 Mythical / Rune Words 的 base。這兩件事不要混在一起。
+
+| 情境 | 重點 | 常見誤解 |
+| ------ | ------ | ------ |
+| 一般 rune socketing | 把 rune bonus 放進已有 sockets 的裝備 | 以為之後一定能安全取回；來源摘要仍建議當成不可逆成本 |
+| Mythical / Rune Words craft | base + recipe runes + gold；runes 在背包即可，不需要先插入 base | 以為 craft 會同時吃到 rune tooltip bonus |
+| Superior socketed base | FC2 craft 頁說 Superior 武器 / 防具加成會在製作後加算 | 只因 sockets 多就投入稀有 rune，卻忽略 base tier、roll 與職業詞綴 |
+
+Socketed base 可以從地城掉落，也可能出現在藥劑店（Apothecary）、鐵匠鋪（Blacksmith）或商人（Merchant）。既有商店筆記把 restock 寫成來源摘要中的約 1 小時節奏，但實際仍要以目前 UI 為準。完整 base 選擇與 Superior / Ethereal 繼承規則可看 [鐵匠鋪製作與配方深度筆記](nevergrind-online-blacksmith-crafting-recipe-research.md#crafting-base-selection)。
+
 ## 特殊戰術應用 {#rune-tactical-uses}
 
 有些 rune 不一定是最高傷害，但能讓 build 變順：
@@ -90,7 +170,7 @@ SteamDB 的 2024 Season 2 patch note 提到 [鐵匠鋪（Blacksmith）](nevergri
 | 情境 | 可考慮方向 | 判斷 |
 | ------ | ------ | ------ |
 | 武僧（Monk）、十字軍（Crusader） / 聖騎士（Paladin）這類資源消耗快的角色 | `Gra` hit 時 mana 回復 | 可放在副手或過渡武器上，穩住沒有隊友支援時的續航 |
-| 物理職想利用 ranged slot 當工具欄 | 高 sockets bow、`Demetrium's Ballista` 類工具裝 | 低等裝也可能因 sockets 數改寫後期價值 |
+| 物理職想利用 ranged slot 當工具欄 | 高 sockets bow、`Demetrium's Ballista` 類工具裝 | 低等裝若 roll 到高 sockets，也可能改寫後期工具價值 |
 | 巫師（Wizard）或施法職需要提高 proc 節奏 | `Rok` weapon speed、`Targ` 全被動或符合 rotation 的 weapon base | 速度與 internal cooldown 是否匹配，比單看 rune 等級更重要 |
 | 刷寶裝 | `Marr` magic find / rare drop 類 rune | 只在輸出與生存仍安全時才堆，避免 farm 速度反而下降 |
 
@@ -123,5 +203,11 @@ SteamDB 的 2024 Season 2 patch note 提到 [鐵匠鋪（Blacksmith）](nevergri
 - [SteamDB: Enchanting With Runes Enabled](https://steamdb.info/patchnotes/16172899/)
 - [SteamDB: Added ability to upgrade runes via crafting](https://steamdb.info/patchnotes/18527675/)
 - [Nevergrind Online 日本語 Wiki: ルーン](https://wikiwiki.jp/ngowiki/%E3%83%AB%E3%83%BC%E3%83%B3){ignore-vars="true"}
+- [FC2 攻略 DB：Rune](https://atelier3.web.fc2.com/ngo/rune.html)
+- [FC2 攻略 DB：Rune Select](https://atelier3.web.fc2.com/ngo/runeselect.html)
+- [FC2 攻略 DB：Demetrium set](https://atelier3.web.fc2.com/ngo/demetrium.html)
+- [FC2 攻略 DB：Craft](https://atelier3.web.fc2.com/ngo/mythical.html)
+- [FC2 攻略 DB：Unique Head](https://atelier3.web.fc2.com/ngo/uhead.html)
+- [FC2 攻略 DB：Unique Boots](https://atelier3.web.fc2.com/ngo/uboot.html)
 - [Nevergrind Wiki: Magic Find Mechanics](https://nevergrind.com/wiki/index.php?title=Magic_Find_Mechanics)
 - [Nevergrind Online Wiki: Loot](https://nevergrind-online.fandom.com/wiki/Loot)

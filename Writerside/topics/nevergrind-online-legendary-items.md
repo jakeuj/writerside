@@ -2,9 +2,9 @@
 
 這份 Legendary Items 筆記把玩家整理的試算表當成查裝索引：先用 `Quality`、`Slot`、`Proficiency`、`Level` 篩出角色真的能穿的裝備，再看 `All Talents`、`Tree Talents`、`Specific Talent`、`Specific Skill %` 與核心攻防詞綴。資料表目前整理 65 件 legendary，分成 Normal / Exceptional / Elite 三段；實際數值與掉落狀態仍以遊戲內 tooltip 為準。
 
-- 檢視日期：`2026-05-03`
+- 檢視日期：`2026-05-05`
 - 分類：[Nevergrind Online 物品與戰利品總覽](nevergrind-online-items-loot.md)
-- 資料來源：[Swiftyhorn's Nevergrind Online - Legendary Items](https://docs.google.com/spreadsheets/d/1Do2qcmxTgIuzzhTcagiydvEu-TI86JoT5BOPFVuN0vA/edit?gid=1080992867#gid=1080992867)
+- 資料來源：[Swiftyhorn's Nevergrind Online - Legendary Items](https://docs.google.com/spreadsheets/d/1Do2qcmxTgIuzzhTcagiydvEu-TI86JoT5BOPFVuN0vA/edit?gid=1080992867#gid=1080992867)、FC2 / atelier3 攻略 DB legendary 與 rune select 頁
 - 版本提醒：試算表、公開 wiki 與遊戲內版本可能不同步；交易、鑲嵌高價 rune 或判斷 BiS 前，請先回遊戲內 tooltip 核對
 
 <tldr>
@@ -60,7 +60,8 @@
 | `Starlight Atmos` | 75 | 盾牌 / `Shield` | 全抗、體力、智慧、施法速度與 block rate，偏防禦與 caster shield |
 | `Treewind's Earthcaller` | 70 | 兩手鈍器 / `2h Blunt` | `All Talents`、全屬性、全抗、mana leech、magic find 與 `Effect: Earthcaller` |
 | `Himmelsdolch` | 73 | 單手穿刺 / `1h Pierce` | `All Talents`、全屬性、exp find，並帶 undead / demon 特攻方向 |
-| `Mosby's Ancient Crown` | 72 | 頭部 / `Head` | `All Talents`、體力、智慧、魅力、spirit、magic find 與 fear resist |
+| `Reito Doku` | 68 | 弓術 / `Bow` | FC2 `Rune Select` 用作高速 legendary bow 例子；`Socketed (2-4)`、高 attack speed 與 bow talents 讓 `Cros` / `Rok` / `Targ` 順位需要回實物比較 |
+| `Mosby's Ancient Crown` | 72 | 頭部 / `Head` | `All Talents`、體力、智慧、魅力、spirit、magic find 與 fear resist；FC2 `Rune Select` 也把它當成可多角色輪用的 `Marr` farm 防具候選 |
 | `Saladin's Makhalib` | 68 | 單手斬擊 / `1h Slash` | 物理傷害、attack speed、health / mana leech，並偏 humanoid / giant 特攻 |
 | `Hydrafury Whorl` | 44 | 戒指 / `Ring` | `All Talents`、全屬性、attack、spell damage、magic find，中期戒指候選 |
 | `Ginjirou's Emerald Sash` | 71 | 腰帶 / `Belt` | `All Talents`、agility / dexterity、全抗、run speed、dragonkin 特攻 |
@@ -158,3 +159,9 @@
 - 把 roll range 的匯入值當成絕對數字，沒有回 tooltip 確認。
 - 為了穿 legendary 犧牲抗性、資源或核心技能 breakpoint。
 - 低等 legendary 明明只是過渡裝，卻投入太多升級與高階 rune。
+
+## 參考資料
+
+- [Swiftyhorn's Nevergrind Online - Legendary Items](https://docs.google.com/spreadsheets/d/1Do2qcmxTgIuzzhTcagiydvEu-TI86JoT5BOPFVuN0vA/edit?gid=1080992867#gid=1080992867)
+- [FC2 攻略 DB：Legendary](https://atelier3.web.fc2.com/ngo/legendary.html)
+- [FC2 攻略 DB：Rune Select](https://atelier3.web.fc2.com/ngo/runeselect.html)
