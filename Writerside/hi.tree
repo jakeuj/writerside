@@ -595,6 +595,7 @@
                 </toc-element>
                 <toc-element topic="nevergrind-online-classes.md" toc-title="職業與流派">
                     <toc-element topic="nevergrind-online-fc2-signature-skills.md" toc-title="FC2 代表技能速查" />
+                    <toc-element topic="nevergrind-online-fc2-class-build-index.md" toc-title="FC2 職業 Build 摘要" />
                     <toc-element topic="nevergrind-online-crusader.md" toc-title="十字軍（Crusader）" />
                     <toc-element topic="nevergrind-online-healers.md" toc-title="治療者總覽">
                         <toc-element topic="nevergrind-online-cleric.md" toc-title="牧師（Cleric）">
