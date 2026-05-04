@@ -594,6 +594,7 @@
                     </toc-element>
                 </toc-element>
                 <toc-element topic="nevergrind-online-classes.md" toc-title="職業與流派">
+                    <toc-element topic="nevergrind-online-crusader.md" toc-title="十字軍（Crusader）" />
                     <toc-element topic="nevergrind-online-healers.md" toc-title="治療者總覽">
                         <toc-element topic="nevergrind-online-cleric.md" toc-title="牧師（Cleric）">
                             <toc-element topic="nevergrind-online-cleric-skills-twloli.md" toc-title="牧師技能參考 Twloli" />
