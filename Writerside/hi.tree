@@ -594,6 +594,7 @@
                     </toc-element>
                 </toc-element>
                 <toc-element topic="nevergrind-online-classes.md" toc-title="職業與流派">
+                    <toc-element topic="nevergrind-online-fc2-signature-skills.md" toc-title="FC2 代表技能速查" />
                     <toc-element topic="nevergrind-online-crusader.md" toc-title="十字軍（Crusader）" />
                     <toc-element topic="nevergrind-online-healers.md" toc-title="治療者總覽">
                         <toc-element topic="nevergrind-online-cleric.md" toc-title="牧師（Cleric）">
@@ -614,6 +615,7 @@
                         <toc-element topic="nevergrind-online-magic-items.md" toc-title="魔法裝備（Magic Items）" />
                         <toc-element topic="nevergrind-online-rare-items.md" toc-title="稀有裝備（Rare Items）" />
                         <toc-element topic="nevergrind-online-unique-items.md" toc-title="獨特裝備（Unique Items）" />
+                        <toc-element topic="nevergrind-online-fc2-selected-unique-items.md" toc-title="FC2 嚴選 Unique 裝備" />
                         <toc-element topic="nevergrind-online-set-items.md" toc-title="套裝（Set Items）" />
                         <toc-element topic="nevergrind-online-legendary-items.md" toc-title="傳奇裝備（Legendary Items）" />
                         <toc-element topic="nevergrind-online-cryptic-paragon-haniwa.md" toc-title="Cryptic Paragon（Haniwa）" />
