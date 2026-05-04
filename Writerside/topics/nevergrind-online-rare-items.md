@@ -1,4 +1,4 @@
-# Nevergrind Online Rare Items 稀有裝備指南
+# Nevergrind Online 稀有裝備（Rare Items）指南
 
 Nevergrind Online 的黃色 `Rare` 裝備代表稀有物品，核心特色是 2 到 6 個隨機 mods。它不像 unique 那樣有固定詞綴方向，也不像 set 那樣靠多件 bonus 成形；rare 的價值來自高度 RNG，一旦詞綴剛好命中 build，某些部位甚至可以成為中後期長期裝備。
 
@@ -13,13 +13,13 @@ Nevergrind Online 的黃色 `Rare` 裝備代表稀有物品，核心特色是 2 
 <p>Rare amulet、rare gloves 這類關鍵部位有機會在特定 build 中撐很久，甚至和 unique 競爭。</p>
 </tldr>
 
-## Rare 在稀有度體系中的位置 {#rare-rarity-position}
+## 稀有（Rare）在稀有度體系中的位置 {#rare-rarity-position}
 
 黃色 `Rare` 是隨機性最強的裝備類型之一。它不像藍色 `Magic` 只給少量詞綴，也不像紫色 `Unique` 有固定 mods；rare 的強度取決於「多個隨機詞綴是否剛好同時命中」。
 
 | 類型 | 詞綴結構 | 判斷方式 |
 | ------ | ------ | ------ |
-| `Magic` | 1 到 2 個隨機 mods | 單一詞綴可能很高，適合補抗性、資源或短板；可看 [Magic Items 魔法裝備指南](nevergrind-online-magic-items.md) |
+| `Magic` | 1 到 2 個隨機 mods | 單一詞綴可能很高，適合補抗性、資源或短板；可看 [魔法裝備（Magic Items）指南](nevergrind-online-magic-items.md) |
 | `Rare` | 2 到 6 個隨機 mods | 看多個詞綴是否同時支援 build |
 | `Unique` | 固定 mods，數值浮動 | 方向穩定，但要追好 roll 與技能命中 |
 | `Set` | 固定 mods，加上多件 bonus | 看 bonus 是否值得犧牲其他部位 |
@@ -44,7 +44,7 @@ Nevergrind Online 的黃色 `Rare` 裝備代表稀有物品，核心特色是 2 
 
 ## 鑑定與取捨
 
-地城裡會掉很多黃裝，不可能每件都慢慢比較。比較實用的做法是先用部位、等級與角色需求做第一輪篩選；若要看 `Identify Scrolls`、`Identify All` 與高價部位判斷，可接著看 [Identification 鑑定指南](nevergrind-online-identification.md)。
+地城裡會掉很多黃裝，不可能每件都慢慢比較。比較實用的做法是先用部位、等級與角色需求做第一輪篩選；若要看 `Identify Scrolls`、`Identify All` 與高價部位判斷，可接著看 [鑑定（Identification）指南](nevergrind-online-identification.md)。
 
 優先帶回或鑑定的候選：
 
@@ -60,7 +60,7 @@ Nevergrind Online 的黃色 `Rare` 裝備代表稀有物品，核心特色是 2 
 - 詞綴方向互相打架，例如物理輸出裝卻全是無用法術詞綴。
 - 沒有補到任何目前缺口，也沒有分身或交易價值。
 
-## Gambling 與經濟策略
+## 賭博（Gambling）與經濟策略
 
 來源摘要把 rare 視為 [gambling](nevergrind-online-gambling.md) 裡常見的「沒中 unique / set 時的安慰獎」，但這不代表它沒價值。特別是 ring、amulet、charm 這類飾品，rare 的詞綴組合仍可能非常實用。
 
@@ -86,7 +86,7 @@ Rare 的戰略價值在於靈活填補。當你為了保留 [Cryptic Paragon（H
 - 如果 rare amulet 同時有 `All Talents +2`、高主屬性與 critical，它可能比普通 roll 的 unique amulet 更適合物理職。
 - 如果 rare gloves 有 tree talents，但你已經有高 roll unique gloves，就要比較 talent、attack、防禦與其他詞綴總價值。
 
-## 判斷一件 Rare 值不值得留 {#rare-keep-checklist}
+## 判斷一件稀有（Rare）裝值不值得留 {#rare-keep-checklist}
 
 1. 是否有 `All Talents`、`Tree Talents`、主技能或核心被動相關詞綴。
 2. 主屬性、抗性、health / mana / spirit、critical、attack 是否補到 build 缺口。

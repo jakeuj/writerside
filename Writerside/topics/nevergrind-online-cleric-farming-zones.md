@@ -1,11 +1,11 @@
 # Nevergrind Online 牧師刷區域指南
 
-牧師 (Cleric) 想提升刷怪效率，優先找不死生物與惡魔密集的任務區域。依 Fandom 牧師頁目前整理，`Deliverance` 對 demons / undead 有額外傷害，目標被 stun 時還會再吃額外傷害；`Condemnation` 也會對 demons / undead 追加傷害。這讓牧師在 undead / demon boss 密集的地城裡，能從治療者切換成很有效率的爆發型施法職。
+牧師（Cleric）想提升刷怪效率，優先找不死生物與惡魔密集的任務區域。依 Fandom 牧師頁目前整理，`Deliverance` 對 demons / undead 有額外傷害，目標被 stun 時還會再吃額外傷害；`Condemnation` 也會對 demons / undead 追加傷害。這讓牧師在 undead / demon boss 密集的地城裡，能從治療者切換成很有效率的爆發型施法職。
 
 - 檢視日期：`2026-05-03`
-- 前置閱讀：[Nevergrind Online 牧師 (Cleric) 指南](nevergrind-online-cleric.md)
-- Build 參考：[Nevergrind Online 牧師 (Scion) 輸出指南](nevergrind-online-cleric-scion-dps.md)
-- 資料來源：來源摘要、Fandom 牧師 (Cleric) 頁、Nevergrind Wiki 的 zone / monster mechanics
+- 前置閱讀：[Nevergrind Online 牧師（Cleric）指南](nevergrind-online-cleric.md)
+- Build 參考：[Nevergrind Online 牧師（Scion）輸出指南](nevergrind-online-cleric-scion-dps.md)
+- 資料來源：來源摘要、Fandom 牧師（Cleric）頁、Nevergrind Wiki 的 zone / monster mechanics
 - 版本提醒：區域名稱、boss 名稱、怪物族類與掉落目標可能因版本或資料來源不同而變動；實際 farm 前請用遊戲內任務列表、怪物 tooltip 與交易市場再確認一次
 
 <tldr>
@@ -16,7 +16,7 @@
 
 ## 先確認技能邏輯
 
-牧師 (Cleric) 刷 undead / demon 區域的價值來自兩個技能判斷：
+牧師（Cleric）刷 undead / demon 區域的價值來自兩個技能判斷：
 
 | 技能 | 對 undead / demon | 其他連動 |
 | ------ | ------ | ------ |
@@ -27,7 +27,7 @@
 | `Holy Sanctuary` | AoE arcane 傷害 | 目前公開資料描述重點是降低自身 threat，不是 stun |
 
 <note>
-<p>來源摘要裡把「神聖聖域」也放進 stun 開場技能，但 Fandom 牧師 (Cleric) 頁目前把 <code>Holy Sanctuary</code> 描述成 AoE 傷害與降低 threat；真正穩定 stun 開窗應優先看 <code>Sacred Revelation</code> 與 <code>Force of Glory</code>。</p>
+<p>來源摘要裡把「神聖聖域」也放進 stun 開場技能，但 Fandom 牧師（Cleric）頁目前把 <code>Holy Sanctuary</code> 描述成 AoE 傷害與降低 threat；真正穩定 stun 開窗應優先看 <code>Sacred Revelation</code> 與 <code>Force of Glory</code>。</p>
 </note>
 
 ## 推薦區域總表
@@ -41,7 +41,7 @@
 
 Nevergrind Wiki 主頁有列出 `Riven Grotto`、`Fahlnir Citadel`、`Ashenflow Peak` 等 zones；`Thule Crypt` 這個名稱來自 來源摘要，公開官方主頁目前沒有同名 zone 條目，所以寫筆記時先保留名稱並提醒進遊戲核對。
 
-## Normal 難度
+## 普通（Normal）難度
 
 Normal 適合先練路線、技能節奏與資源手感，不要一開始就把 farm 當成極限效率測試。
 
@@ -58,7 +58,7 @@ Normal 的重點不是硬刷最快，而是確認三件事：
 - 你能不能保留 stun 給真正危險的目標。
 - 你能不能在戰鬥結束前不把 spirit / mana 打乾。
 
-## Nightmare 難度
+## 惡夢（Nightmare）難度
 
 Nightmare 開始，區域推薦大致不變，但容錯會明顯降低。官方 Monsters 頁提到 champion monsters 會依難度帶 traits；Nightmare 的 champion 壓力比 Normal 更高，因此不要只看怪物族類，也要看 trait 組合。
 
@@ -76,7 +76,7 @@ Nightmare 建議：
 - 常駐 `Seal of Redemption` 與 `Zealous Resolve` 這類長效防禦 buff。
 - 看到抽資源、降治療、延長施法的 trait 時，不要硬拼效率。
 
-## Hell 難度
+## 地獄（Hell）難度
 
 Hell 不是只把血量和傷害放大。Nevergrind Wiki 的 Monsters 頁提到 champion monsters 在 Hell 會有三個 champion traits；這代表同一個地城在 Hell 的體感會被 trait 組合大幅改寫。
 
@@ -123,7 +123,7 @@ Hell farm 的心法是「寧可挑怪，也不要硬拼」。牧師的 plate arm
 
 - 你的版本裡 `Cryptic Paragon` 的實際部位、等級、詞綴與掉落來源。
 - 交易市場或社群是否有更穩定取得方式。
-- 你的 目前流派 是主補、輸出牧師 (Cleric)，還是 undead / demon 特化。
+- 你目前的流派是主補、輸出牧師（Cleric），還是 undead / demon 特化。
 
 補給與詞綴優先看：
 
@@ -131,13 +131,13 @@ Hell farm 的心法是「寧可挑怪，也不要硬拼」。牧師的 plate arm
 - casting haste
 - 生命與 armor
 - blood / poison / fire / cold 等區域對應抗性
-- all skills / all talents / 牧師 (Cleric) 重要技能加成
+- all skills / all talents / 牧師（Cleric）重要技能加成
 - undead / demon 相關特攻詞綴
 
 ## 參考資料
 
-- [Nevergrind Online Wiki: 牧師 (Cleric)](https://nevergrind-online.fandom.com/wiki/Cleric)
+- [Nevergrind Online Wiki: 牧師（Cleric）](https://nevergrind-online.fandom.com/wiki/Cleric)
 - [NeverGrind Online Class List](https://xackery.com/posts/nevergrind/class-list/)
 - [Nevergrind Wiki: Monsters](https://nevergrind.com/wiki/index.php?title=Monsters)
 - [Nevergrind Wiki: Main Page](https://nevergrind.com/wiki/index.php?title=Main_Page)
-- [Nevergrind Wiki: 牧師 (Cleric)](https://nevergrind.com/wiki/index.php?title=Cleric)
+- [Nevergrind Wiki: 牧師（Cleric）](https://nevergrind.com/wiki/index.php?title=Cleric)

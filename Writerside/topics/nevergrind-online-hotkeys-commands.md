@@ -33,7 +33,7 @@
 | 操作 | 預設按鍵 / 動作 | 用途 |
 | ------ | ------ | ------ |
 | 主要技能列 | `1` 到 `9`、`0`、`-`、`=` | 對應 12 個職業技能 |
-| 第二組快捷技能 | `Shift + 1` 到 `Shift + 6` | 部分職業可用，例如遊俠 (Ranger)、盜賊 (Rogue)、暗影騎士 (Shadow Knight)、薩滿 (Shaman)、天騎士 (Templar)、術士 (Warlock)、戰士 (Warrior) |
+| 第二組快捷技能 | `Shift + 1` 到 `Shift + 6` | 部分職業可用，例如遊俠（Ranger）、盜賊（Rogue）、暗影騎士（Shadow Knight）、薩滿（Shaman）、天騎士（Templar）、術士（Warlock）、戰士（Warrior） |
 | 停止施法 | `Spacebar` | 立刻停止目前施法，用於危險轉向、換目標或避免放錯技能 |
 | 交換技能位置 | 右鍵點一個技能圖示，等它閃爍後再右鍵點另一個圖示 | 交換快捷欄位置，讓常用循環更順手 |
 | 選取隊友 | `F1` 到 `F5` | `F1` 選自己，`F2` 到 `F5` 對應隊伍中的其他玩家 |
@@ -89,4 +89,4 @@
 4. 回城後用 `Shift` 比較裝備，再用 `Ctrl + Left Click` 清理商店買賣。
 5. 組隊或交易前先熟悉 `/who`、`/tell`、`/join`、`R` 與 `Up Arrow`。
 
-操作熟了以後，可以接著看 [Tavern 酒館指南](nevergrind-online-tavern.md) 了解出發與 ready 流程，或看 [Merchant 商店指南](nevergrind-online-merchant.md) 整理背包、買賣與 gambling 的後勤節奏。
+操作熟了以後，可以接著看 [酒館（Tavern）指南](nevergrind-online-tavern.md) 了解出發與 ready 流程，或看 [商人（Merchant）指南](nevergrind-online-merchant.md) 整理背包、買賣與 gambling 的後勤節奏。

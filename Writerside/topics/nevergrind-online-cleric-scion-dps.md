@@ -1,22 +1,22 @@
-# Nevergrind Online 牧師 (Scion) 輸出指南
+# Nevergrind Online 牧師（Scion）輸出指南
 
-`Scion` 牧師的核心不是把牧師 (Cleric) 當純補，而是用 `Condemnation`、`Deliverance`、`Sacred Revelation`、`Holy Sanctuary`、`Smite` 與 `Force of Glory` 串出高頻率爆發。這套玩法適合單刷、farm undead / demon 區域，或在隊伍安全時把牧師轉成高火力施法職。
+`Scion` 牧師的核心不是把牧師（Cleric）當純補，而是用 `Condemnation`、`Deliverance`、`Sacred Revelation`、`Holy Sanctuary`、`Smite` 與 `Force of Glory` 串出高頻率爆發。這套玩法適合單刷、farm undead / demon 區域，或在隊伍安全時把牧師轉成高火力施法職。
 
 - 檢視日期：`2026-05-03`
-- 前置閱讀：[Nevergrind Online 牧師 (Cleric) 指南](nevergrind-online-cleric.md)
+- 前置閱讀：[Nevergrind Online 牧師（Cleric）指南](nevergrind-online-cleric.md)
 - 技能速查：[Nevergrind Online 牧師技能參考（Twloli）](nevergrind-online-cleric-skills-twloli.md)
-- 資料來源：來源摘要、Nevergrind Wiki 牧師 (Cleric) 頁、Fandom 牧師 (Cleric) 頁、Xackery class list
+- 資料來源：來源摘要、Nevergrind Wiki 牧師（Cleric）頁、Fandom 牧師（Cleric）頁、Xackery class list
 - 版本提醒：本文的 rank 目標來自 來源摘要，屬於 build 方向，不是永久固定數值；實際點法請以遊戲內 tooltip、目前 patch 與裝備加成後的 breakpoints 為準
 
 <tldr>
 <p>這套配法比較像 <code>Scion</code> 核心加上 <code>Arbiter</code> 的 <code>Condemnation</code>，不是完全只點單一天賦樹。</p>
 <p>爆發窗口是 stun 目標後接 <code>Deliverance</code>，並用 <code>Condemnation</code> 處理 cone / 多目標與 undead / demon。</p>
-<p>裝備先補 all talents / 牧師 (Cleric) skill、casting haste、spirit / mana sustain；追高火力前要先解決資源和 aggro。</p>
+<p>裝備先補 all talents / 牧師（Cleric） skill、casting haste、spirit / mana sustain；追高火力前要先解決資源和 aggro。</p>
 </tldr>
 
-## 這套 build 在追什麼
+## 這套流派（build）在追什麼
 
-官方 Nevergrind Wiki 的牧師 (Cleric) 頁把 `Scion` 天賦列為 `Smite`、`Deliverance`、`Holy Sanctuary`、`Sacred Revelation`、`Mastery: Augury` 等輸出相關能力；`Arbiter` 則包含 `Condemnation`、`Force of Glory`、`Seal of Redemption` 等傷害與防禦工具。
+官方 Nevergrind Wiki 的牧師（Cleric）頁把 `Scion` 天賦列為 `Smite`、`Deliverance`、`Holy Sanctuary`、`Sacred Revelation`、`Mastery: Augury` 等輸出相關能力；`Arbiter` 則包含 `Condemnation`、`Force of Glory`、`Seal of Redemption` 等傷害與防禦工具。
 
 所以 來源摘要裡說的「Scion 高輸出」其實可以理解成：
 
@@ -40,7 +40,7 @@
 | `Arbiter` | `Force of Glory` | 依點數調整 | instant stun / burst / emergency control |
 
 <note>
-<p>Fandom 牧師 (Cleric) 頁目前把 <code>Holy Sanctuary</code> 描述為 AoE arcane damage 並降低自身 threat，不是 stun。若你的遊戲版本或 talent tooltip 顯示它會強化後續傷害，可以把它放在 opener；否則把它當 AoE 與 threat reset 會比較穩。</p>
+<p>Fandom 牧師（Cleric）頁目前把 <code>Holy Sanctuary</code> 描述為 AoE arcane damage 並降低自身 threat，不是 stun。若你的遊戲版本或 talent tooltip 顯示它會強化後續傷害，可以把它放在 opener；否則把它當 AoE 與 threat reset 會比較穩。</p>
 </note>
 
 ## 點數不足時的優先順序
@@ -105,7 +105,7 @@ Force of Glory for stun burst or emergency control
 
 ### 單刷
 
-單刷時 Scion 牧師 (Cleric) 的優勢是自帶治療、plate armor、stun 與 undead / demon 特攻。缺點是資源和冷卻一旦被打亂，輸出節奏會掉很快。
+單刷時 Scion 牧師（Cleric）的優勢是自帶治療、plate armor、stun 與 undead / demon 特攻。缺點是資源和冷卻一旦被打亂，輸出節奏會掉很快。
 
 單刷重點：
 
@@ -116,22 +116,22 @@ Force of Glory for stun burst or emergency control
 
 ### 組隊
 
-組隊時 Scion 牧師 (Cleric) 的輸出很香，但 healer 身分仍然會讓隊伍期待你能救場。
+組隊時 Scion 牧師（Cleric）的輸出很香，但 healer 身分仍然會讓隊伍期待你能救場。
 
 組隊重點：
 
 - tank 還沒抓穩前，不要用高 threat burst 開場。
 - 隊伍缺主補時，輸出循環要主動降速。
-- 有吟遊詩人 (Bard) 或恩路者 / 幻術師 (Enchanter) 提供回魔 / haste 時，Scion 的手感會明顯變好。
+- 有吟遊詩人（Bard）或恩路者 / 幻術師（Enchanter）提供回魔 / haste 時，Scion 的手感會明顯變好。
 - 若隊伍已經有主補，你可以更大膽地追 `Condemnation` 與 `Deliverance` 窗口。
 
 ## 裝備與符文方向
 
 來源摘要提到高階裝備常看 `Tunso` 套裝、`Charlatan's Crest` 與 [Cryptic Paragon（Haniwa）](nevergrind-online-cryptic-paragon-haniwa.md)，目標是 `all talents +2`、屬性傷害、undead damage、casting haste 與 magic find 等加成。這些名稱很適合作為 farm / trade 關鍵字，但實際價值仍要看當前版本 tooltip。
 
-Scion 輸出牧師 (Cleric) 優先看：
+Scion 輸出牧師（Cleric）優先看：
 
-- all talents / all skills / 牧師 (Cleric) 重要技能加成
+- all talents / all skills / 牧師（Cleric）重要技能加成
 - `Condemnation`、`Deliverance`、`Sacred Revelation`、`Holy Sanctuary` 相關加成
 - casting haste
 - spirit / mana sustain
@@ -152,7 +152,7 @@ Scion 輸出牧師 (Cleric) 優先看：
 
 ## 參考資料
 
-- [Nevergrind Wiki: 牧師 (Cleric)](https://nevergrind.com/wiki/index.php?title=Cleric)
-- [Nevergrind Online Wiki: 牧師 (Cleric)](https://nevergrind-online.fandom.com/wiki/Cleric)
+- [Nevergrind Wiki: 牧師（Cleric）](https://nevergrind.com/wiki/index.php?title=Cleric)
+- [Nevergrind Online Wiki: 牧師（Cleric）](https://nevergrind-online.fandom.com/wiki/Cleric)
 - [NeverGrind Online Class List](https://xackery.com/posts/nevergrind/class-list/)
 - [Nevergrind Wiki: Monsters](https://nevergrind.com/wiki/index.php?title=Monsters)

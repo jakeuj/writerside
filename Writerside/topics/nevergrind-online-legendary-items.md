@@ -1,4 +1,4 @@
-# Nevergrind Online Legendary Items 清單筆記
+# Nevergrind Online 傳奇裝備（Legendary Items）清單筆記
 
 這份 Legendary Items 筆記把玩家整理的試算表當成查裝索引：先用 `Quality`、`Slot`、`Proficiency`、`Level` 篩出角色真的能穿的裝備，再看 `All Talents`、`Tree Talents`、`Specific Talent`、`Specific Skill %` 與核心攻防詞綴。資料表目前整理 65 件 legendary，分成 Normal / Exceptional / Elite 三段；實際數值與掉落狀態仍以遊戲內 tooltip 為準。
 
@@ -70,19 +70,19 @@
 
 ## 快速索引
 
-### Normal
+### 普通階級（Normal）
 
 `Death Wish`、`Carpathian Mallet`、`Olivia's Chain of Fealty`、`Goremaggon's Bracer`、`Gaia's Wrath`、`Dyne's Golden Girdle`、`Painbearer's Tome`、`Destructor's Punishment`、`Kingdom's Reckoning`、`Pendleton's Exquisite Knickers`、`Charlemagne's Eminence`、`O'Donnell's Frostweaver`、`Pallbearers's Tome`、`Rasoir Brûlant`、`Icy Punisher`、`Falkland's Refuge`、`McQuaid's Heraldry`、`Crepesculan Lavalier`、`Mercator's Globetrotters`、`Zamza's Glaive`、`Naiko's Cinder`、`Fippy's Shoulder Spikes`
 
-### Exceptional
+### 進階階級（Exceptional）
 
 `Quantum Harmony Crystal`、`Volga's Aurora Robe`、`Fist of the Titan`、`Ameno Ohabari`、`Zebulon's Bloodbath`、`Astrakhan's Griffon Veil`、`Hydrafury Whorl`、`Kylorean Frostshard Bracers`、`Boneclasp`、`Scaled Hierophant Leggings`、`Dhampyre's Lurid Shawl`、`Umkhulu Inkemba`、`Pendant of King Chigowitz`、`Mobius Buster`、`Sinister Bone Sabatons`、`Caitlin's Hawkstrike Bow`、`Victor's Chains of Carthage`、`Goliath's Pendulum`、`Witherstorm`、`Xeronarth's Token`、`Karakum's Orchid`
 
-### Elite
+### 精英階級（Elite）
 
 `Firmament Staff of the Crystal Sea`、`Gloom Harvester`、`Saladin's Makhalib`、`Prodigal Thunderguards`、`Starlight Atmos`、`Treewind's Earthcaller`、`McMurdo's Twig`、`Himmelsdolch`、`Agathor's Wurmslaying Boots`、`Reito Doku`、`Damachi's Halycon Cloak`、`Grove Warder's Greaves`、`Ginjirou's Emerald Sash`、`Fuvu Kifo`、`Argent Dread Wristguards`、`Lunatic's Seal`、`Mosby's Ancient Crown`、`Honored Chains of Mallorca`、`Monark's Abstruse Relic`、`Stone of Miracles`、`Bettencourt's Imbued Pauldron's`、`Beads of Chilaga`
 
-## 怎麼判斷一件 Legendary
+## 怎麼判斷一件傳奇（Legendary）裝
 
 查到一件 legendary 後，建議照這個順序看：
 
@@ -147,8 +147,8 @@
 這份清單是「找名字與篩候選」用；真正做裝備決策時，還是要回到整體角色路線：
 
 - 先用 [物品與戰利品總覽](nevergrind-online-items-loot.md) 判斷 magic find、商店、升級與掉落邏輯。
-- 如果這件裝備有 socket 或會穿很久，再看 [符文 Runes 指南](nevergrind-online-runes.md)。
-- 如果要用 gold 追特定部位或 elite 候選，先看 [Gambling 賭博指南](nevergrind-online-gambling.md)，確認品質階級、圖示與版本規則。
+- 如果這件裝備有 socket 或會穿很久，再看 [符文（Runes）指南](nevergrind-online-runes.md)。
+- 如果要用 gold 追特定部位或 elite 候選，先看 [賭博（Gambling）指南](nevergrind-online-gambling.md)，確認品質階級、圖示與版本規則。
 - Caster / support 類高階武器可以參考 [Cryptic Paragon（Haniwa）](nevergrind-online-cryptic-paragon-haniwa.md) 的判斷方式：名字重要，但 roll、技能、天賦與 build 契合度更重要。
 
 ## 常見誤區

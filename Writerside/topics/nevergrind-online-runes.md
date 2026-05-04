@@ -1,6 +1,6 @@
-# Nevergrind Online 符文 Runes 指南
+# Nevergrind Online 符文（Runes）指南
 
-`Runes` 是 Nevergrind Online 後期裝備客製化的核心：有 sockets 的裝備可以透過 [Blacksmith 鍛造鋪](nevergrind-online-blacksmith.md) 的 enchanting / crafting 相關功能加入 rune bonus，把「好裝」推成更明確服務於 build 的核心裝。鑲嵌前先想清楚這件裝備會穿多久，因為符文通常不是拿來補一件很快會被換掉的過渡裝。
+`Runes` 是 Nevergrind Online 後期裝備客製化的核心：有 sockets 的裝備可以透過 [鐵匠鋪（Blacksmith）](nevergrind-online-blacksmith.md) 的 enchanting / crafting 相關功能加入 rune bonus，把「好裝」推成更明確服務於 build 的核心裝。鑲嵌前先想清楚這件裝備會穿多久，因為符文通常不是拿來補一件很快會被換掉的過渡裝。
 
 - 檢視日期：`2026-05-03`
 - 前置閱讀：[Nevergrind Online 物品與戰利品總覽](nevergrind-online-items-loot.md)
@@ -15,12 +15,12 @@
 
 ## 基本規則
 
-SteamDB 的 2024 Season 2 patch note 提到 [Blacksmith](nevergrind-online-blacksmith.md) 的 enchanting counter 已啟用，可以用 runes 強化 socketed items；2025 patch note 又提到 crafting counter 加入 rune upgrade。另一方面，[Nevergrind Online 攻略DB 的 Craft 頁](https://atelier3.web.fc2.com/ngo/mythical.html) 把 Blacksmith 的 `Craft` tab 描述成製作 Mythical / Rune Words 類裝備的入口。這代表 rune 系統至少要分成兩種情境：一般 socketing 是把 rune bonus 放進裝備，Mythical crafting 則是用 base item 和 runes 觸發 recipe。
+SteamDB 的 2024 Season 2 patch note 提到 [鐵匠鋪（Blacksmith）](nevergrind-online-blacksmith.md) 的 enchanting counter 已啟用，可以用 runes 強化 socketed items；2025 patch note 又提到 crafting counter 加入 rune upgrade。另一方面，[Nevergrind Online 攻略DB 的 Craft 頁](https://atelier3.web.fc2.com/ngo/mythical.html) 把鐵匠鋪（Blacksmith）的 `Craft` tab 描述成製作 Mythical / Rune Words 類裝備的入口。這代表 rune 系統至少要分成兩種情境：一般 socketing 是把 rune bonus 放進裝備，Mythical crafting 則是用 base item 和 runes 觸發 recipe。
 
 | 情境 | 需要什麼 | 結果 | 注意 |
 | ------ | ------ | ------ | ------ |
 | 一般 socketing / enchanting | 已有 sockets 的裝備 + 對應 rune | 裝備獲得 rune tooltip 上的加成 | 來源摘要把鑲嵌視為不可逆；高階 rune 先當成長期投入 |
-| Mythical / Rune Words crafting | 正確 socketed base + recipe runes + gold | 透過 Blacksmith `Craft` tab 產生 Mythical 類裝備 | runes 只要在背包中，不需要先鑲進 base；Craft 後 sockets 會被消耗 |
+| Mythical / Rune Words crafting | 正確 socketed base + recipe runes + gold | 透過 鐵匠鋪（Blacksmith） `Craft` tab 產生 Mythical 類裝備 | runes 只要在背包中，不需要先鑲進 base；Craft 後 sockets 會被消耗 |
 | Rune upgrade via crafting | 依目前 Craft tab 顯示的 rune recipe | 升級 rune 或進行相關 crafting | 成本和可用 recipe 曾被 patch 調整，以目前 UI 為準 |
 
 操作前先確認：
@@ -30,7 +30,7 @@ SteamDB 的 2024 Season 2 patch note 提到 [Blacksmith](nevergrind-online-black
 - 鑲嵌是否不可逆，或目前版本是否有取下 / 覆蓋 / 升級機制。
 - 裝備是否值得長期穿到你投入高階 rune。
 - 這個 rune 是補 build 核心，還是只是看起來數字漂亮。
-- 你現在做的是一般 socketing，還是 [Blacksmith 的 Mythical / Rune Words crafting](nevergrind-online-blacksmith.md#crafting-mythical-rune-words)。
+- 你現在做的是一般 socketing，還是 [鐵匠鋪（Blacksmith）的 Mythical / Rune Words crafting](nevergrind-online-blacksmith.md#crafting-mythical-rune-words)。
 
 <warning>
 <p>來源摘要把 rune 鑲嵌視為永久且不可逆；但 2025 patch note 已提到 rune upgrade via crafting。實務上請先把「已鑲嵌到裝備上的 rune」和「放在背包中當 recipe 素材的 rune」分開看，並在遊戲內確認目前 crafting counter 的實際規則。</p>
@@ -64,11 +64,11 @@ SteamDB 的 2024 Season 2 patch note 提到 [Blacksmith](nevergrind-online-black
 | ------ | ------ | ------ |
 | 打高抗性怪 | `Mael` enemy resistance reduction | 高難度與 boss farm 很重要 |
 | 提高爆發 | `Tae` crit 或屬性傷害 rune | 已有足夠命中 / sustain 時再追；通常排在 resistance reduction 後面 |
-| 缺 casting haste | `Skar` casting speed | 沒有天騎士 (Templar)、恩路者 / 幻術師 (Enchanter)、吟遊詩人 (Bard) 支援時更有感 |
+| 缺 casting haste | `Skar` casting speed | 沒有天騎士（Templar）、恩路者 / 幻術師（Enchanter）、吟遊詩人（Bard）支援時更有感 |
 | 想刷寶 | `Marr` rare drop / magic find 類 | 防具或低風險 farm 裝可考慮 |
 | 魔力不足 | `Gra` 或資源回復詞綴 | 對高頻率施法或混合攻擊 build 有價值 |
 
-對牧師 (Cleric)、德魯伊 (Druid)、薩滿 (Shaman) 這類治療 / 混合職來說，rune 不只是輸出。你可能需要在 healing uptime、resist、casting speed、spirit / mana sustain 與 magic find 之間取捨。
+對牧師（Cleric）、德魯伊（Druid）、薩滿（Shaman）這類治療 / 混合職來說，rune 不只是輸出。你可能需要在 healing uptime、resist、casting speed、spirit / mana sustain 與 magic find 之間取捨。
 
 ## 防具符文
 
@@ -89,17 +89,17 @@ SteamDB 的 2024 Season 2 patch note 提到 [Blacksmith](nevergrind-online-black
 
 | 情境 | 可考慮方向 | 判斷 |
 | ------ | ------ | ------ |
-| 武僧 (Monk)、十字軍 (Crusader) / 聖騎士 (Paladin) 這類資源消耗快的角色 | `Gra` hit 時 mana 回復 | 可放在副手或過渡武器上，穩住沒有隊友支援時的續航 |
+| 武僧（Monk）、十字軍（Crusader） / 聖騎士（Paladin）這類資源消耗快的角色 | `Gra` hit 時 mana 回復 | 可放在副手或過渡武器上，穩住沒有隊友支援時的續航 |
 | 物理職想利用 ranged slot 當工具欄 | 高 sockets bow、`Demetrium's Ballista` 類工具裝 | 低等裝也可能因 sockets 數改寫後期價值 |
-| 巫師 (Wizard) 或施法職需要提高 proc 節奏 | `Rok` weapon speed、`Targ` 全被動或符合 rotation 的 weapon base | 速度與 internal cooldown 是否匹配，比單看 rune 等級更重要 |
+| 巫師（Wizard）或施法職需要提高 proc 節奏 | `Rok` weapon speed、`Targ` 全被動或符合 rotation 的 weapon base | 速度與 internal cooldown 是否匹配，比單看 rune 等級更重要 |
 | 刷寶裝 | `Marr` magic find / rare drop 類 rune | 只在輸出與生存仍安全時才堆，避免 farm 速度反而下降 |
 
 ## 依隊伍配置調整
 
 符文不是單機計算器，它會受到隊伍影響。
 
-- 有吟遊詩人 (Bard) 回魔、haste、資源歌曲時，可以少補一些 sustain。
-- 有恩路者 / 幻術師 (Enchanter) 或法系支援時，casting haste 壓力可能降低。
+- 有吟遊詩人（Bard）回魔、haste、資源歌曲時，可以少補一些 sustain。
+- 有恩路者 / 幻術師（Enchanter）或法系支援時，casting haste 壓力可能降低。
 - 沒有穩定支援時，`Gra`、`Skar`、資源與抗性 rune 的價值上升。
 - 物理隊伍缺命中時，攻擊能力 rune 可能比更多傷害更有用。
 - 高難度 boss farm 中，抗性與資源斷點通常比多一點 magic find 更重要。

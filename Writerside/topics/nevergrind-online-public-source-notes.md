@@ -31,7 +31,7 @@ Nevergrind Online 的攻略資料分散在官方 Steam 頁、Steam 公告、Fand
 | 語言 | Steam 頁列出 14 種語言，包含繁體中文介面 | 台灣玩家不用把 FC2 日文攻略視為唯一入口 |
 | 遊玩型態 | Steam 頁標示 single-player、MMO、online co-op，說明可 solo，也可最多 5 人組隊 | 攻略仍應以 PvE / co-op 為主軸 |
 | 職業與種族 | Steam 頁寫 14 races、14 classes，每職 12 unique skills、30 talents | 職業名稱若和 wiki 不同，先看技能組 |
-| 城鎮建築 | Steam 頁列出 tavern、apothecary、blacksmith、merchant、academy、guild hall、bank | 和現有 Edenburg 筆記一致 |
+| 城鎮建築 | Steam 頁列出 tavern、apothecary、blacksmith、merchant、academy、guild hall、bank | 和現有 Edenburg（伊登堡）筆記一致 |
 | 微交易 | Steam 頁明寫 no micro-payments / no cash shop，inventory / bank 用 gold 解鎖 | 金幣效率仍是核心成長資源 |
 | Season 5 | SteamDB patch note 對到 `Release Version 1.5.1`，時間為 `2026-01-09` | 本次沒有查到可直接對上的 `1.5.2` patch note |
 | Streak mechanic | `1.5.1` patch note 表示 Season 5 停用 streak mechanic | 舊攻略若仍把連續登入 streak 當核心規劃，需修正 |
@@ -46,7 +46,7 @@ Nevergrind Online 的攻略資料分散在官方 Steam 頁、Steam 公告、Fand
 | ------ | ------ |
 | `1.5.2` vs `1.5.1` | 本次公開查核能直接對上的 patch note 是 `1.5.1`。如果其他整理資料提到 `1.5.2`，先當成待驗證。 |
 | `Normal / Heroic` vs `Normal / Nightmare / Hell` | 把它拆成不同層級：角色規則有 `Normal` / `Hardcore`，賽季有 `Ladder` / `Eternal`，任務或地城難度可能另有 `Nightmare` / `Hell` / `Heroic`。 |
-| 天騎士 (Templar) / 術士 (Warlock) 是輸出還是支援 | 視為混合職。官方也說坦克、治療、輸出、支援不是硬性限制，實戰上應看技能組、buff、debuff 與隊伍需求。 |
+| 天騎士（Templar） / 術士（Warlock）是輸出還是支援 | 視為混合職。官方也說坦克、治療、輸出、支援不是硬性限制，實戰上應看技能組、buff、debuff 與隊伍需求。 |
 | FC2 登入獎勵 vs Season 5 停用 streak | 以較新的官方 / Steam patch note 優先。Season 5 後不要把 streak 當固定日課核心。 |
 | Fandom 基礎機制 vs FC2 終局配裝 | Fandom 適合確認 row、shield、loot 顏色、grouping 這類基礎；FC2 適合查 endgame build。兩者用途不同。 |
 | 社群精確掉率數字 | 若官方或遊戲內沒有公式，先當作玩家體感或樣本推估，不要寫成保證公式。 |
@@ -57,10 +57,10 @@ Nevergrind Online 的攻略資料分散在官方 Steam 頁、Steam 公告、Fand
 
 | 類型 | 職業 | 讀法 |
 | ------ | ------ | ------ |
-| 單刷較舒服 | 十字軍 (Crusader)、暗影騎士 (Shadow Knight)、德魯伊 (Druid)、術士 (Warlock) | 通常有自保、自補、控制或穩定傷害；適合不想一開始就被裝備門檻卡住的玩家 |
-| 團隊價值高 | 吟遊詩人 (Bard)、恩路者 / 幻術師 (Enchanter)、牧師 (Cleric)、薩滿 (Shaman) | buff、haste、healing、resist、control 會讓隊伍更穩；單人面板不代表全部價值 |
-| 較吃裝備或熟練度 | 巫師 (Wizard)、戰士 (Warrior) | 上限很高，但更常需要技能 rank、裝備、隊友或防禦資源支撐 |
-| 建議熟悉系統後再開 | 盜賊 (Rogue) | 後期可有定位，但前期若缺 AoE、自補或資源，單刷體感可能偏硬 |
+| 單刷較舒服 | 十字軍（Crusader）、暗影騎士（Shadow Knight）、德魯伊（Druid）、術士（Warlock） | 通常有自保、自補、控制或穩定傷害；適合不想一開始就被裝備門檻卡住的玩家 |
+| 團隊價值高 | 吟遊詩人（Bard）、恩路者 / 幻術師（Enchanter）、牧師（Cleric）、薩滿（Shaman） | buff、haste、healing、resist、control 會讓隊伍更穩；單人面板不代表全部價值 |
+| 較吃裝備或熟練度 | 巫師（Wizard）、戰士（Warrior） | 上限很高，但更常需要技能 rank、裝備、隊友或防禦資源支撐 |
+| 建議熟悉系統後再開 | 盜賊（Rogue） | 後期可有定位，但前期若缺 AoE、自補或資源，單刷體感可能偏硬 |
 
 想看完整職業、裝甲階級與技能機制，回到 [職業系統總覽](nevergrind-online-classes.md)。想看從新手走到 `Hell` / `Heroic` 的資源順序，回到 [進度路線與 FC2 攻略讀法](nevergrind-online-progression-roadmap.md)。
 

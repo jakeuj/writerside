@@ -1,22 +1,22 @@
 # Nevergrind Online 地城冒險與任務攻略
 
-Nevergrind Online 的地城冒險可以看成一條循環：從 Edenburg 的 [Tavern 酒館](nevergrind-online-tavern.md) 選任務，進入隨機生成的地城，依怪物 traits、站位與 aggro 控制戰鬥，打倒 boss 後再回城鑑定、整理與投資下一輪裝備。
+Nevergrind Online 的地城冒險可以看成一條循環：從 Edenburg（伊登堡）的 [酒館（Tavern）](nevergrind-online-tavern.md) 選任務，進入隨機生成的地城，依怪物 traits、站位與 aggro 控制戰鬥，打倒 boss 後再回城鑑定、整理與投資下一輪裝備。
 
 - 檢視日期：`2026-05-03`
 - 分類：[Nevergrind Online（絕不刷怪）遊戲指南](nevergrind-online-guide.md)
 - 延伸閱讀：[怪物分類與 Traits](nevergrind-online-monsters.md)、[物品與戰利品總覽](nevergrind-online-items-loot.md)、[熱鍵與聊天指令速查](nevergrind-online-hotkeys-commands.md)
 - 資料來源：來源摘要、來源資料整理、Nevergrind Wiki、Fandom game mechanics 與既有筆記交叉整理
-- 版本提醒：任務數量、難度名稱、掉落偏好、`/players` 類指令與 boss 圖示可能因版本不同而改變；實際操作請以目前遊戲內 Tavern、地圖 UI、tooltip 與 `/help` 為準
+- 版本提醒：任務數量、難度名稱、掉落偏好、`/players` 類指令與 boss 圖示可能因版本不同而改變；實際操作請以目前遊戲內 酒館（Tavern）、地圖 UI、tooltip 與 `/help` 為準
 
 <tldr>
-<p>地城不是隨便進去打完就好；先在 Tavern 看任務、掉落偏好、難度與隊伍狀態，再出發。</p>
+<p>地城不是隨便進去打完就好；先在酒館（Tavern）看任務、掉落偏好、難度與隊伍狀態，再出發。</p>
 <p>Heroic 與多人隊伍通常提高風險與收益；solo 使用舊攻略提到的玩家數調整指令前，先確認目前 <code>/help</code> 是否仍支援。</p>
 <p>進地城後先看 con、monster type、traits、前後排與 boss 圖示，再決定開場技能、控制與集火順序。</p>
 </tldr>
 
 ## 出發前先決定目標
 
-地城的第一個決策不在怪物面前，而是在 Tavern 選任務時。來源摘要提到任務數量超過 100 種，且每項任務有特定環境、boss 與掉落偏好；這讓任務選擇本身就是 farming 計畫的一部分。
+地城的第一個決策不在怪物面前，而是在酒館（Tavern）選任務時。來源摘要提到任務數量超過 100 種，且每項任務有特定環境、boss 與掉落偏好；這讓任務選擇本身就是 farming 計畫的一部分。
 
 | 決策 | 問自己什麼 | 影響 |
 | ------ | ------ | ------ |
@@ -28,7 +28,7 @@ Nevergrind Online 的地城冒險可以看成一條循環：從 Edenburg 的 [Ta
 
 如果目標是刷寶，不要只選「目前打得過」的任務。更好的問法是：這場任務的怪物類型、掉落偏好與 boss 風險，是否剛好服務我現在缺的裝備部位或 build 缺口。
 
-## Normal、Heroic 與隊伍倍率
+## 普通（Normal）、英雄（Heroic）與隊伍倍率
 
 來源摘要把難度整理為 `Normal` 與 `Heroic`：Heroic 怪物更強、數量更多，但掉寶率、金幣或 magic find 期待也更高。實務上可以這樣理解：
 
@@ -41,7 +41,7 @@ Nevergrind Online 的地城冒險可以看成一條循環：從 Edenburg 的 [Ta
 | solo 想調整難度 | 舊攻略可能提到 `/players 5` 類指令；先以目前遊戲內 `/help` 為準 |
 
 <warning>
-<p><code>/players 5</code> 這類指令在不同版本、伺服器規則或資料來源中可能不一致。如果目前遊戲內 <code>/help</code>、Tavern tips 或官方說明沒有列出，不要把它當成一定可用的 farm 基礎。</p>
+<p><code>/players 5</code> 這類指令在不同版本、伺服器規則或資料來源中可能不一致。如果目前遊戲內 <code>/help</code>、酒館（Tavern） tips 或官方說明沒有列出，不要把它當成一定可用的 farm 基礎。</p>
 </warning>
 
 ## 地圖導航與探索
@@ -78,7 +78,7 @@ Nevergrind Online 的地城冒險可以看成一條循環：從 Edenburg 的 [Ta
 | Con color | 顯示怪物與玩家的等級差距；紅 con 通常代表命中與承傷壓力都很高 | 高 con 先保守，避免開場搶怪或硬讀條 |
 | 名字背景 / 階級 | Champion、Unique、Boss 等通常有更高壓力與更好掉落期待 | 先看 traits，再決定控制與集火 |
 | Monster class | 怪物可能使用類似玩家職業的技能 | 看到 caster、rogue、healer 類敵人時，優先注意打斷或集火 |
-| Species / type | Undead、Demon、Dragonkin 等會影響特攻詞綴與技能加成 | 牧師 (Cleric)、特攻裝與 farming route 會特別在意 |
+| Species / type | Undead、Demon、Dragonkin 等會影響特攻詞綴與技能加成 | 牧師（Cleric）、特攻裝與 farming route 會特別在意 |
 | Mods / traits | Rampage、Bloodlusted、Armored、Drain、Enchanted 等會改變整場戰鬥 | 依 trait 改變擊殺順序與控制 |
 
 完整怪物階級、con、species 與 traits 可看 [怪物分類與 Traits](nevergrind-online-monsters.md)。
@@ -116,9 +116,9 @@ Nevergrind Online 的地城冒險可以看成一條循環：從 Edenburg 的 [Ta
 | `Stagger` | 重置或延後普通攻擊節奏，拉長特殊技能間隔 | 攻速高、技能循環壓力大的怪 |
 | Slow / haste control | 降低怪物攻擊與技能循環頻率 | 會靠攻擊次數推進技能循環的敵人 |
 
-如果隊伍裡有恩路者 / 幻術師 (Enchanter)、吟遊詩人 (Bard)、薩滿 (Shaman) 或其他控制 / debuff 角色，不要只看個人 DPS。這些職業常常是讓地城從「硬扛」變成「可控」的關鍵。
+如果隊伍裡有恩路者 / 幻術師（Enchanter）、吟遊詩人（Bard）、薩滿（Shaman）或其他控制 / debuff 角色，不要只看個人 DPS。這些職業常常是讓地城從「硬扛」變成「可控」的關鍵。
 
-## 高風險 traits 優先順序
+## 高風險特性（traits）優先順序
 
 怪物 mods 會顯示在血條下方，看到下列 traits 時要先決定誰負責處理：
 
@@ -145,10 +145,10 @@ Nevergrind Online 的地城冒險可以看成一條循環：從 Edenburg 的 [Ta
 打完 boss 後：
 
 - 背包滿時，若目前版本允許，可回城清理、鑑定，再回地城撿剩餘掉落；實際行為請以目前任務與地城保留規則為準。
-- 到 [Apothecary](nevergrind-online-apothecary.md) 使用 `Identify All` 類服務處理未鑑定裝。
+- 到 [藥劑店（Apothecary）](nevergrind-online-apothecary.md) 使用 `Identify All` 類服務處理未鑑定裝。
 - 把高價 set、unique、craft base、抗性裝、分身裝放銀行。
-- 到 [Merchant](nevergrind-online-merchant.md) 清理低價物、升背包，或把多餘 gold 留給 [Gambling](nevergrind-online-gambling.md)。
-- 對長期裝才考慮 [Runes](nevergrind-online-runes.md) 或 [Blacksmith crafting](nevergrind-online-blacksmith-crafting-recipe-research.md)。
+- 到 [商人（Merchant）](nevergrind-online-merchant.md) 清理低價物、升背包，或把多餘 gold 留給 [賭博（Gambling）](nevergrind-online-gambling.md)。
+- 對長期裝才考慮 [符文（Runes）](nevergrind-online-runes.md) 或 [鐵匠鋪（Blacksmith） crafting](nevergrind-online-blacksmith-crafting-recipe-research.md)。
 
 ## 新手地城檢查表
 
@@ -161,7 +161,7 @@ Nevergrind Online 的地城冒險可以看成一條循環：從 Edenburg 的 [Ta
 
 ## 參考資料
 
-- [Tavern 酒館指南](nevergrind-online-tavern.md)
+- [酒館（Tavern）指南](nevergrind-online-tavern.md)
 - [怪物分類與 Traits](nevergrind-online-monsters.md)
 - [熱鍵與聊天指令速查](nevergrind-online-hotkeys-commands.md)
 - [物品與戰利品總覽](nevergrind-online-items-loot.md)

@@ -35,11 +35,11 @@
 | 社群稱呼 | `Haniwa`、`ハニワ`、哈尼瓦 |
 | 類型 | 高階 unique weapon，1H blunt / caster focus 方向 |
 | 等級 | 來源摘要為 75；日文 wiki 目前列 70 |
-| 適合角色 | 牧師 (Cleric)、德魯伊 (Druid)、薩滿 (Shaman)、吟遊詩人 (Bard)、恩路者 / 幻術師 (Enchanter)、巫師 (Wizard)、死靈法師 (Necromancer) / 術士 (Warlock)、魔法師 (Magician) / 天騎士 (Templar) 等施法職 / 支援流派 |
+| 適合角色 | 牧師（Cleric）、德魯伊（Druid）、薩滿（Shaman）、吟遊詩人（Bard）、恩路者 / 幻術師（Enchanter）、巫師（Wizard）、死靈法師（Necromancer） / 術士（Warlock）、魔法師（Magician） / 天騎士（Templar）等施法職 / 支援流派 |
 | 核心用途 | 提升技能 / 天賦、施法節奏、全抗、全法術傷害與 undead farm 效率 |
 
 <note>
-<p>Fandom 與官方 wiki 對職業名稱有差異，例如術士 (Warlock) / 死靈法師 (Necromancer)、天騎士 (Templar) / 魔法師 (Magician) 這類命名不一定一一對應。本文用「施法職 / 支援流派」描述適用性，避免把舊名詞硬套到當前官方 class list。</p>
+<p>Fandom 與官方 wiki 對職業名稱有差異，例如術士（Warlock） / 死靈法師（Necromancer）、天騎士（Templar） / 魔法師（Magician）這類命名不一定一一對應。本文用「施法職 / 支援流派」描述適用性，避免把舊名詞硬套到當前官方 class list。</p>
 </note>
 
 ## 為什麼它被當成神兵
@@ -50,7 +50,7 @@
 - 提供 casting haste，讓施法循環更順。
 - 提供 all spell damage，對多元素或多技能 build 特別友善。
 - 提供 all resist，讓輸出裝不至於完全犧牲生存。
-- 提供 undead damage，對 `Riven Grotto`、crypt 系區域與牧師 (Cleric) / 聖騎士 (Paladin) 類 undead farm 很有價值。
+- 提供 undead damage，對 `Riven Grotto`、crypt 系區域與牧師（Cleric） / 聖騎士（Paladin）類 undead farm 很有價值。
 - 作為 1H weapon，可以和 off-hand、shield 或雙持配置形成不同玩法。
 
 它不是單一職業專武，而是一把「很多法系都能找到用途」的高階泛用裝。也因此，真正稀有的不是掉到一把 Haniwa，而是掉到一把剛好對你的職業、技能和裝備配置都對的 Haniwa。
@@ -59,14 +59,14 @@
 
 | 職業 / 流派 | 追求重點 |
 | ------ | ------ |
-| 牧師 (Cleric) | `Condemnation`、`Deliverance`、`Sacred Revelation`、undead damage、casting haste |
-| 德魯伊 (Druid) | 如果隨機技能 roll 命中 `Tornado` 或核心元素技能，價值會大幅提高 |
-| 巫師 (Wizard) | 追 lightning / fire / ice 核心技能、casting haste、all spell damage；高階配置可比較雙持或切武器 |
-| 恩路者 / 幻術師 (Enchanter) | 若 roll 到 `Superior Enthrall` 或核心控制 / haste 相關技能，會直接改善控制與支援節奏 |
-| 薩滿 (Shaman) | 補基礎火力、DoT / spell damage、資源與技能等級；雙持玩法要看版本與 proficiency |
-| 吟遊詩人 (Bard) | 看歌曲、support skill、magic find 與 all talents / all skills 是否支援目前定位 |
+| 牧師（Cleric） | `Condemnation`、`Deliverance`、`Sacred Revelation`、undead damage、casting haste |
+| 德魯伊（Druid） | 如果隨機技能 roll 命中 `Tornado` 或核心元素技能，價值會大幅提高 |
+| 巫師（Wizard） | 追 lightning / fire / ice 核心技能、casting haste、all spell damage；高階配置可比較雙持或切武器 |
+| 恩路者 / 幻術師（Enchanter） | 若 roll 到 `Superior Enthrall` 或核心控制 / haste 相關技能，會直接改善控制與支援節奏 |
+| 薩滿（Shaman） | 補基礎火力、DoT / spell damage、資源與技能等級；雙持玩法要看版本與 proficiency |
+| 吟遊詩人（Bard） | 看歌曲、support skill、magic find 與 all talents / all skills 是否支援目前定位 |
 
-對 [牧師 (Scion) 輸出](nevergrind-online-cleric-scion-dps.md) 來說，Haniwa 的價值在於同時補輸出、節奏與 undead farm；對 [牧師刷區域](nevergrind-online-cleric-farming-zones.md) 來說，它則是把 undead 特攻路線推到更高效率的候選裝備。
+對 [牧師（Scion）輸出](nevergrind-online-cleric-scion-dps.md) 來說，Haniwa 的價值在於同時補輸出、節奏與 undead farm；對 [牧師刷區域](nevergrind-online-cleric-farming-zones.md) 來說，它則是把 undead 特攻路線推到更高效率的候選裝備。
 
 ## 取得方式
 
@@ -102,8 +102,8 @@ Haniwa 這類高價值 weapon 通常值得認真規劃 [符文](nevergrind-onlin
 常見方向：
 
 - caster：優先看 `Mael` 類 enemy resistance reduction、casting haste、crit、all spell damage。
-- 牧師 (Cleric)：補 `Condemnation` / `Deliverance` 相關技能、undead damage、spirit / mana sustain。
-- 德魯伊 (Druid) / 巫師 (Wizard)：依主要元素選擇傷害、resistance reduction 或 casting speed。
+- 牧師（Cleric）：補 `Condemnation` / `Deliverance` 相關技能、undead damage、spirit / mana sustain。
+- 德魯伊（Druid） / 巫師（Wizard）：依主要元素選擇傷害、resistance reduction 或 casting speed。
 - 支援職：如果主職責是 buff / control，技能等級與資源穩定性可能比純傷害更重要。
 - farm 裝：已有足夠輸出與生存時，再考慮 magic find 類方向。
 
