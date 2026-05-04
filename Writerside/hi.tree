@@ -573,6 +573,7 @@
                     <toc-element topic="nevergrind-online-core-structure.md" toc-title="系統總覽與核心架構" />
                     <toc-element topic="nevergrind-online-progression-roadmap.md" toc-title="進度路線與 FC2 攻略讀法" />
                     <toc-element topic="nevergrind-online-fc2-link-index.md" toc-title="FC2 攻略 DB 連結索引" />
+                    <toc-element topic="nevergrind-online-fandom-link-index.md" toc-title="Fandom Wiki 連結索引" />
                     <toc-element topic="nevergrind-online-terminology.md" toc-title="中英名詞對照" />
                     <toc-element topic="nevergrind-online-public-source-notes.md" toc-title="來源判讀與疑難排解" />
                 </toc-element>
