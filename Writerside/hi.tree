@@ -568,76 +568,7 @@
                 <toc-element topic="PoE-中文化.md" />
                 <toc-element topic="PoeChinese3-mac.md" toc-title="PoeChinese3 mac 中文化 (Fork)" />
             </toc-element>
-            <toc-element topic="nevergrind-online-guide.md" toc-title="Nevergrind Online 指南">
-                <toc-element toc-title="入門與閱讀路線">
-                    <toc-element topic="nevergrind-online-core-structure.md" toc-title="系統總覽與核心架構" />
-                    <toc-element topic="nevergrind-online-progression-roadmap.md" toc-title="進度路線與 FC2 攻略讀法" />
-                    <toc-element topic="nevergrind-online-fc2-link-index.md" toc-title="FC2 攻略 DB 連結索引" />
-                    <toc-element topic="nevergrind-online-fc2-general-reference.md" toc-title="FC2 一般攻略全量參考" />
-                    <toc-element topic="nevergrind-online-fandom-link-index.md" toc-title="Fandom Wiki 連結索引" />
-                    <toc-element topic="nevergrind-online-terminology.md" toc-title="中英名詞對照" />
-                    <toc-element topic="nevergrind-online-public-source-notes.md" toc-title="來源判讀與疑難排解" />
-                </toc-element>
-                <toc-element toc-title="冒險與操作">
-                    <toc-element topic="nevergrind-online-hotkeys-commands.md" toc-title="熱鍵與聊天指令" />
-                    <toc-element topic="nevergrind-online-dungeons.md" toc-title="地城冒險與任務">
-                        <toc-element topic="nevergrind-online-monsters.md" toc-title="怪物分類與特性" />
-                    </toc-element>
-                </toc-element>
-                <toc-element toc-title="城鎮與後勤">
-                    <toc-element topic="nevergrind-online-edenburg.md" toc-title="Edenburg（伊登堡）城鎮設施">
-                        <toc-element topic="nevergrind-online-tavern.md" toc-title="酒館（Tavern）" />
-                        <toc-element topic="nevergrind-online-apothecary.md" toc-title="藥劑店（Apothecary）" />
-                        <toc-element topic="nevergrind-online-merchant.md" toc-title="商人（Merchant）" />
-                        <toc-element topic="nevergrind-online-blacksmith.md" toc-title="鐵匠鋪（Blacksmith）">
-                            <toc-element topic="nevergrind-online-blacksmith-crafting-recipe-research.md" toc-title="製作與配方" />
-                        </toc-element>
-                    </toc-element>
-                </toc-element>
-                <toc-element topic="nevergrind-online-classes.md" toc-title="職業與流派">
-                    <toc-element topic="nevergrind-online-fc2-signature-skills.md" toc-title="FC2 代表技能速查" />
-                    <toc-element topic="nevergrind-online-fc2-class-build-index.md" toc-title="FC2 職業 Build 摘要" />
-                    <toc-element topic="nevergrind-online-crusader.md" toc-title="十字軍（Crusader）" />
-                    <toc-element topic="nevergrind-online-healers.md" toc-title="治療者總覽">
-                        <toc-element topic="nevergrind-online-cleric.md" toc-title="牧師（Cleric）">
-                            <toc-element topic="nevergrind-online-cleric-skills-twloli.md" toc-title="牧師技能參考 Twloli" />
-                            <toc-element topic="nevergrind-online-cleric-scion-dps.md" toc-title="牧師（Scion）輸出" />
-                            <toc-element topic="nevergrind-online-cleric-farming-zones.md" toc-title="牧師刷區域">
-                                <toc-element topic="nevergrind-online-fahlnir-citadel.md" toc-title="Fahlnir Citadel（法爾尼爾城堡）" />
-                            </toc-element>
-                        </toc-element>
-                    </toc-element>
-                </toc-element>
-                <toc-element topic="nevergrind-online-items-loot.md" toc-title="物品與戰利品">
-                    <toc-element toc-title="收集與判斷">
-                        <toc-element topic="nevergrind-online-equipment-collection.md" toc-title="裝備收集路線" />
-                        <toc-element topic="nevergrind-online-identification.md" toc-title="鑑定（Identification）" />
-                    </toc-element>
-                    <toc-element toc-title="裝備稀有度">
-                        <toc-element topic="nevergrind-online-magic-items.md" toc-title="魔法裝備（Magic Items）" />
-                        <toc-element topic="nevergrind-online-rare-items.md" toc-title="稀有裝備（Rare Items）" />
-                        <toc-element topic="nevergrind-online-unique-items.md" toc-title="獨特裝備（Unique Items）" />
-                        <toc-element topic="nevergrind-online-fc2-selected-unique-items.md" toc-title="FC2 嚴選 Unique 裝備" />
-                        <toc-element topic="nevergrind-online-fc2-unique-weapons.md" toc-title="FC2 Unique 武器全量表" />
-                        <toc-element topic="nevergrind-online-fc2-unique-armor.md" toc-title="FC2 Unique 防具全量表" />
-                        <toc-element topic="nevergrind-online-fc2-unique-accessories.md" toc-title="FC2 Unique 飾品全量表" />
-                        <toc-element topic="nevergrind-online-set-items.md" toc-title="套裝（Set Items）" />
-                        <toc-element topic="nevergrind-online-fc2-set-normal.md" toc-title="FC2 Set Normal 全量表" />
-                        <toc-element topic="nevergrind-online-fc2-set-exceptional.md" toc-title="FC2 Set Exceptional 全量表" />
-                        <toc-element topic="nevergrind-online-fc2-set-elite.md" toc-title="FC2 Set Elite 全量表" />
-                        <toc-element topic="nevergrind-online-legendary-items.md" toc-title="傳奇裝備（Legendary Items）" />
-                        <toc-element topic="nevergrind-online-fc2-legendary-table.md" toc-title="FC2 Legendary 全量表" />
-                        <toc-element topic="nevergrind-online-cryptic-paragon-haniwa.md" toc-title="Cryptic Paragon（Haniwa）" />
-                    </toc-element>
-                    <toc-element toc-title="金錢與強化">
-                        <toc-element topic="nevergrind-online-money-efficiency.md" toc-title="金錢效率與賣裝" />
-                        <toc-element topic="nevergrind-online-gambling.md" toc-title="賭博（Gambling）" />
-                        <toc-element topic="nevergrind-online-runes.md" toc-title="符文（Runes）" />
-                        <toc-element topic="nevergrind-online-fc2-rune-craft-reference.md" toc-title="FC2 Rune Craft 全量參考" />
-                        <toc-element topic="nevergrind-online-fc2-recipes.md" toc-title="FC2 Recipe 全量表" />
-                    </toc-element>
-                </toc-element>
-            </toc-element>
+            <toc-element topic="nevergrind-online-guide.md" toc-title="Nevergrind Online 中文攻略" />
             <toc-element topic="evennia-mud-development.md" toc-title="Evennia MUD 開發" />
             <toc-element topic="Merc-FJU-3.0-MUD-AREA-重建工作流筆記.md" toc-title="Merc-FJU 3.0 MUD Area Rebuild" />
         </toc-element>
