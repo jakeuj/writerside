@@ -2,9 +2,9 @@
 
 `Runes` 是 Nevergrind Online 後期裝備客製化的核心：有 sockets 的裝備可以透過 [鐵匠鋪（Blacksmith）](nevergrind-online-blacksmith.md) 的 enchanting / crafting 相關功能加入 rune bonus，把「好裝」推成更明確服務於 build 的核心裝。鑲嵌前先想清楚這件裝備會穿多久，因為符文通常不是拿來補一件很快會被換掉的過渡裝。
 
-- 檢視日期：`2026-05-05`
+- 檢視日期：`2026-05-20`
 - 前置閱讀：[Nevergrind Online 物品與戰利品總覽](nevergrind-online-items-loot.md)
-- 資料來源：來源摘要、SteamDB patch notes、Nevergrind Online 日文 wiki rune list、FC2 / atelier3 攻略 DB rune、rune select、craft、set 與 unique 頁
+- 資料來源：目前遊戲內 Craft tab / DevTools DOM snapshot、Val Rune 截圖確認、`ngo.bin` rune name 字串檢查、來源摘要、SteamDB patch notes、Nevergrind Online 日文 wiki rune list、FC2 / atelier3 攻略 DB rune、rune select、craft、set 與 unique 頁
 - 版本提醒：符文效果、可鑲嵌部位、是否可取下、是否可升級，可能會隨 crafting 系統更新；點確認前請以目前遊戲內 UI 和 tooltip 為準
 
 <tldr>
@@ -40,7 +40,51 @@ SteamDB 的 2024 Season 2 patch note 提到 [鐵匠鋪（Blacksmith）](nevergri
 
 日文 wiki 目前列出一批 rune 名稱與等級，例如 `Gra`、`Gart`、`Ruck`、`Nag`、`Rok`、`Skar`、`Targ`、`Tae`、`Rath`、`Marr`、`Cros`、`Mael` 等。來源摘要則進一步整理了這些符文在不同職業與部位上的使用方向。
 
-本文把它們當成 build 策略筆記，不把每個 rune 的數值寫死。真正要鑲嵌前，仍要看當前 tooltip。
+本文把它們當成 build 策略筆記。下面的升級表是 2026-05-20 以目前遊戲內 UI 重新抓取的確認版；完整結構化資料維護在 `nevergrind-online-rune-upgrades.json`。
+
+## 目前遊戲內升級表 {#current-rune-upgrade-table}
+
+Craft tab 的 rune upgrade DOM 目前只有 32 筆可合成項目，從 `Shir` 到 `Fyrm`。`Val` 不在 Craft tab 清單中，依截圖確認作為第一顆不可合成符文補入；因此目前可確認的 active rune catalog 是 33 種。
+
+<note>
+<p>本地 rune 圖片目錄雖然有 <code>34.webp</code>、<code>35.webp</code>、<code>37.webp</code> 到 <code>41.webp</code>，但缺 <code>36.webp</code>，且目前 UI 與 <code>ngo.bin</code> 可讀字串只確認 <code>Val Rune</code> 到 <code>Fyrm Rune</code>。這些 image-only 編號不應直接寫成可用 rune。</p>
+</note>
+
+| # | Rune | 要求等級 | 升級材料 |
+| ---: | --- | ---: | --- |
+| 1 | `Val` | 11 | 不可合成 |
+| 2 | `Shir` | 11 | 3x `Val` |
+| 3 | `Gra` | 13 | 3x `Shir` |
+| 4 | `Naz` | 13 | 3x `Gra` |
+| 5 | `Gaj` | 15 | 3x `Naz` |
+| 6 | `Iza` | 15 | 3x `Gaj` |
+| 7 | `Dorn` | 17 | 3x `Iza` |
+| 8 | `Sar` | 19 | 3x `Dorn` |
+| 9 | `Nix` | 21 | 3x `Sar` |
+| 10 | `Syn` | 23 | 3x `Nix` |
+| 11 | `Cher` | 25 | 3x `Syn` |
+| 12 | `Gart` | 27 | 3x `Cher` |
+| 13 | `Ruck` | 29 | 3x `Gart` |
+| 14 | `Nag` | 31 | 3x `Ruck` |
+| 15 | `Rok` | 33 | 3x `Nag` |
+| 16 | `Vox` | 35 | 3x `Rok` |
+| 17 | `Skar` | 37 | 3x `Vox` |
+| 18 | `Targ` | 39 | 3x `Skar` |
+| 19 | `Tae` | 41 | 3x `Targ` |
+| 20 | `Rath` | 43 | 3x `Tae` |
+| 21 | `Thex` | 45 | 3x `Rath` |
+| 22 | `Marr` | 47 | 2x `Thex` |
+| 23 | `Cros` | 49 | 2x `Marr` |
+| 24 | `Fael` | 51 | 2x `Cros` |
+| 25 | `Mir` | 53 | 2x `Fael` |
+| 26 | `Karg` | 55 | 2x `Mir` |
+| 27 | `Vis` | 57 | 2x `Karg` |
+| 28 | `Hosh` | 59 | 2x `Vis` |
+| 29 | `Nex` | 61 | 2x `Hosh` |
+| 30 | `Phar` | 63 | 2x `Nex` |
+| 31 | `Goz` | 65 | 2x `Phar` |
+| 32 | `Mael` | 67 | 2x `Goz` |
+| 33 | `Fyrm` | 69 | 2x `Mael` |
 
 ## FC2 選擇速查 {#rune-fc2-selection}
 

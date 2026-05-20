@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "game": "Nevergrind Online",
+    "observedAt": "2026-05-20",
+    "source": [
+      "DevTools DOM snapshot from #craft-wrap .craft-item.item-rune on the live nevergrind-online page",
+      "Manual screenshot confirmation for Val Rune, which is not craftable and does not appear in the crafting DOM",
+      "ngo.bin readable string check confirming rune names from Val Rune through Fyrm Rune"
+    ],
+    "notes": [
+      "The crafting DOM contains 32 craftable rune upgrades: Shir through Fyrm.",
+      "Val is included as runeNo 1 with recipe null because it is the base rune and is not craftable.",
+      "Image-only rune files beyond runeNo 33 are not included because the active UI/source strings do not expose matching rune names or recipes; 36.webp is missing from the local image directory."
+    ]
+  },
+  "runes": [
+    {
+      "runeNo": 1,
+      "name": "Val",
+      "requiredLevel": 11,
+      "image": "images/items/rune/1.webp",
+      "recipe": null,
+      "socketEffects": {
+        "oneHandOrAmulet": "+7 攻擊",
+        "twoHand": "+14 攻擊",
+        "armor": "+7 防禦"
+      },
+      "source": "manual screenshot confirmation; Val is not craftable and is not present in crafting DOM"
+    },
+    {
+      "runeNo": 2,
+      "name": "Shir",
+      "requiredLevel": 11,
+      "image": "images/items/rune/2.webp",
+      "recipe": {
+        "count": 3,
+        "ingredientRuneNo": 1,
+        "ingredientName": "Val"
+      },
+      "socketEffects": {
+        "oneHandOrAmulet": "+50 攻擊",
+        "twoHand": "+100 攻擊",
+        "armor": "+8 生命 殺死怪物後回復"
+      },
+      "source": "DevTools DOM: #craft-wrap .craft-item.item-rune"
+    },
+    {
+      "runeNo": 3,
+      "name": "Gra",
+      "requiredLevel": 13,
+      "image": "images/items/rune/3.webp",
+      "recipe": {
+        "count": 3,
+        "ingredientRuneNo": 2,
+        "ingredientName": "Shir"
+      },
+      "socketEffects": {
+        "oneHandOrAmulet": "+10 普攻吸藍",
+        "twoHand": "+20 普攻吸藍",
+        "armor": "+8 法力 殺死怪物後回復"
+      },
+      "source": "DevTools DOM: #craft-wrap .craft-item.item-rune"
+    },
+    {
+      "runeNo": 4,
+      "name": "Naz",
+      "requiredLevel": 13,
+      "image": "images/items/rune/4.webp",
+      "recipe": {
+        "count": 3,
+        "ingredientRuneNo": 3,
+        "ingredientName": "Gra"
+      },
+      "socketEffects": {
+        "oneHandOrAmulet": "+12 普攻吸血",
+        "twoHand": "+24 普攻吸血",
+        "armor": "+7% 所有狀態抗性"
+      },
+      "source": "DevTools DOM: #craft-wrap .craft-item.item-rune"
+    },
+    {
+      "runeNo": 5,
+      "name": "Gaj",
+      "requiredLevel": 15,
+      "image": "images/items/rune/5.webp",
+      "recipe": {
+        "count": 3,
+        "ingredientRuneNo": 4,
+        "ingredientName": "Naz"
+      },
+      "socketEffects": {
+        "oneHandOrAmulet": "+15 全部 法術強度",
+        "twoHand": "+30 全部 法術強度",
+        "armor": "+7% 所有抗性"
+      },
+      "source": "DevTools DOM: #craft-wrap .craft-item.item-rune"
+    },
+    {
+      "runeNo": 6,
+      "name": "Iza",
+      "requiredLevel": 15,
+      "image": "images/items/rune/6.webp",
+      "recipe": {
+        "count": 3,
+        "ingredientRuneNo": 5,
+        "ingredientName": "Gaj"
+      },
+      "socketEffects": {
+        "oneHandOrAmulet": "+12 血 傷害 近戰",
+        "twoHand": "+24 血 傷害 近戰",
+        "armor": "+30% 抵抗血"
+      },
+      "source": "DevTools DOM: #craft-wrap .craft-item.item-rune"
+    },
+    {
+      "runeNo": 7,
+      "name": "Dorn",
+      "requiredLevel": 17,
+      "image": "images/items/rune/7.webp",
+      "recipe": {
+        "count": 3,
+        "ingredientRuneNo": 6,
+        "ingredientName": "Iza"
+      },
+      "socketEffects": {
+        "oneHandOrAmulet": "+15 奧術 傷害 近戰",
+        "twoHand": "+30 奧術 傷害 近戰",
+        "armor": "+30% 抵抗奧術"
+      },
+      "source": "DevTools DOM: #craft-wrap .craft-item.item-rune"
+    },
+    {
+      "runeNo": 8,
+      "name": "Sar",
+      "requiredLevel": 19,
+      "image": "images/items/rune/8.webp",
+      "recipe": {
+        "count": 3,
+        "ingredientRuneNo": 7,
+        "ingredientName": "Dorn"
+      },
+      "socketEffects": {
+        "oneHandOrAmulet": "+18 冰 傷害 近戰",
+        "twoHand": "+36 冰 傷害 近戰",
+        "armor": "+30% 抵抗冰"
+      },
+      "source": "DevTools DOM: #craft-wrap .craft-item.item-rune"
+    },
+    {
+      "runeNo": 9,
+      "name": "Nix",
+      "requiredLevel": 21,
+      "image": "images/items/rune/9.webp",
+      "recipe": {
+        "count": 3,
+        "ingredientRuneNo": 8,
+        "ingredientName": "Sar"
+      },
+      "socketEffects": {
+        "oneHandOrAmulet": "+20 毒 傷害 近戰",
+        "twoHand": "+40 毒 傷害 近戰",
+        "armor": "+30% 抵抗毒"
+      },
+      "source": "DevTools DOM: #craft-wrap .craft-item.item-rune"
+    },
+    {
+      "runeNo": 10,
+      "name": "Syn",
+      "requiredLevel": 23,
+      "image": "images/items/rune/10.webp",
+      "recipe": {
+        "count": 3,
+        "ingredientRuneNo": 9,
+        "ingredientName": "Nix"
+      },
+      "socketEffects": {
+        "oneHandOrAmulet": "+22 電 傷害 近戰",
+        "twoHand": "+44 電 傷害 近戰",
+        "armor": "+30% 抵抗電"
+      },
+      "source": "DevTools DOM: #craft-wrap .craft-item.item-rune"
+    },
+    {
+      "runeNo": 11,
+      "name": "Cher",
+      "requiredLevel": 25,
+      "image": "images/items/rune/11.webp",
+      "recipe": {
+        "count": 3,
+        "ingredientRuneNo": 10,
+        "ingredientName": "Syn"
+      },
+      "socketEffects": {
+        "oneHandOrAmulet": "+25 火 傷害 近戰",
+        "twoHand": "+50 火 傷害 近戰",
+        "armor": "+30% 抵抗火"
+      },
+      "source": "DevTools DOM: #craft-wrap .craft-item.item-rune"
+    },
+    {
+      "runeNo": 12,
+      "name": "Gart",
+      "requiredLevel": 27,
+      "image": "images/items/rune/12.webp",
+      "recipe": {
+        "count": 3,
+        "ingredientRuneNo": 11,
+        "ingredientName": "Cher"
+      },
+      "socketEffects": {
+        "oneHandOrAmulet": "+30 力量",
+        "twoHand": "+60 力量",
+        "armor": "+20 生命 再生"
+      },
+      "source": "DevTools DOM: #craft-wrap .craft-item.item-rune"
+    },
+    {
+      "runeNo": 13,
+      "name": "Ruck",
+      "requiredLevel": 29,
+      "image": "images/items/rune/13.webp",
+      "recipe": {
+        "count": 3,
+        "ingredientRuneNo": 12,
+        "ingredientName": "Gart"
+      },
+      "socketEffects": {
+        "oneHandOrAmulet": "+30 智力",
+        "twoHand": "+60 智力",
+        "armor": "+15 法力 再生"
+      },
+      "source": "DevTools DOM: #craft-wrap .craft-item.item-rune"
+    },
+    {
+      "runeNo": 14,
+      "name": "Nag",
+      "requiredLevel": 31,
+      "image": "images/items/rune/14.webp",
+      "recipe": {
+        "count": 3,
+        "ingredientRuneNo": 13,
+        "ingredientName": "Ruck"
+      },
+      "socketEffects": {
+        "oneHandOrAmulet": "+30 智慧",
+        "twoHand": "+60 智慧",
+        "armor": "+12 精神 再生"
+      },
+      "source": "DevTools DOM: #craft-wrap .craft-item.item-rune"
+    },
+    {
+      "runeNo": 15,
+      "name": "Rok",
+      "requiredLevel": 33,
+      "image": "images/items/rune/15.webp",
+      "recipe": {
+        "count": 3,
+        "ingredientRuneNo": 14,
+        "ingredientName": "Nag"
+      },
+      "socketEffects": {
+        "oneHandOrAmulet": "-0.07 武器攻速",
+        "twoHand": "-0.14 武器攻速",
+        "armor": "+30 靈巧"
+      },
+      "source": "DevTools DOM: #craft-wrap .craft-item.item-rune"
+    },
+    {
+      "runeNo": 16,
+      "name": "Vox",
+      "requiredLevel": 35,
+      "image": "images/items/rune/16.webp",
+      "recipe": {
+        "count": 3,
+        "ingredientRuneNo": 15,
+        "ingredientName": "Rok"
+      },
+      "socketEffects": {
+        "oneHandOrAmulet": "+20% 移動速度",
+        "twoHand": "+40% 移動速度",
+        "armor": "+30 耐力"
+      },
+      "source": "DevTools DOM: #craft-wrap .craft-item.item-rune"
+    },
+    {
+      "runeNo": 17,
+      "name": "Skar",
+      "requiredLevel": 37,
+      "image": "images/items/rune/17.webp",
+      "recipe": {
+        "count": 3,
+        "ingredientRuneNo": 16,
+        "ingredientName": "Vox"
+      },
+      "socketEffects": {
+        "oneHandOrAmulet": "+20 施法速度",
+        "twoHand": "+40 施法速度",
+        "armor": "+12 受到傷害時 法力"
+      },
+      "source": "DevTools DOM: #craft-wrap .craft-item.item-rune"
+    },
+    {
+      "runeNo": 18,
+      "name": "Targ",
+      "requiredLevel": 39,
+      "image": "images/items/rune/18.webp",
+      "recipe": {
+        "count": 3,
+        "ingredientRuneNo": 17,
+        "ingredientName": "Skar"
+      },
+      "socketEffects": {
+        "oneHandOrAmulet": "+15 所有被動技能",
+        "twoHand": "+30 所有被動技能",
+        "armor": "+12 受到傷害時 精神"
+      },
+      "source": "DevTools DOM: #craft-wrap .craft-item.item-rune"
+    },
+    {
+      "runeNo": 19,
+      "name": "Tae",
+      "requiredLevel": 41,
+      "image": "images/items/rune/19.webp",
+      "recipe": {
+        "count": 3,
+        "ingredientRuneNo": 18,
+        "ingredientName": "Targ"
+      },
+      "socketEffects": {
+        "oneHandOrAmulet": "+50 暴擊",
+        "twoHand": "+100 暴擊",
+        "armor": "+15% 所有狀態抗性"
+      },
+      "source": "DevTools DOM: #craft-wrap .craft-item.item-rune"
+    },
+    {
+      "runeNo": 20,
+      "name": "Rath",
+      "requiredLevel": 43,
+      "image": "images/items/rune/20.webp",
+      "recipe": {
+        "count": 3,
+        "ingredientRuneNo": 19,
+        "ingredientName": "Tae"
+      },
+      "socketEffects": {
+        "oneHandOrAmulet": "+10% 攻擊",
+        "twoHand": "+20% 攻擊",
+        "armor": "+12 全屬性"
+      },
+      "source": "DevTools DOM: #craft-wrap .craft-item.item-rune"
+    },
+    {
+      "runeNo": 21,
+      "name": "Thex",
+      "requiredLevel": 45,
+      "image": "images/items/rune/21.webp",
+      "recipe": {
+        "count": 3,
+        "ingredientRuneNo": 20,
+        "ingredientName": "Rath"
+      },
+      "socketEffects": {
+        "oneHandOrAmulet": "+10% 經驗加成",
+        "twoHand": "+20% 經驗加成",
+        "armor": "+15% 最大值 法力"
+      },
+      "source": "DevTools DOM: #craft-wrap .craft-item.item-rune"
+    },
+    {
+      "runeNo": 22,
+      "name": "Marr",
+      "requiredLevel": 47,
+      "image": "images/items/rune/22.webp",
+      "recipe": {
+        "count": 2,
+        "ingredientRuneNo": 21,
+        "ingredientName": "Thex"
+      },
+      "socketEffects": {
+        "oneHandOrAmulet": "+30% 更稀有物品掉落",
+        "twoHand": "+60% 更稀有物品掉落",
+        "armor": "+25% 更稀有物品掉落"
+      },
+      "source": "DevTools DOM: #craft-wrap .craft-item.item-rune"
+    },
+    {
+      "runeNo": 23,
+      "name": "Cros",
+      "requiredLevel": 49,
+      "image": "images/items/rune/23.webp",
+      "recipe": {
+        "count": 2,
+        "ingredientRuneNo": 22,
+        "ingredientName": "Marr"
+      },
+      "socketEffects": {
+        "oneHandOrAmulet": "+20 武器傷害",
+        "twoHand": "+40 武器傷害",
+        "armor": "+15% 所有抗性"
+      },
+      "source": "DevTools DOM: #craft-wrap .craft-item.item-rune"
+    },
+    {
+      "runeNo": 24,
+      "name": "Fael",
+      "requiredLevel": 51,
+      "image": "images/items/rune/24.webp",
+      "recipe": {
+        "count": 2,
+        "ingredientRuneNo": 23,
+        "ingredientName": "Cros"
+      },
+      "socketEffects": {
+        "oneHandOrAmulet": "+10% 增強 血 傷害",
+        "twoHand": "+20% 增強 血 傷害",
+        "armor": "+10% 吸收 血"
+      },
+      "source": "DevTools DOM: #craft-wrap .craft-item.item-rune"
+    },
+    {
+      "runeNo": 25,
+      "name": "Mir",
+      "requiredLevel": 53,
+      "image": "images/items/rune/25.webp",
+      "recipe": {
+        "count": 2,
+        "ingredientRuneNo": 24,
+        "ingredientName": "Fael"
+      },
+      "socketEffects": {
+        "oneHandOrAmulet": "+10% 增強 毒 傷害",
+        "twoHand": "+20% 增強 毒 傷害",
+        "armor": "+10% 吸收 毒"
+      },
+      "source": "DevTools DOM: #craft-wrap .craft-item.item-rune"
+    },
+    {
+      "runeNo": 26,
+      "name": "Karg",
+      "requiredLevel": 55,
+      "image": "images/items/rune/26.webp",
+      "recipe": {
+        "count": 2,
+        "ingredientRuneNo": 25,
+        "ingredientName": "Mir"
+      },
+      "socketEffects": {
+        "oneHandOrAmulet": "+10% 增強 電 傷害",
+        "twoHand": "+20% 增強 電 傷害",
+        "armor": "+10% 吸收 電"
+      },
+      "source": "DevTools DOM: #craft-wrap .craft-item.item-rune"
+    },
+    {
+      "runeNo": 27,
+      "name": "Vis",
+      "requiredLevel": 57,
+      "image": "images/items/rune/27.webp",
+      "recipe": {
+        "count": 2,
+        "ingredientRuneNo": 26,
+        "ingredientName": "Karg"
+      },
+      "socketEffects": {
+        "oneHandOrAmulet": "+10% 增強 冰 傷害",
+        "twoHand": "+20% 增強 冰 傷害",
+        "armor": "+10% 吸收 冰"
+      },
+      "source": "DevTools DOM: #craft-wrap .craft-item.item-rune"
+    },
+    {
+      "runeNo": 28,
+      "name": "Hosh",
+      "requiredLevel": 59,
+      "image": "images/items/rune/28.webp",
+      "recipe": {
+        "count": 2,
+        "ingredientRuneNo": 27,
+        "ingredientName": "Vis"
+      },
+      "socketEffects": {
+        "oneHandOrAmulet": "+10% 增強 火 傷害",
+        "twoHand": "+20% 增強 火 傷害",
+        "armor": "+10% 吸收 火"
+      },
+      "source": "DevTools DOM: #craft-wrap .craft-item.item-rune"
+    },
+    {
+      "runeNo": 29,
+      "name": "Nex",
+      "requiredLevel": 61,
+      "image": "images/items/rune/29.webp",
+      "recipe": {
+        "count": 2,
+        "ingredientRuneNo": 28,
+        "ingredientName": "Hosh"
+      },
+      "socketEffects": {
+        "oneHandOrAmulet": "+10% 增強 奧術 傷害",
+        "twoHand": "+20% 增強 奧術 傷害",
+        "armor": "+10% 吸收 奧術"
+      },
+      "source": "DevTools DOM: #craft-wrap .craft-item.item-rune"
+    },
+    {
+      "runeNo": 30,
+      "name": "Phar",
+      "requiredLevel": 63,
+      "image": "images/items/rune/30.webp",
+      "recipe": {
+        "count": 2,
+        "ingredientRuneNo": 29,
+        "ingredientName": "Nex"
+      },
+      "socketEffects": {
+        "oneHandOrAmulet": "+6% 技能 急速",
+        "twoHand": "+12% 技能 急速",
+        "armor": "+8% 抵抗物理"
+      },
+      "source": "DevTools DOM: #craft-wrap .craft-item.item-rune"
+    },
+    {
+      "runeNo": 31,
+      "name": "Goz",
+      "requiredLevel": 65,
+      "image": "images/items/rune/31.webp",
+      "recipe": {
+        "count": 2,
+        "ingredientRuneNo": 30,
+        "ingredientName": "Phar"
+      },
+      "socketEffects": {
+        "oneHandOrAmulet": "+7% 增強 全部",
+        "twoHand": "+14% 增強 全部",
+        "armor": "+20% 最大值 生命"
+      },
+      "source": "DevTools DOM: #craft-wrap .craft-item.item-rune"
+    },
+    {
+      "runeNo": 32,
+      "name": "Mael",
+      "requiredLevel": 67,
+      "image": "images/items/rune/32.webp",
+      "recipe": {
+        "count": 2,
+        "ingredientRuneNo": 31,
+        "ingredientName": "Goz"
+      },
+      "socketEffects": {
+        "oneHandOrAmulet": "-5% 減少所有抗性",
+        "twoHand": "-10% 減少所有抗性",
+        "armor": "+5% 吸收 全部"
+      },
+      "source": "DevTools DOM: #craft-wrap .craft-item.item-rune"
+    },
+    {
+      "runeNo": 33,
+      "name": "Fyrm",
+      "requiredLevel": 69,
+      "image": "images/items/rune/33.webp",
+      "recipe": {
+        "count": 2,
+        "ingredientRuneNo": 32,
+        "ingredientName": "Mael"
+      },
+      "socketEffects": {
+        "oneHandOrAmulet": "不會損毀",
+        "twoHand": "不會損毀",
+        "armor": "不會損毀"
+      },
+      "source": "DevTools DOM: #craft-wrap .craft-item.item-rune"
+    }
+  ]
+}
