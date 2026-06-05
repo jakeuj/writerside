@@ -37,7 +37,7 @@
 - 這個 repo 的 instance 指向：
 
 ```xml
-<instance src="hi.tree" web-path="writerside" version="master"/>
+<instance src="hi.tree"/>
 ```
 
 - 所以目前左側網站 TOC 是由 [hi.tree](/Users/jakeuj/WritersideProjects/writerside/Writerside/hi.tree) 控制。

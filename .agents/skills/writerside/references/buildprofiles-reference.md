@@ -3,7 +3,7 @@
 在下列情況讀這份參考：
 
 - 想調整 Writerside 網站輸出的 header / footer
-- 想設定 Algolia 搜尋、shortcut switcher、OG metadata、sitemap
+- 想設定 Algolia 搜尋、shortcut switcher、OG metadata、sitemap、Search Console 或 SEO URL 前綴
 - 想理解 `buildprofiles.xml` 的 global 設定和 instance-specific 設定差別
 - 想判斷 `cfg/`、`writerside.cfg`、`buildprofiles.xml` 三者怎麼配合
 
@@ -72,6 +72,7 @@
   - `algolia-id`
   - `algolia-api-key`
   - `analytics-head-script-file`
+  - `generate-sitemap-url-prefix`
   - `include-after-body`
 - `<shortcuts>`
   - `src`
@@ -171,9 +172,34 @@
 - `product-web-url`
 - `og-twitter`
 - `og-image`
+- `generate-sitemap-url-prefix`
 - `images-prefix-override`
 
 如果某些設定只應影響特定 instance，不要放在 root `<variables>`。
+
+### Sitemap 與 SEO URL
+
+這個 repo 的 canonical 公開 URL 策略是根目錄短網址：
+
+- `https://jakeuj.com/<topic-web-file-name>.html`
+- 不使用 `/writerside/master/` 作為公開文章 URL 前綴
+
+目前相關設定是：
+
+- root `<web-root>`：`https://jakeuj.com/`
+- root `<generate-sitemap-url-prefix>`：`https://jakeuj.com/`
+- `<build-profile instance="hi">` 內保留 `<sitemap priority="1" change-frequency="weekly" />`
+- `<product-web-url>`：`https://jakeuj.com/`
+- `<noindex-content>`：`false`
+
+調整 sitemap / Search Console / SEO 時先驗證：
+
+- `https://jakeuj.com/sitemap.xml` 應是 `200 application/xml`
+- sitemap 的 `<loc>` 不應包含 `/writerside/master/`
+- 抽測 sitemap 裡的頁面 URL 應回傳 200
+- `robots.txt` 由 deploy workflow 複製到 Pages artifact 根目錄，內容應指向 `https://jakeuj.com/sitemap.xml`
+
+不要為了修 sitemap 先開 `<generate-canonicals>`；若使用不當，可能把多頁 canonical 指到同一個 URL。需要 canonical 時先用建置產物抽測 `og:url`、Schema `url` 與 `<link rel="canonical">`。
 
 ### 8. LLM export
 
@@ -219,6 +245,6 @@
 
 - 這個 repo 已有明確的 `buildprofiles.xml`，不要把它當成空白模板重寫。
 - 如果需求只是新增或修改文章，通常不需要動 `cfg/buildprofiles.xml`。
-- 只有在使用者明確提到站台 header、footer、搜尋、社群連結、OG、sitemap 或 checker 忽略規則時，才進到這層。
+- 只有在使用者明確提到站台 header、footer、搜尋、社群連結、OG、sitemap、robots.txt、Search Console、SEO URL 或 checker 忽略規則時，才進到這層。
 - 修改前先判斷設定是全域還是只屬於 `instance="hi"`。
 - 若變更牽涉 `algolia-*`、analytics 或 HTML injection，優先視為高影響設定，做法要比一般 topic 編修更保守。

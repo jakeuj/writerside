@@ -31,6 +31,7 @@ npm run install-hooks
 之後每次 `git push` 都會自動檢查。如果檢查失敗，推送會被阻止。
 
 **跳過檢查**（不建議）：
+
 ```bash
 git push --no-verify
 ```
@@ -42,6 +43,8 @@ git push --no-verify
 1. **Markdown 格式** - 使用 markdownlint-cli2
 2. **配置文件存在** - writerside.cfg, hi.tree, buildprofiles.xml
 3. **TOC 結構正確** - hi.tree 的 XML 格式（需要 xmllint）
+
+站台 SEO 檔案（`robots.txt`、`CNAME`、sitemap 線上 URL）需要部署後再驗證，因為它們是否可抓取取決於 GitHub Pages artifact。
 
 ## 🔧 只修復 Markdown 格式
 
@@ -70,6 +73,25 @@ npm run lint:md
 2. **hi.tree 結構錯誤** ✅ 本地可檢查
 3. **圖片路徑錯誤** ⚠️ 本地難以檢查（需要實際建構）
 4. **Writerside 特定語法問題** ⚠️ 需要 Writerside 工具檢查
+5. **站台根目錄檔案缺失** ⚠️ 部署後檢查 `robots.txt`、`CNAME` 是否存在
+
+### SEO / Sitemap 部署後檢查
+
+這個 repo 的正式網址是 `https://jakeuj.com/<topic-web-file-name>.html`，不是 `/writerside/master/`。
+
+部署完成後可檢查：
+
+```bash
+curl -I https://jakeuj.com/robots.txt
+curl -I https://jakeuj.com/sitemap.xml
+curl -L https://jakeuj.com/sitemap.xml | grep -o '/writerside/master/' | head
+```
+
+正常情況：
+
+- `robots.txt` 回傳 200，內容包含 `Sitemap: https://jakeuj.com/sitemap.xml`
+- `sitemap.xml` 回傳 200
+- sitemap 不應包含 `/writerside/master/`
 
 ## 🚀 建議工作流程
 
@@ -104,4 +126,3 @@ git push
 
 - 安裝 `xmllint` 以檢查 hi.tree 格式：`brew install libxml2`
 - 使用 JetBrains Writerside IDE 可以獲得更好的本地預覽和驗證
-

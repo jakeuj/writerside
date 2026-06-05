@@ -5,6 +5,7 @@
 - 使用者問 Writerside build、GitHub Actions、deploy 失敗
 - 使用者問文件為什麼本地過了、CI 卻失敗
 - 使用者問 GitHub Pages 怎麼部署 Writerside
+- 使用者問 sitemap、robots.txt、CNAME 或 Search Console 抓不到 GitHub Pages 站台檔案
 - 使用者問 Algolia index 發布流程
 
 這份筆記依據 JetBrains 官方文件整理：
@@ -27,6 +28,7 @@
    - 解析 `report.json`，有錯就 fail
 3. `deploy`
    - 解壓網站產物
+   - 複製根目錄 metadata 檔案，例如 `robots.txt` 與 `CNAME`
    - 用 `actions/configure-pages@v4`
    - 用 `actions/upload-pages-artifact@v3`
    - 用 `actions/deploy-pages@v4`
@@ -105,7 +107,9 @@
    - 使用 `JetBrains/writerside-checker-action@v1`
    - 這一層會抓 Writerside 專屬問題
 3. `deploy`
-   - 解壓文件產物並發布到 GitHub Pages
+   - 解壓文件產物
+   - 複製 `robots.txt` 與 `CNAME` 到 Pages artifact 根目錄
+   - 發布到 GitHub Pages
 4. `publish-indexes`
    - 讀取 Algolia artifact
    - 更新 Algolia 索引
@@ -117,7 +121,7 @@
 - `INSTANCE: Writerside/hi`
 - `IS_GROUP: false`
 - `ARTIFACT: webHelpHI2-all.zip`
-- `DOCKER_VERSION: 2026.02.8644`
+- `DOCKER_VERSION: 2026.04.8711`
 - `ALGOLIA_ARTIFACT: algolia-indexes-HI.zip`
 - `ALGOLIA_APP_NAME: 8VA5LCDZGD`
 - `ALGOLIA_INDEX_NAME: Default`
@@ -134,14 +138,37 @@
 另外，這個 repo 的 [writerside.cfg](/Users/jakeuj/WritersideProjects/writerside/Writerside/writerside.cfg) 目前是：
 
 - `<images dir="images" web-path="images"/>`
-- `<instance src="hi.tree" web-path="writerside" version="master"/>`
+- `<instance src="hi.tree"/>`
 
 我從設定推論：
 
-- 這個 repo 的部署模式不完全等於官方文件中的「repo 名稱直接當圖片 web-path」範例
-- 因為它同時有 `web-root` 指向 `https://jakeuj.com/`，比較像已經有既定網站網址與路徑策略
+- 這個 repo 的公開文章 URL 採用根目錄短網址，例如 `https://jakeuj.com/abp.html`
+- 不要把 `CONFIG_JSON_PRODUCT` / `CONFIG_JSON_VERSION` 誤解成公開 URL 前綴；公開 URL 仍以建置輸出、`writerside.cfg`、`web-root` 和 sitemap 設定為準
+- 這個 repo 的部署模式不完全等於官方文件中的「repo 名稱直接當圖片 web-path」範例，因為它有 custom domain 與既定根目錄 URL 策略
 
-所以之後遇到圖片在 Pages 上失效時，先比對實際網站路徑，不要機械式套官方範例。
+所以之後遇到圖片、sitemap 或 OG/Schema URL 在 Pages 上失效時，先比對實際網站路徑，不要機械式套官方範例。
+
+## 根目錄 metadata 檔案
+
+這個 repo 的 Pages artifact 來自 Writerside build zip，不會自動包含 repo root 的一般檔案。若需要站台根目錄檔案，要在 deploy job 解壓後、upload artifact 前複製。
+
+目前 workflow 會複製：
+
+- `robots.txt` -> `dir/robots.txt`
+- `CNAME` -> `dir/CNAME`
+
+部署後應驗證：
+
+```bash
+curl -I https://jakeuj.com/robots.txt
+curl -I https://jakeuj.com/sitemap.xml
+```
+
+`robots.txt` 應包含：
+
+```text
+Sitemap: https://jakeuj.com/sitemap.xml
+```
 
 另外，這個 repo 目前的 [buildprofiles.xml](/Users/jakeuj/WritersideProjects/writerside/Writerside/cfg/buildprofiles.xml) 還沒有啟用 `<llms-txt>`，表示現況並不會額外產生 llms export。
 
@@ -188,6 +215,8 @@
 - `INSTANCE`、artifact 名稱、`IS_GROUP` 設錯
 - Pages Source 沒切到 `GitHub Actions`
 - deploy 成功但圖片路徑不對，通常回頭看 `writerside.cfg` 的 `<images web-path>`
+- sitemap `<loc>` 或 OG/Schema URL 指到 404，通常回頭看 `writerside.cfg` 的 instance `web-path` / `version` 和 `buildprofiles.xml` 的 `generate-sitemap-url-prefix`
+- `robots.txt` 或 `CNAME` 線上 404，通常檢查 deploy job 是否把根目錄 metadata 複製到 Pages artifact
 
 ### Algolia 問題
 

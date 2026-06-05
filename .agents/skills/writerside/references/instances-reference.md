@@ -35,7 +35,7 @@
 目前 [writerside.cfg](/Users/jakeuj/WritersideProjects/writerside/Writerside/writerside.cfg) 只有一個 instance：
 
 ```xml
-<instance src="hi.tree" web-path="writerside" version="master"/>
+<instance src="hi.tree"/>
 ```
 
 而 [hi.tree](/Users/jakeuj/WritersideProjects/writerside/Writerside/hi.tree) 的根元素是：
@@ -51,7 +51,7 @@
 - instance ID 是 `hi`
 - header 顯示名稱是 `Jakeuj's Notes`
 - 首頁 topic 是 `Default.md`
-- `writerside.cfg` 上的 version 是 `master`
+- 公開文章 URL 採用根目錄短網址，不另外由 instance `web-path` / `version` 加前綴
 
 另外，這個 repo 的 [buildprofiles.xml](/Users/jakeuj/WritersideProjects/writerside/Writerside/cfg/buildprofiles.xml) 也已經有：
 

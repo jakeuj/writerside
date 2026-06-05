@@ -43,7 +43,7 @@
     <images dir="images" web-path="images"/>
     <categories src="c.list"/>
     <vars src="v.list"/>
-    <instance src="hi.tree" web-path="writerside" version="master"/>
+    <instance src="hi.tree"/>
 </ihp>
 ```
 
@@ -127,8 +127,15 @@
 這個 repo 目前只有一個 instance：
 
 - `src="hi.tree"`
-- `web-path="writerside"`
-- `version="master"`
+- 沒有設定 instance `web-path`
+- 沒有設定 instance `version`
+
+這代表公開文章 URL 採用根目錄短網址，例如：
+
+- `https://jakeuj.com/abp.html`
+- `https://jakeuj.com/macos-mdns-ssh-hostname-resolution.html`
+
+不要在沒有明確需求時重新加上 `web-path="writerside"` 或 `version="master"`；那會讓 Writerside metadata 與 sitemap 倾向產出 `/writerside/master/` 前綴，和目前 GitHub Pages 實際根目錄部署策略衝突。
 
 如果你要處理的是：
 
@@ -211,7 +218,8 @@
 對這個 repo 的理解方式：
 
 - `buildprofiles.xml` 的 `web-root` 決定網站根網址。
-- `writerside.cfg` 的 instance `web-path` 和 `version` 決定 `/writerside/master/` 這段前綴。
+- `writerside.cfg` 的 instance `web-path` 和 `version` 會額外產生 URL 前綴；目前本 repo 刻意不設定，讓頁面輸出在站台根目錄。
+- `buildprofiles.xml` 的 `generate-sitemap-url-prefix` 目前也固定為 `https://jakeuj.com/`，用來讓 sitemap `<loc>` 對齊根目錄短網址。
 - 單篇文章最後的 page slug 主要看 topic 檔名產生出的 web file name；H1 和 `toc-title` 不控制 URL。
 
 ### `<smart-ignore-vars>`

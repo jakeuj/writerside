@@ -79,6 +79,32 @@ npm run install-hooks
 git push --no-verify
 ```
 
+## 站台 SEO / Sitemap
+
+這個站台的正式公開 URL 採用根目錄短網址：
+
+- 首頁：<https://jakeuj.com/>
+- 文章：`https://jakeuj.com/<topic-web-file-name>.html`
+- Sitemap：<https://jakeuj.com/sitemap.xml>
+- robots.txt：<https://jakeuj.com/robots.txt>
+
+站台層級設定重點：
+
+- `Writerside/writerside.cfg` 的 instance 維持 `<instance src="hi.tree"/>`，不要重新加上 `web-path="writerside"` 或 `version="master"`。
+- `Writerside/cfg/buildprofiles.xml` 使用 `<generate-sitemap-url-prefix>https://jakeuj.com/</generate-sitemap-url-prefix>`，讓 sitemap `<loc>` 對齊根目錄短網址。
+- repo root 的 `robots.txt` 由 `.github/workflows/deploy.yml` 複製到 Pages artifact 根目錄。
+- repo root 的 `CNAME` 也由 deploy workflow 複製到 Pages artifact 根目錄，確保 custom domain 設定保留。
+
+部署後可用這些指令快速確認：
+
+```bash
+curl -I https://jakeuj.com/robots.txt
+curl -I https://jakeuj.com/sitemap.xml
+curl -L https://jakeuj.com/sitemap.xml | grep -o '/writerside/master/' | head
+```
+
+最後一行正常情況下不應輸出任何內容。
+
 ## Markdown 格式檢查
 
 專案使用 `markdownlint-cli2` 確保文檔格式一致性。
