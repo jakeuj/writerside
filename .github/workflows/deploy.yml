@@ -105,6 +105,11 @@ jobs:
     
     - name: Unzip artifact
       run: unzip -O UTF-8 -qq "${{ env.ARTIFACT }}" -d dir
+
+    - name: Add root site metadata
+      run: |
+        cp robots.txt dir/robots.txt
+        cp CNAME dir/CNAME
     
     - name: Setup Pages
       uses: actions/configure-pages@v4
