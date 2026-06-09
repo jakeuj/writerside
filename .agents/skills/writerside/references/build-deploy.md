@@ -162,6 +162,7 @@
 ```bash
 curl -I https://jakeuj.com/robots.txt
 curl -I https://jakeuj.com/sitemap.xml
+curl -I https://jakeuj.com/sitemap-index.xml
 ```
 
 `robots.txt` 應包含：
@@ -169,6 +170,9 @@ curl -I https://jakeuj.com/sitemap.xml
 ```text
 Sitemap: https://jakeuj.com/sitemap.xml
 ```
+
+目前站台只有單一 sitemap，Search Console 應提交 `https://jakeuj.com/sitemap.xml`。
+`https://jakeuj.com/sitemap-index.xml` 回傳 404 是預期狀態，除非未來 sitemap 超過 50,000 URLs、未壓縮超過 50MB，或刻意拆成多個 sitemap。
 
 另外，這個 repo 目前的 [buildprofiles.xml](/Users/jakeuj/WritersideProjects/writerside/Writerside/cfg/buildprofiles.xml) 還沒有啟用 `<llms-txt>`，表示現況並不會額外產生 llms export。
 

@@ -174,7 +174,7 @@ example command
 - 若問題偏向 Writerside 專案結構、help module root、`writerside.cfg`、新建專案、把文件加進既有開發專案或 project templates，直接讀 `references/projects-reference.md`。
 - 若問題偏向 help module、module root、module structure、`topics/` / `images/` / `*.tree` / `cfg/` 目錄分工、多 module 專案或跨 module `origin` 重用，直接讀 `references/help-modules-reference.md`。
 - 若問題偏向 Writerside build、GitHub Actions、GitHub Pages、deployment workflow、`writerside-github-action`、checker action、Pages artifact、root metadata 檔案（`robots.txt`、`CNAME`）或 Algolia 發布，直接讀 `references/build-deploy.md`。
-- 若問題偏向 `buildprofiles.xml`、header/footer、Algolia、shortcut switcher、OG metadata、sitemap、`generate-sitemap-url-prefix`、Search Console、SEO URL 前綴、`ignore-problems` 或 `cfg/` 建置設定，直接讀 `references/buildprofiles-reference.md`。
+- 若問題偏向 `buildprofiles.xml`、header/footer、Algolia、shortcut switcher、OG metadata、sitemap、`sitemap-index.xml`、`generate-sitemap-url-prefix`、Search Console、SEO URL 前綴、`ignore-problems` 或 `cfg/` 建置設定，直接讀 `references/buildprofiles-reference.md`。
 - 若問題偏向 `llms.txt`、`<llms-txt>`、single-file vs per-topic LLM export、`_llms/` 產物目錄或把文件輸出給 LLM agent 使用，直接讀 `references/llms-reference.md`。
 - 若問題偏向 `v.list`、`<var>`、`%product%` 這類變數插值、built-in variables、`ignore-vars`、`smart-ignore-vars`、snippet 變數傳值或 instance-conditioned variables，直接讀 `references/variables-reference.md`。
 - 若問題偏向 `writerside.cfg`、`project.ihp`、`<topics>`、`<images>`、`<instance>`、`<settings>`、`<build-config>`、`smart-ignore-vars` 或 help module 目錄配置，直接讀 `references/writerside-cfg-reference.md`。
@@ -286,7 +286,7 @@ git push origin HEAD
 - `references/projects-reference.md`: 判斷 Writerside project / help module root、`writerside.cfg`、instances、project templates、existing project 加入文件與專案結構時讀。
 - `references/help-modules-reference.md`: 判斷 help module、module root、module structure、`topics/`、`images/`、`*.tree`、`cfg/`、optional files、多 module 專案與跨 module `origin` 重用時讀。
 - `references/build-deploy.md`: 判斷 Writerside build、GitHub Actions、GitHub Pages、deploy workflow、checker action、Pages artifact、root metadata 檔案、Algolia 發布與 CI deploy 問題時讀。
-- `references/buildprofiles-reference.md`: 判斷 `buildprofiles.xml`、`cfg/` 預設位置、global vs instance-specific build settings、header/footer、Algolia、social/footer、shortcut layouts、OG/sitemap、Search Console、SEO URL 前綴與 `ignore-problems` 時讀。
+- `references/buildprofiles-reference.md`: 判斷 `buildprofiles.xml`、`cfg/` 預設位置、global vs instance-specific build settings、header/footer、Algolia、social/footer、shortcut layouts、OG/sitemap、`sitemap-index.xml`、Search Console、SEO URL 前綴與 `ignore-problems` 時讀。
 - `references/llms-reference.md`: 判斷 `llms.txt`、`<llms-txt>`、single-file / per-topic LLM 輸出、`_llms/` 產物目錄與 llms export 採用方式時讀。
 - `references/variables-reference.md`: 判斷 `v.list`、`<var>`、`%var%` 插值、built-in variables、`ignore-vars`、`smart-ignore-vars`、snippet 變數傳值與 instance-conditioned variables 時讀。
 - `Writerside/topics/variables.md`: 查 repo 內最小可用的變數、跳脫 `%` 與 `ignore-vars` 範例時讀。

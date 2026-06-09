@@ -84,6 +84,7 @@ npm run lint:md
 ```bash
 curl -I https://jakeuj.com/robots.txt
 curl -I https://jakeuj.com/sitemap.xml
+curl -I https://jakeuj.com/sitemap-index.xml
 curl -L https://jakeuj.com/sitemap.xml | grep -o '/writerside/master/' | head
 ```
 
@@ -91,7 +92,10 @@ curl -L https://jakeuj.com/sitemap.xml | grep -o '/writerside/master/' | head
 
 - `robots.txt` 回傳 200，內容包含 `Sitemap: https://jakeuj.com/sitemap.xml`
 - `sitemap.xml` 回傳 200
+- `sitemap-index.xml` 回傳 404 是預期狀態，因為目前站台使用單一 sitemap
 - sitemap 不應包含 `/writerside/master/`
+
+Search Console 應提交 `https://jakeuj.com/sitemap.xml`。只有在 sitemap 超過 50,000 URLs、未壓縮超過 50MB，或刻意拆成多個 sitemap 時，才需要改用 sitemap index。
 
 ## 🚀 建議工作流程
 

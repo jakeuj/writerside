@@ -199,6 +199,22 @@
 - 抽測 sitemap 裡的頁面 URL 應回傳 200
 - `robots.txt` 由 deploy workflow 複製到 Pages artifact 根目錄，內容應指向 `https://jakeuj.com/sitemap.xml`
 
+### `sitemap.xml` 與 `sitemap-index.xml`
+
+這個 repo 目前使用單一 sitemap：
+
+- Search Console 提交 `https://jakeuj.com/sitemap.xml`
+- `https://jakeuj.com/sitemap-index.xml` 目前 404 是預期狀態，不是錯誤
+- 不要為了 Search Console 另外建立空的 `sitemap-index.xml`
+
+只有在符合下列任一條件時才考慮 sitemap index：
+
+- 單一 sitemap 超過 50,000 URLs
+- 單一 sitemap 未壓縮超過 50MB
+- 明確要拆成多個 sitemap，並用 index 統一提交
+
+如果未來要改用 sitemap index，`robots.txt` 和 Search Console 都應改指向 index；否則維持指向 `sitemap.xml`。
+
 不要為了修 sitemap 先開 `<generate-canonicals>`；若使用不當，可能把多頁 canonical 指到同一個 URL。需要 canonical 時先用建置產物抽測 `og:url`、Schema `url` 與 `<link rel="canonical">`。
 
 ### 8. LLM export

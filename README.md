@@ -87,6 +87,7 @@ git push --no-verify
 - 文章：`https://jakeuj.com/<topic-web-file-name>.html`
 - Sitemap：<https://jakeuj.com/sitemap.xml>
 - robots.txt：<https://jakeuj.com/robots.txt>
+- Sitemap index：目前不使用，<https://jakeuj.com/sitemap-index.xml> 回傳 404 是預期狀態
 
 站台層級設定重點：
 
@@ -100,10 +101,13 @@ git push --no-verify
 ```bash
 curl -I https://jakeuj.com/robots.txt
 curl -I https://jakeuj.com/sitemap.xml
+curl -I https://jakeuj.com/sitemap-index.xml
 curl -L https://jakeuj.com/sitemap.xml | grep -o '/writerside/master/' | head
 ```
 
 最後一行正常情況下不應輸出任何內容。
+
+Search Console 應提交 `https://jakeuj.com/sitemap.xml`，不要提交 `sitemap-index.xml`。只有在 sitemap 超過 50,000 URLs、未壓縮超過 50MB，或刻意拆成多個 sitemap 時，才需要改用 sitemap index。
 
 ## Markdown 格式檢查
 
