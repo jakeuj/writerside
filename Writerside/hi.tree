@@ -257,6 +257,7 @@
                 <toc-element topic="Azure-App-Service-VNet-Integration-查詢-Subnet-使用者.md" toc-title="VNet Integration 查 Subnet 使用者" />
                 <toc-element topic="azure-app-service-vnet-private-ip.md" toc-title="VNet Integration 查內網 IP" />
                 <toc-element topic="Azure-App-Service-VNet-tcpping-timeout.md" toc-title="VNet/S2S VPN timeout 排錯" />
+                <toc-element topic="akamai-origin-host-header-app-service.md" toc-title="Akamai Host Header 與 App Service" />
                 <toc-element topic="App-Service-for-Container.md"/>
                 <toc-element topic="Azure-App-Service-CICD-Lock.md"/>
                 <toc-element topic="Azure-App-Service-高-CPU-使用率-(WebJobs-Daas).md" />
