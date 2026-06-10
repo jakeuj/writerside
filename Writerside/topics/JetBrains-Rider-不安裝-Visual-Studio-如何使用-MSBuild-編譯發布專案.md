@@ -20,7 +20,7 @@ Introducing the JetBrains redistributable of MSBuild
 But,人生中最重要的就是這個But!
 最後我還是裝了VS2019...
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

@@ -244,7 +244,7 @@ public class GetAllActivitiesInput : ObManPagedAndSortedResultRequestDto
 
 [AbstractKeyCrudAppService](https://github.com/abpframework/abp/blob/276a48a240a62a53bccba60ba7ef08c0439ca5ba/framework/src/Volo.Abp.Ddd.Application/Volo/Abp/Application/Services/AbstractKeyCrudAppService.cs)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

@@ -10,11 +10,11 @@
 
 更改字體前(上)與後(下)
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/d6daed05-a9aa-4e86-8541-6c9b5e9769ed/1554868191_97293.jpg)![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/d6daed05-a9aa-4e86-8541-6c9b5e9769ed/1560605834_08732.PNG)
+![更改字體前(上)與後(下)](https://dotblogsfile.blob.core.windows.net/user/jakeuj/d6daed05-a9aa-4e86-8541-6c9b5e9769ed/1554868191_97293.jpg)![更改字體前(上)與後(下) 2](https://dotblogsfile.blob.core.windows.net/user/jakeuj/d6daed05-a9aa-4e86-8541-6c9b5e9769ed/1560605834_08732.PNG)
 
 更改字體設定
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/d6daed05-a9aa-4e86-8541-6c9b5e9769ed/1560605518_13754.PNG)
+![更改字體設定](https://dotblogsfile.blob.core.windows.net/user/jakeuj/d6daed05-a9aa-4e86-8541-6c9b5e9769ed/1560605518_13754.PNG)
 
 字型名稱介紹：
 
@@ -69,7 +69,7 @@ Google 將會以[Noto Sans CJK](http://google.com/get/noto)這個名稱發行此
 
 字體下載：[Noto Sans Mono CJK](https://www.google.com/get/noto/help/cjk/)
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/d6daed05-a9aa-4e86-8541-6c9b5e9769ed/1712111802.png.png)
+![字體下載：Noto Sans Mono CJK](https://dotblogsfile.blob.core.windows.net/user/小小朱/d6daed05-a9aa-4e86-8541-6c9b5e9769ed/1712111802.png.png)
 
 1.下載 **OpenType/CFF Collection (OTC)**
 
@@ -93,7 +93,7 @@ Sans-serif 字型(無襯線)：Noto Sans CJK TC Regular
 
 ## 下載
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/d6daed05-a9aa-4e86-8541-6c9b5e9769ed/1685082026.png.png)
+![下載](https://dotblogsfile.blob.core.windows.net/user/小小朱/d6daed05-a9aa-4e86-8541-6c9b5e9769ed/1685082026.png.png)
 
 ### 可變(Variable) OTCs (OpenType Collections)
 
@@ -107,7 +107,7 @@ Sans-serif 字型(無襯線)：Noto Sans CJK TC Regular
 
 P.S. OTCs 版本是將四個地區的字體集中到一個 OTC (OpenType Collection) 文件中。
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/d6daed05-a9aa-4e86-8541-6c9b5e9769ed/1685084650.png.png)
+![P.S. OTCs 版本是將四個地區的字體集中到一個 OTC (OpenType Collection) 文件中。](https://dotblogsfile.blob.core.windows.net/user/小小朱/d6daed05-a9aa-4e86-8541-6c9b5e9769ed/1685084650.png.png)
 
 ### 等寬
 
@@ -147,7 +147,7 @@ Special Note: This deployment format requires macOS (OS X) Version 10.8 (aka Mou
 
 [【三個常見字型】TTF. / OTF. / TTC. 副檔名的差異 - 麥思印刷整合 MINDS | 紙の專家 | 設計の溝通者 「一站式」 (mindscmyk.com)](https://www.mindscmyk.com/2021/02/26/project-knowledge-27-ttf-otf-ttc/)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

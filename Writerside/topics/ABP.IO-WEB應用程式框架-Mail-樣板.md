@@ -10,7 +10,7 @@
 
 ## 信件 html 樣板 產生器
 
-![](https://raw.githubusercontent.com/abpframework/abp/dev/docs/en/Community-Articles/2020-09-09-Replacing-Email-Template-and-Sending-Emails/bee.gif)
+![信件 html 樣板 產生器](https://raw.githubusercontent.com/abpframework/abp/dev/docs/en/Community-Articles/2020-09-09-Replacing-Email-Template-and-Sending-Emails/bee.gif)
 
 [Free Email Templates | Responsive Email Templates – BEE Free](https://beefree.io/templates/free/)
 
@@ -100,7 +100,7 @@ await _emailSender.QueueAsync(
 
 ## EmbeddedResource
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/cc12a115-f58c-4c6e-a2e5-661d97d98931/1667807514.png.png)
+![EmbeddedResource](https://dotblogsfile.blob.core.windows.net/user/jakeuj/cc12a115-f58c-4c6e-a2e5-661d97d98931/1667807514.png.png)
 
 ### EmailTemplate.tpl
 
@@ -209,7 +209,7 @@ namespace TemplateReplace.Emailing
 
 [Text Templating | Documentation Center | ABP.IO](https://docs.abp.io/en/abp/latest/Text-Templating)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

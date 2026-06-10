@@ -103,7 +103,7 @@ bin\apktool\signapk.bat
 
 [http - java.lang.NoClassDefFoundError: sun/misc/BASE64Encoder - Stack Overflow](https://stackoverflow.com/questions/29692146/java-lang-noclassdeffounderror-sun-misc-base64encoder)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

@@ -10,7 +10,7 @@
 
 的修改步驟這樣
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0992e9aa-c2f6-41fe-88f4-40006a0405e3/1576469218_21726.png)
+![的修改步驟這樣](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0992e9aa-c2f6-41fe-88f4-40006a0405e3/1576469218_21726.png)
 
 以管理員身分執行powershell
 
@@ -32,7 +32,7 @@ alias ll='ls -l'
 
 (vim不熟的提示：ESC 加上 :wq)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

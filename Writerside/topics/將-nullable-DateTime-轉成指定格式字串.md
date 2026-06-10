@@ -8,7 +8,7 @@
 
 筆記一下 DateTime?.ToString("yyyyMMdd") 的問題
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/c3279c50-9617-4e1a-b488-8eed81047d83/1675303184.png.png)
+![筆記一下 DateTime?.ToString("yyyyMMdd") 的問題](https://dotblogsfile.blob.core.windows.net/user/jakeuj/c3279c50-9617-4e1a-b488-8eed81047d83/1675303184.png.png)
 
 結論
 
@@ -20,13 +20,13 @@ var yyyyMMdd = youWinDate.GetValueOrDefault().ToString("yyyyMMdd");
 yyyyMMdd.Dump();
 ```
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/c3279c50-9617-4e1a-b488-8eed81047d83/1675303258.png.png)![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/c3279c50-9617-4e1a-b488-8eed81047d83/1675303117.png.png)
+![GetValueOrDefault()](https://dotblogsfile.blob.core.windows.net/user/jakeuj/c3279c50-9617-4e1a-b488-8eed81047d83/1675303258.png.png)![GetValueOrDefault() 2](https://dotblogsfile.blob.core.windows.net/user/jakeuj/c3279c50-9617-4e1a-b488-8eed81047d83/1675303117.png.png)
 
 參照
 
 [How to parse nullable DateTime object in C# - Stack Overflow](https://stackoverflow.com/questions/19152764/how-to-parse-nullable-datetime-object-in-c-sharp)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

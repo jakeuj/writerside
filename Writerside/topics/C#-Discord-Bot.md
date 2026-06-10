@@ -8,7 +8,7 @@
 
 簡單記錄一下 DC 私聊機器人
 
-![](https://dotblogsfile.blob.core.windows.net/user/御用/621a0c42-0db1-42de-af22-d4643b92a191/1679278254.png.png)
+![簡單記錄一下 DC 私聊機器人](https://dotblogsfile.blob.core.windows.net/user/御用/621a0c42-0db1-42de-af22-d4643b92a191/1679278254.png.png)
 
 Rider
 
@@ -51,7 +51,7 @@ await client.StartAsync();
 await Task.Delay(-1);
 ```
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

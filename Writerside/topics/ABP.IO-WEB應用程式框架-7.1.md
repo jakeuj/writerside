@@ -34,7 +34,7 @@ ABP 7.1 版本 新功能 摘要
 
 [EF Core 7.0 的新功能 | Microsoft Learn](https://learn.microsoft.com/zh-tw/ef/core/what-is-new/ef-core-7.0/whatsnew#executeupdate-and-executedelete-bulk-updates)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

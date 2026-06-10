@@ -26,7 +26,7 @@
 
 以上純屬猜測，總之邊緣運算就是在妳裝置上或附近就近直接運算！
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

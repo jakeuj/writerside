@@ -34,7 +34,7 @@
 
 這時候 1.0 1.1 2.0 就可以正常跑了
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

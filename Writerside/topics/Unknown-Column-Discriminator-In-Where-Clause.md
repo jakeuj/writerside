@@ -18,7 +18,7 @@ Unknown column 'Discriminator' in 'where clause'
 
 修正後可以正常
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

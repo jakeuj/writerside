@@ -22,11 +22,11 @@ fi
 # 檢查模式
 if [ "$1" == "--fix" ]; then
     echo -e "${YELLOW}🔧 自動修復模式${NC}"
-    npx markdownlint-cli2 --fix "Writerside/topics/**/*.md"
+    npx markdownlint-cli2 --fix
     echo -e "${GREEN}✅ 已自動修復可修復的問題${NC}"
 else
     echo -e "${YELLOW}📋 檢查模式（不修改檔案）${NC}"
-    if npx markdownlint-cli2 "Writerside/topics/**/*.md"; then
+    if npx markdownlint-cli2; then
         echo -e "${GREEN}✅ 所有 Markdown 文檔格式正確！${NC}"
     else
         echo -e "${RED}❌ 發現格式問題${NC}"
@@ -35,4 +35,3 @@ else
         exit 1
     fi
 fi
-

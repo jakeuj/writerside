@@ -96,7 +96,7 @@ RUN eval "$(curl -s -L https://webplus-cn-shenzhen.oss-cn-shenzhen.aliyuncs.com/
 
 這邊 wpctl 可以直接用 eval 安裝不會找不到指令了
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/56d9b856-ac65-47db-8135-0ed725004253/1619408878.jfif)
+![這邊 wpctl 可以直接用 eval 安裝不會找不到指令了](https://dotblogsfile.blob.core.windows.net/user/御星幻/56d9b856-ac65-47db-8135-0ed725004253/1619408878.jfif)
 
 可以手動建置並推送到 docker hub repo
 
@@ -192,7 +192,7 @@ steps:
 
 至此大致完成！
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/56d9b856-ac65-47db-8135-0ed725004253/1619409252.png)
+![至此大致完成！](https://dotblogsfile.blob.core.windows.net/user/御星幻/56d9b856-ac65-47db-8135-0ed725004253/1619409252.png)
 
 ---
 
@@ -213,7 +213,7 @@ Invoke-RestMethod 'https://notify-api.line.me/api/notify'
 
 參考文件：[Drone Cloud Github DotNetCore Build CI/CD Runner Note](https://dotblogs.com.tw/jakeuj/2021/04/20/Drone)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

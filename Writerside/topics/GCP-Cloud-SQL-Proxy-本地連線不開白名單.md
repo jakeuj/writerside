@@ -16,7 +16,7 @@
 4. 連線 127.0.0.1,1234
 5. P.S. 加 --address 0.0.0.0 可以用 localhost 連，省略則只能用 127.0.0.1 才連得到哦！
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/bb1646dd-8343-445e-9fef-85e6c4a30d32/1702017271.png.png)
+![P.S. 加 --address 0.0.0.0 可以用 localhost 連，省略則只能用 127.0.0.1 才連得到哦！](https://dotblogsfile.blob.core.windows.net/user/小小朱/bb1646dd-8343-445e-9fef-85e6c4a30d32/1702017271.png.png)
 
 參照
 
@@ -24,7 +24,7 @@
 
 [SQL Server 透過 TCP/IP 遠端連線時如何使用非 1433 埠號 | The Will Will Web (miniasp.com)](https://blog.miniasp.com/post/2009/03/29/How-to-connect-to-SQL-Server-using-non-default-1433-port)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

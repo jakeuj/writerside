@@ -44,7 +44,7 @@ Azure 自動新增 Daas 作業協助診斷問題
 
 [Mystery? Azure DaaS Webjob - Stack Overflow](https://stackoverflow.com/questions/53242391/mystery-azure-daas-webjob)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

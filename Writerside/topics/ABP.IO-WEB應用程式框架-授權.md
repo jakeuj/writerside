@@ -424,7 +424,7 @@ public override void ConfigureServices(ServiceConfigurationContext context)
 - [ASP.NET Core MVC / Razor 頁面JavaScript Auth API](https://docs.abp.io/zh-Hans/abp/latest/API/JavaScript-API/Auth)
 - [Angular界面中的權限管理](https://docs.abp.io/zh-Hans/abp/latest/UI/Angular/Permission-Management)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

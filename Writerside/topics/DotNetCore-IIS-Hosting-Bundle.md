@@ -24,11 +24,11 @@ ASP.NET Core Runtime - Windows Hosting Bundle Installer
 
 各版本下載位置：https://dotnet.microsoft.com/download
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/66a63053-da7e-468b-b76f-c2782e9f4d08/1620637926.png)
+![各版本下載位置：https://dotnet.microsoft.com/download](https://dotblogsfile.blob.core.windows.net/user/御星幻/66a63053-da7e-468b-b76f-c2782e9f4d08/1620637926.png)
 
 Download .Net Core Runtime => Hosting Bundle
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/66a63053-da7e-468b-b76f-c2782e9f4d08/1620637980.png)
+![Download .Net Core Runtime = Hosting Bundle](https://dotblogsfile.blob.core.windows.net/user/御星幻/66a63053-da7e-468b-b76f-c2782e9f4d08/1620637980.png)
 
 這沒裝好會跑出 web.config 解析錯誤，大概是 IIS 不認識 AspNetCore Module V2
 
@@ -69,7 +69,7 @@ https://docs.microsoft.com/zh-tw/aspnet/core/host-and-deploy/iis/hosting-bundle?
 
 https://blog.johnwu.cc/article/iis-run-asp-net-core.html
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

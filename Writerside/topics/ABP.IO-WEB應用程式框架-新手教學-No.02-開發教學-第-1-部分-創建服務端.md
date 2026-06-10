@@ -59,13 +59,13 @@
 
 // 這邊我從 <https://abp.io/get-started> 使用以下選項建立
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/09547ec3-aaf1-4f7e-a6f0-91e27d5a7a1f/1626833463.png)
+![// 這邊我從 https://abp.io/get-started 使用以下選項建立](https://dotblogsfile.blob.core.windows.net/user/御星幻/09547ec3-aaf1-4f7e-a6f0-91e27d5a7a1f/1626833463.png)
 
 // 這邊可以不要勾最下面的選項，這邊只是我想要分開，但分開真正要跑需要有 Redis，可以安裝 [docker](https://www.docker.com/products/docker-desktop) 後執行，`docker pull redis` & `docker run --name some-redis -d redis -p 6379:6379`
 
 // 因為專案預設會啟用 Redis，如果沒有可以先關閉，在 appsettings.json 中的 Redis 裡面加上 "IsEnabled": "true", 請參考 [Redis 快取設定 說明文件](https://docs.abp.io/en/abp/latest/Redis-Cache#configuration)
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/09547ec3-aaf1-4f7e-a6f0-91e27d5a7a1f/1626834411.png)
+![// 因為專案預設會啟用 Redis，如果沒有可以先關閉，在 appsettings.json 中的 Redis 裡面加上 "IsEnabled": "true](https://dotblogsfile.blob.core.windows.net/user/御星幻/09547ec3-aaf1-4f7e-a6f0-91e27d5a7a1f/1626834411.png)
 
 ## 創建圖書實體
 
@@ -98,7 +98,7 @@ namespace Acme.BookStore.Books
 }
 ```
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/09547ec3-aaf1-4f7e-a6f0-91e27d5a7a1f/1626838792.png)
+![// 如果有開發過 API 應該遇過給 client 的時候蠻常會用到實體的 enum ，因為 DDD 中領域不會開放給外部(Client)，所以這類東西需要放](https://dotblogsfile.blob.core.windows.net/user/御星幻/09547ec3-aaf1-4f7e-a6f0-91e27d5a7a1f/1626838792.png)
 
 ### Book 實體 (Entity)
 
@@ -145,11 +145,11 @@ namespace Acme.BookStore.Books
 >
 > (**除非你使用 EF Core**之類的ORM可以很好地支持這種情況,並且你真的需要它.請記住這種方法不適用於NoSQL數據庫(如MongoDB),你必須真正實現聚合模式）.
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/09547ec3-aaf1-4f7e-a6f0-91e27d5a7a1f/1626838362.png)
+![(除非你使用 EF Core之類的ORM可以很好地支持這種情況,並且你真的需要它.請記住這種方法不適用於NoSQL數據庫(如MongoDB),你必須真正實現聚合](https://dotblogsfile.blob.core.windows.net/user/御星幻/09547ec3-aaf1-4f7e-a6f0-91e27d5a7a1f/1626838362.png)
 
 最終的文件夾/文件結構應該如下所示：
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/09547ec3-aaf1-4f7e-a6f0-91e27d5a7a1f/1626838911.png)
+![最終的文件夾/文件結構應該如下所示：](https://dotblogsfile.blob.core.windows.net/user/御星幻/09547ec3-aaf1-4f7e-a6f0-91e27d5a7a1f/1626838911.png)
 
 ### 將Book實體添加到DbContext中
 
@@ -163,7 +163,7 @@ public class BookStoreDbContext : AbpDbContext<BookStoreDbContext>
 }
 ```
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/09547ec3-aaf1-4f7e-a6f0-91e27d5a7a1f/1626838226.png)
+![EF Core 需要你將實體和DbContext建立關聯。最簡單的做法是在Acme.BookStore.EntityFrameworkCore項目的BookSt](https://dotblogsfile.blob.core.windows.net/user/御星幻/09547ec3-aaf1-4f7e-a6f0-91e27d5a7a1f/1626838226.png)
 
 ### 將書實體映射到數據庫表
 
@@ -197,14 +197,14 @@ namespace Acme.BookStore.EntityFrameworkCore
 }
 ```
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/09547ec3-aaf1-4f7e-a6f0-91e27d5a7a1f/1626839141.png)
+![在Acme.BookStore.EntityFrameworkCore項目中打開BookStoreDbContextModelCreatingExtension](https://dotblogsfile.blob.core.windows.net/user/御星幻/09547ec3-aaf1-4f7e-a6f0-91e27d5a7a1f/1626839141.png)
 
 - `ConfigureByConvention()` 方法優雅的配置/歸屬的屬性，應始終對你所有的屬性使用它。
 - `BookStoreConsts`包含用於表的架構和表前綴的常量值。你不一定需要使用它，但建議在單點控製表的前綴。
   // 這是定義資料表名稱前綴，用來跟 Abp 開頭的表來做區分，方便辨識哪些是框架用的資料表，哪些是我們自己應用程式用的資料表，或自己定義不同前綴來分類自己的表，
   // 這邊建議統一定義在領域層的一個統一地方，預設是 `BookStoreConsts.cs` ，有其他需要共用的常量 (Const) 也可以繼續統一加在這裡，方便使用與管理。
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/09547ec3-aaf1-4f7e-a6f0-91e27d5a7a1f/1626839256.png)
+![// 這邊建議統一定義在領域層的一個統一地方，預設是 BookStoreConsts.cs ，有其他需要共用的常量 (Const) 也可以繼續統一加在這裡，方便](https://dotblogsfile.blob.core.windows.net/user/御星幻/09547ec3-aaf1-4f7e-a6f0-91e27d5a7a1f/1626839256.png)
 
 ### 添加數據遷移
 
@@ -216,7 +216,7 @@ namespace Acme.BookStore.EntityFrameworkCore
 dotnet ef migrations add Created_Book_Entity
 ```
 
-![](https://dotblogsfile.blob.core.windows.net/user/%E5%BE%A1%E6%98%9F%E5%B9%BB/f8aa590e-d43b-4f53-afa6-cea509e45adf/1626682350.png)
+![在Acme.BookStore.EntityFrameworkCore.DbMigrations目錄中打開命令行輸入以下命令：](https://dotblogsfile.blob.core.windows.net/user/%E5%BE%A1%E6%98%9F%E5%B9%BB/f8aa590e-d43b-4f53-afa6-cea509e45adf/1626682350.png)
 {ignore-vars="true"}
 
 它會添加新的遷移類到項目中：
@@ -224,7 +224,7 @@ dotnet ef migrations add Created_Book_Entity
 ![書店-efcore-遷移](https://raw.githubusercontent.com/abpframework/abp/rel-4.3/docs/zh-Hans/Tutorials/images/bookstore-efcore-migration.png)
 > 如果你使用Visual Studio 你可能想要在*包授權管理(PMC)中*`Add-Migration Created_Book_Entity -c BookStoreMigrationsDbContext`*和使用*`Update-Database -c BookStoreMigrationsDbContext`*命令。確保*`Acme.BookStore.Web`*是啟動項目並且*`Acme.BookStore.EntityFrameworkCore.DbMigrations`*是 PMC 的默認項目*。
 
-![](https://dotblogsfile.blob.core.windows.net/user/%E5%BE%A1%E6%98%9F%E5%B9%BB/f8aa590e-d43b-4f53-afa6-cea509e45adf/1626682501.png)
+![如果你使用Visual Studio 你可能想要在包授權管理(PMC)中Add-Migration CreatedBookEntity -c BookStore](https://dotblogsfile.blob.core.windows.net/user/%E5%BE%A1%E6%98%9F%E5%B9%BB/f8aa590e-d43b-4f53-afa6-cea509e45adf/1626682501.png)
 {ignore-vars="true"}
 
 #### 添加附加數據 (SeedData)
@@ -288,7 +288,7 @@ namespace Acme.BookStore
 
 - 如果中數據庫沒有當前圖書，則使用`IRepository<Book, Guid>`(默認為[知識庫](https://docs.abp.io/zh-Hans/abp/latest/Repositories))將兩本書插入數據庫。
 
-![](https://dotblogsfile.blob.core.windows.net/user/%E5%BE%A1%E6%98%9F%E5%B9%BB/f8aa590e-d43b-4f53-afa6-cea509e45adf/1626683321.png)
+![如果中數據庫沒有當前圖書，則使用IRepositoryBook, Guid(默認為知識庫)將兩本書插入數據庫。](https://dotblogsfile.blob.core.windows.net/user/%E5%BE%A1%E6%98%9F%E5%B9%BB/f8aa590e-d43b-4f53-afa6-cea509e45adf/1626683321.png)
 {ignore-vars="true"}
 
 ### 更新數據庫
@@ -344,7 +344,7 @@ namespace Acme.BookStore
 - `BookDto`繼承自`AuditedEntityDto<Guid>`。跟上面定義的`Book`實體一樣具有一些審計屬性。
   // 這邊為了用來做 CRUD，某些DTO可能需要繼承內鍵含有Id定義的基類，才能正常做Update與Delete，一般DTO則可以不用，可以參考 [快速開始](https://dotblogs.com.tw/jakeuj/2021/07/20/abpio01)
 
-![](https://dotblogsfile.blob.core.windows.net/user/%E5%BE%A1%E6%98%9F%E5%B9%BB/bff36275-1beb-423a-9664-b96e21b3c91c/1626684853.png)
+![// 這邊為了用來做 CRUD，某些DTO可能需要繼承內鍵含有Id定義的基類，才能正常做Update與Delete，一般DTO則可以不用，可以參考 快速開始](https://dotblogsfile.blob.core.windows.net/user/%E5%BE%A1%E6%98%9F%E5%B9%BB/bff36275-1beb-423a-9664-b96e21b3c91c/1626684853.png)
 {ignore-vars="true"}
 
 在將書籍返回到表示層時，需要將`Book`實體轉換為`BookDto`對象。[AutoMapper](https://automapper.org/)庫可以在定義正確的映射時自動執行此轉換。
@@ -448,7 +448,7 @@ namespace Acme.BookStore.Books
   你可以從空的`IApplicationService`接口繼承並手動定義自己的方法（將在下一個領域中完成）。
 - `ICrudAppService`有一些變體，你可以在每個方法中單獨使用 DTO，也可以分別單獨指定（例如使用不同的 DTO 進行創建和更新）。
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/09547ec3-aaf1-4f7e-a6f0-91e27d5a7a1f/1627018683.png)
+![ICrudAppService有一些變體，你可以在每個方法中單獨使用 DTO，也可以分別單獨指定（例如使用不同的 DTO 進行創建和更新）。](https://dotblogsfile.blob.core.windows.net/user/御星幻/09547ec3-aaf1-4f7e-a6f0-91e27d5a7a1f/1627018683.png)
 
 ### 圖書應用服務
 
@@ -485,7 +485,7 @@ namespace Acme.BookStore.Books
 - `BookAppService`使用[`IObjectMapper`](https://docs.abp.io/zh-Hans/abp/latest/Object-To-Object-Mapping)將`Book`對象轉換為`BookDto`對象, 將`CreateUpdateBookDto`對象轉換為`Book`對象。
   啟動模板使用[AutoMapper](http://automapper.org/)庫作為對象映射提供程序。我們之前定義了映射，從而導致方向預期工作。
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/09547ec3-aaf1-4f7e-a6f0-91e27d5a7a1f/1627018955.png)
+![啟動模板使用AutoMapper庫作為對象映射提供程序。我們之前定義了映射，從而導致方向預期工作。](https://dotblogsfile.blob.core.windows.net/user/御星幻/09547ec3-aaf1-4f7e-a6f0-91e27d5a7a1f/1627018955.png)
 
 ### 自動生成API控制器
 
@@ -545,7 +545,7 @@ Swagger 有一個很好的 UI 來測試 API。
 
 [ABP.IO WEB應用程式框架 新手教學 No.02 開發教學 Part 2 圖書列表頁面](https://dotblogs.com.tw/jakeuj/2021/07/21/abpio03)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

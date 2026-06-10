@@ -34,7 +34,7 @@
 
 [如何在收到 PFX 或 CER 憑證檔之後使用 OpenSSL 進行常見的格式轉換 | The Will Will Web (miniasp.com)](https://blog.miniasp.com/post/2019/04/17/Convert-PFX-and-CER-format-using-OpenSSL)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

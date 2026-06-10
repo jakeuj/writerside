@@ -10,7 +10,7 @@
 
 是阿里雲提供的一項管理用戶身份與資源訪問權限的服務。
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/3e7e6c8c-484f-479b-a392-7f8d275f161b/1620290814.png)
+![是阿里雲提供的一項管理用戶身份與資源訪問權限的服務。](https://dotblogsfile.blob.core.windows.net/user/御星幻/3e7e6c8c-484f-479b-a392-7f8d275f161b/1620290814.png)
 
 0.前言
 
@@ -42,7 +42,7 @@ MFA 部分是使用 OTOP (Time-based One-Time Password)
 
 在帳號密碼外洩時可以多一層認證保護，防止駭客入侵
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/3e7e6c8c-484f-479b-a392-7f8d275f161b/1620288420.png)
+![在帳號密碼外洩時可以多一層認證保護，防止駭客入侵](https://dotblogsfile.blob.core.windows.net/user/御星幻/3e7e6c8c-484f-479b-a392-7f8d275f161b/1620288420.png)
 
 2.[创建用户组](https://ram.console.aliyun.com/groups)
 
@@ -52,7 +52,7 @@ MFA 部分是使用 OTOP (Time-based One-Time Password)
 
 所以可以先建立一個 Admin 用戶組 準備取代主帳號
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/3e7e6c8c-484f-479b-a392-7f8d275f161b/1620287369.jpg)
+![所以可以先建立一個 Admin 用戶組 準備取代主帳號](https://dotblogsfile.blob.core.windows.net/user/御星幻/3e7e6c8c-484f-479b-a392-7f8d275f161b/1620287369.jpg)
 
 3.設定權限
 
@@ -64,7 +64,7 @@ MFA 部分是使用 OTOP (Time-based One-Time Password)
 
 AdministratorAccess [管理所有阿里云资源的权限]
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/3e7e6c8c-484f-479b-a392-7f8d275f161b/1620288953.png)
+![AdministratorAccess [管理所有阿里云资源的权限]](https://dotblogsfile.blob.core.windows.net/user/御星幻/3e7e6c8c-484f-479b-a392-7f8d275f161b/1620288953.png)
 
 如果要建立一般開發者權限 (非全域管理員)
 
@@ -76,7 +76,7 @@ AliyunWebPlusFullAccess [管理Web应用托管服务(WebPlus)的权限]
 
 這個權限可以進行 Web+ 的應用布署作業
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/3e7e6c8c-484f-479b-a392-7f8d275f161b/1620288963.png)
+![這個權限可以進行 Web+ 的應用布署作業](https://dotblogsfile.blob.core.windows.net/user/御星幻/3e7e6c8c-484f-479b-a392-7f8d275f161b/1620288963.png)
 
 4.添加組成員
 
@@ -130,7 +130,7 @@ Id=jake@domain.onaliyun.com, Pwd={自動生成密碼}
 
 雖然 MFA 還會在擋一層，但安全性不嫌高嘛
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/3e7e6c8c-484f-479b-a392-7f8d275f161b/1620290478.png)
+![雖然 MFA 還會在擋一層，但安全性不嫌高嘛](https://dotblogsfile.blob.core.windows.net/user/御星幻/3e7e6c8c-484f-479b-a392-7f8d275f161b/1620290478.png)
 
 7.設置 保存 MFA 狀態
 
@@ -158,7 +158,7 @@ MFA 認證過的瀏覽器一個禮拜內不用再每次輸入動態驗證碼
 
 也提供 domain 別名 的功能可以自己視情況調整設定
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

@@ -46,12 +46,7 @@ namespace <solution-namespace>.<entity-namespace>
 > 實際模板使用 `%%` 包裹變數，例如 `%%entity-name%%`{ignore-vars="true"}
 {style="note"}
 
-> **重點**
->
-> 將類別改為 `static partial class`（ABP 預設沒有 `partial`）
->
-> 這樣 Suite 建檔時不會擋住你自己額外的 Consts 擴充
-{style="note"}
+**重點**：將類別改為 `static partial class`（ABP 預設沒有 `partial`），這樣 Suite 建檔時不會擋住你自己額外的 Consts 擴充。
 
 ## 使用 Partial Class 擴充自訂常數（最佳實務）
 

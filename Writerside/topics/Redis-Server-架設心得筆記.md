@@ -203,7 +203,7 @@ Redis的設計是一個執行時間非常長的過程，在您的伺服器。例
 ·        一旦你確信主系統是不再接收任何查詢 （您可以檢查這與[監視器命令](https://ssl.translatoruser.net/bv.aspx?from=en&to=zh-CHT&a=http%3A%2F%2Fredis.io%2Fcommands%2Fmonitor)），選出的副系統使用**SLAVEOF 沒有人**命令和關閉你的主系統。
 {ignore-vars="true"}
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

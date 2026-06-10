@@ -99,7 +99,7 @@ namespace Acme.BookStore.Books
 - 測試方法直接`Should_Get_List_Of_Books`使用`BookAppService.GetListAsync`方法來獲取用戶列表，並執行檢查。
 - 我們可以安全地檢查“1984”這本書的名稱，因為我們知道這本書可以在數據庫中找到，我們已經將其添加到衍生數據中。
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/f1aefb8a-bd69-4233-ac7c-cd9d986a76f7/1627019102.png)
+![我們可以安全地檢查“1984”這本書的名稱，因為我們知道這本書可以在數據庫中找到，我們已經將其添加到衍生數據中。](https://dotblogsfile.blob.core.windows.net/user/御星幻/f1aefb8a-bd69-4233-ac7c-cd9d986a76f7/1627019102.png)
 
 新增測試方法，創建一個**合法**書籍實體的場景：
 
@@ -227,7 +227,7 @@ namespace Acme.BookStore.Books
 }
 ```
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/f1aefb8a-bd69-4233-ac7c-cd9d986a76f7/1627024422.png)
+![最終的測試類如下所示：](https://dotblogsfile.blob.core.windows.net/user/御星幻/f1aefb8a-bd69-4233-ac7c-cd9d986a76f7/1627024422.png)
 
 打開**測試資源管理器**(測試 -> Windows -> 測試資源管理器)並**執行**所有測試：
 
@@ -239,7 +239,7 @@ namespace Acme.BookStore.Books
 
 查看本教程的[下一章](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Part-5)。
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

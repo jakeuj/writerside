@@ -25,7 +25,7 @@ Windows
 
 [Nartac Software - IIS Crypto](https://www.nartac.com/Products/IISCrypto/)
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/09b94ce6-dd1e-4590-865d-0d5a2b049cbd/1655716824.png.png)
+![Nartac Software - IIS Crypto](https://dotblogsfile.blob.core.windows.net/user/jakeuj/09b94ce6-dd1e-4590-865d-0d5a2b049cbd/1655716824.png.png)
 
 參照
 
@@ -35,7 +35,7 @@ Windows
 
 [Azure VPN Windows Server 2012 R2 Error 812 | Jakeuj - 點部落 (dotblogs.com.tw)](https://www.dotblogs.com.tw/jakeuj/2022/06/15/AzureVpnWindowsServer2012R2Error812)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

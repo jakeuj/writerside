@@ -42,7 +42,7 @@ https://docs.microsoft.com/en-us/aspnet/signalr/overview/performance/scaleout-wi
 
 https://docs.microsoft.com/zh-tw/aspnet/core/signalr/messagepackhubprotocol?view=aspnetcore-2.2
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

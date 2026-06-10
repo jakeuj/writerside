@@ -24,7 +24,7 @@ Visual Studio 2012 .Net 4.5 Validator Error
 
 <http://nuget.org/packages/Microsoft.ScriptManager.jQuery>
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

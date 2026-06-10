@@ -20,7 +20,7 @@
 
 ### 示意圖
 
-![](https://user-images.githubusercontent.com/834156/185554747-f5091008-8fbd-4eb3-ad0a-be47dbb09133.png)
+![示意圖](https://user-images.githubusercontent.com/834156/185554747-f5091008-8fbd-4eb3-ad0a-be47dbb09133.png)
 
 ### 結論
 
@@ -117,7 +117,7 @@ public override async Task OnApplicationInitializationAsync(
 
 [Background Workers Hangfire | Documentation Center | ABP.IO](https://docs.abp.io/en/abp/latest/Background-Workers-Hangfire#unitofwork)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

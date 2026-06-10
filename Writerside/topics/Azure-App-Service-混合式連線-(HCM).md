@@ -25,7 +25,7 @@
 
 機制如下圖所示：
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/57dca308-324e-4337-a79c-eb25e852c095/1630054072.png)
+![機制如下圖所示：](https://dotblogsfile.blob.core.windows.net/user/御星幻/57dca308-324e-4337-a79c-eb25e852c095/1630054072.png)
 
 設定方式請參照官方文件
 
@@ -39,7 +39,7 @@
 
 Host  要輸入你實際要連的服務的電腦名稱 (不是 IP)
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/57dca308-324e-4337-a79c-eb25e852c095/1630055533.png)
+![Host 要輸入你實際要連的服務的電腦名稱 (不是 IP)](https://dotblogsfile.blob.core.windows.net/user/御星幻/57dca308-324e-4337-a79c-eb25e852c095/1630055533.png)
 
 ### 案例一 DB
 
@@ -63,7 +63,7 @@ Port 則是 6379
 
 ## Step 2
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/57dca308-324e-4337-a79c-eb25e852c095/1630055546.png)
+![Step 2](https://dotblogsfile.blob.core.windows.net/user/御星幻/57dca308-324e-4337-a79c-eb25e852c095/1630055546.png)
 
 設定完後點 下載連線管理員 並安裝
 
@@ -95,7 +95,7 @@ Port 則是 6379
 
 [透過 Proxy 使用 Azure HCM (混合式連線管理員) | Jakeuj - 點部落 (dotblogs.com.tw)](https://www.dotblogs.com.tw/jakeuj/2022/03/14/Proxy-Azure-Relay-Hybrid-Connections)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

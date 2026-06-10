@@ -28,7 +28,7 @@ P.S. GCP > IAM > 服務帳戶 > Create > Key
 
 [使用 IAM 控制访问权限  |  Cloud Pub/Sub 文档  |  Google Cloud](https://cloud.google.com/pubsub/docs/access-control?hl=zh-cn)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

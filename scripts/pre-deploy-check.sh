@@ -18,7 +18,7 @@ echo -e "${BLUE}========================================${NC}\n"
 
 # 檢查 1: Markdown 格式
 echo -e "${YELLOW}🔍 [1/4] 檢查 Markdown 格式...${NC}"
-if npx markdownlint-cli2 "Writerside/topics/**/*.md" 2>/dev/null; then
+if npx markdownlint-cli2 2>/dev/null; then
     echo -e "${GREEN}✅ Markdown 格式檢查通過${NC}\n"
 else
     echo -e "${RED}❌ Markdown 格式有問題${NC}"

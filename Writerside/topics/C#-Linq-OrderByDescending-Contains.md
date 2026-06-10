@@ -8,7 +8,7 @@
 
 筆記下按照某 bool 條件 (Id是否包含在指定清單中) 來排序集合
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/5302d5c5-1820-4f50-8d4e-6d16bf110f1f/1688024053.png.png)
+![筆記下按照某 bool 條件 (Id是否包含在指定清單中) 來排序集合](https://dotblogsfile.blob.core.windows.net/user/小小朱/5302d5c5-1820-4f50-8d4e-6d16bf110f1f/1688024053.png.png)
 
 ## 情境
 
@@ -44,8 +44,8 @@ public class User
 }
 ```
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/5302d5c5-1820-4f50-8d4e-6d16bf110f1f/1687164433.png.png)
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![結論](https://dotblogsfile.blob.core.windows.net/user/小小朱/5302d5c5-1820-4f50-8d4e-6d16bf110f1f/1687164433.png.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

@@ -8,7 +8,7 @@
 
 紅帽於2021/2/18開放OpenShift免費使用兩周，藉此機會了解該產品功能，並紀錄一下使用心得。
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/bbd22fd4-8ba2-48ac-90b7-36a4b8a60704/1614050678.jpg)
+![紅帽於2021/2/18開放OpenShift免費使用兩周，藉此機會了解該產品功能，並紀錄一下使用心得。](https://dotblogsfile.blob.core.windows.net/user/jakeuj/bbd22fd4-8ba2-48ac-90b7-36a4b8a60704/1614050678.jpg)
 
 教學影片
 [tech-talks](https://developers.redhat.com/devnation/tech-talks/dev-sandbox)
@@ -40,7 +40,7 @@ Example:
 - 開放外部連線 前端站台
   `oc expose svc/urlshortener-front --port=8080`
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/bbd22fd4-8ba2-48ac-90b7-36a4b8a60704/1614134993.png)
+![oc expose svc/urlshortener-front --port=8080](https://dotblogsfile.blob.core.windows.net/user/jakeuj/bbd22fd4-8ba2-48ac-90b7-36a4b8a60704/1614134993.png)
 
 建立後端服務
 
@@ -58,7 +58,7 @@ Example:
   - DataBase Name=urls
   - Admin Password==shorties
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/bbd22fd4-8ba2-48ac-90b7-36a4b8a60704/1614136441.png)
+![- Admin Password==shorties](https://dotblogsfile.blob.core.windows.net/user/jakeuj/bbd22fd4-8ba2-48ac-90b7-36a4b8a60704/1614136441.png)
 
 - 開放外部連線 後端API站台
 
@@ -70,7 +70,7 @@ Example:
   - MONGO\_SERVER=mongo
   - MONGO\_VERSION=3.6
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/bbd22fd4-8ba2-48ac-90b7-36a4b8a60704/1614137270.png)
+![- MONGO\VERSION=3.6](https://dotblogsfile.blob.core.windows.net/user/jakeuj/bbd22fd4-8ba2-48ac-90b7-36a4b8a60704/1614137270.png)
 
 - 存檔後會自動重新佈署，即可正常取得API回應
   `{"msg":"Hello"}`
@@ -81,7 +81,7 @@ Example:
   請確認 MONGO\_SERVER 與當初設定資料庫的 Database Service Name 相同
 - 設定健康檢查
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/bbd22fd4-8ba2-48ac-90b7-36a4b8a60704/1614145305.png)
+![設定健康檢查](https://dotblogsfile.blob.core.windows.net/user/jakeuj/bbd22fd4-8ba2-48ac-90b7-36a4b8a60704/1614145305.png)
 
 - 設定完記得打勾後按Add才會生效
   之後在 API Pod Log 裡面會發現每十秒或有一個 request 紀錄
@@ -92,7 +92,7 @@ Example:
     BASE\_URL=http://urlshortener-jakeuj-code.apps.sandbox.x8i5.p1.openshiftapps.com
   - 回到前端網站的 about 頁面 應該會看到
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/bbd22fd4-8ba2-48ac-90b7-36a4b8a60704/1614147081.png)
+![- 回到前端網站的 about 頁面 應該會看到](https://dotblogsfile.blob.core.windows.net/user/jakeuj/bbd22fd4-8ba2-48ac-90b7-36a4b8a60704/1614147081.png)
 
 - 如果沒看到可以按看看 Ctrl+F5 看看
 - 再沒有可以到前端 Pods 狀態看新部屬有沒有成功跑起來
@@ -127,13 +127,13 @@ Example:
 - 開放外部連線 轉址服務 由 80改為8080
   urlshortener-redirector > Route Detail > YAML > spec > port: 8080-tcp > Save
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/bbd22fd4-8ba2-48ac-90b7-36a4b8a60704/1614152204.png)
+![urlshortener-redirector Route Detail YAML spec port: 8080-tcp Save](https://dotblogsfile.blob.core.windows.net/user/jakeuj/bbd22fd4-8ba2-48ac-90b7-36a4b8a60704/1614152204.png)
 
 - 到這邊應該設定完成了，回到前端頁面的首頁點先前設定的轉址最右邊的連結按鈕，應該可以正常連回去長網址
 
 延伸閱讀：[OKD (OpenShift Origin) 3.11 與 Ubuntu 18.04 LTS 建置筆記](https://blog.miniasp.com/post/2020/10/11/Install-OpenShift-Origin-OKD-311-on-Ubuntu-Linux)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

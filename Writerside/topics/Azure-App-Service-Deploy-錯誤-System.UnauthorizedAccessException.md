@@ -12,17 +12,17 @@
 
 添加應用程式設定值
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/cd613192-6c2b-45b8-8e5e-30fec9cd8570/1708499037.png.png)
+![添加應用程式設定值](https://dotblogsfile.blob.core.windows.net/user/小小朱/cd613192-6c2b-45b8-8e5e-30fec9cd8570/1708499037.png.png)
 
 `DOTNET_ADD_GLOBAL_TOOLS_TO_PATH=false`
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/cd613192-6c2b-45b8-8e5e-30fec9cd8570/1708499419.png.png)
+![DOTNETADDGLOBALTOOLSTOPATH=false](https://dotblogsfile.blob.core.windows.net/user/小小朱/cd613192-6c2b-45b8-8e5e-30fec9cd8570/1708499419.png.png)
 
 部署成功
 
 ## 徵狀
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/cd613192-6c2b-45b8-8e5e-30fec9cd8570/1708499789.png.png)
+![徵狀](https://dotblogsfile.blob.core.windows.net/user/小小朱/cd613192-6c2b-45b8-8e5e-30fec9cd8570/1708499789.png.png)
 
 ```
 2020-04-17T13:10:41.963 [Information] System.UnauthorizedAccessException: Attempted to perform an unauthorized operation.
@@ -62,13 +62,13 @@ Azure App Service 部屬中心 選擇 DevOps Repo 來源完成 CI/CD 設定
 
 通過設定 `DOTNET_ADD_GLOBAL_TOOLS_TO_PATH=false`，您告訴 .NET Core CLI 在首次運行時不要嘗試修改系統的 `PATH` 環境變數，從而避免了權限問題，使得您的應用程式可以正常部署。這種方法的缺點是您無法在該環境中直接使用全局安裝的 .NET 工具，但對於大多數 Web 應用程式來說，這通常不是問題。
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/cd613192-6c2b-45b8-8e5e-30fec9cd8570/1708500252.png.png)
+![通過設定 DOTNETADDGLOBALTOOLSTOPATH=false，您告訴 .NET Core CLI 在首次運行時不要嘗試修改系統的 PATH 環境變](https://dotblogsfile.blob.core.windows.net/user/小小朱/cd613192-6c2b-45b8-8e5e-30fec9cd8570/1708500252.png.png)
 
 ## 參照
 
 [使用 NuGet 引用的門戶內函數產生時發生錯誤 ·期刊 #5893 ·Azure/azure-functions-host (github.com)](https://github.com/Azure/azure-functions-host/issues/5893)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

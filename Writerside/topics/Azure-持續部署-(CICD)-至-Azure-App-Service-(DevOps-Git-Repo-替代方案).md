@@ -42,7 +42,7 @@ Example: <https://dev.azure.com/jakeuj/TestCiCd/_git/TestCiCd>
 
 這篇主要是針對某種原因找不到 Repo 的處理方式
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

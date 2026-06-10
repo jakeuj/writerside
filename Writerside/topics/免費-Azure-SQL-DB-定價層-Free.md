@@ -14,7 +14,7 @@
 
 這邊記錄一下
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/5f4ada0d-336c-4133-aa79-391602cf434e/1629782873.png)
+![這邊記錄一下](https://dotblogsfile.blob.core.windows.net/user/御星幻/5f4ada0d-336c-4133-aa79-391602cf434e/1629782873.png)
 
 結論：
 
@@ -91,7 +91,7 @@ App Service Plan **基本**、**標準**、**進階版 =>** **無論有多少個
 - 在 **共用** 層中，每個應用程式都會收到 cpu 分鐘的配額，因此 *每個應用程式* 都需支付 cpu 配額的費用。
 - 在專用計算層 (**基本**、**標準**、**進階版**、 **>premiumv2**、 **PremiumV3**) ，App Service 計畫會定義應用程式所調整的 vm 實例數目，因此會收取 App Service 方案中的 *每個 vm 實例* 的費用。 無論有多少個應用程式在 VM 執行個體上執行，這些 VM 執行個體皆採相同收費。 為了避免產生非預期的費用，請參閱[清除 App Service 方案](https://docs.microsoft.com/zh-tw/azure/app-service/app-service-plan-manage#delete)。
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

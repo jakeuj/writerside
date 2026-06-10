@@ -70,13 +70,13 @@ public async Task DoSomethingAsync(
 
 ### 對應關係圖
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/7bdeeccd-06ec-4edf-87f6-4520d8919414/1681801092.png.png)
+![對應關係圖](https://dotblogsfile.blob.core.windows.net/user/小小朱/7bdeeccd-06ec-4edf-87f6-4520d8919414/1681801092.png.png)
 
 對應關係圖
 
 ### 簡化版本
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/7bdeeccd-06ec-4edf-87f6-4520d8919414/1681803742.png.png)
+![簡化版本](https://dotblogsfile.blob.core.windows.net/user/小小朱/7bdeeccd-06ec-4edf-87f6-4520d8919414/1681803742.png.png)
 
 ## `Action<T>`
 
@@ -93,7 +93,7 @@ public async Task DoSomethingAsync(
 
 如都不需要則使用 Action
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/7bdeeccd-06ec-4edf-87f6-4520d8919414/1681804146.png.png)
+![如都不需要則使用 Action](https://dotblogsfile.blob.core.windows.net/user/小小朱/7bdeeccd-06ec-4edf-87f6-4520d8919414/1681804146.png.png)
 
 Action
 
@@ -105,7 +105,7 @@ Action
 
 [`Action<T>` 代理人 (System) | Microsoft Learn](https://learn.microsoft.com/zh-tw/dotnet/api/system.action-1?view=net-7.0)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

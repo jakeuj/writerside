@@ -74,7 +74,7 @@ namespace Acme.BookStore.Permissions
 
 這是定義權限名稱的分層方式。例如，“創建書”權限名稱定義為`BookStore.Books.Create`。ABP 不會強迫您使用結構，但我們發現這種方式很有用。
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/13c109ab-9312-4d96-a13f-58ec30b74fc5/1627025316.png)
+![這是定義權限名稱的分層方式。例如，“創建書”權限名稱定義為BookStore.Books.Create。ABP 不會強迫您使用結構，但我們發現這種方式很有用。](https://dotblogsfile.blob.core.windows.net/user/御星幻/13c109ab-9312-4d96-a13f-58ec30b74fc5/1627025316.png)
 
 ### 權限定義
 
@@ -109,7 +109,7 @@ namespace Acme.BookStore.Permissions
 }
 ```
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/13c109ab-9312-4d96-a13f-58ec30b74fc5/1627025548.png)
+![打開 Acme.BookStore.Application.Contracts 專案裡面的BookStorePermissionDefinitionProvid](https://dotblogsfile.blob.core.windows.net/user/御星幻/13c109ab-9312-4d96-a13f-58ec30b74fc5/1627025548.png)
 
 這個類定義了一個**權限組**（在 UI 上對權限進行分組，將在下面看到）和這個組內的**4 個權限**。
 
@@ -127,7 +127,7 @@ namespace Acme.BookStore.Permissions
 
 > 本地化鍵名是任意的，沒有強制規則。但我們更喜歡上面使用的約定。
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/13c109ab-9312-4d96-a13f-58ec30b74fc5/1627025741.png)
+![本地化鍵名是任意的，沒有強制規則。但我們更喜歡上面使用的約定。](https://dotblogsfile.blob.core.windows.net/user/御星幻/13c109ab-9312-4d96-a13f-58ec30b74fc5/1627025741.png)
 
 ### 權限管理界面
 
@@ -190,7 +190,7 @@ namespace Acme.BookStore.Books
 
 > `[Authorize(...)]`稍後在開發作者管理功能時，您將看到使用屬性的聲明性授權。
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/13c109ab-9312-4d96-a13f-58ec30b74fc5/1627026014.png)
+![[Authorize(...)]稍後在開發作者管理功能時，您將看到使用屬性的聲明性授權。](https://dotblogsfile.blob.core.windows.net/user/御星幻/13c109ab-9312-4d96-a13f-58ec30b74fc5/1627026014.png)
 
 ### Angular 防護配置
 
@@ -285,7 +285,7 @@ export class BookRoutingModule {}
 
 參考：[[2021] ABP.IO WEB應用程式框架 新手教學 No.0 全篇索引](https://dotblogs.com.tw/jakeuj/2021/07/15/abpio0)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

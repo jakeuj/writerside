@@ -107,7 +107,7 @@ public class IssueRepository_Tests : MyProjectDomainTestBase
 
 [Testing | Documentation Center | ABP.IO](https://docs.abp.io/en/abp/latest/Testing#dealing-with-unit-of-work-in-integration-tests)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

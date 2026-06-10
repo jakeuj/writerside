@@ -25,8 +25,8 @@ body {background: url(https://dotblogsfile.blob.core.windows.net/user/jakeuj/000
 
 [圖片來源](https://izzesmile.blogspot.com/2020/01/1080-x-1920-hatsune-miku-wallpaper.html)
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/00000000-0000-0000-0000-000000000000/1617868117.png)
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![圖片來源](https://dotblogsfile.blob.core.windows.net/user/jakeuj/00000000-0000-0000-0000-000000000000/1617868117.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

@@ -23,7 +23,7 @@ tsconfig.json
 
 參照：<https://github.com/angular/angular/issues/16762>
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

@@ -48,7 +48,7 @@ Response.Cookies.Add(sameSiteCookie);
 
 [SameSite cookie sample for ASP.NET 4.7.2 C# WebForms | Microsoft Docs](https://docs.microsoft.com/en-us/aspnet/samesite/csharpwebforms)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

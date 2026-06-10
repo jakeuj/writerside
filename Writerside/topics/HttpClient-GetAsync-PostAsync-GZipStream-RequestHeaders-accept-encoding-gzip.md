@@ -42,7 +42,7 @@ public static async Task<T> ReadAsJsonAsync<InputT,T>(this InputT content) where
 }
 ```
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

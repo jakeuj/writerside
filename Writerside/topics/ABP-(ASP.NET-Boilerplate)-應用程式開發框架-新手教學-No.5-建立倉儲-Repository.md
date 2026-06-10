@@ -24,7 +24,7 @@ ABP有內建基本常用的倉儲功能例如CRUD，而我們可以進行擴充
 
 MyCompany.MyProject.Core\IRepositories\
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/6b10a8cd-2443-44d7-8c9b-c0639abe6c6f/1469674105_26116.png)然後我們新增一個介面 IPlayerRepository.cs
+![MyCompany.MyProject.Core\IRepositories\](https://dotblogsfile.blob.core.windows.net/user/jakeuj/6b10a8cd-2443-44d7-8c9b-c0639abe6c6f/1469674105_26116.png)然後我們新增一個介面 IPlayerRepository.cs
 
 ```
 
@@ -109,7 +109,7 @@ namespace MyCompany.MyProject.EntityFramework.Repositories
 
 [一步一步使用ABP框架搭建正式項目系列教程](http://www.cnblogs.com/farb/p/4849791.html)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

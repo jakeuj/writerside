@@ -27,13 +27,13 @@ npm-windows-upgrade
 
 `AbpException: Could not find the bundle file '/libs/abp/core/abp.css' for the bundle 'Lepton.Global'!`
 
-![](https://support.abp.io/QA/files/998fe814606042e8e84e3a0471ff0106.png)
+![AbpException: Could not find the bundle file '/libs/abp/core/abp.css' for the bu](https://support.abp.io/QA/files/998fe814606042e8e84e3a0471ff0106.png)
 
 ## 特徵
 
 `abp new` 或 `abp install-libs` 時出現 NPM is not installed 警告訊息
 
-![](https://user-images.githubusercontent.com/15319947/173512022-54ed085a-a088-4a9f-a44c-00ca9174b3bd.png)
+![abp new 或 abp install-libs 時出現 NPM is not installed 警告訊息](https://user-images.githubusercontent.com/15319947/173512022-54ed085a-a088-4a9f-a44c-00ca9174b3bd.png)
 
 ## 參照
 
@@ -41,7 +41,7 @@ npm-windows-upgrade
 
 [It warns NPM is not installed when run abp install-libs,but I have installed . · Issue #12995 · abpframework/abp (github.com)](https://github.com/abpframework/abp/issues/12995)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

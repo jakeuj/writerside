@@ -8,7 +8,7 @@
 
 舊專案預設只能用 C# 6 語法，用新語法部署一直不支援，最後終於可以字串插值啦！
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/d07efac4-7211-458d-943c-27e59ce4c15c/1703484955.png.png)
+![舊專案預設只能用 C# 6 語法，用新語法部署一直不支援，最後終於可以字串插值啦！](https://dotblogsfile.blob.core.windows.net/user/小小朱/d07efac4-7211-458d-943c-27e59ce4c15c/1703484955.png.png)
 
 ## 結論
 
@@ -140,7 +140,7 @@ echo "Finished successfully."
 
 其中 `NewSRM.sln` 為方案名稱，須改為自己的專案名字。
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/d07efac4-7211-458d-943c-27e59ce4c15c/1703485008.png.png)
+![其中 NewSRM.sln 為方案名稱，須改為自己的專案名字。](https://dotblogsfile.blob.core.windows.net/user/小小朱/d07efac4-7211-458d-943c-27e59ce4c15c/1703485008.png.png)
 
 ## 步驟
 
@@ -185,7 +185,7 @@ web.config
 
 [ABP.IO Azure App Service 解決 Could not find the bundle file '/libs/abp/core/abp.css' | 御用小本本 - 點部落 (dotblogs.com.tw)](https://dotblogs.com.tw/jakeuj/2023/12/06/abp-Azure-App-Service-DevOps-deploy-cmd)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

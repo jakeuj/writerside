@@ -50,7 +50,7 @@ applicationHost.xdt & web.config
 
 參照：[ASP.NET中maxRequestLength和maxAllowedContentLength的区别；上传大文件设置IIS7文件上传的最大大小\_慢谈人生-CSDN博客](https://blog.csdn.net/qq_23663693/article/details/89920039)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

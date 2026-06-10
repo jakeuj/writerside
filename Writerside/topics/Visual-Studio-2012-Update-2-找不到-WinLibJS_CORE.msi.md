@@ -24,7 +24,7 @@ C:\ProgramData\Package Cache\
 以上
 參考來源：[MSDN](http://blogs.msdn.com/b/visualstudio/archive/2013/04/04/visual-studio-2012-update-2-is-here.aspx?PageIndex=4#comments)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

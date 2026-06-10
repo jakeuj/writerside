@@ -53,7 +53,7 @@ ssh jake@1.2.3.4
 
 ---
 
-# 在 Windows Terminal 中建立自動 SSH 連線設定檔
+## 在 Windows Terminal 中建立自動 SSH 連線設定檔
 
 要在 Windows Terminal 中建立設定檔，讓其啟動時自動透過 PowerShell SSH 連線至 `jake@1.2.3.4`，請依照以下步驟：
 

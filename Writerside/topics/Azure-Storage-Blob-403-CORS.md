@@ -12,17 +12,17 @@
 
 結論
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/fcc157c7-8b40-4a6a-8400-d89cbd8ef62d/1665732756.png.png)
+![結論](https://dotblogsfile.blob.core.windows.net/user/jakeuj/fcc157c7-8b40-4a6a-8400-d89cbd8ef62d/1665732756.png.png)
 
 問題
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/fcc157c7-8b40-4a6a-8400-d89cbd8ef62d/1665732822.png.png)
+![問題](https://dotblogsfile.blob.core.windows.net/user/jakeuj/fcc157c7-8b40-4a6a-8400-d89cbd8ef62d/1665732822.png.png)
 
 參照
 
 [Azure 儲存體的跨原始來源資源分享 (CORS) 支援 | Microsoft Learn](https://learn.microsoft.com/zh-tw/rest/api/storageservices/cross-origin-resource-sharing--cors--support-for-the-azure-storage-services#enabling-cors-for-azure-storage)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

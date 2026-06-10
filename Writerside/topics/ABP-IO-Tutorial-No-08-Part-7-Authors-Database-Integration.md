@@ -50,7 +50,7 @@
 public DbSet<Author> Authors { get; set; }
 ```
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/0b114430-3502-4bef-8e26-932b0b23dd3e/1627029766.png)
+![BookStoreDbContext在Acme.BookStore.EntityFrameworkCore項目中打開並添加以下DbSet屬性：](https://dotblogsfile.blob.core.windows.net/user/御星幻/0b114430-3502-4bef-8e26-932b0b23dd3e/1627029766.png)
 
 然後`BookStoreDbContextModelCreatingExtensions`在同一個項目中打開類，在`ConfigureBookStore`方法的末尾添加以下幾行：
 
@@ -72,7 +72,7 @@ builder.Entity<Author>(b =>
 
 這就像`Book`之前對實體所做的一樣，因此無需再次解釋。
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/0b114430-3502-4bef-8e26-932b0b23dd3e/1627029930.png)
+![這就像Book之前對實體所做的一樣，因此無需再次解釋。](https://dotblogsfile.blob.core.windows.net/user/御星幻/0b114430-3502-4bef-8e26-932b0b23dd3e/1627029930.png)
 
 ## 創建新的數據庫遷移
 
@@ -96,7 +96,7 @@ dotnet ef database update
 
 > 如果您使用的是 Visual Studio，您可能需要在*包管理器控制台 (PMC) 中*使用`Add-Migration Added_Authors -c BookStoreMigrationsDbContext`和`Update-Database -c BookStoreMigrationsDbContext`命令。在這種情況下，請確保是啟動項目並且是PMC 中的*默認項目*。`Acme.BookStore.HttpApi.HostAcme.BookStore.EntityFrameworkCore.DbMigrations`
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/0b114430-3502-4bef-8e26-932b0b23dd3e/1627030142.png)
+![如果您使用的是 Visual Studio，您可能需要在包管理器控制台 (PMC) 中使用Add-Migration AddedAuthors -c BookS](https://dotblogsfile.blob.core.windows.net/user/御星幻/0b114430-3502-4bef-8e26-932b0b23dd3e/1627030142.png)
 
 ## 實現 IAuthorRepository
 
@@ -158,13 +158,13 @@ namespace Acme.BookStore.Authors
 
 > 有關基於 EF Core 的存儲庫的更多信息，請參閱[EF Core 集成文檔](https://docs.abp.io/en/abp/latest/Entity-Framework-Core)。
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/0b114430-3502-4bef-8e26-932b0b23dd3e/1627030341.png)
+![有關基於 EF Core 的存儲庫的更多信息，請參閱EF Core 集成文檔。](https://dotblogsfile.blob.core.windows.net/user/御星幻/0b114430-3502-4bef-8e26-932b0b23dd3e/1627030341.png)
 
 ## 下一部分
 
 請參閱本教程的[下一部分](https://docs.abp.io/en/abp/latest/Tutorials/Part-8)。
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

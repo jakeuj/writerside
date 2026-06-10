@@ -10,13 +10,13 @@
 
 目前的.NET SDK 不支援以 .NET core 3.0 做為目標
 
-確認以下設定![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/2ccf4db8-7e46-4dcf-9989-d5375de55cd9/1565249670_23321.PNG)
+確認以下設定![目前的.NET SDK 不支援以 .NET core 3.0 做為目標](https://dotblogsfile.blob.core.windows.net/user/jakeuj/2ccf4db8-7e46-4dcf-9989-d5375de55cd9/1565249670_23321.PNG)
 
 記得安裝3.0
 
 <https://dotnet.microsoft.com/download/dotnet-core/3.0>
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

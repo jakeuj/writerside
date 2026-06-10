@@ -29,7 +29,7 @@ apt-get install curl -y
 curl -x http://127.0.0.1:3128 -L http://google.com
 ```
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/33840f72-0efb-417b-8412-1b87707e655b/1669279373.png.png)
+![2. 安裝工具](https://dotblogsfile.blob.core.windows.net/user/jakeuj/33840f72-0efb-417b-8412-1b87707e655b/1669279373.png.png)
 
     3. 編輯設定擋 squid.conf
 
@@ -41,7 +41,7 @@ curl -x http://127.0.0.1:3128 -L http://google.com
 
 取消註解 #http\_access allow localnet
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/33840f72-0efb-417b-8412-1b87707e655b/1669279676.png.png)
+![取消註解 #http\access allow localnet](https://dotblogsfile.blob.core.windows.net/user/jakeuj/33840f72-0efb-417b-8412-1b87707e655b/1669279676.png.png)
 
     3.2 更改 Port
 
@@ -49,7 +49,7 @@ curl -x http://127.0.0.1:3128 -L http://google.com
 
 改成 `http_port 80`
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/33840f72-0efb-417b-8412-1b87707e655b/1669279934.png.png)
+![改成 httpport 80](https://dotblogsfile.blob.core.windows.net/user/jakeuj/33840f72-0efb-417b-8412-1b87707e655b/1669279934.png.png)
 
 參照
 
@@ -66,7 +66,7 @@ acl SSL_ports port 22
 acl Safe_ports port 22          # ssh/sftp
 ```
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/33840f72-0efb-417b-8412-1b87707e655b/1669281158.png.png)
+![新增以下字段](https://dotblogsfile.blob.core.windows.net/user/jakeuj/33840f72-0efb-417b-8412-1b87707e655b/1669281158.png.png)
 
 參照
 
@@ -118,19 +118,19 @@ curl -x http://127.0.0.1:80 -L http://google.com
 
     6. 遠端測試
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/33840f72-0efb-417b-8412-1b87707e655b/1669280521.png.png)
+![6. 遠端測試](https://dotblogsfile.blob.core.windows.net/user/jakeuj/33840f72-0efb-417b-8412-1b87707e655b/1669280521.png.png)
 
 驗證帳號密碼
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/33840f72-0efb-417b-8412-1b87707e655b/1669285340.png.png)
+![驗證帳號密碼](https://dotblogsfile.blob.core.windows.net/user/jakeuj/33840f72-0efb-417b-8412-1b87707e655b/1669285340.png.png)
 
 確認 IP 是否從台灣換成新加坡 (資源群組 東南亞 資料中心 位於 SG)
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/33840f72-0efb-417b-8412-1b87707e655b/1669280578.png.png)
+![確認 IP 是否從台灣換成新加坡 (資源群組 東南亞 資料中心 位於 SG)](https://dotblogsfile.blob.core.windows.net/user/jakeuj/33840f72-0efb-417b-8412-1b87707e655b/1669280578.png.png)
 
 ## 測試 SFTP
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/33840f72-0efb-417b-8412-1b87707e655b/1669281376.png.png)
+![測試 SFTP](https://dotblogsfile.blob.core.windows.net/user/jakeuj/33840f72-0efb-417b-8412-1b87707e655b/1669281376.png.png)
 
 沒意外了話可以成功取得檔案
 
@@ -154,7 +154,7 @@ vCPU 每 vCPU NT$1,184.5094
 
 IT 何苦為難 RD？
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

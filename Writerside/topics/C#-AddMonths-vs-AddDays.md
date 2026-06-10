@@ -29,7 +29,7 @@ dat.AddDays(-30).Dump();
 
 例如：每日處理近一個月內尚未處理的東西，這感覺是比較模糊的日數
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

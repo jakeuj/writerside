@@ -38,7 +38,7 @@ Cloudflare 就宣布換掉 Google reCAPTCHA
 
 https://dashboard.hcaptcha.com/sites?page=1
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/ff27ddb8-8aab-4e5f-bd89-a95de4a4565a/1611801003.png)這邊必須要是可以成功從外部dns解析的網站，也不能是localhost​
+![https://dashboard.hcaptcha.com/sites?page=1](https://dotblogsfile.blob.core.windows.net/user/jakeuj/ff27ddb8-8aab-4e5f-bd89-a95de4a4565a/1611801003.png)這邊必須要是可以成功從外部dns解析的網站，也不能是localhost​
 
 開發階段要將測試網址解析到本地以利開發測試
 
@@ -179,7 +179,7 @@ Properties\launchSettings.json
 
 參考：https://www.ithome.com.tw/news/136936​
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

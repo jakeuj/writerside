@@ -30,7 +30,7 @@ Get-AppxPackage Microsoft.SecHealthUI -AllUsers | Reset-AppxPackage
 
 不確定是只有 Win 11 會發生還是 Win 10 也會
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

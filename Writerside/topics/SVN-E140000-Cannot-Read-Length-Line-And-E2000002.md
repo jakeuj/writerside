@@ -80,7 +80,7 @@ linux 下先切到 db/locks
 
 參照：http://mahingupta.com/svn-can-not-parse-lock-entries-hashfile/
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

@@ -33,7 +33,7 @@ sasBuilder.ContentDisposition =
 
 [建立容器或 blob 的服務 SAS - Azure Storage | Microsoft Learn](https://learn.microsoft.com/zh-tw/azure/storage/blobs/sas-service-create?tabs=dotnet)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

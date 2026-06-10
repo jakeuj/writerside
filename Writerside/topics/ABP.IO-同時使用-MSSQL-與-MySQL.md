@@ -73,7 +73,7 @@ Configure<AbpDbContextOptions>(options =>
 
 [ABP.IO WEB應用程式框架 使用多個資料庫 | 御用小本本 - 點部落 (dotblogs.com.tw)](https://www.dotblogs.com.tw/jakeuj/2021/10/04/Abp-Using-Multiple-Databases)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

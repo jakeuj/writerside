@@ -32,7 +32,7 @@ Give the Startup Command with the command to start FastAPI on Azure App Service
 
 [Deploy FastAPI on Azure App Service – TutLinks](https://tutlinks.com/deploy-fastapi-on-azure/)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

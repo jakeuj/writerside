@@ -31,7 +31,7 @@ new { SchoolId = b.Id, IsMale = true }
 
 [LINQ Join with Multiple Conditions in On Clause - Stack Overflow](https://stackoverflow.com/questions/7664727/linq-join-with-multiple-conditions-in-on-clause)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

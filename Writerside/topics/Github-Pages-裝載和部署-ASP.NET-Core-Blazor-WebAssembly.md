@@ -99,7 +99,7 @@ https://jakeuj.github.io/BlazorOnGitHubPages/
 
 參照：https://github.com/jakeuj/BlazorOnGitHubPages
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

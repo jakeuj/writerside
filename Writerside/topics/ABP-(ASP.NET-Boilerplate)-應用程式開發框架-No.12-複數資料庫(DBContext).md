@@ -363,7 +363,7 @@ You should implement and replace IConnectionStringResolver. In this custom servi
 [ABP 基礎設施層- 集成Entity Framework Core](https://www.52abp.com/wiki/abp-cn/latest/9.3ABP%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD%E5%B1%82-%E9%9B%86%E6%88%90EntityFrameworkCore)
 {ignore-vars="true"}
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

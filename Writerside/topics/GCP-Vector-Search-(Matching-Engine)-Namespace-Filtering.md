@@ -105,7 +105,7 @@ P.S. 實際上這邊應該將 restricts 改由 function Parameter 帶入 (例如
 
 [generative-ai/language/use-cases/document-qa/utils/matching\_engine.py at main · GoogleCloudPlatform/generative-ai · GitHub](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/language/use-cases/document-qa/utils/matching_engine.py#L138)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

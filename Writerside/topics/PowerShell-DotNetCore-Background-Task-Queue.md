@@ -292,7 +292,7 @@ Could not load file or assembly 'Microsoft.Management.Infrastructure
 
 http://dog0416.blogspot.com/2020/06/aspnet-core-microsoftpowershellsdk-iis.html
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

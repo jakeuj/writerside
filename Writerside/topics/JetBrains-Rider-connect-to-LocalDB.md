@@ -29,7 +29,7 @@ PS/CMD 執行 sqllocaldb start
 
 P.S. 首次使用要點一下下方 下載驅動
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/b5e7cb7b-ba3c-468d-a448-7ca945b53f6b/1563353518_32263.png)![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/b5e7cb7b-ba3c-468d-a448-7ca945b53f6b/1563353523_65684.png)![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/b5e7cb7b-ba3c-468d-a448-7ca945b53f6b/1563353528_22475.png)![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/b5e7cb7b-ba3c-468d-a448-7ca945b53f6b/1563353532_16522.png)![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/b5e7cb7b-ba3c-468d-a448-7ca945b53f6b/1563353534_93502.png)![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/b5e7cb7b-ba3c-468d-a448-7ca945b53f6b/1563353538_47191.png)![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/b5e7cb7b-ba3c-468d-a448-7ca945b53f6b/1563353541_03609.png)![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/b5e7cb7b-ba3c-468d-a448-7ca945b53f6b/1563353544_3776.png)![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/b5e7cb7b-ba3c-468d-a448-7ca945b53f6b/1563353547_77041.png)
+![P.S. 首次使用要點一下下方 下載驅動](https://dotblogsfile.blob.core.windows.net/user/jakeuj/b5e7cb7b-ba3c-468d-a448-7ca945b53f6b/1563353518_32263.png)![P.S. 首次使用要點一下下方 下載驅動 2](https://dotblogsfile.blob.core.windows.net/user/jakeuj/b5e7cb7b-ba3c-468d-a448-7ca945b53f6b/1563353523_65684.png)![P.S. 首次使用要點一下下方 下載驅動 3](https://dotblogsfile.blob.core.windows.net/user/jakeuj/b5e7cb7b-ba3c-468d-a448-7ca945b53f6b/1563353528_22475.png)![P.S. 首次使用要點一下下方 下載驅動 4](https://dotblogsfile.blob.core.windows.net/user/jakeuj/b5e7cb7b-ba3c-468d-a448-7ca945b53f6b/1563353532_16522.png)![P.S. 首次使用要點一下下方 下載驅動 5](https://dotblogsfile.blob.core.windows.net/user/jakeuj/b5e7cb7b-ba3c-468d-a448-7ca945b53f6b/1563353534_93502.png)![P.S. 首次使用要點一下下方 下載驅動 6](https://dotblogsfile.blob.core.windows.net/user/jakeuj/b5e7cb7b-ba3c-468d-a448-7ca945b53f6b/1563353538_47191.png)![P.S. 首次使用要點一下下方 下載驅動 7](https://dotblogsfile.blob.core.windows.net/user/jakeuj/b5e7cb7b-ba3c-468d-a448-7ca945b53f6b/1563353541_03609.png)![P.S. 首次使用要點一下下方 下載驅動 8](https://dotblogsfile.blob.core.windows.net/user/jakeuj/b5e7cb7b-ba3c-468d-a448-7ca945b53f6b/1563353544_3776.png)![P.S. 首次使用要點一下下方 下載驅動 9](https://dotblogsfile.blob.core.windows.net/user/jakeuj/b5e7cb7b-ba3c-468d-a448-7ca945b53f6b/1563353547_77041.png)
 
 connectionString="Server=(LocalDb)\\MSSQLLocalDB;Database=TestDB;Trusted\_Connection=True;MultipleActiveResultSets=true"
 
@@ -37,7 +37,7 @@ connectionString="Server=(LocalDb)\\MSSQLLocalDB;Database=TestDB;Trusted\_Connec
 
 延伸閱讀：[HeidiSQL連接LocalDB](https://stackoverflow.com/questions/25881084/heidisql-connection-to-ms-sql-server-localdb)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

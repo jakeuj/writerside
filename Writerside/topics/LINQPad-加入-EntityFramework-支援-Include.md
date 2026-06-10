@@ -10,15 +10,15 @@ LINQPad 加入 EntityFramework 支援 Include
 
 1.Additional References (按 F4) > Add NuGet (或直接Ctrl+Shift+P)
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/b55b2dd8-e08d-4b9b-bc6d-6c7166a8eebf/1553251570_22384.jpg)2.搜尋 EntityFramework > Add To Query
+![1.Additional References (按 F4) Add NuGet (或直接Ctrl+Shift+P)](https://dotblogsfile.blob.core.windows.net/user/jakeuj/b55b2dd8-e08d-4b9b-bc6d-6c7166a8eebf/1553251570_22384.jpg)2.搜尋 EntityFramework > Add To Query
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/b55b2dd8-e08d-4b9b-bc6d-6c7166a8eebf/1553251724_04581.jpg)3.Add namespace > System.Data.Entity
+![2.搜尋 EntityFramework Add To Query](https://dotblogsfile.blob.core.windows.net/user/jakeuj/b55b2dd8-e08d-4b9b-bc6d-6c7166a8eebf/1553251724_04581.jpg)3.Add namespace > System.Data.Entity
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/b55b2dd8-e08d-4b9b-bc6d-6c7166a8eebf/1553251910_05171.jpg)4.Done.
+![3.Add namespace System.Data.Entity](https://dotblogsfile.blob.core.windows.net/user/jakeuj/b55b2dd8-e08d-4b9b-bc6d-6c7166a8eebf/1553251910_05171.jpg)4.Done.
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/b55b2dd8-e08d-4b9b-bc6d-6c7166a8eebf/1553251987_51491.png)
+![4.Done.](https://dotblogsfile.blob.core.windows.net/user/jakeuj/b55b2dd8-e08d-4b9b-bc6d-6c7166a8eebf/1553251987_51491.png)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

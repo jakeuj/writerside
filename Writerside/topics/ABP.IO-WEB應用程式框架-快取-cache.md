@@ -94,7 +94,7 @@ namespace MyProject
 
 [ASP.NET Core 中的分散式快取 | Microsoft Learn](https://learn.microsoft.com/zh-tw/aspnet/core/performance/caching/distributed?view=aspnetcore-7.0)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

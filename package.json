@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint:md": "markdownlint-cli2 'Writerside/topics/**/*.md'",
-    "lint:md:fix": "markdownlint-cli2 --fix 'Writerside/topics/**/*.md'",
+    "lint:md": "markdownlint-cli2",
+    "lint:md:fix": "markdownlint-cli2 --fix",
     "pre-deploy": "./scripts/pre-deploy-check.sh",
     "sync:skill:writerside": "./scripts/sync-writerside-skill.sh",
     "install-hooks": "cp scripts/git-hooks/pre-push .git/hooks/ && chmod +x .git/hooks/pre-push && echo '✅ Git hooks 已安裝'"

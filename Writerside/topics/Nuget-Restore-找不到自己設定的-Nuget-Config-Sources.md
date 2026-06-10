@@ -59,7 +59,7 @@
 
 [指定 NuGet packages 存放位置 - Yowko's Notes](https://blog.yowko.com/nuget-folder/)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

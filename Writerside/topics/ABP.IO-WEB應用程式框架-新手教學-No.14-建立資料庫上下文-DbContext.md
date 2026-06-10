@@ -22,7 +22,7 @@ public class BookStoreDbContext : AbpDbContext<BookStoreDbContext>
 
 然後關於表的額外設定要到 BookStoreDbContextModelCreatingExtensions 去新增
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/f1e3a920-f5c1-4227-9e4e-fbc75d5883e8/1626681339.png)
+![然後關於表的額外設定要到 BookStoreDbContextModelCreatingExtensions 去新增](https://dotblogsfile.blob.core.windows.net/user/御星幻/f1e3a920-f5c1-4227-9e4e-fbc75d5883e8/1626681339.png)
 
 ```
 namespace Acme.BookStore.EntityFrameworkCore
@@ -61,7 +61,7 @@ namespace Acme.BookStore.EntityFrameworkCore
 
 [ABP.IO WEB應用程式框架 新手教學 No.4 資料庫遷移 Migration](https://dotblogs.com.tw/jakeuj/2021/07/19/abpio4)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

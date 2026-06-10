@@ -58,7 +58,7 @@ async void Start()
 
 5.確認腳本執行版本與API相容性是 4.x
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/47289ff2-d752-4b3a-8a62-ab7f2a5b2616/1560928740_73125.PNG)
+![5.確認腳本執行版本與API相容性是 4.x](https://dotblogsfile.blob.core.windows.net/user/jakeuj/47289ff2-d752-4b3a-8a62-ab7f2a5b2616/1560928740_73125.PNG)
 
 SignalR Client API 相關說明文件請到下面連結查詢
 
@@ -68,7 +68,7 @@ SignalR Client API 相關說明文件請到下面連結查詢
 
 測試環境：[Unity 2018.3.7f1](https://unity3d.com/get-unity/download/archive)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

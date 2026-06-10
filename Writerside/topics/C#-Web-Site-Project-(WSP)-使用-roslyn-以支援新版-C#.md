@@ -8,7 +8,7 @@
 
 安裝 bin\roslyn\csc.exe 以支援 C# 7.3 以上版本的正確新姿勢
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/3fcdd9f8-51f2-46b3-818e-5484f06cbc66/1704353581.png.png)
+![安裝 bin\roslyn\csc.exe 以支援 C# 7.3 以上版本的正確新姿勢](https://dotblogsfile.blob.core.windows.net/user/小小朱/3fcdd9f8-51f2-46b3-818e-5484f06cbc66/1704353581.png.png)
 
 ## 結論
 
@@ -60,7 +60,7 @@
 
 [Convert Web site (WSP) to Web Application (WAP) with Visual Studio 2019 | 御用小本本 - 點部落 (dotblogs.com.tw)](https://dotblogs.com.tw/jakeuj/2021/03/02/Convert-Web-site-to-WebApplication-Visual-Studio-2019)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

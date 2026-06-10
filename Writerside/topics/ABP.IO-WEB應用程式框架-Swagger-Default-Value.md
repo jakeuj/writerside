@@ -47,8 +47,8 @@ public string Message { get; set; }
 public List<string> Users { get; set; }
 ```
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/3d8e3847-8620-45cf-8a75-bc0f7cf98713/1669104103.png.png)
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![YourProject.Application.Contracts/YourDto.cs](https://dotblogsfile.blob.core.windows.net/user/jakeuj/3d8e3847-8620-45cf-8a75-bc0f7cf98713/1669104103.png.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

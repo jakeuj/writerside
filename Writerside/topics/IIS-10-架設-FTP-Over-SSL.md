@@ -18,7 +18,7 @@ Error code 534
 
 IIS根結點的FTP SSL Setting 要先設定好證書
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/6a859fa1-0539-4097-bd49-b3d0931e52df/1561625750_91979.PNG)
+![IIS根結點的FTP SSL Setting 要先設定好證書](https://dotblogsfile.blob.core.windows.net/user/jakeuj/6a859fa1-0539-4097-bd49-b3d0931e52df/1561625750_91979.PNG)
 
 參照：[534 Local policy on server does not allow TLS secure connections](https://forums.iis.net/p/1147315/1860794.aspx#1860794)
 
@@ -30,7 +30,7 @@ Error code 530
 
 則輸入 google.com|test
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/6a859fa1-0539-4097-bd49-b3d0931e52df/1561625617_91844.PNG)
+![則輸入 google.com|test](https://dotblogsfile.blob.core.windows.net/user/jakeuj/6a859fa1-0539-4097-bd49-b3d0931e52df/1561625617_91844.PNG)
 
 P.S. 預設加密：允許的話就使用外顯式 TLS 就可以了其實
 
@@ -44,7 +44,7 @@ FTP授權規則內確認權限 讀取/寫入 有打勾
 
 要確保該WINDOWS帳號有權限 讀取/寫入
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/6a859fa1-0539-4097-bd49-b3d0931e52df/1561625808_79574.PNG)
+![要確保該WINDOWS帳號有權限 讀取/寫入](https://dotblogsfile.blob.core.windows.net/user/jakeuj/6a859fa1-0539-4097-bd49-b3d0931e52df/1561625808_79574.PNG)
 
 錯誤：讀取目錄列表失敗
 
@@ -56,19 +56,19 @@ FTP授權規則內確認權限 讀取/寫入 有打勾
 
 被動模式：IIS FTP Firewall Support 裡面設定外網IP跟Ports
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/6a859fa1-0539-4097-bd49-b3d0931e52df/1564561715_68958.png)
+![被動模式：IIS FTP Firewall Support 裡面設定外網IP跟Ports](https://dotblogsfile.blob.core.windows.net/user/jakeuj/6a859fa1-0539-4097-bd49-b3d0931e52df/1564561715_68958.png)
 
 防火牆追加開放剛剛設定的Ports範圍
 
 Example:5000-6000
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/6a859fa1-0539-4097-bd49-b3d0931e52df/1564561727_5422.png)
+![Example:5000-6000](https://dotblogsfile.blob.core.windows.net/user/jakeuj/6a859fa1-0539-4097-bd49-b3d0931e52df/1564561727_5422.png)
 
 P.S. Windows 10 檔案總管 不支援 SSL 所以要另外裝 FTP Client
 
 參照：[Download FileZilla Client for Windows (64bit)](https://filezilla-project.org/download.php?type=client)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

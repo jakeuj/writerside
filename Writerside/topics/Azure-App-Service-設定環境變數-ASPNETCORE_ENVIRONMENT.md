@@ -12,7 +12,7 @@ ASPNETCORE\_ENVIRONMENT=staging
 
 ASPNETCORE\_ENVIRONMENT=staging
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/41e83032-0b77-427c-9343-72ddff238994/1650450041.png.png)
+![ASPNETCORE\ENVIRONMENT=staging](https://dotblogsfile.blob.core.windows.net/user/jakeuj/41e83032-0b77-427c-9343-72ddff238994/1650450041.png.png)
 
 ASPNETCORE\_ENVIRONMENT=staging
 
@@ -38,7 +38,7 @@ ASPNETCORE\_ENVIRONMENT=staging
 
 [使用 Azure 應用服務和 ASP.NET 核心|進行配置elmah.io](https://blog.elmah.io/configuration-with-azure-app-services-and-aspnetcore/)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

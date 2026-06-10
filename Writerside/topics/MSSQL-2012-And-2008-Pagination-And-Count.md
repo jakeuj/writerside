@@ -49,7 +49,7 @@ FROM(
 WHERE rowNumber BETWEEN 5 AND 10
 ```
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/00000000-0000-0000-0000-000000000000/1616480905.png)
+![MSSQL 2008](https://dotblogsfile.blob.core.windows.net/user/jakeuj/00000000-0000-0000-0000-000000000000/1616480905.png)
 
 參照
 
@@ -57,7 +57,7 @@ WHERE rowNumber BETWEEN 5 AND 10
 
 https://ithelp.ithome.com.tw/articles/10190424
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

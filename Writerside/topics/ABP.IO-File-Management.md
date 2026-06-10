@@ -123,7 +123,7 @@ return f.DirectoryId;
 
 [file-management](https://abp.io/docs/latest/modules/file-management)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

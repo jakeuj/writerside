@@ -164,7 +164,7 @@ public class IssueLabel : Entity
 
 - Effective Aggregate Design by Vaughn Vernon <http://dddcommunity.org/library/vernon_2011>
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

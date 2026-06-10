@@ -81,13 +81,13 @@ Openshift 目前共提供三種產品
 - Config Map：分離設定檔與映像黨之間的耦合，提供項容器注入配置的機制
 - Secret：金鑰管理，與前項類似，旨在抽離敏感字段
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/670c8bc8-e078-4975-ab60-008be1a6ed03/1612863601.png)
+![Secret：金鑰管理，與前項類似，旨在抽離敏感字段](https://dotblogsfile.blob.core.windows.net/user/jakeuj/670c8bc8-e078-4975-ab60-008be1a6ed03/1612863601.png)
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/670c8bc8-e078-4975-ab60-008be1a6ed03/1612863784.png)
+![Secret：金鑰管理，與前項類似，旨在抽離敏感字段](https://dotblogsfile.blob.core.windows.net/user/jakeuj/670c8bc8-e078-4975-ab60-008be1a6ed03/1612863784.png)
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/670c8bc8-e078-4975-ab60-008be1a6ed03/1612863622.png)
+![Secret：金鑰管理，與前項類似，旨在抽離敏感字段](https://dotblogsfile.blob.core.windows.net/user/jakeuj/670c8bc8-e078-4975-ab60-008be1a6ed03/1612863622.png)
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/670c8bc8-e078-4975-ab60-008be1a6ed03/1613523675.png)
+![Secret：金鑰管理，與前項類似，旨在抽離敏感字段](https://dotblogsfile.blob.core.windows.net/user/jakeuj/670c8bc8-e078-4975-ab60-008be1a6ed03/1613523675.png)
 
 ---
 
@@ -130,7 +130,7 @@ Hint
 
 [Windows 10 上適用於 Linux 的 Windows 子系統安裝指南](https://docs.microsoft.com/zh-tw/windows/wsl/install-win10)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

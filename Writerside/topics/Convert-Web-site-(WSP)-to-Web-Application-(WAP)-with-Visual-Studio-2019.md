@@ -23,7 +23,7 @@ WAP 步驟
 2. 將原有網站頁面程式碼包含App\_Code複製貼上到新專案
 3. App\_Code進去裡面全選之後，去 屬性>進階>建置動作>內容> 改成 編譯
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/4d2ba2fb-e07a-4c9c-b9c3-141fa3e8ae2f/1614670712.png)
+![App\Code進去裡面全選之後，去 屬性進階建置動作內容 改成 編譯](https://dotblogsfile.blob.core.windows.net/user/jakeuj/4d2ba2fb-e07a-4c9c-b9c3-141fa3e8ae2f/1614670712.png)
 
 1. 將缺少的Nuget套件先裝一裝
 2. 有其他Bug先解一解
@@ -32,7 +32,7 @@ WAP 步驟
    導致同名 class new 了相同類別)
 3. 重頭戲，點一下 Convert to web application
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/4d2ba2fb-e07a-4c9c-b9c3-141fa3e8ae2f/1614670402.png)
+![重頭戲，點一下 Convert to web application](https://dotblogsfile.blob.core.windows.net/user/jakeuj/4d2ba2fb-e07a-4c9c-b9c3-141fa3e8ae2f/1614670402.png)
 
 1. 這邊我卡N久，因為舊版是在右邊專案總管點右鍵會有這選項，
    新版拿掉了，要從上方專案Tab點進去才會看到...
@@ -43,7 +43,7 @@ WAP 步驟
 1. 如果專案本身有問題不能 build，偵錯 > 偵錯屬性 > 建置 > 不建置
 2. c#新版語法不支援：將編譯器改成 Roslyn ，並將 C# 版本從 5.0 升到 7.3
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

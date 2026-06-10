@@ -52,7 +52,7 @@ print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')))
 
 `--gpus all`
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/e655befd-00ba-426f-a1bd-b5172f7ce3c1/1706510625.png.png)
+![--gpus all](https://dotblogsfile.blob.core.windows.net/user/小小朱/e655befd-00ba-426f-a1bd-b5172f7ce3c1/1706510625.png.png)
 
 Output:
 
@@ -112,7 +112,7 @@ Output:
 
 [How to Deploy GPU-Accelerated Applications on Amazon ECS with Docker Compose | Docker](https://www.docker.com/blog/deploy-gpu-accelerated-applications-on-amazon-ecs-with-docker-compose/)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

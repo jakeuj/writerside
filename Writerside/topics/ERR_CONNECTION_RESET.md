@@ -30,7 +30,7 @@ IIS刪除網站之後可能會造成原本網站異常
 
 特此筆記
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

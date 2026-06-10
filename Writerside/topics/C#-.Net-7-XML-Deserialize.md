@@ -96,7 +96,7 @@ public class Test
 
 [XmlSerializer.Deserialize 方法 (System.Xml.Serialization) | Microsoft Learn](https://learn.microsoft.com/zh-tw/dotnet/api/system.xml.serialization.xmlserializer.deserialize?view=net-8.0#system-xml-serialization-xmlserializer-deserialize(system-xml-xmlreader))
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

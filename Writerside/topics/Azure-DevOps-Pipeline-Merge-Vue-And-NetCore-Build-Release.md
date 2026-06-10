@@ -8,7 +8,7 @@
 
 Build Vue 後將 dist 放到 .NetCore 專案的 wwwroot 再 Publish
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/838d7938-ba74-4218-9f78-7657335be0dd/1642666557.png)
+![Build Vue 後將 dist 放到 .NetCore 專案的 wwwroot 再 Publish](https://dotblogsfile.blob.core.windows.net/user/jakeuj/838d7938-ba74-4218-9f78-7657335be0dd/1642666557.png)
 
 1. 簽出 Vue Repo
 這邊 Vue Repo 是放在 Azure Devops Git Repo
@@ -104,7 +104,7 @@ $(System.DefaultWorkingDirectory)
 
 value 的格式為 專案名/feed名，首先要先到 Artifacts 裡面去新建 Feed，選擇你的專案並取個名字，然後回填到 `feedRestore`
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/838d7938-ba74-4218-9f78-7657335be0dd/1642667453.png)
+![value 的格式為 專案名/feed名，首先要先到 Artifacts 裡面去新建 Feed，選擇你的專案並取個名字，然後回填到 feedRestore](https://dotblogsfile.blob.core.windows.net/user/jakeuj/838d7938-ba74-4218-9f78-7657335be0dd/1642667453.png)
 
 1. Build
 
@@ -151,11 +151,11 @@ value 的格式為 專案名/feed名，首先要先到 Artifacts 裡面去新建
 
 這會在 Release 時期自動下載到 `$(System.DefaultWorkingDirectory)/Drop/WebApp/aspnet-core-dotnet-core.zip`
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/838d7938-ba74-4218-9f78-7657335be0dd/1642651584.png)
+![這會在 Release 時期自動下載到 $(System.DefaultWorkingDirectory)/Drop/WebApp/aspnet-core-do](https://dotblogsfile.blob.core.windows.net/user/jakeuj/838d7938-ba74-4218-9f78-7657335be0dd/1642651584.png)
 
 其中 "Drop" 是 Release 時指定的 Artifacts 別名 Drop
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/838d7938-ba74-4218-9f78-7657335be0dd/1642672398.png)
+![其中 "Drop" 是 Release 時指定的 Artifacts 別名 Drop](https://dotblogsfile.blob.core.windows.net/user/jakeuj/838d7938-ba74-4218-9f78-7657335be0dd/1642672398.png)
 
 1. Yaml
 
@@ -231,8 +231,8 @@ Release 的時候會需要指定要發布的 zip 在 Artifacts 的相對路徑
 
 總之就是讓他在該路徑能夠找到唯一的 zip 來部屬
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/838d7938-ba74-4218-9f78-7657335be0dd/1642672474.png)
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![總之就是讓他在該路徑能夠找到唯一的 zip 來部屬](https://dotblogsfile.blob.core.windows.net/user/jakeuj/838d7938-ba74-4218-9f78-7657335be0dd/1642672474.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

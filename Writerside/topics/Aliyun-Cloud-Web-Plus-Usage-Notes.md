@@ -128,7 +128,7 @@ Alibaba Cloud web+ 紀錄使用心得
 
 參考文件：[Drone 阿里雲 Web+ DotnetCore 3.1 CI/CD & DockerHub Images CI/CD](https://dotblogs.com.tw/jakeuj/2021/04/22/DroneAliWebPlusCICD)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

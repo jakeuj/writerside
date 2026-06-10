@@ -116,7 +116,7 @@ public override void OnApplicationInitialization(ApplicationInitializationContex
 
 [Azure Storage Blob 403 CORS | 御用小本本 - 點部落 (dotblogs.com.tw)](https://dotblogs.com.tw/jakeuj/2022/10/14/Azure-Storage-CORS-Blob-403)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

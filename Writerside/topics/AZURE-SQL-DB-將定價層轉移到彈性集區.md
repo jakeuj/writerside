@@ -14,7 +14,7 @@ Az Portal UI 一時找不到怎麼改到彈性集區
 
 Azure SQL Server > SQL 彈性集區 > 設定 > 資料庫 > 加入資料庫 > 勾選已準備好新增至此集區中的資料庫 > 儲存
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/4ad8b2bd-d8f7-45f7-99ba-32d47f961d2e/1637722129.png)
+![Azure SQL Server SQL 彈性集區 設定 資料庫 加入資料庫 勾選已準備好新增至此集區中的資料庫 儲存](https://dotblogsfile.blob.core.windows.net/user/jakeuj/4ad8b2bd-d8f7-45f7-99ba-32d47f961d2e/1637722129.png)
 
 只有我找不著東南西北嗎？
 
@@ -22,7 +22,7 @@ Azure SQL Server > SQL 彈性集區 > 設定 > 資料庫 > 加入資料庫 > 勾
 
 至少我還沒找到..
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

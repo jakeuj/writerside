@@ -33,7 +33,7 @@ BitConverter.ToString(MD5.Create().ComputeHash(Encoding.UTF8.GetBytes(str)))
 - 參照
   [SHA1 類別](https://docs.microsoft.com/zh-tw/dotnet/api/system.security.cryptography.sha1?view=net-5.0)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

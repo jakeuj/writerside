@@ -28,7 +28,7 @@ IS4 噴 500 Error，找元凶是裡面 Get /.well-known/openid-configuration 噴
 
 有空再找找看
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

@@ -122,7 +122,7 @@ try
 
 [serilog/serilog-sinks-async: An asynchronous wrapper for Serilog sinks that logs on a background thread (github.com)](https://github.com/serilog/serilog-sinks-async#xml-appsettings-and-json-configuration)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

@@ -13,7 +13,7 @@ fatal: unable to access 'https://dev.azure.com/TsetSolution/Temp/\_git/Temp/': O
 
 結論：關閉 IPv6
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

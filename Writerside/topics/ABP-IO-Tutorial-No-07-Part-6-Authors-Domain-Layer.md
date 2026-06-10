@@ -112,7 +112,7 @@ namespace Acme.BookStore.Authors
 - 的`constructor`和`ChangeName`方法是`internal`迫使僅在域層使用這些方法，使用`AuthorManager`將在後面說明。
 - `Check`class 是一個 ABP 框架實用程序類，可幫助您檢查方法參數（它會引發`ArgumentException`無效情況）。
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/acc54cd3-0216-4d21-9550-4ccb95e1c2c1/1627027394.png)
+![Checkclass 是一個 ABP 框架實用程序類，可幫助您檢查方法參數（它會引發ArgumentException無效情況）。](https://dotblogsfile.blob.core.windows.net/user/御星幻/acc54cd3-0216-4d21-9550-4ccb95e1c2c1/1627027394.png)
 
 `AuthorConsts`是一個簡單的類，位於項目的`Authors`命名空間（文件夾）下`Acme.BookStore.Domain.Shared`：
 
@@ -128,7 +128,7 @@ namespace Acme.BookStore.Authors
 
 在`Acme.BookStore.Domain.Shared`項目內部創建了這個類，因為我們稍後將在[數據傳輸對象](https://docs.abp.io/en/abp/latest/Data-Transfer-Objects)(DTO)上重用它。
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/acc54cd3-0216-4d21-9550-4ccb95e1c2c1/1627027510.png)
+![在Acme.BookStore.Domain.Shared項目內部創建了這個類，因為我們稍後將在數據傳輸對象(DTO)上重用它。](https://dotblogsfile.blob.core.windows.net/user/御星幻/acc54cd3-0216-4d21-9550-4ccb95e1c2c1/1627027510.png)
 
 ## AuthorManager：領域服務
 
@@ -200,7 +200,7 @@ namespace Acme.BookStore.Authors
 >
 > 對於這種情況，我們需要此服務能夠強制唯一名稱約束。
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/acc54cd3-0216-4d21-9550-4ccb95e1c2c1/1627027935.png)
+![對於這種情況，我們需要此服務能夠強制唯一名稱約束。](https://dotblogsfile.blob.core.windows.net/user/御星幻/acc54cd3-0216-4d21-9550-4ccb95e1c2c1/1627027935.png)
 
 兩種方法都會檢查是否已經存在具有給定名稱的作者並拋出一個特殊的業務異常，`AuthorAlreadyExistsException`在`Acme.BookStore.Domain`項目（`Authors`文件夾中）中定義，如下所示：
 
@@ -224,7 +224,7 @@ namespace Acme.BookStore.Authors
 
 `WithData(...)`方法用於向異常對象提供附加數據，這些數據稍後將用於本地化消息或用於其他目的。
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/acc54cd3-0216-4d21-9550-4ccb95e1c2c1/1627027997.png)
+![WithData(...)方法用於向異常對象提供附加數據，這些數據稍後將用於本地化消息或用於其他目的。](https://dotblogsfile.blob.core.windows.net/user/御星幻/acc54cd3-0216-4d21-9550-4ccb95e1c2c1/1627027997.png)
 
 `BookStoreDomainErrorCodes`在`Acme.BookStore.Domain.Shared`項目中打開，修改如下圖：
 
@@ -238,7 +238,7 @@ namespace Acme.BookStore
 }
 ```
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/acc54cd3-0216-4d21-9550-4ccb95e1c2c1/1627028152.png)
+![BookStoreDomainErrorCodes在Acme.BookStore.Domain.Shared項目中打開，修改如下圖：](https://dotblogsfile.blob.core.windows.net/user/御星幻/acc54cd3-0216-4d21-9550-4ccb95e1c2c1/1627028152.png)
 
 這是一個唯一的字符串，代表您的應用程序拋出的錯誤代碼，可由客戶端應用程序處理。對於用戶，您可能希望對其進行本地化。
 
@@ -250,7 +250,7 @@ namespace Acme.BookStore
 
 無論何時拋出`AuthorAlreadyExistsException`，最終用戶都會在 UI 上看到一條很好的錯誤消息。
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/acc54cd3-0216-4d21-9550-4ccb95e1c2c1/1627028256.png)
+![無論何時拋出AuthorAlreadyExistsException，最終用戶都會在 UI 上看到一條很好的錯誤消息。](https://dotblogsfile.blob.core.windows.net/user/御星幻/acc54cd3-0216-4d21-9550-4ccb95e1c2c1/1627028256.png)
 
 ## IAuthorRepository
 
@@ -284,7 +284,7 @@ namespace Acme.BookStore.Authors
 - `FindByNameAsync`用於`AuthorManager`按姓名查詢作者。
 - `GetListAsync` 將在應用程序層中用於獲取列出、排序和過濾的作者列表以顯示在 UI 上。
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/acc54cd3-0216-4d21-9550-4ccb95e1c2c1/1627028426.png)
+![GetListAsync 將在應用程序層中用於獲取列出、排序和過濾的作者列表以顯示在 UI 上。](https://dotblogsfile.blob.core.windows.net/user/御星幻/acc54cd3-0216-4d21-9550-4ccb95e1c2c1/1627028426.png)
 
 我們將在下一部分實現這個存儲庫。
 
@@ -298,13 +298,13 @@ namespace Acme.BookStore.Authors
 
 這部分涵蓋了書店應用程序作者功能的領域層。在此部分中創建/更新的主要文件在下圖中突出顯示：
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/acc54cd3-0216-4d21-9550-4ccb95e1c2c1/1627029402.png)![書店作者域層](https://raw.githubusercontent.com/abpframework/abp/rel-4.3/docs/en/Tutorials/images/bookstore-author-domain-layer.png)
+![這部分涵蓋了書店應用程序作者功能的領域層。在此部分中創建/更新的主要文件在下圖中突出顯示：](https://dotblogsfile.blob.core.windows.net/user/御星幻/acc54cd3-0216-4d21-9550-4ccb95e1c2c1/1627029402.png)![書店作者域層](https://raw.githubusercontent.com/abpframework/abp/rel-4.3/docs/en/Tutorials/images/bookstore-author-domain-layer.png)
 
 ## 下一部分
 
 請參閱本教程的[下一部分](https://docs.abp.io/en/abp/latest/Tutorials/Part-7)。
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

@@ -50,7 +50,7 @@ public class Employee
 
 [[C#][.NET Core] CsvHelper : 透過 C# 讀寫 csv 檔案 (dog0416.blogspot.com)](http://dog0416.blogspot.com/2019/11/aspnet-core-csvhelper-c-csv.html)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

@@ -48,7 +48,7 @@ Configure<AbpDbContextOptions>(options =>
 
 [DbContextOptionsBuilder.EnableSensitiveDataLogging throws InvalidOperationException · Issue #4557 · abpframework/abp (github.com)](https://github.com/abpframework/abp/issues/4557)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

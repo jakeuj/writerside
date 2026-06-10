@@ -18,19 +18,19 @@ Github workflow Submodules from private repositories
 3. 從主倉儲>設定>環境(Environments)>Environment secrets>Add secret>將 PAT token 設定進去
 4. 將 workflow 的 .yml 中指定環境>簽出子模組>設定 Token ( `token: ${{ secrets.PAT_TOKEN }}` )
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/aefb37fe-3ad9-4086-a7ae-194c924676ef/1707114387.png.png)
+![將 workflow 的 .yml 中指定環境簽出子模組設定 Token ( token: ${{ secrets.PATTOKEN }} )](https://dotblogsfile.blob.core.windows.net/user/小小朱/aefb37fe-3ad9-4086-a7ae-194c924676ef/1707114387.png.png)
 
 personal-access-tokens
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/aefb37fe-3ad9-4086-a7ae-194c924676ef/1707114189.png.png)
+![personal-access-tokens](https://dotblogsfile.blob.core.windows.net/user/小小朱/aefb37fe-3ad9-4086-a7ae-194c924676ef/1707114189.png.png)
 
 Contents, Metadata
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/aefb37fe-3ad9-4086-a7ae-194c924676ef/1707115245.png.png)
+![Contents, Metadata](https://dotblogsfile.blob.core.windows.net/user/小小朱/aefb37fe-3ad9-4086-a7ae-194c924676ef/1707115245.png.png)
 
 Environments
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/aefb37fe-3ad9-4086-a7ae-194c924676ef/1707115313.png.png)
+![Environments](https://dotblogsfile.blob.core.windows.net/user/小小朱/aefb37fe-3ad9-4086-a7ae-194c924676ef/1707115313.png.png)
 
 Environment secrets
 
@@ -52,7 +52,7 @@ jobs:
 
 也可以設定成組織通用 Secret，就不用每個 repo 都在建立一次 Secret 來將 PAT 寫進去
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/aefb37fe-3ad9-4086-a7ae-194c924676ef/1707116671.png.png)
+![也可以設定成組織通用 Secret，就不用每個 repo 都在建立一次 Secret 來將 PAT 寫進去](https://dotblogsfile.blob.core.windows.net/user/小小朱/aefb37fe-3ad9-4086-a7ae-194c924676ef/1707116671.png.png)
 
 Secret
 
@@ -86,7 +86,7 @@ jobs:
 2. 到子模組 repo 新增設定 secret `AZUREAPPSERVICE_PUBLISHPROFILE_xxxxx`
 3. 將下載回來的 profile.publishsettings 內容全部複製到 `AZUREAPPSERVICE_PUBLISHPROFILE_xxxxx` 的 Value 內
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/aefb37fe-3ad9-4086-a7ae-194c924676ef/1707118945.png.png)![](https://dotblogsfile.blob.core.windows.net/user/小小朱/aefb37fe-3ad9-4086-a7ae-194c924676ef/1707119119.png.png)
+![將下載回來的 profile.publishsettings 內容全部複製到 AZUREAPPSERVICEPUBLISHPROFILExxxxx 的 Valu](https://dotblogsfile.blob.core.windows.net/user/小小朱/aefb37fe-3ad9-4086-a7ae-194c924676ef/1707118945.png.png)![將下載回來的 profile.publishsettings 內容全部複製到 AZUREAPPSERVICEPUBLISHPROFILExxxxx 的 Valu 2](https://dotblogsfile.blob.core.windows.net/user/小小朱/aefb37fe-3ad9-4086-a7ae-194c924676ef/1707119119.png.png)
 
 ```
 - name: 'Deploy to Azure Web App'
@@ -102,7 +102,7 @@ jobs:
 
 [git - How to checkout submodule in GitHub action? - Stack Overflow](https://stackoverflow.com/questions/65077036/how-to-checkout-submodule-in-github-action/75100242#75100242)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

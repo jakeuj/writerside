@@ -38,7 +38,7 @@ var joinQuery = order
  .ToList();
 ```
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/573d0ae9-3423-4102-b172-e3e56367dd3b/1665481478.png.png)
+![Left Join (GroupJoin + Select) 子集合選擇特定欄位](https://dotblogsfile.blob.core.windows.net/user/jakeuj/573d0ae9-3423-4102-b172-e3e56367dd3b/1665481478.png.png)
 
 - Left Join (GroupJoin + SelectMany) 攤平子集合
 
@@ -73,7 +73,7 @@ B倉儲只要沒有A的bID，該筆資料就不會出現在結果
 參照：[LINQ學習筆記(7)實作Left join(1) Join與Group join](https://medium.com/@ad57475747/linq%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-7-%E5%AF%A6%E4%BD%9Cleft-join-1-join%E8%88%87group-join-47e187d80894)
 {ignore-vars="true"}
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

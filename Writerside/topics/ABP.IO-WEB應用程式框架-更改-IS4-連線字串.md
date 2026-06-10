@@ -28,7 +28,7 @@ ABP 專案預設使用同一個資料庫，Appsettings 連接字串名稱為 Def
 
 參照：[Modules/IdentityServer | Documentation Center | ABP.IO](https://docs.abp.io/en/abp/latest/Modules/IdentityServer#connection-string)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

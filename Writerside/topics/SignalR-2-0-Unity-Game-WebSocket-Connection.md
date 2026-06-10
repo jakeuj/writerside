@@ -71,7 +71,7 @@ Client端：[SignalR und Unity in euren Multiplayer-Indie-Games](https://blogs.m
 
 有機會再看看是不是重寫個圖文步驟吧
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

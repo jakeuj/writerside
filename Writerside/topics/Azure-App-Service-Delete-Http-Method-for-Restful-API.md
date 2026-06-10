@@ -34,7 +34,7 @@
 
 [【Azure 应用服务】如何让App Service 支持 Delete 方法  - 路边两盏灯 - 博客园 (cnblogs.com)](https://www.cnblogs.com/lulight/p/15092019.html)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

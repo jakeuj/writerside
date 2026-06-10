@@ -1,4 +1,4 @@
-# ASP.NET WebSite 使用新版 C #
+# ASP.NET WebSite 使用新版 C Sharp
 
 > **原文發布日期:** 2021-12-16
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/12/16/WebSite-CSharp-7
@@ -66,7 +66,7 @@ bin/roslyn/
 
 [[沒有蠢問題] 找不到路徑 bin\roslyn\csc.exe | 聊聊程式 - 點部落 (dotblogs.com.tw)](https://dotblogs.com.tw/initials/2021/02/11/144248)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

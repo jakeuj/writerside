@@ -65,7 +65,7 @@ P.S.
 
 執行一行ALERT訊息
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

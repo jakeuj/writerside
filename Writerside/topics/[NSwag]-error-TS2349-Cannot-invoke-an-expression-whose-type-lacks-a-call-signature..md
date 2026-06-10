@@ -48,7 +48,7 @@ Type 'typeof import("node\_modules/moment/moment.d.ts")' has no compatible call 
 
 參照：[Typescript compilation error when using momentjs and TypeScript 3](https://github.com/RicoSuter/NSwag/issues/1859)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

@@ -16,11 +16,11 @@ Angular IIS 正常開始 F5 之後 404
 
 結論：應用程式池=>無託管代碼
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/809f5006-22b4-4e10-97bf-43dc611c403a/1559642303_32501.PNG)
+![結論：應用程式池=無託管代碼](https://dotblogsfile.blob.core.windows.net/user/jakeuj/809f5006-22b4-4e10-97bf-43dc611c403a/1559642303_32501.PNG)
 
 不然Angular路由好像無法作用
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

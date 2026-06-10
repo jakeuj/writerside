@@ -14,7 +14,7 @@ License cannot be assigned to a user without a usage location specified.
 
 AZURE AD > User > 個人資料 > 編輯 > 使用位置 > Taiwan
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/62e8c906-9cb6-4dd2-b67e-157737e3e835/1631243827.png)
+![AZURE AD User 個人資料 編輯 使用位置 Taiwan](https://dotblogsfile.blob.core.windows.net/user/jakeuj/62e8c906-9cb6-4dd2-b67e-157737e3e835/1631243827.png)
 
 原因
 
@@ -24,7 +24,7 @@ AZURE AD > User > 個人資料 > 編輯 > 使用位置 > Taiwan
 
 [How to resolve - "License cannot be assigned to a user without a usage location specified." error when assigning license to guest user in Azure. - Debajit's Power Apps & Dynamics 365 Blog (debajmecrm.com)](https://debajmecrm.com/how-to-resolve-license-cannot-be-assigned-to-a-user-without-a-usage-location-specified-error-when-assigning-license-to-guest-user-in-azure/)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

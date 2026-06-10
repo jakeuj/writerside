@@ -79,7 +79,7 @@ private void ConfigureMyOptions(IConfiguration configuration)
 
 [Accessing Configuration in .NET Core Test Projects - Rick Strahl's Web Log (west-wind.com)](https://weblog.west-wind.com/posts/2018/Feb/18/Accessing-Configuration-in-NET-Core-Test-Projects)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

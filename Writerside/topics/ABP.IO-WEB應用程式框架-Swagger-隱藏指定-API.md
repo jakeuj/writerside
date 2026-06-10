@@ -49,7 +49,7 @@ services.AddAbpSwaggerGen(
 
 參照：[How to hide an endpoint from Swagger? #264 | Support Center | ABP Commercial](https://support.abp.io/QA/Questions/264/How-to-hide-an-endpoint-from-Swagger)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

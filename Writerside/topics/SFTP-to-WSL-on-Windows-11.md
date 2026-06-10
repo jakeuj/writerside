@@ -39,7 +39,7 @@
 {ignore-vars="true"}
    - `docker run -p 2223:22 -d atmoz/sftp miles:123456:::upload`
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

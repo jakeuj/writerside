@@ -59,7 +59,7 @@ Get 方法的輸入參數是 TKey Id
 
 [Application Services | Documentation Center | ABP.IO](https://docs.abp.io/en/abp/latest/Application-Services#authorization-for-crud-app-services)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

@@ -67,7 +67,7 @@ But!人生中最重要的就是這個But!
 ApiServiceProxies.WalletServiceProxy,
 ```
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/e7037ec3-b3b6-4a18-96bd-e3915df0c9d1/1554200821_12006.jpg)
+![那就要加上一行](https://dotblogsfile.blob.core.windows.net/user/jakeuj/e7037ec3-b3b6-4a18-96bd-e3915df0c9d1/1554200821_12006.jpg)
 
 ABP對這部分的說明文檔如下
 
@@ -81,7 +81,7 @@ EX:http://localhost:21021/AbpServiceProxies/GetAll?type=jquery
 
 https://docs.microsoft.com/zh-tw/aspnet/core/tutorials/getting-started-with-nswag?view=aspnetcore-2.2&tabs=visual-studio%2Cvisual-studio-xml#generate-code-with-nswagstudio
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

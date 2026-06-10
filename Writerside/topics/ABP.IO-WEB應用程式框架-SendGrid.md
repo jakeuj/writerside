@@ -129,7 +129,7 @@ public class TemplateReplaceDomainModule : AbpModule
 
 [Sending Email in abp io with SmtpEmailSender throwing The input is not a valid Base-64 string](https://stackoverflow.com/questions/67062083/sending-email-in-abp-io-with-smtpemailsender-throwing-the-input-is-not-a-valid-b)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

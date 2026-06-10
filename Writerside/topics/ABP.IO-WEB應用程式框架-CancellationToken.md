@@ -119,11 +119,11 @@ public async Task<int> GetAsync()
 
 會發現的 LOG 顯示該 Request 費時約 9s
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/f150ebac-fe2a-4144-9a4c-c6af94a2ba53/1683798997.jpg.jpg)
+![會發現的 LOG 顯示該 Request 費時約 9s](https://dotblogsfile.blob.core.windows.net/user/小小朱/f150ebac-fe2a-4144-9a4c-c6af94a2ba53/1683798997.jpg.jpg)
 
 反之即使提前關閉畫面還是需要消耗 60s 來完成該 API 呼叫
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/f150ebac-fe2a-4144-9a4c-c6af94a2ba53/1683799086.jpg.jpg)
+![反之即使提前關閉畫面還是需要消耗 60s 來完成該 API 呼叫](https://dotblogsfile.blob.core.windows.net/user/小小朱/f150ebac-fe2a-4144-9a4c-c6af94a2ba53/1683799086.jpg.jpg)
 
 ## 結論
 
@@ -133,7 +133,7 @@ EF ToListAsync, HttpClinet RequestAsync, Stream ReadAsync, Blob SaveAsync…ETC.
 
 則可以在使用者提前取消 Request 時，節省消耗資源並提前完成該要求
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

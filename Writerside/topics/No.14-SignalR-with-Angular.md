@@ -97,7 +97,7 @@ Zero 樣板的 Angular 內建通知系統
 
 所以用上面的方法就可以傳訊息給前端
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

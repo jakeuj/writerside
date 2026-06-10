@@ -78,13 +78,13 @@ C:\Program Files\Microsoft\HybridConnectionManager 0.7\Microsoft.HybridConnectio
 
 ### Log port
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/4ef224f2-a958-4940-8d7f-b4dc51e99d16/1647241786.png.png)
+![Log port](https://dotblogsfile.blob.core.windows.net/user/jakeuj/4ef224f2-a958-4940-8d7f-b4dc51e99d16/1647241786.png.png)
 
 參照
 
 [Azure WCF Relay DNS Support - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/azure-wcf-relay-dns-support/ba-p/370775)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

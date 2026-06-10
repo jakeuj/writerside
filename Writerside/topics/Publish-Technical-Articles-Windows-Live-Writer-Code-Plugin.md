@@ -122,7 +122,7 @@ Code Snippet plugin for Windows Live Writer 則比 SyntaxHighlighter for Windows
 
 其他有待測試…
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

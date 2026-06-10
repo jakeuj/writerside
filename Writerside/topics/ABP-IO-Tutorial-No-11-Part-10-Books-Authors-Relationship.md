@@ -74,7 +74,7 @@ public Guid AuthorId { get; set; }
 
 由於本主題與 ABP 框架無關，因此我們不會深入了解所有場景。
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/78eea910-a6d5-4f3e-94ae-85cae8430a5d/1627034727.png)
+![由於本主題與 ABP 框架無關，因此我們不會深入了解所有場景。](https://dotblogsfile.blob.core.windows.net/user/御星幻/78eea910-a6d5-4f3e-94ae-85cae8430a5d/1627034727.png)
 
 ### 更新 EF 核心映射
 
@@ -92,7 +92,7 @@ builder.Entity<Book>(b =>
 });
 ```
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/78eea910-a6d5-4f3e-94ae-85cae8430a5d/1627034388.png)
+![打開 Acme.BookStore.EntityFrameworkCore 項目 EntityFrameworkCore 文件夾下的 BookStoreDbCo](https://dotblogsfile.blob.core.windows.net/user/御星幻/78eea910-a6d5-4f3e-94ae-85cae8430a5d/1627034388.png)
 
 ### 添加新的 EF Core 遷移
 
@@ -133,7 +133,7 @@ migrationBuilder.AddForeignKey(
 - 在`AuthorId`字段上創建索引。
 - 聲明`AppAuthors`表的外鍵。
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/78eea910-a6d5-4f3e-94ae-85cae8430a5d/1627034898.png)
+![聲明AppAuthors表的外鍵。](https://dotblogsfile.blob.core.windows.net/user/御星幻/78eea910-a6d5-4f3e-94ae-85cae8430a5d/1627034898.png)
 > 如果您使用的是 Visual Studio，您可能需要在*包管理器控制台 (PMC) 中*使用`Add-Migration Added_AuthorId_To_Book -c BookStoreMigrationsDbContext`和`Update-Database -c BookStoreMigrationsDbContext`命令。在這種情況下，請確保是啟動項目並且是PMC 中的*默認項目*。`Acme.BookStore.HttpApi.HostAcme.BookStore.EntityFrameworkCore.DbMigrations`
 
 ## 更改數據播種機
@@ -221,12 +221,12 @@ namespace Acme.BookStore
 
 唯一的變化是我們設置`AuthorId`了`Book`實體的屬性。
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/78eea910-a6d5-4f3e-94ae-85cae8430a5d/1627035218.png)
+![唯一的變化是我們設置AuthorId了Book實體的屬性。](https://dotblogsfile.blob.core.windows.net/user/御星幻/78eea910-a6d5-4f3e-94ae-85cae8430a5d/1627035218.png)
 > 在執行`DbMigrator`. 有關更多信息，請參閱上面的*數據庫和數據遷移*部分。
 
 現在，您可以運行`.DbMigrator`控制台應用程序**遷移**的**數據庫架構**和**種子**的初始數據。
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/78eea910-a6d5-4f3e-94ae-85cae8430a5d/1627035315.png)
+![現在，您可以運行.DbMigrator控制台應用程序遷移的數據庫架構和種子的初始數據。](https://dotblogsfile.blob.core.windows.net/user/御星幻/78eea910-a6d5-4f3e-94ae-85cae8430a5d/1627035315.png)
 
 ## 應用層
 
@@ -270,7 +270,7 @@ namespace Acme.BookStore.Books
 }
 ```
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/78eea910-a6d5-4f3e-94ae-85cae8430a5d/1627035471.png)
+![最後的BookDto課程應該如下：](https://dotblogsfile.blob.core.windows.net/user/御星幻/78eea910-a6d5-4f3e-94ae-85cae8430a5d/1627035471.png)
 
 #### CreateUpdateBookDto - 創建更新書籍
 
@@ -299,7 +299,7 @@ namespace Acme.BookStore.Books
 
 這將用於將添加到`IBookAppService`.
 
-### 圖書應用服務
+### BookAppService 實作
 
 打開工程文件夾中的`IBookAppService`界面，添加一個新的方法，命名為，如下圖：`BooksAcme.BookStore.Application.ContractsGetAuthorLookupAsync`
 
@@ -324,7 +324,7 @@ namespace Acme.BookStore.Books
 }
 ```
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/78eea910-a6d5-4f3e-94ae-85cae8430a5d/1627035721.png)
+![打開工程文件夾中的IBookAppService界面，添加一個新的方法，命名為，如下圖：BooksAcme.BookStore.Application.Cont](https://dotblogsfile.blob.core.windows.net/user/御星幻/78eea910-a6d5-4f3e-94ae-85cae8430a5d/1627035721.png)
 
 這個新方法將用於從 UI 獲取作者列表並填充下拉列表以選擇一本書的作者。
 
@@ -475,11 +475,11 @@ namespace Acme.BookStore.Books
 - 覆蓋 base 的`GetListAsync`方法，該方法`CrudAppService`返回書籍列表。邏輯與前面的方法類似，因此您可以輕鬆理解代碼。
 - 創建了一個新方法：`GetAuthorLookupAsync`. 這個簡單得到所有作者。UI 使用此方法填充下拉列表並在創建/編輯書籍時進行選擇和創作。
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/78eea910-a6d5-4f3e-94ae-85cae8430a5d/1627036184.png)
+![創建了一個新方法：GetAuthorLookupAsync. 這個簡單得到所有作者。UI 使用此方法填充下拉列表並在創建/編輯書籍時進行選擇和創作。](https://dotblogsfile.blob.core.windows.net/user/御星幻/78eea910-a6d5-4f3e-94ae-85cae8430a5d/1627036184.png)
 
 // 在 Book 實體定義導覽屬性 `public Author Author { get; set; }` 可以直接取得關聯實體資料Author.Name
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/78eea910-a6d5-4f3e-94ae-85cae8430a5d/1627037183.png)
+![// 在 Book 實體定義導覽屬性 public Author Author { get; set; } 可以直接取得關聯實體資料Author.Name](https://dotblogsfile.blob.core.windows.net/user/御星幻/78eea910-a6d5-4f3e-94ae-85cae8430a5d/1627037183.png)
 
 // 這邊體驗了一把單元測試的好處，照下方修改單元測試後，確實有正確拿到 AuthorName！
 
@@ -581,7 +581,7 @@ namespace Acme.BookStore.Books
 - 改變斷言條件在`Should_Get_List_Of_Books`從`b => b.Name == "1984"`以`b => b.Name == "1984" && b.AuthorName == "George Orwell"`檢查，如果作者的名字充滿。
 - 更改了在創建新書時`Should_Create_A_Valid_Book`設置的方法`AuthorId`，因為它不再需要了。
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/78eea910-a6d5-4f3e-94ae-85cae8430a5d/1627037702.png)
+![更改了在創建新書時ShouldCreateAValidBook設置的方法AuthorId，因為它不再需要了。](https://dotblogsfile.blob.core.windows.net/user/御星幻/78eea910-a6d5-4f3e-94ae-85cae8430a5d/1627037702.png)
 
 // 這邊改完尋覽屬性跑了一下上面的單元測試，成功通過測試，這樣 publish 的時候可以減少一些低級錯誤，離菜鳥又遠了一些吧！
 
@@ -759,7 +759,7 @@ export class BookComponent implements OnInit {
 
 // 完結，灑花！
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

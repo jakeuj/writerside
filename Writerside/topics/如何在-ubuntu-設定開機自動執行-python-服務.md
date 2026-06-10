@@ -89,7 +89,7 @@ WantedBy=multi-user.target
 
 [Linux 建立自訂 Systemd 服務教學與範例 - G. T. Wang (gtwang.org)](https://blog.gtwang.org/linux/linux-create-systemd-service-unit-for-python-echo-server-tutorial-examples/)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

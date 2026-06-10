@@ -29,13 +29,13 @@ See the tutorial for additional coverage on fine-tuning BERT models using Tensor
 
 ※ 這邊要搜尋 `# TODO` 而不是 `#TODO` 否則會找不到正確位置 (我這邊是找 `TODO`)
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/c999bdd2-9d06-4929-93db-3e4a12333a0b/1693901944.png.png)
+![※ 這邊要搜尋 # TODO 而不是 #TODO 否則會找不到正確位置 (我這邊是找 TODO)](https://dotblogsfile.blob.core.windows.net/user/小小朱/c999bdd2-9d06-4929-93db-3e4a12333a0b/1693901944.png.png)
 
 參照
 
 [Build and Deploy Machine Learning Solutions with Vertex AI: Challenge Lab | Google Cloud Skills Boost](https://www.cloudskillsboost.google/focuses/22019?parent=catalog)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

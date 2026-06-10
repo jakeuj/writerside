@@ -59,7 +59,7 @@ entity.Property(e => e.AutoId).ValueGeneratedOnAdd();
 
 請改用 `SaveChangesAsync`
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

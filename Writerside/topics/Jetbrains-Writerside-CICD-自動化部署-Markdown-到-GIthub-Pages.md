@@ -143,13 +143,13 @@ jobs:
       uses: actions/deploy-pages@v1
 ```
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/21ffcb21-7990-4684-ad40-36cd35a0a19f/1707207652.png.png)![](https://dotblogsfile.blob.core.windows.net/user/小小朱/21ffcb21-7990-4684-ad40-36cd35a0a19f/1707207569.png.png)![](https://dotblogsfile.blob.core.windows.net/user/小小朱/21ffcb21-7990-4684-ad40-36cd35a0a19f/1707207591.png.png)![](https://dotblogsfile.blob.core.windows.net/user/小小朱/21ffcb21-7990-4684-ad40-36cd35a0a19f/1707207507.png.png)![](https://dotblogsfile.blob.core.windows.net/user/小小朱/21ffcb21-7990-4684-ad40-36cd35a0a19f/1707207607.png.png)![](https://dotblogsfile.blob.core.windows.net/user/小小朱/21ffcb21-7990-4684-ad40-36cd35a0a19f/1707207729.png.png)
+![deploy.yml](https://dotblogsfile.blob.core.windows.net/user/小小朱/21ffcb21-7990-4684-ad40-36cd35a0a19f/1707207652.png.png)![deploy.yml 2](https://dotblogsfile.blob.core.windows.net/user/小小朱/21ffcb21-7990-4684-ad40-36cd35a0a19f/1707207569.png.png)![deploy.yml 3](https://dotblogsfile.blob.core.windows.net/user/小小朱/21ffcb21-7990-4684-ad40-36cd35a0a19f/1707207591.png.png)![deploy.yml 4](https://dotblogsfile.blob.core.windows.net/user/小小朱/21ffcb21-7990-4684-ad40-36cd35a0a19f/1707207507.png.png)![deploy.yml 5](https://dotblogsfile.blob.core.windows.net/user/小小朱/21ffcb21-7990-4684-ad40-36cd35a0a19f/1707207607.png.png)![deploy.yml 6](https://dotblogsfile.blob.core.windows.net/user/小小朱/21ffcb21-7990-4684-ad40-36cd35a0a19f/1707207729.png.png)
 
 ## 來源
 
 [Build and publish on GitHub | Writerside (jetbrains.com)](https://www.jetbrains.com/help/writerside/deploy-docs-to-github-pages.html#publish-github-pages)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

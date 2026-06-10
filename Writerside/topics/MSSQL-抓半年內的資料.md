@@ -24,7 +24,7 @@ SELECT * FROM USERS WHERE [CreationTime] > DATEADD(MONTH,-6,GETDATE())
 
 [SQL日期查詢-SQL查詢今天、昨天、7天內、30天，年 - 程式人生 (796t.com)](https://www.796t.com/content/1543417684.html)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

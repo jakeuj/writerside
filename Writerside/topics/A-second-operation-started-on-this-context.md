@@ -16,7 +16,7 @@ A second operation started on this context before a previous operation completed
 
 [A second operation started on this context before a previous operation completed · Issue #5916 · abpframework/abp · GitHub](https://github.com/abpframework/abp/issues/5916)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

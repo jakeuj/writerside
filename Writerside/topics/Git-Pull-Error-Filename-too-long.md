@@ -18,7 +18,7 @@
 
 參照：https://dotblogs.com.tw/clark/2016/01/11/124311
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

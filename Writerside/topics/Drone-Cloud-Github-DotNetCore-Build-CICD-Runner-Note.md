@@ -40,7 +40,7 @@ Push 到 Github Repo 然後到 Drone Cloud 點一下 SYNC
 
 找到剛建立的倉儲 點進去之後 按 ACTIVATE REPOSITORY > SAVE CHANGES
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9744a47c-a66d-42fa-88da-158194f860bc/1618912494.png)
+![找到剛建立的倉儲 點進去之後 按 ACTIVATE REPOSITORY SAVE CHANGES](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9744a47c-a66d-42fa-88da-158194f860bc/1618912494.png)
 
 畫面稍微看一下會發現 Configuration 是 .drone.yml 這個檔案
 
@@ -70,11 +70,11 @@ Ref: https://github.com/jakeuj/Drone/blob/main/.drone.yml
 
 到這邊 commit & push to  master 之後應該會觸發 CI/CD
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9744a47c-a66d-42fa-88da-158194f860bc/1618912476.png)
+![到這邊 commit & push to master 之後應該會觸發 CI/CD](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9744a47c-a66d-42fa-88da-158194f860bc/1618912476.png)
 
 可以到 Drone Cloud 裡面看看建置過程/結果
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9744a47c-a66d-42fa-88da-158194f860bc/1618912597.png)
+![可以到 Drone Cloud 裡面看看建置過程/結果](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9744a47c-a66d-42fa-88da-158194f860bc/1618912597.png)
 
 參照：<https://www.istr.cn/archives/93/>
 
@@ -192,7 +192,7 @@ WIndows 會長這樣
 
 也可以看到建置過程及時 Log
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9744a47c-a66d-42fa-88da-158194f860bc/1618914759.png)
+![也可以看到建置過程及時 Log](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9744a47c-a66d-42fa-88da-158194f860bc/1618914759.png)
 
 Drone
 
@@ -200,13 +200,13 @@ Drone
 
 可以去 Docker 看一下 Runner Container Log
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9744a47c-a66d-42fa-88da-158194f860bc/1618914874.png)
+![可以去 Docker 看一下 Runner Container Log](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9744a47c-a66d-42fa-88da-158194f860bc/1618914874.png)
 
 上面是正常畫面
 
 有問題再拿錯誤訊息去找一下古哥囉~
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

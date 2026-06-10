@@ -12,18 +12,18 @@
 
 ![file](https://dotblogsfile.blob.core.windows.net/user/jakeuj/6bf23d11-9482-4778-a5b5-9ea06e7779e3/1614050835.png)
 
-# 結論
+## 結論
 
 Azure App Service 連接字串 override 不支援 .Net 3.5，
 需要升級專案到 .Net 4.x Runtime 才能由外部複寫連接字串設定值。
 
 ![file](https://dotblogsfile.blob.core.windows.net/user/jakeuj/6bf23d11-9482-4778-a5b5-9ea06e7779e3/1614050817.png)
 
-# Note
+## Note
 
 this magic is not available if you choose .NET 3.5 since it relies on functionality that only exists in .NET 4.5
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

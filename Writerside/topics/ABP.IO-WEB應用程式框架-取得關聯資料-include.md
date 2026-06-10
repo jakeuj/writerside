@@ -139,7 +139,7 @@ var result = await AsyncExecuter.ToListAsync(query, cancellationToken);
 
 [認識 Entity Framework Core 載入關聯資料的三種方法 | The Will Will Web (miniasp.com)](https://blog.miniasp.com/post/2022/04/21/Loading-Related-Data-in-EF-Core)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

@@ -36,7 +36,7 @@ WindowsCryptographicException: Access is denied.
 
 [ABP.IO WEB應用程式框架 Azure App Service CI/CD deployment | 御用小本本 - 點部落 (dotblogs.com.tw)](https://dotblogs.com.tw/jakeuj/2022/10/21/abp-Azure-App-Service-Github-CICD)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

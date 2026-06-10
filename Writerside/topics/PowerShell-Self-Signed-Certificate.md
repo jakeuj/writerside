@@ -76,7 +76,7 @@ certmgr.msc
 
 填到 虛擬網路閘道 > 點對站設定 > 根憑證 > 公開憑證資料
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/983bb28a-2500-432b-88b9-02fff9a68f46/1686736782.png.png)
+![填到 虛擬網路閘道 點對站設定 根憑證 公開憑證資料](https://dotblogsfile.blob.core.windows.net/user/小小朱/983bb28a-2500-432b-88b9-02fff9a68f46/1686736782.png.png)
 
 要撤銷某個用戶端憑證，可以填到已撤銷的憑證中的指紋欄位
 
@@ -102,7 +102,7 @@ AzureRoot.cer > 本機電腦\受信任的根憑證授權單位
 
 [產生及匯出 P2S 的憑證：PowerShell - Azure VPN Gateway | Microsoft Learn](https://learn.microsoft.com/zh-tw/azure/vpn-gateway/vpn-gateway-certificates-point-to-site#ex2)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

@@ -46,7 +46,7 @@ Windows Update 服務已經啟動成功。
 
 參照：https://blog.twtnn.com/2017/12/win-10-update-0x8024401c.html
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

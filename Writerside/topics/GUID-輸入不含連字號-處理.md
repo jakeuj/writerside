@@ -45,7 +45,7 @@ Response.Write(ConvertGuid("6F9619FF8B86D011B42D00C04FC964FF"));
 
 以上
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

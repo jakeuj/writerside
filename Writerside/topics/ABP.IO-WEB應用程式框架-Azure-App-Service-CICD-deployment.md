@@ -240,7 +240,7 @@ ASPNETCORE_ENVIRONMENT=Staging
 
 [Customizing deployments · projectkudu/kudu Wiki (github.com)](https://github.com/projectkudu/kudu/wiki/Customizing-deployments#deploying-a-specific-aspnet-or-aspnet-core-project-file)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

@@ -8,7 +8,7 @@
 
 Azure 儲存體服務 SFTP 功能支援
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/6bb59fed-05af-48d2-b9a5-5c53fe2be4ab/1689068527.png.png)
+![Azure 儲存體服務 SFTP 功能支援](https://dotblogsfile.blob.core.windows.net/user/小小朱/6bb59fed-05af-48d2-b9a5-5c53fe2be4ab/1689068527.png.png)
 
 ## 結論
 
@@ -23,7 +23,7 @@ Azure 儲存體服務 SFTP 功能支援
 4. 以上設定皆為非同步作業，所以即便設定正確可能需要等一下才能正常連線
 5. WinSCP 版本需要 5.10 以上，官方文件有列出支援的 Clinet 與最低版本
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/6bb59fed-05af-48d2-b9a5-5c53fe2be4ab/1696228500.png.png)
+![WinSCP 版本需要 5.10 以上，官方文件有列出支援的 Clinet 與最低版本](https://dotblogsfile.blob.core.windows.net/user/小小朱/6bb59fed-05af-48d2-b9a5-5c53fe2be4ab/1696228500.png.png)
 
 ### 啟用
 
@@ -39,7 +39,7 @@ P.S. 既有 Storage 沒有開階層的能不能改我沒測試
 
 [Azure Blob 儲存體的 SFTP 支援 (預覽) | Microsoft Learn](https://learn.microsoft.com/zh-tw/azure/storage/blobs/secure-file-transfer-protocol-support)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

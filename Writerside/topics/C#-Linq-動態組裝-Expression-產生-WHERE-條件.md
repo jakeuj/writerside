@@ -61,7 +61,7 @@ Console.WriteLine(Expression.Lambda<Func<bool>>(andExpr).Compile()());
 
 [Expression.And Method (System.Linq.Expressions) | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/api/system.linq.expressions.expression.and?view=net-7.0)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

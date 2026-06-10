@@ -98,7 +98,7 @@ public class 班長
 
 - 結果：對於我們班長這個角色，就達到了降低耦合的目標，自身不受類別的影響。
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

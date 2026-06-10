@@ -8,7 +8,7 @@
 
 筆記一下註解參照超連結
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/e7f933a8-df6c-45b1-94d4-aae5c5a685b1/1693470393.png.png)
+![筆記一下註解參照超連結](https://dotblogsfile.blob.core.windows.net/user/小小朱/e7f933a8-df6c-45b1-94d4-aae5c5a685b1/1693470393.png.png)
 
 結論
 
@@ -27,7 +27,7 @@
 
 [C# XML Documentation Website Link - Stack Overflow](https://stackoverflow.com/questions/6960426/c-sharp-xml-documentation-website-link/32712435#32712435)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

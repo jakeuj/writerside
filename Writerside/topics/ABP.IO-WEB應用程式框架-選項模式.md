@@ -47,7 +47,7 @@ public override void ConfigureServices(ServiceConfigurationContext context)
 
 [C# 選項模式 | Jakeuj - 點部落 (dotblogs.azurewebsites.net)](https://dotblogs.azurewebsites.net/jakeuj/2022/10/21/CSharp-IOptions-appsettings)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

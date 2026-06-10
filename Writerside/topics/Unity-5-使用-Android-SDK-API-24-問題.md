@@ -50,7 +50,7 @@ UnityEditor.Android.PostProcessor.Tasks.BuildResources.Execute (UnityEditor.Andr
 UnityEditor.Android.PostProcessor.PostProcessRunner.RunAllTasks (UnityEditor.Android.PostProcessor.PostProcessorContext context)
 UnityEditor.HostView:OnGUI()
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

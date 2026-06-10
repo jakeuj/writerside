@@ -45,7 +45,7 @@ CREATE LOGIN [NewLoginAccount] WITH PASSWORD='donthackmeplz'
 GO
 ```
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/169980c2-8359-4a4c-ba1b-606bb9fe53ef/1682410424.png.png)
+![密碼：donthackmeplz](https://dotblogsfile.blob.core.windows.net/user/小小朱/169980c2-8359-4a4c-ba1b-606bb9fe53ef/1682410424.png.png)
 
 Login
 
@@ -65,7 +65,7 @@ CREATE USER [NewUserName] FOR LOGIN [NewLoginAccount]
 GO
 ```
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/169980c2-8359-4a4c-ba1b-606bb9fe53ef/1682410480.png.png)
+![使用者名稱：NewUserName](https://dotblogsfile.blob.core.windows.net/user/小小朱/169980c2-8359-4a4c-ba1b-606bb9fe53ef/1682410480.png.png)
 
 User
 
@@ -108,13 +108,13 @@ GO
 
 則建議使用另一個較高權限的帳號來進行操作
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/169980c2-8359-4a4c-ba1b-606bb9fe53ef/1632377410.png)
+![則建議使用另一個較高權限的帳號來進行操作](https://dotblogsfile.blob.core.windows.net/user/jakeuj/169980c2-8359-4a4c-ba1b-606bb9fe53ef/1632377410.png)
 
 參照
 
 [在Azure SQL上新增使用者 (andy51002000.blogspot.com)](http://andy51002000.blogspot.com/2017/12/azure-sql.html)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

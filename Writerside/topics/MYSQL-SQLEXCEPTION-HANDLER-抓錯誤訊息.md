@@ -37,7 +37,7 @@ B在執行途中輸出 @sqlString 實際上會輸出上A SP裡頭用的查詢語
 
 讓我好查了老半天...
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

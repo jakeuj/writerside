@@ -20,7 +20,7 @@ https://github.com/Microsoft-CloudRiches/MCW-Cloud-native-applications/blob/mast
   Azure cloud command 一開始一直卡在 request 沒辦法 success
   我是用 Vivaldi 瀏覽器，後來用 Chrome 開就成功了，然後回 Vivaldi 也可以正常用
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/00000000-0000-0000-0000-000000000000/1616666171.jfif)
+![我是用 Vivaldi 瀏覽器，後來用 Chrome 開就成功了，然後回 Vivaldi 也可以正常用](https://dotblogsfile.blob.core.windows.net/user/jakeuj/00000000-0000-0000-0000-000000000000/1616666171.jfif)
 
 - Task 6: Deploy ARM Template Step 2 => code azuredeploy.parameters.json
   **Suffix 會影響建立的 DNS 比如填了sol 會嘗試生成 fabmedicalsol.azurecr.io**
@@ -33,7 +33,7 @@ https://github.com/Microsoft-CloudRiches/MCW-Cloud-native-applications/blob/mast
 - [Task 6: Push images to Azure Container Registry](https://github.com/Microsoft-CloudRiches/MCW-Cloud-native-applications/blob/master/Hands-on lab/HOL step-by-step - Cloud-native applications - Infrastructure edition.md#task-6-push-images-to-azure-container-registry)
   ACR 是 Azure Container Registry，然後燒了幾百塊，待續…
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

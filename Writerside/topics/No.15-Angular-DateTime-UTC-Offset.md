@@ -65,7 +65,7 @@ offset 格式: 2018-12-31T16:30:07.000+08:00
 
 參照：<https://www.cnblogs.com/keatkeat/p/9737128.html>
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

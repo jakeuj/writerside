@@ -22,7 +22,7 @@ DISM.exe /online /Cleanup-Image /StartComponentCleanup
 
 參照：http://blog.miniasp.com/post/2014/01/22/Using-Disk-Cleanup-Wizard-delete-outdated-Windows-Update-files.aspx
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

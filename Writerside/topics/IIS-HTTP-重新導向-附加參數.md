@@ -60,7 +60,7 @@ IIS HTTP 重新導向
 
 Ref：http://www.izhangheng.com/iis-301-permanent-redirect-settings-and-parameters-introduced
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

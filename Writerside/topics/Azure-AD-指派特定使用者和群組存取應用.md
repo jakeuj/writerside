@@ -16,7 +16,7 @@ Azure > AAD > 企業應用程式 > MyApp > 屬性 > 需要使用者指派嗎？
 
 這樣只要不在事先指定名單的人/群組，登入網站時就會看到以下錯誤畫面
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/cdb64d1b-0a86-4a2c-880f-c0a7ef65c5cb/1631177406.png)
+![這樣只要不在事先指定名單的人/群組，登入網站時就會看到以下錯誤畫面](https://dotblogsfile.blob.core.windows.net/user/jakeuj/cdb64d1b-0a86-4a2c-880f-c0a7ef65c5cb/1631177406.png)
 
 如果你把各種網站登入都使用同一個應用
 
@@ -32,7 +32,7 @@ Azure > AAD > 企業應用程式 > MyApp > 屬性 > 需要使用者指派嗎？
 
 那就要在 Azure AD 註冊兩個不同的應用程式
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

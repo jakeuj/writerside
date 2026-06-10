@@ -82,7 +82,7 @@ var config = new CsvConfiguration(CultureInfo.InvariantCulture)
 
 [c# - CsvHelper - How to config the setting about quote? - Stack Overflow](https://stackoverflow.com/questions/71481331/csvhelper-how-to-config-the-setting-about-quote)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

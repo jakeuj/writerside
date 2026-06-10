@@ -101,7 +101,7 @@ Wcf中繼資料wsdl自動生成xml
 所以避免用 {[方法名稱]+"Result"} 的方式來命名 out 參數即可避免此Bug
 (Message part EventSnReceiveResult in namespace http://tempuri.org/ appears more than once in Message.)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

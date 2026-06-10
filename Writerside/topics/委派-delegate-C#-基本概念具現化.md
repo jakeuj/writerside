@@ -95,7 +95,7 @@ void A(MethodB B)
 
 <http://huan-lin.blogspot.tw/2009/01/delegate-revisited-csharp-1-to-2-to-3.html>
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

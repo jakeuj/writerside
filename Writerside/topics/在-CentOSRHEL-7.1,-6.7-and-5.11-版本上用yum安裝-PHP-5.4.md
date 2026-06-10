@@ -81,7 +81,7 @@ rpm -qa |grep php
 
 參照：[專題文章：如何在CentOS 6和CentOS 7上安裝PHP 5.4、5.5或5.6版本](https://www.cadch.com/modules/news/article.php?storyid=227)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

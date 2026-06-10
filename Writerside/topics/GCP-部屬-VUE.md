@@ -10,7 +10,7 @@ Deploy VUE 到 App Engine
 
 GCP 建立 App Engine 選 Node.js
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/a5357981-8b70-44e5-8315-ebbff5ca01e7/1695364843.png.png)
+![GCP 建立 App Engine 選 Node.js](https://dotblogsfile.blob.core.windows.net/user/小小朱/a5357981-8b70-44e5-8315-ebbff5ca01e7/1695364843.png.png)
 
 app.yaml
 
@@ -29,21 +29,21 @@ handlers:
 
 將 dist 與 app.yaml 放一起
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/a5357981-8b70-44e5-8315-ebbff5ca01e7/1695365682.png.png)
+![將 dist 與 app.yaml 放一起](https://dotblogsfile.blob.core.windows.net/user/小小朱/a5357981-8b70-44e5-8315-ebbff5ca01e7/1695365682.png.png)
 
 執行 `gcloud app deploy`
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/a5357981-8b70-44e5-8315-ebbff5ca01e7/1695365979.png.png)
+![執行 gcloud app deploy](https://dotblogsfile.blob.core.windows.net/user/小小朱/a5357981-8b70-44e5-8315-ebbff5ca01e7/1695365979.png.png)
 
 `gcloud app browse`
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/a5357981-8b70-44e5-8315-ebbff5ca01e7/1695366091.png.png)
+![gcloud app browse](https://dotblogsfile.blob.core.windows.net/user/小小朱/a5357981-8b70-44e5-8315-ebbff5ca01e7/1695366091.png.png)
 
 參照
 
 [到部署網站才開始從頭學起 - iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天 (ithome.com.tw)](https://ithelp.ithome.com.tw/articles/10213655)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

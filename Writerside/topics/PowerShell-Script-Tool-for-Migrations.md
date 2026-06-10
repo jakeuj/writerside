@@ -89,7 +89,7 @@ Write-Host "End."
 
 延伸閱讀：[Entity Framework Core Migrations 注意事項](https://dotblogs.com.tw/jakeuj/2019/07/23/efcoremigrations)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

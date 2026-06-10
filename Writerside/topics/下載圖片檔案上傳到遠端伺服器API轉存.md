@@ -51,7 +51,7 @@ private async Task Save(
 
 參照：[將圖片檔案上傳到遠端伺服器](https://csharpkh.blogspot.com/2019/05/CSharp-HttpClient-Upload-Image-Multipart-Content-MultipartFormDataContent.html)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

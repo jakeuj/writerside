@@ -172,7 +172,7 @@ Note：
 - 承上，MIS封鎖各種 VPN，但以我目前 SSTP 是可以用的
 - 如果連線失敗，可以確認一下 MIS 是否把 1433 封死了
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

@@ -147,7 +147,7 @@ public class HelloWorldService : ITransientDependency
 
 [jakeuj/abp-console-samples: Abp console Dapper and HttpClient samples (github.com)](https://github.com/jakeuj/abp-console-samples)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

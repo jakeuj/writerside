@@ -214,7 +214,7 @@ await File.ReadAllTextAsync(fileName).Dump();
 
 [c# - 使用 StreamWriter 寫入 MemoryStream 傳回空 - 堆棧溢出 (stackoverflow.com)](https://stackoverflow.com/questions/5652993/writing-to-memorystream-with-streamwriter-returns-empty)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

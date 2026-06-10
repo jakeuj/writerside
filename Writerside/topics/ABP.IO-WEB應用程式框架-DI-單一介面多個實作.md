@@ -66,7 +66,7 @@ public async Task Should_Get_Two_Results_From_ITestManager()
 }
 ```
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/613502e6-c51a-4cb0-b1c8-aaf784120550/1677825290.png.png)
+![TestDomainTests](https://dotblogsfile.blob.core.windows.net/user/jakeuj/613502e6-c51a-4cb0-b1c8-aaf784120550/1677825290.png.png)
 
 重點
 
@@ -77,7 +77,7 @@ public async Task Should_Get_Two_Results_From_ITestManager()
 
 [依賴注入 |文檔中心 |總部基地。IO (abp.io)](https://docs.abp.io/en/abp/latest/Dependency-Injection#dealing-with-multiple-implementations)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

@@ -36,7 +36,7 @@ desc nvarchar(128) COLLATE Chinese_Taiwan_Stroke_CI_AS);
 
 [SQL Server的 排序规则(collation)冲突和解决方案 - LanceZhang - 博客园 (cnblogs.com)](https://www.cnblogs.com/blodfox777/archive/2010/01/21/sqlserver-collation-conflict-and-solutions.html)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

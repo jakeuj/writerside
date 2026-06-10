@@ -186,7 +186,7 @@ https://github.com/jakeuj/uploadify/blob/master/Sample/index.php
 
 https://stackoverflow.com/questions/23399306/uploadifive-1-2-2-filetype-filter-capability-restriction-does-not-work
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

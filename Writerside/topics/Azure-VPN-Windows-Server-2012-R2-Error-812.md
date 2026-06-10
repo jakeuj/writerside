@@ -40,7 +40,7 @@ if %PROCESSOR_ARCHITECTURE% EQU AMD64 reg add "HKLM\SOFTWARE\Wow6432Node\Microso
 
 參照：[connection problem on VPN due to RAS/VPN policy/ Error 812 (microsoft.com)](https://social.technet.microsoft.com/Forums/ie/en-US/b8489bc2-e64b-4b5d-a8bb-0f63ced99fcc/connection-problem-on-vpn-due-to-rasvpn-policy-error-812?forum=winserveressentials)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

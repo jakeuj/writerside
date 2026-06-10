@@ -83,11 +83,11 @@ namespace MyProjectName.Web.Pages.Account
 
 https://docs.abp.io/en/abp/latest/Customizing-Application-Modules-Overriding-Services#example-overriding-a-controller
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/e1b140f8-1c76-4157-a679-ff0de2c89ca0/1627460788.png)
+![https://docs.abp.io/en/abp/latest/Customizing-Application-Modules-Overriding-Ser](https://dotblogsfile.blob.core.windows.net/user/御星幻/e1b140f8-1c76-4157-a679-ff0de2c89ca0/1627460788.png)
 
 我以為成功了，結果 override Login 還是跑回原本的控制器？最後又改了一下才成功…
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/e1b140f8-1c76-4157-a679-ff0de2c89ca0/1627638136.png)
+![我以為成功了，結果 override Login 還是跑回原本的控制器？最後又改了一下才成功…](https://dotblogsfile.blob.core.windows.net/user/御星幻/e1b140f8-1c76-4157-a679-ff0de2c89ca0/1627638136.png)
 
 ---
 
@@ -409,7 +409,7 @@ ObjectExtensionManager.Instance
 
 [模塊文檔](https://docs.abp.io/en/abp/latest/Modules/Index)包括它們定義的主要服務的列表。此外，您可以調查[他們的源代碼](https://github.com/abpframework/abp/tree/dev/modules)以探索所有服務。
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

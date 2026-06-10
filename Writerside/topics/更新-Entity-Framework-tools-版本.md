@@ -18,7 +18,7 @@ dotnet tool update --global dotnet-ef
 
 https://stackoverflow.com/questions/52108659/need-to-update-ef-core-tools
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

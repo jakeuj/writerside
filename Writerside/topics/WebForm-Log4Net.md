@@ -93,7 +93,7 @@ public class MyApp
 
 參照：[[料理佳餚] 使用 log4net](https://dotblogs.com.tw/supershowwei/2015/08/25/153214)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

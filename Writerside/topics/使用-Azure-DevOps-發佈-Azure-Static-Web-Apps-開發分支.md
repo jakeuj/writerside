@@ -47,7 +47,7 @@ steps:
 
 ### Azure
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/effc1a28-9e54-40dd-afe3-2493f9e92a76/1691466037.png.png)
+![Azure](https://dotblogsfile.blob.core.windows.net/user/小小朱/effc1a28-9e54-40dd-afe3-2493f9e92a76/1691466037.png.png)
 
 理論上在預覽環境就會多出來可以瀏覽的按鈕
 
@@ -57,7 +57,7 @@ steps:
 
 [使用 Azure DevOps 發佈 Azure Static Web Apps | 御用小本本 - 點部落 (dotblogs.com.tw)](https://dotblogs.com.tw/jakeuj/2021/08/25/static-web-apps-publish-devops)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

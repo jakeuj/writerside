@@ -66,7 +66,7 @@ GET https://login.microsoftonline.com/common/oauth2/v2.0/logout?post_logout_redi
 
 [Microsoft 身分識別平台和 OpenID Connect 通訊協定 - Microsoft identity platform | Microsoft Docs](https://docs.microsoft.com/zh-tw/azure/active-directory/develop/v2-protocols-oidc#send-a-sign-out-request)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

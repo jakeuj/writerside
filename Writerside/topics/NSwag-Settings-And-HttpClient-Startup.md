@@ -16,7 +16,7 @@
    這邊因為我打算從 Startup 用 Typed Client 的方式設定 baseUrl
    所以需要特別取消勾選 Use the base URL for the request
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/8dc743da-3174-4606-81be-8d3c2038a1b8/1664251597.png.png)
+![所以需要特別取消勾選 Use the base URL for the request](https://dotblogsfile.blob.core.windows.net/user/jakeuj/8dc743da-3174-4606-81be-8d3c2038a1b8/1664251597.png.png)
 
       3. 在專案內建立一個程式碼檔案，並將產生的 Outputs 程式碼複製貼上，例如 TestProxy.cs
 
@@ -48,7 +48,7 @@ public TestManager(ITestProxy service)
 }
 ```
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

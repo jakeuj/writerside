@@ -88,7 +88,7 @@ The web.config asset path must start with the project source root
 
 以上
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

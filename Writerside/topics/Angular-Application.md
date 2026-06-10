@@ -44,7 +44,7 @@ http://localhost:4200
 
 開瀏覽器應該就可以看到結果
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

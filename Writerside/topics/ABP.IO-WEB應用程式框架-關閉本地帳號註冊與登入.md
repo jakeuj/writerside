@@ -34,7 +34,7 @@ appsettings.json 設定以下內容
 
 也要改成 false 不然還是會停在登入選擇畫面哦
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

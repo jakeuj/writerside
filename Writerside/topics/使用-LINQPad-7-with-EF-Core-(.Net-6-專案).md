@@ -18,7 +18,7 @@
    Example: `Server=(LocalDb)\MSSQLLocalDB;Database=Test;Trusted_Connection=True;MultipleActiveResultSets=true`
 5. Add connection 如下圖所示
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/98f0f921-d4d2-40ec-8edc-83c7587c1e69/1624526064.png)![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/98f0f921-d4d2-40ec-8edc-83c7587c1e69/1635322907.png)
+![Add connection 如下圖所示](https://dotblogsfile.blob.core.windows.net/user/御星幻/98f0f921-d4d2-40ec-8edc-83c7587c1e69/1624526064.png)![Add connection 如下圖所示 2](https://dotblogsfile.blob.core.windows.net/user/jakeuj/98f0f921-d4d2-40ec-8edc-83c7587c1e69/1635322907.png)
 
 然後應該就會看到實體的資料
 
@@ -43,7 +43,7 @@ https://peterhpchen.github.io/DigDeeperLINQ/03_LINQPad.html#%E7%94%A8%E6%B3%95
 
 並檢查 SQL 語法是不是有效率的
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

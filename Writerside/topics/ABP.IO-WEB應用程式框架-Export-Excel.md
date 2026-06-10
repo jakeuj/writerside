@@ -97,7 +97,7 @@ public MemoryStream Generate()
 
 [[DotnetCore] 讀取 excel 套件整理 | Secret Note (jiaming0708.github.io)](https://jiaming0708.github.io/2022/08/22/dotnet-core-read-excel-library/)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

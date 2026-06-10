@@ -22,7 +22,7 @@ connection.BulkMerge(order1, order2, order3);
 
 <https://dapper-plus.net/bulk-merge>
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

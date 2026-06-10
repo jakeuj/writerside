@@ -110,7 +110,7 @@ public class MyDataModel
 
 ### Embedded Resource
 
-![](https://raw.githubusercontent.com/abpframework/abp/rel-6.0/docs/en/images/hello-template-razor.png)
+![Embedded Resource](https://raw.githubusercontent.com/abpframework/abp/rel-6.0/docs/en/images/hello-template-razor.png)
 
 ### TemplateDefinitionProvider
 
@@ -186,7 +186,7 @@ public class MailManager : DomainService
 
 [Text Templating Razor | Documentation Center | ABP.IO](https://docs.abp.io/en/abp/latest/Text-Templating-Razor)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

@@ -99,7 +99,7 @@ But, 人生中最重要的就是這個 But！
 
 參照：[dotnet ef 找不到指定的命令](https://blog.darkthread.net/blog/dotnet-ef-not-found/)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

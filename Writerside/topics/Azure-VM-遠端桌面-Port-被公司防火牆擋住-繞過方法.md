@@ -32,7 +32,7 @@ VM應該是用上面方法就可以了
 
 身為開發只覺得連外擋這些 Port 令人困擾
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

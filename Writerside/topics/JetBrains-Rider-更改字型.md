@@ -8,7 +8,7 @@
 
 JetBrains Rider Change Fonts
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/a11f62eb-3629-4e19-9718-b4a9e1ed2af7/1560527792_04746.PNG)
+![JetBrains Rider Change Fonts](https://dotblogsfile.blob.core.windows.net/user/jakeuj/a11f62eb-3629-4e19-9718-b4a9e1ed2af7/1560527792_04746.PNG)
 
 目前有四個地方可以改
 
@@ -38,7 +38,7 @@ P.S. CTRL+ALT+S 可以直接開啟 File | Settings
 
 [字型介紹 Noto(思源字體) Sans-serif(無襯線) Serif(襯線體) Mono(等寬) | 御用小本本 - 點部落 (dotblogs.com.tw)](https://dotblogs.com.tw/jakeuj/2019/04/10/Fonts)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

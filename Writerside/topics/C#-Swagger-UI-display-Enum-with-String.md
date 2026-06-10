@@ -8,7 +8,7 @@
 
 Swagger UI 列舉值 1,2,3 改用文字顯示的方法
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/aaeff51c-b4f0-4fb6-ac4d-d3759693a42a/1682406548.png.png)
+![Swagger UI 列舉值 1,2,3 改用文字顯示的方法](https://dotblogsfile.blob.core.windows.net/user/小小朱/aaeff51c-b4f0-4fb6-ac4d-d3759693a42a/1682406548.png.png)
 
 ## 結論
 
@@ -75,7 +75,7 @@ private static void ConfigureSwaggerServices(
 
 [C# convert enum value to String | 御用小本本 - 點部落 (dotblogs.com.tw)](https://www.dotblogs.com.tw/jakeuj/2022/10/26/143813)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

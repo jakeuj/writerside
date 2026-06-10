@@ -6,7 +6,7 @@
 
 ---
 
-# Angular Configure Proxy for API calls
+## Angular Configure Proxy for API calls
 
 最近試了 Angular 的 --proxy-config 一直失敗
 
@@ -64,7 +64,7 @@ module.exports = setupForCorporateProxy(proxyConfig);
 
 [Angular 7 Using corporate proxy](https://angular.io/guide/build#using-corporate-proxy)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

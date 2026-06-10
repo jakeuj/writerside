@@ -70,7 +70,7 @@ private void ConfigureAuthentication(ServiceConfigurationContext context,
 
 [OAuth 2.0 隱含授與流程-Microsoft 身分識別平臺 | Microsoft Docs](https://docs.microsoft.com/zh-tw/azure/active-directory/develop/v2-oauth2-implicit-grant-flow#send-the-sign-in-request)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

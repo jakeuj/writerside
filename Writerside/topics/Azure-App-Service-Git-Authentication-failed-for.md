@@ -33,7 +33,7 @@ P.S. FTPS
 - 如果不行可能是防火牆鎖了 Port
   我因此撞牆一下午，請改用手機分享網路試試
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

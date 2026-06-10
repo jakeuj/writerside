@@ -14,7 +14,7 @@
 
 [Writerside - a new technical writing environment from JetBrains.](https://www.jetbrains.com/writerside/)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

@@ -44,7 +44,7 @@ C:\Program Files\TortoiseHg\i18n\cmenu\thg-cmenu-zh\_TW.reg
 
 <http://shawphy.com/2010/02/tortoisehg-set-to-chinese.html>
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

@@ -110,7 +110,7 @@ public async Task<string> Profile()
 
 [Make API calls using the Microsoft Graph SDKs - Microsoft Graph | Microsoft Docs](https://docs.microsoft.com/zh-tw/graph/sdks/create-requests?view=graph-rest-1.0&tabs=CS#use-select-to-control-the-properties-returned)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

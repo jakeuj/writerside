@@ -8,7 +8,7 @@
 
 筆記一下數字指定輸出格式
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/657848f4-a9d8-4e26-9104-97a29aa0001e/1675329285.png.png)
+![筆記一下數字指定輸出格式](https://dotblogsfile.blob.core.windows.net/user/jakeuj/657848f4-a9d8-4e26-9104-97a29aa0001e/1675329285.png.png)
 
 結論
 
@@ -26,7 +26,7 @@ decimalVar.GetValueOrDefault().ToString("0.00").Dump();
 
 [c# - How do I display a decimal value to 2 decimal places? - Stack Overflow](https://stackoverflow.com/questions/164926/how-do-i-display-a-decimal-value-to-2-decimal-places)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

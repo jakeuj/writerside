@@ -8,7 +8,7 @@
 
 使用 SendGrid 實作 IEmailSender 替換服務
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/b138c20f-61ac-4c98-b4cf-928761b6730d/1676273155.png.png)
+![使用 SendGrid 實作 IEmailSender 替換服務](https://dotblogsfile.blob.core.windows.net/user/jakeuj/b138c20f-61ac-4c98-b4cf-928761b6730d/1676273155.png.png)
 
 ## 結論
 
@@ -187,13 +187,13 @@ SendGridTestDomainModule
 
 需要把這行註解掉，不然會寄不出去
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/b138c20f-61ac-4c98-b4cf-928761b6730d/1676273719.png.png)
+![需要把這行註解掉，不然會寄不出去](https://dotblogsfile.blob.core.windows.net/user/jakeuj/b138c20f-61ac-4c98-b4cf-928761b6730d/1676273719.png.png)
 
 ## 測試
 
 同上需要註解掉 NullEmailSender
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/b138c20f-61ac-4c98-b4cf-928761b6730d/1676273429.png.png)
+![同上需要註解掉 NullEmailSender](https://dotblogsfile.blob.core.windows.net/user/jakeuj/b138c20f-61ac-4c98-b4cf-928761b6730d/1676273429.png.png)
 
 SendGridTest.Domain.Tests > SampleDomainTests
 
@@ -243,7 +243,7 @@ public override void ConfigureServices(ServiceConfigurationContext context)
 
 這樣就可以發信，並且收到帶有附件的測試信，打開裡面應該是 `Test`
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

@@ -116,7 +116,7 @@ CREATE TABLE distributors (
 
 [PostgreSQL 10 Documentation](https://www.postgresql.org/docs/10/sql-createtable.html)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

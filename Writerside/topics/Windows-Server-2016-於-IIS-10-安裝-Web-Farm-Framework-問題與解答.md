@@ -69,7 +69,7 @@ My question is that does Web Farm Framework 2.2 still support IIS 10?
 
 以上
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

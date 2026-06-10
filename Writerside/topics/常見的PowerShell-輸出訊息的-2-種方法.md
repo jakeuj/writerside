@@ -127,7 +127,7 @@ Encoding parameter.
 
 [What does '>>' do in powershell? - Stack Overflow](https://stackoverflow.com/questions/35088340/what-does-do-in-powershell)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

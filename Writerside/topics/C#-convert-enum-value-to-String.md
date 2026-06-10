@@ -41,7 +41,7 @@ Console.WriteLine(Urgency.High.ToString("D"));
 
 [C# numeric enum value as string - Stack Overflow](https://stackoverflow.com/questions/3444699/c-sharp-numeric-enum-value-as-string)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

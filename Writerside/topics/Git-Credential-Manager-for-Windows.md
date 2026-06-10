@@ -20,7 +20,7 @@
 
 如有卡到舊的陰可能要清除舊的 `credential` 區段
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/f9e1de8c-04e1-437f-aa74-8b2b9d8de6b4/1709714123.png.png)
+![如有卡到舊的陰可能要清除舊的 credential 區段](https://dotblogsfile.blob.core.windows.net/user/小小朱/f9e1de8c-04e1-437f-aa74-8b2b9d8de6b4/1709714123.png.png)
 
 以下是清除後應該長成(乾淨)的樣子
 
@@ -67,7 +67,7 @@ defaultBranch = master
 
 [介紹好用工具：Git Credential Manager for Windows (記憶 Git 常用密碼) | The Will Will Web (miniasp.com)](https://blog.miniasp.com/post/2016/02/01/Useful-tool-Git-Credential-Manager-for-Windows)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

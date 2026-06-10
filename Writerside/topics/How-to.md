@@ -30,7 +30,7 @@ Some introductory information.
     run this --that
    ```
 
-2. Step with a [link](https://www.jetbrains.com)
+2. Step with a [JetBrains website](https://www.jetbrains.com)
 
 3. Step with a list.
    - List item

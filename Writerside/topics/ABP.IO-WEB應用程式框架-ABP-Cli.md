@@ -52,7 +52,7 @@ abp new Test501B -u blazor --separate-identity-server --version 5.0.1 -csf
 
 [CLI | Documentation Center | ABP.IO](https://docs.abp.io/zh-Hans/abp/latest/CLI)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

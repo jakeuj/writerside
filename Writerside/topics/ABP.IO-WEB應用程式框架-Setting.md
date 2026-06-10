@@ -129,7 +129,7 @@ public class MyService
 
 裡頭大概長這樣
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/fcfa9927-4627-4bca-a516-bee17968b4db/1667552265.png.png)
+![裡頭大概長這樣](https://dotblogsfile.blob.core.windows.net/user/jakeuj/fcfa9927-4627-4bca-a516-bee17968b4db/1667552265.png.png)
 
 其中 Name 就是設定值的名稱，拿剛剛上面的範例來說就是 `MyMoney`
 
@@ -202,7 +202,7 @@ namespace Demo
 
 [Modules/Setting Management | Documentation Center | ABP.IO](https://docs.abp.io/en/abp/latest/Modules/Setting-Management)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

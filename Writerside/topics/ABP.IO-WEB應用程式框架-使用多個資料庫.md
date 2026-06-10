@@ -101,7 +101,7 @@ private bool MigrationsFolderExists()
 
 [Entity Framework Core Migrations | Jakeuj - 點部落 (dotblogs.com.tw)](https://www.dotblogs.com.tw/jakeuj/2019/07/23/EFCoreMigrations)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

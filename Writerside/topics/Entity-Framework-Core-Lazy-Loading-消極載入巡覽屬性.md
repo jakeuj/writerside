@@ -95,7 +95,7 @@ https://docs.microsoft.com/zh-tw/ef/core/performance/efficient-querying#load-rel
 
 有需要可以自行詢問古哥哥
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

@@ -8,7 +8,7 @@
 
 Restful API 預設驗證錯誤回傳 HttpStatusCode 400
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/cca35751-832f-4c1c-b77c-1454629d143f/1682405338.png.png)
+![Restful API 預設驗證錯誤回傳 HttpStatusCode 400](https://dotblogsfile.blob.core.windows.net/user/小小朱/cca35751-832f-4c1c-b77c-1454629d143f/1682405338.png.png)
 
 Code
 
@@ -83,8 +83,7 @@ public class MyExceptionToErrorInfoConverter :
 
 [Exception Handling | Documentation Center | ABP.IO](https://docs.abp.io/en/abp/latest/Exception-Handling#http-status-code-mapping)
 
-![]()
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

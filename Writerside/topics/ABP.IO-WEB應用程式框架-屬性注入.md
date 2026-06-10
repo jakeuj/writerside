@@ -91,7 +91,7 @@ public class TestManager : DomainService, ITestManager
 
 Swagger
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/8903953f-bfa8-4bdc-b48c-ab305de9ece2/1683864476.png.png)
+![Swagger](https://dotblogsfile.blob.core.windows.net/user/小小朱/8903953f-bfa8-4bdc-b48c-ab305de9ece2/1683864476.png.png)
 
 Hello World
 
@@ -99,7 +99,7 @@ Hello World
 
 [Dependency Injection | Documentation Center | ABP.IO](https://docs.abp.io/en/abp/latest/Dependency-Injection)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

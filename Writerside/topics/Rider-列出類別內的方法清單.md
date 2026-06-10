@@ -40,7 +40,7 @@ RIDER的快捷鍵是Ctrl+G
 
 <https://www.jetbrains.com/help/rider/Navigation_and_Search__Context_Dependent_Navigation.html>
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

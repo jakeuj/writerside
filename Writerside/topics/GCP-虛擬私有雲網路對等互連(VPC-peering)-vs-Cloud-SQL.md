@@ -18,7 +18,7 @@ gcloud services vpc-peerings update --service=servicenetworking.googleapis.com -
 
 Cloud SQL 設定私有 IP 時會需要建立 VPC peering 來連線
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/ea03c786-6f71-46c4-8c78-e0c7d6d6269c/1708311279.png.png)
+![Cloud SQL 設定私有 IP 時會需要建立 VPC peering 來連線](https://dotblogsfile.blob.core.windows.net/user/小小朱/ea03c786-6f71-46c4-8c78-e0c7d6d6269c/1708311279.png.png)
 
 否則好像連 IP 白名單都開不了
 
@@ -28,13 +28,13 @@ Cloud SQL 設定私有 IP 時會需要建立 VPC peering 來連線
 
 更新後會在 VPC peering 畫面看到原本刪除的 `servicenetworking.googleapis.com`
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/ea03c786-6f71-46c4-8c78-e0c7d6d6269c/1708314114.png.png)
+![更新後會在 VPC peering 畫面看到原本刪除的 servicenetworking.googleapis.com](https://dotblogsfile.blob.core.windows.net/user/小小朱/ea03c786-6f71-46c4-8c78-e0c7d6d6269c/1708314114.png.png)
 
 參照
 
 https://stackoverflow.com/a/56743836/4104545
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

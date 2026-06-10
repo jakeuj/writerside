@@ -44,7 +44,7 @@ public override void PreInitialize()
 
 執行有跑到SQL就會印出語法到主控台
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/31e8dfca-f94c-492d-a93c-f7c51f72660f/1561394166_29885.png)
+![執行有跑到SQL就會印出語法到主控台](https://dotblogsfile.blob.core.windows.net/user/jakeuj/31e8dfca-f94c-492d-a93c-f7c51f72660f/1561394166_29885.png)
 
 參照：[記錄 - EF Core](https://docs.microsoft.com/zh-tw/ef/core/miscellaneous/logging#other-applications​)
 
@@ -54,7 +54,7 @@ public override void PreInitialize()
 
 參照：[ABP框架將EntityFrameworkCore生成的SQL語句輸出到控制台](https://www.cnblogs.com/WNpursue/p/ABP-USE-UseLoggerFactory-ILoggerFactory.html)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

@@ -10,13 +10,13 @@ Azure VPN 憑證過期處理筆記
 
 徵狀
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/54839d6e-18f5-499a-b59f-3be692a5fa2d/1662345571.jpg.jpg)
+![徵狀](https://dotblogsfile.blob.core.windows.net/user/jakeuj/54839d6e-18f5-499a-b59f-3be692a5fa2d/1662345571.jpg.jpg)
 
 798
 
 問題
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/54839d6e-18f5-499a-b59f-3be692a5fa2d/1662345915.png.png)
+![問題](https://dotblogsfile.blob.core.windows.net/user/jakeuj/54839d6e-18f5-499a-b59f-3be692a5fa2d/1662345915.png.png)
 
 MMC
 
@@ -52,7 +52,7 @@ New-SelfSignedCertificate -Type Custom -DnsName P2SChildCert -KeySpec Signature 
 
 TODO: 後面這幾步如果可以用 PowerShell 指定操作，日後可能比較方便
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

@@ -30,9 +30,9 @@ ASP.NET Boilerplate提供了模板，使項目啟動更容易。我們從https:/
 
 軟件包管理器控制台的默認項目應該是**EventCloud.EntityFrameworkCore**（因為它包含遷移）。此命令在本地SQL Server中創建**EventCloud**數據庫（您可以在**appsettings.json**文件中更改連接字符串）。
 
-![](https://raw.githubusercontent.com/aspnetboilerplate/aspnetboilerplate/master/doc/WebSite/Articles/Developing-MultiTenant-SaaS-ASP.NET-CORE-Angular/event-cloud-create-db.png)首先，我正在運行**EventCloud.Host**項目。我們將看到以下屏幕：
+![軟件包管理器控制台的默認項目應該是EventCloud.EntityFrameworkCore（因為它包含遷移）。此命令在本地SQL Server中創建Even](https://raw.githubusercontent.com/aspnetboilerplate/aspnetboilerplate/master/doc/WebSite/Articles/Developing-MultiTenant-SaaS-ASP.NET-CORE-Angular/event-cloud-create-db.png)首先，我正在運行**EventCloud.Host**項目。我們將看到以下屏幕：
 
-![](https://raw.githubusercontent.com/aspnetboilerplate/aspnetboilerplate/master/doc/WebSite/Articles/Developing-MultiTenant-SaaS-ASP.NET-CORE-Angular/event-cloud-swagger-ui.png)
+![首先，我正在運行EventCloud.Host項目。我們將看到以下屏幕：](https://raw.githubusercontent.com/aspnetboilerplate/aspnetboilerplate/master/doc/WebSite/Articles/Developing-MultiTenant-SaaS-ASP.NET-CORE-Angular/event-cloud-swagger-ui.png)
 
 我們將使用**Angular-CLI**啟動**Angular UI**。以下是啟動Angular UI的步驟：(有問題參考 [這篇](https://dotblogs.com.tw/jakeuj/2018/12/26/angularapplication))
 
@@ -42,11 +42,11 @@ ASP.NET Boilerplate提供了模板，使項目啟動更容易。我們從https:/
 
 然後，當您瀏覽http：// localhost：4200時，我們將看到以下登錄頁面：
 
-![](https://raw.githubusercontent.com/aspnetboilerplate/aspnetboilerplate/master/doc/WebSite/Articles/Developing-MultiTenant-SaaS-ASP.NET-CORE-Angular/event-cloud-login-page.png)
+![然後，當您瀏覽http：// localhost：4200時，我們將看到以下登錄頁面：](https://raw.githubusercontent.com/aspnetboilerplate/aspnetboilerplate/master/doc/WebSite/Articles/Developing-MultiTenant-SaaS-ASP.NET-CORE-Angular/event-cloud-login-page.png)
 
 我們可以輸入**Default**作為租賃名稱，**admin**作為用戶名，**輸入123qwe**作為登錄密碼。
 
-登錄後，我們會看到基於Bootstrap的[Admin BSB Material Design](https://github.com/gurayyarar/AdminBSBMaterialDesign)佈局。![](https://raw.githubusercontent.com/aspnetboilerplate/aspnetboilerplate/master/doc/WebSite/Articles/Developing-MultiTenant-SaaS-ASP.NET-CORE-Angular/event-cloud-dashboard.png)
+登錄後，我們會看到基於Bootstrap的[Admin BSB Material Design](https://github.com/gurayyarar/AdminBSBMaterialDesign)佈局。![我們可以輸入Default作為租賃名稱，admin作為用戶名，輸入123qwe作為登錄密碼。](https://raw.githubusercontent.com/aspnetboilerplate/aspnetboilerplate/master/doc/WebSite/Articles/Developing-MultiTenant-SaaS-ASP.NET-CORE-Angular/event-cloud-dashboard.png)
 
 這是一個帶有動態菜單的本地化UI。角度佈局，路由和基礎架構正常運行。我把這個項目作為事件雲項目的基礎。
 
@@ -590,7 +590,7 @@ public class EventAppService : EventCloudAppServiceBase, IEventAppService
 
 當我們登錄應用程序時，我們首先看到一個事件列表：
 
-![](https://raw.githubusercontent.com/aspnetboilerplate/aspnetboilerplate/master/doc/WebSite/Articles/Developing-MultiTenant-SaaS-ASP.NET-CORE-Angular/event-cloud-events.png)我們直接`EventAppService`用來獲取事件列表。以下是要創建此頁面的**events.component.ts**：
+![當我們登錄應用程序時，我們首先看到一個事件列表：](https://raw.githubusercontent.com/aspnetboilerplate/aspnetboilerplate/master/doc/WebSite/Articles/Developing-MultiTenant-SaaS-ASP.NET-CORE-Angular/event-cloud-events.png)我們直接`EventAppService`用來獲取事件列表。以下是要創建此頁面的**events.component.ts**：
 
 ```
 
@@ -665,7 +665,7 @@ export class EventsComponent extends PagedListingComponentBase<EventListDto> {
 
 當我們點擊某個活動的“詳細信息”按鈕時，我們會使用[http://eventcloud.aspnetboilerplate.com/#/events/e9499e3e-35c0-492c-98ce-7e410461103f等](http://eventcloud.aspnetboilerplate.com/#/events/e9499e3e-35c0-492c-98ce-7e410461103f)網址查看活動詳情。GUID是事件的ID。
 
-`![](https://raw.githubusercontent.com/aspnetboilerplate/aspnetboilerplate/master/doc/WebSite/Articles/Developing-MultiTenant-SaaS-ASP.NET-CORE-Angular/event-cloud-event-detail.png)`
+`![當我們點擊某個活動的“詳細信息”按鈕時，我們會使用http://eventcloud.aspnetboilerplate.com/#/events/e9499e](https://raw.githubusercontent.com/aspnetboilerplate/aspnetboilerplate/master/doc/WebSite/Articles/Developing-MultiTenant-SaaS-ASP.NET-CORE-Angular/event-cloud-event-detail.png)`
 
 在這裡，我們會看到註冊用戶的活動詳情。我們可以註冊參加活動或取消註冊。此視圖的組件在**event-detail.component.ts中**定義，如下所示：
 
@@ -972,13 +972,13 @@ public class EventAppService_Tests : EventCloudTestBase
 
 #### 認證
 
-只需使用**Context-Type =“application / json”**標頭向http：// localhost：21021 / api / TokenAuth / Authenticate發送POST請求，如下所示：![](https://raw.githubusercontent.com/aspnetboilerplate/aspnetboilerplate/master/doc/WebSite/Articles/Developing-MultiTenant-SaaS-ASP.NET-CORE-Angular/swagger-ui-angular-auth.png)
+只需使用**Context-Type =“application / json”**標頭向http：// localhost：21021 / api / TokenAuth / Authenticate發送POST請求，如下所示：![認證](https://raw.githubusercontent.com/aspnetboilerplate/aspnetboilerplate/master/doc/WebSite/Articles/Developing-MultiTenant-SaaS-ASP.NET-CORE-Angular/swagger-ui-angular-auth.png)
 
 我們發送了一個JSON請求體，包括tenancyName，userNameOrEmailAddress和密碼。主機用戶不需要tenancyName。如上所示，返回JSON的result屬性包含令牌。我們可以保存它並用於下一個請求。
 
 #### 使用API
 
-在驗證並獲取**令牌後**，我們可以使用它來調用任何**授權的**操作。所有**應用程序服務**都可以遠程使用。例如，我們可以使用**用戶服務**獲取**用戶列表**：![](https://raw.githubusercontent.com/aspnetboilerplate/aspnetboilerplate/master/doc/WebSite/Articles/Developing-MultiTenant-SaaS-ASP.NET-CORE-Angular/swagger-ui-angular-api-v2.png)
+在驗證並獲取**令牌後**，我們可以使用它來調用任何**授權的**操作。所有**應用程序服務**都可以遠程使用。例如，我們可以使用**用戶服務**獲取**用戶列表**：![使用API](https://raw.githubusercontent.com/aspnetboilerplate/aspnetboilerplate/master/doc/WebSite/Articles/Developing-MultiTenant-SaaS-ASP.NET-CORE-Angular/swagger-ui-angular-api-v2.png)
 
 剛剛向**http：// localhost：21021 / api / services / app / user / getAll**發出了一個**GET**請求，其中**Content-Type =“application / json”**和**Authorization =“Bearer*****[your*****-auth-token]”**。UI上提供的所有功能也可用作API。
 
@@ -990,7 +990,7 @@ UI上幾乎所有可用的操作也可用作Web API（因為UI使用相同的Web
 
 參照：https://aspnetboilerplate.com/Pages/Documents/Articles/Developing-MultiTenant-SaaS-ASP.NET-CORE-Angular/index.html
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

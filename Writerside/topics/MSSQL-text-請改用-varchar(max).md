@@ -24,7 +24,7 @@
 
 [ntext、text 和 image (Transact-SQL) - SQL Server | Microsoft Docs](https://docs.microsoft.com/zh-tw/sql/t-sql/data-types/ntext-text-and-image-transact-sql?view=sql-server-ver15)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

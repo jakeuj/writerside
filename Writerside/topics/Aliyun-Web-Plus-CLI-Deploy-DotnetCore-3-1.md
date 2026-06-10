@@ -30,7 +30,7 @@ Web+ 服務預設會幫你開通 22 Port 給全世界連
 
 問你要不要付費一鍵修補漏洞
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/6c006c4c-493e-47b9-b091-8e6876ada30b/1619431121.jfif)
+![問你要不要付費一鍵修補漏洞](https://dotblogsfile.blob.core.windows.net/user/御星幻/6c006c4c-493e-47b9-b091-8e6876ada30b/1619431121.jfif)
 
 雖然去 安全組 把 22 的來源從 0.0.0.0 改成公司 IP 就可以了
 
@@ -120,7 +120,7 @@ Configure Done!!!
   -q 是安靜模式，沒加會提示是否真的要更新[Y/n]，CI/CD 無人職守時會需要加
 - 完成
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/6c006c4c-493e-47b9-b091-8e6876ada30b/1619074893.png)
+![完成](https://dotblogsfile.blob.core.windows.net/user/jakeuj/6c006c4c-493e-47b9-b091-8e6876ada30b/1619074893.png)
 
 - 取得最新狀態
 
@@ -150,7 +150,7 @@ Resources:
 +-----------+----+---------------------------+-------------+
 ```
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

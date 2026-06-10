@@ -62,7 +62,7 @@ Ldap Admin 下載：http://www.ldapadmin.org/
 
 打開可以設定 AD 的 IP 跟帳號密碼
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/ad5dae73-a042-4b43-8724-0952e0bdc08b/1627623432.png)
+![打開可以設定 AD 的 IP 跟帳號密碼](https://dotblogsfile.blob.core.windows.net/user/御星幻/ad5dae73-a042-4b43-8724-0952e0bdc08b/1627623432.png)
 
 其中其實有蠻多選項的，可能需要跟IT詢問一下
 
@@ -78,11 +78,11 @@ Ldap Admin 下載：http://www.ldapadmin.org/
 
 成功就可以連過去看到內容
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/ad5dae73-a042-4b43-8724-0952e0bdc08b/1627623650.png)
+![成功就可以連過去看到內容](https://dotblogsfile.blob.core.windows.net/user/御星幻/ad5dae73-a042-4b43-8724-0952e0bdc08b/1627623650.png)
 
 參照：https://karatejb.blogspot.com/2019/07/aspnet-core-identity-server-4-ldap.html
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

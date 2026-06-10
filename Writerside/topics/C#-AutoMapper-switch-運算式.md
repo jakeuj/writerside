@@ -45,7 +45,7 @@ P.S. 其中 `var detail` 等於 `src.Detail`
 
 [switch 運算式 - 使用 'switch' 運算式評估模式比對運算式 | Microsoft Learn](https://learn.microsoft.com/zh-tw/dotnet/csharp/language-reference/operators/switch-expression)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

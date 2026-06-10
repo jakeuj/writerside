@@ -26,7 +26,7 @@ SELECT DATEDIFF(SS,'1970-01-01',GETUTCDATE())
 
 微軟跟Uinx有這麼不友好嗎@@?
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

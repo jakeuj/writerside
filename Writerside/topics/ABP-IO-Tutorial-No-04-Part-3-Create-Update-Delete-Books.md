@@ -591,7 +591,7 @@ delete(id: string) {
 
 查看本教程的[下一章](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Part-4)。
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

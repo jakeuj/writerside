@@ -44,7 +44,7 @@ kubectl version
 
 Unable to connect to the server: dial tcp [::1]:8080: connectex: No connection could be made because the target machine actively refused it.
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/00000000-0000-0000-0000-000000000000/1616493400.jfif)
+![Unable to connect to the server: dial tcp [::1]:8080: connectex: No connection c](https://dotblogsfile.blob.core.windows.net/user/jakeuj/00000000-0000-0000-0000-000000000000/1616493400.jfif)
 
 讓我看一下
 
@@ -58,7 +58,7 @@ stderr:
 
 未完待續…
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

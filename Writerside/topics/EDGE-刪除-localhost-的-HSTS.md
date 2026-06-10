@@ -8,7 +8,7 @@
 
 最近舊網站開發時常開不起來的筆記
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/b2d2194f-342e-4057-879f-12690d90ebef/1704261878.png.png)
+![最近舊網站開發時常開不起來的筆記](https://dotblogsfile.blob.core.windows.net/user/小小朱/b2d2194f-342e-4057-879f-12690d90ebef/1704261878.png.png)
 
 ## 結論
 
@@ -30,7 +30,7 @@
 
 [解決Edge chromium http強制導向https問題 | No.18 - 點部落 (dotblogs.com.tw)](https://www.dotblogs.com.tw/ian/2019/12/19/edge_http_autoredirect_https)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

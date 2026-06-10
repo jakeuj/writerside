@@ -30,7 +30,7 @@ then write a step-by-step procedure but on a real-world example.
     run this --that
    ```
 
-2. Step with a [link](https://www.jetbrains.com)
+2. Step with a [JetBrains website](https://www.jetbrains.com)
 
 3. Final step in part 1.
 

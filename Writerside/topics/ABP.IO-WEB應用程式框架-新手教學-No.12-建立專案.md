@@ -16,25 +16,25 @@
 
 https://abp.io/get-started
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/87bcc78e-ff0f-4121-8da5-3e2426d8cc84/1626662989.jpg)
+![https://abp.io/get-started](https://dotblogsfile.blob.core.windows.net/user/御星幻/87bcc78e-ff0f-4121-8da5-3e2426d8cc84/1626662989.jpg)
 
 這邊就先快速帶過，有興趣可以看一下有甚麼選項可以選，選好後會開始下載，解壓縮完長這樣
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/87bcc78e-ff0f-4121-8da5-3e2426d8cc84/1626340629.png)
+![這邊就先快速帶過，有興趣可以看一下有甚麼選項可以選，選好後會開始下載，解壓縮完長這樣](https://dotblogsfile.blob.core.windows.net/user/御星幻/87bcc78e-ff0f-4121-8da5-3e2426d8cc84/1626340629.png)
 
 這邊選 Angular 的原因是因為不屬於 .Net 體系，所以必定會將前後端分離到兩個不同的專案
 
 這邊主要著重在後端 API 的開發，前端部分先不講 (有興趣可以加減參考2016版)
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/87bcc78e-ff0f-4121-8da5-3e2426d8cc84/1626340850.png)
+![這邊主要著重在後端 API 的開發，前端部分先不講 (有興趣可以加減參考2016版)](https://dotblogsfile.blob.core.windows.net/user/御星幻/87bcc78e-ff0f-4121-8da5-3e2426d8cc84/1626340850.png)
 
 打開專案大概長這樣
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/87bcc78e-ff0f-4121-8da5-3e2426d8cc84/1626341001.png)
+![打開專案大概長這樣](https://dotblogsfile.blob.core.windows.net/user/御星幻/87bcc78e-ff0f-4121-8da5-3e2426d8cc84/1626341001.png)
 
 上面是主要開發的專案，下面是做測試，這篇重點就先不放在怎麼做測試  (一樣有興趣可以加減參考2016版)
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/87bcc78e-ff0f-4121-8da5-3e2426d8cc84/1626663106.png)
+![上面是主要開發的專案，下面是做測試，這篇重點就先不放在怎麼做測試 (一樣有興趣可以加減參考2016版)](https://dotblogsfile.blob.core.windows.net/user/御星幻/87bcc78e-ff0f-4121-8da5-3e2426d8cc84/1626663106.png)
 
 這邊相比舊版多了不少專案檔，有稍微做過分層的應該不是非常陌生，這邊有DDD的概念會比較容易理解
 
@@ -53,7 +53,7 @@ https://abp.io/get-started
 
 這邊簡單稍微介紹一下 DDD 分層
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/87bcc78e-ff0f-4121-8da5-3e2426d8cc84/1626343159.png)
+![這邊簡單稍微介紹一下 DDD 分層](https://dotblogsfile.blob.core.windows.net/user/御星幻/87bcc78e-ff0f-4121-8da5-3e2426d8cc84/1626343159.png)
 
 DDD 將業務邏輯分為兩層,分別為 領域(Domain) 層和 應用(Application) 層,它們包含不同類型的業務邏輯.
 
@@ -64,11 +64,11 @@ DDD 將業務邏輯分為兩層,分別為 領域(Domain) 層和 應用(Applicati
 
 要說明專案檔之前需要先大概了解一下他們各自的相依性
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/87bcc78e-ff0f-4121-8da5-3e2426d8cc84/1626343025.png)
+![要說明專案檔之前需要先大概了解一下他們各自的相依性](https://dotblogsfile.blob.core.windows.net/user/御星幻/87bcc78e-ff0f-4121-8da5-3e2426d8cc84/1626343025.png)
 
 這邊重點先不放在DDD太多，所以放一張DDD的圖片看能不能稍微體會一下為什麼要這樣相依
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/87bcc78e-ff0f-4121-8da5-3e2426d8cc84/1626343151.png)
+![這邊重點先不放在DDD太多，所以放一張DDD的圖片看能不能稍微體會一下為什麼要這樣相依](https://dotblogsfile.blob.core.windows.net/user/御星幻/87bcc78e-ff0f-4121-8da5-3e2426d8cc84/1626343151.png)
 
 總之因為DDD內圈不能相依外圈，所以專案檔是不能隨便參照的
 
@@ -81,7 +81,7 @@ ABP.IO 實際將.Net Solution 依照 DDD 拆成以下 Projects
   這主要是因為表現層、Controllers、WebAPI所會用到的DTO不能直接依賴Domain(比如實體)，
   但是DTO又很常會用到實體定義的enum(列舉)或是欄位最大長度定義const(常量)
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/87bcc78e-ff0f-4121-8da5-3e2426d8cc84/1626345050.png)
+![但是DTO又很常會用到實體定義的enum(列舉)或是欄位最大長度定義const(常量)](https://dotblogsfile.blob.core.windows.net/user/御星幻/87bcc78e-ff0f-4121-8da5-3e2426d8cc84/1626345050.png)
 
 應用層
 
@@ -91,7 +91,7 @@ ABP.IO 實際將.Net Solution 依照 DDD 拆成以下 Projects
   例如：Unity (相當於表現層) 使用 c# 就可以直接拿這層 dll 去呼叫，不然要自己再寫一遍 DTO 或從專案原始碼複製過去
   這樣容易產生不同步的問題，以前DTO是放在應用層，相依一堆東西，又不可能拿去給 Unity直接用
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/87bcc78e-ff0f-4121-8da5-3e2426d8cc84/1626345000.png)
+![這樣容易產生不同步的問題，以前DTO是放在應用層，相依一堆東西，又不可能拿去給 Unity直接用](https://dotblogsfile.blob.core.windows.net/user/御星幻/87bcc78e-ff0f-4121-8da5-3e2426d8cc84/1626345000.png)
 
 基礎設施層
 
@@ -101,7 +101,7 @@ ABP.IO 實際將.Net Solution 依照 DDD 拆成以下 Projects
   是管理Code First方式數據庫遷移記錄的特殊項目.此項目定義了一個獨立的DbContext來追踪遷移記錄.
   只有當添加一個新的數據庫遷移記錄或添加一個新的應用模塊時,才會使用此項目,否則,其它情況無需修改此項目內容.
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/87bcc78e-ff0f-4121-8da5-3e2426d8cc84/1626345024.png)
+![只有當添加一個新的數據庫遷移記錄或添加一個新的應用模塊時,才會使用此項目,否則,其它情況無需修改此項目內容.](https://dotblogsfile.blob.core.windows.net/user/御星幻/87bcc78e-ff0f-4121-8da5-3e2426d8cc84/1626345024.png)
 
 其他專案
 
@@ -131,7 +131,7 @@ ABP.IO 實際將.Net Solution 依照 DDD 拆成以下 Projects
 
 [ABP.IO WEB應用程式框架 新手教學 No.2 建立實體 Entity](https://dotblogs.com.tw/jakeuj/2021/07/19/aaboio2)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

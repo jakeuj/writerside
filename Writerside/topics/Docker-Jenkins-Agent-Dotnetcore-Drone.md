@@ -32,7 +32,7 @@ Azure Devops Pipeline CI/CD 被拿去挖礦
   於是乎想起其實我原本是打算研究用 Drone 來做 CI/CD
   https://blog.wu-boy.com/drone-devops/
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

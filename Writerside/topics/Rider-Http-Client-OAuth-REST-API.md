@@ -8,7 +8,7 @@
 
 筆記下 Rider 的 Http Client 使用 OAuth 驗證並呼叫 REST API
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9ba91063-408b-4783-b7cd-e635d0b146f9/1671594530.png.png)
+![筆記下 Rider 的 Http Client 使用 OAuth 驗證並呼叫 REST API](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9ba91063-408b-4783-b7cd-e635d0b146f9/1671594530.png.png)
 
 結論
 
@@ -75,7 +75,7 @@ REF
 
 [Exploring the HTTP request syntax | JetBrains Rider Documentation](https://www.jetbrains.com/help/rider/Exploring_HTTP_Syntax.html#example-working-with-environment-files)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

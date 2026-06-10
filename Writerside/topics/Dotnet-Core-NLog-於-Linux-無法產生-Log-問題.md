@@ -49,7 +49,7 @@ Git
 2. 下 git mv 指令
    `git mv Nlog.config nlog.config`
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

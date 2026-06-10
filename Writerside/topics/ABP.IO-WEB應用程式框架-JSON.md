@@ -43,7 +43,7 @@ ABP框架提供了一個使用JSON的抽象.擁有這樣的抽象有一些好處
 
 [JSON |文檔中心|總部基地。IO (abp.io)](https://docs.abp.io/zh-Hans/abp/latest/JSON)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

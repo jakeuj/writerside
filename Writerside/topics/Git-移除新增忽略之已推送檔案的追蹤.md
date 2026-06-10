@@ -50,7 +50,7 @@ profile.arm.json
 
 [更新成符合 .gitignore 設定的追蹤狀態 (poychang.net)](https://blog.poychang.net/gitignore-and-delete-untracked-files/)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

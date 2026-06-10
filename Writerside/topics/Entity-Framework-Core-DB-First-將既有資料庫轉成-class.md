@@ -66,7 +66,7 @@ MySQL
 
 [MySQL :: MySQL Connector/NET Developer Guide :: 7.2.2 Scaffolding an Existing Database in EF Core](https://dev.mysql.com/doc/connector-net/en/connector-net-entityframework-core-scaffold-example.html#connector-net-entityframework-core-scaffold-cli)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

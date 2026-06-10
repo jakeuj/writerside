@@ -1,3 +1,3 @@
-# C #
+# C Sharp
 
 Start typing here...

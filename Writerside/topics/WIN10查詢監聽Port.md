@@ -14,7 +14,7 @@ netstat -aon | findstr :8000
 
 華為雲工的方法好像是XP年代的指令所以筆記下
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

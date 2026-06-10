@@ -289,7 +289,7 @@ app.UseHangfireDashboard();
 
 [cron - Wikipedia](https://en.wikipedia.org/wiki/Cron#CRON_expression)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

@@ -8,7 +8,7 @@
 
 指定審計使用太平洋標準時間 (CreationTime…ETC)
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/570f744e-c327-4e46-b680-7b38c0b55e86/1673922949.png.png)
+![指定審計使用太平洋標準時間 (CreationTime…ETC)](https://dotblogsfile.blob.core.windows.net/user/jakeuj/570f744e-c327-4e46-b680-7b38c0b55e86/1673922949.png.png)
 
 結論
 
@@ -98,7 +98,7 @@ Configure<AbpClockOptions>(options => { options.Kind = DateTimeKind.Utc; });
 
 [c# - How to set ABP.IO IHasCreationTime for TimeZone 'Pacific Standard Time' (EF and SQL Server)](https://stackoverflow.com/questions/75039614/how-to-set-abp-io-ihascreationtime-for-timezone-pacific-standard-time-ef-and)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

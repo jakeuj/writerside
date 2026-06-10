@@ -25,7 +25,7 @@
 (`%USERPROFILE%\.dotnet\tools\pwsh.exe`)
 {ignore-vars="true"}
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/ebafa58a-d66d-46c8-9056-462b4bc8d04f/1634788135.png)
+![{ignore-vars="true"}](https://dotblogsfile.blob.core.windows.net/user/jakeuj/ebafa58a-d66d-46c8-9056-462b4bc8d04f/1634788135.png)
 
 ---
 
@@ -33,7 +33,7 @@
 
 https://devblogs.microsoft.com/commandline/getting-started-with-windows-terminal/
 
-![](https://store-images.s-microsoft.com/image/apps.64156.14050269303149694.7b8b314c-8217-47f4-8ecc-7a4c0b4488d2.e5859e84-ce21-48d7-a66d-7a864026df13?w=1399&h=792&q=90&format=jpg)
+![https://devblogs.microsoft.com/commandline/getting-started-with-windows-terminal](https://store-images.s-microsoft.com/image/apps.64156.14050269303149694.7b8b314c-8217-47f4-8ecc-7a4c0b4488d2.e5859e84-ce21-48d7-a66d-7a864026df13?w=1399&h=792&q=90&format=jpg)
 
 其中這張預覽圖正中我心
 
@@ -84,7 +84,7 @@ Set-ExecutionPolicy RemoteSigned
 
 畫面上方 Tab 向下箭頭按進去 > 設定 > 開啟Json設定檔 (左下方)
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/ebafa58a-d66d-46c8-9056-462b4bc8d04f/1612145191.png)
+![畫面上方 Tab 向下箭頭按進去 設定 開啟Json設定檔 (左下方)](https://dotblogsfile.blob.core.windows.net/user/jakeuj/ebafa58a-d66d-46c8-9056-462b4bc8d04f/1612145191.png)
 
 於 profiles > defaults 加入設定
 
@@ -119,12 +119,12 @@ https://docs.microsoft.com/en-us/windows/terminal/custom-terminal-gallery/custom
 
 這邊會覆蓋 PowerShell 的配色設定，也可以不設吃原本 PS 的主題配色
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/ebafa58a-d66d-46c8-9056-462b4bc8d04f/1612521497.png)
+![這邊會覆蓋 PowerShell 的配色設定，也可以不設吃原本 PS 的主題配色](https://dotblogsfile.blob.core.windows.net/user/jakeuj/ebafa58a-d66d-46c8-9056-462b4bc8d04f/1612521497.png)
 
 acrylicOpacity 0.5 會比較亮
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/ebafa58a-d66d-46c8-9056-462b4bc8d04f/1612521140.png)
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![acrylicOpacity 0.5 會比較亮](https://dotblogsfile.blob.core.windows.net/user/jakeuj/ebafa58a-d66d-46c8-9056-462b4bc8d04f/1612521140.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

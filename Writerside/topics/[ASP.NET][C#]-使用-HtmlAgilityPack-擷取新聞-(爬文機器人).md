@@ -58,7 +58,7 @@ Response.Write(result);
 
 6.查詢XPATH可以利用GOOGLE CHROME F12
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/a8fdf63f-f0b1-40af-aa1f-1c4bc8d8646f/1466065844_45524.png)
+![6.查詢XPATH可以利用GOOGLE CHROME F12](https://dotblogsfile.blob.core.windows.net/user/jakeuj/a8fdf63f-f0b1-40af-aa1f-1c4bc8d8646f/1466065844_45524.png)
 
 7.查詢新聞連結清單
 
@@ -93,7 +93,7 @@ foreach (HtmlNode currNode in htnode)
 }
 ```
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

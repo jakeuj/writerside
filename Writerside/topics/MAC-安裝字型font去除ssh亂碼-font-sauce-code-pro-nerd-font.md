@@ -18,7 +18,7 @@ brew cask install font-sauce-code-pro-nerd-font
 
 對應參照文章原文如下
 
-# 先執行這行，才能用 homebrew 安裝字型。曾經執行過的人可以跳過這個指令 brew tap caskroom/fonts # 安裝指令 brew cask install font-sourcecodepro-nerd-font
+## 先執行這行，才能用 homebrew 安裝字型。曾經執行過的人可以跳過這個指令 brew tap caskroom/fonts # 安裝指令 brew cask install font-sourcecodepro-nerd-font
 
 要找其他字型可以用
 
@@ -33,7 +33,7 @@ brew cask install font-sauce-code-pro-nerd-font
 
 [字型介紹 Noto(思源字體) Sans-serif(無襯線) Serif(襯線體) Mono(等寬) | 御用小本本 - 點部落 (dotblogs.com.tw)](https://dotblogs.com.tw/jakeuj/2019/04/10/Fonts)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

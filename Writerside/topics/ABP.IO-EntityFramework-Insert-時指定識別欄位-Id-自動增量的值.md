@@ -68,7 +68,7 @@ await db.Database.ExecuteSqlRawAsync("SET IDENTITY_INSERT dbo.NandPackageUsages 
 
 也有其他現成的 migration tools 可以將 mysql 匯入到 mssql
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

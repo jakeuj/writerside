@@ -12,7 +12,7 @@ Failed to deploy
 
 `java.io.IOException: 程序無法存取檔案，因為另一個程序已鎖定檔案的一部分。`
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/42fe5267-9c55-4c3d-80c5-1786f903b25b/1709797808.png.png)
+![java.io.IOException: 程序無法存取檔案，因為另一個程序已鎖定檔案的一部分。](https://dotblogsfile.blob.core.windows.net/user/小小朱/42fe5267-9c55-4c3d-80c5-1786f903b25b/1709797808.png.png)
 
 結論
 
@@ -22,7 +22,7 @@ Failed to deploy
 
 Rider 直接執行專案內的 dockerfile 時，會把 Context folder 設為方案路徑 (也就是專案的上一層目錄)，導致路徑錯誤
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/42fe5267-9c55-4c3d-80c5-1786f903b25b/1709796319.png.png)
+![Rider 直接執行專案內的 dockerfile 時，會把 Context folder 設為方案路徑 (也就是專案的上一層目錄)，導致路徑錯誤](https://dotblogsfile.blob.core.windows.net/user/小小朱/42fe5267-9c55-4c3d-80c5-1786f903b25b/1709796319.png.png)
 
 錯誤訊息
 
@@ -34,7 +34,7 @@ Preparing build context archive…
 Failed to deploy '<unknown> Dockerfile: Platform/Dockerfile': java.io.IOException: 程序無法存取檔案，因為另一個程序已鎖定檔案的一部分。
 ```
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

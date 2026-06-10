@@ -35,7 +35,7 @@ For Abp.io https://github.com/abpframework/abp/issues/1920#issuecomment-5435516
 
 dotnet ef database update 就可以了
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/1d12e461-d70c-4c54-920c-8458964654b5/1545725088_10347.jpg)
+![dotnet ef database update 就可以了](https://dotblogsfile.blob.core.windows.net/user/jakeuj/1d12e461-d70c-4c54-920c-8458964654b5/1545725088_10347.jpg)
 
 參照：[Running Entity Framework (Core) commands in Rider](https://blog.jetbrains.com/dotnet/2017/08/09/running-entity-framework-core-commands-rider/)
 
@@ -46,7 +46,7 @@ dotnet ef database update 就可以了
 
 參照：<https://docs.microsoft.com/zh-tw/ef/core/miscellaneous/cli/dotnet#common-options>
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

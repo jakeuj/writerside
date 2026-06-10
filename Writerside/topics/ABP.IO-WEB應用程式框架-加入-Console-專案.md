@@ -184,7 +184,7 @@ public async Task StartAsync(CancellationToken cancellationToken)
 
 [.NET Core 5 Console 泛用主機 依照環境變數讀取對應設定檔 AppSetting | Jakeuj - 點部落 (dotblogs.com.tw)](https://www.dotblogs.com.tw/jakeuj/2021/06/10/DotNetCoreConsoleAppsettingEnvironment)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

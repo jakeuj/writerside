@@ -114,7 +114,7 @@ https://github.com/igrmk/ubuntu-reinit-mysql。
 
 [Win10 WSL下 Ubuntu20.04 安装与卸载 Mysql 8.0-CSDN博客](https://blog.csdn.net/ychen219/article/details/123711116)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

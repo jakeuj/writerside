@@ -8,7 +8,7 @@
 
 git update-index --skip-worktree /path/to/file
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/446535fc-9ec2-42a3-b435-211905200e00/1703495445.png.png)
+![git update-index --skip-worktree /path/to/file](https://dotblogsfile.blob.core.windows.net/user/小小朱/446535fc-9ec2-42a3-b435-211905200e00/1703495445.png.png)
 
 ## 結論
 
@@ -36,7 +36,7 @@ git update-index --skip-worktree /path/to/file
 
 [idea中好用的git shelve changes和stash changes-CSDN博客](https://blog.csdn.net/eclipse1024/article/details/116352777)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

@@ -104,7 +104,7 @@ Git 來源選 Other 稍後自行設定使用 DevOps 部屬
 
 建立完後 概觀 (上方) 管理部署權杖 複製 部署權杖 稍後會用到
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/0f3596f6-4d67-40c9-9a8c-1cc2c02fdad3/1629884840.png)
+![建立完後 概觀 (上方) 管理部署權杖 複製 部署權杖 稍後會用到](https://dotblogsfile.blob.core.windows.net/user/御星幻/0f3596f6-4d67-40c9-9a8c-1cc2c02fdad3/1629884840.png)
 
 ## Step 2 準備 Vue 專案 Git Repo
 
@@ -236,8 +236,8 @@ steps:
 
 ## 定價
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/0f3596f6-4d67-40c9-9a8c-1cc2c02fdad3/1629964907.png)
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![定價](https://dotblogsfile.blob.core.windows.net/user/御星幻/0f3596f6-4d67-40c9-9a8c-1cc2c02fdad3/1629964907.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

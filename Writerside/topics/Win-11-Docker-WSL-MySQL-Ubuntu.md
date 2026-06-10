@@ -8,7 +8,7 @@
 
 筆記下從無到有 起一個 MySQL 服務
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/3a02b151-d0c7-4f6c-ae7a-edb24632334b/1705909149.png.png)
+![筆記下從無到有 起一個 MySQL 服務](https://dotblogsfile.blob.core.windows.net/user/小小朱/3a02b151-d0c7-4f6c-ae7a-edb24632334b/1705909149.png.png)
 
 Enable Virtual Machine Platform Feature and reboot
 
@@ -62,7 +62,7 @@ docker exec -it some-mysql mysql -u root -p
 
 GUI
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/3a02b151-d0c7-4f6c-ae7a-edb24632334b/1684831054.png.png)
+![GUI](https://dotblogsfile.blob.core.windows.net/user/小小朱/3a02b151-d0c7-4f6c-ae7a-edb24632334b/1684831054.png.png)
 
 DataGrip
 
@@ -72,7 +72,7 @@ DataGrip
 
 [DBeaver 连接 docker下mysql，并附带安装教程\_小朋友yo的博客-CSDN博客](https://blog.csdn.net/Eternalyii/article/details/126715960)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

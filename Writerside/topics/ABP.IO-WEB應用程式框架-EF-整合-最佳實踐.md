@@ -204,7 +204,7 @@ public class AbpIdentityEntityFrameworkCoreModule : AbpModule
 
 [Best Practices/Entity Framework Core Integration | Documentation Center | ABP.IO](https://docs.abp.io/zh-Hans/abp/latest/Best-Practices/Entity-Framework-Core-Integration)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

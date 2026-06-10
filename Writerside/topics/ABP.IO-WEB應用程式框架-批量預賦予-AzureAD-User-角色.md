@@ -143,7 +143,7 @@ BTW, Swagger 會同時顯示新舊 API
 
 備註：這邊簡單直接檢查原本的 User.Create 權限，所以記得先登入有該權限的帳號，否則直接到 Swagger 呼叫 API 會報錯
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

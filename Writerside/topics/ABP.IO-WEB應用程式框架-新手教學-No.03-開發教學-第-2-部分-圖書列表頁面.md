@@ -379,7 +379,7 @@ export class BookComponent implements OnInit {
 
 請參閱本教程的[下一部分](https://docs.abp.io/en/abp/latest/Tutorials/Part-3)。
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

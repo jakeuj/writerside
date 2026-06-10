@@ -28,7 +28,7 @@ Cli
 
 [Github Pages 裝載和部署 ASP.NET Core Blazor WebAssembly | Jakeuj - 點部落 (dotblogs.com.tw)](https://www.dotblogs.com.tw/jakeuj/2021/04/09/BlazorWebAssemblyGithubPages)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

@@ -32,7 +32,7 @@ Console.WriteLine("Hash code {0}", uriAddress.GetHashCode());
 
 於是乎就記下來供以後查閱！
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

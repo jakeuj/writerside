@@ -43,7 +43,7 @@ Kebab case
 
 [常見重點整理 - 命名慣例 & 開發時注意事項 - HackMD](https://hackmd.io/@Heidi-Liu/note-common)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

@@ -16,11 +16,11 @@ AAD 有條件的要求特定使用者於特定應用必須使用二因素驗證
 
 如果沒看到這東西，可能要從企業應用程式新建應用，再把原本專案轉移到這個應用 (重設CallbackUrl並更換AppId,Secret…ETC.)
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1631257188.png)
+![如果沒看到這東西，可能要從企業應用程式新建應用，再把原本專案轉移到這個應用 (重設CallbackUrl並更換AppId,Secret…ETC.)](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1631257188.png)
 
 如果以上賊個按鈕是灰色的，那就要找管理員開權限
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1631256935.png)
+![如果以上賊個按鈕是灰色的，那就要找管理員開權限](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1631256935.png)
 > 我這邊是用我自己的Azure帳號先做測試
 >
 > 所以權限部分是全開的
@@ -45,7 +45,7 @@ AAD 有條件的要求特定使用者於特定應用必須使用二因素驗證
 
 AZURE AD > User > 授權 > 工作分派 > Azure AD Premium
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1631257694.png)
+![AZURE AD User 授權 工作分派 Azure AD Premium](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1631257694.png)
 
 ※ P1 必須設定使用者的使用地區才能授權
 
@@ -65,39 +65,39 @@ AZURE AD > User > 個人資料 > 編輯 > 使用位置 > Taiwan
 
 5.設定條件式存取
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1631251665.png)
+![5.設定條件式存取](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1631251665.png)
 
 新增原則
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1631251881.png)
+![新增原則](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1631251881.png)
 
 選擇目標使用者或群組
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1631251888.png)
+![選擇目標使用者或群組](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1631251888.png)
 
 選擇目標應用程式，如果是從應用程式裡面的條件存取點進來的，預設會選擇該應用
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1631251999.png)
+![選擇目標應用程式，如果是從應用程式裡面的條件存取點進來的，預設會選擇該應用](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1631251999.png)
 
 這邊可以設定條件，比如：公司IP略過MFA或是台灣以外的地區才要MFA
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1632383342.png)
+![這邊可以設定條件，比如：公司IP略過MFA或是台灣以外的地區才要MFA](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1632383342.png)
 
 建立IP位置
 
 上方搜尋 > Azure AD 具名位置 > +IP 範圍位置 > 標示為信任位置
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1632383373.png)
+![上方搜尋 Azure AD 具名位置 +IP 範圍位置 標示為信任位置](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1632383373.png)
 
 排除信任位置
 
 然後就可以在 條件 > 位置 > 排除 > 選擇所有信任位置或選取剛剛建立的位置 (Ex: Offoce1)
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1631252009.png)
+![然後就可以在 條件 位置 排除 選擇所有信任位置或選取剛剛建立的位置 (Ex: Offoce1)](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1631252009.png)
 
 這邊可以設定一些限制，比如：登入時需要MFA
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1631251889.png)
+![這邊可以設定一些限制，比如：登入時需要MFA](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1631251889.png)
 
 最後可以設定 Session 相關，比如：6小時候需要重新登入
 
@@ -109,15 +109,15 @@ AZURE AD > User > 個人資料 > 編輯 > 使用位置 > Taiwan
 
 再來就用該帳號登入該應用程式看看會發生甚麼事
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1631252676.png)
+![再來就用該帳號登入該應用程式看看會發生甚麼事](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1631252676.png)
 
 登入時會卡住
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1631252695.png)
+![登入時會卡住](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1631252695.png)
 
 這邊可以選擇MFA方式
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1631253514.png)
+![這邊可以選擇MFA方式](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1631253514.png)
 
 可以改成用動態驗證碼或APP通知的方式進行2FA
 
@@ -125,11 +125,11 @@ AZURE AD > User > 個人資料 > 編輯 > 使用位置 > Taiwan
 
 但是啟用通知方式就只能使用 微軟驗證器
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1631253912.png)
+![但是啟用通知方式就只能使用 微軟驗證器](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1631253912.png)
 
 這邊也可以選擇設定應用程式但不設定通知
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1631254082.png)
+![這邊也可以選擇設定應用程式但不設定通知](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1631254082.png)
 
 這樣就可以使用自己的驗證器來產生動態驗證碼
 
@@ -137,7 +137,7 @@ AZURE AD > User > 個人資料 > 編輯 > 使用位置 > Taiwan
 
 之後登入就會需要輸入動態驗證碼
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1631255137.png)
+![之後登入就會需要輸入動態驗證碼](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1631255137.png)
 
 [Authy](https://authy.com/)
 
@@ -153,7 +153,7 @@ AZURE AD > User > 個人資料 > 編輯 > 使用位置 > Taiwan
 
 AAD > 安全性 > MFA > 其他雲端式 MFA 設定
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1631252949.png)
+![AAD 安全性 MFA 其他雲端式 MFA 設定](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1631252949.png)
 
 這裡面可以進行MFA相關設定
 
@@ -170,7 +170,7 @@ AAD 的功能真的挺多的，剛接觸有種眼花撩亂的感覺
 
 並由指定人員核准
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1631265258.png)
+![並由指定人員核准](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0f457619-ba59-4083-ace3-2223a031d0e8/1631265258.png)
 
 感覺像是 google 共用文件沒權限的人員可以申請
 
@@ -180,7 +180,7 @@ AAD 的功能真的挺多的，剛接觸有種眼花撩亂的感覺
 
 [規劃 Azure Active Directory 條件式存取部署 | Microsoft Docs](https://docs.microsoft.com/zh-tw/azure/active-directory/conditional-access/plan-conditional-access)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

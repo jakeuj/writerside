@@ -34,7 +34,7 @@ DevOps我想有兩個重點
 
 http://video.ch9.ms/ch9/8551/335491af-f416-4789-ac1e-76370a968551/DEV301_mid.mp4
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

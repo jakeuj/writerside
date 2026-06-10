@@ -60,7 +60,7 @@ Select **Use a previous version**. In the **Version** dropdown, select `tf-2-11-
 
 Select **e2-standard-4** as the Machine Type. Click **Create**.
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/3a778f3c-4c62-43cc-8a9b-12b589313749/1692868790.png.png)
+![Select e2-standard-4 as the Machine Type. Click Create.](https://dotblogsfile.blob.core.windows.net/user/小小朱/3a778f3c-4c62-43cc-8a9b-12b589313749/1692868790.png.png)
 
 ## 建立 Instance
 
@@ -71,15 +71,15 @@ Select **e2-standard-4** as the Machine Type. Click **Create**.
 - **代管型(舊版)：可以通過提供您自己的自訂 Docker 映像來創建和存取更多的自定義 Jupyter 內核。 系統將導入該容器上的所有可用 Jupyter 內核。**
 - **使用者管理筆記本(舊版)：按照**教學文件，這邊應該選擇此種類
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/3a778f3c-4c62-43cc-8a9b-12b589313749/1692869032.png.png)
+![使用者管理筆記本(舊版)：按照教學文件，這邊應該選擇此種類](https://dotblogsfile.blob.core.windows.net/user/小小朱/3a778f3c-4c62-43cc-8a9b-12b589313749/1692869032.png.png)
 
 環境
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/3a778f3c-4c62-43cc-8a9b-12b589313749/1692873374.png.png)
+![環境](https://dotblogsfile.blob.core.windows.net/user/小小朱/3a778f3c-4c62-43cc-8a9b-12b589313749/1692873374.png.png)
 
 規格
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/3a778f3c-4c62-43cc-8a9b-12b589313749/1692873613.png.png)
+![規格](https://dotblogsfile.blob.core.windows.net/user/小小朱/3a778f3c-4c62-43cc-8a9b-12b589313749/1692873613.png.png)
 
 價格
 
@@ -87,11 +87,11 @@ Select **e2-standard-4** as the Machine Type. Click **Create**.
 
 N1標準4 = $0.22/H (預設)
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/3a778f3c-4c62-43cc-8a9b-12b589313749/1693898885.png.png)
+![N1標準4 = $0.22/H (預設)](https://dotblogsfile.blob.core.windows.net/user/小小朱/3a778f3c-4c62-43cc-8a9b-12b589313749/1693898885.png.png)
 
 E2標準4=$0.15/H (本教程)
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/3a778f3c-4c62-43cc-8a9b-12b589313749/1693898911.png.png)
+![E2標準4=$0.15/H (本教程)](https://dotblogsfile.blob.core.windows.net/user/小小朱/3a778f3c-4c62-43cc-8a9b-12b589313749/1693898911.png.png)
 
 創建後可以開始使用 Notebooks
 
@@ -105,7 +105,7 @@ E2標準4=$0.15/H (本教程)
 
 [從軟體哲學角度談Amazon SageMaker | 亞馬遜AWS官方博客](https://aws.amazon.com/cn/blogs/china/on-amazon-sagemaker-from-the-perspective-of-software-philosophy/)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

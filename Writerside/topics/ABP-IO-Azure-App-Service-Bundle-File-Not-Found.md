@@ -19,7 +19,7 @@ Powershell Script 中的 `"%DEPLOYMENT_TEMP%"` 最終會變成 `ÞPLOYMENT_TEMP%
 
 設定 Azure App Service 組態，[指定 Node.js 版本](https://stackoverflow.com/questions/45515421/which-versions-of-node-js-are-available-on-azure-web-sites) (Yarn 需要 4.0 以上)：`WEBSITE_NODE_DEFAULT_VERSION=18.20.4`
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/0c5b0fc6-b26a-4129-9682-fc4e37f3bb9f/1701856246.png.png)
+![設定 Azure App Service 組態，指定 Node.js 版本 (Yarn 需要 4.0 以上)：WEBSITENODEDEFAULTVERSION](https://dotblogsfile.blob.core.windows.net/user/小小朱/0c5b0fc6-b26a-4129-9682-fc4e37f3bb9f/1701856246.png.png)
 
 於方案目錄新增以下部署設定檔 `.deployment` `deploy.ps1`
 
@@ -209,15 +209,15 @@ dotnet publish "$DEPLOYMENT_SOURCE\src/TestCiCd.HttpApi.Host/TestCiCd.HttpApi.Ho
 
 `kuduscript -y --aspNetCore .\src\TestCiCd.HttpApi.Host\TestCiCd.HttpApi.Host.csproj -s .\TestCiCd.sln -t posh`
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/0c5b0fc6-b26a-4129-9682-fc4e37f3bb9f/1701917408.png.png)
+![kuduscript -y --aspNetCore .\src\TestCiCd.HttpApi.Host\TestCiCd.HttpApi.Host.csp](https://dotblogsfile.blob.core.windows.net/user/小小朱/0c5b0fc6-b26a-4129-9682-fc4e37f3bb9f/1701917408.png.png)
 
 `.deployment` & `deploy.ps1`
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/0c5b0fc6-b26a-4129-9682-fc4e37f3bb9f/1701917442.png.png)
+![.deployment & deploy.ps1](https://dotblogsfile.blob.core.windows.net/user/小小朱/0c5b0fc6-b26a-4129-9682-fc4e37f3bb9f/1701917442.png.png)
 
 最後 Git Commit & Push 觸發 CI/CD
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/0c5b0fc6-b26a-4129-9682-fc4e37f3bb9f/1701936565.png.png)
+![最後 Git Commit & Push 觸發 CI/CD](https://dotblogsfile.blob.core.windows.net/user/小小朱/0c5b0fc6-b26a-4129-9682-fc4e37f3bb9f/1701936565.png.png)
 
 ## 備註
 
@@ -249,7 +249,7 @@ dotnet publish "$DEPLOYMENT_SOURCE\src/TestCiCd.HttpApi.Host/TestCiCd.HttpApi.Ho
 
 [Which versions of node.js are available on Azure Web Sites? - Stack Overflow](https://stackoverflow.com/questions/45515421/which-versions-of-node-js-are-available-on-azure-web-sites)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

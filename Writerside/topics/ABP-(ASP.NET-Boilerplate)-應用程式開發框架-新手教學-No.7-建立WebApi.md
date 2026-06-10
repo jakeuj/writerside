@@ -71,7 +71,7 @@ http://localhost/api/services/app/player/getPlayers
 
 執行後開啟以上網址即可呼叫我們先前完成的Service (有port請自行加上)
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/897bd0d4-bf8d-4568-89c6-a0850d226e51/1469680650_66273.png)
+![執行後開啟以上網址即可呼叫我們先前完成的Service (有port請自行加上)](https://dotblogsfile.blob.core.windows.net/user/jakeuj/897bd0d4-bf8d-4568-89c6-a0850d226e51/1469680650_66273.png)
 
 ---
 
@@ -83,7 +83,7 @@ http://localhost/api/services/app/player/getPlayers
 
 [一步一步使用ABP框架搭建正式項目系列教程](http://www.cnblogs.com/farb/p/4849791.html)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

@@ -8,7 +8,7 @@
 
 計算資料行是一個虛擬資料行，除非資料行標示了PERSISTED，否則，並未實際儲存在資料表中。
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/26095bf3-f412-4159-96eb-8c45ddcb47bf/1688983414.png.png)
+![計算資料行是一個虛擬資料行，除非資料行標示了PERSISTED，否則，並未實際儲存在資料表中。](https://dotblogsfile.blob.core.windows.net/user/小小朱/26095bf3-f412-4159-96eb-8c45ddcb47bf/1688983414.png.png)
 
 ## Entity
 
@@ -51,7 +51,7 @@ modelBuilder.Entity<Test>()
 
 [ABP.IO WEB應用程式框架 取得關聯資料 | 御用小本本 - 點部落 (dotblogs.com.tw)](https://dotblogs.com.tw/jakeuj/2022/10/25/abp-ef-With-Details-Async)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

@@ -42,7 +42,7 @@ Sender 識別與驗證也是獨立的
 
 沒甚麼事情了話應該只要開寄信權限就好了
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/6e3eb724-eff4-49d7-a070-25d7f96da48c/1631168718.png)
+![沒甚麼事情了話應該只要開寄信權限就好了](https://dotblogsfile.blob.core.windows.net/user/jakeuj/6e3eb724-eff4-49d7-a070-25d7f96da48c/1631168718.png)
 
 ### 寄件者驗證
 
@@ -109,7 +109,7 @@ PM> Install-Package SendGrid
 |  | } |
 |  | } |
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

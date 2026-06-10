@@ -36,7 +36,7 @@ VS 2022 偵錯正常，但 Rider 偵錯會報錯
 
 [IIS - ASP.NET 虛擬路徑映射到另一個不允許的應用程式 - 堆疊溢出 (stackoverflow.com)](https://stackoverflow.com/questions/19277350/asp-net-virtual-path-maps-to-another-application-which-is-not-allowed)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

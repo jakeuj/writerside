@@ -63,7 +63,7 @@ appsetting.json
 
 這樣就可以用AAD登入了，登入後會在 AbpUserLogins 新增如下資料，來對應至 UserId
 
-![](https://dotblogsfile.blob.core.windows.net/user/jakeuj/92c64bf6-3d30-45d8-9d06-6d69039b0e9e/1632815630.png)
+![這樣就可以用AAD登入了，登入後會在 AbpUserLogins 新增如下資料，來對應至 UserId](https://dotblogsfile.blob.core.windows.net/user/jakeuj/92c64bf6-3d30-45d8-9d06-6d69039b0e9e/1632815630.png)
 
 如果要改 LoginPovider => AzureAdOpenId 可以用以下方式
 
@@ -312,7 +312,7 @@ options.Events.OnTokenValidated = (async c =>
 });
 ```
 
-![](https://dotblogsfile.blob.core.windows.net/user/御星幻/92c64bf6-3d30-45d8-9d06-6d69039b0e9e/1629785468.png)
+![可以在最後加上一段 code, 然後下中斷點看拿了些甚麼東西(claims)回來](https://dotblogsfile.blob.core.windows.net/user/御星幻/92c64bf6-3d30-45d8-9d06-6d69039b0e9e/1629785468.png)
 
 ## 其他 OpenID 登入
 
@@ -347,7 +347,7 @@ services.AddAuthentication()
 
 [LDAP Admin & C# .Net Core Identity Server 4 | 御用小本本 - 點部落 (dotblogs.com.tw)](https://dotblogs.com.tw/jakeuj/2021/07/30/LdapAdmin)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

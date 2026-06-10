@@ -58,7 +58,7 @@ staticwebapp.config.json
 
 [設定 Azure Static Web Apps | Microsoft Learn](https://learn.microsoft.com/zh-tw/azure/static-web-apps/configuration#networking)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

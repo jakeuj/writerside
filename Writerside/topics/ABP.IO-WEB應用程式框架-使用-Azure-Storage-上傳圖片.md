@@ -161,7 +161,7 @@ public override void ConfigureServices(ServiceConfigurationContext context)
 
 // TODO: context.Services.Replace(ServiceDescriptor.Singleton<IBlobContainer, NullBlobContainer>());
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

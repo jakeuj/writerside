@@ -45,7 +45,7 @@ gpu installer: asia.gcr.io/cos-cloud/cos-gpu-installer:v2.1.7
 sudo cos-extensions install gpu -- -version=535.104.05
 ```
 
-![](https://dotblogsfile.blob.core.windows.net/user/小小朱/5d0ae565-dc84-4577-b4f5-912cbfa8a332/1695181968.png.png)
+![安裝](https://dotblogsfile.blob.core.windows.net/user/小小朱/5d0ae565-dc84-4577-b4f5-912cbfa8a332/1695181968.png.png)
 
 驗證安裝
 
@@ -89,7 +89,7 @@ jakeuj@instance-2 ~ $
 
 [Install GPU drivers  |  Compute Engine Documentation  |  Google Cloud](https://cloud.google.com/compute/docs/gpus/install-drivers-gpu)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 

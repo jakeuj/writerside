@@ -1,4 +1,4 @@
-# 為什麼要使用ABP框架
+## 為什麼要使用ABP框架
 
 > **原文發布日期:** 2019-01-25
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/01/25/ABP00
@@ -8,7 +8,7 @@
 
 # 為什麼要使用ABP框架
 
-[![](https://aspnetboilerplate.com/images/home/abp-concerns.png)](https://aspnetboilerplate.com/)
+[![為什麼要使用ABP框架](https://aspnetboilerplate.com/images/home/abp-concerns.png)](https://aspnetboilerplate.com/)
 
 我們近幾年陸續開發了一些Web應用和桌面應用，需求或簡單或複雜，實現或優雅或醜陋。一個基本的事實是：我們只是積累了一些經驗或提高了對.NET的熟悉程度。
 
@@ -36,7 +36,7 @@
 
 參考文件：[ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.0 全篇索引](https://dotblogs.com.tw/jakeuj/2016/07/28/abp0)
 
-![](https://card.psnprofiles.com/1/jakeuj.png)
+![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5
 
