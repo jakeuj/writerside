@@ -136,6 +136,25 @@ jobs:
           echo "::error file=dir/robots.txt::robots.txt is missing the sitemap directive"
           exit 1
         fi
+
+        test -f dir/images/og-image.png
+
+        for page in dir/default.html dir/writerside-sitemap-seo.html; do
+          if ! grep -Eq 'property="og:description" content="[^"]+' "$page"; then
+            echo "::error file=$page::og:description is empty or missing"
+            exit 1
+          fi
+
+          if ! grep -Eq 'name="twitter:description" content="[^"]+' "$page"; then
+            echo "::error file=$page::twitter:description is empty or missing"
+            exit 1
+          fi
+
+          if ! grep -q "https://jakeuj.com/images/og-image.png" "$page"; then
+            echo "::error file=$page::page does not reference the PNG OG image"
+            exit 1
+          fi
+        done
     
     - name: Setup Pages
       uses: actions/configure-pages@v4

@@ -1,5 +1,7 @@
 # ABP 分離 Auth/API 專案部署到 Azure 與 Akamai 檢查表
 
+<web-summary>ABP 分離式 Auth/API 專案部署到 Azure App Service 並經 Akamai 對外服務時，用這份檢查表對齊 hostname、TLS/SNI、OpenIddict redirect URI、SelfUrl 與前端 OIDC 設定。</web-summary>
+
 ABP 分離式部署經 Akamai 再回 Azure App Service 時，公開 hostname 要一路對齊到 Akamai、App Service custom domain、TLS/SNI、ABP `SelfUrl`、OpenIddict redirect URI 與前端 OIDC 設定。`*.azurewebsites.net` 只適合作為 Azure origin resolution 或平台預設位址，不應出現在使用者-facing URL、redirect URI 或 cookie domain。
 
 <tldr>

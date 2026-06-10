@@ -1,5 +1,7 @@
 # Writerside Sitemap 與 SEO 修正筆記
 
+<web-summary>記錄 jakeuj.com 使用 Writerside 部署到 GitHub Pages 時，修正 sitemap、robots.txt、OG URL、Schema URL 與 Search Console 提交流程的 SEO 筆記。</web-summary>
+
 Writerside 部署到 GitHub Pages 並使用 custom domain 時，sitemap、OG URL 與 Schema URL 要和實際公開頁面路徑一致；如果站台實際頁面在根目錄，就要讓 sitemap 產出 `https://jakeuj.com/<topic>.html`，並在 Search Console 提交 `https://jakeuj.com/sitemap.xml`。
 
 <tldr>
