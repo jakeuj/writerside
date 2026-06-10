@@ -119,6 +119,7 @@
             <toc-element topic="CI-CD.md" />
             <toc-element topic="OpenIddict.md" />
             <toc-element topic="Azure-App-Service-Deploy.md" />
+            <toc-element topic="abp-azure-akamai-deployment-checklist.md" toc-title="ABP Azure Akamai 部署檢查表" />
             <toc-element topic="ABP-Suite-Entity-Consts.md" />
             <toc-element topic="ABP-Suite-EfCoreRepository-Template-DbContext.md" />
             <toc-element topic="EasyAbp.md">
