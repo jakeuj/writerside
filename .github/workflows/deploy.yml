@@ -113,14 +113,19 @@ jobs:
 
     - name: Add root site metadata
       run: |
+        mkdir -p dir/images
         cp robots.txt dir/robots.txt
         cp CNAME dir/CNAME
+        cp Writerside/images/og-image.png dir/images/og-image.png
 
     - name: Validate Pages artifact SEO metadata
       run: |
-        test -f dir/sitemap.xml
-        test -f dir/robots.txt
-        test -f dir/CNAME
+        for file in dir/sitemap.xml dir/robots.txt dir/CNAME dir/images/og-image.png dir/default.html dir/writerside-sitemap-seo.html; do
+          if [ ! -f "$file" ]; then
+            echo "::error file=$file::required Pages artifact file is missing"
+            exit 1
+          fi
+        done
 
         if grep -q "/writerside/master/" dir/sitemap.xml; then
           echo "::error file=dir/sitemap.xml::sitemap.xml still contains /writerside/master/ URLs"
@@ -136,8 +141,6 @@ jobs:
           echo "::error file=dir/robots.txt::robots.txt is missing the sitemap directive"
           exit 1
         fi
-
-        test -f dir/images/og-image.png
 
         for page in dir/default.html dir/writerside-sitemap-seo.html; do
           if ! grep -Eq 'property="og:description" content="[^"]+' "$page"; then
