@@ -1,4 +1,6 @@
-# Docker
+# Dockerfile 與 .dockerignore 實作筆記
+
+<web-summary>整理 .NET 專案 Dockerfile、.dockerignore、ABP migration container 與常用 Docker 指令，補充 Rider/Visual Studio 產生檔案的差異。</web-summary>
 
 筆記下 Docker 的使用方式。
 

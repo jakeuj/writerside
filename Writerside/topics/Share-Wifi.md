@@ -1,4 +1,6 @@
-# Share Wifi
+# Windows 11 行動熱點分享 LAN 網路給手機
+
+<web-summary>Windows 11 筆電透過行動熱點把乙太網路分享成 Wi-Fi，並說明防火牆、192.168.137.1 與 Vite/Vue 測試服務需要 listen 的設定。</web-summary>
 
 Windows 11 筆記型電腦可以通過 LAN 取得 IP 地址後，再使用 Wi-Fi 網卡作為 AP（接入點）來分享網絡給手機。
 

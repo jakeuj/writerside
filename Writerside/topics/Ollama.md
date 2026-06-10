@@ -1,4 +1,6 @@
-# Ollama
+# Ollama 安裝 DeepSeek R1 與 API 使用筆記
+
+<web-summary>整理 macOS 與 Ubuntu 安裝 Ollama、執行 DeepSeek R1、呼叫本機 API，以及用 OLLAMA_HOST 開放外部連線的設定方式。</web-summary>
 
 安裝 Ollama 執行 DeepSeek R1 (預設是 8B 模型)
 

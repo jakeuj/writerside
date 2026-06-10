@@ -1,4 +1,6 @@
-# ABP
+# ABP / ABP.IO 開發環境與安裝筆記
+
+<web-summary>整理 ABP / ABP.IO 開發環境需求、.NET、Node、Yarn、Redis、LocalDB、Studio/Cli 安裝選擇，以及 MAUI workload 注意事項。</web-summary>
 
 ASP.NET Boilerplate Project
 

@@ -118,53 +118,153 @@ jobs:
         cp CNAME dir/CNAME
         cp Writerside/images/og-image.png dir/images/og-image.png
 
-    - name: Normalize social metadata descriptions
+    - name: Normalize SEO metadata
       run: |
         python3 <<'PY'
         from pathlib import Path
         import html
         import json
         import re
+        import textwrap
+
+        SITE_URL = "https://jakeuj.com/"
+        TARGET_URL = "https://jakeuj.com/default.html"
+        OG_IMAGE = "https://jakeuj.com/images/og-image.png"
+        DEFAULT_TITLE = "Jakeuj 筆記本 | Jakeuj's Notes"
+        DEFAULT_DESCRIPTION = "Jakeuj 筆記本整理 .NET、ABP、Azure、GCP、Docker、AI 工具、macOS 與開發環境疑難排解，提供可公開查閱的實作筆記與排錯紀錄。"
+
+        def attr_escape(value):
+            return html.escape(value, quote=True)
+
+        def extract(pattern, text, default=""):
+            match = re.search(pattern, text, re.DOTALL)
+            return html.unescape(match.group(1)) if match else default
+
+        def normalize_language(text):
+            updated = re.sub(r'<html lang="[^"]+"', '<html lang="zh-TW"', text, count=1)
+            updated = re.sub(
+                r'(<meta property="og:locale" content=")[^"]*(">)',
+                r'\1zh_TW\2',
+                updated,
+                count=1,
+            )
+            updated = re.sub(
+                r'("inLanguage"\s*:\s*)"[^"]*"',
+                r'\1"zh-TW"',
+                updated,
+            )
+            return updated
 
         patched = 0
         for page in sorted(Path("dir").glob("*.html")):
             text = page.read_text(encoding="utf-8")
             match = re.search(r'<meta name="description" content="([^"]+)">', text)
-            if not match:
-                continue
+            updated = normalize_language(text)
 
-            description_attr = match.group(1)
-            description_json = json.dumps(html.unescape(description_attr), ensure_ascii=False)
+            if match:
+                description_attr = match.group(1)
+                description_json = json.dumps(html.unescape(description_attr), ensure_ascii=False)
 
-            updated = re.sub(
-                r'(<meta property="og:description" content=")[^"]*(">)',
-                lambda m: f"{m.group(1)}{description_attr}{m.group(2)}",
-                text,
-                count=1,
-            )
-            updated = re.sub(
-                r'(<meta name="twitter:description" content=")[^"]*(">)',
-                lambda m: f"{m.group(1)}{description_attr}{m.group(2)}",
-                updated,
-                count=1,
-            )
-            updated = re.sub(
-                r'("description":\s*)""',
-                lambda m: f"{m.group(1)}{description_json}",
-                updated,
-                count=1,
-            )
+                updated = re.sub(
+                    r'(<meta property="og:description" content=")[^"]*(">)',
+                    lambda m: f"{m.group(1)}{description_attr}{m.group(2)}",
+                    updated,
+                    count=1,
+                )
+                updated = re.sub(
+                    r'(<meta name="twitter:description" content=")[^"]*(">)',
+                    lambda m: f"{m.group(1)}{description_attr}{m.group(2)}",
+                    updated,
+                    count=1,
+                )
+                updated = re.sub(
+                    r'("description":\s*)""',
+                    lambda m: f"{m.group(1)}{description_json}",
+                    updated,
+                    count=1,
+                )
 
             if updated != text:
                 page.write_text(updated, encoding="utf-8")
                 patched += 1
 
-        print(f"Patched social metadata descriptions in {patched} HTML files")
+        default_page = Path("dir/default.html")
+        index_page = Path("dir/index.html")
+        if default_page.exists():
+            default_html = default_page.read_text(encoding="utf-8")
+            title = extract(r"<title>(.*?)</title>", default_html, DEFAULT_TITLE)
+            description = extract(
+                r'<meta name="description" content="([^"]*)">',
+                default_html,
+                DEFAULT_DESCRIPTION,
+            ) or DEFAULT_DESCRIPTION
+            image = extract(
+                r'<meta property="og:image" content="([^"]*)">',
+                default_html,
+                OG_IMAGE,
+            ) or OG_IMAGE
+            schema = {
+                "@context": "http://schema.org",
+                "@type": "WebPage",
+                "@id": f"{TARGET_URL}#webpage",
+                "url": TARGET_URL,
+                "name": title,
+                "description": description,
+                "image": image,
+                "inLanguage": "zh-TW",
+            }
+            website_schema = {
+                "@context": "http://schema.org",
+                "@type": "WebSite",
+                "@id": f"{SITE_URL}#website",
+                "url": SITE_URL,
+                "name": "Jakeuj's Notes Help",
+                "inLanguage": "zh-TW",
+            }
+            index_page.write_text(
+                textwrap.dedent(f"""\
+                    <!DOCTYPE html>
+                    <html lang="zh-TW">
+                    <head>
+                    <meta charset="UTF-8">
+                    <title>{attr_escape(title)}</title>
+                    <meta name="description" content="{attr_escape(description)}">
+                    <link rel="canonical" href="{TARGET_URL}">
+                    <meta http-equiv="refresh" content="0; url=default.html">
+                    <meta name="image" content="{attr_escape(image)}">
+                    <meta property="og:title" content="{attr_escape(title)}">
+                    <meta property="og:description" content="{attr_escape(description)}">
+                    <meta property="og:image" content="{attr_escape(image)}">
+                    <meta property="og:site_name" content="Jakeuj's Notes Help">
+                    <meta property="og:type" content="website">
+                    <meta property="og:locale" content="zh_TW">
+                    <meta property="og:url" content="{TARGET_URL}">
+                    <meta name="twitter:card" content="summary_large_image">
+                    <meta name="twitter:site" content="@jakeuj">
+                    <meta name="twitter:title" content="{attr_escape(title)}">
+                    <meta name="twitter:description" content="{attr_escape(description)}">
+                    <meta name="twitter:creator" content="@jakeuj">
+                    <meta name="twitter:image:src" content="{attr_escape(image)}">
+                    <script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script>
+                    <script type="application/ld+json">{json.dumps(website_schema, ensure_ascii=False)}</script>
+                    </head>
+                    <body>
+                    <h1>Redirecting...</h1>
+                    <a href="default.html">Click here if you are not redirected.</a>
+                    <script>location = "default.html"</script>
+                    </body>
+                    </html>
+                    """),
+                encoding="utf-8",
+            )
+            patched += 1
+
+        print(f"Patched SEO metadata in {patched} HTML files")
         PY
 
     - name: Validate Pages artifact SEO metadata
       run: |
-        for file in dir/sitemap.xml dir/robots.txt dir/CNAME dir/images/og-image.png dir/default.html dir/writerside-sitemap-seo.html; do
+        for file in dir/sitemap.xml dir/robots.txt dir/CNAME dir/images/og-image.png dir/index.html dir/default.html dir/writerside-sitemap-seo.html; do
           if [ ! -f "$file" ]; then
             echo "::error file=$file::required Pages artifact file is missing"
             exit 1
@@ -186,7 +286,34 @@ jobs:
           exit 1
         fi
 
-        for page in dir/default.html dir/writerside-sitemap-seo.html; do
+        seo_pages=(
+          dir/index.html
+          dir/default.html
+          dir/writerside-sitemap-seo.html
+          dir/share-wifi.html
+          dir/docker.html
+          dir/ai-search-service.html
+          dir/deploy-fastapi-on-azure-app-service.html
+          dir/flutter-azure-ad-login.html
+          dir/cloudwatch.html
+          dir/abp.html
+          dir/studio.html
+          dir/swagger.html
+          dir/ollama.html
+          dir/powershell-script-tool-for-migrations.html
+        )
+
+        for page in "${seo_pages[@]}"; do
+          if [ ! -f "$page" ]; then
+            echo "::error file=$page::SEO validation page is missing"
+            exit 1
+          fi
+
+          if ! grep -Eq 'name="description" content="[^"]+' "$page"; then
+            echo "::error file=$page::meta description is empty or missing"
+            exit 1
+          fi
+
           if ! grep -Eq 'property="og:description" content="[^"]+' "$page"; then
             echo "::error file=$page::og:description is empty or missing"
             exit 1
@@ -204,6 +331,21 @@ jobs:
 
           if ! grep -q "https://jakeuj.com/images/og-image.png" "$page"; then
             echo "::error file=$page::page does not reference the PNG OG image"
+            exit 1
+          fi
+
+          if ! grep -q '<html lang="zh-TW"' "$page"; then
+            echo "::error file=$page::html lang is not zh-TW"
+            exit 1
+          fi
+
+          if ! grep -q 'property="og:locale" content="zh_TW"' "$page"; then
+            echo "::error file=$page::og:locale is not zh_TW"
+            exit 1
+          fi
+
+          if grep -Eq '"inLanguage"[[:space:]]*:[[:space:]]*"en-US"' "$page"; then
+            echo "::error file=$page::Schema inLanguage is still en-US"
             exit 1
           fi
         done

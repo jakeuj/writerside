@@ -1,4 +1,6 @@
-# CloudWatch
+# AWS CloudWatch Agent 與 Serilog 日誌設定筆記
+
+<web-summary>整理 AWS CloudWatch Agent 與 AWS.Logger.SeriLog 的設定流程，包含 IAM 權限、EC2 role、SSM Agent、Windows log file 收集與查詢指令。</web-summary>
 
 紀錄 AWS CloudWatch 的使用方式，是說 AWS 的文件也太碎片化了，沒有一條龍的服務嗎？
 

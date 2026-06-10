@@ -1,4 +1,6 @@
-# Flutter Azure AD Login
+# Flutter 使用 aad_oauth 整合 Azure AD 登入
+
+<web-summary>使用 Flutter aad_oauth 套件整合 Azure AD 登入，設定 tenant、clientId、redirectUri 與 scope，取得 ID token 並解析使用者資料。</web-summary>
 
 This Flutter application demonstrates how to implement Azure Active Directory (Azure AD) login using the `aad_oauth` package.
 It allows users to log in with their Azure AD credentials and displays their profile information.

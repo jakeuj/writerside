@@ -68,6 +68,17 @@ fi
 echo -e "${YELLOW}🔍 [4/4] 檢查 SEO metadata 摘要...${NC}"
 required_web_summary_files=(
     "Writerside/topics/Default.md"
+    "Writerside/topics/ABP.md"
+    "Writerside/topics/AI-Search-Service.md"
+    "Writerside/topics/CloudWatch.md"
+    "Writerside/topics/Deploy-FastAPI-on-Azure-App-Service.md"
+    "Writerside/topics/Docker.md"
+    "Writerside/topics/Flutter-Azure-AD-Login.md"
+    "Writerside/topics/Ollama.md"
+    "Writerside/topics/PowerShell-Script-Tool-for-Migrations.md"
+    "Writerside/topics/Share-Wifi.md"
+    "Writerside/topics/Studio.md"
+    "Writerside/topics/Swagger.md"
     "Writerside/topics/writerside-sitemap-seo.md"
 )
 

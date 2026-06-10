@@ -1,4 +1,6 @@
-# Deploy FastAPI on Azure App Service
+# Azure App Service 部署 FastAPI 的 Startup Command 設定
+
+<web-summary>在 Azure App Service 部署 FastAPI 時，設定 Startup Command 使用 gunicorn 搭配 uvicorn worker，並用 --chdir 指到正確 src 目錄。</web-summary>
 
 > **原文發布日期:** 2023-05-30
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/05/30/deploy-fastapi-on-azure

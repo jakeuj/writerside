@@ -1,4 +1,6 @@
-# AI Search Service
+# Azure AI Search 向量搜尋 REST 快速入門筆記
+
+<web-summary>使用 Azure AI Search 建立向量搜尋服務，透過 REST Client 建立 index、上傳 documents 並執行 vector search 的快速入門筆記。</web-summary>
 
 Azure 提供向量搜尋服務
 

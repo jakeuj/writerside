@@ -1,4 +1,6 @@
-# PowerShell Script Tool for Migrations
+# PowerShell 腳本管理 Entity Framework Core Migrations
+
+<web-summary>使用 PowerShell 腳本封裝 dotnet ef migrations add、database update、script 與 remove，集中管理 DbContext、StartupProject 與 migration project 參數。</web-summary>
 
 > **原文發布日期:** 2019-07-23
 > **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/07/23/PowerShellMigrations

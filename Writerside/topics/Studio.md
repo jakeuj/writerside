@@ -1,4 +1,6 @@
-# Studio
+# ABP Studio 專案建立與 Docker 相依設定筆記
+
+<web-summary>整理 ABP Studio 建立專案前的 .NET、Node、Yarn、Docker 需求，以及 Redis docker network、Rider PowerShell、WireGuard 與安裝注意事項。</web-summary>
 
 ABP 最近整了一個圖形化介面工具箱，叫做 [ABP Studio](https://abp.io/studio)，可以用來快速建立專案、模組、頁面、服務等等。
 
