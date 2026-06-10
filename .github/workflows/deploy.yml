@@ -118,6 +118,50 @@ jobs:
         cp CNAME dir/CNAME
         cp Writerside/images/og-image.png dir/images/og-image.png
 
+    - name: Normalize social metadata descriptions
+      run: |
+        python3 <<'PY'
+        from pathlib import Path
+        import html
+        import json
+        import re
+
+        patched = 0
+        for page in sorted(Path("dir").glob("*.html")):
+            text = page.read_text(encoding="utf-8")
+            match = re.search(r'<meta name="description" content="([^"]+)">', text)
+            if not match:
+                continue
+
+            description_attr = match.group(1)
+            description_json = json.dumps(html.unescape(description_attr), ensure_ascii=False)
+
+            updated = re.sub(
+                r'(<meta property="og:description" content=")[^"]*(">)',
+                lambda m: f"{m.group(1)}{description_attr}{m.group(2)}",
+                text,
+                count=1,
+            )
+            updated = re.sub(
+                r'(<meta name="twitter:description" content=")[^"]*(">)',
+                lambda m: f"{m.group(1)}{description_attr}{m.group(2)}",
+                updated,
+                count=1,
+            )
+            updated = re.sub(
+                r'("description":\s*)""',
+                lambda m: f"{m.group(1)}{description_json}",
+                updated,
+                count=1,
+            )
+
+            if updated != text:
+                page.write_text(updated, encoding="utf-8")
+                patched += 1
+
+        print(f"Patched social metadata descriptions in {patched} HTML files")
+        PY
+
     - name: Validate Pages artifact SEO metadata
       run: |
         for file in dir/sitemap.xml dir/robots.txt dir/CNAME dir/images/og-image.png dir/default.html dir/writerside-sitemap-seo.html; do
@@ -150,6 +194,11 @@ jobs:
 
           if ! grep -Eq 'name="twitter:description" content="[^"]+' "$page"; then
             echo "::error file=$page::twitter:description is empty or missing"
+            exit 1
+          fi
+
+          if grep -q '"description": ""' "$page"; then
+            echo "::error file=$page::Schema description is empty"
             exit 1
           fi
 

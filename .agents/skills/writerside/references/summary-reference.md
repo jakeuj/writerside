@@ -102,7 +102,8 @@
 
 - 一般技術筆記先把第一段 intro paragraph 寫好，通常就夠用。
 - 只要需求涉及 SEO、Search Console、OG/Twitter preview、Schema description 或社群分享預覽，就在 H1 下方明確加 `<web-summary>`；不要只依賴 Writerside 從第一段自動推導。
-- 新增要公開發佈的 topic 時，預設補 `<web-summary>`，避免產出的 `og:description`、`twitter:description` 或 Schema `description` 變成空字串。
+- 目前 artifact 驗證過：`<web-summary>` 會產生 `meta name="description"`，但 Writerside 仍可能讓 `og:description`、`twitter:description` 與 Schema `description` 保持空字串。
+- 這個 repo 的 deploy workflow 會把非空 `meta name="description"` 後處理同步到 OG / Twitter / Schema description；新增要公開發佈的 topic 時仍預設先補 `<web-summary>`。
 - 只有在第一段不適合當 preview，或你真的要優化卡片/搜尋摘要時，再加 `link-summary` / `card-summary`。
 - 若使用 `seealso style="cards"` 或未來有 starting page cards，優先考慮 `card-summary`。
 - 如果需求已經變成 section landing page 或首頁卡片編排，改讀 `starting-pages-reference.md`。

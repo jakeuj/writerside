@@ -89,7 +89,7 @@ repo 內既有文章若保留中文檔名，視為歷史內容，不代表新文
 - 開頭預設先給解法、判斷或結論，再補情境；把文章當成寫給「只想先拿答案的人」也看得下去的筆記。
 - 第一段 paragraph 要能直接回答「所以我現在該怎麼做」，不要只寫「這篇要記錄什麼」，也不要把真正的答案藏到後面的 `## 先講結論` 小節。
 - Writerside 預設會把第一段當成摘要來源；如果沒有另外寫 summary element，第一段優先同時兼任「正文開場 + 預覽摘要」。
-- 新增要公開發佈的 topic 時，預設在 H1 下方補 `<web-summary>`，尤其是 SEO、Search Console、OG/Twitter preview 或 Schema description 相關內容；不要只依賴第一段自動推導。
+- 新增要公開發佈的 topic 時，預設在 H1 下方補 `<web-summary>`，尤其是 SEO、Search Console、OG/Twitter preview 或 Schema description 相關內容；`<web-summary>` 先產生 `meta name="description"`，deploy workflow 再同步到 OG / Twitter / Schema description。
 - 如果有 1 到 3 個可以立刻執行的關鍵動作、關鍵指令或關鍵判斷，優先在標題下方直接用 `<tldr>` 或短段落列出。
 - 優先使用問題導向、實作導向的寫法；讓讀者能快速知道「遇到什麼情境、怎麼做、做完怎麼驗證」。
 - 沒有必要時，不要硬塞過多背景理論。

@@ -94,7 +94,7 @@ curl -L https://jakeuj.com/sitemap.xml | grep -o '/writerside/master/' | head
 - `sitemap.xml` 回傳 200
 - `sitemap-index.xml` 回傳 404 是預期狀態，因為目前站台使用單一 sitemap
 - sitemap 不應包含 `/writerside/master/`
-- 首頁與高優先文章的 `og:description` / `twitter:description` 不應是空字串
+- 首頁與高優先文章的 `meta name="description"`、`og:description`、`twitter:description` 與 Schema `description` 不應是空字串
 - `og:image` 應指向 `https://jakeuj.com/images/og-image.png`，且圖片回傳 200
 
 Search Console 應提交 `https://jakeuj.com/sitemap.xml`。只有在 sitemap 超過 50,000 URLs、未壓縮超過 50MB，或刻意拆成多個 sitemap 時，才需要改用 sitemap index。

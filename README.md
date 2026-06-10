@@ -93,7 +93,7 @@ git push --no-verify
 
 - `Writerside/writerside.cfg` 的 instance 維持 `<instance src="hi.tree"/>`，不要重新加上 `web-path="writerside"` 或 `version="master"`。
 - `Writerside/cfg/buildprofiles.xml` 使用 `<generate-sitemap-url-prefix>https://jakeuj.com/</generate-sitemap-url-prefix>`，讓 sitemap `<loc>` 對齊根目錄短網址。
-- 首頁與高優先文章使用 `<web-summary>` 明確產生 SEO / social preview description，避免 `og:description` 或 Schema `description` 為空。
+- 首頁與高優先文章使用 `<web-summary>` 明確產生 `meta name="description"`；deploy workflow 會再把這段同步到 OG / Twitter / Schema description。
 - `og-image` 使用 `https://jakeuj.com/images/og-image.png` 這類 PNG social card，避免社群平台不支援 SVG 預覽。
 - repo root 的 `robots.txt` 由 `.github/workflows/deploy.yml` 複製到 Pages artifact 根目錄。
 - repo root 的 `CNAME` 也由 deploy workflow 複製到 Pages artifact 根目錄，確保 custom domain 設定保留。
