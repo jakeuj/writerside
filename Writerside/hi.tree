@@ -4,6 +4,7 @@
         <toc-element toc-title="Mac">
             <toc-element topic="macOS-WiFi-DNS-設定筆記.md"/>
             <toc-element topic="macos-mdns-ssh-hostname-resolution.md" toc-title="macOS mDNS 與 SSH hostname"/>
+            <toc-element topic="bizhub-c651i-macos-driver-install.md" toc-title="bizhub C651i Mac 安裝"/>
             <toc-element topic="macOS_dotfiles_guide.md"/>
             <toc-element topic="crossover-visual-cpp-redistributable-loop.md" toc-title="CrossOver VC++ Runtime 重複提示"/>
             <toc-element topic="crossover-dlss-metalfx-d3dmetal.md" toc-title="CrossOver 升頻技術比較"/>
