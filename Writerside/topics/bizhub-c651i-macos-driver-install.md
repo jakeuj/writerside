@@ -28,6 +28,7 @@ KONICA MINOLTA 香港產品頁將 bizhub C651i 列在數碼多功能彩色系統
 
 ## 前置條件
 
+- 下載驅動 [C651i macOS driver](https://public.integration.yamayuri.kiku8101.com/publicdownload/download?fileId=D227C181-27CF-4BB2-BBE5-1DF725EA4541)
 - 已知道印表機固定 IP，例如 `<printer-ip>`。
 - macOS 使用者帳號具備管理員權限。
 - 已下載 C651i 對應的 macOS driver DMG。
