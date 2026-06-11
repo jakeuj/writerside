@@ -1,6 +1,6 @@
 ---
 name: writerside
-description: 在目前這個 JetBrains Writerside repo `/Users/jakeuj/WritersideProjects/writerside` 中撰寫或修改會公開發佈到網際網路的技術筆記、建立或更新 `Writerside/topics/*.md`、把 topic 掛進 `Writerside/hi.tree`、選擇 Markdown 或 semantic markup、處理去識別化與敏感資料清理、tabs、procedure、chapter、show-structure、deflist、table、seealso、note、warning、img、video、snippet、include、if 等 Writerside 標記，以及修正 anchor/TOC/checker 問題時使用。也用於維護 Writerside 站台層級設定，例如 GitHub Pages deploy、`writerside.cfg`、`buildprofiles.xml`、sitemap、robots.txt、Search Console、SEO URL 前綴、OG/Schema metadata 與 Algolia。遇到「幫我新增一篇筆記」、「修改既有文章」、「補 topic 到 hi.tree」、「修 Writerside/Markdown 錯誤」、「處理 element id/anchor/TOC 問題」、「把文章改成可公開發佈版本」、「去識別化 Azure 或其他雲端資源資訊」、「修 sitemap / robots / SEO / GitHub Pages 發布路徑」這類需求時優先使用；如果需求來自其他專案並要回寫到固定 Writerside 發布 repo，優先改用全域版 writerside skill。
+description: 在目前這個 JetBrains Writerside repo `/Users/jakeuj/WritersideProjects/writerside` 中撰寫或修改會公開發佈到網際網路的技術筆記、建立或更新 `Writerside/topics/*.md`、把 topic 掛進 `Writerside/hi.tree`、選擇 Markdown 或 semantic markup、處理去識別化與敏感資料清理、tabs、procedure、chapter、show-structure、deflist、table、seealso、note、warning、img、video、snippet、include、if 等 Writerside 標記，以及修正 anchor/TOC/checker、MRK002、XML semantic markup 與 `&` 跳脫問題時使用。也用於維護 Writerside 站台層級設定，例如 GitHub Pages deploy、`writerside.cfg`、`buildprofiles.xml`、sitemap、robots.txt、Search Console、SEO URL 前綴、OG/Schema metadata 與 Algolia。遇到「幫我新增一篇筆記」、「修改既有文章」、「補 topic 到 hi.tree」、「修 Writerside/Markdown 錯誤」、「處理 element id/anchor/TOC/MRK002 問題」、「把文章改成可公開發佈版本」、「去識別化 Azure 或其他雲端資源資訊」、「修 sitemap / robots / SEO / GitHub Pages 發布路徑」這類需求時優先使用；如果需求來自其他專案並要回寫到固定 Writerside 發布 repo，優先改用全域版 writerside skill。
 ---
 
 # 在這個 repo 中處理 Writerside 內容
@@ -199,6 +199,48 @@ example command
 - 在 `<step>`、`<tab>`、`<li>` 這類容器內，如果有多段文字或文字混圖片/程式碼，優先用 `<p>` 包起來，不要留下難解析的 dangling text。
 - 如果 `<tab>` 內已經混到多層 HTML list、提醒框和多段 code block，代表這段內容可能過於脆弱；先嘗試簡化結構，不要為了保留 tabs 而硬撐。
 - 如果只是單純的有序清單，不必硬轉成 XML；但只要內容是在描述「如何完成任務」，優先改用 `<procedure>`。
+
+## Writerside MRK002：XML 語法損壞與 `&` 跳脫
+
+遇到 Writerside Preview / build 顯示：
+
+```text
+MRK002: Source file syntax is corrupted
+"Unescaped & or unterminated character/entity reference": <line>:<column>
+```
+
+通常代表文章裡的 XML semantic markup 有未跳脫字元，最常見是 `<img>`、`<p>`、`<control>`、`<ui-path>`、`hi.tree` 的 `toc-title` 等 XML 內容中出現裸 `&`。
+
+處理原則：
+
+- Markdown 一般段落中的 `&` 通常可以保留。
+- XML tag、XML attribute、`hi.tree` 內的 `&` 必須寫成 `&amp;`。
+- XML attribute 內也要避免未跳脫的 `<`、`>`、`"`。
+- 常見錯誤：
+
+```xml
+<img alt="Drivers & Downloads 頁面" src="example.png"/>
+```
+
+- 正確寫法：
+
+```xml
+<img alt="Drivers &amp; Downloads 頁面" src="example.png"/>
+```
+
+新增或修改 Writerside XML / semantic markup 後，額外掃描裸 `&`：
+
+```bash
+rg -n -P '<[^>]*&(?!amp;|lt;|gt;|quot;|apos;|#[0-9]+;|#x[0-9A-Fa-f]+;)' Writerside/topics/<topic-file>.md
+```
+
+如果修改 `hi.tree`，也要確認 XML well-formed：
+
+```bash
+xmllint --noout Writerside/hi.tree
+```
+
+注意：`markdownlint` 可能不會抓到這類 Writerside XML preview 錯誤，所以單檔 markdownlint 通過後，仍要針對 XML semantic markup 掃描未跳脫字元。
 
 ## 程式碼、anchor 與重用
 
