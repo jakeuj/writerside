@@ -44,6 +44,8 @@ KONICA MINOLTA 香港產品頁將 bizhub C651i 列在數碼多功能彩色系統
 <step>
 <p>下載驅動程式。</p>
 <p>可從本文參考資料中的 KONICA MINOLTA Drivers &amp; Downloads 入口搜尋，也可以使用指定的 C651i macOS driver 下載連結。</p>
+<p>從官方 Drivers &amp; Downloads 頁面找檔案時，搜尋 `bizhub C651i`，或用下拉選單選 <control>Office Colour A3</control> 與 <control>bizhub C651i</control>。進入結果後切到 <control>Driver</control>，語言選 <control>Traditional Chinese</control>，OS 則選目前使用的 macOS 版本，例如 <control>macOS Tahoe 26</control>。</p>
+<img src="bizhub-c651i-drivers-downloads-language-os.png" alt="KONICA MINOLTA Drivers & Downloads 頁面搜尋 bizhub C651i，Driver 語言選 Traditional Chinese，OS 選 macOS Tahoe 26" width="720" border-effect="line"/>
 </step>
 <step>
 <p>打開下載到的 DMG，例如 `IT6PSMACOS_536AMU.dmg`。</p>
