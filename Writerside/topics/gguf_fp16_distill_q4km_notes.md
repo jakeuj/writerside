@@ -1,5 +1,7 @@
 # GGUF、半精度、模型蒸餾與 Q4_K_M 筆記
 
+<web-summary>理解 GGUF、FP16/BF16、Distill 與 Q4_K_M 的差異，判斷本地 LLM 下載時該選半精度、蒸餾模型或量化格式。</web-summary>
+
 ## 1. 總結 {#summary}
 
 **GGUF、半精度、模型蒸餾、量化是不同層次的概念。**

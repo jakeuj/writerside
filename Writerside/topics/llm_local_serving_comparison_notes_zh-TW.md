@@ -1,5 +1,7 @@
 # llama.cpp、Ollama、LM Studio、vLLM
 
+<web-summary>比較 llama.cpp、Ollama、LM Studio 與 vLLM 的定位、模型格式、部署場景與企業內部 LLM serving 選型建議。</web-summary>
+
 整理日期：2026-06-12  
 適用情境：本地 LLM、內網部署、開發者工作站、GPU 推論服務選型
 

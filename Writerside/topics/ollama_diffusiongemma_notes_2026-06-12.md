@@ -1,5 +1,7 @@
 # Ollama DiffusionGemma
 
+<web-summary>判斷 DiffusionGemma 目前是否適合用 Ollama 執行，並比較 vLLM、llama.cpp DiffusionGemma 分支與 GGUF CLI 的可行路線。</web-summary>
+
 日期：2026-06-12  
 結論狀態：依目前公開文件與模型卡整理，後續可能隨 llama.cpp / Ollama runner 更新而改變。
 
