@@ -1,6 +1,6 @@
 ---
 name: writerside
-description: 在任何專案中蒐集技術資訊，整理成會公開發佈到網際網路的 Writerside 技術筆記，並回寫到固定的發佈 repo `/Users/jakeuj/WritersideProjects/writerside` 時使用。支援建立或更新 `Writerside/topics/*.md`、調整 `Writerside/hi.tree`、處理去識別化與敏感資料清理、Markdown 或 semantic markup、anchor/TOC/checker、MRK002、XML semantic markup 與 `&` 跳脫，以及維護 Writerside 站台層級設定如 GitHub Pages deploy、`writerside.cfg`、`buildprofiles.xml`、sitemap、robots.txt、Search Console、SEO URL 前綴、OG/Schema metadata 與 Algolia；在使用者要求發布時可執行 commit / push。遇到「幫我把目前專案整理成筆記」、「從別的 repo 彙整資訊到 Writerside」、「修改既有文章」、「補 topic 到 hi.tree」、「修 Writerside/Markdown/MRK002 錯誤」、「把文章改成可公開發佈版本」、「去識別化 Azure 或其他雲端資源資訊」、「修 sitemap / robots / SEO / GitHub Pages 發布路徑」、「發布 Writerside 筆記」這類需求時優先使用。
+description: 在任何專案中蒐集技術資訊，整理成會公開發佈到網際網路的 Writerside 技術筆記，並回寫到固定的發佈 repo `/Users/jakeuj/WritersideProjects/writerside` 時使用。支援建立或更新 `Writerside/topics/*.md`、調整 `Writerside/hi.tree`、補 web-summary / SEO description、處理去識別化與敏感資料清理、Markdown 或 semantic markup、anchor/TOC/checker、MRK002、XML semantic markup 與 `&` 跳脫，以及維護 Writerside 站台層級設定如 GitHub Pages deploy、`writerside.cfg`、`buildprofiles.xml`、sitemap、robots.txt、Search Console、SEO URL 前綴、OG/Twitter/Schema metadata 與 Algolia；在使用者要求發布時可執行 commit / push。遇到「幫我把目前專案整理成筆記」、「從別的 repo 彙整資訊到 Writerside」、「修改既有文章」、「補 topic 到 hi.tree」、「修 Writerside/Markdown/MRK002 錯誤」、「把文章改成可公開發佈版本」、「補 web-summary / meta description」、「依 Search Console 改善 CTR」、「去識別化 Azure 或其他雲端資源資訊」、「修 sitemap / robots / SEO / GitHub Pages 發布路徑」、「發布 Writerside 筆記」這類需求時優先使用。
 ---
 
 # 在任何專案中回寫 Writerside 發布 repo
@@ -88,8 +88,10 @@ repo 內既有文章若保留中文檔名，視為歷史內容，不代表新文
 - 先寫清楚 H1 標題，標題可以比檔名更自然、更像人會看的文章名稱。
 - 開頭預設先給解法、判斷或結論，再補情境；把文章當成寫給「只想先拿答案的人」也看得下去的筆記。
 - 第一段 paragraph 要能直接回答「所以我現在該怎麼做」，不要只寫「這篇要記錄什麼」，也不要把真正的答案藏到後面的 `## 先講結論` 小節。
-- Writerside 預設會把第一段當成摘要來源；如果沒有另外寫 summary element，第一段優先同時兼任「正文開場 + 預覽摘要」。
-- 新增要公開發佈的 topic 時，預設在 H1 下方補 `<web-summary>`，尤其是 SEO、Search Console、OG/Twitter preview 或 Schema description 相關內容；`<web-summary>` 先產生 `meta name="description"`，deploy workflow 再同步到 OG / Twitter / Schema description。
+- 第一段仍要寫得像摘要，但公開 topic 不要只依賴 Writerside 自動推導；預設在 H1 下方明確補 `<web-summary>`。
+- 新增公開 topic、修改既有高曝光頁、調整 H1/title、處理 SEO、Search Console、OG/Twitter preview 或 Schema description 時，都要檢查 `<web-summary>` 是否存在且適合搜尋結果。
+- `<web-summary>` 放在 H1 下一個區塊，內容用純文字 1 句說清「主題 + 可得到的解法/判斷」，避免寫「本文記錄...」這類空泛句；若含 `<`、`>`、`&` 要 XML escape，例如 `&lt;example&gt;`。
+- `web-summary` 先產生 `meta name="description"`；這個 repo 的 deploy workflow 會再把非空 description 同步到 OG / Twitter / Schema description。
 - 如果有 1 到 3 個可以立刻執行的關鍵動作、關鍵指令或關鍵判斷，優先在標題下方直接用 `<tldr>` 或短段落列出。
 - 優先使用問題導向、實作導向的寫法；讓讀者能快速知道「遇到什麼情境、怎麼做、做完怎麼驗證」。
 - 沒有必要時，不要硬塞過多背景理論。
@@ -99,6 +101,8 @@ repo 內既有文章若保留中文檔名，視為歷史內容，不代表新文
 
 ````markdown
 # 標題
+
+<web-summary>用 1 句寫給搜尋結果與分享預覽看的摘要，直接說明情境與讀者能得到的解法。</web-summary>
 
 先用 1 到 3 句直接給答案、最短解法或判斷。
 
