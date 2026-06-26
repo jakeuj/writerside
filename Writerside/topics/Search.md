@@ -1,6 +1,8 @@
 # Search
 
-Writeside 本身沒有搜尋功能，但可以利用 Algolia search 來做搜尋。
+<web-summary>設定 Writerside 發布站台使用 Algolia search，包含 buildprofiles.xml、GitHub Actions 與 product/version facet 對齊方式。</web-summary>
+
+Writerside 發布後可以利用 Algolia search 做站內搜尋。重點是 Algolia index records 裡的 `product` 與 `version` 必須和線上 `config.json` 產出的 facet filters 一致，否則資料有進 index，前端仍會搜尋不到。
 
 ## Algolia search
 
@@ -30,7 +32,7 @@ Writeside 本身沒有搜尋功能，但可以利用 Algolia search 來做搜尋
 
 ![ApiKeys.png](ApiKeys.png){style="block"}
 
-1. 然後找到 Application ID, Search API Key, Admin API Key，這些資訊會用在 Writeside 的設定。
+    1. 然後找到 Application ID, Search API Key, Admin API Key，這些資訊會用在 Writerside 的設定。
 
 ![ApiKey.png](ApiKey.png){style="block"}
 
@@ -61,22 +63,32 @@ ALGOLIA_ARTIFACT: 'algolia-indexes-HI.zip'
 ALGOLIA_APP_NAME: 'YourAppId'
 ALGOLIA_INDEX_NAME: 'YourIndexName'
 ALGOLIA_KEY: '${{ secrets.ALGOLIA_KEY }}'
-CONFIG_JSON_PRODUCT: 'writerside'
-CONFIG_JSON_VERSION: 'master'
+CONFIG_JSON_PRODUCT: 'hi'
+CONFIG_JSON_VERSION: ''
 ```
 
 ### 注意事項
 
-- CONFIG_JSON_PRODUCT 需要與 [v.list](https://github.com/jakeuj/writerside/blob/master/Writerside/v.list#L4)
-的 `vars.product` 設定一致。
+- `CONFIG_JSON_PRODUCT` 需要和線上 `config.json` 的 `productId` 一致。這個 repo 目前是 help instance ID `hi`，所以應設定為：
 
-- CONFIG_JSON_VERSION 需要與 [writerside.cfg](https://github.com/jakeuj/writerside/blob/master/Writerside/writerside.cfg#L9)
-的 `instance.version` 設定一致。
+```yaml
+CONFIG_JSON_PRODUCT: 'hi'
+```
 
-否則會導致 Algolia search Filter `product`與 `version` 條件不符而搜尋不到。
+- `CONFIG_JSON_VERSION` 需要和線上 `config.json` 的 `productVersion` 一致。這個 repo 目前 `productVersion` 是空字串，所以應設定為：
+
+```yaml
+CONFIG_JSON_VERSION: ''
+```
+
+否則會導致 Algolia search facet filters 的 `product` 與 `version` 條件不符：index 裡明明有資料，前端仍會顯示沒有搜尋結果。可以用下面方式確認線上前端實際使用的值：
+
+```bash
+curl -L https://jakeuj.com/config.json
+```
 
 ## 結果
 
-完成後，就可以在 Writeside 網站右上角點放大鏡來使用搜尋功能了。
+完成後，就可以在 Writerside 網站右上角點放大鏡來使用搜尋功能了。
 
 ![search-results.png](search-results.png){style="block"}

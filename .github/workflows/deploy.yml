@@ -31,8 +31,10 @@ env:
   ALGOLIA_KEY: '${{ secrets.ALGOLIA_KEY }}'
   # Keep the docs builder pinned, but follow JetBrains' current recommendation for the publisher image.
   ALGOLIA_PUBLISHER_IMAGE: 'registry.jetbrains.team/p/writerside/builder/algolia-publisher:latest'
-  CONFIG_JSON_PRODUCT: 'writerside'
-  CONFIG_JSON_VERSION: 'master'
+  # Must match the facet filters emitted by the generated config.json:
+  # productId is the help instance id ("hi"), productVersion is currently empty.
+  CONFIG_JSON_PRODUCT: 'hi'
+  CONFIG_JSON_VERSION: ''
 
 jobs:
   build:

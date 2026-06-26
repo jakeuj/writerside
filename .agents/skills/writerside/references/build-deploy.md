@@ -125,8 +125,8 @@
 - `ALGOLIA_ARTIFACT: algolia-indexes-HI.zip`
 - `ALGOLIA_APP_NAME: 8VA5LCDZGD`
 - `ALGOLIA_INDEX_NAME: Default`
-- `CONFIG_JSON_PRODUCT: writerside`
-- `CONFIG_JSON_VERSION: master`
+- `CONFIG_JSON_PRODUCT: hi`
+- `CONFIG_JSON_VERSION: ""`
 
 這表示目前 repo 已經不是只有 build，而是完整跑：
 
@@ -143,8 +143,10 @@
 我從設定推論：
 
 - 這個 repo 的公開文章 URL 採用根目錄短網址，例如 `https://jakeuj.com/abp.html`
-- 不要把 `CONFIG_JSON_PRODUCT` / `CONFIG_JSON_VERSION` 誤解成公開 URL 前綴；公開 URL 仍以建置輸出、`writerside.cfg`、`web-root` 和 sitemap 設定為準
+- 不要把 `CONFIG_JSON_PRODUCT` / `CONFIG_JSON_VERSION` 誤解成公開 URL 前綴；它們是 Algolia facet 值，必須和線上 `config.json` 的 `productId` / `productVersion` 一致
 - 這個 repo 的部署模式不完全等於官方文件中的「repo 名稱直接當圖片 web-path」範例，因為它有 custom domain 與既定根目錄 URL 策略
+
+目前線上 `config.json` 會讓 Writerside 前端送出 `facetFilters: ["product:hi", "version:"]`，所以 Algolia publisher 也必須用 `--product hi --version ""`。如果誤用 `writerside` / `master`，不加 filter 直接查 Algolia API 會有資料，但站台搜尋 UI 會被 facet filter 篩成 0 筆。
 
 所以之後遇到圖片、sitemap 或 OG/Schema URL 在 Pages 上失效時，先比對實際網站路徑，不要機械式套官方範例。
 
