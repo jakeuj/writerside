@@ -1,6 +1,6 @@
 ---
 name: writerside
-description: 在任何專案中蒐集技術資訊，整理成會公開發佈到網際網路的 Writerside 技術筆記，並回寫到固定的發佈 repo `/Users/jakeuj/WritersideProjects/writerside` 時使用。支援建立或更新 `Writerside/topics/*.md`、調整 `Writerside/hi.tree`、補 web-summary / SEO description、處理去識別化與敏感資料清理、Markdown 或 semantic markup、anchor/TOC/checker、MRK002、XML semantic markup 與 `&` 跳脫，以及維護 Writerside 站台層級設定如 GitHub Pages deploy、`writerside.cfg`、`buildprofiles.xml`、sitemap、robots.txt、Search Console、SEO URL 前綴、OG/Twitter/Schema metadata 與 Algolia；在使用者要求發布時可執行 commit / push。遇到「幫我把目前專案整理成筆記」、「從別的 repo 彙整資訊到 Writerside」、「修改既有文章」、「補 topic 到 hi.tree」、「修 Writerside/Markdown/MRK002 錯誤」、「把文章改成可公開發佈版本」、「補 web-summary / meta description」、「依 Search Console 改善 CTR」、「去識別化 Azure 或其他雲端資源資訊」、「修 sitemap / robots / SEO / GitHub Pages 發布路徑」、「發布 Writerside 筆記」這類需求時優先使用。
+description: 在任何專案中蒐集技術資訊，整理成會公開發佈到網際網路的 Writerside 技術筆記，並回寫到固定的發佈 repo `/Users/jakeuj/WritersideProjects/writerside` 時使用。支援建立或更新 `Writerside/topics/*.md`、調整 `Writerside/hi.tree`、補 web-summary / SEO description、處理去識別化與敏感資料清理、Markdown 或 semantic markup、anchor/TOC/checker、MRK002、XML semantic markup 與 `&` 跳脫，以及維護 Writerside 站台層級設定如 GitHub Pages deploy、`writerside.cfg`、`buildprofiles.xml`、sitemap、robots.txt、Search Console、SEO URL 前綴、OG/Twitter/Schema metadata、站內搜尋與 Algolia；在使用者要求發布時可執行 commit / push。遇到「幫我把目前專案整理成筆記」、「從別的 repo 彙整資訊到 Writerside」、「修改既有文章」、「補 topic 到 hi.tree」、「修 Writerside/Markdown/MRK002 錯誤」、「把文章改成可公開發佈版本」、「補 web-summary / meta description」、「依 Search Console 改善 CTR」、「去識別化 Azure 或其他雲端資源資訊」、「修 sitemap / robots / SEO / GitHub Pages 發布路徑」、「搜尋沒有結果」、「Algolia index / product / version / facetFilters 不一致」、「發布 Writerside 筆記」這類需求時優先使用。
 ---
 
 # 在任何專案中回寫 Writerside 發布 repo
@@ -179,6 +179,7 @@ example command
 - 若問題偏向 Writerside 專案結構、help module root、`writerside.cfg`、新建專案、把文件加進既有開發專案或 project templates，直接讀 `references/projects-reference.md`。
 - 若問題偏向 help module、module root、module structure、`topics/` / `images/` / `*.tree` / `cfg/` 目錄分工、多 module 專案或跨 module `origin` 重用，直接讀 `references/help-modules-reference.md`。
 - 若問題偏向 Writerside build、GitHub Actions、GitHub Pages、deployment workflow、`writerside-github-action`、checker action、Pages artifact、root metadata 檔案（`robots.txt`、`CNAME`）或 Algolia 發布，直接讀 `references/build-deploy.md`。
+- 若問題偏向站內搜尋查不到、Algolia index 有資料但 UI 無結果、`CONFIG_JSON_PRODUCT`、`CONFIG_JSON_VERSION`、`productId`、`productVersion` 或 `facetFilters` 不一致，直接讀 `references/build-deploy.md`，再用線上 `config.json` 和實際 Algolia request 驗證。
 - 若問題偏向 `buildprofiles.xml`、header/footer、Algolia、shortcut switcher、OG metadata、sitemap、`sitemap-index.xml`、`generate-sitemap-url-prefix`、Search Console、SEO URL 前綴、`ignore-problems` 或 `cfg/` 建置設定，直接讀 `references/buildprofiles-reference.md`。
 - 若問題偏向 `llms.txt`、`<llms-txt>`、single-file vs per-topic LLM export、`_llms/` 產物目錄或把文件輸出給 LLM agent 使用，直接讀 `references/llms-reference.md`。
 - 若問題偏向 `v.list`、`<var>`、`%product%` 這類變數插值、built-in variables、`ignore-vars`、`smart-ignore-vars`、snippet 變數傳值或 instance-conditioned variables，直接讀 `references/variables-reference.md`。
@@ -333,6 +334,7 @@ git push origin HEAD
 - `references/projects-reference.md`: 判斷 Writerside project / help module root、`writerside.cfg`、instances、project templates、existing project 加入文件與專案結構時讀。
 - `references/help-modules-reference.md`: 判斷 help module、module root、module structure、`topics/`、`images/`、`*.tree`、`cfg/`、optional files、多 module 專案與跨 module `origin` 重用時讀。
 - `references/build-deploy.md`: 判斷 Writerside build、GitHub Actions、GitHub Pages、deploy workflow、checker action、Pages artifact、root metadata 檔案、Algolia 發布與 CI deploy 問題時讀。
+- `references/build-deploy.md`: 搜尋 UI 沒結果但 Algolia API 有資料、或需要核對 `config.json`、`productId`、`productVersion`、`CONFIG_JSON_PRODUCT`、`CONFIG_JSON_VERSION`、`facetFilters` 時讀。
 - `references/buildprofiles-reference.md`: 判斷 `buildprofiles.xml`、`cfg/` 預設位置、global vs instance-specific build settings、header/footer、Algolia、social/footer、shortcut layouts、OG/sitemap、`sitemap-index.xml`、Search Console、SEO URL 前綴與 `ignore-problems` 時讀。
 - `references/llms-reference.md`: 判斷 `llms.txt`、`<llms-txt>`、single-file / per-topic LLM 輸出、`_llms/` 產物目錄與 llms export 採用方式時讀。
 - `references/variables-reference.md`: 判斷 `v.list`、`<var>`、`%var%` 插值、built-in variables、`ignore-vars`、`smart-ignore-vars`、snippet 變數傳值與 instance-conditioned variables 時讀。

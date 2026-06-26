@@ -1,4 +1,4 @@
 interface:
   display_name: "Writerside 筆記助手"
-  short_description: "從任何專案整理到 Writerside，處理去識別化、web-summary/SEO、TOC、commit/push"
-  default_prompt: "使用 $writerside 從目前專案整理資訊，回寫到 /Users/jakeuj/WritersideProjects/writerside 的公開 Writerside 筆記，包含去識別化、web-summary SEO 摘要、semantic markup、topic、hi.tree、必要檢查，以及在需要時 commit / push。"
+  short_description: "從任何專案整理到 Writerside，維護 TOC、SEO 與搜尋"
+  default_prompt: "使用 $writerside 從目前專案整理資訊，回寫到 /Users/jakeuj/WritersideProjects/writerside 的公開 Writerside 筆記，並處理 web-summary、TOC、站內搜尋、去識別化與檢查。"
