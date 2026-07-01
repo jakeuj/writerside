@@ -89,8 +89,51 @@ model_catalog_json = "/Users/user/.codex/model-catalogs/omlx.json"
 
 模型支援文字與圖片輸入、並行工具呼叫，並具備 90% 的有效上下文視窗。截斷策略採用 token 模式，在 240K tokens 時觸發。
 
-auto_compact_token_limit 要小於 truncation_policy.limit。正確關係是：
-`auto_compact_token_limit < truncation_policy.limit < context_window × effective_context_window_percent`
+### auto_compact_token_limit 與 truncation_policy.limit 的關係
+
+在模型目錄（`omlx.json`）中，`auto_compact_token_limit` 與 `truncation_policy.limit` 是兩個互相配合的設定，用以控制上下文視窗的管理策略：
+
+| 設定 | 數值 | 角色 |
+|------|------|------|
+| `auto_compact_token_limit` | 220,000 | 自動壓縮（compaction）觸發閾值 |
+| `truncation_policy.limit` | 240,000 | 硬截斷（truncation）極限值 |
+
+當對話過程中 token 數持續上升時，系統會依序觸發以下兩個機制：
+
+1. **自動壓縮（compaction）**：當 token 數達到 `auto_compact_token_limit`（例如 220K）時，系統會將舊的對話訊息「壓縮」成較短的摘要，保留其內容脈絡但不佔用完整空間。
+2. **硬截斷（truncation）**：當 token 數超過 `truncation_policy.limit`（例如 240K）時，系統會強制移除最舊的訊息，不會再做摘要。
+
+正確的關係式為：
+
+```
+auto_compact_token_limit < truncation_policy.limit < max_context_window
+```
+
+這樣設計的**三大原因**如下：
+
+#### 1. 預先壓縮（Preemptive Compaction）
+
+當 token 數達到 `auto_compact_token_limit` 時，系統會主動壓縮舊訊息。這與等到上下文滿掉才被迫切掉的做法不同——壓縮後的訊息會變成簡短版本保留在上下文裡，而非完全消失。
+
+#### 2. 避免硬截斷（Prevents Hard Truncation）
+
+如果 `auto_compact_token_limit` 等於或大於 `truncation_policy.limit`，系統可能還沒觸發自動壓縮就達到了極限，必須強制截斷。硬截斷會直接切掉舊訊息，可能遺失重要的對話脈絡。
+
+#### 3. 緩衝區設計（Buffer Zone）
+
+兩個數值之間形成一個緩衝區（在上面的例子中是 220K ~ 240K 之間約 20K 的差距）。在緩衝區內，系統有時間執行壓縮動作，而不是一抵達極限就立刻切掉訊息。
+
+```
+token 數上升
+  │
+  ├─ 220K (auto_compact_token_limit) ──→ 開始壓縮舊訊息成摘要
+  │
+  ├─ 240K (truncation_policy.limit) ──→ 若壓縮後仍超過，開始硬截斷
+  │
+  └─ 超過 240K ──→ 強制移除最舊的訊息
+```
+
+此設定確保系統能「主動出擊」管理上下文，而不只是被動地等待訊息被截斷。
 
 ## experimental_bearer_token 取代 env_key
 
