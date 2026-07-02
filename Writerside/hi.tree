@@ -17,6 +17,7 @@
             <toc-element href="https://www.dotblogs.com.tw/jakeuj/" toc-title="原筆記(點部落)" />
         </toc-element>
         <toc-element toc-title="AI">
+            <toc-element topic="oMLX-Claude-Code-Desktop.md"/>
             <toc-element topic="auggie-mcp-guide.md"/>
             <toc-element topic="codex-ide-azure-mcp-server.md" toc-title="Codex IDE Azure MCP"/>
             <toc-element topic="codex-app-omlx-qwen3-6-setup.md" toc-title="Codex App oMLX Qwen3.6 設定"/>
