@@ -396,6 +396,30 @@ CodexPlugins/
 | `authentication` | `ON_USE` | 使用時才需要驗證 |
 | `products` | `["CODEX"]` | 限制只適用於特定產品 |
 
+### 從 GitHub repo 安裝 marketplace plugin
+
+當 plugin 與 `.agents/plugins/marketplace.json` 都已經推到 GitHub repo 後，其他電腦不需要手動 clone 整個 repo。依照官方 [Add a marketplace from the CLI](https://developers.openai.com/codex/plugins/build#add-a-marketplace-from-the-cli) 說明，可以先把 GitHub repo 加成 Codex marketplace，再從該 marketplace 安裝指定 plugin。
+
+以 `jakeuj/CodexPlugins` 的 `evennia` plugin 為例：
+
+```bash
+codex plugin marketplace add jakeuj/CodexPlugins --ref main
+codex plugin add evennia --marketplace personal
+```
+
+這裡的 `personal` 是 `marketplace.json` 最上層的 `name`，`evennia` 則是 `plugins[]` 裡的 plugin `name`。如果 marketplace 名稱或 plugin 名稱不同，安裝時要替換成實際值。
+
+安裝後可以用以下指令查看、更新或移除已設定的 marketplace：
+
+```bash
+codex plugin marketplace list
+codex plugin marketplace upgrade
+codex plugin marketplace upgrade marketplace-name
+codex plugin marketplace remove marketplace-name
+```
+
+其中 `upgrade` 會刷新已設定的 Git marketplace snapshot；只傳 `marketplace-name` 時會更新指定 marketplace。
+
 ## 建立 Plugin 的實作步驟
 
 ### 方法一：使用 plugin-creator skill
