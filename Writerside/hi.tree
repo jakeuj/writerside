@@ -21,6 +21,7 @@
             <toc-element topic="codex-ide-azure-mcp-server.md" toc-title="Codex IDE Azure MCP"/>
             <toc-element topic="codex-app-omlx-qwen3-6-setup.md" toc-title="Codex App oMLX Qwen3.6 設定"/>
             <toc-element topic="codex-skill-vs-plugin.md" toc-title="Codex Skill vs Plugin"/>
+            <toc-element topic="codex-plugin-build-guide.md"/>
             <toc-element topic="auggie-cli-rules.md"/>
             <toc-element topic="auggie-cli-skills.md"/>
             <toc-element topic="auggie-user-rules-example.md"/>

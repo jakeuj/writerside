@@ -247,6 +247,16 @@ xmllint --noout Writerside/hi.tree
 
 注意：`markdownlint` 可能不會抓到這類 Writerside XML preview 錯誤，所以單檔 markdownlint 通過後，仍要針對 XML semantic markup 掃描未跳脫字元。
 
+
+## 內部 Topic 交叉參考
+
+- 跨 topic 引用時，格式為 `[標題](topic-filename.md)`，**必須帶 .md 副檔名**。
+- 如果省略 .md 副檔名，Writerside checker 會報 `REF002: Referenced topic doesn't exist`。
+- 不要加 `./` 或 `../` 等路徑前綴，只用純檔名。
+- 正確範例：`[Codex Skill vs Plugin](codex-skill-vs-plugin.md)`。
+- 錯誤範例：`[Codex Skill vs Plugin](codex-skill-vs-plugin)`（缺 .md）或 `[Codex Skill vs Plugin](./codex-skill-vs-plugin.md)`（不要 ./ 前綴）。
+- 如果引用不存在、或檔名拼錯，checker 一樣會報 REF002；先確認目標 topic 確實存在於 `Writerside/topics/` 且已掛入 `hi.tree`。
+
 ## 程式碼、anchor 與重用
 
 - CLI 指令或可執行命令，優先標清楚語言；需要提示字元時可用 `<code-block prompt="$">`，提示字元不會被複製。
