@@ -6,7 +6,7 @@
 
 ## 前置背景
 
-這篇筆記假設你已經了解 skill 與 plugin 的基本差異（可參考 [Codex Skill vs Plugin](./codex-skill-vs-plugin)），重點放在「如何動手做一個 plugin」。
+這篇筆記假設你已經了解 skill 與 plugin 的基本差異（可參考 [Codex Skill vs Plugin](codex-skill-vs-plugin)），重點放在「如何動手做一個 plugin」。
 
 ## Plugin 在 Codex 中的定位
 
@@ -481,4 +481,4 @@ my-codex-plugins/
 - [Codex Plugins Build Guide (官方)](https://developers.openai.com/codex/plugins/build)
 - [openai/plugins 範例庫](https://github.com/openai/plugins)
 - [jakeuj/CodexPlugins](https://github.com/jakeuj/CodexPlugins)
-- [Codex Skill vs Plugin](./codex-skill-vs-plugin)
+- [Codex Skill vs Plugin](codex-skill-vs-plugin)
