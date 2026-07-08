@@ -18,6 +18,7 @@
         </toc-element>
         <toc-element toc-title="AI">
             <toc-element topic="omlx-claude-code-desktop-setup.md" toc-title="oMLX 設定 Claude Code Desktop"/>
+            <toc-element topic="omlx-ornith-codex-settings.md" toc-title="oMLX Ornith Codex 設定"/>
             <toc-element topic="auggie-mcp-guide.md"/>
             <toc-element topic="codex-ide-azure-mcp-server.md" toc-title="Codex IDE Azure MCP"/>
             <toc-element topic="codex-app-omlx-qwen3-6-setup.md" toc-title="Codex App oMLX Qwen3.6 設定"/>
