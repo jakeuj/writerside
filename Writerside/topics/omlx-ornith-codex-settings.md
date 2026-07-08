@@ -211,6 +211,8 @@ Codex catalog 應該把 Ornith 視為「模型會 reasoning，但不支援 Codex
 
 ## CC Switch Provider 設定
 
+![cc_switch.png](cc_switch.png)
+
 如果透過 CC Switch 管 Codex provider，oMLX provider 建議維持 Responses 原生格式：
 
 ```toml
@@ -245,6 +247,8 @@ CC Switch 的模型映射建議：
 如果 Body override 只是為了測試，例如固定 `{ "temperature": 0.2 }`，正式使用時建議清空，讓 Codex 或 oMLX profile 管理 sampling。
 
 ## CC Switch 遠端壓縮相容性問題
+
+![cc_comp.png](cc_comp.png)
 
 透過 CC Switch 使用 oMLX 時，**啟用遠端壓縮（Remote Compaction）會讓 Codex 呼叫 oMLX 出錯**。
 
