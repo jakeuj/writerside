@@ -1,6 +1,6 @@
 # oMLX Ornith-1.0-35B-8bit 給 Codex 使用的設定紀錄
 
-<web-summary>整理在 MacBook Pro M4 Max 128 GB 上用 oMLX 執行 Ornith-1.0-35B-8bit 給 Codex 使用時，context window、thinking、reasoning parser、Responses API 與 model catalog 的建議設定。</web-summary>
+<web-summary>整理在 MacBook Pro M4 Max 128 GB 上用 oMLX 執行 Ornith-1.0-35B-8bit 給 Codex 使用時，context window、thinking、reasoning parser、Responses API、model catalog 與 CC Switch 遠端壓縮的已知問題與建議設定。</web-summary>
 
 在 MacBook Pro（M4 Max、128 GB unified memory）上，`mlx-community/Ornith-1.0-35B-8bit` 適合用 oMLX 以 Responses API 提供給 Codex。建議保留模型的 262144 context window、開啟 thinking 的二元開關、使用 `qwen3` reasoning parser，但不要在 Codex catalog 宣告 `low` / `medium` / `high` 這類 reasoning effort level。
 
@@ -8,6 +8,7 @@
     <p>Ornith 是模型家族與模型權重；`Qwen3_5MoeForConditionalGeneration` 是這個 35B MoE 版本使用的 Transformers 架構類別。</p>
     <p>oMLX profile 建議設定 `enable_thinking=true`、`chat_template_kwargs.enable_thinking=true`、`reasoning_parser=qwen3`，但 `thinking_budget_enabled=false`。</p>
     <p>實測 `/v1/responses` 會把 reasoning 分離成 `type="reasoning"`，最終 `message.content` 沒有混入 `&lt;think&gt;`。</p>
+    <p>CC Switch 啟用遠端壓縮（Remote Compaction）會讓 Codex 呼叫 oMLX 出錯，關閉即可恢復正常。</p>
 </tldr>
 
 ## 適用環境
@@ -64,7 +65,7 @@ Qwen3_5MoeForConditionalGeneration
   "processor_class": "Qwen3VLProcessor",
   "tokenizer_class": "Qwen2Tokenizer",
   "image_token": "<|image_pad|>",
-  "video_token": "<|video_pad|>"
+  "video_token": "<|image_pad|>"
 }
 ```
 
@@ -84,7 +85,13 @@ MLX 8-bit 版本的 Hugging Face model card 也標示這是給 Apple Silicon 使
 
 ## oMLX profile 建議設定
 
+![omlx_profile.png](omlx_profile.png)
+
+溫度等參數我是參考 preset profiles 內的 qwen3-r-general / qwen3-r-coding
+
 目前比較穩的 coding profile 如下：
+
+![omlx_basic.png](omlx_basic.png)
 
 ```json
 {
@@ -106,6 +113,13 @@ MLX 8-bit 版本的 Hugging Face model card 也標示這是給 Apple Silicon 使
   "max_tool_result_tokens": 0
 }
 ```
+
+然後進階設定裡面
+1. 把 Enable Thinking 打開，
+2. 把 Reasoning Parser 選 `qwen3`。這樣就能讓模型在回答前先做 reasoning，但不會把 `<think>` 混進最終回答。
+3. Chat Template KWARGS 裡面新增 ENABLE_THINKING = true，這樣 oMLX 會把這個參數傳給模型的 chat template。
+
+![omlx_adv.png](omlx_adv.png)
 
 重點不是把所有參數都調滿，而是把 reasoning 的責任分清楚：
 
@@ -140,7 +154,7 @@ message.content: 6 顆
 output[0].type: reasoning
 output[1].type: message
 usage.output_tokens_details.reasoning_tokens: 有值
-<think> / </think>: 沒有出現在任何文字欄位
+</think>: 沒有出現在任何文字欄位
 ```
 
 Chat Completions 對照測試也正常：
@@ -148,7 +162,7 @@ Chat Completions 對照測試也正常：
 ```text
 choices[0].message.content: 6
 choices[0].message.reasoning_content: 有值
-<think> / </think>: 沒有混進 content
+</think>: 沒有混進 content
 ```
 
 所以目前建議：
@@ -195,7 +209,7 @@ Codex catalog 應該把 Ornith 視為「模型會 reasoning，但不支援 Codex
 
 模型會產生 reasoning，和 API client 能不能用 `reasoning.effort` 控制模型，是兩件不同的事。
 
-## CC Switch 設定方向
+## CC Switch Provider 設定
 
 如果透過 CC Switch 管 Codex provider，oMLX provider 建議維持 Responses 原生格式：
 
@@ -229,6 +243,18 @@ CC Switch 的模型映射建議：
 | 上游格式 | `Responses（原生）` |
 
 如果 Body override 只是為了測試，例如固定 `{ "temperature": 0.2 }`，正式使用時建議清空，讓 Codex 或 oMLX profile 管理 sampling。
+
+## CC Switch 遠端壓縮相容性問題
+
+透過 CC Switch 使用 oMLX 時，**啟用遠端壓縮（Remote Compaction）會讓 Codex 呼叫 oMLX 出錯**。
+
+解法很簡單：在 CC Switch 的壓縮設定中，把「本地壓縮 / Remote Compaction / Local compression」關閉即可。
+
+| 設定 | 建議值 |
+|------|--------|
+| 本地壓縮 / Remote Compaction / Local compression | **關閉** |
+
+這是已知相容性問題，與 oMLX 的 Responses API 實作有關。關閉遠端壓縮後，Codex 與 oMLX 之間的請求可以正常運作。
 
 ## Direct Codex 設定方向
 
@@ -269,7 +295,7 @@ curl -sS http://127.0.0.1:8000/v1/responses \
     "max_output_tokens": 1024
   }' \
   | jq -r 'paths(strings) as $p
-    | select(getpath($p) | test("<think>|</think>"))
+    | select(getpath($p) | test(""))
     | "\($p | join(".")): \(getpath($p))"'
 ```
 
@@ -313,6 +339,7 @@ OK
 | reasoning parser | `qwen3` |
 | Codex reasoning levels | 不宣告 |
 | Codex search tool | 不宣告，除非有 proxy 支援 |
+| CC Switch 遠端壓縮 | **關閉** |
 | active profile | coding 用 `temperature=0.6`，general 可用 `temperature=1` |
 
 這樣設定的目標是讓模型保留 reasoning 能力，但不要讓 Codex 或 CC Switch 以為它支援 OpenAI-style reasoning effort level。外層 API 用 Responses，內層仍由 oMLX 套 chat template；兩者不衝突。
