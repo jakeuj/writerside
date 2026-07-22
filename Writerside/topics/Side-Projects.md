@@ -1,305 +1,163 @@
 # Side Projects
 
-<p>
-<img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" alt="Pull Shark" width="48"/>
-<img src="https://github.githubassets.com/images/modules/profile/achievements/starstruck-default.png" alt="Starstruck" width="48"/>
-<img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" alt="Quickdraw" width="48"/>
-<img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" alt="YOLO" width="48"/>
-</p>
+<web-summary>精選 Jakeuj 近期維護的 GitHub side projects，涵蓋 Guild Wars 2、Codex plugins、遊戲攻略、MUD 保存、瀏覽器擴充與 .NET 工具。</web-summary>
 
-[查看我的 GitHub 成就](https://github.com/jakeuj?tab=achievements)
+這裡精選我近期維護或具有代表性的 side projects，包含自有作品、社群在地化與可驗證的開源貢獻。資料更新日期為 2026-07-22；完整清單請見 [GitHub repositories](https://github.com/jakeuj?tab=repositories)。
 
-這一頁整理我在 GitHub 上的 side projects，涵蓋 .NET、前端、AI、DevOps 等主題。完整清單請見：
+> 精選名單以目前仍在維護、具備可使用成果，或能清楚說明貢獻內容的專案為主，不是所有公開 repository 的自動鏡像。
 
-- GitHub：[jakeuj?tab=repositories](https://github.com/jakeuj?tab=repositories)
+## 近期主力專案
 
-> 備註：以下為精選與常更新的專案，Fork 專案也會標註來源以利追蹤。
+### GW2-Nexus-Upgrade-Value
 
-## 精選專案
+Guild Wars 2 Nexus addon，透過官方 API 掃描帳號內裝備的符文與法印，比較 Trading Post 即時價格，協助判斷是否值得使用黑獅拆解工具。
 
-### edge-extension
+- 連結：[GitHub](https://github.com/jakeuj/GW2-Nexus-Upgrade-Value)｜[專案網站](https://gw2-value.jakeuj.com/)｜[最新版本](https://github.com/jakeuj/GW2-Nexus-Upgrade-Value/releases/latest)
+- 語言與技術：`C++` `GW2 Nexus` `GW2 API` `GitHub Actions`
 
-- 語言：JavaScript
-- 連結：[GitHub](https://github.com/jakeuj/edge-extension) ｜ [產品頁面](https://edge.jakeuj.com/)
-- 說明：瀏覽器擴充元件實驗與功能嘗試。
+![GW2-Nexus-Upgrade-Value last commit](https://img.shields.io/github/last-commit/jakeuj/GW2-Nexus-Upgrade-Value)
 
-![Stars](https://img.shields.io/github/stars/jakeuj/edge-extension?style=social) ![Top language](https://img.shields.io/github/languages/top/jakeuj/edge-extension) ![Last commit](https://img.shields.io/github/last-commit/jakeuj/edge-extension)
+### CodexPlugins
 
-- 技術標籤：`JavaScript` `Browser-Extension` `Web`
+供個人使用的 Codex plugin marketplace，集中管理 plugin manifest、skills、agents、commands 與相關資源，目前包含 Evennia MUD 開發技能集。
 
-![edge-extension](https://opengraph.githubassets.com/1/jakeuj/edge-extension)
+- 連結：[GitHub](https://github.com/jakeuj/CodexPlugins)
+- 語言與技術：`Shell` `Codex` `Plugin` `Skill` `Evennia`
+
+![CodexPlugins last commit](https://img.shields.io/github/last-commit/jakeuj/CodexPlugins)
+
+### NevergrindOnline
+
+以 Astro Starlight 建立的 Nevergrind Online 繁體中文攻略資料庫，整理攻略、職業、裝備、配方與互動式武器 DPS 計算工具。
+
+- 連結：[GitHub](https://github.com/jakeuj/NevergrindOnline)｜[攻略網站](https://ngo.jakeuj.com/)
+- 語言與技術：`Astro` `JavaScript` `MDX` `SEO` `GitHub Pages`
+
+![NevergrindOnline last commit](https://img.shields.io/github/last-commit/jakeuj/NevergrindOnline)
+
+### writerside
+
+本站的 JetBrains Writerside 原始碼，包含繁體中文技術筆記、內容檢查、搜尋索引與 GitHub Pages 自動化發布流程。
+
+- 連結：[GitHub](https://github.com/jakeuj/writerside)｜[Jakeuj's Notes](https://jakeuj.com/)
+- 語言與技術：`JetBrains Writerside` `Markdown` `Docs` `CI/CD` `SEO`
+
+![writerside last commit](https://img.shields.io/github/last-commit/jakeuj/writerside)
+
+## 遊戲、MUD 與在地化
+
+### gw2-pathing-zh-tw
+
+Guild Wars 2 Blish HUD Pathing marker packs 的繁體中文在地化專案，先追蹤各 marker pack 的授權與書面許可，再進行非商業翻譯與發布。
+
+- 連結：[GitHub](https://github.com/jakeuj/gw2-pathing-zh-tw)
+- 語言與技術：`Guild Wars 2` `Blish HUD` `Pathing` `zh-TW` `License Tracking`
+
+![gw2-pathing-zh-tw last commit](https://img.shields.io/github/last-commit/jakeuj/gw2-pathing-zh-tw)
+
+### Community-Module-Pack
+
+維護自 Blish HUD Community Module Pack 的 fork，加入繁體中文 Events module、遊戲術語、事件獎勵資訊、可自訂聊天訊息與 fork release 自動更新流程。
+
+- 連結：[維護中的 fork](https://github.com/jakeuj/Community-Module-Pack)｜[upstream](https://github.com/blish-hud/Community-Module-Pack)
+- 語言與技術：`C#` `Blish HUD` `Guild Wars 2` `Localization` `Release Automation`
+
+![Community-Module-Pack last commit](https://img.shields.io/github/last-commit/jakeuj/Community-Module-Pack)
+
+### merc-fju-3.0
+
+以 Merc 2.2 為核心重寫「輔大三國歪傳之降龍伏虎」，延續 UTF-8 轉換成果，並整理 Docker、Apple Silicon 與現代 Linux／macOS 開發環境。
+
+- 連結：[GitHub](https://github.com/jakeuj/merc-fju-3.0)｜[2.0 UTF-8 歷史版本](https://github.com/jakeuj/merc-fju-2.0-utf8)
+- 語言與技術：`C` `MUD` `UTF-8` `Docker` `Apple Silicon`
+
+![merc-fju-3.0 last commit](https://img.shields.io/github/last-commit/jakeuj/merc-fju-3.0)
+
+### 3yWebsite
+
+維護自三國歪傳網站的 fork，補上 GitHub Pages 入口、玩家指南、技能文件與可展開的知識庫內容。
+
+- 連結：[維護中的 fork](https://github.com/jakeuj/3yWebsite)｜[upstream](https://github.com/EndeavorYen/3yWebsite)｜[文件網站](https://3y.jakeuj.com/)
+- 語言與技術：`HTML` `MUD` `Documentation` `GitHub Pages`
+
+![3yWebsite last commit](https://img.shields.io/github/last-commit/jakeuj/3yWebsite)
+
+### rpg
+
+使用 Flutter 與 Dart 製作的公會管理 RPG 原型，以 Clean Architecture 與 DDD 拆分冒險者、任務、裝備和公會系統。
+
+- 連結：[GitHub](https://github.com/jakeuj/rpg)
+- 語言與技術：`Dart` `Flutter` `DDD` `Clean Architecture` `Game`
+
+![rpg last commit](https://img.shields.io/github/last-commit/jakeuj/rpg)
+
+## 工具與應用
 
 ### ChromeExtensionPobZh
 
-- 語言：JavaScript
-- 連結：[GitHub](https://github.com/jakeuj/ChromeExtensionPobZh) ｜ [產品頁面](https://poe.jakeuj.com/)
-- 說明：忍者網轉編年史 - Chrome 瀏覽器擴充功能。
+「忍者網轉編年史」瀏覽器擴充功能，協助在 Path of Exile Ninja 與編年史之間轉換、查找相關遊戲資料。
 
-![Stars](https://img.shields.io/github/stars/jakeuj/ChromeExtensionPobZh?style=social) ![Top language](https://img.shields.io/github/languages/top/jakeuj/ChromeExtensionPobZh) ![Last commit](https://img.shields.io/github/last-commit/jakeuj/ChromeExtensionPobZh)
+- 連結：[GitHub](https://github.com/jakeuj/ChromeExtensionPobZh)｜[產品網站](https://poe.jakeuj.com/)
+- 語言與技術：`JavaScript` `Chrome Extension` `Edge Extension` `Path of Exile`
 
-- 技術標籤：`JavaScript` `Chrome-Extension` `Browser-Extension` `Web`
-
-![ChromeExtensionPobZh](https://opengraph.githubassets.com/1/jakeuj/ChromeExtensionPobZh)
+![ChromeExtensionPobZh last commit](https://img.shields.io/github/last-commit/jakeuj/ChromeExtensionPobZh)
 
 ### pixerDotnet
 
-- 語言：C#
-- 連結：[GitHub](https://github.com/jakeuj/pixerDotnet)
-- 說明：與 Pixer 電子相框相關的 .NET 探索與工具。
+以 .NET 9 重寫 Pixer 電子相框上傳工具，處理圖片縮放與灰階封裝、TCP 傳輸、裝置狀態檢查及韌體升級。
 
-![Stars](https://img.shields.io/github/stars/jakeuj/pixerDotnet?style=social) ![Top language](https://img.shields.io/github/languages/top/jakeuj/pixerDotnet) ![Last commit](https://img.shields.io/github/last-commit/jakeuj/pixerDotnet)
+- 連結：[GitHub](https://github.com/jakeuj/pixerDotnet)｜[原始 pixer 專案](https://github.com/kasperis7/pixer)
+- 語言與技術：`C#` `.NET 9` `IoT` `Image Processing` `TCP`
 
-- 技術標籤：`.NET` `C#` `IoT` `Tools`
+![pixerDotnet last commit](https://img.shields.io/github/last-commit/jakeuj/pixerDotnet)
 
-![pixerDotnet](https://opengraph.githubassets.com/1/jakeuj/pixerDotnet)
+### poe_production_Config
 
-## Fork 專案（有貢獻）
+提供 Path of Exile 與 Path of Exile 2 在 Apple Silicon Mac 執行 Windows client 時使用的 DirectX 12 設定檔範本。
 
-這一區塊列出我 Fork 但有實際提交（commit）的專案，已標註「Fork｜有貢獻」，並附上徽章與預覽圖。
+- 連結：[GitHub](https://github.com/jakeuj/poe_production_Config)｜[設定檔網站](https://poe-mac.jakeuj.com/)
+- 語言與技術：`Path of Exile` `macOS` `Apple Silicon` `DirectX 12` `Configuration`
 
-### pixer（Fork｜有貢獻）
+![poe_production_Config last commit](https://img.shields.io/github/last-commit/jakeuj/poe_production_Config)
 
-- 語言：JavaScript / Electron
-- 連結：[GitHub](https://github.com/jakeuj/pixer)
-- 說明：Fork 自 kasperis7/pixer；我有多筆提交（含 Electron 打包、CI/CD 與 Python 可執行檔整合等）。
+## 開源貢獻
 
-![Stars](https://img.shields.io/github/stars/jakeuj/pixer?style=social) ![Top language](https://img.shields.io/github/languages/top/jakeuj/pixer) ![Last commit](https://img.shields.io/github/last-commit/jakeuj/pixer)
+### GW2-ArcDPS-TChineseUI
 
-- 標註：`Fork` `有貢獻`
-- 技術標籤：`Electron` `Node.js` `CI/CD` `Python`
+維護自 GW2 ArcDPS 繁體中文介面的 fork，補上設定保存、啟動與 hook lifecycle 修正、建置發布流程，以及網站與安裝文件。
 
-![pixer](https://opengraph.githubassets.com/1/jakeuj/pixer)
+- 連結：[維護中的 fork](https://github.com/jakeuj/GW2-ArcDPS-TChineseUI)｜[upstream](https://github.com/m21248074/GW2-ArcDPS-TChineseUI)｜[專案網站](https://gw2.jakeuj.com/)
+- 語言與技術：`C++` `Guild Wars 2` `ArcDPS` `Traditional Chinese` `CI/CD`
 
-### FramePack（Fork｜有貢獻）
+![GW2-ArcDPS-TChineseUI last commit](https://img.shields.io/github/last-commit/jakeuj/GW2-ArcDPS-TChineseUI)
 
-- 語言：Python / Shell
-- 連結：[GitHub](https://github.com/jakeuj/FramePack)
-- 說明：Fork 自 brandon929/FramePack；我有多筆提交（啟動腳本、GPU 偵測、檔案管理/清理、Gradio 介面調整等）。
+### Nexus-Translations 繁體中文翻譯
 
-![Stars](https://img.shields.io/github/stars/jakeuj/FramePack?style=social) ![Top language](https://img.shields.io/github/languages/top/jakeuj/FramePack) ![Last commit](https://img.shields.io/github/last-commit/jakeuj/FramePack)
+為 Raidcore Nexus 新增繁體中文語系；翻譯已透過 PR #48 合併至 upstream repository。
 
-- 標註：`Fork` `有貢獻`
-- 技術標籤：`Python` `Shell` `Gradio` `Video`
+- 連結：[merged PR #48](https://github.com/RaidcoreGG/Nexus-Translations/pull/48)｜[upstream](https://github.com/RaidcoreGG/Nexus-Translations)｜[個人 fork](https://github.com/jakeuj/Nexus-Translations)
+- 語言與技術：`Guild Wars 2` `Nexus` `Localization` `Traditional Chinese`
 
-![FramePack](https://opengraph.githubassets.com/1/jakeuj/FramePack)
+![Nexus-Translations last commit](https://img.shields.io/github/last-commit/jakeuj/Nexus-Translations)
 
-### LibGGPK3（Fork｜有貢獻）
+### LibGGPK3
 
-- 語言：C#
-- 連結：[GitHub](https://github.com/jakeuj/LibGGPK3)
-- 說明：Fork 專案；我有多筆提交與維護（包含相容性修正、效能調整與工具化）。
+維護自 LibGGPK3 的 fork，持續改善 Path of Exile Content.ggpk library 的相容性、效能與工具使用體驗，並將變更回饋 upstream。
 
-![Stars](https://img.shields.io/github/stars/jakeuj/LibGGPK3?style=social) ![Top language](https://img.shields.io/github/languages/top/jakeuj/LibGGPK3) ![Last commit](https://img.shields.io/github/last-commit/jakeuj/LibGGPK3)
+- 連結：[維護中的 fork](https://github.com/jakeuj/LibGGPK3)｜[upstream](https://github.com/aianlinb/LibGGPK3)｜[upstream PR #50](https://github.com/aianlinb/LibGGPK3/pull/50)
+- 語言與技術：`C#` `.NET` `Path of Exile` `Parser` `Library`
 
-- 標註：`Fork` `有貢獻`
-- 技術標籤：`C#` `.NET` `Parser` `Library`
+![LibGGPK3 last commit](https://img.shields.io/github/last-commit/jakeuj/LibGGPK3)
 
-![LibGGPK3](https://opengraph.githubassets.com/1/jakeuj/LibGGPK3)
+## 其他專案索引
 
-### writerside（本站）
+以下保留過往自有專案與曾維護 fork 的快速入口；最新狀態與完整清單仍以 GitHub 為準。
 
-- 類型：技術筆記網站（JetBrains Writerside）
-- 連結：[GitHub](https://github.com/jakeuj/writerside)
-- 說明：本技術筆記站台的原始碼與自動化發布流程。
+- **MUD 與遊戲**：[JakeMud](https://github.com/jakeuj/JakeMud)、[JakeMudDotNet](https://github.com/jakeuj/JakeMudDotNet)、[JakeujMud](https://github.com/jakeuj/JakeujMud)、[MyKirito](https://github.com/jakeuj/MyKirito)
+- **.NET 與 ABP**：[Microsoft.Extensions.Logging.Log4Net](https://github.com/jakeuj/Microsoft.Extensions.Logging.Log4Net)、[AbpAzureSample](https://github.com/jakeuj/AbpAzureSample)、[abp-console-samples](https://github.com/jakeuj/abp-console-samples)、[BlazorOnGitHubPages](https://github.com/jakeuj/BlazorOnGitHubPages)、[PowerShellNetCoreQueue](https://github.com/jakeuj/PowerShellNetCoreQueue)、[MyAbpProject](https://github.com/jakeuj/MyAbpProject)、[LINQPad-Queries](https://github.com/jakeuj/LINQPad-Queries)、[Drone](https://github.com/jakeuj/Drone)
+- **Web、DevOps 與實驗工具**：[DockerSys](https://github.com/jakeuj/DockerSys)、[AiPlaform](https://github.com/jakeuj/AiPlaform)、[TestDocker](https://github.com/jakeuj/TestDocker)、[electron](https://github.com/jakeuj/electron)、[edge-extension](https://github.com/jakeuj/edge-extension)
+- **曾維護的 fork**：[pixer](https://github.com/jakeuj/pixer)、[FramePack](https://github.com/jakeuj/FramePack)
 
-![Stars](https://img.shields.io/github/stars/jakeuj/writerside?style=social) ![Top language](https://img.shields.io/github/languages/top/jakeuj/writerside) ![Last commit](https://img.shields.io/github/last-commit/jakeuj/writerside)
+## 合作與交流
 
-- 技術標籤：`Docs` `JetBrains-Writerside` `CI/CD`
-
-![writerside](https://opengraph.githubassets.com/1/jakeuj/writerside)
-
-### JakeMud / JakeMudDotNet / JakeujMud
-
-- 語言：C# / HTML
-- 連結：
-  - [JakeMud](https://github.com/jakeuj/JakeMud)
-  - [JakeMudDotNet](https://github.com/jakeuj/JakeMudDotNet)
-  - [JakeujMud](https://github.com/jakeuj/JakeujMud)
-- 說明：文字地城（MUD）相關的伺服器與客戶端實作、介面嘗試。
-
-- JakeMud：
-
-  ![Stars](https://img.shields.io/github/stars/jakeuj/JakeMud?style=social) ![Top language](https://img.shields.io/github/languages/top/jakeuj/JakeMud) ![Last commit](https://img.shields.io/github/last-commit/jakeuj/JakeMud)
-
-  - 技術標籤：`C#` `Game` `MUD`
-
-  ![JakeMud](https://opengraph.githubassets.com/1/jakeuj/JakeMud)
-
-- JakeMudDotNet：
-
-  ![Stars](https://img.shields.io/github/stars/jakeuj/JakeMudDotNet?style=social) ![Top language](https://img.shields.io/github/languages/top/jakeuj/JakeMudDotNet) ![Last commit](https://img.shields.io/github/last-commit/jakeuj/JakeMudDotNet)
-
-  - 技術標籤：`C#` `Game` `MUD`
-
-  ![JakeMudDotNet](https://opengraph.githubassets.com/1/jakeuj/JakeMudDotNet)
-
-- JakeujMud：
-
-  ![Stars](https://img.shields.io/github/stars/jakeuj/JakeujMud?style=social) ![Top language](https://img.shields.io/github/languages/top/jakeuj/JakeujMud) ![Last commit](https://img.shields.io/github/last-commit/jakeuj/JakeujMud)
-
-  - 技術標籤：`HTML` `Client` `MUD`
-
-  ![JakeujMud](https://opengraph.githubassets.com/1/jakeuj/JakeujMud)
-
-### DockerSys
-
-- 語言：JavaScript
-- 連結：[GitHub](https://github.com/jakeuj/DockerSys)
-- 說明：與 Docker/系統管理相關的腳本與工具。
-
-![Stars](https://img.shields.io/github/stars/jakeuj/DockerSys?style=social) ![Top language](https://img.shields.io/github/languages/top/jakeuj/DockerSys) ![Last commit](https://img.shields.io/github/last-commit/jakeuj/DockerSys)
-
-- 技術標籤：`JavaScript` `DevOps` `Docker`
-
-![DockerSys](https://opengraph.githubassets.com/1/jakeuj/DockerSys)
-
-### Microsoft.Extensions.Logging.Log4Net
-
-- 語言：C#
-- 連結：[GitHub](https://github.com/jakeuj/Microsoft.Extensions.Logging.Log4Net)
-- 說明：.NET Logging 與 log4net 的整合實作與範例。
-
-![Stars](https://img.shields.io/github/stars/jakeuj/Microsoft.Extensions.Logging.Log4Net?style=social) ![Top language](https://img.shields.io/github/languages/top/jakeuj/Microsoft.Extensions.Logging.Log4Net) ![Last commit](https://img.shields.io/github/last-commit/jakeuj/Microsoft.Extensions.Logging.Log4Net)
-
-- 技術標籤：`.NET` `Logging` `log4net`
-
-![Microsoft.Extensions.Logging.Log4Net](https://opengraph.githubassets.com/1/jakeuj/Microsoft.Extensions.Logging.Log4Net)
-
-### AbpAzureSample / abp-console-samples
-
-- 語言：C#
-- 連結：
-  - [AbpAzureSample](https://github.com/jakeuj/AbpAzureSample)
-  - [abp-console-samples](https://github.com/jakeuj/abp-console-samples)
-- 說明：ABP 與 Azure / Console 範例，針對認證、HTTP、Dapper 等主題。
-
-- AbpAzureSample：
-
-  ![Stars](https://img.shields.io/github/stars/jakeuj/AbpAzureSample?style=social) ![Top language](https://img.shields.io/github/languages/top/jakeuj/AbpAzureSample) ![Last commit](https://img.shields.io/github/last-commit/jakeuj/AbpAzureSample)
-
-  - 技術標籤：`ABP` `.NET` `Azure`
-
-  ![AbpAzureSample](https://opengraph.githubassets.com/1/jakeuj/AbpAzureSample)
-
-- abp-console-samples：
-
-  ![Stars](https://img.shields.io/github/stars/jakeuj/abp-console-samples?style=social) ![Top language](https://img.shields.io/github/languages/top/jakeuj/abp-console-samples) ![Last commit](https://img.shields.io/github/last-commit/jakeuj/abp-console-samples)
-
-  - 技術標籤：`ABP` `.NET` `Console` `Dapper` `HTTP`
-
-  ![abp-console-samples](https://opengraph.githubassets.com/1/jakeuj/abp-console-samples)
-
-### BlazorOnGitHubPages
-
-- 語言：HTML / Blazor
-- 連結：[GitHub](https://github.com/jakeuj/BlazorOnGitHubPages)
-- 說明：在 GitHub Pages 上部署 Blazor 的實作與測試。
-
-![Stars](https://img.shields.io/github/stars/jakeuj/BlazorOnGitHubPages?style=social) ![Top language](https://img.shields.io/github/languages/top/jakeuj/BlazorOnGitHubPages) ![Last commit](https://img.shields.io/github/last-commit/jakeuj/BlazorOnGitHubPages)
-
-- 技術標籤：`Blazor` `ASP.NET` `GitHub-Pages`
-
-![BlazorOnGitHubPages](https://opengraph.githubassets.com/1/jakeuj/BlazorOnGitHubPages)
-
-## 更多自有專案
-
-### MyKirito
-
-- 語言：C#
-- 連結：[GitHub](https://github.com/jakeuj/MyKirito)
-- 說明：以 C# 撰寫的個人練習/實驗專案，聚焦遊戲相關工具與腳本嘗試。
-
-![Stars](https://img.shields.io/github/stars/jakeuj/MyKirito?style=social) ![Top language](https://img.shields.io/github/languages/top/jakeuj/MyKirito) ![Last commit](https://img.shields.io/github/last-commit/jakeuj/MyKirito)
-
-- 技術標籤：`C#`
-
-![MyKirito](https://opengraph.githubassets.com/1/jakeuj/MyKirito)
-
-### AiPlaform
-
-- 語言：JavaScript
-- 連結：[GitHub](https://github.com/jakeuj/AiPlaform)
-- 說明：前端實驗專案，探索整合 AI 功能與 UI/互動流程的雛形。
-
-![Stars](https://img.shields.io/github/stars/jakeuj/AiPlaform?style=social) ![Top language](https://img.shields.io/github/languages/top/jakeuj/AiPlaform) ![Last commit](https://img.shields.io/github/last-commit/jakeuj/AiPlaform)
-
-- 技術標籤：`JavaScript` `Web` `AI`
-
-![AiPlaform](https://opengraph.githubassets.com/1/jakeuj/AiPlaform)
-
-### PowerShellNetCoreQueue
-
-- 語言：C#
-- 連結：[GitHub](https://github.com/jakeuj/PowerShellNetCoreQueue)
-- 說明：示範以 .NET 實作背景佇列並與 PowerShell 互動的範例。
-
-![Stars](https://img.shields.io/github/stars/jakeuj/PowerShellNetCoreQueue?style=social) ![Top language](https://img.shields.io/github/languages/top/jakeuj/PowerShellNetCoreQueue) ![Last commit](https://img.shields.io/github/last-commit/jakeuj/PowerShellNetCoreQueue)
-
-- 技術標籤：`.NET` `Background-Task` `Queue`
-
-![PowerShellNetCoreQueue](https://opengraph.githubassets.com/1/jakeuj/PowerShellNetCoreQueue)
-
-### Drone
-
-- 語言：C#
-- 連結：[GitHub](https://github.com/jakeuj/Drone)
-- 說明：C# 實驗性專案，用於測試與演練專案結構、工具鏈與模式。
-
-![Stars](https://img.shields.io/github/stars/jakeuj/Drone?style=social) ![Top language](https://img.shields.io/github/languages/top/jakeuj/Drone) ![Last commit](https://img.shields.io/github/last-commit/jakeuj/Drone)
-
-- 技術標籤：`C#`
-
-![Drone](https://opengraph.githubassets.com/1/jakeuj/Drone)
-
-### MyAbpProject
-
-- 語言：C#
-- 連結：[GitHub](https://github.com/jakeuj/MyAbpProject)
-- 說明：基於 ABP Framework 的學習/範例專案，用於練習模組化與基礎功能整合。
-
-![Stars](https://img.shields.io/github/stars/jakeuj/MyAbpProject?style=social) ![Top language](https://img.shields.io/github/languages/top/jakeuj/MyAbpProject) ![Last commit](https://img.shields.io/github/last-commit/jakeuj/MyAbpProject)
-
-- 技術標籤：`ABP` `.NET`
-
-![MyAbpProject](https://opengraph.githubassets.com/1/jakeuj/MyAbpProject)
-
-### LINQPad-Queries
-
-- 語言：C#
-- 連結：[GitHub](https://github.com/jakeuj/LINQPad-Queries)
-- 說明：用於彙整與分享我在 LINQPad 中撰寫的查詢與範例程式碼，涵蓋資料處理、EF/Dapper、實用小技巧等主題。
-
-![Stars](https://img.shields.io/github/stars/jakeuj/LINQPad-Queries?style=social) ![Top language](https://img.shields.io/github/languages/top/jakeuj/LINQPad-Queries) ![Last commit](https://img.shields.io/github/last-commit/jakeuj/LINQPad-Queries)
-
-- 技術標籤：`C#` `LINQPad`
-
-![LINQPad-Queries](https://opengraph.githubassets.com/1/jakeuj/LINQPad-Queries)
-
-### TestDocker
-
-- 語言：C#
-- 連結：[GitHub](https://github.com/jakeuj/TestDocker)
-- 說明：結合 C# 與 Docker 的打包/執行測試與流程驗證。
-
-![Stars](https://img.shields.io/github/stars/jakeuj/TestDocker?style=social) ![Top language](https://img.shields.io/github/languages/top/jakeuj/TestDocker) ![Last commit](https://img.shields.io/github/last-commit/jakeuj/TestDocker)
-
-- 技術標籤：`C#` `Docker`
-
-![TestDocker](https://opengraph.githubassets.com/1/jakeuj/TestDocker)
-
-### electron
-
-- 語言：Shell
-- 連結：[GitHub](https://github.com/jakeuj/electron)
-- 說明：Electron 相關腳本與樣板的實驗專案，包含 Shell 腳本與打包流程嘗試。
-
-![Stars](https://img.shields.io/github/stars/jakeuj/electron?style=social) ![Top language](https://img.shields.io/github/languages/top/jakeuj/electron) ![Last commit](https://img.shields.io/github/last-commit/jakeuj/electron)
-
-- 技術標籤：`Shell` `Electron`
-
-![electron](https://opengraph.githubassets.com/1/jakeuj/electron)
-
-## 想法與方向
-
-- 將持續在 .NET（ABP/EF/Logging）、雲端（Azure/GCP）、容器（Docker）、以及 AI/LLM 相關領域進行研究與實作
-- 若你對任何專案有興趣或建議，歡迎開 Issue 或 PR，一起交流！
+如果你對任何專案有建議，歡迎在對應 repository 開 Issue 或 Pull Request。也可以直接瀏覽 [jakeuj 的 GitHub repositories](https://github.com/jakeuj?tab=repositories) 查看完整清單與最新提交。
