@@ -120,8 +120,21 @@
 <noscript>請啟用 JavaScript 以檢視由 <a href="https://disqus.com" rel="nofollow">Disqus</a> 提供的留言功能。</noscript>
 
 <!-- Ko-fi floating widget -->
-<script src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+<style>
+  .floatingchat-container-wrap,
+  .floatingchat-container-wrap-mobi,
+  .floating-chat-kofi-popup-iframe,
+  .floating-chat-kofi-popup-iframe-mobi {
+    right: 16px !important;
+    left: auto !important;
+  }
+</style>
+<script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
 <script>
-  kofiwidget2.init('Support me on Ko-fi', '#72a4f2', 'Q1Z323N3GB');
-  kofiwidget2.draw();
+  kofiWidgetOverlay.draw('jakeuj', {
+    'type': 'floating-chat',
+    'floating-chat.donateButton.text': 'Support me',
+    'floating-chat.donateButton.background-color': '#00b9fe',
+    'floating-chat.donateButton.text-color': '#fff'
+  });
 </script>
