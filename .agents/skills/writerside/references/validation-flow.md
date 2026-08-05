@@ -32,9 +32,20 @@
 
 ### 只改一篇文章
 
-1. 先跑單檔修復與檢查。
-2. 如果有更新 `hi.tree` 或用了 Writerside XML，接著跑 `npm run pre-deploy`。
-3. 如果還是懷疑有 checker 問題，回頭看 CI 或 IDE 預覽。
+1. 需要自動修復時先跑 `npx markdownlint-cli2 --fix --no-globs Writerside/topics/<topic-file>.md`。
+2. 跑 `npx markdownlint-cli2 --no-globs Writerside/topics/<topic-file>.md`。
+3. 依內容掃描常見 code language、識別資料與內部環境殘留：
+
+    ```bash
+    rg -n '^```(cmd|csharp)$' Writerside/topics/<topic-file>.md
+    rg -n '[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}' Writerside/topics/<topic-file>.md
+    rg -n '/subscriptions/|resourceGroups/|privatelink|\.corp|\.local|@' Writerside/topics/<topic-file>.md
+    ```
+
+4. 若用了 Writerside XML，依 `checker-errors.md` 掃描未 escape 的字元。
+5. 若更新 `hi.tree`，執行 `xmllint --noout Writerside/hi.tree`。
+6. 修改 `hi.tree`、XML 或站台設定後跑 `npm run pre-deploy`。
+7. 如果仍懷疑 checker 問題，回頭看 CI 或 IDE 預覽。
 
 ### 同時改多篇文章
 
@@ -55,6 +66,26 @@
 - GitHub Pages 權限、artifact 或 `web-path` 路徑問題
 
 這類問題通常不是 `markdownlint-cli2` 的責任範圍。
+
+## 大型 section 的索引大小
+
+大型表格、匯入矩陣或 generated reference page 要額外確認每個 H2 section 的 UTF-8 大小。以 8000 bytes 為保守上限；超過時回到 `topic-authoring-workflow.md` 分段。可用下列 Node.js 檢查：
+
+```bash
+node - Writerside/topics/<topic-file>.md <<'NODE'
+const fs = require('fs');
+const text = fs.readFileSync(process.argv[2], 'utf8');
+const sections = text.split(/(?=^## )/m)
+  .filter((section) => section.startsWith('## '))
+  .map((section) => ({
+    title: section.split('\n', 1)[0],
+    bytes: Buffer.byteLength(section, 'utf8'),
+  }))
+  .sort((a, b) => b.bytes - a.bytes);
+console.table(sections.slice(0, 10));
+if (sections.some(({ bytes }) => bytes >= 8000)) process.exitCode = 1;
+NODE
+```
 
 ## 相關檔案
 

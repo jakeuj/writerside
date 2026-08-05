@@ -15,6 +15,7 @@
 | `CDE016: Unknown language is specified for a code block` | fenced code block 或 `<code-block lang="...">` 使用 Writerside 不認得的語言名稱 | `cmd`、`csharp`、拼錯或自訂語言名稱 | 改成 checker 支援的語言，例如 `batch`、`C#`，不確定時用 `text` |
 | `CTT004: Undefined variable` | 文字、URL、圖片引用或 code block 中的 `%...%` 被當成 Writerside 變數 | `%foo%`、SQL `LIKE '%KEYWORD%'`、Windows PATH、URL percent-encoding（例如 `%E5...`、`%20`、`%25`） | 短內容補 `ignore-vars="true"`；多行 code block 改用 `<code-block ignore-vars="true"><![CDATA[...]]></code-block>` |
 | `TOC007: The 'toc-title' attribute is redundant as it matches the topic title` | `hi.tree` 的 `toc-title` 和 topic H1 完全相同 | 該 topic 的 H1 與 `<toc-element toc-title="...">` | 移除 redundant `toc-title`，保留 `topic` 即可 |
+| `REF002: Referenced topic doesn't exist` | 內部連結缺 `.md`、帶 `./`/`../`、檔名錯誤或 topic 未掛入 TOC | Markdown link、`Writerside/topics/`、`Writerside/hi.tree` | 改成純檔名 `[標題](topic-file.md)` 並確認目標存在且已掛載 |
 | checker 找不到 topic | `hi.tree` 的檔名與實際檔名不一致 | `Writerside/hi.tree`、topic 檔名 | 修正 `topic="..."` 或檔名 |
 | 圖片無法顯示或建構失敗 | 圖片不在 `Writerside/images/`、引用路徑錯誤 | 圖片檔名、Markdown 引用 | 把檔案放到 `Writerside/images/`，並用相對路徑引用 |
 | TOC 看得到但點了失敗 | 文章改名後沒同步 `hi.tree` | `Writerside/hi.tree` | 同步更新 `topic` 屬性 |
@@ -77,8 +78,19 @@
 
 ## `MRK002` / `MRK009` 快速排查
 
-1. 如果行號落在 `<tabs>` / `<tab>` 區塊附近，先檢查是否有未關閉標記、過多 HTML list，或被空行切斷的 XML 結構。
-2. 若 `<tabs>` 內容已經很長、混很多元素，先以「能穩定通過 checker」為優先，必要時退回一般 Markdown 小節，不必硬保留 tabs。
+1. 若訊息包含 `Unescaped & or unterminated character/entity reference`，先檢查 XML tag、attribute、semantic markup 與 `hi.tree` 是否有裸 `&`；Markdown 一般段落中的 `&` 通常可保留。
+2. XML 內容中的 `&`、`<`、`>` 與引號依所在位置 escape；例如 `<img alt="Drivers &amp; Downloads" .../>`。
+3. 掃描 touched topic 的 XML tag 是否有未 escape 的 `&`：
+
+    ```bash
+    rg -n -P '<[^>]*&(?!amp;|lt;|gt;|quot;|apos;|#[0-9]+;|#x[0-9A-Fa-f]+;)' Writerside/topics/<topic-file>.md
+    ```
+
+4. 修改 `hi.tree` 時執行 `xmllint --noout Writerside/hi.tree`。
+5. 如果行號落在 `<tabs>` / `<tab>` 附近，檢查未關閉標記、過多 HTML list、dangling text，或被空行切斷的 XML 結構。
+6. 若 `<tabs>` 內容已很長且混合多種元素，簡化成 `<p>` 與 code block；必要時退回一般 Markdown 小節。
+
+`markdownlint` 不會完整驗證 Writerside XML，所以單檔 lint 通過不代表 MRK002 已排除。
 
 ## 相關檔案
 
