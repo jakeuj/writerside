@@ -3,6 +3,7 @@
 在下列情況讀這份參考：
 
 - 想調整 Writerside 網站輸出的 header / footer
+- 想加入或調整自訂 HTML、CSS、JavaScript、留言系統、贊助按鈕或第三方 widget
 - 想設定 Algolia 搜尋、shortcut switcher、OG metadata、sitemap、Search Console 或 SEO URL 前綴
 - 想理解 `buildprofiles.xml` 的 global 設定和 instance-specific 設定差別
 - 想判斷 `cfg/`、`writerside.cfg`、`buildprofiles.xml` 三者怎麼配合
@@ -12,6 +13,15 @@
 - `buildprofiles.xml`
 
 若你需要專門處理 `llms.txt`、`<llms-txt>`、single-file / per-topic 輸出或 LLM agent 匯出用途，改讀 `llms-reference.md`。
+
+## 內容索引
+
+- [`buildprofiles.xml` 的用途與位置](#buildprofilesxml-是做什麼的)
+- [結構與目前設定](#結構怎麼看)
+- [常見設定分類](#常見設定分類)
+- [第三方 script / widget](#第三方-script--widget-的放置與定位)
+- [問題忽略與其他設定](#ignore-problems)
+- [採用建議](#在這個-repo-的採用建議)
 
 ## `buildprofiles.xml` 是做什麼的
 
@@ -139,6 +149,56 @@
 
 這些都偏站台層級注入，不應該因為單篇文章需求就隨便動。
 
+#### 第三方 script / widget 的放置與定位
+
+加入留言、分析、贊助按鈕或浮動 widget 時，先依用途選注入點：
+
+- 需要出現在 `<head>` 的 metadata、預載或官方明確要求的 script 才用 `include-in-head`。
+- 需要 DOM 已建立後再初始化的互動 widget，優先放在 `include-after-body` 指向的 HTML 檔。
+- `analytics-head-script-file` 與 `analytics-body-html-file` 留給 analytics；不要把一般 UI widget 混進去。
+- 不要把全站第三方 script 直接貼進 topic Markdown。這會讓內容與站台行為耦合，也可能被 Writerside 過濾或只影響單頁。
+
+`include-after-body` 只決定 script 的注入階段，不會自動讓產生的元素浮動。若第三方 API 在 script 所在位置插入一般 flow element，元件仍可能被排到 header 前方。要做浮動按鈕時：
+
+1. 優先選供應商提供的 overlay / floating 版本。
+2. 檢查實際輸出的 DOM 與 computed CSS，不要只看 script 名稱。
+3. 若要換邊，按鈕 wrapper、桌面 popup、行動版 wrapper 與行動版 popup 要一起移動。
+4. 第三方 CSS 可能在初始化後才載入；必要時用範圍精確的 `!important` override，並避免覆寫整站通用 selector。
+5. Writerside 是 SPA；全站 widget 通常只初始化一次。切換 topic 時確認沒有重複建立按鈕或 popup。
+
+Ko-fi 的舊 `Widget_2.js` 搭配 `kofiwidget2.draw()` 會在目前文件位置畫出按鈕，放進 Writerside 的全站注入檔時可能佔用正常排版。需要浮動贊助面板時，改用 `overlay-widget.js`：
+
+```html
+<!-- Ko-fi floating widget -->
+<style>
+  .floatingchat-container-wrap,
+  .floatingchat-container-wrap-mobi,
+  .floating-chat-kofi-popup-iframe,
+  .floating-chat-kofi-popup-iframe-mobi {
+    right: 16px !important;
+    left: auto !important;
+  }
+</style>
+<script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
+<script>
+  kofiWidgetOverlay.draw('<ko-fi-handle>', {
+    'type': 'floating-chat',
+    'floating-chat.donateButton.text': 'Support me',
+    'floating-chat.donateButton.background-color': '#00b9fe',
+    'floating-chat.donateButton.text-color': '#fff'
+  });
+</script>
+```
+
+Ko-fi overlay 的供應商 CSS 目前預設靠左；上例同時把 desktop / mobile 的按鈕與 popup 改到右側。這些 class 屬於第三方實作細節，日後修改前要重新檢查官方 snippet、CDN 回應與實際 DOM，不要假設 selector 永遠不變。
+
+第三方 widget 的驗證至少包含：
+
+- 確認 script 使用 HTTPS、CDN 可回應，公開 handle 可以提交，但不要把 token、secret 或私密 ID 寫進 repo。
+- 執行 `git diff --check` 與 `npm run pre-deploy`；這只能驗證 repo 結構，不能執行瀏覽器 JavaScript。
+- 部署後以桌面與行動版 viewport 檢查按鈕位置、popup 展開方向、header/footer 遮擋、console error 與 SPA 換頁後是否重複初始化。
+- 若只有線上環境能完整載入 widget，先明確說明本地檢查的限制，再用 CI 與部署後瀏覽器驗收完成閉環。
+
 ### 5. Footer / social links
 
 常見元素：
@@ -261,6 +321,6 @@
 
 - 這個 repo 已有明確的 `buildprofiles.xml`，不要把它當成空白模板重寫。
 - 如果需求只是新增或修改文章，通常不需要動 `cfg/buildprofiles.xml`。
-- 只有在使用者明確提到站台 header、footer、搜尋、社群連結、OG、sitemap、robots.txt、Search Console、SEO URL 或 checker 忽略規則時，才進到這層。
+- 只有在使用者明確提到站台 header、footer、自訂 HTML/CSS/JavaScript、第三方 widget、搜尋、社群連結、OG、sitemap、robots.txt、Search Console、SEO URL 或 checker 忽略規則時，才進到這層。
 - 修改前先判斷設定是全域還是只屬於 `instance="hi"`。
 - 若變更牽涉 `algolia-*`、analytics 或 HTML injection，優先視為高影響設定，做法要比一般 topic 編修更保守。

@@ -1,6 +1,6 @@
 ---
 name: writerside
-description: 在目前的 JetBrains Writerside repo `/Users/jakeuj/WritersideProjects/writerside` 中撰寫、修改與驗證公開技術筆記。涵蓋 `Writerside/topics/*.md`、`Writerside/hi.tree`、web-summary/SEO、去識別化、Markdown 與 semantic markup、anchor/TOC/checker（含 MRK002）、站台建置與 GitHub Pages、sitemap/robots、Search Console、站內搜尋與 Algolia。用於新增或改寫文章、修 Writerside/Markdown 錯誤、調整發布或搜尋設定；若從其他專案蒐集內容並回寫固定發布 repo，改用全域版 writerside skill。
+description: 在目前的 JetBrains Writerside repo `/Users/jakeuj/WritersideProjects/writerside` 中撰寫、修改與驗證公開技術筆記及站台設定。涵蓋 `Writerside/topics/*.md`、`Writerside/hi.tree`、web-summary/SEO、去識別化、Markdown 與 semantic markup、anchor/TOC/checker（含 MRK002）、GitHub Pages、header/footer、自訂 HTML/CSS/JavaScript、第三方 widget、sitemap/robots、Search Console、站內搜尋與 Algolia。用於新增或改寫文章、修 Writerside/Markdown 錯誤、調整網站外觀、站台注入、發布或搜尋設定；若從其他專案蒐集內容並回寫固定發布 repo，改用全域版 writerside skill。
 ---
 
 # 在這個 repo 中處理 Writerside
@@ -23,7 +23,7 @@ description: 在目前的 JetBrains Writerside repo `/Users/jakeuj/WritersidePro
 
 ## 核心流程
 
-1. 判斷任務是新增/修改 topic、調整 `hi.tree`、修 checker、改站台設定，還是處理部署/搜尋。
+1. 判斷任務是新增/修改 topic、調整 `hi.tree`、修 checker、改站台設定或第三方 widget，還是處理部署/搜尋。
 2. 在 `Writerside/topics/` 與 `Writerside/hi.tree` 搜尋同主題內容；寫作時再讀 1 到 2 篇同類文章以沿用語氣與結構。
 3. 把內容視為會公開上網，先盤點並替換真實 ID、資源名稱、IP、網域、email、帳號、secret、token、connection string 與客戶/專案資訊。
 4. 只讀本次需要的 reference，完成內容或設定修改；避免順手重構無關文章或整站。
@@ -56,7 +56,7 @@ description: 在目前的 JetBrains Writerside repo `/Users/jakeuj/WritersidePro
 - **圖表與公式**：依格式讀 [mermaid-reference.md](references/mermaid-reference.md)、[plantuml-reference.md](references/plantuml-reference.md)、[d2-reference.md](references/d2-reference.md) 或 [math-reference.md](references/math-reference.md)。
 - **專案與 instance**：專案根目錄讀 [projects-reference.md](references/projects-reference.md)；module 結構讀 [help-modules-reference.md](references/help-modules-reference.md)；主設定讀 [writerside-cfg-reference.md](references/writerside-cfg-reference.md)；instance/reuse 讀 [instances-reference.md](references/instances-reference.md)。
 - **TOC、標籤與變數**：`hi.tree`/home page/hidden topic 讀 [toc-reference.md](references/toc-reference.md)；labels 讀 [labels-reference.md](references/labels-reference.md)；`v.list`、`%var%`、`ignore-vars` 讀 [variables-reference.md](references/variables-reference.md)。
-- **建置、SEO 與搜尋**：GitHub Actions/Pages/Algolia request 讀 [build-deploy.md](references/build-deploy.md)；`buildprofiles.xml`、header/footer、sitemap、Search Console 讀 [buildprofiles-reference.md](references/buildprofiles-reference.md)；`llms.txt` 輸出讀 [llms-reference.md](references/llms-reference.md)。
+- **建置、SEO 與搜尋**：GitHub Actions/Pages/Algolia request 讀 [build-deploy.md](references/build-deploy.md)；`buildprofiles.xml`、header/footer、自訂 HTML/CSS/JavaScript、第三方 widget、sitemap、Search Console 讀 [buildprofiles-reference.md](references/buildprofiles-reference.md)；`llms.txt` 輸出讀 [llms-reference.md](references/llms-reference.md)。
 - **錯誤與驗證**：checker code、anchor、XML escape、topic/image path 讀 [checker-errors.md](references/checker-errors.md)；lint/pre-deploy/CI 分層讀 [validation-flow.md](references/validation-flow.md)。
 
 ## 維護這個 skill

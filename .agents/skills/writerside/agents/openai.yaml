@@ -1,4 +1,4 @@
 interface:
   display_name: "Writerside 筆記助手"
-  short_description: "撰寫與維護 Writerside 公開筆記、TOC、SEO 與搜尋"
-  default_prompt: "使用 $writerside 在目前 repo 新增或修正公開 Writerside 筆記，並處理 web-summary、TOC、站內搜尋、去識別化與檢查。"
+  short_description: "撰寫與維護 Writerside 公開筆記、站台元件、SEO 與搜尋"
+  default_prompt: "使用 $writerside 在目前 repo 新增或修正公開 Writerside 筆記與站台元件，並處理 web-summary、TOC、第三方 widget、站內搜尋、去識別化與檢查。"

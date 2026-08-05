@@ -1,6 +1,6 @@
 ---
 name: writerside
-description: 從任何專案蒐集技術資訊，整理成可公開發布的 Writerside 技術筆記，並回寫固定 repo `/Users/jakeuj/WritersideProjects/writerside`。涵蓋 topics/hi.tree、web-summary/SEO、去識別化、Markdown 與 semantic markup、anchor/TOC/checker（含 MRK002）、GitHub Pages、sitemap/robots、Search Console、站內搜尋與 Algolia；在使用者明確要求時也可 commit/push。用於跨 repo 整理筆記、修 Writerside 錯誤、調整發布或搜尋設定。
+description: 從任何專案蒐集技術資訊，整理成可公開發布的 Writerside 技術筆記，並回寫固定 repo `/Users/jakeuj/WritersideProjects/writerside`。涵蓋 topics/hi.tree、web-summary/SEO、去識別化、Markdown 與 semantic markup、anchor/TOC/checker（含 MRK002）、GitHub Pages、header/footer、自訂 HTML/CSS/JavaScript、第三方 widget、sitemap/robots、Search Console、站內搜尋與 Algolia；在使用者明確要求時也可 commit/push。用於跨 repo 整理筆記、修 Writerside 錯誤、調整網站外觀、站台注入、發布或搜尋設定。
 ---
 
 # 從任何專案回寫 Writerside 發布 repo
@@ -24,7 +24,7 @@ description: 從任何專案蒐集技術資訊，整理成可公開發布的 Wri
 
 ## 核心流程
 
-1. 分清來源與發布 repo，判斷任務是新增/修改 topic、調整 `hi.tree`、修 checker、改站台設定，還是處理部署/搜尋。
+1. 分清來源與發布 repo，判斷任務是新增/修改 topic、調整 `hi.tree`、修 checker、改站台設定或第三方 widget，還是處理部署/搜尋。
 2. 在發布 repo 的 `Writerside/topics/` 與 `Writerside/hi.tree` 搜尋同主題內容；寫作時再讀 1 到 2 篇同類文章。
 3. 從來源萃取可公開的問題、原因、解法與驗證方式；盤點並替換真實 ID、資源名稱、IP、網域、email、帳號、secret、token、connection string 與客戶/專案資訊。
 4. 只讀本次需要的 reference，完成內容或設定修改；避免順手修改來源專案或無關文章。
@@ -60,7 +60,7 @@ description: 從任何專案蒐集技術資訊，整理成可公開發布的 Wri
 - **圖表與公式**：依格式讀 `references/mermaid-reference.md`、`references/plantuml-reference.md`、`references/d2-reference.md` 或 `references/math-reference.md`。
 - **專案與 instance**：專案根目錄讀 `references/projects-reference.md`；module 結構讀 `references/help-modules-reference.md`；主設定讀 `references/writerside-cfg-reference.md`；instance/reuse 讀 `references/instances-reference.md`。
 - **TOC、標籤與變數**：`hi.tree`/home page/hidden topic 讀 `references/toc-reference.md`；labels 讀 `references/labels-reference.md`；`v.list`、`%var%`、`ignore-vars` 讀 `references/variables-reference.md`。
-- **建置、SEO 與搜尋**：GitHub Actions/Pages/Algolia request 讀 `references/build-deploy.md`；`buildprofiles.xml`、header/footer、sitemap、Search Console 讀 `references/buildprofiles-reference.md`；`llms.txt` 輸出讀 `references/llms-reference.md`。
+- **建置、SEO 與搜尋**：GitHub Actions/Pages/Algolia request 讀 `references/build-deploy.md`；`buildprofiles.xml`、header/footer、自訂 HTML/CSS/JavaScript、第三方 widget、sitemap、Search Console 讀 `references/buildprofiles-reference.md`；`llms.txt` 輸出讀 `references/llms-reference.md`。
 - **錯誤與驗證**：checker code、anchor、XML escape、topic/image path 讀 `references/checker-errors.md`；lint/pre-deploy/CI 分層讀 `references/validation-flow.md`。
 
 ## 維護與同步
