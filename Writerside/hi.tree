@@ -551,6 +551,7 @@
         <toc-element toc-title="破解">
             <toc-element topic="透過443代理內網特定port.md" />
             <toc-element topic="[反編譯]-Riru-Il2CppDumper-使用筆記.md" />
+            <toc-element topic="app-store-ipa-ipatool-download-extract.md" toc-title="ipatool 下載 App Store IPA" />
         </toc-element>
         <toc-element toc-title="Unity">
             <toc-element topic="Unity-5-使用-Android-SDK-API-24-問題.md" />
