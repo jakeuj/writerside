@@ -1,13 +1,13 @@
-# Azure App Service Web、API 與 OAuth 2.0 Server 以 Split-horizon DNS 走 Private Endpoint
+# Azure App Service Private Endpoint：Web、API、Auth 的 Split-horizon DNS
 
-<web-summary>Azure App Service 的 Web、API 與 OAuth 2.0 Authorization Server 可用 Split-horizon DNS，讓瀏覽器經 WAF、服務間呼叫則以相同 FQDN 走 Private Endpoint。</web-summary>
+<web-summary>Azure App Service Web、API、Auth 以 Private Endpoint 與 Private DNS Zone 實作 Split-horizon DNS，讓外部經 WAF、內部沿用相同 FQDN 走私網。</web-summary>
 
-Web、API 與 OAuth 2.0 / OpenID Connect Authorization Server 分別部署在 Azure App Service，且同時需要公開 WAF 防護與內網服務間呼叫時，建議保留同一組正式 FQDN：Internet 查詢解析到 WAF，VNet 內的 App Service 則透過 Azure Private DNS 解析到 Private Endpoint。這樣應用程式不必維護內外兩套 Authority 或 API URL，也不必讓後端 metadata request 繞回公開 WAF。
+最短解法是讓 Web/API 透過 VNet Integration 發出私有呼叫，替 API/Auth 建立 Private Endpoint，再把 `api.example.com` 與 `auth.example.com` 的 Private DNS Zone link 到呼叫端 VNet。相同 FQDN 在 Internet 解析到 WAF，在 VNet 內則解析到 Private Endpoint，應用程式不必維護內外兩套 Authority 或 API URL。
 
 <tldr>
 <p>公開 DNS：<code>web.example.com</code>、<code>api.example.com</code> 與 <code>auth.example.com</code> 指向 WAF。</p>
 <p>Web 與 API 作為呼叫端時需要 VNet Integration；API 與 Authorization Server 作為私有目的端時需要 Private Endpoint。</p>
-<p><code>api.example.com</code> 與 <code>auth.example.com</code> 各自建立精確 Private DNS Zone，並 link 到實際發出呼叫的 VNet。</p>
+<p><code>api.example.com</code> 與 <code>auth.example.com</code> 各自建立精確 Private DNS Zone；生效範圍由 VNet Link 決定，與 Resource Group 無關。</p>
 </tldr>
 
 > 本文由實際部署情境整理，但 subscription ID、resource group、VNet、subnet、App Service、FQDN、IP、憑證、client 與公司資訊均已去識別化。範例網域使用 `example.com`，其餘值使用占位符。
@@ -32,7 +32,7 @@ Web、API 與 OAuth 2.0 / OpenID Connect Authorization Server 分別部署在 Az
 
 Web 後端呼叫 API 時，Web 需要 VNet Integration，API 則需要 Private Endpoint。API 讀取 Authorization Server metadata/JWKS 時，API 需要 VNet Integration，Authorization Server 則需要 Private Endpoint。Web 不會因為要發出這些 outbound request，就需要替自己建立 Private Endpoint。
 
-## 三站台的最小網路矩陣
+## Web、API、Auth 的最小 Private Endpoint 矩陣
 
 先用「呼叫端走 outbound、目的端提供 inbound」判斷需要哪些元件：
 
@@ -138,7 +138,7 @@ api.partner.example.com
 
 這時可以只建立 `partner.example.com` Private DNS Zone，並新增 `auth`、`api` 兩筆 A record，不會影響其他 `example.com` 名稱。
 
-## Resource Group 與 VNet 怎麼選
+## Private DNS Zone 生效範圍：看 VNet Link，不看 Resource Group
 
 Private DNS Zone 是 global resource，放在哪個 Resource Group 不影響解析結果。Resource Group 應依管理與生命週期決定，常見做法是放在共用 Network/DNS Resource Group，與 VNet、Private Endpoint 或既有 Private DNS Zone 一起管理。
 
@@ -424,7 +424,7 @@ Private DNS 可以讓 Azure 內部 server-to-server request 避開 WAF，但公�
 
 登入、token 與 metadata path 也不應被 CDN 快取。
 
-## 驗證方式
+## 從 Kudu 驗證 Private DNS 與 Private Endpoint
 
 ### 從 Web App Service 同時驗證 API 與 Auth
 
@@ -501,7 +501,7 @@ nslookup api.example.com
 - 新 token 的 `iss` 是 `https://auth.example.com`。
 - API 使用新 token 能回傳成功，不再出現 issuer mismatch 401。
 
-## 常見錯誤判斷
+## 常見問題與排錯
 
 | 症狀 | 優先檢查 |
 | --- | --- |
@@ -514,20 +514,16 @@ nslookup api.example.com
 
 Redis 通常不是 issuer 或 metadata/JWKS 驗證失敗的主因。ABP 常用 Redis 保存 distributed cache、Data Protection key 或 distributed lock；不要在沒有證據時清空 Redis。401 應先檢查 token `iss`、Authority、discovery、JWKS 與 signing key。
 
-## 成本概念
+## 成本與維運提醒
 
-以下為公開零售價的概略值，實際費用依 Azure 合約、區域與匯率為準：
+實際費用會依區域、合約與 Azure 最新定價改變，規劃時主要盤點：
 
-| 項目 | 概略成本 |
-| --- | --- |
-| Private DNS Zone | 前 25 個約 US$0.50 / Zone / month |
-| Private DNS query | 約 US$0.40 / 1 million queries |
-| App Service VNet Integration | App Service Plan 以外無額外功能費用 |
-| Private Endpoint | 約 US$0.01 / hour / endpoint，加上 data processed 費用 |
+- API/Auth Private Endpoint 的使用時間與資料處理量。
+- `api.example.com`、`auth.example.com` Private DNS Zone 與查詢量。
+- Private Endpoint 重建後 IP 改變時，custom domain A record 的更新流程。
+- 是否真的需要 Azure DNS Private Resolver；同一個 VNet 使用 Azure-provided DNS 時，通常只需 VNet Link。
 
-兩個精確 Private DNS Zone 通常約 US$1 / month。若 Auth 與 API Private Endpoint 已存在，新增 DNS Zone 不會再建立新的 Private Endpoint。
-
-使用 Azure-provided DNS 時，不需要為同一個 VNet 的基本 Private DNS 解析另外建立 Azure DNS Private Resolver。Private Resolver 的成本遠高於 Zone，本來就使用 custom DNS、需要跨 on-premises 或集中式 conditional forwarding 時才評估。
+若 API 與 Auth Private Endpoint 已存在，新增 Private DNS Zone 不會再建立新的 Private Endpoint。需要估算時應直接查看 Azure 官方定價頁，避免把容易過時的單價寫進架構決策。
 
 ## 上線檢查清單
 

@@ -331,6 +331,7 @@ https://<auth-public-host>/.well-known/openid-configuration
 - [ABP App Settings](ABP-App-Settings.md)
 - [Azure App Service Deploy](Azure-App-Service-Deploy.md)
 - [Akamai Forward Host Header 對 App Service redirect 與 cookie 的影響](akamai-origin-host-header-app-service.md)
+- [Azure App Service Private Endpoint：Web、API、Auth 的 Split-horizon DNS](azure-app-service-split-horizon-dns.md)
 
 ## 參考資料
 

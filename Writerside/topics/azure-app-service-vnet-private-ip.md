@@ -189,6 +189,7 @@ privatelink.azurewebsites.net
 - [Azure App Service VNet Integration 查詢哪個 Subnet 正在被使用](Azure-App-Service-VNet-Integration-查詢-Subnet-使用者.md)
 - [Azure App Service 經 VNet Integration 與 S2S VPN 連內網時 `tcpping` timeout 排錯筆記](Azure-App-Service-VNet-tcpping-timeout.md)
 - [Azure App Service VNet Integration 連 Azure SQL Managed Instance Private Endpoint 的 DNS 筆記](azure-app-service-sql-mi-private-dns.md)
+- [Azure App Service Private Endpoint：Web、API、Auth 的 Split-horizon DNS](azure-app-service-split-horizon-dns.md)
 
 ## 參考資料
 
