@@ -299,6 +299,7 @@
             </toc-element>
             <toc-element toc-title="Azure SQL">
                 <toc-element topic="appservice-managed-identity-azure-sql.md"/>
+                <toc-element topic="datagrip-azure-sql-entra-auth-timeout.md" toc-title="DataGrip Azure SQL Entra 驗證逾時"/>
                 <toc-element topic="Azure-SQL-新增使用者並授予讀寫權限.md" />
                 <toc-element topic="AZURE-SQL-DB-將定價層轉移到彈性集區.md" />
                 <toc-element topic="Azure-SQL-MI-Database-Copy-Network.md"/>
