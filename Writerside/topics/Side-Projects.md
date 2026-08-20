@@ -1,21 +1,31 @@
 # Side Projects
 
-<web-summary>精選 Jakeuj 近期維護的 GitHub side projects，涵蓋 Guild Wars 2、Codex plugins、遊戲攻略、MUD 保存、瀏覽器擴充與 .NET 工具。</web-summary>
+<web-summary>精選 Jakeuj 近期維護並已公開發布的 side projects 與開源貢獻，涵蓋 Guild Wars 2 Nexus addon、Path of Exile 瀏覽器擴充、Codex plugins、遊戲攻略、MUD 保存與 oMLX。</web-summary>
 
-這裡精選我近期維護或具有代表性的 side projects，包含自有作品、社群在地化與可驗證的開源貢獻。資料更新日期為 2026-07-22；完整清單請見 [GitHub repositories](https://github.com/jakeuj?tab=repositories)。
+這裡精選我近期維護或具有代表性的 side projects，包含自有作品、社群在地化與可驗證的開源貢獻。資料更新日期為 2026-08-20；完整清單請見 [GitHub repositories](https://github.com/jakeuj?tab=repositories)。
 
 > 精選名單以目前仍在維護、具備可使用成果，或能清楚說明貢獻內容的專案為主，不是所有公開 repository 的自動鏡像。
 
 ## 近期主力專案
 
-### GW2-Nexus-Upgrade-Value
+### Upgrade Value
 
-Guild Wars 2 Nexus addon，透過官方 API 掃描帳號內裝備的符文與法印，比較 Trading Post 即時價格，協助判斷是否值得使用黑獅拆解工具。
+已通過 Raidcore 初始審查並公開列於 Nexus Addon Library（ID 128）的 Guild Wars 2 addon。它透過官方 API 掃描帳號內裝備的符文與法印，比較 Trading Post 即時價格並提供拆解建議；目前穩定版為 `v1.0.5`，支援英文與繁體中文，可直接從 Nexus 遊戲內的 Addon Library 安裝。
 
-- 連結：[GitHub](https://github.com/jakeuj/GW2-Nexus-Upgrade-Value)｜[專案網站](https://gw2-value.jakeuj.com/)｜[最新版本](https://github.com/jakeuj/GW2-Nexus-Upgrade-Value/releases/latest)
+- 連結：[GitHub](https://github.com/jakeuj/GW2-Nexus-Upgrade-Value)｜[專案網站](https://gw2-value.jakeuj.com/)｜[Nexus Addon Library](https://raidcore.gg/gw2/addons/upgrade-value)｜[穩定版 v1.0.5](https://github.com/jakeuj/GW2-Nexus-Upgrade-Value/releases/tag/v1.0.5)
 - 語言與技術：`C++` `GW2 Nexus` `GW2 API` `GitHub Actions`
 
 ![GW2-Nexus-Upgrade-Value last commit](https://img.shields.io/github/last-commit/jakeuj/GW2-Nexus-Upgrade-Value)
+
+### PoE Ninja to Chronicles PoB Sharer
+
+支援 Path of Exile 1 與 2 的瀏覽器擴充功能，可在 poe.ninja 角色頁面一鍵讀取 PoB、上傳至編年史、開啟中文 PoB 頁面，並將分享連結複製至剪貼簿。
+
+- 發布狀態：截至 2026-08-20，[Chrome Web Store](https://chromewebstore.google.com/detail/poe-ninja-to-chronicles-p/aidenhnleibhchnhilkpbpkgeanmeedh?hl=zh-TW) 約有 1,000 位使用者、5.0 評分（2 則評分），目前版本為 `1.2.1`
+- 連結：[GitHub](https://github.com/jakeuj/ChromeExtensionPobZh)｜[產品網站](https://poe.jakeuj.com/)｜[Chrome Web Store](https://chromewebstore.google.com/detail/poe-ninja-to-chronicles-p/aidenhnleibhchnhilkpbpkgeanmeedh?hl=zh-TW)｜[Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/ilpjikgeonkegldnjdgpmcdiibmlabng)｜[v1.2.1 release](https://github.com/jakeuj/ChromeExtensionPobZh/releases/tag/v1.2.1)
+- 語言與技術：`JavaScript` `Manifest V3` `Chrome Extension` `Edge Extension` `GitHub Actions`
+
+![ChromeExtensionPobZh last commit](https://img.shields.io/github/last-commit/jakeuj/ChromeExtensionPobZh)
 
 ### CodexPlugins
 
@@ -93,15 +103,6 @@ Guild Wars 2 Blish HUD Pathing marker packs 的繁體中文在地化專案，先
 
 ## 工具與應用
 
-### ChromeExtensionPobZh
-
-「忍者網轉編年史」瀏覽器擴充功能，協助在 Path of Exile Ninja 與編年史之間轉換、查找相關遊戲資料。
-
-- 連結：[GitHub](https://github.com/jakeuj/ChromeExtensionPobZh)｜[產品網站](https://poe.jakeuj.com/)
-- 語言與技術：`JavaScript` `Chrome Extension` `Edge Extension` `Path of Exile`
-
-![ChromeExtensionPobZh last commit](https://img.shields.io/github/last-commit/jakeuj/ChromeExtensionPobZh)
-
 ### pixerDotnet
 
 以 .NET 9 重寫 Pixer 電子相框上傳工具，處理圖片縮放與灰階封裝、TCP 傳輸、裝置狀態檢查及韌體升級。
@@ -122,6 +123,15 @@ Guild Wars 2 Blish HUD Pathing marker packs 的繁體中文在地化專案，先
 
 ## 開源貢獻
 
+### oMLX
+
+為 oMLX upstream 修正記憶體限制建議與模型 profile 套用流程，兩項變更均於 2026-08-18 合併：
+
+- [PR #2799](https://github.com/jundot/omlx/pull/2799)：將 wired-memory 建議值統一為核心可接受的整數 MiB，避免前後端產生無法滿足的警告循環。
+- [PR #2806](https://github.com/jundot/omlx/pull/2806)：解決 VLM-MTP profile 套用衝突、保留有效設定，並以 HTTP 400 回傳剩餘的驗證錯誤，避免部分寫入。
+- 連結：[upstream](https://github.com/jundot/omlx)｜[個人 fork](https://github.com/jakeuj/omlx)
+- 語言與技術：`Python` `JavaScript` `MLX` `Profile Validation` `Web Dashboard`
+
 ### GW2-ArcDPS-TChineseUI
 
 維護自 GW2 ArcDPS 繁體中文介面的 fork，補上設定保存、啟動與 hook lifecycle 修正、建置發布流程，以及網站與安裝文件。
@@ -133,10 +143,10 @@ Guild Wars 2 Blish HUD Pathing marker packs 的繁體中文在地化專案，先
 
 ### Nexus-Translations 繁體中文翻譯
 
-為 Raidcore Nexus 新增繁體中文語系；翻譯已透過 PR #48 合併至 upstream repository。
+透過 PR #48 為 Raidcore Nexus 初次加入繁體中文語系；後續 PR #49 依目前的簡體中文資源重新產生翻譯，使用 OpenCC `s2twp` 轉換台灣用字，並保留所有 localization keys、placeholders 與控制字元。PR #49 已合併並取代 #48 的版本。
 
-- 連結：[merged PR #48](https://github.com/RaidcoreGG/Nexus-Translations/pull/48)｜[upstream](https://github.com/RaidcoreGG/Nexus-Translations)｜[個人 fork](https://github.com/jakeuj/Nexus-Translations)
-- 語言與技術：`Guild Wars 2` `Nexus` `Localization` `Traditional Chinese`
+- 連結：[初始 PR #48](https://github.com/RaidcoreGG/Nexus-Translations/pull/48)｜[更新 PR #49](https://github.com/RaidcoreGG/Nexus-Translations/pull/49)｜[upstream](https://github.com/RaidcoreGG/Nexus-Translations)｜[個人 fork](https://github.com/jakeuj/Nexus-Translations)
+- 語言與技術：`Guild Wars 2` `Nexus` `Localization` `Traditional Chinese` `OpenCC`
 
 ![Nexus-Translations last commit](https://img.shields.io/github/last-commit/jakeuj/Nexus-Translations)
 
