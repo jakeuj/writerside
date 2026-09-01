@@ -42,7 +42,7 @@ model_catalog_json = "/Users/user/.codex/model-catalogs/omlx.json"
 
 在 `~/.omlx/settings.json` 中，最重要的兩個區塊是 `sampling` 與 `auth`：
 
-```jsonc
+```json
 "sampling": {
     "max_context_window": 262144,
     "max_tokens": 32768,
@@ -68,7 +68,7 @@ model_catalog_json = "/Users/user/.codex/model-catalogs/omlx.json"
 
 `model-catalogs/omlx.json` 包含實際的模型規格：
 
-```jsonc
+```json
 {
   "slug": "Qwen3.6-35B-A3B",
   "display_name": "Qwen3.6 35B A3B",

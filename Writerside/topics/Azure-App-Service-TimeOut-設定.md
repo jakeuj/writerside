@@ -12,7 +12,7 @@ Azure App Service 的 timeout 不能只靠一個設定值解決。Windows App Se
 >
 > **更新日期：** 2026-08-27
 
-## 先判斷是哪一層 timeout
+## 先判斷是哪一層 timeout {#timeout-layers}
 
 | 層級 | 設定 | 適用情境 | 重點 |
 | --- | --- | --- | --- |
@@ -110,7 +110,7 @@ ASP.NET Core 本身不會預設限制每個 request 的處理時間。ASP.NET Co
 
 以下範例把全域 timeout 設為 180 秒，讓應用程式在 App Service 前端 timeout 前先取消 request：
 
-```csharp
+```C#
 using Microsoft.AspNetCore.Http.Timeouts;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -135,7 +135,7 @@ app.Run();
 
 這個 middleware 用來建立可控的應用程式 timeout policy，不是用來延長 Azure App Service 的 request 時間。
 
-## 上傳大小限制不是 timeout
+## 上傳大小限制不是 timeout {#request-body-size-limits}
 
 原本筆記中的 `maxRequestLength` 與 `maxAllowedContentLength` 是 request body 大小限制。以 100 MiB 為例：
 
