@@ -95,11 +95,4 @@ example command
 
 ## 發布索引與 RSS
 
-- 新增正式文章時，登錄 `data/posts.json`：topic、核對過的公開 URL、published（Asia/Taipei 日期）、date_basis；若不適合訂閱，加入 excluded 並說明原因。舊文未登錄不需整批回填。
-- 日期優先採原文發布日期；Git 首次新增紀錄須排除搬站、改名與批次匯入，不使用部署或檔案修改日期。
-- 標題與摘要取 H1、web-summary；缺少 web-summary 時可在清單提供 summary。
-- 重大更新填 updated 與 update_summary，僅列首頁；不要修改 published 或 URL GUID 來推送舊文。
-- 執行 `npm run publications:generate`，將首頁與近期索引的生成差異一起提交；`npm run publications:check` 驗證同步。不可手改生成區塊。
-- 新文網址在部署產物以 og:url 確認，canonical 缺少時補上；不符合清單則中止發布。
-- `python3 scripts/publication.py publish --site <解壓網站目錄>` 產生 feed.xml 及 RSS 探索標籤。RSS 首次包含歷史 20 篇，之後只按原始發布日期取最近 20 篇。
-- registration_baseline 固定為首次導入前的 commit；check 會要求此後新增的 topic 登錄或排除。不要向前移動 baseline 來跳過檢查；CI check 需要完整 Git 歷史。
+新增 topic 要登錄 `data/posts.json` 或說明排除原因；已登錄文章修改 H1／摘要時也要重新生成入口頁。日期、資料欄位、生成命令與 RSS 規則讀 [publication-reference.md](publication-reference.md)。

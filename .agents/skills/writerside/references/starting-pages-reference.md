@@ -11,6 +11,10 @@
 
 - `Starting pages`
 
+## 現有首頁
+
+目前首頁是保留 `default.html` 的 Markdown topic，最新文章區塊與 `recent-posts.md` 由 publication.py 生成。維護現有首頁、精選或 RSS 時讀 [publication-reference.md](publication-reference.md)，不要因它是首頁就轉成 XML starting page。以下適用明確要建立 XML 入口頁的需求。
+
 ## 先判斷需不需要 starting page
 
 - starting page 適合首頁，或一組相關 TOC 內容的入口頁。

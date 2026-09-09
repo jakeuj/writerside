@@ -1,6 +1,6 @@
 ---
 name: writerside
-description: 從任何專案蒐集技術資訊，整理成可公開發布的 Writerside 技術筆記，並回寫固定 repo `/Users/jakeuj/WritersideProjects/writerside`。涵蓋 topics/hi.tree、web-summary/SEO、去識別化、Markdown 與 semantic markup、anchor/TOC/checker（含 MRK002）、GitHub Pages、header/footer、自訂 HTML/CSS/JavaScript、第三方 widget、sitemap/robots、Search Console、站內搜尋與 Algolia；在使用者明確要求時也可 commit/push。用於跨 repo 整理筆記、修 Writerside 錯誤、調整網站外觀、站台注入、發布或搜尋設定。
+description: 從其他專案萃取可公開技術資訊，回寫 /Users/jakeuj/WritersideProjects/writerside；維護文章、TOC、SEO、最新文章與 RSS，並依任務範圍驗證或發布。
 ---
 
 # 從任何專案回寫 Writerside 發布 repo
@@ -40,6 +40,7 @@ description: 從任何專案蒐集技術資訊，整理成可公開發布的 Wri
 - 內部 topic 連結只用 `[標題](topic-filename.md)`：保留 `.md`，不要加 `./` 或 `../`。
 - XML/semantic markup 與 `hi.tree` 中的 `&`、`<`、`>` 必須正確 escape；Markdown 一般文字的 `&` 通常可保留。
 - 超過約 40 列或單一 section 接近 8000 bytes 的表格/清單要拆成穩定、唯一 anchor 的同層 sections。
+- 新 topic 要在 `data/posts.json` 登錄或提供排除原因；已登錄文章的 H1／摘要改動也會影響生成入口，需重建並驗證。首頁生成區塊與近期索引不可直接手改。
 
 ## 驗證與發布
 
@@ -54,6 +55,7 @@ description: 從任何專案蒐集技術資訊，整理成可公開發布的 Wri
 以下路徑都位於已安裝的 writerside skill；內容中的 repo 相對路徑則以 `WRITERSIDE_REPO` 為根目錄。
 
 - **文章工作流**：新增/改寫 topic、檔名、文章骨架、公開內容安全、TOC、內部連結或大型 section 時讀 `references/topic-authoring-workflow.md`。
+- **最新文章與 RSS**：新增文章登錄、發布日期、精選、重大更新、首頁生成區塊或 feed 驗證時讀 [publication-reference.md](references/publication-reference.md)。
 - **摘要與入口頁**：`web-summary`、link/card summary 或 Search Console 摘要讀 `references/summary-reference.md`；quick facts 讀 `references/tldr-reference.md`；首頁/章節入口頁讀 `references/starting-pages-reference.md`。
 - **一般 markup**：Markdown/XML 選擇、tabs/procedure/include 等讀 `references/markup-reference.md`；長文結構讀 `references/structural-elements.md`；清單、表格與提醒分別讀 `references/lists-reference.md`、`references/tables-reference.md`、`references/admonitions-reference.md`。
 - **程式碼與媒體**：code block、CDATA、`ignore-vars` 讀 `references/code-reference.md`；圖片/GIF/thumbnail/MRK058 讀 `references/images-reference.md`；附件讀 `references/downloadable-resources-reference.md`。

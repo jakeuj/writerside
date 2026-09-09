@@ -13,7 +13,7 @@
 | 單檔 Markdown | `npx markdownlint-cli2 --no-globs Writerside/topics/<topic-file>.md` | 快速確認單篇格式 | Writerside checker 錯誤 |
 | 單檔 Markdown 修復 | `npx markdownlint-cli2 --fix --no-globs Writerside/topics/<topic-file>.md` | 修可自動修復的格式問題 | Writerside checker 錯誤 |
 | 全站 Markdown | `./scripts/check-markdown.sh` | 掃整個 `Writerside/topics/**/*.md` | Writerside checker 錯誤 |
-| 本地部署前檢查 | `npm run pre-deploy` | Markdown + 必要配置檔 + `hi.tree` XML | 真正的 Writerside build/checker 問題 |
+| 本地部署前檢查 | `npm run pre-deploy` | 發布資料與生成同步 + Markdown + 必要配置檔 + `hi.tree` XML | 真正的 Writerside build/checker 問題 |
 | CI 權威檢查 | `.github/workflows/deploy.yml` | Writerside build + checker + GitHub Pages deploy + Algolia publish | 無，這是最接近正式結果的一層 |
 
 ## 為什麼單檔要加 `--no-globs`
@@ -27,6 +27,10 @@
 ```
 
 如果不加 `--no-globs`，即使你命令列只指定一個檔案，`markdownlint-cli2` 還是可能把整個 `Writerside/topics/**/*.md` 一起掃進來。
+
+## 發布索引檢查
+
+新增文章，或修改已登錄文章的 H1／摘要時，先跑 `npm run publications:generate` 與 `npm run publications:check`；生成差異也屬於此次變更。只跑單檔 Markdown 不會發現漏登錄或首頁過期。改產生器與 RSS 流程時另跑 `npm run publications:test`；詳見 [publication-reference.md](publication-reference.md)。
 
 ## 推薦流程
 

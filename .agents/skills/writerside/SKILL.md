@@ -1,6 +1,6 @@
 ---
 name: writerside
-description: 在目前的 JetBrains Writerside repo `/Users/jakeuj/WritersideProjects/writerside` 中撰寫、修改與驗證公開技術筆記及站台設定。涵蓋 `Writerside/topics/*.md`、`Writerside/hi.tree`、web-summary/SEO、去識別化、Markdown 與 semantic markup、anchor/TOC/checker（含 MRK002）、GitHub Pages、header/footer、自訂 HTML/CSS/JavaScript、第三方 widget、sitemap/robots、Search Console、站內搜尋與 Algolia。用於新增或改寫文章、修 Writerside/Markdown 錯誤、調整網站外觀、站台注入、發布或搜尋設定；若從其他專案蒐集內容並回寫固定發布 repo，改用全域版 writerside skill。
+description: 在目前 Writerside repo 撰寫與驗證公開技術筆記，維護 TOC、SEO、最新文章首頁、RSS、站台設定與部署。新增或改寫文章、修 checker 或調整閱讀與搜尋入口時使用；跨專案蒐集資訊並回寫此 repo 時用全域版。
 ---
 
 # 在這個 repo 中處理 Writerside
@@ -39,6 +39,7 @@ description: 在目前的 JetBrains Writerside repo `/Users/jakeuj/WritersidePro
 - 內部 topic 連結只用 `[標題](topic-filename.md)`：保留 `.md`，不要加 `./` 或 `../`。
 - XML/semantic markup 與 `hi.tree` 中的 `&`、`<`、`>` 必須正確 escape；Markdown 一般文字的 `&` 通常可保留。
 - 超過約 40 列或單一 section 接近 8000 bytes 的表格/清單要拆成穩定、唯一 anchor 的同層 sections。
+- 新 topic 要在 `data/posts.json` 登錄或提供排除原因；已登錄文章的 H1／摘要改動也會影響生成入口，需重建並驗證。首頁生成區塊與近期索引不可直接手改。
 
 ## 驗證原則
 
@@ -50,6 +51,7 @@ description: 在目前的 JetBrains Writerside repo `/Users/jakeuj/WritersidePro
 ## 參考檔路由
 
 - **文章工作流**：新增/改寫 topic、檔名、文章骨架、公開內容安全、TOC、內部連結或大型 section 時讀 [topic-authoring-workflow.md](references/topic-authoring-workflow.md)。
+- **最新文章與 RSS**：新增文章登錄、發布日期、精選、重大更新、首頁生成區塊或 feed 驗證時讀 [publication-reference.md](references/publication-reference.md)。
 - **摘要與入口頁**：`web-summary`、link/card summary 或 Search Console 摘要讀 [summary-reference.md](references/summary-reference.md)；quick facts 讀 [tldr-reference.md](references/tldr-reference.md)；首頁/章節入口頁讀 [starting-pages-reference.md](references/starting-pages-reference.md)。
 - **一般 markup**：Markdown/XML 選擇、tabs/procedure/include 等讀 [markup-reference.md](references/markup-reference.md)；長文結構讀 [structural-elements.md](references/structural-elements.md)；清單、表格與提醒分別讀 [lists-reference.md](references/lists-reference.md)、[tables-reference.md](references/tables-reference.md)、[admonitions-reference.md](references/admonitions-reference.md)。
 - **程式碼與媒體**：code block、CDATA、`ignore-vars` 讀 [code-reference.md](references/code-reference.md)；圖片/GIF/thumbnail/MRK058 讀 [images-reference.md](references/images-reference.md)；附件讀 [downloadable-resources-reference.md](references/downloadable-resources-reference.md)。

@@ -246,3 +246,9 @@ Sitemap: https://jakeuj.com/sitemap.xml
 - Pages 設定錯
 - 圖片 / 路徑 / `web-path` 錯
 - `llms.txt` 沒啟用，或啟用後沒有在 artifact / 部署輸出中驗到
+
+## 最新文章與 RSS 建置銜接
+
+build 在 Writerside builder 前執行 `publication.py check` 與發布功能測試；deploy 在現有 SEO 處理後、Pages artifact 上傳前執行 `publication.py publish --site dir`。feed.xml 隨網站產物發布，不由 Writerside 自動生成。資料與驗收方式讀 [publication-reference.md](publication-reference.md)。
+
+需要本地 Docker 建置時，沿用 workflow 的 builder 版本，在可寫的暫存來源副本操作；builder 會準備專案資料。OUTPUT_DIR 使用掛載目錄下的子目錄（例如 `/out/result`），不要直接指向掛載根 `/out`，因為 builder 清理輸出目錄時可能遇到 Device or resource busy。macOS 解壓 ZIP 若遇到中文檔名編碼錯誤，改用支援 UTF-8 的解壓方式；不要將部分解壓誤判為文章遺失。以上只在需要本地 build 時適用，一般寫作不必啟動 Docker。
