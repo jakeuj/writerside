@@ -252,3 +252,15 @@ Sitemap: https://jakeuj.com/sitemap.xml
 build 在 Writerside builder 前執行 `publication.py check` 與發布功能測試；deploy 在現有 SEO 處理後、Pages artifact 上傳前執行 `publication.py publish --site dir`。feed.xml 隨網站產物發布，不由 Writerside 自動生成。資料與驗收方式讀 [publication-reference.md](publication-reference.md)。
 
 需要本地 Docker 建置時，沿用 workflow 的 builder 版本，在可寫的暫存來源副本操作；builder 會準備專案資料。OUTPUT_DIR 使用掛載目錄下的子目錄（例如 `/out/result`），不要直接指向掛載根 `/out`，因為 builder 清理輸出目錄時可能遇到 Device or resource busy。macOS 解壓 ZIP 若遇到中文檔名編碼錯誤，改用支援 UTF-8 的解壓方式；不要將部分解壓誤判為文章遺失。以上只在需要本地 build 時適用，一般寫作不必啟動 Docker。
+
+## Push 觸發範圍
+
+`deploy.yml` 的 push 只接受 main／master，並以 paths 白名單限定網站輸入：
+
+- `Writerside/**`，但排除其中的 `*.bak` 與 `AGENTS.md`。
+- `data/posts.json`、`scripts/publication.py`。
+- `robots.txt`、`CNAME`、`.github/workflows/deploy.yml`。
+
+一次 push 至少含一個符合白名單的變更才啟動部署；只有根目錄 README、docs、技能或其他工具檔案變更不會觸發。`workflow_dispatch` 保留手動建置。負向排除規則要放在 Writerside 正向規則之後；新增網站建置依賴時同步補進白名單。
+
+這個 workflow 沒有另設工具或測試專用的輕量 CI；白名單之外的修改仍按任務執行必要的本地檢查。本地 pre-push hook 的檢查不受 GitHub paths 篩選影響。
