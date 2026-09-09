@@ -1,0 +1,137 @@
+{
+  "posts": [
+    {
+      "topic": "datagrip-azure-sql-entra-auth-timeout.md",
+      "url": "https://jakeuj.com/datagrip-azure-sql-entra-auth-timeout.html",
+      "published": "2026-08-17",
+      "date_basis": "核對首次新增文章提交；314e8bfb51c6fa4df005a206f5f325106144cd8c docs: add DataGrip Azure SQL Entra timeout guide"
+    },
+    {
+      "topic": "azure-app-service-split-horizon-dns.md",
+      "url": "https://jakeuj.com/azure-app-service-split-horizon-dns.html",
+      "published": "2026-08-07",
+      "date_basis": "核對首次新增文章提交；539664103c5146d9c6d30eebb73bec55db38df12 📄 docs: add Split-horizon DNS guidance for Azure App Service"
+    },
+    {
+      "topic": "app-store-ipa-ipatool-download-extract.md",
+      "url": "https://jakeuj.com/app-store-ipa-ipatool-download-extract.html",
+      "published": "2026-08-05",
+      "date_basis": "核對首次新增文章提交；13804d8ec0b4ea7d6f640f08e0f11799f8e8850c docs: add App Store IPA download note"
+    },
+    {
+      "topic": "crossover-guild-wars-2-arcdps.md",
+      "url": "https://jakeuj.com/crossover-guild-wars-2-arcdps.html",
+      "published": "2026-07-15",
+      "date_basis": "核對首次新增文章提交；0f28534baecf0c9ee47f025190700bf7a99397b3 ✨ 新增(docs): 添加 CrossOver GW2 安裝 arcdps 的目錄元素"
+    },
+    {
+      "topic": "omlx-ornith-codex-settings.md",
+      "url": "https://jakeuj.com/omlx-ornith-codex-settings.html",
+      "published": "2026-07-08",
+      "date_basis": "核對首次新增文章提交；96bcb562eaf016469c849bcd99a8916a733c0cd5 docs: add omlx ornith codex settings note"
+    },
+    {
+      "topic": "omlx-claude-code-desktop-setup.md",
+      "url": "https://jakeuj.com/omlx-claude-code-desktop-setup.html",
+      "published": "2026-07-02",
+      "date_basis": "核對首次新增文章提交；c69a911a2fea42bbe694e888ee96e1011a181a50 ✨ 新增(toc): 加入 oMLX-Claude-Code-Desktop.md 參考"
+    },
+    {
+      "topic": "codex-plugin-build-guide.md",
+      "url": "https://jakeuj.com/codex-plugin-build-guide.html",
+      "published": "2026-07-02",
+      "date_basis": "核對首次新增文章提交；3f644e683a88a7adebc23cafff0907fd7a03dc72 docs: add Codex Plugin 建立指南"
+    },
+    {
+      "topic": "apple-silicon-mlx-local-llm-tools.md",
+      "url": "https://jakeuj.com/apple-silicon-mlx-local-llm-tools.html",
+      "published": "2026-07-01",
+      "date_basis": "核對首次新增文章提交；3e71dd8fddc2f04cdda20738b27bf6c33da1e767 📄 文件: 更新 hi.tree，新增 Apple Silicon MLX 工具選型目錄項 📄 文件: 更新 LLM.md，調整建議閱讀順序並新增 35B 級距 Coding Agent 模型比較"
+    },
+    {
+      "topic": "ornith-qwen-gemma-35b-model-comparison.md",
+      "url": "https://jakeuj.com/ornith-qwen-gemma-35b-model-comparison.html",
+      "published": "2026-07-01",
+      "date_basis": "核對首次新增文章提交；3e71dd8fddc2f04cdda20738b27bf6c33da1e767 📄 文件: 更新 hi.tree，新增 Apple Silicon MLX 工具選型目錄項 📄 文件: 更新 LLM.md，調整建議閱讀順序並新增 35B 級距 Coding Agent 模型比較"
+    },
+    {
+      "topic": "sql-server-2025-docker-apple-silicon.md",
+      "url": "https://jakeuj.com/sql-server-2025-docker-apple-silicon.html",
+      "published": "2026-07-01",
+      "date_basis": "核對首次新增文章提交；1873d59c1555087e2a57a4fa9403a3a85839de14 📄 文件: 更新 hi.tree，新增 SQL Server 2025 Docker on Apple Silicon 的目錄項"
+    },
+    {
+      "topic": "codex-app-omlx-qwen3-6-setup.md",
+      "url": "https://jakeuj.com/codex-app-omlx-qwen3-6-setup.html",
+      "published": "2026-07-01",
+      "date_basis": "核對首次新增文章提交；b20d4ddcaeba3477972a13d3a2002a51b08a1afd 📄 文件: 更新 hi.tree，新增 Codex App oMLX Qwen3.6 設定文檔"
+    },
+    {
+      "topic": "gguf_fp16_distill_q4km_notes.md",
+      "url": "https://jakeuj.com/gguf-fp16-distill-q4km-notes.html",
+      "published": "2026-06-12",
+      "date_basis": "核對首次新增文章提交；49dc76ca34fc61640ebbda00c098ba8964bc4db6 📄 文件: 新增多個 LLM 相關文檔至目錄"
+    },
+    {
+      "topic": "llm_local_serving_comparison_notes_zh-TW.md",
+      "url": "https://jakeuj.com/llm-local-serving-comparison-notes-zh-tw.html",
+      "published": "2026-06-12",
+      "date_basis": "核對首次新增文章提交；49dc76ca34fc61640ebbda00c098ba8964bc4db6 📄 文件: 新增多個 LLM 相關文檔至目錄"
+    },
+    {
+      "topic": "ollama_diffusiongemma_notes_2026-06-12.md",
+      "url": "https://jakeuj.com/ollama-diffusiongemma-notes-2026-06-12.html",
+      "published": "2026-06-12",
+      "date_basis": "核對首次新增文章提交；49dc76ca34fc61640ebbda00c098ba8964bc4db6 📄 文件: 新增多個 LLM 相關文檔至目錄"
+    },
+    {
+      "topic": "bizhub-c651i-macos-driver-install.md",
+      "url": "https://jakeuj.com/bizhub-c651i-macos-driver-install.html",
+      "published": "2026-06-11",
+      "date_basis": "核對首次新增文章提交；20cb1a98c595413830de43085ca2dd773a52ee36 ✨ 功能: 新增 bizhub C651i Mac 安裝指南至目錄"
+    },
+    {
+      "topic": "abp-azure-akamai-deployment-checklist.md",
+      "url": "https://jakeuj.com/abp-azure-akamai-deployment-checklist.html",
+      "published": "2026-06-10",
+      "date_basis": "核對首次新增文章提交；25c12eb830f22b8751231c81051bf60f6ff52442 📄 文件: 新增 ABP Azure Akamai 部署檢查表"
+    },
+    {
+      "topic": "akamai-origin-host-header-app-service.md",
+      "url": "https://jakeuj.com/akamai-origin-host-header-app-service.html",
+      "published": "2026-06-10",
+      "date_basis": "核對首次新增文章提交；420fa0c1241e13c95b55b70e721d3e7f102a96a5 新增 Akamai Host Header 與 App Service 的相關說明",
+      "summary": "釐清 Akamai Forward Host Header 如何影響 App Service 登入轉址、cookie 與公開網域設定。"
+    },
+    {
+      "topic": "macos-mdns-ssh-hostname-resolution.md",
+      "url": "https://jakeuj.com/macos-mdns-ssh-hostname-resolution.html",
+      "published": "2026-05-29",
+      "date_basis": "核對首次新增文章提交；bfba067dbca267d8bd9306a44adc782c7853da09 新增 macOS mDNS 與 SSH hostname 的相關筆記",
+      "summary": "排查 macOS SSH 主機名稱無法解析問題，依情境使用 mDNS 的 .local 名稱或 hosts 固定別名。"
+    },
+    {
+      "topic": "azure-app-service-vnet-private-ip.md",
+      "url": "https://jakeuj.com/azure-app-service-vnet-private-ip.html",
+      "published": "2026-04-30",
+      "date_basis": "核對首次新增文章提交；f675d81e7b29296016facd4456ab361daa07777b 📄 文件: 添加 Azure App Service VNet Integration 查內網 IP 的文檔",
+      "summary": "使用 WEBSITE_PRIVATE_IP 查詢 App Service VNet Integration 的出站內網 IP，分辨與 Private Endpoint 入站位址的差異。"
+    },
+    {
+      "topic": "azure-app-service-sql-mi-private-dns.md",
+      "url": "https://jakeuj.com/azure-app-service-sql-mi-private-dns.html",
+      "published": "2026-04-30",
+      "date_basis": "核對首次新增文章提交；ec57678866ebcebaf9952a7842dba17e66dc1981 📄 文件: 添加 Azure App Service 連 SQL MI Private DNS 的文檔",
+      "summary": "設定 App Service 連線 Azure SQL Managed Instance Private Endpoint 所需的私人 DNS，並驗證名稱解析。"
+    }
+  ],
+  "featured": [
+    "datagrip-azure-sql-entra-auth-timeout.md",
+    "apple-silicon-mlx-local-llm-tools.md",
+    "sql-server-2025-docker-apple-silicon.md"
+  ],
+  "excluded": {
+    "recent-posts.md": "自動生成的近期文章索引"
+  },
+  "registration_baseline": "9a694f5d2a8f1721917b0a1ba683cb4f48f549f6"
+}

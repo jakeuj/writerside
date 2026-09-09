@@ -45,6 +45,11 @@ jobs:
         with:
           fetch-depth: 0
       
+      - name: Check publication pages and RSS tests
+        run: |
+          python3 scripts/publication.py check
+          python3 -m unittest discover -s scripts/tests -p "test_publication.py"
+
       - name: Build docs using Writerside Docker builder
         uses: JetBrains/writerside-github-action@v4
         with:
@@ -354,6 +359,9 @@ jobs:
           fi
         done
     
+    - name: Generate RSS and validate publication URLs
+      run: python3 scripts/publication.py publish --site dir
+
     - name: Setup Pages
       uses: actions/configure-pages@v4
     

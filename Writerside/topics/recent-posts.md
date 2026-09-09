@@ -1,14 +1,12 @@
-# Jakeuj 筆記本
+# 最新文章
 
-<web-summary>Jakeuj 筆記本整理 .NET、ABP、Azure、GCP、Docker、AI 工具、macOS 與開發環境疑難排解，提供可公開查閱的實作筆記與排錯紀錄。</web-summary>
+<web-summary>依發布日期瀏覽 Jakeuj 的近期技術文章，涵蓋雲端、開發工具與實作排錯筆記。</web-summary>
 
-Jakeuj 筆記本整理 .NET、ABP、Azure、GCP、Docker、AI 工具、macOS 與開發環境疑難排解筆記，作為日常實作與問題追蹤的公開知識庫。
+這裡收錄已整理發布日期的文章，尚未涵蓋全部歷史文章；其他筆記可從左側分類瀏覽。
 
-[訂閱新文章 RSS](https://jakeuj.com/feed.xml)
+[訂閱新文章 RSS](https://jakeuj.com/feed.xml) · [返回首頁](Default.md)
 
-<!-- publications:start -->
-
-## 最新文章
+## 2026 {#year-2026-1}
 
 - [DataGrip 連線 Azure SQL：Microsoft Entra Default 驗證 20 秒逾時排錯](datagrip-azure-sql-entra-auth-timeout.md) — 2026-08-17
 
@@ -50,40 +48,44 @@ Jakeuj 筆記本整理 .NET、ABP、Azure、GCP、Docker、AI 工具、macOS 與
 
   比較 Ornith-1.0-35B、Qwen3.6-35B 與 Gemma 4 31B 在 coding agent benchmark 與企業內部 MIS 場景的選型差異。
 
-[查看所有近期文章](recent-posts.md)
-
-## 精選文章
-
-- [DataGrip 連線 Azure SQL：Microsoft Entra Default 驗證 20 秒逾時排錯](datagrip-azure-sql-entra-auth-timeout.md) — 2026-08-17
-
-  DataGrip 使用 Microsoft Entra ID Default 連線 Azure SQL 出現 switchIfEmpty 20 秒逾時時，可從 macOS GUI PATH 與 Azure CLI 自動更新輸出污染快速定位並修復。
-
-- [Apple Silicon Mac 跑本地 LLM 時，MLX、Ollama、LM Studio、oMLX 怎麼選](apple-silicon-mlx-local-llm-tools.md) — 2026-07-01
-
-  Apple Silicon Mac 跑本地 LLM 或 VLM 時，先分清楚 MLX、mlx-lm、mlx-vlm、oMLX、LM Studio、Ollama 與 GGUF 的定位，再依聊天、Hugging Face MLX 模型、coding agent 或跨平台部署選工具。
+## 2026（續 1） {#year-2026-2}
 
 - [Apple Silicon Mac 用 Docker 跑 SQL Server 2025 避開 AVX crash](sql-server-2025-docker-apple-silicon.md) — 2026-07-01
 
   Apple Silicon Mac 使用 Docker Desktop 跑 SQL Server 2025 時，如果遇到 AVX assertion crash，優先改用固定 SQL Server 2025 CU tag、開啟 Rosetta amd64 emulation，並避免吃到舊的 2025-latest cache。
 
-## 主題入口
+- [GGUF、半精度、模型蒸餾與 Q4_K_M 筆記](gguf_fp16_distill_q4km_notes.md) — 2026-06-12
 
-- [.NET／C#](C-Sharp.md)
-- [ABP](ABP.md)
-- [Azure](Azure.md)
-- [Docker](Docker.md)
-- [AI／LLM](LLM.md)
-- [macOS：開發環境設定](macOS_dotfiles_guide.md)
+  理解 GGUF、FP16/BF16、Distill 與 Q4_K_M 的差異，判斷本地 LLM 下載時該選半精度、蒸餾模型或量化格式。
 
-<!-- publications:end -->
+- [llama.cpp、Ollama、LM Studio、vLLM](llm_local_serving_comparison_notes_zh-TW.md) — 2026-06-12
 
-## 關於 Jakeuj
+  比較 llama.cpp、Ollama、LM Studio 與 vLLM 的定位、模型格式、部署場景與企業內部 LLM serving 選型建議。
 
-我在這裡分享開發工具、雲端服務與日常實作的技術筆記。
+- [Ollama DiffusionGemma](ollama_diffusiongemma_notes_2026-06-12.md) — 2026-06-12
 
-- [作品與開源專案](Side-Projects.md)
-- [相關連結](links.md)
-- [渥吉遊戲股份有限公司(67038125)](https://www.twfile.com/item.aspx?no=67038125#:~:text=10609-,%E8%91%A3%E4%BA%8B%E9%95%B7%20%E6%9C%B1%E7%AB%8B%E6%81%86){ignore-vars="true"}
-- 用 [Writerside](https://www.jetbrains.com/writerside/) 取代 [點部落](https://www.dotblogs.com.tw/jakeuj/)
-- [抖內](https://www.paypal.com/ncp/payment/PLYGLLUS2Z8VS)
-- [贊助](https://paypal.me/jakeuj)
+  判斷 DiffusionGemma 目前是否適合用 Ollama 執行，並比較 vLLM、llama.cpp DiffusionGemma 分支與 GGUF CLI 的可行路線。
+
+- [bizhub C651i Mac 印表機驅動安裝說明](bizhub-c651i-macos-driver-install.md) — 2026-06-11
+
+  在 macOS 安裝 KONICA MINOLTA bizhub C651i 印表機驅動，並用固定 IP、IPP 佇列與 C651i PS driver 重新加入印表機。
+
+- [ABP 分離 Auth/API 專案部署到 Azure 與 Akamai 檢查表](abp-azure-akamai-deployment-checklist.md) — 2026-06-10
+
+  ABP 分離式 Auth/API 專案部署到 Azure App Service 並經 Akamai 對外服務時，用這份檢查表對齊 hostname、TLS/SNI、OpenIddict redirect URI、SelfUrl 與前端 OIDC 設定。
+
+- [Akamai Forward Host Header 對 App Service redirect 與 cookie 的影響](akamai-origin-host-header-app-service.md) — 2026-06-10
+
+  釐清 Akamai Forward Host Header 如何影響 App Service 登入轉址、cookie 與公開網域設定。
+
+- [macOS SSH 連線遇到 hostname 無法解析時，用 mDNS 或 hosts 處理](macos-mdns-ssh-hostname-resolution.md) — 2026-05-29
+
+  排查 macOS SSH 主機名稱無法解析問題，依情境使用 mDNS 的 .local 名稱或 hosts 固定別名。
+
+- [Azure App Service VNet Integration 連 Azure SQL Managed Instance Private Endpoint 的 DNS 筆記](azure-app-service-sql-mi-private-dns.md) — 2026-04-30
+
+  設定 App Service 連線 Azure SQL Managed Instance Private Endpoint 所需的私人 DNS，並驗證名稱解析。
+
+- [Azure App Service VNet Integration 後如何查內網 IP](azure-app-service-vnet-private-ip.md) — 2026-04-30
+
+  使用 WEBSITE_PRIVATE_IP 查詢 App Service VNet Integration 的出站內網 IP，分辨與 Private Endpoint 入站位址的差異。

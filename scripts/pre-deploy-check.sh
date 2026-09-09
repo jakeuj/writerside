@@ -5,6 +5,8 @@
 
 set -e
 
+python3 scripts/publication.py check
+
 # 顏色定義
 RED='\033[0;31m'
 GREEN='\033[0;32m'

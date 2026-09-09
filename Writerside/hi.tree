@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <instance-profile id="hi" name="Jakeuj's Notes" start-page="Default.md">
     <toc-element topic="Default.md">
+        <toc-element topic="recent-posts.md"/>
         <toc-element toc-title="Mac">
             <toc-element topic="macOS-WiFi-DNS-設定筆記.md"/>
             <toc-element topic="macos-mdns-ssh-hostname-resolution.md" toc-title="macOS mDNS 與 SSH hostname"/>
