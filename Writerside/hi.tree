@@ -560,6 +560,7 @@
             <toc-element topic="Unity-5-使用-Android-SDK-API-24-問題.md" />
         </toc-element>
         <toc-element toc-title="其他">
+            <toc-element topic="chrome-edge-extension-cd-github-actions.md" toc-title="Chrome / Edge 擴充套件自動發布"/>
             <toc-element topic="CSS3-背景圖片加半透明黑色遮色片.md" />
             <toc-element topic="ERR_CONNECTION_RESET.md" />
             <toc-element topic="影片分享-介紹-DevOps-軟體開發文化-(TechDays).md" />
