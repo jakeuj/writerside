@@ -36,7 +36,7 @@ flowchart LR
 
 ## Edge Add-ons：Publish API v1.1
 
-### 申請憑證
+### 申請憑證 {#edge-credentials}
 
 1. 登入 [Partner Center](https://partner.microsoft.com/dashboard/microsoftedge/publishapi)，左側 Microsoft Edge 底下選 **Publish API**。
 2. 按「開啟 API」，再按「建立 API 認證」，會得到 **Client ID** 與一組 **API key**。API key 有到期日，到期要重新產生並更新 secret。
@@ -52,7 +52,7 @@ gh secret set EDGE_API_KEY
     <p>舊的 v1 流程（client secret 換 access token）已於 2024 年底停止支援；網路上很多文章仍在講 v1，照抄會拿到 401。</p>
 </note>
 
-### API 呼叫順序
+### API 呼叫順序 {#edge-api-calls}
 
 | 步驟 | 方法與路徑 | 回應 |
 |------|-----------|------|
@@ -63,7 +63,7 @@ gh secret set EDGE_API_KEY
 
 每個請求都帶兩個標頭：`Authorization: ApiKey <api-key>` 與 `X-ClientID: <client-id>`。上傳時再加 `Content-Type: application/zip`。
 
-### Workflow job
+### Workflow job {#edge-workflow-job}
 
 ```yaml
   publish-edge:
@@ -135,7 +135,7 @@ gh secret set EDGE_API_KEY
 
 ## Chrome Web Store：Web Store API v2
 
-### 申請憑證
+### 申請憑證 {#chrome-credentials}
 
 Google 的憑證不在 Chrome Web Store 開發人員資訊主頁，要去 Google Cloud Console 建 OAuth 用戶端，流程比 Edge 長很多。
 
@@ -159,7 +159,7 @@ gh secret set CHROME_REFRESH_TOKEN
 
 轉正式版時要填應用程式首頁、隱私權政策、服務條款連結與已授權網域。已授權網域填根網域（例如 `example.com`），首頁與政策頁必須落在這個網域下，所以要先有一個自己的網站，GitHub 網址不能充數。
 
-### API 呼叫順序
+### API 呼叫順序 {#chrome-api-calls}
 
 | 步驟 | 方法與路徑 | 回應 |
 |------|-----------|------|
@@ -172,7 +172,7 @@ gh secret set CHROME_REFRESH_TOKEN
     <p>v2 是 2025 年 10 月起的新版；舊的 v1.1 端點（<code>www.googleapis.com/chromewebstore/v1.1/items/{id}</code>，帶 <code>x-goog-api-version: 2</code> 標頭）已封存。網路上的 action 與範例多數仍是 v1.1，照抄前先確認。</p>
 </note>
 
-### Workflow job
+### Workflow job {#chrome-workflow-job}
 
 ```yaml
   publish-chrome:
