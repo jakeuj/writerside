@@ -8,6 +8,10 @@
 
 ## 2026 {#year-2026-1}
 
+- [用 GitHub Actions 自動發布 Chrome 與 Edge 擴充套件到商店](chrome-edge-extension-cd-github-actions.md) — 2026-09-14
+
+  瀏覽器擴充套件打 tag 後由 GitHub Actions 打包 zip、建 GitHub Release，並用 Edge Add-ons Publish API v1.1 與 Chrome Web Store API v2 自動上傳送審；本文整理憑證申請、workflow 寫法與常見坑。
+
 - [DataGrip 連線 Azure SQL：Microsoft Entra Default 驗證 20 秒逾時排錯](datagrip-azure-sql-entra-auth-timeout.md) — 2026-08-17
 
   DataGrip 使用 Microsoft Entra ID Default 連線 Azure SQL 出現 switchIfEmpty 20 秒逾時時，可從 macOS GUI PATH 與 Azure CLI 自動更新輸出污染快速定位並修復。
@@ -44,11 +48,11 @@
 
   說明如何在本機利用 oMLX 伺服器提供 Qwen3.6 35B 模型給 Codex App 使用，包含 sampling 設定、認證機制與模型目錄的對應關係。
 
+## 2026（續 1） {#year-2026-2}
+
 - [35B 級距 Coding Agent 模型比較：Ornith-1.0、Qwen3.6、Gemma 4](ornith-qwen-gemma-35b-model-comparison.md) — 2026-07-01
 
   比較 Ornith-1.0-35B、Qwen3.6-35B 與 Gemma 4 31B 在 coding agent benchmark 與企業內部 MIS 場景的選型差異。
-
-## 2026（續 1） {#year-2026-2}
 
 - [Apple Silicon Mac 用 Docker 跑 SQL Server 2025 避開 AVX crash](sql-server-2025-docker-apple-silicon.md) — 2026-07-01
 
@@ -85,6 +89,8 @@
 - [Azure App Service VNet Integration 連 Azure SQL Managed Instance Private Endpoint 的 DNS 筆記](azure-app-service-sql-mi-private-dns.md) — 2026-04-30
 
   設定 App Service 連線 Azure SQL Managed Instance Private Endpoint 所需的私人 DNS，並驗證名稱解析。
+
+## 2026（續 2） {#year-2026-3}
 
 - [Azure App Service VNet Integration 後如何查內網 IP](azure-app-service-vnet-private-ip.md) — 2026-04-30
 

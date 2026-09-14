@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "topic": "chrome-edge-extension-cd-github-actions.md",
+      "url": "https://jakeuj.com/chrome-edge-extension-cd-github-actions.html",
+      "published": "2026-09-14",
+      "date_basis": "核對首次新增文章提交；db8f234 docs: add chrome edge extension cd github actions note"
+    },
+    {
       "topic": "datagrip-azure-sql-entra-auth-timeout.md",
       "url": "https://jakeuj.com/datagrip-azure-sql-entra-auth-timeout.html",
       "published": "2026-08-17",
