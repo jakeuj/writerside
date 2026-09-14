@@ -13,6 +13,7 @@
 | 單檔 Markdown | `npx markdownlint-cli2 --no-globs Writerside/topics/<topic-file>.md` | 快速確認單篇格式 | Writerside checker 錯誤 |
 | 單檔 Markdown 修復 | `npx markdownlint-cli2 --fix --no-globs Writerside/topics/<topic-file>.md` | 修可自動修復的格式問題 | Writerside checker 錯誤 |
 | 全站 Markdown | `./scripts/check-markdown.sh` | 掃整個 `Writerside/topics/**/*.md` | Writerside checker 錯誤 |
+| 發布索引 | `npm run publications:generate` / `npm run publications:check` | 登錄新 topic、重建首頁與近期索引、確認沒有漏登錄 | Writerside checker 錯誤 |
 | 本地部署前檢查 | `npm run pre-deploy` | 發布資料與生成同步 + Markdown + 必要配置檔 + `hi.tree` XML | 真正的 Writerside build/checker 問題 |
 | CI 權威檢查 | `.github/workflows/deploy.yml` | Writerside build + checker + GitHub Pages deploy + Algolia publish | 無，這是最接近正式結果的一層 |
 
@@ -48,8 +49,9 @@
 
 4. 若用了 Writerside XML，依 `checker-errors.md` 掃描未 escape 的字元。
 5. 若更新 `hi.tree`，執行 `xmllint --noout Writerside/hi.tree`。
-6. 修改 `hi.tree`、XML 或站台設定後跑 `npm run pre-deploy`。
-7. 如果仍懷疑 checker 問題，回頭看 CI 或 IDE 預覽。
+6. **新增 topic 時**：先在 `data/posts.json` 登錄（或寫入 `excluded` 說明理由），再跑 `npm run publications:generate` 與 `npm run publications:check`，並把生成的 `Default.md`、`recent-posts.md` 一起納入 commit。CI 的第一步就是 `publication.py check`，漏登錄會在 9 秒內失敗，Writerside build 根本不會開始。
+7. 修改 `hi.tree`、XML、站台設定或新增 topic 後跑 `npm run pre-deploy`；它包含 publication check、全站 markdownlint、必要檔案與 `hi.tree` XML 檢查。
+8. 如果仍懷疑 checker 問題，回頭看 CI 或 IDE 預覽。本地沒有 Writerside checker，`MRK003` 這類 anchor 衝突只有 CI 抓得到，所以新增文章時主動預防，不要等 CI。
 
 ### 同時改多篇文章
 

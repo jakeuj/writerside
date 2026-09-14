@@ -48,6 +48,7 @@
 - 公開 topic 預設在 H1 下一個區塊放一行 `<web-summary>`，用純文字說明「主題 + 可得到的解法/判斷」；避免「本文記錄……」。其中的 `<`、`>`、`&` 要 XML escape。
 - 只有 1 到 3 個可立即執行的關鍵動作或判斷時才補 `<tldr>`。
 - 預設用 Markdown；只有 semantic markup 能清楚表達步驟、提醒、UI 路徑、切換內容、重用或結構時才導入 XML。
+- 平行結構的章節（例如「Edge」「Chrome」各有「申請憑證」「API 呼叫順序」「Workflow job」）在寫的時候就給每個重複子標題加父節前綴的 `{#edge-api-calls}` 這類 anchor；Writerside 的自動 slug 會丟掉中文只留英文字，同名子標題必撞 `MRK003`，而且只有 CI 的 checker 抓得到。
 
 通用骨架如下，依任務刪減，不必硬湊所有章節：
 

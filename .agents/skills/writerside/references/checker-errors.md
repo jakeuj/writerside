@@ -11,7 +11,7 @@
 
 | 症狀 | 常見原因 | 優先檢查 | 常見修法 |
 | --- | --- | --- | --- |
-| `MRK003: Element ID is not unique` | 多個標題被 Writerside 轉成同一個 id | 相近標題、標題內的 inline code、重複英文關鍵詞，例如 `RDS`、`API` | 直接補唯一 `{#...}` anchor |
+| `MRK003: Element ID is not unique` | 多個標題被 Writerside 轉成同一個 id | 相近標題、標題內的 inline code、重複英文關鍵詞，例如 `RDS`、`API`；兩個 H2 底下各有同名 H3（如 Edge 與 Chrome 各一個「API 呼叫順序」「Workflow job」），中文字會被丟掉，只剩英文字撞 id | 直接補唯一 `{#...}` anchor，同名子標題用父節前綴，例如 `{#edge-api-calls}` / `{#chrome-api-calls}` |
 | `CDE016: Unknown language is specified for a code block` | fenced code block 或 `<code-block lang="...">` 使用 Writerside 不認得的語言名稱 | `cmd`、`csharp`、拼錯或自訂語言名稱 | 改成 checker 支援的語言，例如 `batch`、`C#`，不確定時用 `text` |
 | `CTT004: Undefined variable` | 文字、URL、圖片引用或 code block 中的 `%...%` 被當成 Writerside 變數 | `%foo%`、SQL `LIKE '%KEYWORD%'`、Windows PATH、URL percent-encoding（例如 `%E5...`、`%20`、`%25`） | 短內容補 `ignore-vars="true"`；多行 code block 改用 `<code-block ignore-vars="true"><![CDATA[...]]></code-block>` |
 | `TOC007: The 'toc-title' attribute is redundant as it matches the topic title` | `hi.tree` 的 `toc-title` 和 topic H1 完全相同 | 該 topic 的 H1 與 `<toc-element toc-title="...">` | 移除 redundant `toc-title`，保留 `topic` 即可 |
