@@ -8,6 +8,10 @@
 
 ## 2026 {#year-2026-1}
 
+- [Ghostty 搭配 Herdr：macOS 滑鼠點擊、選字與安裝設定](ghostty-herdr-mouse-reporting-macos.md) — 2026-09-17
+
+  在 macOS 使用 Ghostty 執行 Herdr 時，保留 mouse reporting 即可點擊 pane、tab、Space 與 Agent，並用 Shift 拖曳切換成終端機原生選字。
+
 - [用 GitHub Actions 自動發布 Chrome 與 Edge 擴充套件到商店](chrome-edge-extension-cd-github-actions.md) — 2026-09-14
 
   瀏覽器擴充套件打 tag 後由 GitHub Actions 打包 zip、建 GitHub Release，並用 Edge Add-ons Publish API v1.1 與 Chrome Web Store API v2 自動上傳送審；本文整理憑證申請、workflow 寫法與常見坑。
@@ -44,11 +48,11 @@
 
   Apple Silicon Mac 跑本地 LLM 或 VLM 時，先分清楚 MLX、mlx-lm、mlx-vlm、oMLX、LM Studio、Ollama 與 GGUF 的定位，再依聊天、Hugging Face MLX 模型、coding agent 或跨平台部署選工具。
 
+## 2026（續 1） {#year-2026-2}
+
 - [Codex App 搭配 oMLX 伺服器運行 Qwen3.6 35B 設定筆記](codex-app-omlx-qwen3-6-setup.md) — 2026-07-01
 
   說明如何在本機利用 oMLX 伺服器提供 Qwen3.6 35B 模型給 Codex App 使用，包含 sampling 設定、認證機制與模型目錄的對應關係。
-
-## 2026（續 1） {#year-2026-2}
 
 - [35B 級距 Coding Agent 模型比較：Ornith-1.0、Qwen3.6、Gemma 4](ornith-qwen-gemma-35b-model-comparison.md) — 2026-07-01
 
@@ -86,11 +90,11 @@
 
   排查 macOS SSH 主機名稱無法解析問題，依情境使用 mDNS 的 .local 名稱或 hosts 固定別名。
 
+## 2026（續 2） {#year-2026-3}
+
 - [Azure App Service VNet Integration 連 Azure SQL Managed Instance Private Endpoint 的 DNS 筆記](azure-app-service-sql-mi-private-dns.md) — 2026-04-30
 
   設定 App Service 連線 Azure SQL Managed Instance Private Endpoint 所需的私人 DNS，並驗證名稱解析。
-
-## 2026（續 2） {#year-2026-3}
 
 - [Azure App Service VNet Integration 後如何查內網 IP](azure-app-service-vnet-private-ip.md) — 2026-04-30
 
