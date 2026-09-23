@@ -18,7 +18,7 @@ usage() {
 可用環境變數:
   WRITERSIDE_SOURCE_SKILL_DIR   source skill 目錄
   WRITERSIDE_GLOBAL_SKILL_DIR   全域 skill 目錄
-  WRITERSIDE_CODEX_SKILL_LINK   ~/.codex/skills 的符號連結位置
+  AGENTS_LINK_SCRIPT            把正本掛進 ~/.claude/skills 的腳本（預設 ~/.agents/bin/link-skills.sh）
   WRITERSIDE_SKILL_VALIDATE_SCRIPT  quick_validate.py 路徑
 EOF
 }
@@ -38,7 +38,7 @@ REPO_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
 SOURCE_SKILL_DIR="${WRITERSIDE_SOURCE_SKILL_DIR:-${REPO_ROOT}/.agents/skills/writerside}"
 GLOBAL_TEMPLATE_DIR="${SOURCE_SKILL_DIR}/assets/global-skill"
 TARGET_SKILL_DIR="${WRITERSIDE_GLOBAL_SKILL_DIR:-${HOME}/.agents/skills/writerside}"
-CODEX_SKILL_LINK="${WRITERSIDE_CODEX_SKILL_LINK:-${HOME}/.codex/skills/writerside}"
+LINK_SCRIPT="${AGENTS_LINK_SCRIPT:-${HOME}/.agents/bin/link-skills.sh}"
 VALIDATE_SCRIPT="${WRITERSIDE_SKILL_VALIDATE_SCRIPT:-${HOME}/.codex/skills/.system/skill-creator/scripts/quick_validate.py}"
 
 if [[ ! -d "${SOURCE_SKILL_DIR}" ]]; then
@@ -71,10 +71,9 @@ echo -e "${BLUE}  Sync Writerside Skill${NC}"
 echo -e "${BLUE}========================================${NC}"
 echo -e "${YELLOW}Source:${NC} ${SOURCE_SKILL_DIR}"
 echo -e "${YELLOW}Target:${NC} ${TARGET_SKILL_DIR}"
-echo -e "${YELLOW}Codex link:${NC} ${CODEX_SKILL_LINK}"
+echo -e "${YELLOW}Claude link:${NC} 由 ${LINK_SCRIPT} 建立（Codex 原生讀取 ~/.agents/skills，不另建連結）"
 
 mkdir -p "$(dirname "${TARGET_SKILL_DIR}")"
-mkdir -p "$(dirname "${CODEX_SKILL_LINK}")"
 
 RSYNC_ARGS=(
     -a
@@ -95,7 +94,7 @@ rsync "${RSYNC_ARGS[@]}" "${SOURCE_SKILL_DIR}/" "${TARGET_SKILL_DIR}/"
 
 if [[ "${DRY_RUN}" == "true" ]]; then
     echo -e "${YELLOW}📝 Dry run: 會覆蓋全域版 SKILL.md 與 agents/openai.yaml${NC}"
-    echo -e "${YELLOW}🔗 Dry run: 會更新 ${CODEX_SKILL_LINK} 符號連結${NC}"
+    echo -e "${YELLOW}🔗 Dry run: 會執行 ${LINK_SCRIPT} 更新 ~/.claude/skills 連結${NC}"
     exit 0
 fi
 
@@ -104,9 +103,12 @@ mkdir -p "${TARGET_SKILL_DIR}/agents"
 cp "${GLOBAL_TEMPLATE_DIR}/SKILL.md" "${TARGET_SKILL_DIR}/SKILL.md"
 cp "${GLOBAL_TEMPLATE_DIR}/agents/openai.yaml" "${TARGET_SKILL_DIR}/agents/openai.yaml"
 
-echo -e "${YELLOW}🔗 更新 ~/.codex/skills 符號連結...${NC}"
-rm -rf "${CODEX_SKILL_LINK}"
-ln -s "${TARGET_SKILL_DIR}" "${CODEX_SKILL_LINK}"
+if [[ -x "${LINK_SCRIPT}" ]]; then
+    echo -e "${YELLOW}🔗 更新 ~/.claude/skills 符號連結...${NC}"
+    "${LINK_SCRIPT}" || echo -e "${YELLOW}⚠️  link-skills.sh 回報警告，請檢查上方輸出${NC}"
+else
+    echo -e "${YELLOW}⚠️  找不到 ${LINK_SCRIPT}，略過 Claude 連結；Codex 會直接讀取 ${TARGET_SKILL_DIR}${NC}"
+fi
 
 if [[ -f "${VALIDATE_SCRIPT}" ]]; then
     echo -e "${YELLOW}✅ 驗證全域 skill...${NC}"
