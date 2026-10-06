@@ -78,6 +78,8 @@ FramePack 採用「下一幀預測」模型，核心在於：
 
 好處是可以裝 sageattention 來加速
 
+一鍵包現在也能直接安裝 SageAttention；RTX 50 系列顯卡的 PyTorch 升級與加速步驟見 [FramePack Windows 一鍵包支援 RTX 5090：升級 PyTorch cu128 與 SageAttention](framepack-rtx-5090-windows.md)。
+
 ### linux (Ubuntu 24.04)
 
 可以裝 sageattention 來加速

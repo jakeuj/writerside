@@ -33,6 +33,7 @@
             <toc-element topic="PyTorchMac.md"/>
             <toc-element topic="VM-GPU-Driver.md"/>
             <toc-element topic="FramePack-圖生影.md" />
+            <toc-element topic="framepack-rtx-5090-windows.md" toc-title="FramePack RTX 5090 Windows 支援"/>
             <toc-element topic="邊緣運算-Edge-AI-Computing.md" />
         </toc-element>
         <toc-element topic="LLM.md">
@@ -54,6 +55,7 @@
             <toc-element topic="LSPCI.md" />
             <toc-element topic="requirements.md" />
             <toc-element topic="Python-PyCharm-Django-Windows-11.md" />
+            <toc-element topic="gradio-asyncio-winerror-10022.md" toc-title="Gradio WinError 10022"/>
         </toc-element>
         <toc-element topic="C-Sharp.md">
             <toc-element topic="appsettings-json-環境變數.md"/>
