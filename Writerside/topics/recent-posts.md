@@ -8,6 +8,10 @@
 
 ## 2026 {#year-2026-1}
 
+- [聖火降魔錄 萬縷千絲（萬紫千紅）培養計算器：成長率公式與坐騎加成](fire-emblem-fortunes-weave-growth-calculator.md) — 2026-10-06
+
+  《聖火降魔錄 萬縷千絲》（萬紫千紅）的角色成長是個人、職業與坐騎成長率逐級擲骰，職業補正只在當下職業生效；從遊戲內目前的等級、職業與實際能力值出發預測轉職路線，並整理凱伊篇坐騎與戰車兵的成長加成規則。
+
 - [FramePack Windows 一鍵包支援 RTX 5090：升級 PyTorch cu128 與 SageAttention](framepack-rtx-5090-windows.md) — 2026-10-06
 
   FramePack Windows 一鍵包內建 torch 2.6.0+cu126，在 RTX 5090 等 Blackwell（sm_120）顯卡會出現 no kernel image 錯誤；用一鍵包內建 Python 升級到 torch 2.10.0+cu128，再加裝 triton-windows 與 SageAttention 即可正常生成並加速。
@@ -44,11 +48,11 @@
 
   整理在 MacBook Pro M4 Max 128 GB 上用 oMLX 執行 Ornith-1.0-35B-8bit 給 Codex 使用時，context window、thinking、reasoning parser、Responses API、model catalog 與 CC Switch 遠端壓縮的已知問題與建議設定。
 
+## 2026（續 1） {#year-2026-2}
+
 - [Codex Plugin 建立指南](codex-plugin-build-guide.md) — 2026-07-02
 
   從零開始建立一個 Codex plugin：了解 repo 結構、plugin.json、agents/openai.yaml、skills、MCP、apps、hooks 與 marketplace 的完整工作流程。
-
-## 2026（續 1） {#year-2026-2}
 
 - [在 oMLX 設定 Claude Code Desktop 與 CLI 使用本地模型](omlx-claude-code-desktop-setup.md) — 2026-07-02
 
@@ -86,11 +90,11 @@
 
   在 macOS 安裝 KONICA MINOLTA bizhub C651i 印表機驅動，並用固定 IP、IPP 佇列與 C651i PS driver 重新加入印表機。
 
+## 2026（續 2） {#year-2026-3}
+
 - [ABP 分離 Auth/API 專案部署到 Azure 與 Akamai 檢查表](abp-azure-akamai-deployment-checklist.md) — 2026-06-10
 
   ABP 分離式 Auth/API 專案部署到 Azure App Service 並經 Akamai 對外服務時，用這份檢查表對齊 hostname、TLS/SNI、OpenIddict redirect URI、SelfUrl 與前端 OIDC 設定。
-
-## 2026（續 2） {#year-2026-3}
 
 - [Akamai Forward Host Header 對 App Service redirect 與 cookie 的影響](akamai-origin-host-header-app-service.md) — 2026-06-10
 

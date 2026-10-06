@@ -1,8 +1,8 @@
 # Side Projects
 
-<web-summary>精選 Jakeuj 近期維護並已公開發布的 side projects 與開源貢獻，涵蓋 Guild Wars 2 Nexus addon、Path of Exile 瀏覽器擴充、Codex plugins、遊戲攻略、MUD 保存與 oMLX。</web-summary>
+<web-summary>精選 Jakeuj 近期維護並已公開發布的 side projects 與開源貢獻，涵蓋 Guild Wars 2 Nexus addon、Path of Exile 瀏覽器擴充、Codex plugins、遊戲攻略與培養計算器、MUD 保存與 oMLX。</web-summary>
 
-這裡精選我近期維護或具有代表性的 side projects，包含自有作品、社群在地化與可驗證的開源貢獻。資料更新日期為 2026-08-20；完整清單請見 [GitHub repositories](https://github.com/jakeuj?tab=repositories)。
+這裡精選我近期維護或具有代表性的 side projects，包含自有作品、社群在地化與可驗證的開源貢獻。資料更新日期為 2026-10-06；完整清單請見 [GitHub repositories](https://github.com/jakeuj?tab=repositories)。
 
 > 精選名單以目前仍在維護、具備可使用成果，或能清楚說明貢獻內容的專案為主，不是所有公開 repository 的自動鏡像。
 
@@ -55,6 +55,15 @@
 ![writerside last commit](https://img.shields.io/github/last-commit/jakeuj/writerside)
 
 ## 遊戲、MUD 與在地化
+
+### fe-banshisenko-calc
+
+《聖火降魔錄 萬縷千絲》（萬紫千紅）的繁體中文角色培養計算器。從遊戲內目前的等級、職業、坐騎與實際能力值出發，預測轉職路線的期望值與機率區間，並提供成長判定、凱伊篇坐騎與戰車兵的成長加成，以及依能力權重的自動推薦；計算與 game8 計算器的輸出逐值一致，部分數值以遊戲內成長畫面修正。
+
+- 連結：[GitHub](https://github.com/jakeuj/fe-banshisenko-calc)｜[培養計算器](https://fe-banshisenko-calc.jakeuj.com/)｜[公式與坐騎加成筆記](fire-emblem-fortunes-weave-growth-calculator.md)
+- 語言與技術：`JavaScript` `Static Site` `Node.js` `GitHub Pages` `Fire Emblem`
+
+![fe-banshisenko-calc last commit](https://img.shields.io/github/last-commit/jakeuj/fe-banshisenko-calc)
 
 ### gw2-pathing-zh-tw
 
