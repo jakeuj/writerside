@@ -20,6 +20,10 @@
 
   在 Windows 用 Python 3.10 執行 Gradio（例如 FramePack）時，console 反覆出現 _call_connection_lost 的 OSError WinError 10022；這是 asyncio Proactor 在連線已斷開後呼叫 shutdown 失敗，可以用 sitecustomize.py 只包住這個呼叫來修正。
 
+- [ROG Astral LC RTX 5090 冷排風扇不亮、不轉：磁吸接頭暫時恢復後復發](rog-astral-lc-rtx5090-fan-connector.md) — 2026-10-06
+
+  ROG Astral LC RTX 5090 冷排風扇壓回磁吸接頭後僅暫時恢復，過一陣子又停止；負載截圖顯示 Fan 2 為 88% 卻是 0 RPM。此個案已復發，需檢查接頭固定、線組與風扇模組。
+
 - [Ghostty 搭配 Herdr：macOS 滑鼠點擊、選字與安裝設定](ghostty-herdr-mouse-reporting-macos.md) — 2026-09-17
 
   在 macOS 使用 Ghostty 執行 Herdr 時，保留 mouse reporting 即可點擊 pane、tab、Space 與 Agent，並用 Shift 拖曳切換成終端機原生選字。
@@ -44,11 +48,11 @@
 
   在 macOS 使用 CrossOver 執行 Guild Wars 2 時，除了把 arcdps 的 d3d11.dll 放到遊戲目錄，還要在 Wine 設定加入 Native then Builtin DLL override 才能正常載入。
 
+## 2026（續 1） {#year-2026-2}
+
 - [oMLX Ornith-1.0-35B-8bit 給 Codex 使用的設定紀錄](omlx-ornith-codex-settings.md) — 2026-07-08
 
   整理在 MacBook Pro M4 Max 128 GB 上用 oMLX 執行 Ornith-1.0-35B-8bit 給 Codex 使用時，context window、thinking、reasoning parser、Responses API、model catalog 與 CC Switch 遠端壓縮的已知問題與建議設定。
-
-## 2026（續 1） {#year-2026-2}
 
 - [Codex Plugin 建立指南](codex-plugin-build-guide.md) — 2026-07-02
 
@@ -86,11 +90,11 @@
 
   判斷 DiffusionGemma 目前是否適合用 Ollama 執行，並比較 vLLM、llama.cpp DiffusionGemma 分支與 GGUF CLI 的可行路線。
 
+## 2026（續 2） {#year-2026-3}
+
 - [bizhub C651i Mac 印表機驅動安裝說明](bizhub-c651i-macos-driver-install.md) — 2026-06-11
 
   在 macOS 安裝 KONICA MINOLTA bizhub C651i 印表機驅動，並用固定 IP、IPP 佇列與 C651i PS driver 重新加入印表機。
-
-## 2026（續 2） {#year-2026-3}
 
 - [ABP 分離 Auth/API 專案部署到 Azure 與 Akamai 檢查表](abp-azure-akamai-deployment-checklist.md) — 2026-06-10
 

@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "topic": "rog-astral-lc-rtx5090-fan-connector.md",
+      "url": "https://jakeuj.com/rog-astral-lc-rtx5090-fan-connector.html",
+      "published": "2026-10-06",
+      "date_basis": "建立筆記日期；作者於 2026-10-06 回報重新接合並固定冷排磁吸接頭後暫時恢復亮燈與轉動",
+      "updated": "2026-10-07",
+      "update_summary": "冷排風扇再次停止；壓回磁吸接頭只暫時恢復。補上 Fan 2 為 88% 卻回報 0 RPM 的負載讀值與相似論壇案例，狀態改為已復發、待檢修。"
+    },
+    {
       "topic": "fire-emblem-fortunes-weave-growth-calculator.md",
       "url": "https://jakeuj.com/fire-emblem-fortunes-weave-growth-calculator.html",
       "published": "2026-10-06",
