@@ -89,6 +89,7 @@
             <toc-element topic="Linq-Left-Join-GroupJoin-SelectMany-Repository.md" toc-title="Linq Left Join (GroupJoin + SelectMany) Repository" />
             <toc-element topic="列舉值檢查-typeof(enumType).IsEnumDefined(intValue).md" />
             <toc-element topic="C#-單例模式.md" />
+            <toc-element topic="csharp-state-machine-state-pattern.md" toc-title="C# 狀態機、State 與 Strategy" />
             <toc-element topic="委派-delegate-C#-基本概念具現化.md" />
             <toc-element topic="C#-Socket-Server-初版.md" />
             <toc-element topic="GUID-輸入不含連字號-處理.md" />
@@ -563,6 +564,7 @@
             <toc-element topic="ios-unity-il2cpp-ipa-research-notes.md" />
         </toc-element>
         <toc-element toc-title="Unity">
+            <toc-element topic="unity-turn-based-battle-core.md" />
             <toc-element topic="Unity-5-使用-Android-SDK-API-24-問題.md" />
         </toc-element>
         <toc-element toc-title="其他">

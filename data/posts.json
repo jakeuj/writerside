@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "topic": "csharp-state-machine-state-pattern.md",
+      "url": "https://jakeuj.com/csharp-state-machine-state-pattern.html",
+      "published": "2026-10-07",
+      "date_basis": "建立筆記日期；2026-10-07，依已確認的文章範圍整理模式比較，C# 範例經本地執行驗證；正式 URL 待 Writerside 建置產物核對"
+    },
+    {
+      "topic": "unity-turn-based-battle-core.md",
+      "url": "https://jakeuj.com/unity-turn-based-battle-core.html",
+      "published": "2026-10-07",
+      "date_basis": "建立筆記日期；2026-10-07，依戰鬥核心原始碼、架構文件與作者回顧整理"
+    },
+    {
       "topic": "evennia-chinese-commands-cmdsets.md",
       "url": "https://jakeuj.com/evennia-chinese-commands-cmdsets.html",
       "published": "2026-10-07",
