@@ -21,10 +21,17 @@ class PublicationTests(unittest.TestCase):
 
     def test_rss_dates_escaping_limit_and_updates(self):
         data = self.data
+        # Exercise the empty-update state independently of the live registry.
+        for post in data["posts"]:
+            post.pop("updated", None)
+            post.pop("update_summary", None)
+        self.assertNotIn("## 重大更新", p.render(data)[0])
         data["posts"][0]["title"] = "中文 & <RSS>"
         data["posts"][0]["summary"] = "A & B < C"
         before = p.rss(data)
-        data["posts"][0].update(updated="2026-09-01", update_summary="重大更新")
+        data["posts"][0].update(
+            updated=data["posts"][0]["published"], update_summary="重大更新"
+        )
         self.assertEqual(before, p.rss(data))
         root = ET.fromstring(before)
         items = root.findall("channel/item")
@@ -32,8 +39,7 @@ class PublicationTests(unittest.TestCase):
         self.assertEqual(items[0].findtext("title"), "中文 & <RSS>")
         self.assertTrue(items[0].findtext("pubDate").endswith("00:00:00 +0800"))
         self.assertEqual(items[0].findtext("guid"), data["posts"][0]["url"])
-        self.assertIn("重大更新", p.render(data)[0])
-        self.assertNotIn("## 重大更新", p.render(p.load())[0])
+        self.assertIn("## 重大更新", p.render(data)[0])
 
     def test_new_post_enters_feed_and_oldest_leaves(self):
         data = self.data
