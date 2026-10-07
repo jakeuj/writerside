@@ -1,6 +1,38 @@
 {
   "posts": [
     {
+      "topic": "evennia-chinese-commands-cmdsets.md",
+      "url": "https://jakeuj.com/evennia-chinese-commands-cmdsets.html",
+      "published": "2026-10-07",
+      "date_basis": "建立筆記日期；2026-10-07，依 Evennia 6.1.0 驗證中文 parser 與 CmdSet 範例"
+    },
+    {
+      "topic": "evennia-time-state-updates.md",
+      "url": "https://jakeuj.com/evennia-time-state-updates.html",
+      "published": "2026-10-07",
+      "date_basis": "建立筆記日期；2026-10-07，依 Evennia 6.1.0 驗證時間與狀態更新範例"
+    },
+    {
+      "topic": "evennia-mud-development.md",
+      "url": "https://jakeuj.com/evennia-mud-development.html",
+      "published": "2026-04-20",
+      "date_basis": "核對首次新增文章提交；89808fa docs: 添加 Evennia MUD 開發筆記，提供初學者指導",
+      "updated": "2026-10-07",
+      "update_summary": "更新 Evennia 6.1.0 與 Python 版本依據、中文文件範圍，補上 uv lock 專案與套件升級流程，串接中文指令及時間狀態實作筆記。"
+    },
+    {
+      "topic": "ios-unity-il2cpp-ipa-research-notes.md",
+      "url": "https://jakeuj.com/ios-unity-il2cpp-ipa-research-notes.html",
+      "published": "2026-10-07",
+      "date_basis": "建立筆記日期；2026-10-07"
+    },
+    {
+      "topic": "graphify-knowledge-graph-github-pages.md",
+      "url": "https://jakeuj.com/graphify-knowledge-graph-github-pages.html",
+      "published": "2026-10-07",
+      "date_basis": "建立筆記日期；2026-10-07"
+    },
+    {
       "topic": "rog-astral-lc-rtx5090-fan-connector.md",
       "url": "https://jakeuj.com/rog-astral-lc-rtx5090-fan-connector.html",
       "published": "2026-10-06",

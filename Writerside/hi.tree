@@ -27,6 +27,7 @@
             <toc-element topic="codex-app-omlx-qwen3-6-setup.md" toc-title="Codex App oMLX Qwen3.6 設定"/>
             <toc-element topic="codex-skill-vs-plugin.md" toc-title="Codex Skill vs Plugin"/>
             <toc-element topic="codex-plugin-build-guide.md"/>
+            <toc-element topic="graphify-knowledge-graph-github-pages.md" toc-title="graphify 知識圖發布 GitHub Pages"/>
             <toc-element topic="auggie-cli-rules.md"/>
             <toc-element topic="auggie-cli-skills.md"/>
             <toc-element topic="auggie-user-rules-example.md"/>
@@ -559,6 +560,7 @@
             <toc-element topic="透過443代理內網特定port.md" />
             <toc-element topic="[反編譯]-Riru-Il2CppDumper-使用筆記.md" />
             <toc-element topic="app-store-ipa-ipatool-download-extract.md" toc-title="ipatool 下載 App Store IPA" />
+            <toc-element topic="ios-unity-il2cpp-ipa-research-notes.md" />
         </toc-element>
         <toc-element toc-title="Unity">
             <toc-element topic="Unity-5-使用-Android-SDK-API-24-問題.md" />
@@ -593,6 +595,8 @@
             <toc-element topic="fire-emblem-fortunes-weave-growth-calculator.md" toc-title="萬紫千紅 培養計算器" />
             <toc-element topic="nevergrind-online-guide.md" toc-title="Nevergrind Online 中文攻略" />
             <toc-element topic="evennia-mud-development.md" toc-title="Evennia MUD 開發" />
+            <toc-element topic="evennia-chinese-commands-cmdsets.md" toc-title="Evennia 中文指令與 CmdSet" />
+            <toc-element topic="evennia-time-state-updates.md" toc-title="Evennia 時間與狀態更新" />
             <toc-element topic="Merc-FJU-3.0-MUD-AREA-重建工作流筆記.md" toc-title="Merc-FJU 3.0 MUD Area Rebuild" />
         </toc-element>
     </toc-element>

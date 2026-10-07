@@ -1,8 +1,11 @@
 # Evennia 開發 MUD 遊戲起手筆記
 
+<web-summary>用 Python 3.14 與 uv 建立 Evennia 6.1 遊戲專案，完成初始化、資料庫 migration 與第一個繁體中文指令，並理解 game dir、CmdSets、Typeclasses 與持久化資料的分工。</web-summary>
+
 Evennia 是用 Python 開發 MUD、MUSH、MUX、MU* 等文字多人遊戲的框架。新專案最短路徑是先建立 Python 虛擬環境，安裝 Evennia，執行 `evennia --init` 產生 game dir，再用 `evennia migrate` 建資料庫、`evennia start` 啟動伺服器；真正的遊戲邏輯主要會落在 `commands/`、`typeclasses/`、`world/` 與 `server/conf/settings.py`。
 
-- 檢視日期：`2026-04-20`
+- 檢視日期：`2026-10-07`
+- 範例基準：Evennia `6.1.0`、Python `3.14`；指令路徑以 macOS / Linux 為例
 - 主要來源：[evennia/evennia](https://github.com/evennia/evennia)
 - 建議閱讀順序：Installation -> Beginner Tutorial -> Game Dir Overview -> Components
 
@@ -10,7 +13,9 @@ Evennia 是用 Python 開發 MUD、MUSH、MUX、MU* 等文字多人遊戲的框�
 
 以下為繁體中文 Evennia 文件網站，可與本文互相對照：
 
-- [Evennia 文件（evennia.jakeuj.com）](https://evennia.jakeuj.com/) - 官方文件的全中文翻譯，涵蓋安裝、教學、核心元件與 API 參考。
+- [Evennia 文件（evennia.jakeuj.com）](https://evennia.jakeuj.com/) - 繁體中文文件，涵蓋安裝、教學與核心元件；自動生成的 API 參考仍維持英文。
+
+截至本次檢視，中文站首頁仍標示 Evennia `6.0.0`，PyPI 最新版則是 `6.1.0`。閱讀翻譯時可用來理解概念，涉及版本、參數與程式碼時，再對照實際安裝版本及官方原始碼。
 
 ## 適用情境
 
@@ -49,7 +54,7 @@ cd my-evennia
 uv python install 3.14
 uv python pin 3.14
 uv venv .venv
-uv pip install --python .venv/bin/python evennia
+uv pip install --python .venv/bin/python "evennia==6.1.0"
 
 .venv/bin/evennia --init game
 cd game
@@ -66,7 +71,9 @@ cd game
 
 ## Python 版本怎麼選 {#evennia-python-version}
 
-Evennia 的版本需求要以你實際安裝的版本為準。以官方 GitHub `main` branch 在 `2026-04-20` 檢視時為例，`pyproject.toml` 寫的是 `requires-python = ">=3.12"`，classifiers 也列出 Python `3.12`、`3.13`、`3.14`。
+Evennia 的版本需求要以你實際安裝的版本為準。Evennia `6.1.0` 於 `2026-07-05` 發布，PyPI metadata 的最低需求是 Python `3.12`，classifiers 列出 `3.12`、`3.13`、`3.14`；本文繼續使用 Python `3.14`。
+
+官方安裝頁在本次檢視時仍列出 Python `3.11`、`3.12`、`3.13`，但 6.0 已移除 3.11 支援。遇到這類文件落差，先看 [PyPI release metadata](https://pypi.org/project/evennia/) 與 [Changelog](https://github.com/evennia/evennia/blob/main/CHANGELOG.md)，不要把不同版本的安裝條件混用。
 
 如果你是使用 PyPI release 或團隊固定版本，建議先看該版本的 `pyproject.toml` 或安裝文件，再決定要 pin 到哪個 Python 版本。
 
@@ -95,6 +102,29 @@ my-evennia/
 ```
 
 如果你先走 `uv venv` + `uv pip install` 的快速模式，不一定會有 `pyproject.toml` 與 `uv.lock`。若專案會長期維護，建議之後改成 `uv init` + `uv add evennia`，讓依賴可以被版本控制。
+
+## 用 uv 管理長期專案 {#evennia-uv-project}
+
+確定要持續開發時，可以從一開始就建立專案設定與 lock file：
+
+```bash
+mkdir my-evennia
+cd my-evennia
+uv init --app --python 3.14 --vcs none .
+uv python pin 3.14
+uv add "evennia==6.1.0"
+uv run evennia --init game
+cd game
+../.venv/bin/evennia migrate
+../.venv/bin/evennia --version
+../.venv/bin/evennia start
+```
+
+將 `.python-version`、`pyproject.toml`、`uv.lock` 與 game dir 的程式碼納入版本控制；`.venv/`、log、資料庫及秘密設定不要當成程式碼提交。另一台電腦在專案根目錄執行 `uv sync --locked`，即可依同一份 lock file 建立環境。資料庫的備份與還原另行處理，不能靠 `uv sync` 重建遊戲資料。
+
+`uv.lock` 固定套件解析結果；`.python-version` 的 `3.14` 固定的是 Python 系列。若需要完全一致的 interpreter，再固定經測試的 patch version。Windows 的環境執行檔位於 `.venv\Scripts\`，需替換本文的 `.venv/bin/` 路徑。
+
+工具本身的差異可參考 [Python uv 筆記](python-uv.md)。
 
 ## Game dir 重要資料夾
 
@@ -242,6 +272,8 @@ Typeclass 是 Evennia 最核心的資料持久化模型。簡單說，它是「�
 
 不要覆寫 typeclass 的 `__init__` 當作初始化遊戲資料的主要方式；Evennia 文件通常建議使用像 `at_object_creation` 這類 hook。
 
+`at_object_creation` 只在物件首次建立時執行；修改這個 hook 後 reload，不會替所有既有角色補上新資料。需要更新舊資料時，另外設計可重複執行的資料更新流程，不要為了觸發 hook 而刪掉角色重建。
+
 ## Attributes、Tags、Locks、Prototypes 的分工
 
 這幾個概念一開始很容易混在一起，可以先用用途分：
@@ -304,6 +336,27 @@ evennia shell
 
 ## 常見坑
 
+### 升級套件與 reload 的差別 {#evennia-package-upgrade}
+
+`evennia reload` 用於載入 game dir 的程式碼變更。更新 Evennia 套件、Python 或依賴時，先閱讀目標版本的 Changelog、備份資料庫，再完整停止服務並更新環境。
+
+下例適用於上述 `uv` 專案；`6.1.0` 是本次筆記的版本基準，更新其他版本時替換為經確認的目標版本：
+
+```bash
+# 在 game dir 停止 Portal 與 Server
+../.venv/bin/evennia stop
+# 在專案根目錄備份 SQLite 資料庫後更新依賴
+cd ..
+cp game/server/evennia.db3 game/server/evennia.db3.before-upgrade
+uv add "evennia==6.1.0"
+cd game
+../.venv/bin/evennia migrate
+../.venv/bin/evennia --version
+../.venv/bin/evennia start
+```
+
+備份檔名只是示例；每次升級應使用新的備份名稱，避免覆蓋上一份。上述備份指令只適用於預設 SQLite；使用其他資料庫時改用對應的備份方式。套用 Evennia 隨版本提供的 schema 更新用 `migrate`；不要因升級提示就自行執行 `makemigrations`。遊戲 Attributes 的資料更新則是另一項工作。
+
 ### 改了 Python 檔但遊戲沒反應 {#python-file-reload}
 
 先確認有沒有 reload：
@@ -365,6 +418,9 @@ typeclasses.mobs.Goblin
 
 ## 延伸閱讀
 
+- [Evennia 中文指令解析與 CmdSet 實作](evennia-chinese-commands-cmdsets.md)
+- [Evennia 時間與狀態更新機制怎麼選](evennia-time-state-updates.md)
+- [Evennia 更新流程](https://www.evennia.com/docs/latest/Setup/Updating-Evennia.html)
 - [Evennia GitHub repo](https://github.com/evennia/evennia)
 - [Evennia Installation](https://www.evennia.com/docs/latest/Setup/Installation.html)
 - [Evennia Beginner Tutorial](https://www.evennia.com/docs/latest/Howtos/Beginner-Tutorial/Beginner-Tutorial-Overview.html)

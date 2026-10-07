@@ -1,8 +1,8 @@
 # Side Projects
 
-<web-summary>精選 Jakeuj 近期維護並已公開發布的 side projects 與開源貢獻，涵蓋 Guild Wars 2 Nexus addon、Path of Exile 瀏覽器擴充、Codex plugins、遊戲攻略與培養計算器、MUD 保存與 oMLX。</web-summary>
+<web-summary>精選 Jakeuj 近期維護並已公開發布的 side projects 與開源貢獻，涵蓋巴哈姆特 Markdown 轉換器、原價屋估價單分享、Guild Wars 2 Nexus addon、Path of Exile 瀏覽器擴充、Codex plugins、遊戲攻略與培養計算器、MUD 保存與 oMLX。</web-summary>
 
-這裡精選我近期維護或具有代表性的 side projects，包含自有作品、社群在地化與可驗證的開源貢獻。資料更新日期為 2026-10-06；完整清單請見 [GitHub repositories](https://github.com/jakeuj?tab=repositories)。
+這裡精選我近期維護或具有代表性的 side projects，包含自有作品、社群在地化與可驗證的開源貢獻。資料更新日期為 2026-10-07；完整清單請見 [GitHub repositories](https://github.com/jakeuj?tab=repositories)。
 
 > 精選名單以目前仍在維護、具備可使用成果，或能清楚說明貢獻內容的專案為主，不是所有公開 repository 的自動鏡像。
 
@@ -111,6 +111,28 @@ Guild Wars 2 Blish HUD Pathing marker packs 的繁體中文在地化專案，先
 ![rpg last commit](https://img.shields.io/github/last-commit/jakeuj/rpg)
 
 ## 工具與應用
+
+### 巴哈姆特 Markdown 轉換器
+
+免費、免登入的 Markdown 轉換工具，在瀏覽器中即時預覽並產生可複製的排版內容與巴哈原始碼，也能下載 HTML 或文字檔。支援六級標題、巢狀清單與引用、表格對齊、程式碼換行與縮排，以及 Xcode、GitHub Light、VS2015 Dark 三款語法上色主題。
+
+可安裝為 PWA，首次完成快取後可離線轉換、預覽、複製與下載；文章不會儲存或上傳，原始 Markdown 需另外保存。外部圖片載入與巴哈發文仍需連線，貼上結果需依實際編輯器確認。
+
+- 連結：[GitHub](https://github.com/jakeuj/bahamut-markdown-converter)｜[轉換器網站](https://bahamut-markdown-converter.jakeuj.com/)
+- 語言與技術：`TypeScript` `Vite` `markdown-it` `highlight.js` `PWA` `Workbox` `GitHub Pages`
+
+![bahamut-markdown-converter last commit](https://img.shields.io/github/last-commit/jakeuj/bahamut-markdown-converter)
+
+### 原價屋估價單分享
+
+以原價屋含稅報價快照製作的電腦配單與分享工具，免登入即可替換零件、調整數量，並將品名、當時價格與報價日期保存在分享連結中。收件者可查看歷史報價、與最新快照比較漲跌、辨識已下架或優惠結束的品項，也能列印成 PDF 或接著改單。
+
+提供七套文書與遊戲主機配置作為起點，支援原價屋全部 30 類商品及帶單至官方估價頁；店家模式可加入店名與聯絡方式、本店價、服務費、報價期限及備註。報價快照由 GitHub Actions 排程每小時更新，實際資料時間會標示在網頁上。
+
+- 連結：[GitHub](https://github.com/jakeuj/architect-pc-builder)｜[估價網站](https://pc.jakeuj.com/)｜[店家模式](https://pc.jakeuj.com/#store)｜[專案知識圖做法筆記](graphify-knowledge-graph-github-pages.md)
+- 語言與技術：`Python` `JavaScript` `HTML` `CSS` `GitHub Actions` `GitHub Pages`
+
+![architect-pc-builder last commit](https://img.shields.io/github/last-commit/jakeuj/architect-pc-builder)
 
 ### pixerDotnet
 
