@@ -22,9 +22,11 @@
 
 接頭位於**冷排接水管的那一端、第一顆風扇的角落**。下圖上方紅框是固定螺絲，下方紅框是連著線材的黑色接頭。
 
-![ROG Astral LC RTX 5090 冷排水管旁的固定螺絲與黑色磁吸接頭](rog-astral-lc-rtx5090-magnetic-connector.png){width="450" thumbnail="true"}
+![ROG Astral LC RTX 5090 冷排磁吸接頭位置，黃色箭頭標示朝圖片左上方壓回接頭的施力方向，可暫時改善風扇不亮、不轉](rog-astral-lc-rtx5090-magnetic-connector-annotated.png){width="450" thumbnail="true"}
 
-圖片來源：[華碩官方磁吸頭說明](https://www.asus.com/tw/support/faq/1055700/)，為本次提供的定位參考圖。
+黃色箭頭標示本次個案的施力方向：將下方紅框內的黑色接頭**朝圖片左上方壓回，使接頭重新接合**。作者回報這樣可暫時改善接觸不良造成的風扇不亮、不轉，但過一陣子仍會復發，不能視為已修復。
+
+原始圖片來源：[華碩官方磁吸頭說明](https://www.asus.com/tw/support/faq/1055700/)。箭頭與文字為依本次個案觀察加上的標註；操作紀錄與官方注意事項見下節。
 
 原廠冷排採用磁吸串接風扇。ROG 論壇管理員也說明，這個磁吸接頭同時負責 RGB 與風扇；燈光線路沿著水管連回顯卡，控制 Aura 不需要另外接外部 RGB 線。[共用接頭說明](https://rog-forum.asus.com/t5/gaming-graphics-cards/rog-astral-lc-geforce-rtx-5090-oc-32gb-rad-fans-stop-spinning/m-p/1153026)、[燈光線路說明](https://rog-forum.asus.com/t5/nvidia-graphics-cards/aura-system-rog-astral-rtx5090-lc/m-p/1108766)
 
