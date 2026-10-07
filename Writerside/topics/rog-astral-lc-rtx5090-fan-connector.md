@@ -6,7 +6,9 @@
 
 現在應先停止 GPU 重負載工作，並請店家或華碩檢查接頭固定、線組與風扇模組。壓回後能短暫恢復支持接觸不良的推論，但不能當成持續有效的修復。
 
-首次記錄：2026-10-06；復發更新：2026-10-07。以下保留作者回報的操作與觀察，並區分官方資料、排查建議、短暫恢復及最新故障狀態。
+**2026-10-07 補充查證：ROG 官方論壇與 Reddit 有多個不同帳號回報相似的冷排風扇／磁吸接頭異常。**部分回報同樣出現「重新接合後暫時恢復，隨後再停止」，足以支持這類現象並非只有本次作者回報；故障率、批次與共通設計缺陷仍需原廠檢測及統計資料確認。案例與來源整理於下方。
+
+首次記錄：2026-10-06；復發與相似案例查證更新：2026-10-07。以下保留作者回報的操作與觀察，並區分官方資料、排查建議、短暫恢復及最新故障狀態。
 
 ## 原始症狀 {#symptoms}
 
@@ -108,19 +110,42 @@ GPU-Z 的 Fan 2 百分比與 GPU Tweak III 的散熱排風扇百分比相符；�
 
 當冷排風扇停止時，先停止遊戲、生成或燒機等 GPU 重負載工作。需要碰觸接頭前，先關機、關閉電源供應器並拔掉電源線；不要將通電按壓接頭當成常態操作。
 
-## 相似論壇案例與客服處理方向 {#similar-cases}
+## 多位使用者的相似停轉回報 {#similar-cases}
 
-作者指出，[ROG 論壇這篇接頭鬆脫案例](https://rog-forum.asus.com/t5/gaming-graphics-cards/rog-astral-lc-rtx-5090-radiator-fans-not-spinning-due-to-loose/td-p/1120426)與本次情況基本一致：
+2026-10-07 核對第一手貼文後，找到以下同型號回報。日期採論壇明確顯示的發文日期；Reddit 頁面只顯示相對時間的回報，不推算精確日期。表中整理的是持有人自述，沒有取得各張顯卡的序號或維修檢測報告。
 
-- 原發文者回報顯卡本體風扇正常，冷排風扇會停止；將接頭壓回後能恢復，但幾分鐘後又逐漸退出。
-- 同串另一位使用者也回報相同問題，並對磁吸接頭與固定設計提出質疑。
-- 華碩客服表示願意轉交支援團隊協助。
+| 回報者與來源 | 回報現象 | 後續與驗證範圍 |
+| --- | --- | --- |
+| [Nartaq，2025-08-23](https://rog-forum.asus.com/t5/gaming-graphics-cards/rog-astral-lc-geforce-rtx-5090-32gb-gddr7-oc-fan-rgb-issue-fix/td-p/1112690) | 冷排風扇與 RGB 異常；晃動磁吸接頭可恢復，但接頭又失去穩定接合。 | 稱送店約一個月、取回仍不亮不轉；後來增加接頭保持壓力，回報恢復，未提供長期追蹤。 |
+| [lxspector，2025-10-18](https://rog-forum.asus.com/t5/gaming-graphics-cards/rog-astral-lc-rtx-5090-radiator-fans-not-spinning-due-to-loose/td-p/1120426) | 本體風扇正常、RGB 仍亮；冷排風扇因接頭失去接合而停止，推回後幾分鐘又退出。 | 同串 zanozza 於 2025-10-24 也回報相同問題；客服願意轉交支援，未見修復完成回報。 |
+| [angeli662，2026-02-26](https://rog-forum.asus.com/t5/gaming-graphics-cards/rog-astral-lc-rtx-5090-radiator-fans-not-spinning/td-p/1140409) | 卡很新、使用不多，RGB 亮但冷排風扇停；搖接頭有時啟動，隨即又停。 | 版主建議排查驅動，若持續發生則聯繫維修；沒有持有人回報修復成功。 |
+| [Ahmed0Alkathiri，2026-03-21](https://rog-forum.asus.com/t5/gaming-graphics-cards/rog-astral-lc-rtx-5090-radiator-fans-not-spinning-due-to-loose/td-p/1143214) | 冷排風扇隨機停止，輕碰線材有時恢復；另有轉速暴衝與不合理 RPM 讀值。 | 版主要求送修檢查，客服提供聯絡管道；接頭根因尚未確認。 |
+| [ROGn97dhxc55gkq，2026-06-29](https://rog-forum.asus.com/t5/gaming-graphics-cards/rog-astral-lc-geforce-rtx-5090-oc-32gb-rad-fans-stop-spinning/td-p/1153022) | 三顆冷排風扇停止；關機後微推水管旁黑色接頭，再開機可恢復，之後又停止。 | 版主確認那是 RGB 與風扇的磁吸接頭，建議減輕線材拉力；未見長期恢復結果。 |
+| [MrAskani，Reddit](https://www.reddit.com/r/ASUSROG/comments/1kcqxeh/5090_rog_astral_lc_oc_radiator_power_issues/) | 主文附影片，稱軟體顯示約 5000 RPM，實體冷排風扇卻沒有轉動，也沒有 RGB。 | 後續稱 RMA 換卡後正常；沒有維修報告或長期追蹤。 |
+| [YorVeX，同串另一帳號](https://www.reddit.com/r/ASUSROG/comments/1kcqxeh/comment/nglq4c6/) | 起初 RGB 亮、風扇不轉，軟體回報 500+ RPM；施力接頭後風扇與 RGB 恢復，一放手兩者停止。 | 稱增加接頭保持壓力後暫時恢復，自己也不確定能維持多久。 |
 
-兩個案例共有的模式是「重新接合後暫時恢復，過一陣子再停止」。論壇原發文者當時仍有 RGB，本次最初則是三顆不亮、不轉；不能因此把兩案的所有細節視為完全相同。其他人的垂直安裝方式與水泵振動也不能套用成本次已確認的狀態。
+其中 ROGn97dhxc55gkq 的「重新接合後恢復、過一陣子再次停止」，以及 YorVeX 的「施力才恢復、放手又失效」，與本次個案尤其接近。這些回報支持檢查接頭接合與固定可靠性的方向；各回報者自行增加固定壓力的作法，是個案經過，不代表已驗證的維修方案。
 
-這些回報能證明有其他使用者遇到相似症狀，尚不能據此判定故障比例、正式召回或所有同型號都有設計缺陷。
+## 華碩客服與論壇版主的處理方向 {#asus-support-responses}
 
-另在[接頭自行鬆脫的同類案例](https://rog-forum.asus.com/t5/gaming-graphics-cards/rog-astral-lc-rtx-5090-aio-cable-loose/td-p/1136052)中，華碩客服認為這種表現屬於異常硬體連接，建議儘快安排保固檢修，由服務中心檢查並視情況更換相關線組或模組。這是該案的客服建議，本次仍待店家或華碩實際檢查。
+在 [DonShani 的接頭自行鬆脫回報](https://rog-forum.asus.com/t5/gaming-graphics-cards/rog-astral-lc-rtx-5090-aio-cable-loose/td-p/1136052)中，Customer Service Agent Falcon2_ROG 於 **2026-01-23** 回覆：依照描述，接頭自行鬆脫並造成冷排風扇停止，屬於異常硬體連接的表現，建議儘快安排保固檢修，由服務中心檢查並視情況更換相關線組或模組。
+
+[Ahmed0Alkathiri 的討論串](https://rog-forum.asus.com/t5/gaming-graphics-cards/rog-astral-lc-rtx-5090-radiator-fans-not-spinning-due-to-loose/td-p/1143214)中，Super Moderator Silent_Scone 於 **2026-03-21** 要求將顯卡交由維修檢查，Falcon2_ROG 於 **2026-04-02** 提供當地客服管道。這些回覆支持安排檢修，但不是已完成的故障根因鑑定，也不等於華碩正式承認全系列設計缺陷。
+
+本次作者仍沒有店家或華碩實際檢測結果，不把其他人的客服建議或 RMA 結果寫成本次已完成的處理。
+
+## 案例差異、重複來源與判讀限制 {#case-evidence-limits}
+
+**可以確認的是，多個不同公開帳號回報了相似的冷排風扇／磁吸接頭異常；不能把文章或留言篇數直接當作故障顯卡台數。**核對時保留以下差異：
+
+- **RGB 狀態不同。**部分案例燈光仍亮但風扇停止，本次最初則是三顆不亮、不轉。Ahmed0Alkathiri 另有一次本體風扇也停止的回報，不能把所有細節套成本次已確認狀態。
+- **Solved 不等於已修妥。**angeli662 的頁面標為 Solved／Accepted Solution，但被採納的是版主的驅動排查與維修建議，沒有作者確認問題已解決。
+- **相似文字可能參考其他貼文。**lxspector 與 DonShani 雖為不同帳號，主文段落高度相似，僅安裝方向及部分細節不同；不單靠這兩篇證明兩張不同故障顯卡。
+- **跨站發文可能是同一個案。**[Digitec 的 Lloyd C.](https://www.digitec.ch/en/s1/questionandanswer/beware-when-sending-in-high-end-hardware-under-warranty-are-defective-cards-simply-retained-despite--920919?referrerProductId=54237902)與 [ROG 的 daxx219](https://rog-forum.asus.com/t5/gaming-graphics-cards/rog-astral-lc-rtx-5090-oc-minor-fan-connector-issue-declared/td-p/1156687)都描述冷排接頭接觸不良，以及瑞士零售商送修後發還原價額度、未歸還卡的情節，可能是同一個案，不另計。售後說法仍是當事人主張；ROG 客服要求 RMA 資訊查核，沒有公開確認此處理由華碩授權。
+
+另有 [Reddit 的 carnagegtfo](https://www.reddit.com/r/ASUS/comments/1wqolmo/rog_astral_lc_rtx_5090_radiator_fans_randomly_go/)回報待機約 33 至 35°C 時冷排風扇突然高速，碰動磁吸接頭後恢復。這屬於相關的轉速控制異常，與停轉症狀不同；PWM 控制訊號間歇失效只是該作者推測，不能直接併成同一種已確認故障。
+
+綜合第一手回報，可說**這類現象並非只有本次作者回報，值得華碩進一步說明接頭固定與接觸可靠性**。目前沒有總銷量、序號比對或統一維修檢測資料，仍不能據此推算故障率、認定特定批次問題、正式召回或全系列都有設計缺陷。熱造成失效、接點長度不足等論壇說法也屬持有人推論，尚未取得工程鑑定佐證。
 
 ## 目前結果與驗證範圍 {#result}
 
@@ -144,4 +169,13 @@ GPU-Z 的 Fan 2 百分比與 GPU Tweak III 的散熱排風扇百分比相符；�
 - [ROG 論壇：Astral LC 冷排燈光線路與 Armoury Crate 控制](https://rog-forum.asus.com/t5/nvidia-graphics-cards/aura-system-rog-astral-rtx5090-lc/m-p/1108766)
 - [ROG 論壇：壓回接頭後暫時恢復，但接頭再次鬆脫](https://rog-forum.asus.com/t5/gaming-graphics-cards/rog-astral-lc-rtx-5090-radiator-fans-not-spinning-due-to-loose/td-p/1120426)
 - [ROG 論壇：同類接頭自行鬆脫案例與華碩保固檢修建議](https://rog-forum.asus.com/t5/gaming-graphics-cards/rog-astral-lc-rtx-5090-aio-cable-loose/td-p/1136052)
+- [ROG 論壇：Nartaq 的冷排風扇與 RGB 接頭失效回報](https://rog-forum.asus.com/t5/gaming-graphics-cards/rog-astral-lc-geforce-rtx-5090-32gb-gddr7-oc-fan-rgb-issue-fix/td-p/1112690)
+- [ROG 論壇：angeli662 的 RGB 亮但冷排風扇停止回報](https://rog-forum.asus.com/t5/gaming-graphics-cards/rog-astral-lc-rtx-5090-radiator-fans-not-spinning/td-p/1140409)
+- [ROG 論壇：Ahmed0Alkathiri 的停轉與轉速異常回報](https://rog-forum.asus.com/t5/gaming-graphics-cards/rog-astral-lc-rtx-5090-radiator-fans-not-spinning-due-to-loose/td-p/1143214)
+- [ROG 論壇：ROGn97dhxc55gkq 的接合後暫時恢復與復發回報](https://rog-forum.asus.com/t5/gaming-graphics-cards/rog-astral-lc-geforce-rtx-5090-oc-32gb-rad-fans-stop-spinning/td-p/1153022)
+- [Reddit：MrAskani 的冷排風扇異常與 RMA 後續](https://www.reddit.com/r/ASUSROG/comments/1kcqxeh/5090_rog_astral_lc_oc_radiator_power_issues/)
+- [Reddit：YorVeX 的施力接頭恢復、放手後失效回報](https://www.reddit.com/r/ASUSROG/comments/1kcqxeh/comment/nglq4c6/)
+- [Digitec：Lloyd C. 的冷排接頭與售後回報](https://www.digitec.ch/en/s1/questionandanswer/beware-when-sending-in-high-end-hardware-under-warranty-are-defective-cards-simply-retained-despite--920919?referrerProductId=54237902)
+- [ROG 論壇：daxx219 的接頭送修與售後回報](https://rog-forum.asus.com/t5/gaming-graphics-cards/rog-astral-lc-rtx-5090-oc-minor-fan-connector-issue-declared/td-p/1156687)
+- [Reddit：carnagegtfo 的冷排轉速暴衝與磁吸接頭回報](https://www.reddit.com/r/ASUS/comments/1wqolmo/rog_astral_lc_rtx_5090_radiator_fans_randomly_go/)
 - [GPU Tweak III 官方頁面](https://www.asus.com/campaign/GPU-Tweak-III/tw/index.php)
