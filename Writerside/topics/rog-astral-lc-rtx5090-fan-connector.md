@@ -160,6 +160,8 @@ GPU-Z 的 Fan 2 百分比與 GPU Tweak III 的散熱排風扇百分比相符；�
 
 本次尚無送修、換件或長時間穩定運轉的結果，也沒有新的 RGB 狀態單獨回報。保留「暫時恢復後復發」的完整時間線，將截圖與接頭復發影片提供給店家或華碩，請其檢查；在冷排恢復持續穩定運作前，避免 GPU 重負載。
 
+本次個案也已發布於[巴哈姆特電腦應用綜合討論板：冷排風扇不亮、不轉，壓回磁吸接頭後暫時恢復，但仍會復發](https://forum.gamer.com.tw/C.php?bsn=60030&snA=687855)，保留討論串連結，方便查閱板友回覆與後續交流。該貼文與本筆記記錄的是同一個案，不另計為其他使用者的相似回報。
+
 ## 參考資料 {#references}
 
 - [ROG Astral LC GeForce RTX 5090 32GB GDDR7 OC 產品頁](https://rog.asus.com/tw/graphics-cards/graphics-cards/rog-astral/rog-astral-lc-rtx5090-o32g-gaming/)
