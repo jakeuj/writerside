@@ -120,7 +120,7 @@ State Pattern 會把各階段行為移到 `RoundStartState` 等物件，改變�
 
 資料重用、動畫回呼或 Coroutine 的生命週期，可以在相關變更時驗證；沒有重現證據時，應把它們視為檢查方向。也不必為了可能存在的未來需求，立即將所有公式改成依賴注入。
 
-單例的語法示例可參考 [C# 單例模式](C#-單例模式.md)。這份筆記關心的是使用範圍與維護取捨。
+單例的語法示例可參考 [C# 單例模式](https://jakeuj.com/c-單例模式.html)。這份筆記關心的是使用範圍與維護取捨。
 
 ## 演出輸出是資料契約，不等於 Command Pattern {#battle-command-contract}
 
@@ -170,4 +170,4 @@ dotnet run --project samples/Battle.Sample/Battle.Sample.csproj -- --non-interac
 - [來源 repo 的專案說明](https://github.com/jakeuj/Battle/blob/0094f24902c23455410fbdab6c5f1ee6b1f1cf13/readme.md)
 - [來源 repo 的架構說明](https://github.com/jakeuj/Battle/blob/0094f24902c23455410fbdab6c5f1ee6b1f1cf13/Doc/architecture.md)
 - [來源 repo 的測試與驗證](https://github.com/jakeuj/Battle/blob/0094f24902c23455410fbdab6c5f1ee6b1f1cf13/Doc/testing.md)
-- [C# 單例模式](C#-單例模式.md)
+- [C# 單例模式](https://jakeuj.com/c-單例模式.html)
