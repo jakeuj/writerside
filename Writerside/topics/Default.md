@@ -10,6 +10,10 @@ Jakeuj 筆記本整理 .NET、ABP、Azure、GCP、Docker、AI 工具、macOS 與
 
 ## 最新文章
 
+- [Azure CLI az login 訂閱選擇器：觸發條件、關閉方式與快速登入](azure-cli-login-subscription-selector.md) — 2026-10-12
+
+  Azure CLI az login 出現 Announcements 與訂閱選擇器時，依互動登入、TTY 與 core.login_experience_v2 判斷觸發條件，並用 --subscription、--skip-subscription-discovery 或關閉設定讓登入更快、腳本不卡住。
+
 - [C# 狀態機、狀態模式與策略模式：差異與選擇](csharp-state-machine-state-pattern.md) — 2026-10-07
 
   以同一套 C# 訂單規則比較 switch、轉移表與 State Pattern，說明狀態機和策略模式的差異，並依行為複雜度、轉移規則及共存效果選擇設計。
@@ -45,10 +49,6 @@ Jakeuj 筆記本整理 .NET、ABP、Azure、GCP、Docker、AI 工具、macOS 與
 - [Gradio 在 Windows 反覆出現 WinError 10022 的原因與修正](gradio-asyncio-winerror-10022.md) — 2026-10-06
 
   在 Windows 用 Python 3.10 執行 Gradio（例如 FramePack）時，console 反覆出現 _call_connection_lost 的 OSError WinError 10022；這是 asyncio Proactor 在連線已斷開後呼叫 shutdown 失敗，可以用 sitecustomize.py 只包住這個呼叫來修正。
-
-- [ROG Astral LC RTX 5090 冷排風扇不亮、不轉：磁吸接頭暫時恢復後復發](rog-astral-lc-rtx5090-fan-connector.md) — 2026-10-06
-
-  ROG Astral LC RTX 5090 冷排風扇壓回磁吸接頭後僅暫時恢復，過一陣子又停止；負載截圖顯示 Fan 2 為 88% 卻是 0 RPM。此個案已復發，需檢查接頭固定、線組與風扇模組。
 
 [查看所有近期文章](recent-posts.md)
 

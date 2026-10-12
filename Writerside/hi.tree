@@ -257,6 +257,7 @@
         </toc-element>
         <toc-element topic="Azure.md">
             <toc-element topic="Azure-API-Management.md"/>
+            <toc-element topic="azure-cli-login-subscription-selector.md" toc-title="az login 訂閱選擇器"/>
             <toc-element toc-title="Azure VPN">
                 <toc-element topic="Azure-Vpn-Cret.md"/>
                 <toc-element topic="Azure-P2S-VPN-AAD.md"/>
