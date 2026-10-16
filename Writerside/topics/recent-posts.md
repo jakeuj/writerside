@@ -10,7 +10,7 @@
 
 - [Wi-Fi 7 路由器單房間升級：1G 光世代該買哪一台](wifi-7-router-single-room-upgrade.md) — 2026-10-16
 
-  從 Wi-Fi 6 路由器升級 Wi-Fi 7 時，單房間搭配 1G 光世代的效益來自 6GHz 而不是網速；只挑含 6GHz 的三頻機，不必追 10G 網路孔或 320MHz，並附 2026-10 原價屋與 PChome 價格比較，以及 PS5 Pro、Quest 3 的頻段設定。
+  單房間搭配 1G 光世代，升級 Wi-Fi 7 優先看 6GHz 與裝置能力；比較 2026-10 台灣三頻路由器價格，整理 Quest 3 無線 PC VR、PS5 Pro 頻段分配，以及 ASUS RT-AX82U 的 AiMesh 接線與限制。
 
 - [領取 Claude Max 與 Team 方案每月免費 API 額度](claude-max-team-monthly-api-credits.md) — 2026-10-13
 
