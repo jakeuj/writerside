@@ -12,6 +12,10 @@
 
 本文情境：原本使用 ASUS RT-AX82U（Wi-Fi 6，5GHz 為 4x4、160MHz，網路孔全部是 Gigabit），只在約 15 坪的單一房間使用，網路是 1G 光世代，沒有 NAS。PC 用 Cat 7 接有線，PS5 Pro、Quest 3、手機與筆電走無線。
 
+![單房間 PC VR 情境：PC 以網路線連接架上的路由器，Quest 3 在同房間透過無線連線接收串流](wifi-7-single-room-pcvr.png){thumbnail="true" width="900"}
+
+AI 生成情境示意：PC 與路由器之間走有線，頭盔與路由器之間走無線；設備外觀與藍色波紋不代表特定產品或實測覆蓋範圍。
+
 ## 換機會改善什麼 {#what-improves}
 
 | 項目 | 換 Wi-Fi 7 三頻機之後 |
@@ -93,9 +97,17 @@ Mac、Quest 3 這類 Wi-Fi 6E 裝置連上雙頻 Wi-Fi 7，只能走 5GHz Wi-Fi 
 | iPhone、MacBook | 6GHz 或 5GHz 都可以，用量小 |
 | Switch 2 | 5GHz；放在底座時可以接有線 |
 
+PC VR 的影音路徑是「PC → 網路線 → 路由器 → 6GHz → Quest 3」。同房間串流走內網，1G 光世代不是這段傳輸的速率上限；重點是 PC 的有線連接、頭盔的無線訊號與兩端編解碼能力。[Virtual Desktop 官方](https://www.vrdesktop.net/)也建議 PC 以網路線接路由器，並與頭盔保持在同一區網。
+
 6GHz 只有一個頻段，所有連上去的裝置共用頻寬。玩 VR 串流時，如果 PS5 Pro 也在 6GHz 背景下載遊戲，串流就可能卡頓，所以 6GHz 優先留給 Quest 3。
 
 沒有 VR 頭盔、PS5 Pro 又必須走無線時，就反過來讓 PS5 Pro 固定連 6GHz 的獨立網路名稱，避免它自己跳回 5GHz。
+
+設定頻段之外，也要確認擺位：路由器放在開放、架高且接近遊玩區的位置，讓頭盔到路由器之間盡量少有櫃體、牆壁或大型物品阻擋。
+
+![路由器擺位比較：左圖放在開放的高處層架，右圖放在靠地面的櫃內；兩邊 PC 都以網路線連接路由器](wifi-7-single-room-router-placement.png){thumbnail="true" width="900"}
+
+AI 生成擺位示意：左圖保留開放的無線路徑，右圖示範櫃體與低處擺放造成的遮擋；波紋不代表實測訊號強度，不能據此推算速度或延遲。
 
 ## Quest 3 找不到 6GHz 時 {#quest-3-6ghz}
 
@@ -141,6 +153,7 @@ Quest 3 在台灣能否使用 6GHz，目前找不到 Meta 的官方說明。同�
 - [Business Today：PS5 Pro 需要 6GHz 開放才上市](https://www.businesstoday.in/amp/technology/news/story/sony-ps5-pro-will-not-be-launched-in-india-due-to-wi-fi-7-restrictions-453020-2024-11-08)
 - [Presse-Citron：PS5 Pro Wi-Fi 7 實測](https://www.presse-citron.net/le-wifi-7-de-la-ps5-pro-a-t-il-vraiment-un-interet-notre-comparatif/)
 - [TP-Link 社群：Quest 3 找不到 Wi-Fi 7 路由器的 6GHz 網路](https://community.tp-link.com/en/smart-home/forum/topic/669728)
+- [Virtual Desktop：電腦有線連接與同區網要求](https://www.vrdesktop.net/)
 - [Meta 社群：Quest 3 連線問題討論](https://communityforums.atmeta.com/pairing-connection-12/quest-2-3-pro-connectivity-issues-133186/index10.html)
 - [iThome：台灣開放 6GHz 頻段](https://www.ithome.com.tw/news/159623)
 - [數位發展部：6GHz 頻段開放簡報](https://www-api.moda.gov.tw/File/Get/moda/zh-tw/ID1AEFSxRjM72DU)
