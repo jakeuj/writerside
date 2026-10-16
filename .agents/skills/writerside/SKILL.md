@@ -35,6 +35,7 @@ description: 在目前 Writerside repo 撰寫與驗證公開技術筆記，維�
 - 新 topic 預設使用短而穩定的 ASCII kebab-case 檔名；已發布文章改名等同改 URL，先處理 redirect 與外部連結影響。
 - 開頭先給解法或判斷。公開 topic 預設在 H1 後放一行 `<web-summary>`；有 1 到 3 個 quick facts 時才補 `<tldr>`。
 - 一般標題、段落、清單、連結與 code fence 優先用 Markdown；只有語意、結構或重用需求明確時才用 semantic markup。不要使用 `<caution>`。
+- 放截圖前先判斷讀者能否一眼看出重點；畫面元素多或步驟要點特定按鈕時，依 images reference 加框與編號標籤，並先遮掉識別資料。
 - 在 `hi.tree` 把 topic 放到最接近的既有分類；`toc-title` 與 H1 相同時省略，避免 `TOC007`。
 - 內部 topic 連結只用 `[標題](topic-filename.md)`：保留 `.md`，不要加 `./` 或 `../`。
 - XML/semantic markup 與 `hi.tree` 中的 `&`、`<`、`>` 必須正確 escape；Markdown 一般文字的 `&` 通常可保留。
@@ -54,7 +55,7 @@ description: 在目前 Writerside repo 撰寫與驗證公開技術筆記，維�
 - **最新文章與 RSS**：新增文章登錄、發布日期、精選、重大更新、首頁生成區塊或 feed 驗證時讀 [publication-reference.md](references/publication-reference.md)。
 - **摘要與入口頁**：`web-summary`、link/card summary 或 Search Console 摘要讀 [summary-reference.md](references/summary-reference.md)；quick facts 讀 [tldr-reference.md](references/tldr-reference.md)；首頁/章節入口頁讀 [starting-pages-reference.md](references/starting-pages-reference.md)。
 - **一般 markup**：Markdown/XML 選擇、tabs/procedure/include 等讀 [markup-reference.md](references/markup-reference.md)；長文結構讀 [structural-elements.md](references/structural-elements.md)；清單、表格與提醒分別讀 [lists-reference.md](references/lists-reference.md)、[tables-reference.md](references/tables-reference.md)、[admonitions-reference.md](references/admonitions-reference.md)。
-- **程式碼與媒體**：code block、CDATA、`ignore-vars` 讀 [code-reference.md](references/code-reference.md)；圖片/GIF/thumbnail/MRK058 讀 [images-reference.md](references/images-reference.md)；附件讀 [downloadable-resources-reference.md](references/downloadable-resources-reference.md)。
+- **程式碼與媒體**：code block、CDATA、`ignore-vars` 讀 [code-reference.md](references/code-reference.md)；圖片/GIF/thumbnail/MRK058，以及截圖加註（紅框、編號標籤、遮罩，用 [annotate_screenshot.py](scripts/annotate_screenshot.py)）讀 [images-reference.md](references/images-reference.md)；附件讀 [downloadable-resources-reference.md](references/downloadable-resources-reference.md)。
 - **圖表與公式**：依格式讀 [mermaid-reference.md](references/mermaid-reference.md)、[plantuml-reference.md](references/plantuml-reference.md)、[d2-reference.md](references/d2-reference.md) 或 [math-reference.md](references/math-reference.md)。
 - **專案與 instance**：專案根目錄讀 [projects-reference.md](references/projects-reference.md)；module 結構讀 [help-modules-reference.md](references/help-modules-reference.md)；主設定讀 [writerside-cfg-reference.md](references/writerside-cfg-reference.md)；instance/reuse 讀 [instances-reference.md](references/instances-reference.md)。
 - **TOC、標籤與變數**：`hi.tree`/home page/hidden topic 讀 [toc-reference.md](references/toc-reference.md)；labels 讀 [labels-reference.md](references/labels-reference.md)；`v.list`、`%var%`、`ignore-vars` 讀 [variables-reference.md](references/variables-reference.md)。

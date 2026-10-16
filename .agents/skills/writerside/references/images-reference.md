@@ -139,3 +139,46 @@ Click the ![check icon][check]{width="16"} icon to mark an item as done.
 - 需要 `thumbnail`、`preview-src`、`style`、或與 XML 結構混用時，再切換成 `<img>`。
 - 遇到大圖在段落裡的警告，先回頭看 `Writerside/topics/MRK058-Large-image.md`。
 - 如果圖片是教學核心內容，優先確保可讀性與路徑穩定，再追求花式屬性。
+
+## 截圖加註
+
+截圖給人看，文字給搜尋與 AI：正文與 alt text 要能獨立說清楚結論，截圖讓讀者一眼對到位置。畫面元素多、結論只靠其中幾格，或步驟要讀者點某個按鈕時，先加註再放進文章；單純示意或整個畫面就是重點時不必加註。
+
+### 顏色與標籤
+
+- 紅框標原因、異常值或「不要做」的項目，綠框標結果或要確認的正常值，灰框標背景補充，藍框標要操作的按鈕或欄位。
+- 標籤以 ①②③ 編號，一句話寫「值 → 意義」或「位置 → 動作」，例如「① 組織點數 US$200.00 → 已領到本月額度」；用語與正文一致。
+- 一張圖最多三到四個標註；超過就拆成兩張截圖或改用文字清單。
+- 圖片前一段文字或 alt text 要交代紅框、藍框各代表什麼；讀者看不到顏色時也能理解。
+
+### 去識別化
+
+- 畫面上有帳號、email、組織名稱、卡號、金鑰、token、內部網域或客戶資料時，先用 `mask` 蓋掉，再存進 `Writerside/images/`；遮罩不是加註的附屬，沒有加註需求也要做。
+- 識別資料落在證據區域之外（視窗標題、側欄、分頁）時直接裁掉。
+- 使用者提供時已打碼的圖仍要再看一次，確認沒有漏掉的角落。
+
+### 操作流程
+
+1. 先用 `sips -g pixelWidth -g pixelHeight` 取得原圖尺寸，開圖找出要框的區域座標；座標一律是原圖像素，左上為 `0,0`。
+2. 用 [scripts/annotate_screenshot.py](../scripts/annotate_screenshot.py) 依 JSON 規格畫框、標籤、箭頭與遮罩，規格格式見腳本開頭：
+
+    ```bash
+    python3 .agents/skills/writerside/scripts/annotate_screenshot.py \
+      <scratchpad>/原圖.png Writerside/images/<topic-slug>-<重點>.png - <<'JSON'
+    {"items": [
+      {"box": [612, 97, 918, 243], "color": "green", "width": 5},
+      {"label": "① 組織點數 US$200.00 → 已領到本月額度", "at": [940, 110], "color": "green", "size": 28, "arrow_to": [918, 170]}
+    ]}
+    JSON
+    ```
+
+3. 產出後一定要開圖檢查：框對到目標、標籤沒蓋住要看的值、中文字正常顯示、遮罩完全蓋住識別資料；不對就調座標重畫。
+4. 原圖留在 scratchpad，只把加註後的版本存進 `Writerside/images/`；檔名沿用 `<topic-slug>-<重點>.png`，不加 `_annotated` 之類的後綴，避免之後重做時又多一份。
+5. 使用者提供的圖是 webp 或其他 Writerside 不支援的格式時，先用 `sips -s format png` 轉成 PNG 再加註。
+6. 腳本需要 Pillow 與本機 CJK 字型；缺字型時依腳本提示在 `FONT_CANDIDATES` 補路徑。
+
+### 在正文中放置
+
+- 圖片放在它佐證的步驟或段落旁，不集中堆在文末。
+- alt text 寫「畫面主體 + 標註重點」，例如「Claude Console 儀表板，綠框標出組織點數 US$200.00，紅框標出不要開啟的自動儲值」。
+- 寬圖加 `thumbnail="true"`，讓讀者能點開看清標籤文字。

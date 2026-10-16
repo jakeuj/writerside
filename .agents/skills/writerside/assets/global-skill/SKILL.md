@@ -36,6 +36,7 @@ description: 從其他專案萃取可公開技術資訊，回寫 /Users/jakeuj/W
 - 新 topic 預設使用短而穩定的 ASCII kebab-case 檔名；已發布文章改名等同改 URL，先處理 redirect 與外部連結影響。
 - 開頭先給解法或判斷。公開 topic 預設在 H1 後放一行 `<web-summary>`；有 1 到 3 個 quick facts 時才補 `<tldr>`。
 - 一般標題、段落、清單、連結與 code fence 優先用 Markdown；只有語意、結構或重用需求明確時才用 semantic markup。不要使用 `<caution>`。
+- 放截圖前先判斷讀者能否一眼看出重點；畫面元素多或步驟要點特定按鈕時，依 images reference 加框與編號標籤，並先遮掉識別資料。
 - 在 `hi.tree` 把 topic 放到最接近的既有分類；`toc-title` 與 H1 相同時省略，避免 `TOC007`。
 - 內部 topic 連結只用 `[標題](topic-filename.md)`：保留 `.md`，不要加 `./` 或 `../`。
 - XML/semantic markup 與 `hi.tree` 中的 `&`、`<`、`>` 必須正確 escape；Markdown 一般文字的 `&` 通常可保留。
@@ -58,7 +59,7 @@ description: 從其他專案萃取可公開技術資訊，回寫 /Users/jakeuj/W
 - **最新文章與 RSS**：新增文章登錄、發布日期、精選、重大更新、首頁生成區塊或 feed 驗證時讀 [publication-reference.md](references/publication-reference.md)。
 - **摘要與入口頁**：`web-summary`、link/card summary 或 Search Console 摘要讀 `references/summary-reference.md`；quick facts 讀 `references/tldr-reference.md`；首頁/章節入口頁讀 `references/starting-pages-reference.md`。
 - **一般 markup**：Markdown/XML 選擇、tabs/procedure/include 等讀 `references/markup-reference.md`；長文結構讀 `references/structural-elements.md`；清單、表格與提醒分別讀 `references/lists-reference.md`、`references/tables-reference.md`、`references/admonitions-reference.md`。
-- **程式碼與媒體**：code block、CDATA、`ignore-vars` 讀 `references/code-reference.md`；圖片/GIF/thumbnail/MRK058 讀 `references/images-reference.md`；附件讀 `references/downloadable-resources-reference.md`。
+- **程式碼與媒體**：code block、CDATA、`ignore-vars` 讀 `references/code-reference.md`；圖片/GIF/thumbnail/MRK058，以及截圖加註（紅框、編號標籤、遮罩，用 `scripts/annotate_screenshot.py`）讀 `references/images-reference.md`；附件讀 `references/downloadable-resources-reference.md`。
 - **圖表與公式**：依格式讀 `references/mermaid-reference.md`、`references/plantuml-reference.md`、`references/d2-reference.md` 或 `references/math-reference.md`。
 - **專案與 instance**：專案根目錄讀 `references/projects-reference.md`；module 結構讀 `references/help-modules-reference.md`；主設定讀 `references/writerside-cfg-reference.md`；instance/reuse 讀 `references/instances-reference.md`。
 - **TOC、標籤與變數**：`hi.tree`/home page/hidden topic 讀 `references/toc-reference.md`；labels 讀 `references/labels-reference.md`；`v.list`、`%var%`、`ignore-vars` 讀 `references/variables-reference.md`。
