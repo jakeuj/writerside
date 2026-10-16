@@ -20,6 +20,7 @@
             <toc-element href="https://www.dotblogs.com.tw/jakeuj/" toc-title="原筆記(點部落)" />
         </toc-element>
         <toc-element toc-title="AI">
+            <toc-element topic="claude-max-team-monthly-api-credits.md" toc-title="Claude Max/Team 每月 API 額度"/>
             <toc-element topic="omlx-claude-code-desktop-setup.md" toc-title="oMLX 設定 Claude Code Desktop"/>
             <toc-element topic="omlx-ornith-codex-settings.md" toc-title="oMLX Ornith Codex 設定"/>
             <toc-element topic="auggie-mcp-guide.md"/>
@@ -569,6 +570,7 @@
             <toc-element topic="Unity-5-使用-Android-SDK-API-24-問題.md" />
         </toc-element>
         <toc-element toc-title="其他">
+            <toc-element topic="wifi-7-router-single-room-upgrade.md" toc-title="Wi-Fi 7 路由器單房間選購"/>
             <toc-element topic="chrome-edge-extension-cd-github-actions.md" toc-title="Chrome / Edge 擴充套件自動發布"/>
             <toc-element topic="CSS3-背景圖片加半透明黑色遮色片.md" />
             <toc-element topic="ERR_CONNECTION_RESET.md" />

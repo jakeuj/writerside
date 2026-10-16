@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "topic": "wifi-7-router-single-room-upgrade.md",
+      "url": "https://jakeuj.com/wifi-7-router-single-room-upgrade.html",
+      "published": "2026-10-16",
+      "date_basis": "建立筆記日期；2026-10-16，依當日原價屋與 PChome 報價、各廠商規格頁、媒體實測與社群回報整理；正式 URL 待 Writerside 建置產物核對"
+    },
+    {
+      "topic": "claude-max-team-monthly-api-credits.md",
+      "url": "https://jakeuj.com/claude-max-team-monthly-api-credits.html",
+      "published": "2026-10-13",
+      "date_basis": "建立筆記日期；2026-10-13，依 Claude 說明中心與 Claude Docs 的 API credits 文件及實際領取畫面整理；正式 URL 待 Writerside 建置產物核對"
+    },
+    {
       "topic": "azure-cli-login-subscription-selector.md",
       "url": "https://jakeuj.com/azure-cli-login-subscription-selector.html",
       "published": "2026-10-12",
