@@ -12,7 +12,7 @@ Jakeuj 筆記本整理 .NET、ABP、Azure、GCP、Docker、AI 工具、macOS 與
 
 - [Wi-Fi 7 路由器單房間升級：1G 光世代該買哪一台](wifi-7-router-single-room-upgrade.md) — 2026-10-16
 
-  單房間搭配 1G 光世代，升級 Wi-Fi 7 優先看 6GHz 與裝置能力；比較 2026-10 台灣三頻路由器價格，整理 Quest 3 無線 PC VR、PS5 Pro 頻段分配，以及 ASUS RT-AX82U 的 AiMesh 接線與限制。
+  單房間搭配 1G 光世代，升級 Wi-Fi 7 優先看 6GHz 與裝置能力；比較台灣三頻路由器價格、Wi-Fi 8 草案產品與等待價值，整理 Quest 3 無線 PC VR、頻段分配及 RT-AX82U 的 AiMesh 接線。
 
 - [領取 Claude Max 與 Team 方案每月免費 API 額度](claude-max-team-monthly-api-credits.md) — 2026-10-13
 

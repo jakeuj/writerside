@@ -1,8 +1,10 @@
 # Wi-Fi 7 路由器單房間升級：1G 光世代該買哪一台
 
-<web-summary>單房間搭配 1G 光世代，升級 Wi-Fi 7 優先看 6GHz 與裝置能力；比較 2026-10 台灣三頻路由器價格，整理 Quest 3 無線 PC VR、PS5 Pro 頻段分配，以及 ASUS RT-AX82U 的 AiMesh 接線與限制。</web-summary>
+<web-summary>單房間搭配 1G 光世代，升級 Wi-Fi 7 優先看 6GHz 與裝置能力；比較台灣三頻路由器價格、Wi-Fi 8 草案產品與等待價值，整理 Quest 3 無線 PC VR、頻段分配及 RT-AX82U 的 AiMesh 接線。</web-summary>
 
 單房間、1G 光世代的情況下，換 Wi-Fi 7 不會提高申辦方案的速率上限，主要升級價值是讓相容裝置改走 6GHz、分散頻段負載。因此，這套設備優先挑**含 6GHz 的三頻機**，不必為目前用不到的 10G 網路孔或 320MHz 多付錢。2026-10-16 查價時，CP 值最高的是原價屋的 TP-Link Archer BE550（5,599 元）；想繼續用 ASUS 管理介面並保留舊 RT-AX82U 作 AiMesh 節點，就選 RT-BE92U（7,699 元）。實際速度與穩定性仍須依房間內的訊號、干擾與裝置連線確認。
+
+同日查核的 Wi-Fi 8 已有早期商品，但標準仍是草案。以這套 1G、15 坪與 Wi-Fi 6E／7 裝置，不建議為它延後目前需要的升級，也不建議直接改買近三萬元的首代旗艦；價格與標準進度見[是否需要等 Wi-Fi 8](#wait-for-wifi8)。
 
 <tldr>
 <p>以 Quest 3 無線 PC VR 與 6GHz 分流為目標時，優先選三頻機；雙頻 Wi-Fi 7 無法替 Wi-Fi 6E 裝置增加 6GHz。</p>
@@ -101,6 +103,59 @@ AI 生成資訊圖：價格沿用上表的 2026-10-16 紀錄，酷幣未折抵�
 
 BE9700、BE9300 是各頻段理論 PHY 速率的加總，不能當成單台手機的下載速度，也不能用來判斷家中實際吞吐量。RT-BE92U 的 10G 埠只有一個：作 WAN 時，其餘有線埠各為 2.5G；若以 2.5G 埠作 WAN，則可把 10G 留給 LAN 的電腦、NAS 或交換器。10G 實體埠也不代表啟用 PPPoE、VPN 或 QoS 後必然有 10Gbps 吞吐量。[ASUS 官方規格](https://shop.asus.com/tw/90ig0950-mt1a0v-asus-rt-be92u.html)
 
+## 是否需要等 Wi-Fi 8 {#wait-for-wifi8}
+
+**這套設備不必為 Wi-Fi 8 延後升級。** 現在較能直接用到的是 6GHz、PC 的 2.5G LAN 與合適擺位；若原本網路已穩定，也可以繼續用 AX82U，不必只因新世代出現而換機。以下為 2026-10-16 的研究紀錄，沒有 Wi-Fi 7／8 同環境實機對照測試。
+
+| 產品 | 台灣價格與上市狀態 | 規格與取捨 |
+| --- | --- | --- |
+| ASUS ROG Rapture GT-BN98 | [PChome 掛價 27,990 元](https://24h.pchome.com.tw/prod/DRAFJ5-A900KIPPX)，有購買按鈕；配送註明不受 24h 到貨限制 | BN25000 四頻，2.4GHz、兩組 5GHz、6GHz 各為 4x4；2×10G、4×2.5G、1×1G，含 WAN/LAN 埠；支援 AiMesh，但明列 802.11bn Draft |
+| TP-Link Archer 8 Ultra／Archer BN800 | 海外已開放預購；台灣官方說明上市時程依 NCC 審核另行公布，本次未確認台灣實售價 | BN19000 三頻含 6GHz，雙 10G 介面與 4×2.5G；部分功能規劃由後續 OTA 提供 |
+
+ASUS 規格依 [GT-BN98 台灣官方頁](https://rog.asus.com/tw/networking/rog-rapture-gt-bn98/spec/)；TP-Link 規格與區域上市狀態依 [BN800 台灣產品頁](https://www.tp-link.com/tw/home-networking/wifi-router/archer-bn800/)及[台灣新聞稿與 NCC 註腳](https://www.tp-link.com/tw/press/news/22557/)。海外預購不等於台灣已上市，商品頁也不保證即時庫存。
+
+GT-BN98 比同日 7,699 元的 BE92U 多 **20,291 元**，約為 3.64 倍價格。雙 10G 與四頻容量有特定用途，但本文情境沒有 NAS，PC 只有 2.5GbE，也尚無實測證據支持這筆價差。BN25000 同樣是各頻段理論速率加總，不是單台手機能跑 25Gbps。
+
+## Wi-Fi 8 標準、認證與商品要分開看 {#wifi8-status}
+
+Wi-Fi 8 對應 IEEE 802.11bn，方向是 Ultra High Reliability（UHR，超高可靠性）。早期商品可以先於標準定案與互通認證推出，不能把「已經有商品」當成「標準已完成」。
+
+| 項目 | 2026-10-16 查核結果 |
+| --- | --- |
+| IEEE 草案 | 2026 年 9 月 TGbn 會議處理意見後生成 D2.1，尚非最終標準 |
+| IEEE 預計批准 | 最新時程列最終 WG／EC 批准為 2028 年 3 月、RevCom／SASB 批准為 2028 年 5 月；日期仍可能變動 |
+| Wi-Fi Alliance 認證 | Qualcomm 預估為 2028 年 1 月；本次未取得 WFA 自行公告的確定日期，不能寫成已核實的認證承諾 |
+
+來源：[IEEE TGbn 官方進度與時程](https://www.ieee802.org/11/Reports/tgbn_update.htm)、[Qualcomm Wi-Fi 8 FAQ](https://www.qualcomm.com/wi-fi/wi-fi-8)。本次未購買或完整審閱付費 IEEE 草案，不把廠商功能清單當成最終全部必選功能。
+
+早期購買還要注意兩個限制：
+
+- GT-BN98 官方規格明列 Draft，頁尾也說明不保證與未來標準相容；不能自行承諾它未來會完整符合定案版本。
+- BN800 美國官方頁註腳說明，可能不包含最終 802.11bn 全部強制功能，ELR、DRU、DSO 預計於 2027–2028 透過軟體更新提供。這是該區域產品的規劃，不等於台灣出貨版本的承諾。
+
+來源：[ASUS 草案標示與免責聲明](https://rog.asus.com/tw/networking/rog-rapture-gt-bn98/spec/)、[TP-Link BN800 美國頁與功能註腳](https://www.tp-link.com/us/home-networking/wifi-router/archer-bn800/)。
+
+## Wi-Fi 8 對現有裝置能改善多少 {#wifi8-existing-clients}
+
+Wi-Fi 8 主要改善干擾、弱訊號、多裝置與移動時的掉速、封包損失和延遲尖峰。它延續 2.4／5／6GHz、最高 320MHz 與 4096-QAM 等基礎，不是新增一個一般家用頻段或讓頻寬再翻倍。[MediaTek 技術白皮書第 6 頁](https://www.mediatek.com/hubfs/728015/MediaTek%20Assets/Pdfs/White_Papers/MDT3011_Pioneering_the_Future_with_WiFi8_WhitePaper_v6.pdf)
+
+| 改進方向 | 想解決的問題 | 使用條件 |
+| --- | --- | --- |
+| UEQM、新 MCS、較強錯誤修正 | 各串流依訊號品質調整，弱訊號時少掉速、少重傳 | 新 PHY 能力需要對應用戶端支援 |
+| DSO、NPCA | 更彈性使用子頻段，主頻道忙時減少等待 | 依產品、用戶端與干擾環境，並非保證能避開所有干擾 |
+| Co-SR、Co-BF 等多 AP 協調 | 協調功率、波束與傳輸機會，減少 AP 彼此干擾 | 參與協調的 AP 與部署須支援；鄰居舊機或 AX82U 不會自動加入 |
+| SMD 漫遊 | 在多 AP 間先建立新連線，再離開舊連線，減少切換中斷 | 須有對應 AP 群及用戶端支援，一般 AiMesh 不等於已有此能力 |
+
+這些是技術方向與部署條件的摘要，不表示每台早期產品都已完整提供。[Qualcomm PHY／MAC 技術解說](https://www.qualcomm.com/news/onq/2025/11/wi-fi-8-technologies-powering-ultra-high-reliability)
+
+常見的「提升 25%」也有條件：IEEE 要求相對 Wi-Fi 7 的 EHT 操作，至少各有一種模式在指定條件下，做到吞吐提升 25%、延遲分布第 95 百分位降低 25%、特定場景的 MAC 封包損失降低 25%，尤其 AP 間切換。這不是平均遊戲 ping 固定低 25%，也不會把 1G 光世代變成 1.25G。[IEEE UHR 定義](https://www.ieee802.org/11/Reports/tgbn_update.htm)
+
+本文已確認的終端沒有 Wi-Fi 8 客戶端：iPhone 16 Pro Max 與 PC 仍受其 Wi-Fi 7、最高 160MHz 能力限制，PS5 Pro 仍按 Wi-Fi 7 連線，Quest 3 與 M4 Max MacBook Pro 仍是 Wi-Fi 6E，Switch 2 仍是 Wi-Fi 6。換路由器不會讓它們取得 Wi-Fi 8 新 PHY，或讓 160MHz 裝置變成 320MHz。
+
+**舊裝置並非完全無法受益。** 新 AP 的射頻設計、排程與平台功能可能改善混合世代環境；MediaTek 也公開說明其部分平台技術能讓 Wi-Fi 6／7 客戶端受益。但這不等於每台 ASUS／TP-Link 商品都有相同實作，也不代表所有新標準功能都能用。[MediaTek 跨世代效益說明](https://www.mediatek.com/tek-talk-blogs/mediatek-extends-reliability-gains-from-wi-fi-8-to-include-wi-fi-7-and-wi-fi-6-devices?hs_amp=true)
+
+對同房間 Quest 3 串流，先做好 PC 有線與頭盔直連主路由 6GHz；等有 Wi-Fi 8 客戶端、相近環境的長期實測、需要多 AP 移動或多 10G 內網，且價格與韌體成熟度可接受時，再重新評估。也不要以「BE92U 未來可升 Wi-Fi 8」為購買理由：本次未找到 ASUS 的此項承諾，802.11bn 涉及 PHY／MAC 變動，一般韌體更新不等於整代無線硬體升級。
+
 ## 頻段分配建議 {#band-plan}
 
 | 裝置 | 建議連線方式 |
@@ -176,6 +231,12 @@ Quest 3 在台灣能否使用 6GHz，目前找不到 Meta 的官方說明。同�
 
 ## 參考資料 {#references}
 
+- [IEEE：802.11bn／Wi-Fi 8 工作組進度、UHR 目標與預計時程](https://www.ieee802.org/11/Reports/tgbn_update.htm)
+- [ASUS：GT-BN98 台灣規格、草案標示與免責聲明](https://rog.asus.com/tw/networking/rog-rapture-gt-bn98/spec/)
+- [PChome：ASUS GT-BN98](https://24h.pchome.com.tw/prod/DRAFJ5-A900KIPPX)
+- [TP-Link：Archer 8 Ultra 海外預購與台灣 NCC 上市條件](https://www.tp-link.com/tw/press/news/22557/)
+- [Qualcomm：Wi-Fi 8 PHY／MAC 技術說明](https://www.qualcomm.com/news/onq/2025/11/wi-fi-8-technologies-powering-ultra-high-reliability)
+- [MediaTek：Wi-Fi 8 平台的跨世代改善](https://www.mediatek.com/tek-talk-blogs/mediatek-extends-reliability-gains-from-wi-fi-8-to-include-wi-fi-7-and-wi-fi-6-devices?hs_amp=true)
 - [PChome：ASUS RT-BE92U](https://24h.pchome.com.tw/prod/DRAFJ5-A900I3EKW)
 - [PChome：TP-Link Archer BE550](https://24h.pchome.com.tw/prod/DRAN5B-A900H2KB5)
 - [PChome：Mercusys MR47BE](https://24h.pchome.com.tw/prod/DRAFJ9-A900H3SL0)
