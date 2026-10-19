@@ -10,6 +10,10 @@ Jakeuj 筆記本整理 .NET、ABP、Azure、GCP、Docker、AI 工具、macOS 與
 
 ## 最新文章
 
+- [線上課程背景播放 JavaScript：套用、還原與計時驗證](elearning-progress-api-visibility.md) — 2026-10-19
+
+  保留可直接複製的線上課程背景播放 JavaScript，暫時停用 CourseReader 的頁面可見性處理與定期回應確認，附執行條件、還原指令，以及 API 回存和伺服器時數認列的驗證限制。
+
 - [Wi-Fi 7 路由器單房間升級：1G 光世代該買哪一台](wifi-7-router-single-room-upgrade.md) — 2026-10-16
 
   單房間搭配 1G 光世代，升級 Wi-Fi 7 優先看 6GHz 與裝置能力；比較台灣三頻路由器價格、Wi-Fi 8 草案產品與等待價值，整理 Quest 3 無線 PC VR、頻段分配及 RT-AX82U 的 AiMesh 接線。
@@ -45,10 +49,6 @@ Jakeuj 筆記本整理 .NET、ABP、Azure、GCP、Docker、AI 工具、macOS 與
 - [Unity 回合制戰鬥核心設計：狀態機、技能、Buff 與單例](unity-turn-based-battle-core.md) — 2026-10-07
 
   Unity 手遊同時只有一場玩家戰鬥時，單例可以合理代表目前戰鬥；透過狀態機安排時序、技能公式重用運算、Buff 集合保存效果，並以獨立情境測試保護已運作的規則。
-
-- [聖火降魔錄 萬縷千絲（萬紫千紅）培養計算器：成長率公式與坐騎加成](fire-emblem-fortunes-weave-growth-calculator.md) — 2026-10-06
-
-  《聖火降魔錄 萬縷千絲》（萬紫千紅）的角色成長是個人、職業與坐騎成長率逐級擲骰，職業補正只在當下職業生效；從遊戲內目前的等級、職業與實際能力值出發預測轉職路線，並整理凱伊篇坐騎與戰車兵的成長加成規則。
 
 [查看所有近期文章](recent-posts.md)
 

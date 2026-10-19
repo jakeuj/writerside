@@ -8,6 +8,10 @@
 
 ## 2026 {#year-2026-1}
 
+- [線上課程背景播放 JavaScript：套用、還原與計時驗證](elearning-progress-api-visibility.md) — 2026-10-19
+
+  保留可直接複製的線上課程背景播放 JavaScript，暫時停用 CourseReader 的頁面可見性處理與定期回應確認，附執行條件、還原指令，以及 API 回存和伺服器時數認列的驗證限制。
+
 - [Wi-Fi 7 路由器單房間升級：1G 光世代該買哪一台](wifi-7-router-single-room-upgrade.md) — 2026-10-16
 
   單房間搭配 1G 光世代，升級 Wi-Fi 7 優先看 6GHz 與裝置能力；比較台灣三頻路由器價格、Wi-Fi 8 草案產品與等待價值，整理 Quest 3 無線 PC VR、頻段分配及 RT-AX82U 的 AiMesh 接線。
@@ -44,11 +48,11 @@
 
   Unity 手遊同時只有一場玩家戰鬥時，單例可以合理代表目前戰鬥；透過狀態機安排時序、技能公式重用運算、Buff 集合保存效果，並以獨立情境測試保護已運作的規則。
 
+## 2026（續 1） {#year-2026-2}
+
 - [聖火降魔錄 萬縷千絲（萬紫千紅）培養計算器：成長率公式與坐騎加成](fire-emblem-fortunes-weave-growth-calculator.md) — 2026-10-06
 
   《聖火降魔錄 萬縷千絲》（萬紫千紅）的角色成長是個人、職業與坐騎成長率逐級擲骰，職業補正只在當下職業生效；從遊戲內目前的等級、職業與實際能力值出發預測轉職路線，並整理凱伊篇坐騎與戰車兵的成長加成規則。
-
-## 2026（續 1） {#year-2026-2}
 
 - [FramePack Windows 一鍵包支援 RTX 5090：升級 PyTorch cu128 與 SageAttention](framepack-rtx-5090-windows.md) — 2026-10-06
 
@@ -86,11 +90,11 @@
 
   在 macOS 使用 CrossOver 執行 Guild Wars 2 時，除了把 arcdps 的 d3d11.dll 放到遊戲目錄，還要在 Wine 設定加入 Native then Builtin DLL override 才能正常載入。
 
+## 2026（續 2） {#year-2026-3}
+
 - [oMLX Ornith-1.0-35B-8bit 給 Codex 使用的設定紀錄](omlx-ornith-codex-settings.md) — 2026-07-08
 
   整理在 MacBook Pro M4 Max 128 GB 上用 oMLX 執行 Ornith-1.0-35B-8bit 給 Codex 使用時，context window、thinking、reasoning parser、Responses API、model catalog 與 CC Switch 遠端壓縮的已知問題與建議設定。
-
-## 2026（續 2） {#year-2026-3}
 
 - [Codex Plugin 建立指南](codex-plugin-build-guide.md) — 2026-07-02
 
@@ -128,11 +132,11 @@
 
   判斷 DiffusionGemma 目前是否適合用 Ollama 執行，並比較 vLLM、llama.cpp DiffusionGemma 分支與 GGUF CLI 的可行路線。
 
+## 2026（續 3） {#year-2026-4}
+
 - [bizhub C651i Mac 印表機驅動安裝說明](bizhub-c651i-macos-driver-install.md) — 2026-06-11
 
   在 macOS 安裝 KONICA MINOLTA bizhub C651i 印表機驅動，並用固定 IP、IPP 佇列與 C651i PS driver 重新加入印表機。
-
-## 2026（續 3） {#year-2026-4}
 
 - [ABP 分離 Auth/API 專案部署到 Azure 與 Akamai 檢查表](abp-azure-akamai-deployment-checklist.md) — 2026-06-10
 
