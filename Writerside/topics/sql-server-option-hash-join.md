@@ -114,6 +114,51 @@ SET STATISTICS TIME OFF;
 
 兩份結果的鍵與計數應一致；沒有 `ORDER BY` 時，列順序不同不代表資料不同。先確認結果正確，再比較效能。
 
+## SHOWPLAN 權限遭拒時怎麼處理 {#showplan-permission}
+
+開啟實際或預估執行計畫時，如果看到這類訊息：
+
+```text
+訊息 262，層級 14
+於資料庫 'LibraryDemo' 中，SHOWPLAN 的權限遭拒。
+```
+
+表示目前使用者缺少該資料庫的 `SHOWPLAN` 權限。請由 DBA 或具有適當授權權限的帳號，在目標資料庫授權給實際執行查詢的 **database user**；不必為了看計畫把使用者加入 `db_owner`。
+
+以下的 `LibraryDemo` 與 `plan_reader` 都是示意名稱，請替換為實際資料庫與已存在的資料庫使用者：
+
+```sql
+USE [LibraryDemo];
+GO
+GRANT SHOWPLAN TO [plan_reader];
+GO
+```
+
+`SHOWPLAN` 是資料庫層級權限，這段語法授權目前資料庫，不是整台 SQL Server。[GRANT Database Permissions](https://learn.microsoft.com/en-us/sql/t-sql/statements/grant-database-permissions-transact-sql)
+
+授權後，用原本執行查詢的帳號，在同一個資料庫檢查：
+
+```sql
+SELECT DB_NAME() AS DatabaseName,
+       USER_NAME() AS DatabaseUser,
+       HAS_PERMS_BY_NAME(DB_NAME(), 'DATABASE', 'SHOWPLAN') AS HasShowplan;
+```
+
+`HasShowplan = 1` 代表目前帳號有此權限；`0` 代表沒有。確認後重新執行需要計畫的查詢。
+
+如果查詢或 View 參照多個 SQL Server 資料庫，需要對各個被參照的資料庫確認 `SHOWPLAN`，不能只處理目前 `USE` 的資料庫。實際執行計畫也會執行 SQL，因此原本需要的 `SELECT`／`EXECUTE` 等權限仍須具備；`SHOWPLAN` 不會代替它們。Oracle linked server 的連線與物件權限則是另外一層。[執行計畫的權限需求](https://learn.microsoft.com/en-us/sql/relational-databases/performance/display-an-actual-execution-plan)
+
+診斷結束後，若只需暫時授權，可由 DBA 撤回這次直接授予的權限：
+
+```sql
+USE [LibraryDemo];
+GO
+REVOKE SHOWPLAN FROM [plan_reader];
+GO
+```
+
+如果帳號仍透過其他角色或群組取得同一權限，撤回直接授權後，權限檢查仍可能回 `1`。
+
 ## 執行計畫要看哪些數字 {#execution-plan-checks}
 
 先查看耗時節點的執行次數與實際列數，再看它是否位於 Nested Loops 的內側。以下是**虛構的單執行緒示意資料**，用來說明重複掃描的量級：
@@ -185,3 +230,5 @@ View 也不能參照本篇的暫存表；要練習建立 View，需另外在測�
 - [SQL Server Join 演算法](https://learn.microsoft.com/en-us/sql/relational-databases/performance/joins)
 - [CREATE VIEW：OPTION 與暫存表限制](https://learn.microsoft.com/en-us/sql/t-sql/statements/create-view-transact-sql)
 - [SQL Server 慢查詢診斷](https://learn.microsoft.com/en-us/troubleshoot/sql/database-engine/performance/troubleshoot-slow-running-queries)
+- [SHOWPLAN 等資料庫權限的授權語法](https://learn.microsoft.com/en-us/sql/t-sql/statements/grant-database-permissions-transact-sql)
+- [實際執行計畫的權限需求](https://learn.microsoft.com/en-us/sql/relational-databases/performance/display-an-actual-execution-plan)
