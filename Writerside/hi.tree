@@ -114,6 +114,7 @@
         </toc-element>
         <toc-element topic="SQL.md">
             <toc-element topic="CTE.md" />
+            <toc-element topic="sql-server-option-hash-join.md"/>
             <toc-element topic="MSSQL-抓半年內的資料.md" />
             <toc-element topic="MSSQL-2008-R2-TLS-1.2.md" />
             <toc-element topic="MSSQL-Local-Db-服務無法啟動-Error-1069.md" />

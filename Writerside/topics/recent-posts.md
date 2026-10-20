@@ -8,6 +8,10 @@
 
 ## 2026 {#year-2026-1}
 
+- [SQL Server OPTION (HASH JOIN)：用途、執行計畫與效能驗證](sql-server-option-hash-join.md) — 2026-10-20
+
+  說明 SQL Server OPTION (HASH JOIN) 的作用範圍、與 INNER HASH JOIN 的差異，並用虛構圖書借閱範例，示範如何從實際執行計畫確認重複掃描、記憶體與查詢耗時。
+
 - [線上課程背景播放 JavaScript：套用、還原與計時驗證](elearning-progress-api-visibility.md) — 2026-10-19
 
   保留可直接複製的線上課程背景播放 JavaScript，暫時停用 CourseReader 的頁面可見性處理與定期回應確認，附執行條件、還原指令，以及 API 回存和伺服器時數認列的驗證限制。
@@ -44,11 +48,11 @@
 
   在 Apple Silicon Mac 研究 Unity IL2CPP iOS IPA 時，從 Mach-O、cryptid 與 runtime IL2CPP API 建立版本鎖定 registry，辨識既有 relay patch，並用 Mac-first A/B 測試與 pre-sign hook 釐清 iOS code signing 問題。
 
+## 2026（續 1） {#year-2026-2}
+
 - [Unity 回合制戰鬥核心設計：狀態機、技能、Buff 與單例](unity-turn-based-battle-core.md) — 2026-10-07
 
   Unity 手遊同時只有一場玩家戰鬥時，單例可以合理代表目前戰鬥；透過狀態機安排時序、技能公式重用運算、Buff 集合保存效果，並以獨立情境測試保護已運作的規則。
-
-## 2026（續 1） {#year-2026-2}
 
 - [聖火降魔錄 萬縷千絲（萬紫千紅）培養計算器：成長率公式與坐騎加成](fire-emblem-fortunes-weave-growth-calculator.md) — 2026-10-06
 
@@ -86,11 +90,11 @@
 
   在 macOS 使用 ipatool 從 App Store 下載官方加密 IPA，透過 unzip 指定解壓路徑，並檢查版本、簽章 metadata 與 Mach-O cryptid。
 
+## 2026（續 2） {#year-2026-3}
+
 - [在 macOS CrossOver 的 Guild Wars 2 啟用 arcdps](crossover-guild-wars-2-arcdps.md) — 2026-07-15
 
   在 macOS 使用 CrossOver 執行 Guild Wars 2 時，除了把 arcdps 的 d3d11.dll 放到遊戲目錄，還要在 Wine 設定加入 Native then Builtin DLL override 才能正常載入。
-
-## 2026（續 2） {#year-2026-3}
 
 - [oMLX Ornith-1.0-35B-8bit 給 Codex 使用的設定紀錄](omlx-ornith-codex-settings.md) — 2026-07-08
 
@@ -128,11 +132,11 @@
 
   比較 llama.cpp、Ollama、LM Studio 與 vLLM 的定位、模型格式、部署場景與企業內部 LLM serving 選型建議。
 
+## 2026（續 3） {#year-2026-4}
+
 - [Ollama DiffusionGemma](ollama_diffusiongemma_notes_2026-06-12.md) — 2026-06-12
 
   判斷 DiffusionGemma 目前是否適合用 Ollama 執行，並比較 vLLM、llama.cpp DiffusionGemma 分支與 GGUF CLI 的可行路線。
-
-## 2026（續 3） {#year-2026-4}
 
 - [bizhub C651i Mac 印表機驅動安裝說明](bizhub-c651i-macos-driver-install.md) — 2026-06-11
 
