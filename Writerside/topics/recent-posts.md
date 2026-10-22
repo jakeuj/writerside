@@ -8,6 +8,10 @@
 
 ## 2026 {#year-2026-1}
 
+- [AdGuard for Mac 不過濾 localhost：在 User rules 加入 $document 例外規則](adguard-localhost-allowlist.md) — 2026-10-22
+
+  在 AdGuard for Mac 的 User rules 加入 @@||localhost^$document 與 @@||127.0.0.1^$document，讓本機開發網站在任何 port 與路徑都不會被 AdGuard 封鎖請求、隱藏元素或注入腳本。
+
 - [SQL Server OPTION (HASH JOIN)：用途、執行計畫與效能驗證](sql-server-option-hash-join.md) — 2026-10-20
 
   說明 SQL Server OPTION (HASH JOIN) 的作用範圍、與 INNER HASH JOIN 的差異，並用虛構圖書借閱範例，示範如何從實際執行計畫確認重複掃描、記憶體與查詢耗時。
@@ -44,11 +48,11 @@
 
   用 graphify 把 repo 的程式、文件與截圖整理成可互動的知識圖，補上 viewport、noindex 與返回連結後發布到 GitHub Pages；附建圖 token 成本實測、增量更新做法，以及 AST 與 LLM 節點 ID 對不上的修法。
 
+## 2026（續 1） {#year-2026-2}
+
 - [Unity IL2CPP iOS IPA 研究筆記：從 Mach-O、runtime resolver 到 pre-sign hook](ios-unity-il2cpp-ipa-research-notes.md) — 2026-10-07
 
   在 Apple Silicon Mac 研究 Unity IL2CPP iOS IPA 時，從 Mach-O、cryptid 與 runtime IL2CPP API 建立版本鎖定 registry，辨識既有 relay patch，並用 Mac-first A/B 測試與 pre-sign hook 釐清 iOS code signing 問題。
-
-## 2026（續 1） {#year-2026-2}
 
 - [Unity 回合制戰鬥核心設計：狀態機、技能、Buff 與單例](unity-turn-based-battle-core.md) — 2026-10-07
 
@@ -86,11 +90,11 @@
 
   Azure App Service Web、API、Auth 以 Private Endpoint 與 Private DNS Zone 實作 Split-horizon DNS，讓外部經 WAF、內部沿用相同 FQDN 走私網。
 
+## 2026（續 2） {#year-2026-3}
+
 - [使用 ipatool 下載、解壓與驗證 App Store IPA](app-store-ipa-ipatool-download-extract.md) — 2026-08-05
 
   在 macOS 使用 ipatool 從 App Store 下載官方加密 IPA，透過 unzip 指定解壓路徑，並檢查版本、簽章 metadata 與 Mach-O cryptid。
-
-## 2026（續 2） {#year-2026-3}
 
 - [在 macOS CrossOver 的 Guild Wars 2 啟用 arcdps](crossover-guild-wars-2-arcdps.md) — 2026-07-15
 
@@ -128,11 +132,11 @@
 
   理解 GGUF、FP16/BF16、Distill 與 Q4_K_M 的差異，判斷本地 LLM 下載時該選半精度、蒸餾模型或量化格式。
 
+## 2026（續 3） {#year-2026-4}
+
 - [llama.cpp、Ollama、LM Studio、vLLM](llm_local_serving_comparison_notes_zh-TW.md) — 2026-06-12
 
   比較 llama.cpp、Ollama、LM Studio 與 vLLM 的定位、模型格式、部署場景與企業內部 LLM serving 選型建議。
-
-## 2026（續 3） {#year-2026-4}
 
 - [Ollama DiffusionGemma](ollama_diffusiongemma_notes_2026-06-12.md) — 2026-06-12
 

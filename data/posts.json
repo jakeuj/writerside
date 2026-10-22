@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "topic": "adguard-localhost-allowlist.md",
+      "url": "https://jakeuj.com/adguard-localhost-allowlist.html",
+      "published": "2026-10-22",
+      "date_basis": "建立筆記日期；2026-10-22，依當日 AdGuard for Mac 設定操作與 AdGuard Knowledge Base 規則語法文件整理；正式 URL 待 Writerside 建置產物核對"
+    },
+    {
       "topic": "sql-server-option-hash-join.md",
       "url": "https://jakeuj.com/sql-server-option-hash-join.html",
       "published": "2026-10-20",

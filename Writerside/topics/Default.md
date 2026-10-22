@@ -10,6 +10,10 @@ Jakeuj 筆記本整理 .NET、ABP、Azure、GCP、Docker、AI 工具、macOS 與
 
 ## 最新文章
 
+- [AdGuard for Mac 不過濾 localhost：在 User rules 加入 $document 例外規則](adguard-localhost-allowlist.md) — 2026-10-22
+
+  在 AdGuard for Mac 的 User rules 加入 @@||localhost^$document 與 @@||127.0.0.1^$document，讓本機開發網站在任何 port 與路徑都不會被 AdGuard 封鎖請求、隱藏元素或注入腳本。
+
 - [SQL Server OPTION (HASH JOIN)：用途、執行計畫與效能驗證](sql-server-option-hash-join.md) — 2026-10-20
 
   說明 SQL Server OPTION (HASH JOIN) 的作用範圍、與 INNER HASH JOIN 的差異，並用虛構圖書借閱範例，示範如何從實際執行計畫確認重複掃描、記憶體與查詢耗時。
@@ -45,10 +49,6 @@ Jakeuj 筆記本整理 .NET、ABP、Azure、GCP、Docker、AI 工具、macOS 與
 - [用 graphify 把 repo 做成知識圖，發布到 GitHub Pages](graphify-knowledge-graph-github-pages.md) — 2026-10-07
 
   用 graphify 把 repo 的程式、文件與截圖整理成可互動的知識圖，補上 viewport、noindex 與返回連結後發布到 GitHub Pages；附建圖 token 成本實測、增量更新做法，以及 AST 與 LLM 節點 ID 對不上的修法。
-
-- [Unity IL2CPP iOS IPA 研究筆記：從 Mach-O、runtime resolver 到 pre-sign hook](ios-unity-il2cpp-ipa-research-notes.md) — 2026-10-07
-
-  在 Apple Silicon Mac 研究 Unity IL2CPP iOS IPA 時，從 Mach-O、cryptid 與 runtime IL2CPP API 建立版本鎖定 registry，辨識既有 relay patch，並用 Mac-first A/B 測試與 pre-sign hook 釐清 iOS code signing 問題。
 
 [查看所有近期文章](recent-posts.md)
 
