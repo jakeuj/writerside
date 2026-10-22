@@ -385,6 +385,7 @@
             <toc-element topic="LINQPad-加入-EntityFramework-支援-Include.md" />
         </toc-element>
         <toc-element topic="Git.md">
+            <toc-element topic="github-projects-draft-issue-not-visible.md" />
             <toc-element topic="Switch-Account.md" />
             <toc-element topic="detected-dubious-ownership.md" />
             <toc-element topic="Changing-author-info.md" />

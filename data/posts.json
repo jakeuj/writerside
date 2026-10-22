@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "topic": "github-projects-draft-issue-not-visible.md",
+      "url": "https://jakeuj.com/github-projects-draft-issue-not-visible.html",
+      "published": "2026-10-23",
+      "date_basis": "建立筆記日期；2026-10-23，依當日 gh 排查與原地轉換結果及 GitHub 官方文件整理，識別資料已去識別化；正式 URL 待 Writerside 建置產物核對"
+    },
+    {
       "topic": "azure-sql-auditing-storage-key-rotation.md",
       "url": "https://jakeuj.com/azure-sql-auditing-storage-key-rotation.html",
       "published": "2026-10-22",

@@ -8,6 +8,10 @@
 
 ## 2026 {#year-2026-1}
 
+- [GitHub Projects 草稿不顯示：用 gh 查證與原地轉成 Issue](github-projects-draft-issue-not-visible.md) — 2026-10-23
+
+  GitHub Projects 清單為空但草稿仍能依 ID 讀取時，先排除篩選與封存，再用 gh 原地轉換單張 Draft issue，分別驗證資料、清單與畫面，避免重複新增。
+
 - [AdGuard for Mac 不過濾 localhost：在 User rules 加入 $document 例外規則](adguard-localhost-allowlist.md) — 2026-10-22
 
   在 AdGuard for Mac 的 User rules 加入 @@||localhost^$document 與 @@||127.0.0.1^$document，讓本機開發網站在任何 port 與路徑都不會被 AdGuard 封鎖請求、隱藏元素或注入腳本。
@@ -44,11 +48,11 @@
 
   在 Evennia 6.1 實作繁體中文玩家指令，用 arg_regex 決定空格與緊密式輸入，並以 CmdSet 的 priority、Union 與持久化設定處理指令覆寫及暫時互動。
 
+## 2026（續 1） {#year-2026-2}
+
 - [Evennia 時間與狀態更新機制怎麼選](evennia-time-state-updates.md) — 2026-10-07
 
   在 Evennia 6.1 依玩法選擇時間戳、delay、Script、TickerHandler 或 OnDemandHandler，用冷卻、延後通知、天氣與植物生長範例說明持久化、停止訂閱和伺服器停機時間的差異。
-
-## 2026（續 1） {#year-2026-2}
 
 - [用 graphify 把 repo 做成知識圖，發布到 GitHub Pages](graphify-knowledge-graph-github-pages.md) — 2026-10-07
 
@@ -86,11 +90,11 @@
 
   瀏覽器擴充套件打 tag 後由 GitHub Actions 打包 zip、建 GitHub Release，並用 Edge Add-ons Publish API v1.1 與 Chrome Web Store API v2 自動上傳送審；本文整理憑證申請、workflow 寫法與常見坑。
 
+## 2026（續 2） {#year-2026-3}
+
 - [DataGrip 連線 Azure SQL：Microsoft Entra Default 驗證 20 秒逾時排錯](datagrip-azure-sql-entra-auth-timeout.md) — 2026-08-17
 
   DataGrip 使用 Microsoft Entra ID Default 連線 Azure SQL 出現 switchIfEmpty 20 秒逾時時，可從 macOS GUI PATH 與 Azure CLI 自動更新輸出污染快速定位並修復。
-
-## 2026（續 2） {#year-2026-3}
 
 - [Azure App Service Private Endpoint：Web、API、Auth 的 Split-horizon DNS](azure-app-service-split-horizon-dns.md) — 2026-08-07
 
@@ -128,11 +132,11 @@
 
   比較 Ornith-1.0-35B、Qwen3.6-35B 與 Gemma 4 31B 在 coding agent benchmark 與企業內部 MIS 場景的選型差異。
 
+## 2026（續 3） {#year-2026-4}
+
 - [Apple Silicon Mac 用 Docker 跑 SQL Server 2025 避開 AVX crash](sql-server-2025-docker-apple-silicon.md) — 2026-07-01
 
   Apple Silicon Mac 使用 Docker Desktop 跑 SQL Server 2025 時，如果遇到 AVX assertion crash，優先改用固定 SQL Server 2025 CU tag、開啟 Rosetta amd64 emulation，並避免吃到舊的 2025-latest cache。
-
-## 2026（續 3） {#year-2026-4}
 
 - [GGUF、半精度、模型蒸餾與 Q4_K_M 筆記](gguf_fp16_distill_q4km_notes.md) — 2026-06-12
 
@@ -169,6 +173,8 @@
 - [Azure App Service VNet Integration 後如何查內網 IP](azure-app-service-vnet-private-ip.md) — 2026-04-30
 
   使用 WEBSITE_PRIVATE_IP 查詢 App Service VNet Integration 的出站內網 IP，分辨與 Private Endpoint 入站位址的差異。
+
+## 2026（續 4） {#year-2026-5}
 
 - [Evennia 開發 MUD 遊戲起手筆記](evennia-mud-development.md) — 2026-04-20
 

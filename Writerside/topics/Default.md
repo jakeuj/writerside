@@ -10,6 +10,10 @@ Jakeuj 筆記本整理 .NET、ABP、Azure、GCP、Docker、AI 工具、macOS 與
 
 ## 最新文章
 
+- [GitHub Projects 草稿不顯示：用 gh 查證與原地轉成 Issue](github-projects-draft-issue-not-visible.md) — 2026-10-23
+
+  GitHub Projects 清單為空但草稿仍能依 ID 讀取時，先排除篩選與封存，再用 gh 原地轉換單張 Draft issue，分別驗證資料、清單與畫面，避免重複新增。
+
 - [AdGuard for Mac 不過濾 localhost：在 User rules 加入 $document 例外規則](adguard-localhost-allowlist.md) — 2026-10-22
 
   在 AdGuard for Mac 的 User rules 加入 @@||localhost^$document 與 @@||127.0.0.1^$document，讓本機開發網站在任何 port 與路徑都不會被 AdGuard 封鎖請求、隱藏元素或注入腳本。
@@ -45,10 +49,6 @@ Jakeuj 筆記本整理 .NET、ABP、Azure、GCP、Docker、AI 工具、macOS 與
 - [Evennia 中文指令解析與 CmdSet 實作](evennia-chinese-commands-cmdsets.md) — 2026-10-07
 
   在 Evennia 6.1 實作繁體中文玩家指令，用 arg_regex 決定空格與緊密式輸入，並以 CmdSet 的 priority、Union 與持久化設定處理指令覆寫及暫時互動。
-
-- [Evennia 時間與狀態更新機制怎麼選](evennia-time-state-updates.md) — 2026-10-07
-
-  在 Evennia 6.1 依玩法選擇時間戳、delay、Script、TickerHandler 或 OnDemandHandler，用冷卻、延後通知、天氣與植物生長範例說明持久化、停止訂閱和伺服器停機時間的差異。
 
 [查看所有近期文章](recent-posts.md)
 
