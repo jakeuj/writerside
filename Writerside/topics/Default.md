@@ -14,6 +14,10 @@ Jakeuj 筆記本整理 .NET、ABP、Azure、GCP、Docker、AI 工具、macOS 與
 
   在 AdGuard for Mac 的 User rules 加入 @@||localhost^$document 與 @@||127.0.0.1^$document，讓本機開發網站在任何 port 與路徑都不會被 AdGuard 封鎖請求、隱藏元素或注入腳本。
 
+- [Azure SQL 稽核寫不進儲存體：金鑰重新產生後要重新儲存稽核設定](azure-sql-auditing-storage-key-rotation.md) — 2026-10-22
+
+  Azure SQL 稽核告警顯示無法寫入儲存體帳戶時，用 Azure CLI 比對稽核驗證方式與儲存體金鑰建立時間找出原因，重新儲存稽核設定並關閉重複的資料庫層稽核。
+
 - [SQL Server OPTION (HASH JOIN)：用途、執行計畫與效能驗證](sql-server-option-hash-join.md) — 2026-10-20
 
   說明 SQL Server OPTION (HASH JOIN) 的作用範圍、與 INNER HASH JOIN 的差異，並用虛構圖書借閱範例，示範如何從實際執行計畫確認重複掃描、記憶體與查詢耗時。
@@ -45,10 +49,6 @@ Jakeuj 筆記本整理 .NET、ABP、Azure、GCP、Docker、AI 工具、macOS 與
 - [Evennia 時間與狀態更新機制怎麼選](evennia-time-state-updates.md) — 2026-10-07
 
   在 Evennia 6.1 依玩法選擇時間戳、delay、Script、TickerHandler 或 OnDemandHandler，用冷卻、延後通知、天氣與植物生長範例說明持久化、停止訂閱和伺服器停機時間的差異。
-
-- [用 graphify 把 repo 做成知識圖，發布到 GitHub Pages](graphify-knowledge-graph-github-pages.md) — 2026-10-07
-
-  用 graphify 把 repo 的程式、文件與截圖整理成可互動的知識圖，補上 viewport、noindex 與返回連結後發布到 GitHub Pages；附建圖 token 成本實測、增量更新做法，以及 AST 與 LLM 節點 ID 對不上的修法。
 
 [查看所有近期文章](recent-posts.md)
 
