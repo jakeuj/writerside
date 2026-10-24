@@ -16,7 +16,9 @@
       "topic": "adguard-localhost-allowlist.md",
       "url": "https://jakeuj.com/adguard-localhost-allowlist.html",
       "published": "2026-10-22",
-      "date_basis": "建立筆記日期；2026-10-22，依當日 AdGuard for Mac 設定操作與 AdGuard Knowledge Base 規則語法文件整理；正式 URL 待 Writerside 建置產物核對"
+      "date_basis": "建立筆記日期；2026-10-22，依當日 AdGuard for Mac 設定操作與 AdGuard Knowledge Base 規則語法文件整理；正式 URL 待 Writerside 建置產物核對",
+      "updated": "2026-10-24",
+      "update_summary": "補上 AdGuard for Windows 實測：||127.0.0.1^ 的 $document 例外擋不住 HTML 改寫，改加 |http://127.0.0.1: 前綴規則後所有 port 才恢復原檔；新增改寫偵測與 PWA 雜湊失敗症狀。"
     },
     {
       "topic": "sql-server-option-hash-join.md",

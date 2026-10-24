@@ -12,9 +12,9 @@
 
   GitHub Projects 清單為空但草稿仍能依 ID 讀取時，先排除篩選與封存，再用 gh 原地轉換單張 Draft issue，分別驗證資料、清單與畫面，避免重複新增。
 
-- [AdGuard for Mac 不過濾 localhost：在 User rules 加入 $document 例外規則](adguard-localhost-allowlist.md) — 2026-10-22
+- [AdGuard 不過濾 localhost：User rules 的 $document 例外規則（Mac／Windows）](adguard-localhost-allowlist.md) — 2026-10-22
 
-  在 AdGuard for Mac 的 User rules 加入 @@||localhost^$document 與 @@||127.0.0.1^$document，讓本機開發網站在任何 port 與路徑都不會被 AdGuard 封鎖請求、隱藏元素或注入腳本。
+  在 AdGuard 的 User rules 加入 @@||localhost^$document、@@||127.0.0.1^$document，Windows 再補 @@|http://127.0.0.1:$document，讓本機開發網站在任何 port 都不被封鎖、隱藏元素或改寫 HTML。
 
 - [Azure SQL 稽核寫不進儲存體：金鑰重新產生後要重新儲存稽核設定](azure-sql-auditing-storage-key-rotation.md) — 2026-10-22
 
