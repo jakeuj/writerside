@@ -261,6 +261,12 @@
       "published": "2026-04-30",
       "date_basis": "核對首次新增文章提交；ec57678866ebcebaf9952a7842dba17e66dc1981 📄 文件: 添加 Azure App Service 連 SQL MI Private DNS 的文檔",
       "summary": "設定 App Service 連線 Azure SQL Managed Instance Private Endpoint 所需的私人 DNS，並驗證名稱解析。"
+    },
+    {
+      "topic": "coolpc-quote-share-github-pages.md",
+      "url": "https://jakeuj.com/coolpc-quote-share-github-pages.html",
+      "published": "2026-10-27",
+      "date_basis": "建立筆記日期；2026-10-27，依公開 repo jakeuj/architect-pc-builder（commit 70f737e）的 README、技能文件與 workflow 整理；正式 URL 待 Writerside 建置產物核對"
     }
   ],
   "featured": [

@@ -12,6 +12,10 @@
 
   《塔防山賊模擬器》存檔是 Construct 3 Array 的三維 JSON；山寨帳房在瀏覽器本機讀取 .dat、只替換改到的值並匯出副本，整理使用步驟、修改限制、離線安裝與 macOS ARM64 原生啟動方式。
 
+- [用 GitHub Actions 抓原價屋報價，做成可分享估價單的靜態網站](coolpc-quote-share-github-pages.md) — 2026-10-27
+
+  用 Python 標準函式庫每小時抓原價屋含稅報價、GitHub Actions 只在價格變動時 commit，再以純靜態 GitHub Pages 做可換零件的估價網站；整張估價單壓縮進網址 hash 分享，附 Big5 解碼、品名對照、價格歷史與帶單回原價屋的做法與坑。
+
 - [GitHub Projects 草稿不顯示：用 gh 查證與原地轉成 Issue](github-projects-draft-issue-not-visible.md) — 2026-10-23
 
   GitHub Projects 清單為空但草稿仍能依 ID 讀取時，先排除篩選與封存，再用 gh 原地轉換單張 Draft issue，分別驗證資料、清單與畫面，避免重複新增。
@@ -44,11 +48,11 @@
 
   Azure CLI az login 出現 Announcements 與訂閱選擇器時，依互動登入、TTY 與 core.login_experience_v2 判斷觸發條件，並用 --subscription、--skip-subscription-discovery 或關閉設定讓登入更快、腳本不卡住。
 
+## 2026（續 1） {#year-2026-2}
+
 - [C# 狀態機、狀態模式與策略模式：差異與選擇](csharp-state-machine-state-pattern.md) — 2026-10-07
 
   以同一套 C# 訂單規則比較 switch、轉移表與 State Pattern，說明狀態機和策略模式的差異，並依行為複雜度、轉移規則及共存效果選擇設計。
-
-## 2026（續 1） {#year-2026-2}
 
 - [Evennia 中文指令解析與 CmdSet 實作](evennia-chinese-commands-cmdsets.md) — 2026-10-07
 
@@ -86,11 +90,11 @@
 
   ROG Astral LC RTX 5090 冷排風扇壓回磁吸接頭後僅暫時恢復，過一陣子又停止；負載截圖顯示 Fan 2 為 88% 卻是 0 RPM。此個案已復發，需檢查接頭固定、線組與風扇模組。
 
+## 2026（續 2） {#year-2026-3}
+
 - [Ghostty 搭配 Herdr：macOS 滑鼠點擊、選字與安裝設定](ghostty-herdr-mouse-reporting-macos.md) — 2026-09-17
 
   在 macOS 使用 Ghostty 執行 Herdr 時，保留 mouse reporting 即可點擊 pane、tab、Space 與 Agent，並用 Shift 拖曳切換成終端機原生選字。
-
-## 2026（續 2） {#year-2026-3}
 
 - [用 GitHub Actions 自動發布 Chrome 與 Edge 擴充套件到商店](chrome-edge-extension-cd-github-actions.md) — 2026-09-14
 
@@ -128,11 +132,11 @@
 
   Apple Silicon Mac 跑本地 LLM 或 VLM 時，先分清楚 MLX、mlx-lm、mlx-vlm、oMLX、LM Studio、Ollama 與 GGUF 的定位，再依聊天、Hugging Face MLX 模型、coding agent 或跨平台部署選工具。
 
+## 2026（續 3） {#year-2026-4}
+
 - [Codex App 搭配 oMLX 伺服器運行 Qwen3.6 35B 設定筆記](codex-app-omlx-qwen3-6-setup.md) — 2026-07-01
 
   說明如何在本機利用 oMLX 伺服器提供 Qwen3.6 35B 模型給 Codex App 使用，包含 sampling 設定、認證機制與模型目錄的對應關係。
-
-## 2026（續 3） {#year-2026-4}
 
 - [35B 級距 Coding Agent 模型比較：Ornith-1.0、Qwen3.6、Gemma 4](ornith-qwen-gemma-35b-model-comparison.md) — 2026-07-01
 
@@ -170,11 +174,11 @@
 
   排查 macOS SSH 主機名稱無法解析問題，依情境使用 mDNS 的 .local 名稱或 hosts 固定別名。
 
+## 2026（續 4） {#year-2026-5}
+
 - [Azure App Service VNet Integration 連 Azure SQL Managed Instance Private Endpoint 的 DNS 筆記](azure-app-service-sql-mi-private-dns.md) — 2026-04-30
 
   設定 App Service 連線 Azure SQL Managed Instance Private Endpoint 所需的私人 DNS，並驗證名稱解析。
-
-## 2026（續 4） {#year-2026-5}
 
 - [Azure App Service VNet Integration 後如何查內網 IP](azure-app-service-vnet-private-ip.md) — 2026-04-30
 

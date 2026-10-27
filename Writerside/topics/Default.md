@@ -14,6 +14,10 @@ Jakeuj 筆記本整理 .NET、ABP、Azure、GCP、Docker、AI 工具、macOS 與
 
   《塔防山賊模擬器》存檔是 Construct 3 Array 的三維 JSON；山寨帳房在瀏覽器本機讀取 .dat、只替換改到的值並匯出副本，整理使用步驟、修改限制、離線安裝與 macOS ARM64 原生啟動方式。
 
+- [用 GitHub Actions 抓原價屋報價，做成可分享估價單的靜態網站](coolpc-quote-share-github-pages.md) — 2026-10-27
+
+  用 Python 標準函式庫每小時抓原價屋含稅報價、GitHub Actions 只在價格變動時 commit，再以純靜態 GitHub Pages 做可換零件的估價網站；整張估價單壓縮進網址 hash 分享，附 Big5 解碼、品名對照、價格歷史與帶單回原價屋的做法與坑。
+
 - [GitHub Projects 草稿不顯示：用 gh 查證與原地轉成 Issue](github-projects-draft-issue-not-visible.md) — 2026-10-23
 
   GitHub Projects 清單為空但草稿仍能依 ID 讀取時，先排除篩選與封存，再用 gh 原地轉換單張 Draft issue，分別驗證資料、清單與畫面，避免重複新增。
@@ -45,10 +49,6 @@ Jakeuj 筆記本整理 .NET、ABP、Azure、GCP、Docker、AI 工具、macOS 與
 - [Azure CLI az login 訂閱選擇器：觸發條件、關閉方式與快速登入](azure-cli-login-subscription-selector.md) — 2026-10-12
 
   Azure CLI az login 出現 Announcements 與訂閱選擇器時，依互動登入、TTY 與 core.login_experience_v2 判斷觸發條件，並用 --subscription、--skip-subscription-discovery 或關閉設定讓登入更快、腳本不卡住。
-
-- [C# 狀態機、狀態模式與策略模式：差異與選擇](csharp-state-machine-state-pattern.md) — 2026-10-07
-
-  以同一套 C# 訂單規則比較 switch、轉移表與 State Pattern，說明狀態機和策略模式的差異，並依行為複雜度、轉移規則及共存效果選擇設計。
 
 [查看所有近期文章](recent-posts.md)
 

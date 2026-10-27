@@ -576,6 +576,7 @@
         <toc-element toc-title="其他">
             <toc-element topic="wifi-7-router-single-room-upgrade.md" toc-title="Wi-Fi 7 路由器單房間選購"/>
             <toc-element topic="chrome-edge-extension-cd-github-actions.md" toc-title="Chrome / Edge 擴充套件自動發布"/>
+            <toc-element topic="coolpc-quote-share-github-pages.md" toc-title="原價屋估價單分享網站做法"/>
             <toc-element topic="elearning-progress-api-visibility.md" toc-title="線上課程背景播放 JavaScript"/>
             <toc-element topic="CSS3-背景圖片加半透明黑色遮色片.md" />
             <toc-element topic="ERR_CONNECTION_RESET.md" />

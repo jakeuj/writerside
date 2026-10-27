@@ -129,7 +129,7 @@ Guild Wars 2 Blish HUD Pathing marker packs 的繁體中文在地化專案，先
 
 提供七套文書與遊戲主機配置作為起點，支援原價屋全部 30 類商品及帶單至官方估價頁；店家模式可加入店名與聯絡方式、本店價、服務費、報價期限及備註。報價快照由 GitHub Actions 排程每小時更新，實際資料時間會標示在網頁上。
 
-- 連結：[GitHub](https://github.com/jakeuj/architect-pc-builder)｜[估價網站](https://pc.jakeuj.com/)｜[店家模式](https://pc.jakeuj.com/#store)｜[專案知識圖做法筆記](graphify-knowledge-graph-github-pages.md)
+- 連結：[GitHub](https://github.com/jakeuj/architect-pc-builder)｜[估價網站](https://pc.jakeuj.com/)｜[店家模式](https://pc.jakeuj.com/#store)｜[網站做法筆記](coolpc-quote-share-github-pages.md)｜[專案知識圖做法筆記](graphify-knowledge-graph-github-pages.md)
 - 語言與技術：`Python` `JavaScript` `HTML` `CSS` `GitHub Actions` `GitHub Pages`
 
 ![architect-pc-builder last commit](https://img.shields.io/github/last-commit/jakeuj/architect-pc-builder)
