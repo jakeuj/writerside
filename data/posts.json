@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "topic": "bandit-save-editor.md",
+      "url": "https://jakeuj.com/bandit-save-editor.html",
+      "published": "2026-10-27",
+      "date_basis": "建立筆記日期；2026-10-27，依公開 repo jakeuj/bandit-save-editor（v2.34）的 README、啟動器說明與核心程式整理；正式 URL 待 Writerside 建置產物核對"
+    },
+    {
       "topic": "github-projects-draft-issue-not-visible.md",
       "url": "https://jakeuj.com/github-projects-draft-issue-not-visible.html",
       "published": "2026-10-23",
